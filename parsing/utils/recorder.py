@@ -18,14 +18,17 @@ class ImageRegister :
 	def __init__(self) :
 		self._items = {}
 		self._characters = {}
+		self._temp_char = {}
 	
 	def addItem(self, identifier: str, url: str) :
 		self._items[identifier] = url
+
+	def addForCharacter(self, filename: str, url: str) :
+		self._temp_char[filename] = url
 	
-	def addCharacter(self, char: str, filename: str, url: str) :
-		if char not in self._characters :
-			self._characters[char] = {}
-		self._characters[char][filename] = url
+	def popCharacter(self, char: str) :
+		self._characters[char] = self._temp_char
+		self._temp_char = {}
 	
 	def getLinks(self) :
 		return {'items': self._items, 'characters': self._characters}
