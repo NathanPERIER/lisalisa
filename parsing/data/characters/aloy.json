@@ -1,0 +1,725 @@
+{
+	"name": "Aloy",
+	"title": "Savior From Another World",
+	"allegiance": "Wandering Heroine",
+	"rarity": 5,
+	"vision": "Cryo",
+	"astrolabe": "Nora Fortis",
+	"weapon": "bow",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"Cryo DMG Bonus",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"848",
+				"18",
+				"53",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"2201",
+				"47",
+				"137",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"2928",
+				"63",
+				"182",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"4382",
+				"94",
+				"272",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"4899",
+				"105",
+				"304",
+				"7.2%",
+				"5%",
+				"50%"
+			],
+			"50": [
+				"5636",
+				"121",
+				"350",
+				"7.2%",
+				"5%",
+				"50%"
+			],
+			"50+": [
+				"6325",
+				"136",
+				"393",
+				"14.4%",
+				"5%",
+				"50%"
+			],
+			"60": [
+				"7070",
+				"152",
+				"439",
+				"14.4%",
+				"5%",
+				"50%"
+			],
+			"60+": [
+				"7587",
+				"163",
+				"471",
+				"14.4%",
+				"5%",
+				"50%"
+			],
+			"70": [
+				"8339",
+				"179",
+				"517",
+				"14.4%",
+				"5%",
+				"50%"
+			],
+			"70+": [
+				"8856",
+				"190",
+				"550",
+				"21.6%",
+				"5%",
+				"50%"
+			],
+			"80": [
+				"9616",
+				"206",
+				"597",
+				"21.6%",
+				"5%",
+				"50%"
+			],
+			"80+": [
+				"10133",
+				"217",
+				"629",
+				"28.8%",
+				"5%",
+				"50%"
+			],
+			"90": [
+				"10899",
+				"234",
+				"676",
+				"28.8%",
+				"5%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"shivada_jade_sliver": 1,
+			"crystal_marrow": 3,
+			"spectral_husk": 3,
+			"mora": 20000
+		},
+		{
+			"shivada_jade_fragment": 3,
+			"crystalline_bloom": 2,
+			"crystal_marrow": 10,
+			"spectral_husk": 15,
+			"mora": 40000
+		},
+		{
+			"shivada_jade_fragment": 6,
+			"crystalline_bloom": 4,
+			"crystal_marrow": 20,
+			"spectral_heart": 12,
+			"mora": 60000
+		},
+		{
+			"shivada_jade_chunk": 3,
+			"crystalline_bloom": 8,
+			"crystal_marrow": 30,
+			"spectral_heart": 18,
+			"mora": 80000
+		},
+		{
+			"shivada_jade_chunk": 6,
+			"crystalline_bloom": 12,
+			"crystal_marrow": 45,
+			"spectral_nucleus": 12,
+			"mora": 100000
+		},
+		{
+			"shivada_jade_gemstone": 6,
+			"crystalline_bloom": 20,
+			"crystal_marrow": 60,
+			"spectral_nucleus": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Rapid Fire",
+			"desc": [
+				[
+					"Normal Attack",
+					"Perform up to 4 consecutive shots with a bow."
+				],
+				[
+					"Charged Attack",
+					"Perform a more precise Aimed Shot with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMG."
+				],
+				[
+					"Plunging Attack",
+					"Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Aimed Shot",
+					"Fully-Charged Aimed Shot",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"21.12%",
+						"43.12%",
+						"52.8%",
+						"65.65%",
+						"43.86%",
+						"124%",
+						"56.83%",
+						"113.63%"
+					],
+					[
+						"22.56%",
+						"46.06%",
+						"56.4%",
+						"70.12%",
+						"47.43%",
+						"133.3%",
+						"61.45%",
+						"122.88%"
+					],
+					[
+						"24%",
+						"49%",
+						"60%",
+						"74.6%",
+						"51%",
+						"142.6%",
+						"66.08%",
+						"132.13%"
+					],
+					[
+						"25.92%",
+						"52.92%",
+						"64.8%",
+						"80.57%",
+						"56.1%",
+						"155%",
+						"72.69%",
+						"145.35%"
+					],
+					[
+						"27.36%",
+						"55.86%",
+						"68.4%",
+						"85.04%",
+						"59.67%",
+						"164.3%",
+						"77.31%",
+						"154.59%"
+					],
+					[
+						"29.04%",
+						"59.29%",
+						"72.6%",
+						"90.27%",
+						"63.75%",
+						"173.6%",
+						"82.6%",
+						"165.17%"
+					],
+					[
+						"31.2%",
+						"63.7%",
+						"78%",
+						"96.98%",
+						"69.36%",
+						"186%",
+						"89.87%",
+						"179.7%"
+					],
+					[
+						"33.36%",
+						"68.11%",
+						"83.4%",
+						"103.69%",
+						"74.97%",
+						"198.4%",
+						"97.14%",
+						"194.23%"
+					],
+					[
+						"35.52%",
+						"72.52%",
+						"88.8%",
+						"110.41%",
+						"80.58%",
+						"210.8%",
+						"104.41%",
+						"208.77%"
+					],
+					[
+						"37.68%",
+						"76.93%",
+						"94.2%",
+						"117.12%",
+						"86.7%",
+						"223.2%",
+						"112.34%",
+						"224.62%"
+					],
+					[
+						"39.84%",
+						"81.34%",
+						"99.6%",
+						"123.84%",
+						"92.82%",
+						"235.6%",
+						"120.27%",
+						"240.48%"
+					],
+					[
+						"42%",
+						"85.75%",
+						"105%",
+						"130.55%",
+						"98.94%",
+						"248%",
+						"128.2%",
+						"256.34%"
+					],
+					[
+						"44.16%",
+						"90.16%",
+						"110.4%",
+						"137.26%",
+						"105.06%",
+						"263.5%",
+						"136.12%",
+						"272.19%"
+					],
+					[
+						"46.32%",
+						"94.57%",
+						"115.8%",
+						"143.98%",
+						"111.18%",
+						"279%",
+						"144.05%",
+						"288.05%"
+					],
+					[
+						"48.48%",
+						"98.98%",
+						"121.2%",
+						"150.69%",
+						"117.3%",
+						"294.5%",
+						"151.98%",
+						"303.9%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Frozen Wilds",
+			"desc": [
+				[
+					null,
+					"Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing Cryo DMG. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing Cryo DMG.\nWhen a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.\nAloy can gain up to 1 Coil stack every 0.1s."
+				],
+				[
+					"Coil",
+					"\u2022 Each stack increases Aloy's Normal Attack DMG.\n\u2022 When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to Cryo DMG.\nWhile in the Rushing Ice state, Aloy cannot obtain new Coil stacks.\nCoil effects will be cleared 30s after Aloy leaves the field."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Freeze Bomb DMG",
+					"Chillwater Bomblets",
+					"ATK Decrease",
+					"ATK Decrease Duration",
+					"Coil Normal Attack DMG Bonus",
+					"Rushing Ice Normal Attack DMG Bonus",
+					"Rushing Ice Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"177.6%",
+						"40%",
+						"12%",
+						"6s",
+						"5.85%",
+						"29.23%",
+						"10s",
+						"20s"
+					],
+					[
+						"190.92%",
+						"43%",
+						"12%",
+						"6s",
+						"6.2%",
+						"30.98%",
+						"10s",
+						"20s"
+					],
+					[
+						"204.24%",
+						"46%",
+						"12%",
+						"6s",
+						"6.54%",
+						"32.73%",
+						"10s",
+						"20s"
+					],
+					[
+						"222%",
+						"50%",
+						"13%",
+						"6s",
+						"7%",
+						"35%",
+						"10s",
+						"20s"
+					],
+					[
+						"235.32%",
+						"53%",
+						"13%",
+						"6s",
+						"7.35%",
+						"36.75%",
+						"10s",
+						"20s"
+					],
+					[
+						"248.64%",
+						"56%",
+						"13%",
+						"6s",
+						"7.7%",
+						"38.5%",
+						"10s",
+						"20s"
+					],
+					[
+						"266.4%",
+						"60%",
+						"14%",
+						"6s",
+						"8.16%",
+						"40.78%",
+						"10s",
+						"20s"
+					],
+					[
+						"284.16%",
+						"64%",
+						"14%",
+						"6s",
+						"8.61%",
+						"43.05%",
+						"10s",
+						"20s"
+					],
+					[
+						"301.92%",
+						"68%",
+						"14%",
+						"6s",
+						"9.07%",
+						"45.33%",
+						"10s",
+						"20s"
+					],
+					[
+						"319.68%",
+						"72%",
+						"15%",
+						"6s",
+						"9.52%",
+						"47.6%",
+						"10s",
+						"20s"
+					],
+					[
+						"337.44%",
+						"76%",
+						"15%",
+						"6s",
+						"9.98%",
+						"49.88%",
+						"10s",
+						"20s"
+					],
+					[
+						"355.2%",
+						"80%",
+						"15%",
+						"6s",
+						"10.43%",
+						"52.15%",
+						"10s",
+						"20s"
+					],
+					[
+						"377.4%",
+						"85%",
+						"15%",
+						"6s",
+						"10.89%",
+						"54.43%",
+						"10s",
+						"20s"
+					],
+					[
+						"399.6%",
+						"90%",
+						"15%",
+						"6s",
+						"11.34%",
+						"56.7%",
+						"10s",
+						"20s"
+					],
+					[
+						"421.8%",
+						"95%",
+						"15%",
+						"6s",
+						"11.8%",
+						"58.98%",
+						"10s",
+						"20s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Prophecies of Dawn",
+			"desc": [
+				[
+					null,
+					"Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing AoE Cryo DMG."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Skill DMG",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"359.2%",
+						"12s",
+						"40"
+					],
+					[
+						"386.14%",
+						"12s",
+						"40"
+					],
+					[
+						"413.08%",
+						"12s",
+						"40"
+					],
+					[
+						"449%",
+						"12s",
+						"40"
+					],
+					[
+						"475.94%",
+						"12s",
+						"40"
+					],
+					[
+						"502.88%",
+						"12s",
+						"40"
+					],
+					[
+						"538.8%",
+						"12s",
+						"40"
+					],
+					[
+						"574.72%",
+						"12s",
+						"40"
+					],
+					[
+						"610.64%",
+						"12s",
+						"40"
+					],
+					[
+						"646.56%",
+						"12s",
+						"40"
+					],
+					[
+						"682.48%",
+						"12s",
+						"40"
+					],
+					[
+						"718.4%",
+						"12s",
+						"40"
+					],
+					[
+						"763.3%",
+						"12s",
+						"40"
+					],
+					[
+						"808.2%",
+						"12s",
+						"40"
+					],
+					[
+						"853.1%",
+						"12s",
+						"40"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_freedom": 3,
+					"spectral_husk": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_freedom": 2,
+					"spectral_heart": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_freedom": 4,
+					"spectral_heart": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_freedom": 6,
+					"spectral_heart": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_freedom": 9,
+					"spectral_heart": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_freedom": 4,
+					"spectral_nucleus": 4,
+					"molten_moment": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_freedom": 6,
+					"spectral_nucleus": 6,
+					"molten_moment": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_freedom": 12,
+					"spectral_nucleus": 9,
+					"molten_moment": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_freedom": 16,
+					"spectral_nucleus": 12,
+					"molten_moment": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Easy Does It",
+			"desc": "When Aloy is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them."
+		},
+		{
+			"name": "Combat Override",
+			"desc": "When Aloy receives the Coil effect from Frozen Wilds, her ATK is increased by 16%, while nearby party members' ATK is increased by 8%. This effect lasts 10s."
+		},
+		{
+			"name": "Strong Strike",
+			"desc": "When Aloy is in the Rushing Ice state conferred by Frozen Wilds, her Cryo DMG Bonus increases by 3.5% every 1s. A maximum Cryo DMG Bonus increase of 35% can be gained in this way."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Star of Another World",
+			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+		},
+		{
+			"name": "Star of Another World",
+			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+		},
+		{
+			"name": "Star of Another World",
+			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+		},
+		{
+			"name": "Star of Another World",
+			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+		},
+		{
+			"name": "Star of Another World",
+			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+		},
+		{
+			"name": "Star of Another World",
+			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+		}
+	],
+	"constellation_increase_burst": 5,
+	"constellation_increase_skill": 3
+}

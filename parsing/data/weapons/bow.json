@@ -1,0 +1,3922 @@
+{
+	"hunters_bow": {
+		"name": "Hunter's Bow",
+		"type": "bow",
+		"rarity": 1,
+		"desc": "A hunter's music consists of but two sounds: the twang of the bowstring and the whoosh of soaring arrows.",
+		"ability": null,
+		"enhancement": {
+			"desc": [
+				"Base Atk"
+			],
+			"values": {
+				"1": [
+					"23"
+				],
+				"5": [
+					"30"
+				],
+				"10": [
+					"39"
+				],
+				"15": [
+					"48"
+				],
+				"20": [
+					"56"
+				],
+				"20+": [
+					"68"
+				],
+				"25": [
+					"76"
+				],
+				"30": [
+					"85"
+				],
+				"35": [
+					"93"
+				],
+				"40": [
+					"102"
+				],
+				"40+": [
+					"113"
+				],
+				"45": [
+					"121"
+				],
+				"50": [
+					"130"
+				],
+				"50+": [
+					"141"
+				],
+				"55": [
+					"149"
+				],
+				"60": [
+					"158"
+				],
+				"60+": [
+					"169"
+				],
+				"65": [
+					"177"
+				],
+				"70": [
+					"185"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"boreal_wolfs_milk_tooth": 1,
+				"dead_ley_line_branch": 1,
+				"treasure_hoarder_insignia": 1,
+				"mora": 0
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 1,
+				"dead_ley_line_branch": 4,
+				"treasure_hoarder_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 2,
+				"dead_ley_line_leaves": 2,
+				"silver_raven_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_broken_fang": 1,
+				"dead_ley_line_leaves": 4,
+				"silver_raven_insignia": 3,
+				"mora": 10000
+			}
+		]
+	},
+	"seasoned_hunters_bow": {
+		"name": "Seasoned Hunter's Bow",
+		"type": "bow",
+		"rarity": 2,
+		"desc": "A bow that has been well-polished by time and meticulously cared for by its owner. It feels almost like an extension of the archer's arm.",
+		"ability": null,
+		"enhancement": {
+			"desc": [
+				"Base Atk"
+			],
+			"values": {
+				"1": [
+					"33"
+				],
+				"5": [
+					"43"
+				],
+				"10": [
+					"55"
+				],
+				"15": [
+					"68"
+				],
+				"20": [
+					"80"
+				],
+				"20+": [
+					"91"
+				],
+				"25": [
+					"103"
+				],
+				"30": [
+					"115"
+				],
+				"35": [
+					"127"
+				],
+				"40": [
+					"139"
+				],
+				"40+": [
+					"151"
+				],
+				"45": [
+					"162"
+				],
+				"50": [
+					"174"
+				],
+				"50+": [
+					"186"
+				],
+				"55": [
+					"197"
+				],
+				"60": [
+					"209"
+				],
+				"60+": [
+					"220"
+				],
+				"65": [
+					"232"
+				],
+				"70": [
+					"243"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"boreal_wolfs_milk_tooth": 1,
+				"dead_ley_line_branch": 1,
+				"treasure_hoarder_insignia": 1,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 1,
+				"dead_ley_line_branch": 5,
+				"treasure_hoarder_insignia": 4,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 3,
+				"dead_ley_line_leaves": 3,
+				"silver_raven_insignia": 3,
+				"mora": 10000
+			},
+			{
+				"boreal_wolfs_broken_fang": 1,
+				"dead_ley_line_leaves": 5,
+				"silver_raven_insignia": 4,
+				"mora": 15000
+			}
+		]
+	},
+	"messenger": {
+		"name": "Messenger",
+		"type": "bow",
+		"rarity": 3,
+		"desc": "A basic wooden bow. It is said to have once been used as a tool for long-distance communication.",
+		"ability": {
+			"name": "Archer's Message",
+			"desc": [
+				"Charged Attack hits on weak points deal an additional 100% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+				"Charged Attack hits on weak points deal an additional 125% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+				"Charged Attack hits on weak points deal an additional 150% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+				"Charged Attack hits on weak points deal an additional 175% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+				"Charged Attack hits on weak points deal an additional 200% ATK DMG as CRIT DMG. Can only occur once every 10s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"CRIT DMG"
+			],
+			"values": {
+				"1": [
+					"40",
+					"6.8"
+				],
+				"5": [
+					"53",
+					"7.9"
+				],
+				"10": [
+					"69",
+					"9.3"
+				],
+				"15": [
+					"86",
+					"10.6"
+				],
+				"20": [
+					"102",
+					"12"
+				],
+				"20+": [
+					"121",
+					"12"
+				],
+				"25": [
+					"138",
+					"13.4"
+				],
+				"30": [
+					"154",
+					"14.8"
+				],
+				"35": [
+					"171",
+					"16.1"
+				],
+				"40": [
+					"187",
+					"17.5"
+				],
+				"40+": [
+					"207",
+					"17.5"
+				],
+				"45": [
+					"223",
+					"18.9"
+				],
+				"50": [
+					"239",
+					"20.3"
+				],
+				"50+": [
+					"259",
+					"20.3"
+				],
+				"55": [
+					"275",
+					"21.6"
+				],
+				"60": [
+					"292",
+					"23"
+				],
+				"60+": [
+					"311",
+					"23"
+				],
+				"65": [
+					"327",
+					"24.4"
+				],
+				"70": [
+					"344",
+					"25.7"
+				],
+				"70+": [
+					"363",
+					"25.7"
+				],
+				"75": [
+					"380",
+					"27.1"
+				],
+				"80": [
+					"396",
+					"28.5"
+				],
+				"80+": [
+					"415",
+					"28.5"
+				],
+				"85": [
+					"432",
+					"29.9"
+				],
+				"90": [
+					"448",
+					"31.2"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"mist_veiled_lead_elixir": 2,
+				"mist_grass_pollen": 2,
+				"treasure_hoarder_insignia": 1,
+				"mora": 5000
+			},
+			{
+				"mist_veiled_mercury_elixir": 2,
+				"mist_grass_pollen": 8,
+				"treasure_hoarder_insignia": 5,
+				"mora": 10000
+			},
+			{
+				"mist_veiled_mercury_elixir": 4,
+				"mist_grass": 4,
+				"silver_raven_insignia": 4,
+				"mora": 15000
+			},
+			{
+				"mist_veiled_gold_elixir": 2,
+				"mist_grass": 8,
+				"silver_raven_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"mist_veiled_gold_elixir": 4,
+				"mist_grass_wick": 6,
+				"golden_raven_insignia": 4,
+				"mora": 25000
+			},
+			{
+				"mist_veiled_primo_elixir": 3,
+				"mist_grass_wick": 12,
+				"golden_raven_insignia": 8,
+				"mora": 30000
+			}
+		]
+	},
+	"raven_bow": {
+		"name": "Raven Bow",
+		"type": "bow",
+		"rarity": 3,
+		"desc": "Ravens are known to be the ferrymen of the dead. This bow's limb is decorated with raven feathers, which forebode the imminent death of its target.",
+		"ability": {
+			"name": "Bane of Flame and Water",
+			"desc": [
+				"Increases DMG against opponents affected by Hydro or Pyro by 12%.",
+				"Increases DMG against opponents affected by Hydro or Pyro by 15%.",
+				"Increases DMG against opponents affected by Hydro or Pyro by 18%.",
+				"Increases DMG against opponents affected by Hydro or Pyro by 21%.",
+				"Increases DMG against opponents affected by Hydro or Pyro by 24%."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Elemental Mastery"
+			],
+			"values": {
+				"1": [
+					"40",
+					"20"
+				],
+				"5": [
+					"53",
+					"24"
+				],
+				"10": [
+					"69",
+					"28"
+				],
+				"15": [
+					"86",
+					"32"
+				],
+				"20": [
+					"102",
+					"36"
+				],
+				"20+": [
+					"121",
+					"36"
+				],
+				"25": [
+					"138",
+					"40"
+				],
+				"30": [
+					"154",
+					"44"
+				],
+				"35": [
+					"171",
+					"48"
+				],
+				"40": [
+					"187",
+					"53"
+				],
+				"40+": [
+					"207",
+					"53"
+				],
+				"45": [
+					"223",
+					"57"
+				],
+				"50": [
+					"239",
+					"61"
+				],
+				"50+": [
+					"259",
+					"61"
+				],
+				"55": [
+					"275",
+					"65"
+				],
+				"60": [
+					"292",
+					"69"
+				],
+				"60+": [
+					"311",
+					"69"
+				],
+				"65": [
+					"327",
+					"73"
+				],
+				"70": [
+					"344",
+					"77"
+				],
+				"70+": [
+					"363",
+					"77"
+				],
+				"75": [
+					"380",
+					"81"
+				],
+				"80": [
+					"396",
+					"85"
+				],
+				"80+": [
+					"415",
+					"85"
+				],
+				"85": [
+					"432",
+					"90"
+				],
+				"90": [
+					"448",
+					"94"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"tile_of_decarabians_tower": 2,
+				"heavy_horn": 2,
+				"firm_arrowhead": 1,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 2,
+				"heavy_horn": 8,
+				"firm_arrowhead": 5,
+				"mora": 10000
+			},
+			{
+				"debris_of_decarabians_city": 4,
+				"black_bronze_horn": 4,
+				"sharp_arrowhead": 4,
+				"mora": 15000
+			},
+			{
+				"fragment_of_decarabians_epic": 2,
+				"black_bronze_horn": 8,
+				"sharp_arrowhead": 6,
+				"mora": 20000
+			},
+			{
+				"fragment_of_decarabians_epic": 4,
+				"black_crystal_horn": 6,
+				"weathered_arrowhead": 4,
+				"mora": 25000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 3,
+				"black_crystal_horn": 12,
+				"weathered_arrowhead": 8,
+				"mora": 30000
+			}
+		]
+	},
+	"recurve_bow": {
+		"name": "Recurve Bow",
+		"type": "bow",
+		"rarity": 3,
+		"desc": "It is said that this bow can shoot down eagles in flight, but ultimately how true that is depends on the skill of the archer.",
+		"ability": {
+			"name": "Cull the Weak",
+			"desc": [
+				"Defeating an opponent restores 8% HP.",
+				"Defeating an opponent restores 10% HP.",
+				"Defeating an opponent restores 12% HP.",
+				"Defeating an opponent restores 14% HP.",
+				"Defeating an opponent restores 16% HP."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"HP"
+			],
+			"values": {
+				"1": [
+					"38",
+					"10.2"
+				],
+				"5": [
+					"48",
+					"11.9"
+				],
+				"10": [
+					"61",
+					"13.9"
+				],
+				"15": [
+					"73",
+					"16"
+				],
+				"20": [
+					"86",
+					"18"
+				],
+				"20+": [
+					"105",
+					"18"
+				],
+				"25": [
+					"117",
+					"20.1"
+				],
+				"30": [
+					"129",
+					"22.2"
+				],
+				"35": [
+					"140",
+					"24.2"
+				],
+				"40": [
+					"151",
+					"26.3"
+				],
+				"40+": [
+					"171",
+					"26.3"
+				],
+				"45": [
+					"182",
+					"28.4"
+				],
+				"50": [
+					"193",
+					"30.4"
+				],
+				"50+": [
+					"212",
+					"30.4"
+				],
+				"55": [
+					"223",
+					"32.5"
+				],
+				"60": [
+					"234",
+					"34.6"
+				],
+				"60+": [
+					"253",
+					"34.6"
+				],
+				"65": [
+					"264",
+					"36.6"
+				],
+				"70": [
+					"274",
+					"38.7"
+				],
+				"70+": [
+					"294",
+					"38.7"
+				],
+				"75": [
+					"304",
+					"40.7"
+				],
+				"80": [
+					"314",
+					"42.8"
+				],
+				"80+": [
+					"334",
+					"42.8"
+				],
+				"85": [
+					"344",
+					"44.9"
+				],
+				"90": [
+					"354",
+					"46.9"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"fetters_of_the_dandelion_gladiator": 2,
+				"chaos_device": 2,
+				"divining_scroll": 1,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 2,
+				"chaos_device": 8,
+				"divining_scroll": 5,
+				"mora": 10000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 4,
+				"chaos_circuit": 4,
+				"sealed_scroll": 4,
+				"mora": 15000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 2,
+				"chaos_circuit": 8,
+				"sealed_scroll": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 4,
+				"chaos_core": 6,
+				"forbidden_curse_scroll": 4,
+				"mora": 25000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 3,
+				"chaos_core": 12,
+				"forbidden_curse_scroll": 8,
+				"mora": 30000
+			}
+		]
+	},
+	"sharpshooters_oath": {
+		"name": "Sharpshooter's Oath",
+		"type": "bow",
+		"rarity": 3,
+		"desc": "This superior bow once belonged to a master archer. However, it gives off a strong scent, thus making it unsuitable for hunting.",
+		"ability": {
+			"name": "Precise",
+			"desc": [
+				"Increases DMG against weak spots by 24%.",
+				"Increases DMG against weak spots by 30%.",
+				"Increases DMG against weak spots by 36%.",
+				"Increases DMG against weak spots by 42%.",
+				"Increases DMG against weak spots by 48%."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"CRIT DMG"
+			],
+			"values": {
+				"1": [
+					"39",
+					"10.2"
+				],
+				"5": [
+					"50",
+					"11.9"
+				],
+				"10": [
+					"65",
+					"13.9"
+				],
+				"15": [
+					"79",
+					"16"
+				],
+				"20": [
+					"94",
+					"18"
+				],
+				"20+": [
+					"113",
+					"18"
+				],
+				"25": [
+					"127",
+					"20.1"
+				],
+				"30": [
+					"141",
+					"22.1"
+				],
+				"35": [
+					"155",
+					"24.2"
+				],
+				"40": [
+					"169",
+					"26.3"
+				],
+				"40+": [
+					"189",
+					"26.3"
+				],
+				"45": [
+					"202",
+					"28.3"
+				],
+				"50": [
+					"216",
+					"30.4"
+				],
+				"50+": [
+					"236",
+					"30.4"
+				],
+				"55": [
+					"249",
+					"32.4"
+				],
+				"60": [
+					"263",
+					"34.5"
+				],
+				"60+": [
+					"282",
+					"34.5"
+				],
+				"65": [
+					"296",
+					"36.6"
+				],
+				"70": [
+					"309",
+					"38.6"
+				],
+				"70+": [
+					"329",
+					"38.6"
+				],
+				"75": [
+					"342",
+					"40.7"
+				],
+				"80": [
+					"355",
+					"42.7"
+				],
+				"80+": [
+					"375",
+					"42.7"
+				],
+				"85": [
+					"388",
+					"44.8"
+				],
+				"90": [
+					"401",
+					"46.9"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"boreal_wolfs_milk_tooth": 2,
+				"dead_ley_line_branch": 2,
+				"slime_condensate": 1,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 2,
+				"dead_ley_line_branch": 8,
+				"slime_condensate": 5,
+				"mora": 10000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 4,
+				"dead_ley_line_leaves": 4,
+				"slime_secretions": 4,
+				"mora": 15000
+			},
+			{
+				"boreal_wolfs_broken_fang": 2,
+				"dead_ley_line_leaves": 8,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_broken_fang": 4,
+				"ley_line_sprout": 6,
+				"slime_concentrate": 4,
+				"mora": 25000
+			},
+			{
+				"boreal_wolfs_nostalgia": 3,
+				"ley_line_sprout": 12,
+				"slime_concentrate": 8,
+				"mora": 30000
+			}
+		]
+	},
+	"slingshot": {
+		"name": "Slingshot",
+		"type": "bow",
+		"rarity": 3,
+		"desc": "A bow, despite the name. After countless experiments and improvements to the design, the creator of the ultimate slingshot found himself to have made what was actually a bow.",
+		"ability": {
+			"name": "Slingshot",
+			"desc": [
+				"If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 36%. Otherwise, decreases DMG by 10%.",
+				"If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 42%. Otherwise, decreases DMG by 10%.",
+				"If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 48%. Otherwise, decreases DMG by 10%.",
+				"If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 54%. Otherwise, decreases DMG by 10%.",
+				"If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 60%. Otherwise, decreases DMG by 10%."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"CRIT Rate"
+			],
+			"values": {
+				"1": [
+					"38",
+					"6.8"
+				],
+				"5": [
+					"48",
+					"7.9"
+				],
+				"10": [
+					"61",
+					"9.3"
+				],
+				"15": [
+					"73",
+					"10.6"
+				],
+				"20": [
+					"86",
+					"12"
+				],
+				"20+": [
+					"105",
+					"12"
+				],
+				"25": [
+					"117",
+					"13.4"
+				],
+				"30": [
+					"129",
+					"14.8"
+				],
+				"35": [
+					"140",
+					"16.1"
+				],
+				"40": [
+					"151",
+					"17.5"
+				],
+				"40+": [
+					"171",
+					"17.5"
+				],
+				"45": [
+					"182",
+					"18.9"
+				],
+				"50": [
+					"193",
+					"20.3"
+				],
+				"50+": [
+					"212",
+					"20.3"
+				],
+				"55": [
+					"223",
+					"21.6"
+				],
+				"60": [
+					"234",
+					"23"
+				],
+				"60+": [
+					"253",
+					"23"
+				],
+				"65": [
+					"264",
+					"24.4"
+				],
+				"70": [
+					"274",
+					"25.7"
+				],
+				"70+": [
+					"294",
+					"25.7"
+				],
+				"75": [
+					"304",
+					"27.1"
+				],
+				"80": [
+					"314",
+					"28.5"
+				],
+				"80+": [
+					"334",
+					"28.5"
+				],
+				"85": [
+					"344",
+					"29.9"
+				],
+				"90": [
+					"354",
+					"31.2"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"luminous_sands_from_guyun": 2,
+				"hunters_sacrificial_knife": 2,
+				"damaged_mask": 1,
+				"mora": 5000
+			},
+			{
+				"lustrous_stone_from_guyun": 2,
+				"hunters_sacrificial_knife": 8,
+				"damaged_mask": 5,
+				"mora": 10000
+			},
+			{
+				"lustrous_stone_from_guyun": 4,
+				"agents_sacrificial_knife": 4,
+				"stained_mask": 4,
+				"mora": 15000
+			},
+			{
+				"relic_from_guyun": 2,
+				"agents_sacrificial_knife": 8,
+				"stained_mask": 6,
+				"mora": 20000
+			},
+			{
+				"relic_from_guyun": 4,
+				"inspectors_sacrificial_knife": 6,
+				"ominous_mask": 4,
+				"mora": 25000
+			},
+			{
+				"divine_body_from_guyun": 3,
+				"inspectors_sacrificial_knife": 12,
+				"ominous_mask": 8,
+				"mora": 30000
+			}
+		]
+	},
+	"the_stringless": {
+		"name": "The Stringless",
+		"type": "bow",
+		"rarity": 4,
+		"desc": "A bow that once served as an extraordinary instrument. It is no longer capable of getting people up and dancing.",
+		"ability": {
+			"name": "Arrowless Song",
+			"desc": [
+				"Increases Elemental Skill and Elemental Burst DMG by 24%.",
+				"Increases Elemental Skill and Elemental Burst DMG by 30%.",
+				"Increases Elemental Skill and Elemental Burst DMG by 36%.",
+				"Increases Elemental Skill and Elemental Burst DMG by 42%.",
+				"Increases Elemental Skill and Elemental Burst DMG by 48%."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Elemental Mastery"
+			],
+			"values": {
+				"1": [
+					"42",
+					"36"
+				],
+				"5": [
+					"56",
+					"42"
+				],
+				"10": [
+					"74",
+					"49"
+				],
+				"15": [
+					"91",
+					"56"
+				],
+				"20": [
+					"109",
+					"64"
+				],
+				"20+": [
+					"135",
+					"64"
+				],
+				"25": [
+					"152",
+					"71"
+				],
+				"30": [
+					"170",
+					"78"
+				],
+				"35": [
+					"187",
+					"85"
+				],
+				"40": [
+					"205",
+					"93"
+				],
+				"40+": [
+					"231",
+					"93"
+				],
+				"45": [
+					"248",
+					"100"
+				],
+				"50": [
+					"266",
+					"107"
+				],
+				"50+": [
+					"292",
+					"107"
+				],
+				"55": [
+					"309",
+					"115"
+				],
+				"60": [
+					"327",
+					"122"
+				],
+				"60+": [
+					"353",
+					"122"
+				],
+				"65": [
+					"370",
+					"129"
+				],
+				"70": [
+					"388",
+					"136"
+				],
+				"70+": [
+					"414",
+					"136"
+				],
+				"75": [
+					"431",
+					"144"
+				],
+				"80": [
+					"449",
+					"151"
+				],
+				"80+": [
+					"475",
+					"151"
+				],
+				"85": [
+					"492",
+					"158"
+				],
+				"90": [
+					"510",
+					"165"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"tile_of_decarabians_tower": 3,
+				"heavy_horn": 3,
+				"firm_arrowhead": 2,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 3,
+				"heavy_horn": 12,
+				"firm_arrowhead": 8,
+				"mora": 15000
+			},
+			{
+				"debris_of_decarabians_city": 6,
+				"black_bronze_horn": 6,
+				"sharp_arrowhead": 6,
+				"mora": 20000
+			},
+			{
+				"fragment_of_decarabians_epic": 3,
+				"black_bronze_horn": 12,
+				"sharp_arrowhead": 9,
+				"mora": 30000
+			},
+			{
+				"fragment_of_decarabians_epic": 6,
+				"black_crystal_horn": 9,
+				"weathered_arrowhead": 6,
+				"mora": 35000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 4,
+				"black_crystal_horn": 18,
+				"weathered_arrowhead": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"alley_hunter": {
+		"name": "Alley Hunter",
+		"type": "bow",
+		"rarity": 4,
+		"desc": "An intricate, opulent longbow. It once belonged to a gentleman thief who was never caught.",
+		"ability": {
+			"name": "Oppidan Ambush",
+			"desc": [
+				"While the character equipped with this weapon is in the party but not on the field, their DMG increases by 2% every second up to a max of 20%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 4% per second until it reaches 0%.",
+				"While the character equipped with this weapon is in the party but not on the field, their DMG increases by 2.5% every second up to a max of 25%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 5% per second until it reaches 0%.",
+				"While the character equipped with this weapon is in the party but not on the field, their DMG increases by 3% every second up to a max of 30%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 6% per second until it reaches 0%.",
+				"While the character equipped with this weapon is in the party but not on the field, their DMG increases by 3.5% every second up to a max of 35%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 7% per second until it reaches 0%.",
+				"While the character equipped with this weapon is in the party but not on the field, their DMG increases by 4% every second up to a max of 40%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 8% per second until it reaches 0%."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"ATK"
+			],
+			"values": {
+				"1": [
+					"44",
+					"6"
+				],
+				"5": [
+					"59",
+					"7"
+				],
+				"10": [
+					"79",
+					"8.2"
+				],
+				"15": [
+					"99",
+					"9.4"
+				],
+				"20": [
+					"119",
+					"10.6"
+				],
+				"20+": [
+					"144",
+					"10.6"
+				],
+				"25": [
+					"165",
+					"11.8"
+				],
+				"30": [
+					"185",
+					"13"
+				],
+				"35": [
+					"205",
+					"14.2"
+				],
+				"40": [
+					"226",
+					"15.5"
+				],
+				"40+": [
+					"252",
+					"15.5"
+				],
+				"45": [
+					"273",
+					"16.7"
+				],
+				"50": [
+					"293",
+					"17.9"
+				],
+				"50+": [
+					"319",
+					"17.9"
+				],
+				"55": [
+					"340",
+					"19.1"
+				],
+				"60": [
+					"361",
+					"20.3"
+				],
+				"60+": [
+					"387",
+					"20.3"
+				],
+				"65": [
+					"408",
+					"21.5"
+				],
+				"70": [
+					"429",
+					"22.7"
+				],
+				"70+": [
+					"455",
+					"22.7"
+				],
+				"75": [
+					"476",
+					"23.9"
+				],
+				"80": [
+					"497",
+					"25.1"
+				],
+				"80+": [
+					"523",
+					"25.1"
+				],
+				"85": [
+					"544",
+					"26.4"
+				],
+				"90": [
+					"565",
+					"27.6"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"fetters_of_the_dandelion_gladiator": 3,
+				"chaos_device": 3,
+				"slime_condensate": 2,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 3,
+				"chaos_device": 12,
+				"slime_condensate": 8,
+				"mora": 15000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 6,
+				"chaos_circuit": 6,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 3,
+				"chaos_circuit": 12,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 6,
+				"chaos_core": 9,
+				"slime_concentrate": 6,
+				"mora": 35000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 4,
+				"chaos_core": 18,
+				"slime_concentrate": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"blackcliff_warbow": {
+		"name": "Blackcliff Warbow",
+		"type": "bow",
+		"rarity": 4,
+		"desc": "A bow made of blackcliff that features extremely sturdy bow limbs. It requires an archer with a strong bow arm to use.",
+		"ability": {
+			"name": "Press the Advantage",
+			"desc": [
+				"After defeating an enemy, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"After defeating an enemy, ATK is increased by 15% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"After defeating an enemy, ATK is increased by 18% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"After defeating an enemy, ATK is increased by 21% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"After defeating an enemy, ATK is increased by 24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"CRIT DMG"
+			],
+			"values": {
+				"1": [
+					"44",
+					"8"
+				],
+				"5": [
+					"59",
+					"9.3"
+				],
+				"10": [
+					"79",
+					"10.9"
+				],
+				"15": [
+					"99",
+					"12.5"
+				],
+				"20": [
+					"119",
+					"14.1"
+				],
+				"20+": [
+					"144",
+					"14.1"
+				],
+				"25": [
+					"165",
+					"15.8"
+				],
+				"30": [
+					"185",
+					"17.4"
+				],
+				"35": [
+					"205",
+					"19"
+				],
+				"40": [
+					"226",
+					"20.6"
+				],
+				"40+": [
+					"252",
+					"20.6"
+				],
+				"45": [
+					"273",
+					"22.2"
+				],
+				"50": [
+					"293",
+					"23.8"
+				],
+				"50+": [
+					"319",
+					"23.8"
+				],
+				"55": [
+					"340",
+					"25.4"
+				],
+				"60": [
+					"361",
+					"27.1"
+				],
+				"60+": [
+					"387",
+					"27.1"
+				],
+				"65": [
+					"408",
+					"28.7"
+				],
+				"70": [
+					"429",
+					"30.3"
+				],
+				"70+": [
+					"455",
+					"30.3"
+				],
+				"75": [
+					"476",
+					"31.9"
+				],
+				"80": [
+					"497",
+					"33.5"
+				],
+				"80+": [
+					"523",
+					"33.5"
+				],
+				"85": [
+					"544",
+					"35.1"
+				],
+				"90": [
+					"565",
+					"36.8"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"luminous_sands_from_guyun": 3,
+				"hunters_sacrificial_knife": 3,
+				"whopperflower_nectar": 2,
+				"mora": 5000
+			},
+			{
+				"lustrous_stone_from_guyun": 3,
+				"hunters_sacrificial_knife": 12,
+				"whopperflower_nectar": 8,
+				"mora": 15000
+			},
+			{
+				"lustrous_stone_from_guyun": 6,
+				"agents_sacrificial_knife": 6,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"relic_from_guyun": 3,
+				"agents_sacrificial_knife": 12,
+				"shimmering_nectar": 9,
+				"mora": 30000
+			},
+			{
+				"relic_from_guyun": 6,
+				"inspectors_sacrificial_knife": 9,
+				"energy_nectar": 6,
+				"mora": 35000
+			},
+			{
+				"divine_body_from_guyun": 4,
+				"inspectors_sacrificial_knife": 18,
+				"energy_nectar": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"compound_bow": {
+		"name": "Compound Bow",
+		"type": "bow",
+		"rarity": 4,
+		"desc": "An exotic metallic bow from a distant land. Though extremely difficult to maintain, it is easy to nock and fires with tremendous force.",
+		"ability": {
+			"name": "Infusion Arrow",
+			"desc": [
+				"Normal Attack and Charged Attack hits increase ATK by 4% and Normal ATK SPD by 1.2% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+				"Normal Attack and Charged Attack hits increase ATK by 5% and Normal ATK SPD by 1.5% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+				"Normal Attack and Charged Attack hits increase ATK by 6% and Normal ATK SPD by 1.8% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+				"Normal Attack and Charged Attack hits increase ATK by 7% and Normal ATK SPD by 2.1% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+				"Normal Attack and Charged Attack hits increase ATK by 8% and Normal ATK SPD by 2.4% for 6s. Max 4 stacks. Can only occur once every 0.3s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Physical DMG Bonus"
+			],
+			"values": {
+				"1": [
+					"41",
+					"15"
+				],
+				"5": [
+					"54",
+					"17.4"
+				],
+				"10": [
+					"69",
+					"20.5"
+				],
+				"15": [
+					"84",
+					"23.5"
+				],
+				"20": [
+					"99",
+					"26.5"
+				],
+				"20+": [
+					"125",
+					"26.5"
+				],
+				"25": [
+					"140",
+					"29.6"
+				],
+				"30": [
+					"155",
+					"32.6"
+				],
+				"35": [
+					"169",
+					"35.6"
+				],
+				"40": [
+					"184",
+					"38.7"
+				],
+				"40+": [
+					"210",
+					"38.7"
+				],
+				"45": [
+					"224",
+					"41.7"
+				],
+				"50": [
+					"238",
+					"44.7"
+				],
+				"50+": [
+					"264",
+					"44.7"
+				],
+				"55": [
+					"278",
+					"47.8"
+				],
+				"60": [
+					"293",
+					"50.8"
+				],
+				"60+": [
+					"319",
+					"50.8"
+				],
+				"65": [
+					"333",
+					"53.8"
+				],
+				"70": [
+					"347",
+					"56.8"
+				],
+				"70+": [
+					"373",
+					"56.8"
+				],
+				"75": [
+					"387",
+					"59.9"
+				],
+				"80": [
+					"401",
+					"62.9"
+				],
+				"80+": [
+					"427",
+					"62.9"
+				],
+				"85": [
+					"440",
+					"65.9"
+				],
+				"90": [
+					"454",
+					"69"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"grain_of_aerosiderite": 3,
+				"fragile_bone_shard": 3,
+				"recruits_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"piece_of_aerosiderite": 3,
+				"fragile_bone_shard": 12,
+				"recruits_insignia": 8,
+				"mora": 15000
+			},
+			{
+				"piece_of_aerosiderite": 6,
+				"sturdy_bone_shard": 6,
+				"sergeants_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"bit_of_aerosiderite": 3,
+				"sturdy_bone_shard": 12,
+				"sergeants_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"bit_of_aerosiderite": 6,
+				"fossilized_bone_shard": 9,
+				"lieutenants_insignia": 6,
+				"mora": 35000
+			},
+			{
+				"chunk_of_aerosiderite": 4,
+				"fossilized_bone_shard": 18,
+				"lieutenants_insignia": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"favonius_warbow": {
+		"name": "Favonius Warbow",
+		"type": "bow",
+		"rarity": 4,
+		"desc": "A standard-issue recurve bow of the Knights of Favonius. Only the best archers can unleash its full potential.",
+		"ability": {
+			"name": "Windfall",
+			"desc": [
+				"CRIT Hits have a 60% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s.",
+				"CRIT Hits have a 70% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 10.5s.",
+				"CRIT Hits have a 80% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 9s.",
+				"CRIT Hits have a 90% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 7.5s.",
+				"CRIT Hits have a 100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 6s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Energy Recharge"
+			],
+			"values": {
+				"1": [
+					"41",
+					"13.3"
+				],
+				"5": [
+					"54",
+					"15.5"
+				],
+				"10": [
+					"69",
+					"18.2"
+				],
+				"15": [
+					"84",
+					"20.9"
+				],
+				"20": [
+					"99",
+					"23.6"
+				],
+				"20+": [
+					"125",
+					"23.6"
+				],
+				"25": [
+					"140",
+					"26.3"
+				],
+				"30": [
+					"155",
+					"28.9"
+				],
+				"35": [
+					"169",
+					"31.6"
+				],
+				"40": [
+					"184",
+					"34.3"
+				],
+				"40+": [
+					"210",
+					"34.3"
+				],
+				"45": [
+					"224",
+					"37"
+				],
+				"50": [
+					"238",
+					"39.7"
+				],
+				"50+": [
+					"264",
+					"39.7"
+				],
+				"55": [
+					"278",
+					"42.4"
+				],
+				"60": [
+					"293",
+					"45.1"
+				],
+				"60+": [
+					"319",
+					"45.1"
+				],
+				"65": [
+					"333",
+					"47.8"
+				],
+				"70": [
+					"347",
+					"50.5"
+				],
+				"70+": [
+					"373",
+					"50.5"
+				],
+				"75": [
+					"387",
+					"53.2"
+				],
+				"80": [
+					"401",
+					"55.9"
+				],
+				"80+": [
+					"427",
+					"55.9"
+				],
+				"85": [
+					"440",
+					"58.6"
+				],
+				"90": [
+					"454",
+					"61.3"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"fetters_of_the_dandelion_gladiator": 3,
+				"chaos_device": 3,
+				"whopperflower_nectar": 2,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 3,
+				"chaos_device": 12,
+				"whopperflower_nectar": 8,
+				"mora": 15000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 6,
+				"chaos_circuit": 6,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 3,
+				"chaos_circuit": 12,
+				"shimmering_nectar": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 6,
+				"chaos_core": 9,
+				"energy_nectar": 6,
+				"mora": 35000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 4,
+				"chaos_core": 18,
+				"energy_nectar": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"prototype_crescent": {
+		"name": "Prototype Crescent",
+		"type": "bow",
+		"rarity": 4,
+		"desc": "A prototype longbow discovered in the Blackcliff Forge. The arrow fired from this bow glimmers like a ray of moonlight.",
+		"ability": {
+			"name": "Unreturning",
+			"desc": [
+				"Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 36% for 10s.",
+				"Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 45% for 10s.",
+				"Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 54% for 10s.",
+				"Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 63% for 10s.",
+				"Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 72% for 10s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"ATK"
+			],
+			"values": {
+				"1": [
+					"42",
+					"9"
+				],
+				"5": [
+					"56",
+					"10.5"
+				],
+				"10": [
+					"74",
+					"12.3"
+				],
+				"15": [
+					"91",
+					"14.1"
+				],
+				"20": [
+					"109",
+					"15.9"
+				],
+				"20+": [
+					"135",
+					"15.9"
+				],
+				"25": [
+					"152",
+					"17.7"
+				],
+				"30": [
+					"170",
+					"19.5"
+				],
+				"35": [
+					"187",
+					"21.4"
+				],
+				"40": [
+					"205",
+					"23.2"
+				],
+				"40+": [
+					"231",
+					"23.2"
+				],
+				"45": [
+					"248",
+					"25"
+				],
+				"50": [
+					"266",
+					"26.8"
+				],
+				"50+": [
+					"292",
+					"26.8"
+				],
+				"55": [
+					"309",
+					"28.6"
+				],
+				"60": [
+					"327",
+					"30.4"
+				],
+				"60+": [
+					"353",
+					"30.4"
+				],
+				"65": [
+					"370",
+					"32.3"
+				],
+				"70": [
+					"388",
+					"34.1"
+				],
+				"70+": [
+					"414",
+					"34.1"
+				],
+				"75": [
+					"431",
+					"35.9"
+				],
+				"80": [
+					"449",
+					"37.7"
+				],
+				"80+": [
+					"475",
+					"37.7"
+				],
+				"85": [
+					"492",
+					"39.5"
+				],
+				"90": [
+					"510",
+					"41.3"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"mist_veiled_lead_elixir": 3,
+				"mist_grass_pollen": 3,
+				"treasure_hoarder_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"mist_veiled_mercury_elixir": 3,
+				"mist_grass_pollen": 12,
+				"treasure_hoarder_insignia": 8,
+				"mora": 15000
+			},
+			{
+				"mist_veiled_mercury_elixir": 6,
+				"mist_grass": 6,
+				"silver_raven_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"mist_veiled_gold_elixir": 3,
+				"mist_grass": 12,
+				"silver_raven_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"mist_veiled_gold_elixir": 6,
+				"mist_grass_wick": 9,
+				"golden_raven_insignia": 6,
+				"mora": 35000
+			},
+			{
+				"mist_veiled_primo_elixir": 4,
+				"mist_grass_wick": 18,
+				"golden_raven_insignia": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"royal_bow": {
+		"name": "Royal Bow",
+		"type": "bow",
+		"rarity": 4,
+		"desc": "An old longbow that belonged to the erstwhile aristocratic rulers of Mondstadt. Countless generations later, the bowstring is still tight and can still fire arrows with great force.",
+		"ability": {
+			"name": "Focus",
+			"desc": [
+				"Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"Upon damaging an opponent, increases CRIT Rate by 10%. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"Upon damaging an opponent, increases CRIT Rate by 12%. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"Upon damaging an opponent, increases CRIT Rate by 14%. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"Upon damaging an opponent, increases CRIT Rate by 16%. Max 5 stacks. A CRIT Hit removes all stacks."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"ATK"
+			],
+			"values": {
+				"1": [
+					"42",
+					"9"
+				],
+				"5": [
+					"56",
+					"10.5"
+				],
+				"10": [
+					"74",
+					"12.3"
+				],
+				"15": [
+					"91",
+					"14.1"
+				],
+				"20": [
+					"109",
+					"15.9"
+				],
+				"20+": [
+					"135",
+					"15.9"
+				],
+				"25": [
+					"152",
+					"17.7"
+				],
+				"30": [
+					"170",
+					"19.5"
+				],
+				"35": [
+					"187",
+					"21.4"
+				],
+				"40": [
+					"205",
+					"23.2"
+				],
+				"40+": [
+					"231",
+					"23.2"
+				],
+				"45": [
+					"248",
+					"25"
+				],
+				"50": [
+					"266",
+					"26.8"
+				],
+				"50+": [
+					"292",
+					"26.8"
+				],
+				"55": [
+					"309",
+					"28.6"
+				],
+				"60": [
+					"327",
+					"30.4"
+				],
+				"60+": [
+					"353",
+					"30.4"
+				],
+				"65": [
+					"370",
+					"32.3"
+				],
+				"70": [
+					"388",
+					"34.1"
+				],
+				"70+": [
+					"414",
+					"34.1"
+				],
+				"75": [
+					"431",
+					"35.9"
+				],
+				"80": [
+					"449",
+					"37.7"
+				],
+				"80+": [
+					"475",
+					"37.7"
+				],
+				"85": [
+					"492",
+					"39.5"
+				],
+				"90": [
+					"510",
+					"41.3"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"fetters_of_the_dandelion_gladiator": 3,
+				"chaos_device": 3,
+				"divining_scroll": 2,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 3,
+				"chaos_device": 12,
+				"divining_scroll": 8,
+				"mora": 15000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 6,
+				"chaos_circuit": 6,
+				"sealed_scroll": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 3,
+				"chaos_circuit": 12,
+				"sealed_scroll": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 6,
+				"chaos_core": 9,
+				"forbidden_curse_scroll": 6,
+				"mora": 35000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 4,
+				"chaos_core": 18,
+				"forbidden_curse_scroll": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"rust": {
+		"name": "Rust",
+		"type": "bow",
+		"rarity": 4,
+		"desc": "A completely rusted iron greatbow. The average person would lack the strength to even lift it, let alone fire it.",
+		"ability": {
+			"name": "Rapid Firing",
+			"desc": [
+				"Increases Normal Attack DMG by 40% but decreases Charged Attack DMG by 10%.",
+				"Increases Normal Attack DMG by 50% but decreases Charged Attack DMG by 10%.",
+				"Increases Normal Attack DMG by 60% but decreases Charged Attack DMG by 10%.",
+				"Increases Normal Attack DMG by 70% but decreases Charged Attack DMG by 10%.",
+				"Increases Normal Attack DMG by 80% but decreases Charged Attack DMG by 10%."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"ATK"
+			],
+			"values": {
+				"1": [
+					"42",
+					"9"
+				],
+				"5": [
+					"56",
+					"10.5"
+				],
+				"10": [
+					"74",
+					"12.3"
+				],
+				"15": [
+					"91",
+					"14.1"
+				],
+				"20": [
+					"109",
+					"15.9"
+				],
+				"20+": [
+					"135",
+					"15.9"
+				],
+				"25": [
+					"152",
+					"17.7"
+				],
+				"30": [
+					"170",
+					"19.5"
+				],
+				"35": [
+					"187",
+					"21.4"
+				],
+				"40": [
+					"205",
+					"23.2"
+				],
+				"40+": [
+					"231",
+					"23.2"
+				],
+				"45": [
+					"248",
+					"25"
+				],
+				"50": [
+					"266",
+					"26.8"
+				],
+				"50+": [
+					"292",
+					"26.8"
+				],
+				"55": [
+					"309",
+					"28.6"
+				],
+				"60": [
+					"327",
+					"30.4"
+				],
+				"60+": [
+					"353",
+					"30.4"
+				],
+				"65": [
+					"370",
+					"32.3"
+				],
+				"70": [
+					"388",
+					"34.1"
+				],
+				"70+": [
+					"414",
+					"34.1"
+				],
+				"75": [
+					"431",
+					"35.9"
+				],
+				"80": [
+					"449",
+					"37.7"
+				],
+				"80+": [
+					"475",
+					"37.7"
+				],
+				"85": [
+					"492",
+					"39.5"
+				],
+				"90": [
+					"510",
+					"41.3"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"luminous_sands_from_guyun": 3,
+				"hunters_sacrificial_knife": 3,
+				"damaged_mask": 2,
+				"mora": 5000
+			},
+			{
+				"lustrous_stone_from_guyun": 3,
+				"hunters_sacrificial_knife": 12,
+				"damaged_mask": 8,
+				"mora": 15000
+			},
+			{
+				"lustrous_stone_from_guyun": 6,
+				"agents_sacrificial_knife": 6,
+				"stained_mask": 6,
+				"mora": 20000
+			},
+			{
+				"relic_from_guyun": 3,
+				"agents_sacrificial_knife": 12,
+				"stained_mask": 9,
+				"mora": 30000
+			},
+			{
+				"relic_from_guyun": 6,
+				"inspectors_sacrificial_knife": 9,
+				"ominous_mask": 6,
+				"mora": 35000
+			},
+			{
+				"divine_body_from_guyun": 4,
+				"inspectors_sacrificial_knife": 18,
+				"ominous_mask": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"sacrificial_bow": {
+		"name": "Sacrificial Bow",
+		"type": "bow",
+		"rarity": 4,
+		"desc": "A ceremonial hunting bow that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+		"ability": {
+			"name": "Composed",
+			"desc": [
+				"After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.",
+				"After damaging an opponent with an Elemental Skill, the skill has a 50% chance to end its own CD. Can only occur once every 26s.",
+				"After damaging an opponent with an Elemental Skill, the skill has a 60% chance to end its own CD. Can only occur once every 22s.",
+				"After damaging an opponent with an Elemental Skill, the skill has a 70% chance to end its own CD. Can only occur once every 19s.",
+				"After damaging an opponent with an Elemental Skill, the skill has a 80% chance to end its own CD. Can only occur once every 16s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Energy Recharge"
+			],
+			"values": {
+				"1": [
+					"44",
+					"6.7"
+				],
+				"5": [
+					"59",
+					"7.7"
+				],
+				"10": [
+					"79",
+					"9.1"
+				],
+				"15": [
+					"99",
+					"10.4"
+				],
+				"20": [
+					"119",
+					"11.8"
+				],
+				"20+": [
+					"144",
+					"11.8"
+				],
+				"25": [
+					"165",
+					"13.1"
+				],
+				"30": [
+					"185",
+					"14.5"
+				],
+				"35": [
+					"205",
+					"15.8"
+				],
+				"40": [
+					"226",
+					"17.2"
+				],
+				"40+": [
+					"252",
+					"17.2"
+				],
+				"45": [
+					"273",
+					"18.5"
+				],
+				"50": [
+					"293",
+					"19.9"
+				],
+				"50+": [
+					"319",
+					"19.9"
+				],
+				"55": [
+					"340",
+					"21.2"
+				],
+				"60": [
+					"361",
+					"22.6"
+				],
+				"60+": [
+					"387",
+					"22.6"
+				],
+				"65": [
+					"408",
+					"23.9"
+				],
+				"70": [
+					"429",
+					"25.2"
+				],
+				"70+": [
+					"455",
+					"25.2"
+				],
+				"75": [
+					"476",
+					"26.6"
+				],
+				"80": [
+					"497",
+					"27.9"
+				],
+				"80+": [
+					"523",
+					"27.9"
+				],
+				"85": [
+					"544",
+					"29.3"
+				],
+				"90": [
+					"565",
+					"30.6"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"boreal_wolfs_milk_tooth": 3,
+				"dead_ley_line_branch": 3,
+				"slime_condensate": 2,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 3,
+				"dead_ley_line_branch": 12,
+				"slime_condensate": 8,
+				"mora": 15000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 6,
+				"dead_ley_line_leaves": 6,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_broken_fang": 3,
+				"dead_ley_line_leaves": 12,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"boreal_wolfs_broken_fang": 6,
+				"ley_line_sprout": 9,
+				"slime_concentrate": 6,
+				"mora": 35000
+			},
+			{
+				"boreal_wolfs_nostalgia": 4,
+				"ley_line_sprout": 18,
+				"slime_concentrate": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"the_viridescent_hunt": {
+		"name": "The Viridescent Hunt",
+		"type": "bow",
+		"rarity": 4,
+		"desc": "A pure green hunting bow. This once belonged to a certain hunter whose home was the forest.",
+		"ability": {
+			"name": "Verdant Wind",
+			"desc": [
+				"Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 40% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 14s.",
+				"Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 50% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 13s.",
+				"Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 60% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 12s.",
+				"Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 70% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 11s.",
+				"Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 80% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 10s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"CRIT Rate"
+			],
+			"values": {
+				"1": [
+					"42",
+					"6"
+				],
+				"5": [
+					"56",
+					"7"
+				],
+				"10": [
+					"74",
+					"8.2"
+				],
+				"15": [
+					"91",
+					"9.4"
+				],
+				"20": [
+					"109",
+					"10.6"
+				],
+				"20+": [
+					"135",
+					"10.6"
+				],
+				"25": [
+					"152",
+					"11.8"
+				],
+				"30": [
+					"170",
+					"13"
+				],
+				"35": [
+					"187",
+					"14.2"
+				],
+				"40": [
+					"205",
+					"15.5"
+				],
+				"40+": [
+					"231",
+					"15.5"
+				],
+				"45": [
+					"248",
+					"16.7"
+				],
+				"50": [
+					"266",
+					"17.9"
+				],
+				"50+": [
+					"292",
+					"17.9"
+				],
+				"55": [
+					"309",
+					"19.1"
+				],
+				"60": [
+					"327",
+					"20.3"
+				],
+				"60+": [
+					"353",
+					"20.3"
+				],
+				"65": [
+					"370",
+					"21.5"
+				],
+				"70": [
+					"388",
+					"22.7"
+				],
+				"70+": [
+					"414",
+					"22.7"
+				],
+				"75": [
+					"431",
+					"23.9"
+				],
+				"80": [
+					"449",
+					"25.1"
+				],
+				"80+": [
+					"475",
+					"25.1"
+				],
+				"85": [
+					"492",
+					"26.4"
+				],
+				"90": [
+					"510",
+					"27.6"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"tile_of_decarabians_tower": 3,
+				"heavy_horn": 3,
+				"firm_arrowhead": 2,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 3,
+				"heavy_horn": 12,
+				"firm_arrowhead": 8,
+				"mora": 15000
+			},
+			{
+				"debris_of_decarabians_city": 6,
+				"black_bronze_horn": 6,
+				"sharp_arrowhead": 6,
+				"mora": 20000
+			},
+			{
+				"fragment_of_decarabians_epic": 3,
+				"black_bronze_horn": 12,
+				"sharp_arrowhead": 9,
+				"mora": 30000
+			},
+			{
+				"fragment_of_decarabians_epic": 6,
+				"black_crystal_horn": 9,
+				"weathered_arrowhead": 6,
+				"mora": 35000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 4,
+				"black_crystal_horn": 18,
+				"weathered_arrowhead": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"windblume_ode": {
+		"name": "Windblume Ode",
+		"type": "bow",
+		"rarity": 4,
+		"desc": "A bow adorned with nameless flowers that bears the earnest hopes of an equally nameless person.",
+		"ability": {
+			"name": "Windblume Wish",
+			"desc": [
+				"After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 16% for 6s.",
+				"After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 20% for 6s.",
+				"After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 24% for 6s.",
+				"After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 28% for 6s.",
+				"After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 32% for 6s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Elemental Mastery"
+			],
+			"values": {
+				"1": [
+					"42",
+					"36"
+				],
+				"5": [
+					"56",
+					"42"
+				],
+				"10": [
+					"74",
+					"49"
+				],
+				"15": [
+					"91",
+					"56"
+				],
+				"20": [
+					"109",
+					"64"
+				],
+				"20+": [
+					"135",
+					"64"
+				],
+				"25": [
+					"152",
+					"71"
+				],
+				"30": [
+					"170",
+					"78"
+				],
+				"35": [
+					"187",
+					"85"
+				],
+				"40": [
+					"205",
+					"93"
+				],
+				"40+": [
+					"231",
+					"93"
+				],
+				"45": [
+					"248",
+					"100"
+				],
+				"50": [
+					"266",
+					"107"
+				],
+				"50+": [
+					"292",
+					"107"
+				],
+				"55": [
+					"309",
+					"115"
+				],
+				"60": [
+					"327",
+					"122"
+				],
+				"60+": [
+					"353",
+					"122"
+				],
+				"65": [
+					"370",
+					"129"
+				],
+				"70": [
+					"388",
+					"136"
+				],
+				"70+": [
+					"414",
+					"136"
+				],
+				"75": [
+					"431",
+					"144"
+				],
+				"80": [
+					"449",
+					"151"
+				],
+				"80+": [
+					"475",
+					"151"
+				],
+				"85": [
+					"492",
+					"158"
+				],
+				"90": [
+					"510",
+					"165"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"fetters_of_the_dandelion_gladiator": 3,
+				"dead_ley_line_branch": 3,
+				"whopperflower_nectar": 2,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 3,
+				"dead_ley_line_branch": 12,
+				"whopperflower_nectar": 8,
+				"mora": 15000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 6,
+				"dead_ley_line_leaves": 6,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 3,
+				"dead_ley_line_leaves": 12,
+				"shimmering_nectar": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 6,
+				"ley_line_sprout": 9,
+				"energy_nectar": 6,
+				"mora": 35000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 4,
+				"ley_line_sprout": 18,
+				"energy_nectar": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"mitternachts_waltz": {
+		"name": "Mitternachts Waltz",
+		"type": "bow",
+		"rarity": 4,
+		"desc": "A bow painted the color of transgression and nights of illusion.",
+		"ability": {
+			"name": "Evernight Duet",
+			"desc": [
+				"Normal Attack hits on opponents increase Elemental Skill DMG by 20% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 20% for 5s.",
+				"Normal Attack hits on opponents increase Elemental Skill DMG by 25% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 25% for 5s.",
+				"Normal Attack hits on opponents increase Elemental Skill DMG by 30% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 30% for 5s.",
+				"Normal Attack hits on opponents increase Elemental Skill DMG by 35% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 35% for 5s.",
+				"Normal Attack hits on opponents increase Elemental Skill DMG by 40% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 40% for 5s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Physical DMG Bonus"
+			],
+			"values": {
+				"1": [
+					"42",
+					"11.3"
+				],
+				"5": [
+					"56",
+					"13.1"
+				],
+				"10": [
+					"74",
+					"15.3"
+				],
+				"15": [
+					"91",
+					"17.6"
+				],
+				"20": [
+					"109",
+					"19.9"
+				],
+				"20+": [
+					"135",
+					"19.9"
+				],
+				"25": [
+					"152",
+					"22.2"
+				],
+				"30": [
+					"170",
+					"24.4"
+				],
+				"35": [
+					"187",
+					"26.7"
+				],
+				"40": [
+					"205",
+					"29"
+				],
+				"40+": [
+					"231",
+					"29"
+				],
+				"45": [
+					"248",
+					"31.3"
+				],
+				"50": [
+					"266",
+					"33.5"
+				],
+				"50+": [
+					"292",
+					"33.5"
+				],
+				"55": [
+					"309",
+					"35.8"
+				],
+				"60": [
+					"327",
+					"38.1"
+				],
+				"60+": [
+					"353",
+					"38.1"
+				],
+				"65": [
+					"370",
+					"40.4"
+				],
+				"70": [
+					"388",
+					"42.6"
+				],
+				"70+": [
+					"414",
+					"42.6"
+				],
+				"75": [
+					"431",
+					"44.9"
+				],
+				"80": [
+					"449",
+					"47.2"
+				],
+				"80+": [
+					"475",
+					"47.2"
+				],
+				"85": [
+					"492",
+					"49.5"
+				],
+				"90": [
+					"510",
+					"51.7"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"tile_of_decarabians_tower": 3,
+				"heavy_horn": 3,
+				"treasure_hoarder_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 3,
+				"heavy_horn": 12,
+				"treasure_hoarder_insignia": 8,
+				"mora": 15000
+			},
+			{
+				"debris_of_decarabians_city": 6,
+				"black_bronze_horn": 6,
+				"silver_raven_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"fragment_of_decarabians_epic": 3,
+				"black_bronze_horn": 12,
+				"silver_raven_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"fragment_of_decarabians_epic": 6,
+				"black_crystal_horn": 9,
+				"golden_raven_insignia": 6,
+				"mora": 35000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 4,
+				"black_crystal_horn": 18,
+				"golden_raven_insignia": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"hamayumi": {
+		"name": "Hamayumi",
+		"type": "bow",
+		"rarity": 4,
+		"desc": "A certain shrine maiden once owned this warbow. It was made with surpassing skill, and is both intricate and sturdy.",
+		"ability": {
+			"name": "Full Draw",
+			"desc": [
+				"Increases Normal Attack DMG by 16% and Charged Attack DMG by 12%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+				"Increases Normal Attack DMG by 20% and Charged Attack DMG by 15%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+				"Increases Normal Attack DMG by 24% and Charged Attack DMG by 18%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+				"Increases Normal Attack DMG by 28% and Charged Attack DMG by 21%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+				"Increases Normal Attack DMG by 32% and Charged Attack DMG by 24%. When the equipping character's Energy reaches 100%, this effect is increased by 100%."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"ATK"
+			],
+			"values": {
+				"1": [
+					"41",
+					"12"
+				],
+				"5": [
+					"54",
+					"13.9"
+				],
+				"10": [
+					"69",
+					"16.4"
+				],
+				"15": [
+					"84",
+					"18.8"
+				],
+				"20": [
+					"99",
+					"21.2"
+				],
+				"20+": [
+					"125",
+					"21.2"
+				],
+				"25": [
+					"140",
+					"23.6"
+				],
+				"30": [
+					"155",
+					"26.1"
+				],
+				"35": [
+					"169",
+					"28.5"
+				],
+				"40": [
+					"184",
+					"30.9"
+				],
+				"40+": [
+					"210",
+					"30.9"
+				],
+				"45": [
+					"224",
+					"33.3"
+				],
+				"50": [
+					"238",
+					"35.7"
+				],
+				"50+": [
+					"264",
+					"35.7"
+				],
+				"55": [
+					"278",
+					"38.2"
+				],
+				"60": [
+					"293",
+					"40.6"
+				],
+				"60+": [
+					"319",
+					"40.6"
+				],
+				"65": [
+					"333",
+					"43"
+				],
+				"70": [
+					"347",
+					"45.4"
+				],
+				"70+": [
+					"373",
+					"45.4"
+				],
+				"75": [
+					"387",
+					"47.9"
+				],
+				"80": [
+					"401",
+					"50.3"
+				],
+				"80+": [
+					"427",
+					"50.3"
+				],
+				"85": [
+					"440",
+					"52.7"
+				],
+				"90": [
+					"454",
+					"55.1"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"narukamis_wisdom": 3,
+				"dismal_prism": 3,
+				"firm_arrowhead": 2,
+				"mora": 5000
+			},
+			{
+				"narukamis_joy": 3,
+				"dismal_prism": 12,
+				"firm_arrowhead": 8,
+				"mora": 15000
+			},
+			{
+				"narukamis_joy": 6,
+				"crystal_prism": 6,
+				"sharp_arrowhead": 6,
+				"mora": 20000
+			},
+			{
+				"narukamis_affection": 3,
+				"crystal_prism": 12,
+				"sharp_arrowhead": 9,
+				"mora": 30000
+			},
+			{
+				"narukamis_affection": 6,
+				"polarizing_prism": 9,
+				"weathered_arrowhead": 6,
+				"mora": 35000
+			},
+			{
+				"narukamis_valor": 4,
+				"polarizing_prism": 18,
+				"weathered_arrowhead": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"skyward_harp": {
+		"name": "Skyward Harp",
+		"type": "bow",
+		"rarity": 5,
+		"desc": "A greatbow that symbolizes Dvalin's affiliation with the Anemo Archon. The sound of the bow firing is music to the Anemo Archon's ears. It contains the power of the sky and wind within.",
+		"ability": {
+			"name": "Echoing Ballad",
+			"desc": [
+				"Increases CRIT DMG by 20%. Hits have a 60% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 4s.",
+				"Increases CRIT DMG by 25%. Hits have a 70% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 3.5s.",
+				"Increases CRIT DMG by 30%. Hits have a 80% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 3s.",
+				"Increases CRIT DMG by 35%. Hits have a 90% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 2.5s.",
+				"Increases CRIT DMG by 40%. Hits have a 100% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 2s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"CRIT Rate"
+			],
+			"values": {
+				"1": [
+					"48",
+					"4.8"
+				],
+				"5": [
+					"65",
+					"5.6"
+				],
+				"10": [
+					"87",
+					"6.5"
+				],
+				"15": [
+					"110",
+					"7.5"
+				],
+				"20": [
+					"133",
+					"8.5"
+				],
+				"20+": [
+					"164",
+					"8.5"
+				],
+				"25": [
+					"188",
+					"9.5"
+				],
+				"30": [
+					"212",
+					"10.4"
+				],
+				"35": [
+					"236",
+					"11.4"
+				],
+				"40": [
+					"261",
+					"12.4"
+				],
+				"40+": [
+					"292",
+					"12.4"
+				],
+				"45": [
+					"316",
+					"13.3"
+				],
+				"50": [
+					"341",
+					"14.3"
+				],
+				"50+": [
+					"373",
+					"14.3"
+				],
+				"55": [
+					"398",
+					"15.3"
+				],
+				"60": [
+					"423",
+					"16.2"
+				],
+				"60+": [
+					"455",
+					"16.2"
+				],
+				"65": [
+					"480",
+					"17.2"
+				],
+				"70": [
+					"506",
+					"18.2"
+				],
+				"70+": [
+					"537",
+					"18.2"
+				],
+				"75": [
+					"563",
+					"19.1"
+				],
+				"80": [
+					"590",
+					"20.1"
+				],
+				"80+": [
+					"621",
+					"20.1"
+				],
+				"85": [
+					"648",
+					"21.1"
+				],
+				"90": [
+					"674",
+					"22.1"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"boreal_wolfs_milk_tooth": 5,
+				"dead_ley_line_branch": 5,
+				"firm_arrowhead": 3,
+				"mora": 10000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 5,
+				"dead_ley_line_branch": 18,
+				"firm_arrowhead": 12,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 9,
+				"dead_ley_line_leaves": 9,
+				"sharp_arrowhead": 9,
+				"mora": 30000
+			},
+			{
+				"boreal_wolfs_broken_fang": 5,
+				"dead_ley_line_leaves": 18,
+				"sharp_arrowhead": 14,
+				"mora": 45000
+			},
+			{
+				"boreal_wolfs_broken_fang": 9,
+				"ley_line_sprout": 14,
+				"weathered_arrowhead": 9,
+				"mora": 55000
+			},
+			{
+				"boreal_wolfs_nostalgia": 6,
+				"ley_line_sprout": 27,
+				"weathered_arrowhead": 18,
+				"mora": 65000
+			}
+		]
+	},
+	"amos_bow": {
+		"name": "Amos' Bow",
+		"type": "bow",
+		"rarity": 5,
+		"desc": "An extremely ancient bow that has retained its power despite its original master being long gone. It draws power from everyone and everything in the world, and the further away you are from that which your heart desires, the more powerful it is.",
+		"ability": {
+			"name": "Strong-Willed",
+			"desc": [
+				"Increases Normal and Charged Attack DMG by 12%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 8% every 0.1s the arrow is in the air for up to 5 times.",
+				"Increases Normal and Charged Attack DMG by 15%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 10% every 0.1s the arrow is in the air for up to 5 times.",
+				"Increases Normal and Charged Attack DMG by 18%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 12% every 0.1s the arrow is in the air for up to 5 times.",
+				"Increases Normal and Charged Attack DMG by 21%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 14% every 0.1s the arrow is in the air for up to 5 times.",
+				"Increases Normal and Charged Attack DMG by 24%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 16% every 0.1s the arrow is in the air for up to 5 times."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"ATK"
+			],
+			"values": {
+				"1": [
+					"46",
+					"10.8"
+				],
+				"5": [
+					"62",
+					"12.5"
+				],
+				"10": [
+					"82",
+					"14.7"
+				],
+				"15": [
+					"102",
+					"16.9"
+				],
+				"20": [
+					"122",
+					"19.1"
+				],
+				"20+": [
+					"153",
+					"19.1"
+				],
+				"25": [
+					"173",
+					"21.3"
+				],
+				"30": [
+					"194",
+					"23.4"
+				],
+				"35": [
+					"214",
+					"25.6"
+				],
+				"40": [
+					"235",
+					"27.8"
+				],
+				"40+": [
+					"266",
+					"27.8"
+				],
+				"45": [
+					"287",
+					"30"
+				],
+				"50": [
+					"308",
+					"32.2"
+				],
+				"50+": [
+					"340",
+					"32.2"
+				],
+				"55": [
+					"361",
+					"34.4"
+				],
+				"60": [
+					"382",
+					"36.5"
+				],
+				"60+": [
+					"414",
+					"36.5"
+				],
+				"65": [
+					"435",
+					"38.7"
+				],
+				"70": [
+					"457",
+					"40.9"
+				],
+				"70+": [
+					"488",
+					"40.9"
+				],
+				"75": [
+					"510",
+					"43.1"
+				],
+				"80": [
+					"532",
+					"45.3"
+				],
+				"80+": [
+					"563",
+					"45.3"
+				],
+				"85": [
+					"586",
+					"47.4"
+				],
+				"90": [
+					"608",
+					"49.6"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"fetters_of_the_dandelion_gladiator": 5,
+				"chaos_device": 5,
+				"slime_condensate": 3,
+				"mora": 10000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 5,
+				"chaos_device": 18,
+				"slime_condensate": 12,
+				"mora": 20000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 9,
+				"chaos_circuit": 9,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 5,
+				"chaos_circuit": 18,
+				"slime_secretions": 14,
+				"mora": 45000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 9,
+				"chaos_core": 14,
+				"slime_concentrate": 9,
+				"mora": 55000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 6,
+				"chaos_core": 27,
+				"slime_concentrate": 18,
+				"mora": 65000
+			}
+		]
+	},
+	"elegy_for_the_end": {
+		"name": "Elegy for the End",
+		"type": "bow",
+		"rarity": 5,
+		"desc": "A bow as lovely as any bard's lyre, its arrows pierce the heart like a lamenting sigh.",
+		"ability": {
+			"name": "The Parting Refrain",
+			"desc": [
+				"A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by 60. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by 100 and increases ATK by 20%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by 75. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by 125 and increases ATK by 25%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by 90. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by 150 and increases ATK by 30%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by 105. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by 175 and increases ATK by 35%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by 120. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by 200 and increases ATK by 40%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Energy Recharge"
+			],
+			"values": {
+				"1": [
+					"46",
+					"12"
+				],
+				"5": [
+					"62",
+					"13.9"
+				],
+				"10": [
+					"82",
+					"16.4"
+				],
+				"15": [
+					"102",
+					"18.8"
+				],
+				"20": [
+					"122",
+					"21.2"
+				],
+				"20+": [
+					"153",
+					"21.2"
+				],
+				"25": [
+					"173",
+					"23.6"
+				],
+				"30": [
+					"194",
+					"26.1"
+				],
+				"35": [
+					"214",
+					"28.5"
+				],
+				"40": [
+					"235",
+					"30.9"
+				],
+				"40+": [
+					"266",
+					"30.9"
+				],
+				"45": [
+					"287",
+					"33.3"
+				],
+				"50": [
+					"308",
+					"35.7"
+				],
+				"50+": [
+					"340",
+					"35.7"
+				],
+				"55": [
+					"361",
+					"38.2"
+				],
+				"60": [
+					"382",
+					"40.6"
+				],
+				"60+": [
+					"414",
+					"40.6"
+				],
+				"65": [
+					"435",
+					"43"
+				],
+				"70": [
+					"457",
+					"45.4"
+				],
+				"70+": [
+					"488",
+					"45.4"
+				],
+				"75": [
+					"510",
+					"47.9"
+				],
+				"80": [
+					"532",
+					"50.3"
+				],
+				"80+": [
+					"563",
+					"50.3"
+				],
+				"85": [
+					"586",
+					"52.7"
+				],
+				"90": [
+					"608",
+					"55.1"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"boreal_wolfs_milk_tooth": 5,
+				"heavy_horn": 5,
+				"recruits_insignia": 3,
+				"mora": 10000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 5,
+				"heavy_horn": 18,
+				"recruits_insignia": 12,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 9,
+				"black_bronze_horn": 9,
+				"sergeants_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"boreal_wolfs_broken_fang": 5,
+				"black_bronze_horn": 18,
+				"sergeants_insignia": 14,
+				"mora": 45000
+			},
+			{
+				"boreal_wolfs_broken_fang": 9,
+				"black_crystal_horn": 14,
+				"lieutenants_insignia": 9,
+				"mora": 55000
+			},
+			{
+				"boreal_wolfs_nostalgia": 6,
+				"black_crystal_horn": 27,
+				"lieutenants_insignia": 18,
+				"mora": 65000
+			}
+		]
+	},
+	"thundering_pulse": {
+		"name": "Thundering Pulse",
+		"type": "bow",
+		"rarity": 5,
+		"desc": "A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.",
+		"ability": {
+			"name": "Rule by Thunder",
+			"desc": [
+				"Increases ATK by 20% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by 12/24/40%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+				"Increases ATK by 25% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by 15/30/50%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+				"Increases ATK by 30% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by 18/36/60%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+				"Increases ATK by 35% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by 21/42/70%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+				"Increases ATK by 40% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by 24/48/80%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"CRIT DMG"
+			],
+			"values": {
+				"1": [
+					"46",
+					"14.4"
+				],
+				"5": [
+					"62",
+					"16.7"
+				],
+				"10": [
+					"82",
+					"19.6"
+				],
+				"15": [
+					"102",
+					"22.5"
+				],
+				"20": [
+					"122",
+					"25.4"
+				],
+				"20+": [
+					"153",
+					"25.4"
+				],
+				"25": [
+					"173",
+					"28.4"
+				],
+				"30": [
+					"194",
+					"31.3"
+				],
+				"35": [
+					"214",
+					"34.2"
+				],
+				"40": [
+					"235",
+					"37.1"
+				],
+				"40+": [
+					"266",
+					"37.1"
+				],
+				"45": [
+					"287",
+					"40"
+				],
+				"50": [
+					"308",
+					"42.9"
+				],
+				"50+": [
+					"340",
+					"42.9"
+				],
+				"55": [
+					"361",
+					"45.8"
+				],
+				"60": [
+					"382",
+					"48.7"
+				],
+				"60+": [
+					"414",
+					"48.7"
+				],
+				"65": [
+					"435",
+					"51.6"
+				],
+				"70": [
+					"457",
+					"54.5"
+				],
+				"70+": [
+					"488",
+					"54.5"
+				],
+				"75": [
+					"510",
+					"57.4"
+				],
+				"80": [
+					"532",
+					"60.3"
+				],
+				"80+": [
+					"563",
+					"60.3"
+				],
+				"85": [
+					"586",
+					"63.2"
+				],
+				"90": [
+					"608",
+					"66.2"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"narukamis_wisdom": 5,
+				"dismal_prism": 5,
+				"firm_arrowhead": 3,
+				"mora": 10000
+			},
+			{
+				"narukamis_joy": 5,
+				"dismal_prism": 18,
+				"firm_arrowhead": 12,
+				"mora": 20000
+			},
+			{
+				"narukamis_joy": 9,
+				"crystal_prism": 9,
+				"sharp_arrowhead": 9,
+				"mora": 30000
+			},
+			{
+				"narukamis_affection": 5,
+				"crystal_prism": 18,
+				"sharp_arrowhead": 14,
+				"mora": 45000
+			},
+			{
+				"narukamis_affection": 9,
+				"polarizing_prism": 14,
+				"weathered_arrowhead": 9,
+				"mora": 55000
+			},
+			{
+				"narukamis_valor": 6,
+				"polarizing_prism": 27,
+				"weathered_arrowhead": 18,
+				"mora": 65000
+			}
+		]
+	},
+	"polar_star": {
+		"name": "Polar Star",
+		"type": "bow",
+		"rarity": 5,
+		"desc": "A pristine bow that is as sharp as the glaciers of the far north.",
+		"ability": {
+			"name": "Daylight's Augury",
+			"desc": [
+				"Elemental Skill and Elemental Burst DMG increased by 12%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by 10/20/30/48%. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+				"Elemental Skill and Elemental Burst DMG increased by 15%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by 12.5/25/37.5/60%. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+				"Elemental Skill and Elemental Burst DMG increased by 18%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by 15/30/45/72%. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+				"Elemental Skill and Elemental Burst DMG increased by 21%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by 17.5/35/52.5/84%. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+				"Elemental Skill and Elemental Burst DMG increased by 24%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by 20/40/60/96%. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"CRIT Rate"
+			],
+			"values": {
+				"1": [
+					"46",
+					"7.2"
+				],
+				"5": [
+					"62",
+					"8.4"
+				],
+				"10": [
+					"82",
+					"9.8"
+				],
+				"15": [
+					"102",
+					"11.3"
+				],
+				"20": [
+					"122",
+					"12.7"
+				],
+				"20+": [
+					"153",
+					"12.7"
+				],
+				"25": [
+					"173",
+					"14.2"
+				],
+				"30": [
+					"194",
+					"15.6"
+				],
+				"35": [
+					"214",
+					"17.1"
+				],
+				"40": [
+					"235",
+					"18.5"
+				],
+				"40+": [
+					"266",
+					"18.5"
+				],
+				"45": [
+					"287",
+					"20"
+				],
+				"50": [
+					"308",
+					"21.4"
+				],
+				"50+": [
+					"340",
+					"21.4"
+				],
+				"55": [
+					"361",
+					"22.9"
+				],
+				"60": [
+					"382",
+					"24.4"
+				],
+				"60+": [
+					"414",
+					"24.4"
+				],
+				"65": [
+					"435",
+					"25.8"
+				],
+				"70": [
+					"457",
+					"27.3"
+				],
+				"70+": [
+					"488",
+					"27.3"
+				],
+				"75": [
+					"510",
+					"28.7"
+				],
+				"80": [
+					"532",
+					"30.2"
+				],
+				"80+": [
+					"563",
+					"30.2"
+				],
+				"85": [
+					"586",
+					"31.6"
+				],
+				"90": [
+					"608",
+					"33.1"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"mask_of_the_wicked_lieutenant": 5,
+				"concealed_claw": 5,
+				"spectral_husk": 3,
+				"mora": 10000
+			},
+			{
+				"mask_of_the_tigers_bite": 5,
+				"concealed_claw": 18,
+				"spectral_husk": 12,
+				"mora": 20000
+			},
+			{
+				"mask_of_the_tigers_bite": 9,
+				"concealed_unguis": 9,
+				"spectral_heart": 9,
+				"mora": 30000
+			},
+			{
+				"mask_of_the_one_horned": 5,
+				"concealed_unguis": 18,
+				"spectral_heart": 14,
+				"mora": 45000
+			},
+			{
+				"mask_of_the_one_horned": 9,
+				"concealed_talon": 14,
+				"spectral_nucleus": 9,
+				"mora": 55000
+			},
+			{
+				"mask_of_the_kijin": 6,
+				"concealed_talon": 27,
+				"spectral_nucleus": 18,
+				"mora": 65000
+			}
+		]
+	}
+}

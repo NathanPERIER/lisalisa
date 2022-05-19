@@ -1,0 +1,856 @@
+{
+	"name": "Traveler",
+	"title": "None",
+	"allegiance": "-",
+	"rarity": 5,
+	"vision": "Electro",
+	"astrolabe": "Viatrix",
+	"weapon": "sword",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"ATK",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"912",
+				"18",
+				"57",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"2342",
+				"46",
+				"147",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"3024",
+				"59",
+				"190",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"4529",
+				"88",
+				"284",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"5013",
+				"98",
+				"315",
+				"6%",
+				"5%",
+				"50%"
+			],
+			"50": [
+				"5766",
+				"113",
+				"362",
+				"6%",
+				"5%",
+				"50%"
+			],
+			"50+": [
+				"6411",
+				"125",
+				"402",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"60": [
+				"7164",
+				"140",
+				"450",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"60+": [
+				"7648",
+				"149",
+				"480",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"70": [
+				"8401",
+				"164",
+				"527",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"70+": [
+				"8885",
+				"174",
+				"558",
+				"18%",
+				"5%",
+				"50%"
+			],
+			"80": [
+				"9638",
+				"188",
+				"605",
+				"18%",
+				"5%",
+				"50%"
+			],
+			"80+": [
+				"10122",
+				"198",
+				"635",
+				"24%",
+				"5%",
+				"50%"
+			],
+			"90": [
+				"10875",
+				"212",
+				"683",
+				"24%",
+				"5%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"brilliant_diamond_sliver": 1,
+			"windwheel_aster": 3,
+			"damaged_mask": 3,
+			"mora": 20000
+		},
+		{
+			"brilliant_diamond_fragment": 3,
+			"windwheel_aster": 10,
+			"damaged_mask": 15,
+			"mora": 40000
+		},
+		{
+			"brilliant_diamond_fragment": 6,
+			"windwheel_aster": 20,
+			"stained_mask": 12,
+			"mora": 60000
+		},
+		{
+			"brilliant_diamond_chunk": 3,
+			"windwheel_aster": 30,
+			"stained_mask": 18,
+			"mora": 80000
+		},
+		{
+			"brilliant_diamond_chunk": 6,
+			"windwheel_aster": 45,
+			"ominous_mask": 12,
+			"mora": 100000
+		},
+		{
+			"brilliant_diamond_gemstone": 6,
+			"windwheel_aster": 60,
+			"ominous_mask": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Foreign Thundershock",
+			"desc": [
+				[
+					"Normal Attack",
+					"Performs up to 5 rapid strikes."
+				],
+				[
+					"Charged Attack",
+					"Consumes a certain amount of Stamina to unleash 2 rapid sword strikes."
+				],
+				[
+					"Plunging Attack",
+					"Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"44.46%",
+						"43.43%",
+						"52.98%",
+						"58.31%",
+						"70.78%",
+						"55.9%",
+						"20",
+						"63.93%",
+						"127.84%"
+					],
+					[
+						"48.08%",
+						"46.97%",
+						"57.29%",
+						"63.05%",
+						"76.54%",
+						"60.45%",
+						"20",
+						"69.14%",
+						"138.24%"
+					],
+					[
+						"51.7%",
+						"50.5%",
+						"61.6%",
+						"67.8%",
+						"82.3%",
+						"65%",
+						"20",
+						"74.34%",
+						"148.65%"
+					],
+					[
+						"56.87%",
+						"55.55%",
+						"67.76%",
+						"74.58%",
+						"90.53%",
+						"71.5%",
+						"20",
+						"81.77%",
+						"163.51%"
+					],
+					[
+						"60.49%",
+						"59.09%",
+						"72.07%",
+						"79.33%",
+						"96.29%",
+						"76.05%",
+						"20",
+						"86.98%",
+						"173.92%"
+					],
+					[
+						"64.63%",
+						"63.13%",
+						"77%",
+						"84.75%",
+						"102.88%",
+						"81.25%",
+						"20",
+						"92.93%",
+						"185.81%"
+					],
+					[
+						"70.31%",
+						"68.68%",
+						"83.78%",
+						"92.21%",
+						"111.93%",
+						"88.4%",
+						"20",
+						"101.1%",
+						"202.16%"
+					],
+					[
+						"76%",
+						"74.23%",
+						"90.55%",
+						"99.67%",
+						"120.98%",
+						"95.55%",
+						"20",
+						"109.28%",
+						"218.51%"
+					],
+					[
+						"81.69%",
+						"79.79%",
+						"97.33%",
+						"107.12%",
+						"130.03%",
+						"102.7%",
+						"20",
+						"117.46%",
+						"234.86%"
+					],
+					[
+						"87.89%",
+						"85.85%",
+						"104.72%",
+						"115.26%",
+						"139.91%",
+						"110.5%",
+						"20",
+						"126.38%",
+						"252.7%"
+					],
+					[
+						"94.09%",
+						"91.91%",
+						"112.11%",
+						"123.4%",
+						"149.79%",
+						"118.3%",
+						"20",
+						"135.3%",
+						"270.54%"
+					],
+					[
+						"100.3%",
+						"97.97%",
+						"119.5%",
+						"131.53%",
+						"159.66%",
+						"126.1%",
+						"20",
+						"144.22%",
+						"288.38%"
+					],
+					[
+						"106.5%",
+						"104.03%",
+						"126.9%",
+						"139.67%",
+						"169.54%",
+						"133.9%",
+						"20",
+						"153.14%",
+						"306.22%"
+					],
+					[
+						"112.71%",
+						"110.09%",
+						"134.29%",
+						"147.8%",
+						"179.41%",
+						"141.7%",
+						"20",
+						"162.06%",
+						"324.05%"
+					],
+					[
+						"118.91%",
+						"116.15%",
+						"141.68%",
+						"155.94%",
+						"189.29%",
+						"149.5%",
+						"20",
+						"170.98%",
+						"341.89%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Lightning Blade",
+			"desc": [
+				[
+					null,
+					"Unleashes three swift thunder shadows that deal Electro DMG to opponents and leave an Abundance Amulet behind after hitting an opponent.\n2 Abundance Amulets can be created initially. Using this skill will reset any Abundance Amulets that were generated."
+				],
+				[
+					"Abundance Amulets",
+					"When a character is near an Abundance Amulet, they will absorb it and obtain the following effects:\n\u2022 Restores Elemental Energy\n\u2022 Increases Energy Recharge during the Abundance Amulet's duration."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Skill DMG",
+					"Energy Regeneration",
+					"Energy Recharge Increase",
+					"Duration",
+					"Abundance Amulet Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"78.66%",
+						"3 Per Amulet",
+						"20%",
+						"6s",
+						"15s",
+						"13.5s"
+					],
+					[
+						"84.56%",
+						"3 Per Amulet",
+						"20%",
+						"6s",
+						"15s",
+						"13.5s"
+					],
+					[
+						"90.46%",
+						"3 Per Amulet",
+						"20%",
+						"6s",
+						"15s",
+						"13.5s"
+					],
+					[
+						"98.33%",
+						"3.5 Per Amulet",
+						"20%",
+						"6s",
+						"15s",
+						"13.5s"
+					],
+					[
+						"104.23%",
+						"3.5 Per Amulet",
+						"20%",
+						"6s",
+						"15s",
+						"13.5s"
+					],
+					[
+						"110.13%",
+						"3.5 Per Amulet",
+						"20%",
+						"6s",
+						"15s",
+						"13.5s"
+					],
+					[
+						"118%",
+						"4 Per Amulet",
+						"20%",
+						"6s",
+						"15s",
+						"13.5s"
+					],
+					[
+						"125.86%",
+						"4 Per Amulet",
+						"20%",
+						"6s",
+						"15s",
+						"13.5s"
+					],
+					[
+						"133.73%",
+						"4 Per Amulet",
+						"20%",
+						"6s",
+						"15s",
+						"13.5s"
+					],
+					[
+						"141.6%",
+						"4 Per Amulet",
+						"20%",
+						"6s",
+						"15s",
+						"13.5s"
+					],
+					[
+						"149.46%",
+						"4 Per Amulet",
+						"20%",
+						"6s",
+						"15s",
+						"13.5s"
+					],
+					[
+						"157.33%",
+						"4 Per Amulet",
+						"20%",
+						"6s",
+						"15s",
+						"13.5s"
+					],
+					[
+						"167.16%",
+						"4 Per Amulet",
+						"20%",
+						"6s",
+						"15s",
+						"13.5s"
+					],
+					[
+						"176.99%",
+						"4 Per Amulet",
+						"20%",
+						"6s",
+						"15s",
+						"13.5s"
+					],
+					[
+						"186.83%",
+						"4 Per Amulet",
+						"20%",
+						"6s",
+						"15s",
+						"13.5s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Bellowing Thunder",
+			"desc": [
+				[
+					null,
+					"You call upon the protection of lightning, knocking nearby opponents back and dealing Electro DMG to them."
+				],
+				[
+					"Lightning Shroud",
+					"When your active character's Normal or Charged Attacks hit opponents, they will call Falling Thunder forth, dealing Electro DMG.\nWhen Falling Thunder hits opponents, it will regenerate Energy for that character.\nOne instance of Falling Thunder can be generated every 0.5s."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Skill DMG",
+					"Falling Thunder DMG",
+					"Energy Regeneration",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"114.4%",
+						"32.8%",
+						"0.8",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"122.98%",
+						"35.26%",
+						"0.8",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"131.56%",
+						"37.72%",
+						"0.8",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"143%",
+						"41%",
+						"0.9",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"151.58%",
+						"43.46%",
+						"0.9",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"160.16%",
+						"45.92%",
+						"0.9",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"171.6%",
+						"49.2%",
+						"1",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"183.04%",
+						"52.48%",
+						"1",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"194.48%",
+						"55.76%",
+						"1",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"205.92%",
+						"59.04%",
+						"1",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"217.36%",
+						"62.32%",
+						"1",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"228.8%",
+						"65.6%",
+						"1",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"243.1%",
+						"69.7%",
+						"1",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"257.4%",
+						"73.8%",
+						"1",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"271.7%",
+						"77.9%",
+						"1",
+						"12s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_transience": 3,
+					"old_handguard": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_elegance": 2,
+					"kageuchi_handguard": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_light": 4,
+					"kageuchi_handguard": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_transience": 6,
+					"kageuchi_handguard": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_elegance": 9,
+					"kageuchi_handguard": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_light": 4,
+					"famed_handguard": 4,
+					"dragon_lords_crown": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_transience": 6,
+					"famed_handguard": 6,
+					"dragon_lords_crown": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_elegance": 12,
+					"famed_handguard": 9,
+					"dragon_lords_crown": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_light": 16,
+					"famed_handguard": 12,
+					"dragon_lords_crown": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			},
+			{
+				"Lv2": {
+					"teachings_of_transience": 3,
+					"old_handguard": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_elegance": 2,
+					"kageuchi_handguard": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_light": 4,
+					"kageuchi_handguard": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_transience": 6,
+					"kageuchi_handguard": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_elegance": 9,
+					"kageuchi_handguard": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_light": 4,
+					"famed_handguard": 4,
+					"dragon_lords_crown": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_transience": 6,
+					"famed_handguard": 6,
+					"dragon_lords_crown": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_elegance": 12,
+					"famed_handguard": 9,
+					"dragon_lords_crown": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_light": 16,
+					"famed_handguard": 12,
+					"dragon_lords_crown": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			},
+			{
+				"Lv2": {
+					"teachings_of_transience": 3,
+					"old_handguard": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_elegance": 2,
+					"kageuchi_handguard": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_light": 4,
+					"kageuchi_handguard": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_transience": 6,
+					"kageuchi_handguard": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_elegance": 9,
+					"kageuchi_handguard": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_light": 4,
+					"famed_handguard": 4,
+					"dragon_lords_crown": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_transience": 6,
+					"famed_handguard": 6,
+					"dragon_lords_crown": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_elegance": 12,
+					"famed_handguard": 9,
+					"dragon_lords_crown": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_light": 16,
+					"famed_handguard": 12,
+					"dragon_lords_crown": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Thunderflash",
+			"desc": "When another nearby character in the party obtains an Abundance Amulet created by Lightning Blade, Lightning Blade's CD is decreased by 1.5s."
+		},
+		{
+			"name": "Resounding Roar",
+			"desc": "Increases the Energy Recharge effect granted by Lightning Blade's Abundance Amulet by 10% of the Traveler's Energy Recharge."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Spring Thunder of Fertility",
+			"desc": "The number of Abundance Amulets that can be generated using Lightning Blade is increased to 3."
+		},
+		{
+			"name": "Violet Vehemence",
+			"desc": "When Falling Thunder created by Bellowing Thunder hits an opponent, it will decrease their Electro RES by 15% for 8s."
+		},
+		{
+			"name": "Distant Crackling",
+			"desc": "Increases the Level of Bellowing Thunder by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Fickle Cloudstrike",
+			"desc": "When a character obtains Abundance Amulets generated by Lightning Blade, if this character's Energy is less than 35%, the Energy restored by the Abundance Amulets is increased by 100%."
+		},
+		{
+			"name": "Clamor in the Wilds",
+			"desc": "Increases the Level of Lightning Blade by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "World-Shaker",
+			"desc": "Every 2 Falling Thunder attacks triggered by Bellowing Thunder will greatly increase the DMG dealt by the next Falling Thunder, which will deal 200% of its original DMG and will restore an additional 1 Energy to the current character."
+		}
+	],
+	"constellation_increase_burst": 3,
+	"constellation_increase_skill": 5
+}

@@ -1,0 +1,693 @@
+{
+	"name": "Xingqiu",
+	"title": "Juvenile Galant",
+	"allegiance": "Feiyun Commerce Guild",
+	"rarity": 4,
+	"vision": "Hydro",
+	"astrolabe": "Fabulae Textile",
+	"weapon": "sword",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"ATK",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"857",
+				"17",
+				"64",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"2202",
+				"43",
+				"163",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"2842",
+				"56",
+				"211",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"4257",
+				"84",
+				"316",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"4712",
+				"93",
+				"349",
+				"6%",
+				"5%",
+				"50%"
+			],
+			"50": [
+				"5420",
+				"107",
+				"402",
+				"6%",
+				"5%",
+				"50%"
+			],
+			"50+": [
+				"6027",
+				"119",
+				"447",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"60": [
+				"6735",
+				"133",
+				"499",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"60+": [
+				"7190",
+				"142",
+				"533",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"70": [
+				"7897",
+				"156",
+				"585",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"70+": [
+				"8352",
+				"165",
+				"619",
+				"18%",
+				"5%",
+				"50%"
+			],
+			"80": [
+				"9060",
+				"179",
+				"671",
+				"18%",
+				"5%",
+				"50%"
+			],
+			"80+": [
+				"9514",
+				"188",
+				"705",
+				"24%",
+				"5%",
+				"50%"
+			],
+			"90": [
+				"10222",
+				"202",
+				"758",
+				"24%",
+				"5%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"varunada_lazurite_sliver": 1,
+			"silk_flower": 3,
+			"damaged_mask": 3,
+			"mora": 20000
+		},
+		{
+			"varunada_lazurite_fragment": 3,
+			"cleansing_heart": 2,
+			"silk_flower": 10,
+			"damaged_mask": 15,
+			"mora": 40000
+		},
+		{
+			"varunada_lazurite_fragment": 6,
+			"cleansing_heart": 4,
+			"silk_flower": 20,
+			"stained_mask": 12,
+			"mora": 60000
+		},
+		{
+			"varunada_lazurite_chunk": 3,
+			"cleansing_heart": 8,
+			"silk_flower": 30,
+			"stained_mask": 18,
+			"mora": 80000
+		},
+		{
+			"varunada_lazurite_chunk": 6,
+			"cleansing_heart": 12,
+			"silk_flower": 45,
+			"ominous_mask": 12,
+			"mora": 100000
+		},
+		{
+			"varunada_lazurite_gemstone": 6,
+			"cleansing_heart": 20,
+			"silk_flower": 60,
+			"ominous_mask": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Guhua Style",
+			"desc": [
+				[
+					"Normal Attack",
+					"Perform up to 5 rapid strikes."
+				],
+				[
+					"Charged Attack",
+					"Consumes a certain amount of Stamina to unleash 2 rapid sword strikes."
+				],
+				[
+					"Plunging Attack",
+					"Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"46.61%",
+						"47.64%",
+						"28.55%",
+						"55.99%",
+						"35.86%",
+						"47.3%",
+						"20",
+						"63.93%",
+						"127.84%"
+					],
+					[
+						"50.41%",
+						"51.52%",
+						"30.88%",
+						"60.54%",
+						"38.78%",
+						"51.15%",
+						"20",
+						"69.14%",
+						"138.24%"
+					],
+					[
+						"54.2%",
+						"55.4%",
+						"33.2%",
+						"65.1%",
+						"41.7%",
+						"55%",
+						"20",
+						"74.34%",
+						"148.65%"
+					],
+					[
+						"59.62%",
+						"60.94%",
+						"36.52%",
+						"71.61%",
+						"45.87%",
+						"60.5%",
+						"20",
+						"81.77%",
+						"163.51%"
+					],
+					[
+						"63.41%",
+						"64.82%",
+						"38.84%",
+						"76.17%",
+						"48.79%",
+						"64.35%",
+						"20",
+						"86.98%",
+						"173.92%"
+					],
+					[
+						"67.75%",
+						"69.25%",
+						"41.5%",
+						"81.38%",
+						"52.13%",
+						"68.75%",
+						"20",
+						"92.93%",
+						"185.81%"
+					],
+					[
+						"73.71%",
+						"75.34%",
+						"45.15%",
+						"88.54%",
+						"56.71%",
+						"74.8%",
+						"20",
+						"101.1%",
+						"202.16%"
+					],
+					[
+						"79.67%",
+						"81.44%",
+						"48.8%",
+						"95.7%",
+						"61.3%",
+						"80.85%",
+						"20",
+						"109.28%",
+						"218.51%"
+					],
+					[
+						"85.64%",
+						"87.53%",
+						"52.46%",
+						"102.86%",
+						"65.89%",
+						"86.9%",
+						"20",
+						"117.46%",
+						"234.86%"
+					],
+					[
+						"92.14%",
+						"94.18%",
+						"56.44%",
+						"110.67%",
+						"70.89%",
+						"93.5%",
+						"20",
+						"126.38%",
+						"252.7%"
+					],
+					[
+						"99.59%",
+						"101.8%",
+						"61.01%",
+						"119.62%",
+						"76.62%",
+						"101.06%",
+						"20",
+						"135.3%",
+						"270.54%"
+					],
+					[
+						"108.36%",
+						"110.76%",
+						"66.37%",
+						"130.15%",
+						"83.37%",
+						"109.96%",
+						"20",
+						"144.22%",
+						"288.38%"
+					],
+					[
+						"117.12%",
+						"119.71%",
+						"71.74%",
+						"140.67%",
+						"90.11%",
+						"118.85%",
+						"20",
+						"153.14%",
+						"306.22%"
+					],
+					[
+						"125.88%",
+						"128.67%",
+						"77.11%",
+						"151.2%",
+						"96.85%",
+						"127.74%",
+						"20",
+						"162.06%",
+						"324.05%"
+					],
+					[
+						"135.45%",
+						"138.44%",
+						"82.97%",
+						"162.68%",
+						"104.21%",
+						"137.45%",
+						"20",
+						"170.98%",
+						"341.89%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Guhua Sword: Fatal Rainscreen",
+			"desc": [
+				[
+					null,
+					"Xingqiu performs twin strikes with his sword, dealing Hydro DMG. At the same time, this ability creates the maximum number of Rain Swords, which will orbit your active character.\nThe Rain Swords have the following properties:\n\u2022 When a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken.\n\u2022 Increases the character's resistance to interruption.\n20% of Xingqiu's Hydro DMG Bonus will be converted to additional DMG Reduction for the Rain Swords.\nThe maximum amount of additional DMG Reduction that can be gained this way is 24%.\nThe initial maximum number of Rain Swords is 3.\nUsing this ability applies the Wet status onto the character."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Skill DMG",
+					"Damage Reduction Ratio",
+					"Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"168%",
+						"20%",
+						"15s",
+						"21s"
+					],
+					[
+						"180.6%",
+						"21%",
+						"15s",
+						"21s"
+					],
+					[
+						"193.2%",
+						"22%",
+						"15s",
+						"21s"
+					],
+					[
+						"210%",
+						"23%",
+						"15s",
+						"21s"
+					],
+					[
+						"222.6%",
+						"24%",
+						"15s",
+						"21s"
+					],
+					[
+						"235.2%",
+						"25%",
+						"15s",
+						"21s"
+					],
+					[
+						"252%",
+						"26%",
+						"15s",
+						"21s"
+					],
+					[
+						"268.8%",
+						"27%",
+						"15s",
+						"21s"
+					],
+					[
+						"285.6%",
+						"28%",
+						"15s",
+						"21s"
+					],
+					[
+						"302.4%",
+						"29%",
+						"15s",
+						"21s"
+					],
+					[
+						"319.2%",
+						"29%",
+						"15s",
+						"21s"
+					],
+					[
+						"336%",
+						"29%",
+						"15s",
+						"21s"
+					],
+					[
+						"357%",
+						"29%",
+						"15s",
+						"21s"
+					],
+					[
+						"378%",
+						"29%",
+						"15s",
+						"21s"
+					],
+					[
+						"399%",
+						"29%",
+						"15s",
+						"21s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Guhua Sword: Raincutter",
+			"desc": [
+				[
+					null,
+					"Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords."
+				],
+				[
+					"Rainbow Bladework",
+					"\u2022 Your active character's Normal Attacks will trigger consecutive sword rain attacks, dealing Hydro DMG.\n\u2022 Rain Swords will remain at the maximum number throughout the ability's duration."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Sword Rain DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"54.27%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"58.34%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"62.41%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"67.84%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"71.91%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"75.98%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"81.41%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"86.84%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"92.26%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"97.69%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"103.12%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"108.54%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"115.33%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"122.11%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"128.9%",
+						"15s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_gold": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_gold": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_gold": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_gold": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_gold": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_gold": 4,
+					"ominous_mask": 4,
+					"tail_of_boreas": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_gold": 6,
+					"ominous_mask": 6,
+					"tail_of_boreas": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_gold": 12,
+					"ominous_mask": 9,
+					"tail_of_boreas": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_gold": 16,
+					"ominous_mask": 12,
+					"tail_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Flash of Genius",
+			"desc": "When Xingqiu crafts Character Talent Materials, he has a 25% chance to refund a portion of the crafting materials used."
+		},
+		{
+			"name": "Hydropathic",
+			"desc": "When a Rain Sword is shattered or when its duration expires, it regenerates the current character's HP based on 6% of Xingqiu's Max HP."
+		},
+		{
+			"name": "Blades Amidst Raindrops",
+			"desc": "Xingqiu gains a 20% Hydro DMG Bonus."
+		}
+	],
+	"constellations": [
+		{
+			"name": "The Scent Remained",
+			"desc": "Increases the maximum number of Rain Swords by 1."
+		},
+		{
+			"name": "Rainbow Upon the Azure Sky",
+			"desc": "Extends the duration of Guhua Sword: Raincutter by 3s.\n Decreases the Hydro RES of opponents hit by sword rain attacks by 15% for 4s."
+		},
+		{
+			"name": "Weaver of Verses",
+			"desc": "Increases the Level of Guhua Sword: Raincutter by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Evilsoother",
+			"desc": "Throughout the duration of Guhua Sword: Raincutter, the DMG dealt by Guhua Sword: Fatal Rainscreen is increased by 50%."
+		},
+		{
+			"name": "Embrace of Rain",
+			"desc": "Increases the Level of Guhua Sword: Fatal Rainscreen by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Hence, Call Them My Own Verses",
+			"desc": "Activating 2 of Guhua Sword: Raincutter's sword rain attacks greatly enhances the third sword rain attack. On hit, the third sword rain attack also regenerates 3 Energy for Xingqiu."
+		}
+	],
+	"constellation_increase_burst": 3,
+	"constellation_increase_skill": 5
+}

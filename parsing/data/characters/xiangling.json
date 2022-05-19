@@ -1,0 +1,705 @@
+{
+	"name": "Xiangling",
+	"title": "Exquisite Delicacy",
+	"allegiance": "Wanmin Restaurant",
+	"rarity": 4,
+	"vision": "Pyro",
+	"astrolabe": "Trulla",
+	"weapon": "polearm",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"Elemental Mastery",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"912",
+				"19",
+				"56",
+				"0",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"2342",
+				"48",
+				"144",
+				"0",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"3024",
+				"63",
+				"186",
+				"0",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"4529",
+				"94",
+				"279",
+				"0",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"5013",
+				"104",
+				"308",
+				"24",
+				"5%",
+				"50%"
+			],
+			"50": [
+				"5766",
+				"119",
+				"355",
+				"24",
+				"5%",
+				"50%"
+			],
+			"50+": [
+				"6411",
+				"133",
+				"394",
+				"48",
+				"5%",
+				"50%"
+			],
+			"60": [
+				"7164",
+				"148",
+				"441",
+				"48",
+				"5%",
+				"50%"
+			],
+			"60+": [
+				"7648",
+				"158",
+				"470",
+				"48",
+				"5%",
+				"50%"
+			],
+			"70": [
+				"8401",
+				"174",
+				"517",
+				"48",
+				"5%",
+				"50%"
+			],
+			"70+": [
+				"8885",
+				"184",
+				"546",
+				"72",
+				"5%",
+				"50%"
+			],
+			"80": [
+				"9638",
+				"200",
+				"593",
+				"72",
+				"5%",
+				"50%"
+			],
+			"80+": [
+				"10122",
+				"210",
+				"623",
+				"96",
+				"5%",
+				"50%"
+			],
+			"90": [
+				"10875",
+				"225",
+				"669",
+				"96",
+				"5%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"agnidus_agate_sliver": 1,
+			"jueyun_chili": 3,
+			"slime_condensate": 3,
+			"mora": 20000
+		},
+		{
+			"agnidus_agate_fragment": 3,
+			"everflame_seed": 2,
+			"jueyun_chili": 10,
+			"slime_condensate": 15,
+			"mora": 40000
+		},
+		{
+			"agnidus_agate_fragment": 6,
+			"everflame_seed": 4,
+			"jueyun_chili": 20,
+			"slime_secretions": 12,
+			"mora": 60000
+		},
+		{
+			"agnidus_agate_chunk": 3,
+			"everflame_seed": 8,
+			"jueyun_chili": 30,
+			"slime_secretions": 18,
+			"mora": 80000
+		},
+		{
+			"agnidus_agate_chunk": 6,
+			"everflame_seed": 12,
+			"jueyun_chili": 45,
+			"slime_concentrate": 12,
+			"mora": 100000
+		},
+		{
+			"agnidus_agate_gemstone": 6,
+			"everflame_seed": 20,
+			"jueyun_chili": 60,
+			"slime_concentrate": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Dough-Fu",
+			"desc": [
+				[
+					"Normal Attack",
+					"Performs up to five consecutive spear strikes."
+				],
+				[
+					"Charged Attack",
+					"Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way."
+				],
+				[
+					"Plunging Attack",
+					"Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"42.05%",
+						"42.14%",
+						"26.06%",
+						"14.1%*4",
+						"71.04%",
+						"121.69%",
+						"25",
+						"63.93%",
+						"127.84%"
+					],
+					[
+						"45.48%",
+						"45.57%",
+						"28.18%",
+						"15.25%*4",
+						"76.82%",
+						"131.6%",
+						"25",
+						"69.14%",
+						"138.24%"
+					],
+					[
+						"48.9%",
+						"49%",
+						"30.3%",
+						"16.4%*4",
+						"82.6%",
+						"141.5%",
+						"25",
+						"74.34%",
+						"148.65%"
+					],
+					[
+						"53.79%",
+						"53.9%",
+						"33.33%",
+						"18.04%*4",
+						"90.86%",
+						"155.65%",
+						"25",
+						"81.77%",
+						"163.51%"
+					],
+					[
+						"57.21%",
+						"57.33%",
+						"35.45%",
+						"19.19%*4",
+						"96.64%",
+						"165.56%",
+						"25",
+						"86.98%",
+						"173.92%"
+					],
+					[
+						"61.13%",
+						"61.25%",
+						"37.87%",
+						"20.5%*4",
+						"103.25%",
+						"176.88%",
+						"25",
+						"92.93%",
+						"185.81%"
+					],
+					[
+						"66.5%",
+						"66.64%",
+						"41.21%",
+						"22.3%*4",
+						"112.34%",
+						"192.44%",
+						"25",
+						"101.1%",
+						"202.16%"
+					],
+					[
+						"71.88%",
+						"72.03%",
+						"44.54%",
+						"24.11%*4",
+						"121.42%",
+						"208.01%",
+						"25",
+						"109.28%",
+						"218.51%"
+					],
+					[
+						"77.26%",
+						"77.42%",
+						"47.87%",
+						"25.91%*4",
+						"130.51%",
+						"223.57%",
+						"25",
+						"117.46%",
+						"234.86%"
+					],
+					[
+						"83.13%",
+						"83.3%",
+						"51.51%",
+						"27.88%*4",
+						"140.42%",
+						"240.55%",
+						"25",
+						"126.38%",
+						"252.7%"
+					],
+					[
+						"89.85%",
+						"90.04%",
+						"55.68%",
+						"30.14%*4",
+						"151.78%",
+						"260.01%",
+						"25",
+						"135.3%",
+						"270.54%"
+					],
+					[
+						"97.76%",
+						"97.96%",
+						"60.58%",
+						"32.79%*4",
+						"165.13%",
+						"282.89%",
+						"25",
+						"144.22%",
+						"288.38%"
+					],
+					[
+						"105.67%",
+						"105.88%",
+						"65.48%",
+						"35.44%*4",
+						"178.49%",
+						"305.77%",
+						"25",
+						"153.14%",
+						"306.22%"
+					],
+					[
+						"113.58%",
+						"113.81%",
+						"70.37%",
+						"38.09%*4",
+						"191.85%",
+						"328.65%",
+						"25",
+						"162.06%",
+						"324.05%"
+					],
+					[
+						"122.2%",
+						"122.45%",
+						"75.72%",
+						"40.98%*4",
+						"206.42%",
+						"353.61%",
+						"25",
+						"170.98%",
+						"341.89%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Guoba Attack",
+			"desc": [
+				[
+					null,
+					"Summons Guoba, who will continuously breathe fire at opponents, dealing AoE Pyro DMG."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Flame DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"111.28%",
+						"12s"
+					],
+					[
+						"119.63%",
+						"12s"
+					],
+					[
+						"127.97%",
+						"12s"
+					],
+					[
+						"139.1%",
+						"12s"
+					],
+					[
+						"147.45%",
+						"12s"
+					],
+					[
+						"155.79%",
+						"12s"
+					],
+					[
+						"166.92%",
+						"12s"
+					],
+					[
+						"178.05%",
+						"12s"
+					],
+					[
+						"189.18%",
+						"12s"
+					],
+					[
+						"200.3%",
+						"12s"
+					],
+					[
+						"211.43%",
+						"12s"
+					],
+					[
+						"222.56%",
+						"12s"
+					],
+					[
+						"236.47%",
+						"12s"
+					],
+					[
+						"250.38%",
+						"12s"
+					],
+					[
+						"264.29%",
+						"12s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Pyronado",
+			"desc": [
+				[
+					null,
+					"Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her.\nThe Pyronado will move with your character for the ability's duration, dealing Pyro DMG to all opponents in its path."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit Swing DMG",
+					"2-Hit Swing DMG",
+					"3-Hit Swing DMG",
+					"Pyronado DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"72%",
+						"88%",
+						"109.6%",
+						"112%",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"77.4%",
+						"94.6%",
+						"117.82%",
+						"120.4%",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"82.8%",
+						"101.2%",
+						"126.04%",
+						"128.8%",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"90%",
+						"110%",
+						"137%",
+						"140%",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"95.4%",
+						"116.6%",
+						"145.22%",
+						"148.4%",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"100.8%",
+						"123.2%",
+						"153.44%",
+						"156.8%",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"108%",
+						"132%",
+						"164.4%",
+						"168%",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"115.2%",
+						"140.8%",
+						"175.36%",
+						"179.2%",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"122.4%",
+						"149.6%",
+						"186.32%",
+						"190.4%",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"129.6%",
+						"158.4%",
+						"197.28%",
+						"201.6%",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"136.8%",
+						"167.2%",
+						"208.24%",
+						"212.8%",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"144%",
+						"176%",
+						"219.2%",
+						"224%",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"153%",
+						"187%",
+						"232.9%",
+						"238%",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"162%",
+						"198%",
+						"246.6%",
+						"252%",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"171%",
+						"209%",
+						"260.3%",
+						"266%",
+						"10s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_diligence": 3,
+					"slime_condensate": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_diligence": 2,
+					"slime_secretions": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_diligence": 4,
+					"slime_secretions": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_diligence": 6,
+					"slime_secretions": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_diligence": 9,
+					"slime_secretions": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_diligence": 4,
+					"slime_concentrate": 4,
+					"dvalins_claw": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_diligence": 6,
+					"slime_concentrate": 6,
+					"dvalins_claw": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_diligence": 12,
+					"slime_concentrate": 9,
+					"dvalins_claw": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_diligence": 16,
+					"slime_concentrate": 12,
+					"dvalins_claw": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Chef de Cuisine",
+			"desc": "When Xiangling cooks an ATK-boosting dish perfectly, she has a 12% chance to receive double the product."
+		},
+		{
+			"name": "Crossfire",
+			"desc": "Increases the flame range of Guoba by 20%."
+		},
+		{
+			"name": "Beware, It's Super Hot!",
+			"desc": "When Guoba Attack's effect ends, Guoba leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases ATK by 10% for 10s."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Crispy Outside, Tender Inside",
+			"desc": "Opponents hit by Guoba's attacks have their Pyro RES reduced by 15% for 6s."
+		},
+		{
+			"name": "Oil Meets Fire",
+			"desc": "The last attack in a Normal Attack sequence applies the Implode status onto the opponent for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as AoE Pyro DMG."
+		},
+		{
+			"name": "Deepfry",
+			"desc": "Increases the Level of Pyronado by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Slowbake",
+			"desc": "Pyronado's duration is increased by 40%."
+		},
+		{
+			"name": "Guoba Mad",
+			"desc": "Increases the Level of Guoba Attack by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Condensed Pyronado",
+			"desc": "For the duration of Pyronado, all party members receive a 15% Pyro DMG Bonus."
+		}
+	],
+	"constellation_increase_burst": 3,
+	"constellation_increase_skill": 5
+}

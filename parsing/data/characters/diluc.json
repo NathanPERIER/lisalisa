@@ -1,0 +1,722 @@
+{
+	"name": "Diluc",
+	"title": "The Dark Side of Dawn",
+	"allegiance": "Dawn Winery",
+	"rarity": 5,
+	"vision": "Pyro",
+	"astrolabe": "Noctua",
+	"weapon": "claymore",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"1011",
+				"26",
+				"61",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"2621",
+				"68",
+				"158",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"3488",
+				"90",
+				"211",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"5219",
+				"135",
+				"315",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"5834",
+				"151",
+				"352",
+				"9.8%",
+				"50%"
+			],
+			"50": [
+				"6712",
+				"173",
+				"405",
+				"9.8%",
+				"50%"
+			],
+			"50+": [
+				"7533",
+				"194",
+				"455",
+				"14.6%",
+				"50%"
+			],
+			"60": [
+				"8421",
+				"217",
+				"509",
+				"14.6%",
+				"50%"
+			],
+			"60+": [
+				"9036",
+				"233",
+				"546",
+				"14.6%",
+				"50%"
+			],
+			"70": [
+				"9932",
+				"256",
+				"600",
+				"14.6%",
+				"50%"
+			],
+			"70+": [
+				"10547",
+				"272",
+				"637",
+				"19.4%",
+				"50%"
+			],
+			"80": [
+				"11453",
+				"295",
+				"692",
+				"19.4%",
+				"50%"
+			],
+			"80+": [
+				"12068",
+				"311",
+				"729",
+				"24.2%",
+				"50%"
+			],
+			"90": [
+				"12981",
+				"335",
+				"784",
+				"24.2%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"agnidus_agate_sliver": 1,
+			"small_lamp_grass": 3,
+			"recruits_insignia": 3,
+			"mora": 20000
+		},
+		{
+			"agnidus_agate_fragment": 3,
+			"everflame_seed": 2,
+			"small_lamp_grass": 10,
+			"recruits_insignia": 15,
+			"mora": 40000
+		},
+		{
+			"agnidus_agate_fragment": 6,
+			"everflame_seed": 4,
+			"small_lamp_grass": 20,
+			"sergeants_insignia": 12,
+			"mora": 60000
+		},
+		{
+			"agnidus_agate_chunk": 3,
+			"everflame_seed": 8,
+			"small_lamp_grass": 30,
+			"sergeants_insignia": 18,
+			"mora": 80000
+		},
+		{
+			"agnidus_agate_chunk": 6,
+			"everflame_seed": 12,
+			"small_lamp_grass": 45,
+			"lieutenants_insignia": 12,
+			"mora": 100000
+		},
+		{
+			"agnidus_agate_gemstone": 6,
+			"everflame_seed": 20,
+			"small_lamp_grass": 60,
+			"lieutenants_insignia": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Tempered Sword",
+			"desc": [
+				[
+					"Normal Attack",
+					"Perform up to 4 consecutive strikes."
+				],
+				[
+					"Charged Attack",
+					"Drains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash."
+				],
+				[
+					"Plunging Attack",
+					"Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack Spinning DMG",
+					"Charged Attack Final DMG",
+					"Charged Attack Stamina Cost",
+					"Max Duration",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"89.7%",
+						"87.63%",
+						"98.81%",
+						"133.99%",
+						"68.8%",
+						"124.7%",
+						"40/s",
+						"5s",
+						"89.51%",
+						"178.97%"
+					],
+					[
+						"97%",
+						"94.77%",
+						"106.86%",
+						"144.89%",
+						"74.4%",
+						"134.85%",
+						"40/s",
+						"5s",
+						"96.79%",
+						"193.54%"
+					],
+					[
+						"104.3%",
+						"101.9%",
+						"114.9%",
+						"155.8%",
+						"80%",
+						"145%",
+						"40/s",
+						"5s",
+						"104.08%",
+						"208.11%"
+					],
+					[
+						"114.73%",
+						"112.09%",
+						"126.39%",
+						"171.38%",
+						"88%",
+						"159.5%",
+						"40/s",
+						"5s",
+						"114.48%",
+						"228.92%"
+					],
+					[
+						"122.03%",
+						"119.22%",
+						"134.43%",
+						"182.29%",
+						"93.6%",
+						"169.65%",
+						"40/s",
+						"5s",
+						"121.77%",
+						"243.49%"
+					],
+					[
+						"130.38%",
+						"127.38%",
+						"143.63%",
+						"194.75%",
+						"100%",
+						"181.25%",
+						"40/s",
+						"5s",
+						"130.1%",
+						"260.13%"
+					],
+					[
+						"141.85%",
+						"138.58%",
+						"156.26%",
+						"211.89%",
+						"108.8%",
+						"197.2%",
+						"40/s",
+						"5s",
+						"141.54%",
+						"283.03%"
+					],
+					[
+						"153.32%",
+						"149.79%",
+						"168.9%",
+						"229.03%",
+						"117.6%",
+						"213.15%",
+						"40/s",
+						"5s",
+						"152.99%",
+						"305.92%"
+					],
+					[
+						"164.79%",
+						"161%",
+						"181.54%",
+						"246.16%",
+						"126.4%",
+						"229.1%",
+						"40/s",
+						"5s",
+						"164.44%",
+						"328.81%"
+					],
+					[
+						"177.31%",
+						"173.23%",
+						"195.33%",
+						"264.86%",
+						"136%",
+						"246.5%",
+						"40/s",
+						"5s",
+						"176.93%",
+						"353.78%"
+					],
+					[
+						"191.65%",
+						"187.24%",
+						"211.13%",
+						"286.28%",
+						"147%",
+						"266.44%",
+						"40/s",
+						"5s",
+						"189.42%",
+						"378.76%"
+					],
+					[
+						"208.52%",
+						"203.72%",
+						"229.71%",
+						"311.48%",
+						"159.94%",
+						"289.88%",
+						"40/s",
+						"5s",
+						"201.91%",
+						"403.73%"
+					],
+					[
+						"225.38%",
+						"220.2%",
+						"248.29%",
+						"336.67%",
+						"172.87%",
+						"313.33%",
+						"40/s",
+						"5s",
+						"214.4%",
+						"428.7%"
+					],
+					[
+						"242.25%",
+						"236.67%",
+						"266.87%",
+						"361.86%",
+						"185.81%",
+						"336.78%",
+						"40/s",
+						"5s",
+						"226.89%",
+						"453.68%"
+					],
+					[
+						"260.65%",
+						"254.65%",
+						"287.14%",
+						"389.34%",
+						"199.92%",
+						"362.36%",
+						"40/s",
+						"5s",
+						"239.37%",
+						"478.65%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Searing Onslaught",
+			"desc": [
+				[
+					null,
+					"Performs a forward slash that deals Pyro DMG.\nThis skill can be consecutively used 3 times. Enters CD if not cast again within a short period."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"94.4%",
+						"97.6%",
+						"128.8%",
+						"10s"
+					],
+					[
+						"101.48%",
+						"104.92%",
+						"138.46%",
+						"10s"
+					],
+					[
+						"108.56%",
+						"112.24%",
+						"148.12%",
+						"10s"
+					],
+					[
+						"118%",
+						"122%",
+						"161%",
+						"10s"
+					],
+					[
+						"125.08%",
+						"129.32%",
+						"170.66%",
+						"10s"
+					],
+					[
+						"132.16%",
+						"136.64%",
+						"180.32%",
+						"10s"
+					],
+					[
+						"141.6%",
+						"146.4%",
+						"193.2%",
+						"10s"
+					],
+					[
+						"151.04%",
+						"156.16%",
+						"206.08%",
+						"10s"
+					],
+					[
+						"160.48%",
+						"165.92%",
+						"218.96%",
+						"10s"
+					],
+					[
+						"169.92%",
+						"175.68%",
+						"231.84%",
+						"10s"
+					],
+					[
+						"179.36%",
+						"185.44%",
+						"244.72%",
+						"10s"
+					],
+					[
+						"188.8%",
+						"195.2%",
+						"257.6%",
+						"10s"
+					],
+					[
+						"200.6%",
+						"207.4%",
+						"273.7%",
+						"10s"
+					],
+					[
+						"212.4%",
+						"219.6%",
+						"289.8%",
+						"10s"
+					],
+					[
+						"224.2%",
+						"231.8%",
+						"305.9%",
+						"10s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Dawn",
+			"desc": [
+				[
+					null,
+					"Releases intense flames to knock back nearby opponents, dealing Pyro DMG. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive Pyro DMG to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of AoE Pyro DMG.\nThe searing flames that run down his blade cause it to be infused with Pyro."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Slashing DMG",
+					"DoT",
+					"Explosion DMG",
+					"CD",
+					"Infusion Duration",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"204%",
+						"60%",
+						"204%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"219.3%",
+						"64.5%",
+						"219.3%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"234.6%",
+						"69%",
+						"234.6%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"255%",
+						"75%",
+						"255%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"270.3%",
+						"79.5%",
+						"270.3%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"285.6%",
+						"84%",
+						"285.6%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"306%",
+						"90%",
+						"306%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"326.4%",
+						"96%",
+						"326.4%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"346.8%",
+						"102%",
+						"346.8%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"367.2%",
+						"108%",
+						"367.2%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"387.6%",
+						"114%",
+						"387.6%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"408%",
+						"120%",
+						"408%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"433.5%",
+						"127.5%",
+						"433.5%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"459%",
+						"135%",
+						"459%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"484.5%",
+						"142.5%",
+						"484.5%",
+						"12s",
+						"8s",
+						"40"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_resistance": 3,
+					"recruits_insignia": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_resistance": 2,
+					"sergeants_insignia": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_resistance": 4,
+					"sergeants_insignia": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_resistance": 6,
+					"sergeants_insignia": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_resistance": 9,
+					"sergeants_insignia": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_resistance": 4,
+					"lieutenants_insignia": 4,
+					"dvalins_plume": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_resistance": 6,
+					"lieutenants_insignia": 6,
+					"dvalins_plume": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_resistance": 12,
+					"lieutenants_insignia": 9,
+					"dvalins_plume": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_resistance": 16,
+					"lieutenants_insignia": 12,
+					"dvalins_plume": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Tradition of the Dawn Knight",
+			"desc": "Refunds 15% of the ore used when crafting Claymore-type weapons."
+		},
+		{
+			"name": "Relentless",
+			"desc": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s."
+		},
+		{
+			"name": "Blessing of Phoenix",
+			"desc": "The Pyro Infusion provided by Dawn lasts for 4s longer. Additionally, Diluc gains 20% Pyro DMG Bonus during the duration of this effect."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Conviction",
+			"desc": "Diluc deals 15% more DMG to opponents whose HP is above 50%."
+		},
+		{
+			"name": "Searing Ember",
+			"desc": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n This effect can stack up to 3 times and can only occur once every 1.5s."
+		},
+		{
+			"name": "Fire and Steel",
+			"desc": "Increases the Level of Searing Onslaught by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Flowing Flame",
+			"desc": "Casting Searing Onslaught in rhythm greatly increases damage dealt.\n 2s after casting Searing Onslaught, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s."
+		},
+		{
+			"name": "Phoenix, Harbinger of Dawn",
+			"desc": "Increases the Level of Dawn by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Flaming Sword, Nemesis of the Dark",
+			"desc": "After casting Searing Onslaught, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\n Additionally, Searing Onslaught will not interrupt the Normal Attack combo."
+		}
+	],
+	"constellation_increase_burst": 5,
+	"constellation_increase_skill": 3
+}

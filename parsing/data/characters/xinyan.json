@@ -1,0 +1,769 @@
+{
+	"name": "Xinyan",
+	"title": "Blazing Riff",
+	"allegiance": "Liyue Harbor",
+	"rarity": 4,
+	"vision": "Pyro",
+	"astrolabe": "Fila Ignium",
+	"weapon": "claymore",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"ATK",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"939",
+				"21",
+				"67",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"2413",
+				"54",
+				"172",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"3114",
+				"69",
+				"222",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"4665",
+				"103",
+				"333",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"5163",
+				"115",
+				"368",
+				"6%",
+				"5%",
+				"50%"
+			],
+			"50": [
+				"5939",
+				"132",
+				"423",
+				"6%",
+				"5%",
+				"50%"
+			],
+			"50+": [
+				"6604",
+				"147",
+				"471",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"60": [
+				"7379",
+				"164",
+				"526",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"60+": [
+				"7878",
+				"175",
+				"562",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"70": [
+				"8653",
+				"192",
+				"617",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"70+": [
+				"9151",
+				"203",
+				"652",
+				"18%",
+				"5%",
+				"50%"
+			],
+			"80": [
+				"9927",
+				"220",
+				"708",
+				"18%",
+				"5%",
+				"50%"
+			],
+			"80+": [
+				"10425",
+				"231",
+				"743",
+				"24%",
+				"5%",
+				"50%"
+			],
+			"90": [
+				"11201",
+				"249",
+				"799",
+				"24%",
+				"5%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"agnidus_agate_sliver": 1,
+			"violetgrass": 3,
+			"treasure_hoarder_insignia": 3,
+			"mora": 20000
+		},
+		{
+			"agnidus_agate_fragment": 3,
+			"everflame_seed": 2,
+			"violetgrass": 10,
+			"treasure_hoarder_insignia": 15,
+			"mora": 40000
+		},
+		{
+			"agnidus_agate_fragment": 6,
+			"everflame_seed": 4,
+			"violetgrass": 20,
+			"silver_raven_insignia": 12,
+			"mora": 60000
+		},
+		{
+			"agnidus_agate_chunk": 3,
+			"everflame_seed": 8,
+			"violetgrass": 30,
+			"silver_raven_insignia": 18,
+			"mora": 80000
+		},
+		{
+			"agnidus_agate_chunk": 6,
+			"everflame_seed": 12,
+			"violetgrass": 45,
+			"golden_raven_insignia": 12,
+			"mora": 100000
+		},
+		{
+			"agnidus_agate_gemstone": 6,
+			"everflame_seed": 20,
+			"violetgrass": 60,
+			"golden_raven_insignia": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Dance on Fire",
+			"desc": [
+				[
+					"Normal Attack",
+					"Perform up to 4 consecutive strikes."
+				],
+				[
+					"Charged Attack",
+					"Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. "
+				],
+				[
+					"Plunging Attack",
+					"Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack Spinning DMG",
+					"Charged Attack Final DMG",
+					"Charged Attack Stamina Cost",
+					"Max Duration",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"76.54%",
+						"73.96%",
+						"95.46%",
+						"115.84%",
+						"62.55%",
+						"113.09%",
+						"40/s",
+						"5s",
+						"74.59%",
+						"149.14%"
+					],
+					[
+						"82.77%",
+						"79.98%",
+						"103.23%",
+						"125.27%",
+						"67.64%",
+						"122.3%",
+						"40/s",
+						"5s",
+						"80.66%",
+						"161.28%"
+					],
+					[
+						"89%",
+						"86%",
+						"111%",
+						"134.7%",
+						"72.73%",
+						"131.5%",
+						"40/s",
+						"5s",
+						"86.73%",
+						"173.42%"
+					],
+					[
+						"97.9%",
+						"94.6%",
+						"122.1%",
+						"148.17%",
+						"80%",
+						"144.65%",
+						"40/s",
+						"5s",
+						"95.4%",
+						"190.77%"
+					],
+					[
+						"104.13%",
+						"100.62%",
+						"129.87%",
+						"157.6%",
+						"85.09%",
+						"153.86%",
+						"40/s",
+						"5s",
+						"101.47%",
+						"202.91%"
+					],
+					[
+						"111.25%",
+						"107.5%",
+						"138.75%",
+						"168.38%",
+						"90.91%",
+						"164.38%",
+						"40/s",
+						"5s",
+						"108.41%",
+						"216.78%"
+					],
+					[
+						"121.04%",
+						"116.96%",
+						"150.96%",
+						"183.19%",
+						"98.91%",
+						"178.84%",
+						"40/s",
+						"5s",
+						"117.95%",
+						"235.86%"
+					],
+					[
+						"130.83%",
+						"126.42%",
+						"163.17%",
+						"198.01%",
+						"106.91%",
+						"193.31%",
+						"40/s",
+						"5s",
+						"127.49%",
+						"254.93%"
+					],
+					[
+						"140.62%",
+						"135.88%",
+						"175.38%",
+						"212.83%",
+						"114.91%",
+						"207.77%",
+						"40/s",
+						"5s",
+						"137.03%",
+						"274.01%"
+					],
+					[
+						"151.3%",
+						"146.2%",
+						"188.7%",
+						"228.99%",
+						"123.64%",
+						"223.55%",
+						"40/s",
+						"5s",
+						"147.44%",
+						"294.82%"
+					],
+					[
+						"161.98%",
+						"156.52%",
+						"202.02%",
+						"245.15%",
+						"132.36%",
+						"239.33%",
+						"40/s",
+						"5s",
+						"157.85%",
+						"315.63%"
+					],
+					[
+						"172.66%",
+						"166.84%",
+						"215.34%",
+						"261.32%",
+						"141.09%",
+						"255.11%",
+						"40/s",
+						"5s",
+						"168.26%",
+						"336.44%"
+					],
+					[
+						"183.34%",
+						"177.16%",
+						"228.66%",
+						"277.48%",
+						"149.82%",
+						"270.89%",
+						"40/s",
+						"5s",
+						"178.66%",
+						"357.25%"
+					],
+					[
+						"194.02%",
+						"187.48%",
+						"241.98%",
+						"293.65%",
+						"158.55%",
+						"286.67%",
+						"40/s",
+						"5s",
+						"189.07%",
+						"378.06%"
+					],
+					[
+						"204.7%",
+						"197.8%",
+						"255.3%",
+						"309.81%",
+						"167.27%",
+						"302.45%",
+						"40/s",
+						"5s",
+						"199.48%",
+						"398.87%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Sweeping Fervor",
+			"desc": [
+				[
+					null,
+					"Xinyan brandishes her instrument, dealing Pyro DMG on nearby opponents, forming a shield made out of her audience's passion.\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\n\u2022 Hitting 0\u20131 opponents grants Shield Level 1: Ad Lib.\n\u2022 Hitting 2 opponents grants Shield Level 2: Lead-In.\n\u2022 Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent Pyro DMG to nearby opponents.\nThe shield has the following special properties:\n\u2022 When unleashed, it infuses Xinyan with Pyro.\n\u2022 It has 250% DMG Absorption effectiveness against Pyro DMG."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Swing DMG",
+					"Shield Level 1 DMG Absorption",
+					"Shield Level 2 DMG Absorption",
+					"Shield Level 3 DMG Absorption",
+					"DoT",
+					"Shield Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"169.6%",
+						"104.04% DEF",
+						"122.4% DEF",
+						"144% DEF",
+						"33.6%",
+						"12s",
+						"18s"
+					],
+					[
+						"182.32%",
+						"111.84% DEF",
+						"131.58% DEF",
+						"154.8% DEF",
+						"36.12%",
+						"12s",
+						"18s"
+					],
+					[
+						"195.04%",
+						"119.65% DEF",
+						"140.76% DEF",
+						"165.6% DEF",
+						"38.64%",
+						"12s",
+						"18s"
+					],
+					[
+						"212%",
+						"130.05% DEF",
+						"153% DEF",
+						"180% DEF",
+						"42%",
+						"12s",
+						"18s"
+					],
+					[
+						"224.72%",
+						"137.85% DEF",
+						"162.18% DEF",
+						"190.8% DEF",
+						"44.52%",
+						"12s",
+						"18s"
+					],
+					[
+						"237.44%",
+						"145.66% DEF",
+						"171.36% DEF",
+						"201.6% DEF",
+						"47.04%",
+						"12s",
+						"18s"
+					],
+					[
+						"254.4%",
+						"156.06% DEF",
+						"183.6% DEF",
+						"216% DEF",
+						"50.4%",
+						"12s",
+						"18s"
+					],
+					[
+						"271.36%",
+						"166.46% DEF",
+						"195.84% DEF",
+						"230.4% DEF",
+						"53.76%",
+						"12s",
+						"18s"
+					],
+					[
+						"288.32%",
+						"176.87% DEF",
+						"208.08% DEF",
+						"244.8% DEF",
+						"57.12%",
+						"12s",
+						"18s"
+					],
+					[
+						"305.28%",
+						"187.27% DEF",
+						"220.32% DEF",
+						"259.2% DEF",
+						"60.48%",
+						"12s",
+						"18s"
+					],
+					[
+						"322.24%",
+						"197.68% DEF",
+						"232.56% DEF",
+						"273.6% DEF",
+						"63.84%",
+						"12s",
+						"18s"
+					],
+					[
+						"339.2%",
+						"208.08% DEF",
+						"244.8% DEF",
+						"288% DEF",
+						"67.2%",
+						"12s",
+						"18s"
+					],
+					[
+						"360.4%",
+						"221.09% DEF",
+						"260.1% DEF",
+						"306% DEF",
+						"71.4%",
+						"12s",
+						"18s"
+					],
+					[
+						"381.6%",
+						"234.09% DEF",
+						"275.4% DEF",
+						"324% DEF",
+						"75.6%",
+						"12s",
+						"18s"
+					],
+					[
+						"402.8%",
+						"247.1% DEF",
+						"290.7% DEF",
+						"342% DEF",
+						"79.8%",
+						"12s",
+						"18s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Riff Revolution",
+			"desc": [
+				[
+					null,
+					"Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd.\nThe sheer intensity of the atmosphere will cause explosions that deal Pyro DMG to nearby opponents."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Skill DMG",
+					"Pyro DoT",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"340.8%",
+						"40%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"366.36%",
+						"43%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"391.92%",
+						"46%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"426%",
+						"50%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"451.56%",
+						"53%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"477.12%",
+						"56%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"511.2%",
+						"60%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"545.28%",
+						"64%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"579.36%",
+						"68%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"613.44%",
+						"72%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"647.52%",
+						"76%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"681.6%",
+						"80%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"724.2%",
+						"85%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"766.8%",
+						"90%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"809.4%",
+						"95%",
+						"2s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_gold": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_gold": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_gold": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_gold": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_gold": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_gold": 4,
+					"golden_raven_insignia": 4,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_gold": 6,
+					"golden_raven_insignia": 6,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_gold": 12,
+					"golden_raven_insignia": 9,
+					"tusk_of_monoceros_caeli": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_gold": 16,
+					"golden_raven_insignia": 12,
+					"tusk_of_monoceros_caeli": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "A Rad Recipe",
+			"desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product."
+		},
+		{
+			"name": "\"The Show Goes On, Even Without An Audience...\"",
+			"desc": "Decreases the number of opponents Sweeping Fervor must hit to trigger each level of shielding.\n \u2022 Shield Level 2: Lead-In requirement reduced to 1 opponent hit.\n \u2022 Shield Level 3: Rave requirement reduced to 2 opponents hit or more."
+		},
+		{
+			"name": "\"...Now That's Rock 'N' Roll!\"",
+			"desc": "Characters shielded by Sweeping Fervor deal 15% increased Physical DMG."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Fatal Acceleration",
+			"desc": "Upon scoring a CRIT Hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s.\n Can only occur once every 5s."
+		},
+		{
+			"name": "Impromptu Opening",
+			"desc": "Riff Revolution's Physical DMG has its CRIT Rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast."
+		},
+		{
+			"name": "Double-Stop",
+			"desc": "Increases the Level of Sweeping Fervor by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Wildfire Rhythm",
+			"desc": "Sweeping Fervor's swing DMG decreases opponent's Physical RES by 15% for 12s."
+		},
+		{
+			"name": "Screamin' for an Encore",
+			"desc": "Increases the Level of Riff Revolution by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Rockin' in a Flaming World",
+			"desc": "Decreases the Stamina Consumption of Xinyan's Charged Attacks by 30%. Additionally, Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF."
+		}
+	],
+	"constellation_increase_burst": 5,
+	"constellation_increase_skill": 3
+}

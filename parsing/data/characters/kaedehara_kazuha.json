@@ -1,0 +1,741 @@
+{
+	"name": "Kaedehara Kazuha",
+	"title": "Scarlet Leaves Pursue Wild Waves",
+	"allegiance": "The Crux",
+	"rarity": 5,
+	"vision": "Anemo",
+	"astrolabe": "Acer Palmatum",
+	"weapon": "sword",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"Elemental Mastery",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"1039",
+				"23",
+				"63",
+				"0",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"2695",
+				"60",
+				"163",
+				"0",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"3586",
+				"80",
+				"217",
+				"0",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"5366",
+				"119",
+				"324",
+				"0",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"5999",
+				"133",
+				"363",
+				"28.8",
+				"5%",
+				"50%"
+			],
+			"50": [
+				"6902",
+				"153",
+				"417",
+				"28.8",
+				"5%",
+				"50%"
+			],
+			"50+": [
+				"7747",
+				"172",
+				"468",
+				"57.6",
+				"5%",
+				"50%"
+			],
+			"60": [
+				"8659",
+				"192",
+				"523",
+				"57.6",
+				"5%",
+				"50%"
+			],
+			"60+": [
+				"9292",
+				"206",
+				"562",
+				"57.6",
+				"5%",
+				"50%"
+			],
+			"70": [
+				"10213",
+				"227",
+				"617",
+				"57.6",
+				"5%",
+				"50%"
+			],
+			"70+": [
+				"10846",
+				"241",
+				"656",
+				"86.4",
+				"5%",
+				"50%"
+			],
+			"80": [
+				"11777",
+				"262",
+				"712",
+				"86.4",
+				"5%",
+				"50%"
+			],
+			"80+": [
+				"12410",
+				"276",
+				"750",
+				"115.2",
+				"5%",
+				"50%"
+			],
+			"90": [
+				"13348",
+				"297",
+				"807",
+				"115.2",
+				"5%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"vayuda_turquoise_sliver": 1,
+			"sea_ganoderma": 3,
+			"treasure_hoarder_insignia": 3,
+			"mora": 20000
+		},
+		{
+			"vayuda_turquoise_fragment": 3,
+			"marionette_core": 2,
+			"sea_ganoderma": 10,
+			"treasure_hoarder_insignia": 15,
+			"mora": 40000
+		},
+		{
+			"vayuda_turquoise_fragment": 6,
+			"marionette_core": 4,
+			"sea_ganoderma": 20,
+			"silver_raven_insignia": 12,
+			"mora": 60000
+		},
+		{
+			"vayuda_turquoise_chunk": 3,
+			"marionette_core": 8,
+			"sea_ganoderma": 30,
+			"silver_raven_insignia": 18,
+			"mora": 80000
+		},
+		{
+			"vayuda_turquoise_chunk": 6,
+			"marionette_core": 12,
+			"sea_ganoderma": 45,
+			"golden_raven_insignia": 12,
+			"mora": 100000
+		},
+		{
+			"vayuda_turquoise_gemstone": 6,
+			"marionette_core": 20,
+			"sea_ganoderma": 60,
+			"golden_raven_insignia": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Garyuu Bladework",
+			"desc": [
+				[
+					"Normal Attack",
+					"Perform up to 5 rapid strikes."
+				],
+				[
+					"Charged Attack",
+					"Consumes a certain amount of Stamina to unleash 2 rapid sword strikes."
+				],
+				[
+					"Plunging Attack",
+					"Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact. If this Plunging Attack is triggered by Chihayaburu, it will be converted to Plunging Attack: Midare Ranzan."
+				],
+				[
+					"Plunging Attack: Midare Ranzan",
+					"When a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to Anemo DMG and will create a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"44.98%",
+						"45.24%",
+						"25.8%",
+						"60.72%",
+						"25.37%\u00d73",
+						"43%",
+						"20",
+						"81.83%",
+						"163.63%"
+					],
+					[
+						"48.64%",
+						"48.92%",
+						"27.9%",
+						"65.66%",
+						"27.44%\u00d73",
+						"46.5%",
+						"20",
+						"88.49%",
+						"176.95%"
+					],
+					[
+						"52.3%",
+						"52.6%",
+						"30%",
+						"70.6%",
+						"29.5%\u00d73",
+						"50%",
+						"20",
+						"95.16%",
+						"190.27%"
+					],
+					[
+						"57.53%",
+						"57.86%",
+						"33%",
+						"77.66%",
+						"32.45%\u00d73",
+						"55%",
+						"20",
+						"104.67%",
+						"209.3%"
+					],
+					[
+						"61.19%",
+						"61.54%",
+						"35.1%",
+						"82.6%",
+						"34.52%\u00d73",
+						"58.5%",
+						"20",
+						"111.33%",
+						"222.62%"
+					],
+					[
+						"65.38%",
+						"65.75%",
+						"37.5%",
+						"88.25%",
+						"36.88%\u00d73",
+						"62.5%",
+						"20",
+						"118.94%",
+						"237.84%"
+					],
+					[
+						"71.13%",
+						"71.54%",
+						"40.8%",
+						"96.02%",
+						"40.12%\u00d73",
+						"68%",
+						"20",
+						"129.41%",
+						"258.77%"
+					],
+					[
+						"76.88%",
+						"77.32%",
+						"44.1%",
+						"103.78%",
+						"43.37%\u00d73",
+						"73.5%",
+						"20",
+						"139.88%",
+						"279.7%"
+					],
+					[
+						"82.63%",
+						"83.11%",
+						"47.4%",
+						"111.55%",
+						"46.61%\u00d73",
+						"79%",
+						"20",
+						"150.35%",
+						"300.63%"
+					],
+					[
+						"88.91%",
+						"89.42%",
+						"51%",
+						"120.02%",
+						"50.15%\u00d73",
+						"85%",
+						"20",
+						"161.76%",
+						"323.46%"
+					],
+					[
+						"96.1%",
+						"96.65%",
+						"55.13%",
+						"129.73%",
+						"54.21%\u00d73",
+						"91.88%",
+						"20",
+						"173.18%",
+						"346.29%"
+					],
+					[
+						"104.56%",
+						"105.16%",
+						"59.98%",
+						"141.14%",
+						"58.98%\u00d73",
+						"99.96%",
+						"20",
+						"184.6%",
+						"369.12%"
+					],
+					[
+						"113.02%",
+						"113.66%",
+						"64.83%",
+						"152.56%",
+						"63.75%\u00d73",
+						"108.05%",
+						"20",
+						"196.02%",
+						"391.96%"
+					],
+					[
+						"121.47%",
+						"122.17%",
+						"69.68%",
+						"163.98%",
+						"68.52%\u00d73",
+						"116.13%",
+						"20",
+						"207.44%",
+						"414.79%"
+					],
+					[
+						"130.7%",
+						"131.45%",
+						"74.97%",
+						"176.43%",
+						"73.72%\u00d73",
+						"124.95%",
+						"20",
+						"218.86%",
+						"437.62%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Chihayaburu",
+			"desc": [
+				[
+					null,
+					"#Unleashes a secret technique as fierce as the rushing wind that pulls objects and opponents towards Kazuha's current position before launching opponents within the AoE, dealing Anemo DMG and lifting Kazuha into the air on a rushing gust of wind.\nWithin 10s of remaining airborne after casting Chihayaburu, Kazuha can unleash a powerful Plunging Attack known as Midare Ranzan."
+				],
+				[
+					"Press",
+					"Can be used in mid-air."
+				],
+				[
+					"Hold",
+					"Charges up before unleashing greater Anemo DMG over a larger AoE than Press Mode."
+				],
+				[
+					"Plunging Attack: Midare Ranzan",
+					"When a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to Anemo DMG. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.\nMidare Ranzan's DMG is considered Plunging Attack DMG."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Press Skill DMG",
+					"Press CD",
+					"Hold Skill DMG",
+					"CD (hold)"
+				],
+				"values": [
+					[
+						"192%",
+						"6s",
+						"260.8%",
+						"9s"
+					],
+					[
+						"206.4%",
+						"6s",
+						"280.36%",
+						"9s"
+					],
+					[
+						"220.8%",
+						"6s",
+						"299.92%",
+						"9s"
+					],
+					[
+						"240%",
+						"6s",
+						"326%",
+						"9s"
+					],
+					[
+						"254.4%",
+						"6s",
+						"345.56%",
+						"9s"
+					],
+					[
+						"268.8%",
+						"6s",
+						"365.12%",
+						"9s"
+					],
+					[
+						"288%",
+						"6s",
+						"391.2%",
+						"9s"
+					],
+					[
+						"307.2%",
+						"6s",
+						"417.28%",
+						"9s"
+					],
+					[
+						"326.4%",
+						"6s",
+						"443.36%",
+						"9s"
+					],
+					[
+						"345.6%",
+						"6s",
+						"469.44%",
+						"9s"
+					],
+					[
+						"364.8%",
+						"6s",
+						"495.52%",
+						"9s"
+					],
+					[
+						"384%",
+						"6s",
+						"521.6%",
+						"9s"
+					],
+					[
+						"408%",
+						"6s",
+						"554.2%",
+						"9s"
+					],
+					[
+						"432%",
+						"6s",
+						"586.8%",
+						"9s"
+					],
+					[
+						"456%",
+						"6s",
+						"619.4%",
+						"9s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Kazuha Slash",
+			"desc": [
+				[
+					null,
+					"The signature technique of Kazuha's self-styled bladework \u2014 a single slash that strikes with the force of the first winds of autumn, dealing AoE Anemo DMG.\nThe blade's passage will leave behind a field named \"Autumn Whirlwind\" that periodically deals AoE Anemo DMG to opponents within its range."
+				],
+				[
+					"Elemental Absorption",
+					"If Autumn Whirlwind comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Slashing DMG",
+					"DoT",
+					"Additional Elemental DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"262.4%",
+						"120%",
+						"36%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"282.08%",
+						"129%",
+						"38.7%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"301.76%",
+						"138%",
+						"41.4%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"328%",
+						"150%",
+						"45%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"347.68%",
+						"159%",
+						"47.7%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"367.36%",
+						"168%",
+						"50.4%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"393.6%",
+						"180%",
+						"54%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"419.84%",
+						"192%",
+						"57.6%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"446.08%",
+						"204%",
+						"61.2%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"472.32%",
+						"216%",
+						"64.8%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"498.56%",
+						"228%",
+						"68.4%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"524.8%",
+						"240%",
+						"72%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"557.6%",
+						"255%",
+						"76.5%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"590.4%",
+						"270%",
+						"81%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"623.2%",
+						"285%",
+						"85.5%",
+						"8s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_diligence": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_diligence": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_diligence": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_diligence": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_diligence": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_diligence": 4,
+					"golden_raven_insignia": 4,
+					"gilded_scale": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_diligence": 6,
+					"golden_raven_insignia": 6,
+					"gilded_scale": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_diligence": 12,
+					"golden_raven_insignia": 9,
+					"gilded_scale": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_diligence": 16,
+					"golden_raven_insignia": 12,
+					"gilded_scale": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Cloud Strider",
+			"desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\n Not stackable with Passive Talents that provide the exact same effects."
+		},
+		{
+			"name": "Soumon Swordsmanship",
+			"desc": "If Chihayaburu comes into contact with Hydro/Pyro/Cryo/Electro when cast, Chihayaburu will absorb that element and if Plunging Attack: Midare Ranzan is used before the effect expires, it will deal an additional 200% ATK of the absorbed elemental type as DMG. This will be considered Plunging Attack DMG.\n Elemental Absorption may only occur once per use of Chihayaburu."
+		},
+		{
+			"name": "Poetics of Fuubutsu",
+			"desc": "Upon triggering a Swirl reaction, Kaedehara Kazuha will grant all party members a 0.04% Elemental DMG Bonus to the element absorbed by Swirl for every point of Elemental Mastery he has for 8s. Bonuses for different elements obtained through this method can co-exist."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Scarlet Hills",
+			"desc": "Decreases Chihayaburu's CD by 10%.\n Using Kazuha Slash resets the CD of Chihayaburu."
+		},
+		{
+			"name": "Yamaarashi Tailwind",
+			"desc": "The Autumn Whirlwind field created by Kazuha Slash has the following effects:\n \u2022 Increases Kaedehara Kazuha's own Elemental Mastery by 200.\n \u2022 Increases the Elemental Mastery of characters within the field by 200.\n The Elemental Mastery-increasing effects of this Constellation do not stack."
+		},
+		{
+			"name": "Maple Monogatari",
+			"desc": "Increases the Level of Chihayaburu by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Oozora Genpou",
+			"desc": "#When Kaedehara Kazuha's Energy is lower than 45, he obtains the following effects:\n \u2022 Pressing or Holding Chihayaburu regenerates 3 or 4 Energy for Kaedehara Kazuha, respectively.\n \u2022 When gliding, Kaedehara Kazuha regenerates 2 Energy per second."
+		},
+		{
+			"name": "Wisdom of Bansei",
+			"desc": "Increases the Level of Kazuha Slash by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Crimson Momiji",
+			"desc": "After using Chihayaburu or Kazuha Slash, Kaedehara Kazuha gains an Anemo Infusion for 5s. Additionally, each point of Elemental Mastery will increase the DMG dealt by Kaedehara Kazuha's Normal, Charged, and Plunging Attack by 0.2%."
+		}
+	],
+	"constellation_increase_burst": 5,
+	"constellation_increase_skill": 3
+}

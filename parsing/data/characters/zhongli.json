@@ -1,0 +1,773 @@
+{
+	"name": "Zhongli",
+	"title": "Vago Mundo",
+	"allegiance": "Liyue Harbor",
+	"rarity": 5,
+	"vision": "Geo",
+	"astrolabe": "Lapis Dei",
+	"weapon": "polearm",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"Geo DMG Bonus",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"1144",
+				"20",
+				"57",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"2967",
+				"51",
+				"149",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"3948",
+				"67",
+				"198",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"5908",
+				"101",
+				"297",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"6605",
+				"113",
+				"332",
+				"7.2%",
+				"5%",
+				"50%"
+			],
+			"50": [
+				"7599",
+				"130",
+				"382",
+				"7.2%",
+				"5%",
+				"50%"
+			],
+			"50+": [
+				"8528",
+				"146",
+				"428",
+				"14.4%",
+				"5%",
+				"50%"
+			],
+			"60": [
+				"9533",
+				"163",
+				"479",
+				"14.4%",
+				"5%",
+				"50%"
+			],
+			"60+": [
+				"10230",
+				"175",
+				"514",
+				"14.4%",
+				"5%",
+				"50%"
+			],
+			"70": [
+				"11243",
+				"192",
+				"564",
+				"14.4%",
+				"5%",
+				"50%"
+			],
+			"70+": [
+				"11940",
+				"204",
+				"599",
+				"21.6%",
+				"5%",
+				"50%"
+			],
+			"80": [
+				"12965",
+				"222",
+				"651",
+				"21.6%",
+				"5%",
+				"50%"
+			],
+			"80+": [
+				"13662",
+				"233",
+				"686",
+				"28.8%",
+				"5%",
+				"50%"
+			],
+			"90": [
+				"14695",
+				"251",
+				"738",
+				"28.8%",
+				"5%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"prithiva_topaz_sliver": 1,
+			"cor_lapis": 3,
+			"slime_condensate": 3,
+			"mora": 20000
+		},
+		{
+			"prithiva_topaz_fragment": 3,
+			"basalt_pillar": 2,
+			"cor_lapis": 10,
+			"slime_condensate": 15,
+			"mora": 40000
+		},
+		{
+			"prithiva_topaz_fragment": 6,
+			"basalt_pillar": 4,
+			"cor_lapis": 20,
+			"slime_secretions": 12,
+			"mora": 60000
+		},
+		{
+			"prithiva_topaz_chunk": 3,
+			"basalt_pillar": 8,
+			"cor_lapis": 30,
+			"slime_secretions": 18,
+			"mora": 80000
+		},
+		{
+			"prithiva_topaz_chunk": 6,
+			"basalt_pillar": 12,
+			"cor_lapis": 45,
+			"slime_concentrate": 12,
+			"mora": 100000
+		},
+		{
+			"prithiva_topaz_gemstone": 6,
+			"basalt_pillar": 20,
+			"cor_lapis": 60,
+			"slime_concentrate": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Rain of Stone",
+			"desc": [
+				[
+					"Normal Attack",
+					"Performs up to 6 consecutive spear strikes."
+				],
+				[
+					"Charged Attack",
+					"Consumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path."
+				],
+				[
+					"Plunging Attack",
+					"Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"6-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"30.77%",
+						"31.15%",
+						"38.58%",
+						"42.94%",
+						"10.75%\u00d74",
+						"54.5%",
+						"111.03%",
+						"25",
+						"63.93%",
+						"127.84%"
+					],
+					[
+						"33.27%",
+						"33.69%",
+						"41.72%",
+						"46.43%",
+						"11.63%\u00d74",
+						"58.93%",
+						"120.06%",
+						"25",
+						"69.14%",
+						"138.24%"
+					],
+					[
+						"35.78%",
+						"36.22%",
+						"44.86%",
+						"49.93%",
+						"12.5%\u00d74",
+						"63.37%",
+						"129.1%",
+						"25",
+						"74.34%",
+						"148.65%"
+					],
+					[
+						"39.36%",
+						"39.85%",
+						"49.34%",
+						"54.92%",
+						"13.75%\u00d74",
+						"69.7%",
+						"142.01%",
+						"25",
+						"81.77%",
+						"163.51%"
+					],
+					[
+						"41.86%",
+						"42.38%",
+						"52.48%",
+						"58.42%",
+						"14.63%\u00d74",
+						"74.14%",
+						"151.05%",
+						"25",
+						"86.98%",
+						"173.92%"
+					],
+					[
+						"44.72%",
+						"45.28%",
+						"56.07%",
+						"62.41%",
+						"15.63%\u00d74",
+						"79.21%",
+						"161.38%",
+						"25",
+						"92.93%",
+						"185.81%"
+					],
+					[
+						"48.66%",
+						"49.26%",
+						"61%",
+						"67.9%",
+						"17%\u00d74",
+						"86.18%",
+						"175.58%",
+						"25",
+						"101.1%",
+						"202.16%"
+					],
+					[
+						"52.59%",
+						"53.25%",
+						"65.94%",
+						"73.4%",
+						"18.38%\u00d74",
+						"93.15%",
+						"189.78%",
+						"25",
+						"109.28%",
+						"218.51%"
+					],
+					[
+						"56.53%",
+						"57.23%",
+						"70.87%",
+						"78.89%",
+						"19.75%\u00d74",
+						"100.12%",
+						"203.98%",
+						"25",
+						"117.46%",
+						"234.86%"
+					],
+					[
+						"60.82%",
+						"61.58%",
+						"76.26%",
+						"84.88%",
+						"21.25%\u00d74",
+						"107.73%",
+						"219.47%",
+						"25",
+						"126.38%",
+						"252.7%"
+					],
+					[
+						"65.74%",
+						"66.56%",
+						"82.42%",
+						"91.74%",
+						"22.97%\u00d74",
+						"116.44%",
+						"237.22%",
+						"25",
+						"135.3%",
+						"270.54%"
+					],
+					[
+						"71.53%",
+						"72.42%",
+						"89.68%",
+						"99.82%",
+						"24.99%\u00d74",
+						"126.69%",
+						"258.1%",
+						"25",
+						"144.22%",
+						"288.38%"
+					],
+					[
+						"77.31%",
+						"78.27%",
+						"96.93%",
+						"107.89%",
+						"27.01%\u00d74",
+						"136.93%",
+						"278.97%",
+						"25",
+						"153.14%",
+						"306.22%"
+					],
+					[
+						"83.1%",
+						"84.13%",
+						"104.18%",
+						"115.97%",
+						"29.03%\u00d74",
+						"147.18%",
+						"299.85%",
+						"25",
+						"162.06%",
+						"324.05%"
+					],
+					[
+						"89.41%",
+						"90.52%",
+						"112.1%",
+						"124.77%",
+						"31.24%\u00d74",
+						"158.36%",
+						"322.62%",
+						"25",
+						"170.98%",
+						"341.89%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Dominus Lapidis",
+			"desc": [
+				[
+					null,
+					"#Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between."
+				],
+				[
+					"Press",
+					"Commands the power of earth to create a Stone Stele."
+				],
+				[
+					"Hold",
+					"Causes nearby Geo energy to explode, causing the following effects:\n\u2022 If their maximum number hasn't been reached, creates a Stone Stele.\n\u2022 Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP.\n\u2022 Deals AoE Geo DMG.\n\u2022 If there are nearby targets with the Geo element, it will drain a large amount of Geo element from a maximum of 2 such targets. This effect does not cause DMG."
+				],
+				[
+					"Stone Stele",
+					"When created, deals AoE Geo DMG.\nAdditionally, it will intermittently resonate with other nearby Geo constructs, dealing Geo DMG to nearby opponents.\nThe Stone Stele is considered a Geo construct that can both be climbed and used to block attacks.\nOnly one Stele created by Zhongli himself may initially exist at any one time."
+				],
+				[
+					"Jade Shield",
+					"Possesses 150% DMG Absorption against all Elemental and Physical DMG.\nCharacters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Stone Stele/Resonance DMG",
+					"Press CD",
+					"Hold DMG",
+					"Shield Base Absorption",
+					"Additional Shield Absorption",
+					"Shield Duration",
+					"CD (hold)"
+				],
+				"values": [
+					[
+						"16%",
+						"4s",
+						"80%",
+						"1232",
+						"12.8% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"17.2%",
+						"4s",
+						"86%",
+						"1356",
+						"13.76% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"18.4%",
+						"4s",
+						"92%",
+						"1489",
+						"14.72% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"20%",
+						"4s",
+						"100%",
+						"1633",
+						"16% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"21.2%",
+						"4s",
+						"106%",
+						"1787",
+						"16.96% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"22.4%",
+						"4s",
+						"112%",
+						"1951",
+						"17.92% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"24%",
+						"4s",
+						"120%",
+						"2126",
+						"19.2% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"25.6%",
+						"4s",
+						"128%",
+						"2311",
+						"20.48% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"27.2%",
+						"4s",
+						"136%",
+						"2506",
+						"21.76% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"28.8%",
+						"4s",
+						"144%",
+						"2712",
+						"23.04% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"30.4%",
+						"4s",
+						"152%",
+						"2927",
+						"24.32% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"32%",
+						"4s",
+						"160%",
+						"3153",
+						"25.6% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"34%",
+						"4s",
+						"170%",
+						"3389",
+						"27.2% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"36%",
+						"4s",
+						"180%",
+						"3636",
+						"28.8% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"38%",
+						"4s",
+						"190%",
+						"3893",
+						"30.4% Max HP",
+						"20s",
+						"12s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Planet Befall",
+			"desc": [
+				[
+					null,
+					"Brings a falling meteor down to earth, dealing massive Geo DMG to opponents caught in its AoE and applying the Petrification status to them."
+				],
+				[
+					"Petrification",
+					"Opponents affected by the Petrification status cannot move."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Skill DMG",
+					"Petrification Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"401.08%",
+						"3.1s",
+						"12s",
+						"40"
+					],
+					[
+						"444.44%",
+						"3.2s",
+						"12s",
+						"40"
+					],
+					[
+						"487.8%",
+						"3.3s",
+						"12s",
+						"40"
+					],
+					[
+						"542%",
+						"3.4s",
+						"12s",
+						"40"
+					],
+					[
+						"590.78%",
+						"3.5s",
+						"12s",
+						"40"
+					],
+					[
+						"639.56%",
+						"3.6s",
+						"12s",
+						"40"
+					],
+					[
+						"704.6%",
+						"3.7s",
+						"12s",
+						"40"
+					],
+					[
+						"769.64%",
+						"3.8s",
+						"12s",
+						"40"
+					],
+					[
+						"834.68%",
+						"3.9s",
+						"12s",
+						"40"
+					],
+					[
+						"899.72%",
+						"4s",
+						"12s",
+						"40"
+					],
+					[
+						"964.76%",
+						"4s",
+						"12s",
+						"40"
+					],
+					[
+						"1029.8%",
+						"4s",
+						"12s",
+						"40"
+					],
+					[
+						"1084%",
+						"4s",
+						"12s",
+						"40"
+					],
+					[
+						"1138.2%",
+						"4s",
+						"12s",
+						"40"
+					],
+					[
+						"1192.4%",
+						"4s",
+						"12s",
+						"40"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_gold": 3,
+					"slime_condensate": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_gold": 2,
+					"slime_secretions": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_gold": 4,
+					"slime_secretions": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_gold": 6,
+					"slime_secretions": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_gold": 9,
+					"slime_secretions": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_gold": 4,
+					"slime_concentrate": 4,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_gold": 6,
+					"slime_concentrate": 6,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_gold": 12,
+					"slime_concentrate": 9,
+					"tusk_of_monoceros_caeli": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_gold": 16,
+					"slime_concentrate": 12,
+					"tusk_of_monoceros_caeli": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Arcanum of Crystal",
+			"desc": "Refunds 15% of the ore used when crafting Polearm-type weapons."
+		},
+		{
+			"name": "Resonant Waves",
+			"desc": "When the Jade Shield takes DMG, it will Fortify:\n \u2022 Fortified characters have 5% increased Shield Strength.\n Can stack up to 5 times, and lasts until the Jade Shield disappears."
+		},
+		{
+			"name": "Dominance of Earth",
+			"desc": "Zhongli deals bonus DMG based on his Max HP:\n \u2022 Normal Attack, Charged Attack, and Plunging Attack DMG is increased by 1.39% of Max HP.\n \u2022 Dominus Lapidis' Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.\n \u2022 Planet Befall's DMG is increased by 33% of Max HP."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Rock, the Backbone of Earth",
+			"desc": "Increases the maximum number of Stone Steles created by Dominus Lapidis that may exist simultaneously to 2."
+		},
+		{
+			"name": "Stone, the Cradle of Jade",
+			"desc": "Planet Befall grants nearby characters on the field a Jade Shield when it descends."
+		},
+		{
+			"name": "Jade, Shimmering through Darkness",
+			"desc": "Increases the Level of Dominus Lapidis by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Topaz, Unbreakable and Fearless",
+			"desc": "Increases Planet Befall's AoE by 20% and increases the duration of Planet Befall's Petrification effect by 2s."
+		},
+		{
+			"name": "Lazuli, Herald of the Order",
+			"desc": "Increases the Level of Planet Befall by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Chrysos, Bounty of Dominator",
+			"desc": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character.\n A single instance of regeneration cannot exceed 8% of that character's Max HP."
+		}
+	],
+	"constellation_increase_burst": 5,
+	"constellation_increase_skill": 3
+}

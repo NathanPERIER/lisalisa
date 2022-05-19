@@ -1,0 +1,48 @@
+{
+	"characters": {
+		"wanderers_advice": {
+			"name": "Wanderer's Advice",
+			"rarity": 2,
+			"value": 1000
+		},
+		"adventurers_experience": {
+			"name": "Adventurer's Experience",
+			"rarity": 3,
+			"value": 5000
+		},
+		"heros_wit": {
+			"name": "Hero's Wit",
+			"rarity": 4,
+			"value": 20000
+		}
+	},
+	"weapons": {
+		"enhancement_ore": {
+			"name": "Enhancement Ore",
+			"rarity": 1,
+			"value": 400
+		},
+		"fine_enhancement_ore": {
+			"name": "Fine Enhancement Ore",
+			"rarity": 2,
+			"value": 2000
+		},
+		"mystic_enhancement_ore": {
+			"name": "Mystic Enhancement Ore",
+			"rarity": 3,
+			"value": 10000
+		}
+	},
+	"artifacts": {
+		"sanctifying_unction": {
+			"name": "Sanctifying Unction",
+			"rarity": 3,
+			"value": 2500
+		},
+		"sanctifying_essence": {
+			"name": "Sanctifying Essence",
+			"rarity": 4,
+			"value": 10000
+		}
+	}
+}

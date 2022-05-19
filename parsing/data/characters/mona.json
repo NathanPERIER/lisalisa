@@ -1,0 +1,714 @@
+{
+	"name": "Mona",
+	"title": "Astral Reflection",
+	"allegiance": "Mondstadt",
+	"rarity": 5,
+	"vision": "Hydro",
+	"astrolabe": "Astrolabos",
+	"weapon": "catalyst",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"Energy Recharge",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"810",
+				"22",
+				"51",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"2102",
+				"58",
+				"132",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"2797",
+				"77",
+				"176",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"4185",
+				"115",
+				"263",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"4678",
+				"129",
+				"294",
+				"8%",
+				"5%",
+				"50%"
+			],
+			"50": [
+				"5383",
+				"148",
+				"338",
+				"8%",
+				"5%",
+				"50%"
+			],
+			"50+": [
+				"6041",
+				"167",
+				"379",
+				"16%",
+				"5%",
+				"50%"
+			],
+			"60": [
+				"6752",
+				"186",
+				"424",
+				"16%",
+				"5%",
+				"50%"
+			],
+			"60+": [
+				"7246",
+				"200",
+				"455",
+				"16%",
+				"5%",
+				"50%"
+			],
+			"70": [
+				"7964",
+				"220",
+				"500",
+				"16%",
+				"5%",
+				"50%"
+			],
+			"70+": [
+				"8458",
+				"233",
+				"531",
+				"24%",
+				"5%",
+				"50%"
+			],
+			"80": [
+				"9184",
+				"253",
+				"576",
+				"24%",
+				"5%",
+				"50%"
+			],
+			"80+": [
+				"9677",
+				"267",
+				"607",
+				"32%",
+				"5%",
+				"50%"
+			],
+			"90": [
+				"10409",
+				"287",
+				"653",
+				"32%",
+				"5%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"varunada_lazurite_sliver": 1,
+			"philanemo_mushroom": 3,
+			"whopperflower_nectar": 3,
+			"mora": 20000
+		},
+		{
+			"varunada_lazurite_fragment": 3,
+			"cleansing_heart": 2,
+			"philanemo_mushroom": 10,
+			"whopperflower_nectar": 15,
+			"mora": 40000
+		},
+		{
+			"varunada_lazurite_fragment": 6,
+			"cleansing_heart": 4,
+			"philanemo_mushroom": 20,
+			"shimmering_nectar": 12,
+			"mora": 60000
+		},
+		{
+			"varunada_lazurite_chunk": 3,
+			"cleansing_heart": 8,
+			"philanemo_mushroom": 30,
+			"shimmering_nectar": 18,
+			"mora": 80000
+		},
+		{
+			"varunada_lazurite_chunk": 6,
+			"cleansing_heart": 12,
+			"philanemo_mushroom": 45,
+			"energy_nectar": 12,
+			"mora": 100000
+		},
+		{
+			"varunada_lazurite_gemstone": 6,
+			"cleansing_heart": 20,
+			"philanemo_mushroom": 60,
+			"energy_nectar": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Ripple of Fate",
+			"desc": [
+				[
+					"Normal Attack",
+					"Perform up to 4 water splash attacks that deal Hydro DMG."
+				],
+				[
+					"Charged Attack",
+					"Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time."
+				],
+				[
+					"Plunging Attack",
+					"Gathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"37.6%",
+						"36%",
+						"44.8%",
+						"56.16%",
+						"149.72%",
+						"50",
+						"56.83%",
+						"113.63%"
+					],
+					[
+						"40.42%",
+						"38.7%",
+						"48.16%",
+						"60.37%",
+						"160.95%",
+						"50",
+						"61.45%",
+						"122.88%"
+					],
+					[
+						"43.24%",
+						"41.4%",
+						"51.52%",
+						"64.58%",
+						"172.18%",
+						"50",
+						"66.08%",
+						"132.13%"
+					],
+					[
+						"47%",
+						"45%",
+						"56%",
+						"70.2%",
+						"187.15%",
+						"50",
+						"72.69%",
+						"145.35%"
+					],
+					[
+						"49.82%",
+						"47.7%",
+						"59.36%",
+						"74.41%",
+						"198.38%",
+						"50",
+						"77.31%",
+						"154.59%"
+					],
+					[
+						"52.64%",
+						"50.4%",
+						"62.72%",
+						"78.62%",
+						"209.61%",
+						"50",
+						"82.6%",
+						"165.17%"
+					],
+					[
+						"56.4%",
+						"54%",
+						"67.2%",
+						"84.24%",
+						"224.58%",
+						"50",
+						"89.87%",
+						"179.7%"
+					],
+					[
+						"60.16%",
+						"57.6%",
+						"71.68%",
+						"89.86%",
+						"239.55%",
+						"50",
+						"97.14%",
+						"194.23%"
+					],
+					[
+						"63.92%",
+						"61.2%",
+						"76.16%",
+						"95.47%",
+						"254.52%",
+						"50",
+						"104.41%",
+						"208.77%"
+					],
+					[
+						"67.68%",
+						"64.8%",
+						"80.64%",
+						"101.09%",
+						"269.5%",
+						"50",
+						"112.34%",
+						"224.62%"
+					],
+					[
+						"71.44%",
+						"68.4%",
+						"85.12%",
+						"106.7%",
+						"285.07%",
+						"50",
+						"120.27%",
+						"240.48%"
+					],
+					[
+						"75.2%",
+						"72%",
+						"89.6%",
+						"112.32%",
+						"305.43%",
+						"50",
+						"128.2%",
+						"256.34%"
+					],
+					[
+						"79.9%",
+						"76.5%",
+						"95.2%",
+						"119.34%",
+						"325.79%",
+						"50",
+						"136.12%",
+						"272.19%"
+					],
+					[
+						"84.6%",
+						"81%",
+						"100.8%",
+						"126.36%",
+						"346.15%",
+						"50",
+						"144.05%",
+						"288.05%"
+					],
+					[
+						"89.3%",
+						"85.5%",
+						"106.4%",
+						"133.38%",
+						"366.51%",
+						"50",
+						"151.98%",
+						"303.9%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Mirror Reflection of Doom",
+			"desc": [
+				[
+					null,
+					"Creates an illusory Phantom of Fate from coalesced waterspouts.\nThe Phantom has the following special properties:\n\u2022 Continuously taunts nearby opponents, attracting their fire.\n\u2022 Continuously deals Hydro DMG to nearby opponents.\n\u2022 When its duration expires, the Phantom explodes, dealing AoE Hydro DMG."
+				],
+				[
+					"Hold",
+					"Utilizes water currents to move backwards swiftly before conjuring a Phantom.\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time."
+				]
+			],
+			"stats": {
+				"desc": [
+					"DoT",
+					"Explosion DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"32%",
+						"132.8%",
+						"12s"
+					],
+					[
+						"34.4%",
+						"142.76%",
+						"12s"
+					],
+					[
+						"36.8%",
+						"152.72%",
+						"12s"
+					],
+					[
+						"40%",
+						"166%",
+						"12s"
+					],
+					[
+						"42.4%",
+						"175.96%",
+						"12s"
+					],
+					[
+						"44.8%",
+						"185.92%",
+						"12s"
+					],
+					[
+						"48%",
+						"199.2%",
+						"12s"
+					],
+					[
+						"51.2%",
+						"212.48%",
+						"12s"
+					],
+					[
+						"54.4%",
+						"225.76%",
+						"12s"
+					],
+					[
+						"57.6%",
+						"239.04%",
+						"12s"
+					],
+					[
+						"60.8%",
+						"252.32%",
+						"12s"
+					],
+					[
+						"64%",
+						"265.6%",
+						"12s"
+					],
+					[
+						"68%",
+						"282.2%",
+						"12s"
+					],
+					[
+						"72%",
+						"298.8%",
+						"12s"
+					],
+					[
+						"76%",
+						"315.4%",
+						"12s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Stellaris Phantasm",
+			"desc": [
+				[
+					null,
+					"Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE."
+				],
+				[
+					"Illusory Bubble",
+					"Traps opponents inside a pocket of destiny and also makes them Wet. Renders weaker opponents immobile.\nWhen an opponent affected by Illusory Bubble sustains DMG, it has the following effects:\n\u2022 Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.\n\u2022 Removes the Illusory Bubble, dealing Hydro DMG in the process."
+				],
+				[
+					"Omen",
+					"During its duration, increases DMG taken by opponents."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Illusory Bubble Duration",
+					"Illusory Bubble Explosion DMG",
+					"DMG Bonus",
+					"Omen Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"8s",
+						"442.4%",
+						"42%",
+						"4s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"475.58%",
+						"44%",
+						"4s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"508.76%",
+						"46%",
+						"4s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"553%",
+						"48%",
+						"4.5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"586.18%",
+						"50%",
+						"4.5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"619.36%",
+						"52%",
+						"4.5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"663.6%",
+						"54%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"707.84%",
+						"56%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"752.08%",
+						"58%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"796.32%",
+						"60%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"840.56%",
+						"60%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"884.8%",
+						"60%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"940.1%",
+						"60%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"995.4%",
+						"60%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"1050.7%",
+						"60%",
+						"5s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"sprint": {
+			"title": "Illusory Torrent",
+			"desc": [
+				[
+					"Alternate Sprint",
+					"Mona cloaks herself within the water's flow, consuming Stamina to move rapidly.\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.\nApplies the Wet status to nearby opponents when she reappears."
+				]
+			],
+			"stats": {
+				"Activation Stamina Consumption": "10",
+				"Stamina Drain": "15/s"
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_resistance": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_resistance": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_resistance": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_resistance": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_resistance": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_resistance": 4,
+					"energy_nectar": 4,
+					"ring_of_boreas": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_resistance": 6,
+					"energy_nectar": 6,
+					"ring_of_boreas": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_resistance": 12,
+					"energy_nectar": 9,
+					"ring_of_boreas": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_resistance": 16,
+					"energy_nectar": 12,
+					"ring_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Principium of Astrology",
+			"desc": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used."
+		},
+		{
+			"name": "\"Come 'n' Get Me, Hag!\"",
+			"desc": "After she has used Illusory Torrent for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\n A Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom."
+		},
+		{
+			"name": "Waterborne Destiny",
+			"desc": "Increases Mona's Hydro DMG Bonus by a degree equivalent to 20% of her Energy Recharge rate."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Prophecy of Submersion",
+			"desc": "When any of your own party members hits an opponent affected by an Omen, the effects of Hydro-related Elemental Reactions are enhanced for 8s:\n \u2022 Electro-Charged DMG increases by 15%.\n \u2022 Vaporize DMG increases by 15%.\n \u2022 Hydro Swirl DMG increases by 15%.\n \u2022 Frozen duration is extended by 15%."
+		},
+		{
+			"name": "Lunar Chain",
+			"desc": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\n This effect can only occur once every 5s."
+		},
+		{
+			"name": "Restless Revolution",
+			"desc": "Increases the Level of Stellaris Phantasm by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Prophecy of Oblivion",
+			"desc": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%."
+		},
+		{
+			"name": "Mockery of Fortuna",
+			"desc": "Increases the Level of Mirror Reflection of Doom by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Rhetorics of Calamitas",
+			"desc": "Upon entering Illusory Torrent, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement.\n A maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s."
+		}
+	],
+	"constellation_increase_burst": 3,
+	"constellation_increase_skill": 5
+}

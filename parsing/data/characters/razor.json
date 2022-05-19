@@ -1,0 +1,813 @@
+{
+	"name": "Razor",
+	"title": "Wolf Boy",
+	"allegiance": "Wolvendom",
+	"rarity": 4,
+	"vision": "Electro",
+	"astrolabe": "Lupus Minor",
+	"weapon": "claymore",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"Physical DMG Bonus",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"1003",
+				"20",
+				"63",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"2577",
+				"50",
+				"162",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"3326",
+				"65",
+				"209",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"4982",
+				"97",
+				"313",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"5514",
+				"108",
+				"346",
+				"7.5%",
+				"5%",
+				"50%"
+			],
+			"50": [
+				"6343",
+				"124",
+				"398",
+				"7.5%",
+				"5%",
+				"50%"
+			],
+			"50+": [
+				"7052",
+				"138",
+				"443",
+				"15%",
+				"5%",
+				"50%"
+			],
+			"60": [
+				"7881",
+				"154",
+				"495",
+				"15%",
+				"5%",
+				"50%"
+			],
+			"60+": [
+				"8413",
+				"164",
+				"528",
+				"15%",
+				"5%",
+				"50%"
+			],
+			"70": [
+				"9241",
+				"180",
+				"580",
+				"15%",
+				"5%",
+				"50%"
+			],
+			"70+": [
+				"9773",
+				"191",
+				"613",
+				"22.5%",
+				"5%",
+				"50%"
+			],
+			"80": [
+				"10602",
+				"207",
+				"665",
+				"22.5%",
+				"5%",
+				"50%"
+			],
+			"80+": [
+				"11134",
+				"217",
+				"699",
+				"30%",
+				"5%",
+				"50%"
+			],
+			"90": [
+				"11962",
+				"234",
+				"751",
+				"30%",
+				"5%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"vajrada_amethyst_sliver": 1,
+			"wolfhook": 3,
+			"damaged_mask": 3,
+			"mora": 20000
+		},
+		{
+			"vajrada_amethyst_fragment": 3,
+			"lightning_prism": 2,
+			"wolfhook": 10,
+			"damaged_mask": 15,
+			"mora": 40000
+		},
+		{
+			"vajrada_amethyst_fragment": 6,
+			"lightning_prism": 4,
+			"wolfhook": 20,
+			"stained_mask": 12,
+			"mora": 60000
+		},
+		{
+			"vajrada_amethyst_chunk": 3,
+			"lightning_prism": 8,
+			"wolfhook": 30,
+			"stained_mask": 18,
+			"mora": 80000
+		},
+		{
+			"vajrada_amethyst_chunk": 6,
+			"lightning_prism": 12,
+			"wolfhook": 45,
+			"ominous_mask": 12,
+			"mora": 100000
+		},
+		{
+			"vajrada_amethyst_gemstone": 6,
+			"lightning_prism": 20,
+			"wolfhook": 60,
+			"ominous_mask": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Steel Fang",
+			"desc": [
+				[
+					"Normal Attack",
+					"Perform up to 4 consecutive strikes."
+				],
+				[
+					"Charged Attack",
+					"Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. "
+				],
+				[
+					"Plunging Attack",
+					"Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack Spinning DMG",
+					"Charged Attack Final DMG",
+					"Charged Attack Stamina Cost",
+					"Max Duration",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"95.92%",
+						"82.63%",
+						"103.31%",
+						"136.05%",
+						"62.54%",
+						"113.09%",
+						"40/s",
+						"5s",
+						"82.05%",
+						"164.06%"
+					],
+					[
+						"102.46%",
+						"88.27%",
+						"110.36%",
+						"145.32%",
+						"67.63%",
+						"122.3%",
+						"40/s",
+						"5s",
+						"88.72%",
+						"177.41%"
+					],
+					[
+						"109%",
+						"93.9%",
+						"117.4%",
+						"154.6%",
+						"72.72%",
+						"131.5%",
+						"40/s",
+						"5s",
+						"95.4%",
+						"190.77%"
+					],
+					[
+						"117.72%",
+						"101.41%",
+						"126.79%",
+						"166.97%",
+						"79.99%",
+						"144.65%",
+						"40/s",
+						"5s",
+						"104.94%",
+						"209.84%"
+					],
+					[
+						"124.26%",
+						"107.05%",
+						"133.84%",
+						"176.24%",
+						"85.08%",
+						"153.86%",
+						"40/s",
+						"5s",
+						"111.62%",
+						"223.2%"
+					],
+					[
+						"131.89%",
+						"113.62%",
+						"142.05%",
+						"187.07%",
+						"90.9%",
+						"164.38%",
+						"40/s",
+						"5s",
+						"119.25%",
+						"238.46%"
+					],
+					[
+						"141.7%",
+						"122.07%",
+						"152.62%",
+						"200.98%",
+						"98.9%",
+						"178.84%",
+						"40/s",
+						"5s",
+						"129.75%",
+						"259.44%"
+					],
+					[
+						"151.51%",
+						"130.52%",
+						"163.19%",
+						"214.89%",
+						"106.9%",
+						"193.31%",
+						"40/s",
+						"5s",
+						"140.24%",
+						"280.43%"
+					],
+					[
+						"161.32%",
+						"138.97%",
+						"173.75%",
+						"228.81%",
+						"114.9%",
+						"207.77%",
+						"40/s",
+						"5s",
+						"150.74%",
+						"301.41%"
+					],
+					[
+						"171.13%",
+						"147.42%",
+						"184.32%",
+						"242.72%",
+						"123.62%",
+						"223.55%",
+						"40/s",
+						"5s",
+						"162.19%",
+						"324.3%"
+					],
+					[
+						"180.94%",
+						"155.87%",
+						"194.88%",
+						"256.64%",
+						"132.35%",
+						"239.33%",
+						"40/s",
+						"5s",
+						"173.63%",
+						"347.19%"
+					],
+					[
+						"190.75%",
+						"164.33%",
+						"205.45%",
+						"270.55%",
+						"141.08%",
+						"255.11%",
+						"40/s",
+						"5s",
+						"185.08%",
+						"370.09%"
+					],
+					[
+						"200.56%",
+						"172.78%",
+						"216.02%",
+						"284.46%",
+						"149.8%",
+						"270.89%",
+						"40/s",
+						"5s",
+						"196.53%",
+						"392.98%"
+					],
+					[
+						"210.37%",
+						"181.23%",
+						"226.58%",
+						"298.38%",
+						"158.53%",
+						"286.67%",
+						"40/s",
+						"5s",
+						"207.98%",
+						"415.87%"
+					],
+					[
+						"220.18%",
+						"189.68%",
+						"237.15%",
+						"312.29%",
+						"167.26%",
+						"302.45%",
+						"40/s",
+						"5s",
+						"219.43%",
+						"438.76%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Claw and Thunder",
+			"desc": [
+				[
+					null,
+					"#Hunts his prey using the techniques taught to him by his master and his lupical."
+				],
+				[
+					"Press",
+					"Swings the Thunder Wolf Claw, dealing Electro DMG to opponents in front of Razor.\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration."
+				],
+				[
+					"Hold",
+					"Gathers Electro energy to unleash a lightning storm over a small AoE, causing massive Electro DMG, and clears all of Razor's Electro Sigils.\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Press Skill DMG",
+					"Hold Skill DMG",
+					"Energy Recharge Bonus",
+					"Energy Regenerated",
+					"Electro Sigil duration",
+					"Press CD",
+					"CD (hold)"
+				],
+				"values": [
+					[
+						"199.2%",
+						"295.2%",
+						"20% per Electro Sigil",
+						"5 per Electro Sigil Absorbed",
+						"18s",
+						"6s",
+						"10s"
+					],
+					[
+						"214.14%",
+						"317.34%",
+						"20% per Electro Sigil",
+						"5 per Electro Sigil Absorbed",
+						"18s",
+						"6s",
+						"10s"
+					],
+					[
+						"229.08%",
+						"339.48%",
+						"20% per Electro Sigil",
+						"5 per Electro Sigil Absorbed",
+						"18s",
+						"6s",
+						"10s"
+					],
+					[
+						"249%",
+						"369%",
+						"20% per Electro Sigil",
+						"5 per Electro Sigil Absorbed",
+						"18s",
+						"6s",
+						"10s"
+					],
+					[
+						"263.94%",
+						"391.14%",
+						"20% per Electro Sigil",
+						"5 per Electro Sigil Absorbed",
+						"18s",
+						"6s",
+						"10s"
+					],
+					[
+						"278.88%",
+						"413.28%",
+						"20% per Electro Sigil",
+						"5 per Electro Sigil Absorbed",
+						"18s",
+						"6s",
+						"10s"
+					],
+					[
+						"298.8%",
+						"442.8%",
+						"20% per Electro Sigil",
+						"5 per Electro Sigil Absorbed",
+						"18s",
+						"6s",
+						"10s"
+					],
+					[
+						"318.72%",
+						"472.32%",
+						"20% per Electro Sigil",
+						"5 per Electro Sigil Absorbed",
+						"18s",
+						"6s",
+						"10s"
+					],
+					[
+						"338.64%",
+						"501.84%",
+						"20% per Electro Sigil",
+						"5 per Electro Sigil Absorbed",
+						"18s",
+						"6s",
+						"10s"
+					],
+					[
+						"358.56%",
+						"531.36%",
+						"20% per Electro Sigil",
+						"5 per Electro Sigil Absorbed",
+						"18s",
+						"6s",
+						"10s"
+					],
+					[
+						"378.48%",
+						"560.88%",
+						"20% per Electro Sigil",
+						"5 per Electro Sigil Absorbed",
+						"18s",
+						"6s",
+						"10s"
+					],
+					[
+						"398.4%",
+						"590.4%",
+						"20% per Electro Sigil",
+						"5 per Electro Sigil Absorbed",
+						"18s",
+						"6s",
+						"10s"
+					],
+					[
+						"423.3%",
+						"627.3%",
+						"20% per Electro Sigil",
+						"5 per Electro Sigil Absorbed",
+						"18s",
+						"6s",
+						"10s"
+					],
+					[
+						"448.2%",
+						"664.2%",
+						"20% per Electro Sigil",
+						"5 per Electro Sigil Absorbed",
+						"18s",
+						"6s",
+						"10s"
+					],
+					[
+						"473.1%",
+						"701.1%",
+						"20% per Electro Sigil",
+						"5 per Electro Sigil Absorbed",
+						"18s",
+						"6s",
+						"10s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Lightning Fang",
+			"desc": [
+				[
+					null,
+					"Summons the Wolf Within, which deals Electro DMG to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him.\nThe Wolf Within will fight alongside Razor for the skill's duration."
+				],
+				[
+					"The Wolf Within",
+					"\u2022 Strikes alongside Razor's normal attacks, dealing Electro DMG.\n\u2022 Raises Razor's ATK SPD and Electro RES.\n\u2022 Causes Razor to be immune to DMG inflicted by the Electro-Charged status.\n\u2022 Disables Razor's Charged Attacks.\n\u2022 Increases Razor's resistance to interruption.\nThese effects end when Razor leaves the battlefield.\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Elemental Burst DMG",
+					"Soul Companion DMG",
+					"Normal ATK SPD Bonus",
+					"Electro RES Bonus",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"160%",
+						"24% Normal Attack DMG",
+						"26%",
+						"80%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"172%",
+						"25.8% Normal Attack DMG",
+						"28%",
+						"80%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"184%",
+						"27.6% Normal Attack DMG",
+						"30%",
+						"80%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"200%",
+						"30% Normal Attack DMG",
+						"32%",
+						"80%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"212%",
+						"31.8% Normal Attack DMG",
+						"34%",
+						"80%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"224%",
+						"33.6% Normal Attack DMG",
+						"36%",
+						"80%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"240%",
+						"36% Normal Attack DMG",
+						"37%",
+						"80%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"256%",
+						"38.4% Normal Attack DMG",
+						"38%",
+						"80%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"272%",
+						"40.8% Normal Attack DMG",
+						"39%",
+						"80%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"288%",
+						"43.2% Normal Attack DMG",
+						"40%",
+						"80%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"304%",
+						"45.6% Normal Attack DMG",
+						"40%",
+						"80%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"320%",
+						"48% Normal Attack DMG",
+						"40%",
+						"80%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"340%",
+						"51% Normal Attack DMG",
+						"40%",
+						"80%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"360%",
+						"54% Normal Attack DMG",
+						"40%",
+						"80%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"380%",
+						"57% Normal Attack DMG",
+						"40%",
+						"80%",
+						"15s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_resistance": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_resistance": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_resistance": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_resistance": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_resistance": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_resistance": 4,
+					"ominous_mask": 4,
+					"dvalins_claw": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_resistance": 6,
+					"ominous_mask": 6,
+					"dvalins_claw": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_resistance": 12,
+					"ominous_mask": 9,
+					"dvalins_claw": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_resistance": 16,
+					"ominous_mask": 12,
+					"dvalins_claw": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Wolvensprint",
+			"desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\n Not stackable with Passive Talents that provide the exact same effects."
+		},
+		{
+			"name": "Awakening",
+			"desc": "Decreases Claw and Thunder's CD by 18%.\n Using Lightning Fang resets the CD of Claw and Thunder."
+		},
+		{
+			"name": "Hunger",
+			"desc": "When Razor's Energy is below 50%, increases Energy Recharge by 30%."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Wolf's Instinct",
+			"desc": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s."
+		},
+		{
+			"name": "Suppression",
+			"desc": "Increases CRIT Rate against opponents with less than 30% HP by 10%."
+		},
+		{
+			"name": "Soul Companion",
+			"desc": "Increases the Level of Lightning Fang by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Bite",
+			"desc": "#When casting Claw and Thunder (Press), opponents hit will have their DEF decreased by 15% for 7s."
+		},
+		{
+			"name": "Sharpened Claws",
+			"desc": "Increases the Level of Claw and Thunder by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Lupus Fulguris",
+			"desc": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as Electro DMG.\n When Razor is not using Lightning Fang, a lightning strike on an opponent will grant Razor an Electro Sigil for Claw and Thunder."
+		}
+	],
+	"constellation_increase_burst": 3,
+	"constellation_increase_skill": 5
+}

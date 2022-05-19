@@ -1,0 +1,194 @@
+{
+	"mora": {
+		"name": "Mora",
+		"rarity": 3
+	},
+	"adventure_exp": {
+		"name": "Adventure EXP",
+		"rarity": 3
+	},
+	"character_exp": {
+		"name": "Character EXP",
+		"rarity": 3
+	},
+	"companionship_exp": {
+		"name": "Companionship EXP",
+		"rarity": 3
+	},
+	"original_resin": {
+		"name": "Original Resin",
+		"rarity": 3
+	},
+	"fragile_resin": {
+		"name": "Fragile Resin",
+		"rarity": 4
+	},
+	"masterless_stardust": {
+		"name": "Masterless Stardust",
+		"rarity": 4
+	},
+	"masterless_starglitter": {
+		"name": "Masterless Starglitter",
+		"rarity": 5
+	},
+	"stardust": {
+		"name": "Stardust",
+		"rarity": 3
+	},
+	"starglitter": {
+		"name": "Starglitter",
+		"rarity": 4
+	},
+	"story_key": {
+		"name": "Story Key",
+		"rarity": 4
+	},
+	"crimson_agate": {
+		"name": "Crimson Agate",
+		"rarity": 1
+	},
+	"a_huge_bag_of_mora": {
+		"name": "A Huge Bag of Mora",
+		"rarity": 1
+	},
+	"childe_and_teucers_mora_pouch": {
+		"name": "Childe and Teucer's Mora Pouch",
+		"rarity": 1
+	},
+	"original_essence_invalidated_": {
+		"name": "Original Essence (Invalidated)",
+		"rarity": 2
+	},
+	"original_resin_invalidated_": {
+		"name": "Original Resin (Invalidated)",
+		"rarity": 3
+	},
+	"anemoculus": {
+		"name": "Anemoculus",
+		"rarity": 1
+	},
+	"elemental_dust": {
+		"name": "Elemental Dust",
+		"rarity": 1
+	},
+	"geoculus": {
+		"name": "Geoculus",
+		"rarity": 1
+	},
+	"transient_resin": {
+		"name": "Transient Resin",
+		"rarity": 4
+	},
+	"mini_harpastum_": {
+		"name": "Mini \"Harpastum\"",
+		"rarity": 4
+	},
+	"electroculus": {
+		"name": "Electroculus",
+		"rarity": 1
+	},
+	"mondstadt_shrine_of_depths_key": {
+		"name": "Mondstadt Shrine of Depths Key",
+		"rarity": 1
+	},
+	"liyue_shrine_of_depths_key": {
+		"name": "Liyue Shrine of Depths Key",
+		"rarity": 1
+	},
+	"inazuma_shrine_of_depths_key": {
+		"name": "Inazuma Shrine of Depths Key",
+		"rarity": 1
+	},
+	"primogem": {
+		"name": "Primogem",
+		"rarity": 5
+	},
+	"genesis_crystal": {
+		"name": "Genesis Crystal",
+		"rarity": 5
+	},
+	"intertwined_fate": {
+		"name": "Intertwined Fate",
+		"rarity": 5
+	},
+	"acquaint_fate": {
+		"name": "Acquaint Fate",
+		"rarity": 5
+	},
+	"pyro_sigil": {
+		"name": "Pyro Sigil",
+		"rarity": 3
+	},
+	"hydro_sigil": {
+		"name": "Hydro Sigil",
+		"rarity": 3
+	},
+	"dendro_sigil": {
+		"name": "Dendro Sigil",
+		"rarity": 3
+	},
+	"electro_sigil": {
+		"name": "Electro Sigil",
+		"rarity": 3
+	},
+	"anemo_sigil": {
+		"name": "Anemo Sigil",
+		"rarity": 3
+	},
+	"cryo_sigil": {
+		"name": "Cryo Sigil",
+		"rarity": 3
+	},
+	"geo_sigil": {
+		"name": "Geo Sigil",
+		"rarity": 3
+	},
+	"mondstadt_reputation_exp": {
+		"name": "Mondstadt Reputation EXP",
+		"rarity": 3
+	},
+	"liyue_reputation_exp": {
+		"name": "Liyue Reputation EXP",
+		"rarity": 3
+	},
+	"inazuma_reputation_exp": {
+		"name": "Inazuma Reputation EXP",
+		"rarity": 3
+	},
+	"memory_of_eternal_flames": {
+		"name": "Memory of Eternal Flames",
+		"rarity": 5
+	},
+	"memory_of_running_stream": {
+		"name": "Memory of Running Stream",
+		"rarity": 5
+	},
+	"memory_of_flourishing_green": {
+		"name": "Memory of Flourishing Green",
+		"rarity": 5
+	},
+	"memory_of_violet_flash": {
+		"name": "Memory of Violet Flash",
+		"rarity": 5
+	},
+	"memory_of_roving_gales": {
+		"name": "Memory of Roving Gales",
+		"rarity": 5
+	},
+	"memory_of_piercing_frost": {
+		"name": "Memory of Piercing Frost",
+		"rarity": 5
+	},
+	"memory_of_immovable_crystals": {
+		"name": "Memory of Immovable Crystals",
+		"rarity": 5
+	},
+	"trust": {
+		"name": "Trust",
+		"rarity": 3
+	},
+	"realm_currency": {
+		"name": "Realm Currency",
+		"rarity": 3
+	}
+}

@@ -1,0 +1,673 @@
+{
+	"name": "Fischl",
+	"title": "Prinzessin der Verurteilung!",
+	"allegiance": "Adventurers' Guild",
+	"rarity": 4,
+	"vision": "Electro",
+	"astrolabe": "Corvus",
+	"weapon": "bow",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"ATK",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"770",
+				"20",
+				"50",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"1979",
+				"53",
+				"128",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"2555",
+				"68",
+				"165",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"3827",
+				"102",
+				"247",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"4236",
+				"113",
+				"274",
+				"6%",
+				"5%",
+				"50%"
+			],
+			"50": [
+				"4872",
+				"130",
+				"315",
+				"6%",
+				"5%",
+				"50%"
+			],
+			"50+": [
+				"5418",
+				"144",
+				"350",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"60": [
+				"6054",
+				"161",
+				"391",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"60+": [
+				"6463",
+				"172",
+				"418",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"70": [
+				"7099",
+				"189",
+				"459",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"70+": [
+				"7508",
+				"200",
+				"485",
+				"18%",
+				"5%",
+				"50%"
+			],
+			"80": [
+				"8144",
+				"216",
+				"526",
+				"18%",
+				"5%",
+				"50%"
+			],
+			"80+": [
+				"8553",
+				"227",
+				"553",
+				"24%",
+				"5%",
+				"50%"
+			],
+			"90": [
+				"9189",
+				"244",
+				"594",
+				"24%",
+				"5%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"vajrada_amethyst_sliver": 1,
+			"small_lamp_grass": 3,
+			"firm_arrowhead": 3,
+			"mora": 20000
+		},
+		{
+			"vajrada_amethyst_fragment": 3,
+			"lightning_prism": 2,
+			"small_lamp_grass": 10,
+			"firm_arrowhead": 15,
+			"mora": 40000
+		},
+		{
+			"vajrada_amethyst_fragment": 6,
+			"lightning_prism": 4,
+			"small_lamp_grass": 20,
+			"sharp_arrowhead": 12,
+			"mora": 60000
+		},
+		{
+			"vajrada_amethyst_chunk": 3,
+			"lightning_prism": 8,
+			"small_lamp_grass": 30,
+			"sharp_arrowhead": 18,
+			"mora": 80000
+		},
+		{
+			"vajrada_amethyst_chunk": 6,
+			"lightning_prism": 12,
+			"small_lamp_grass": 45,
+			"weathered_arrowhead": 12,
+			"mora": 100000
+		},
+		{
+			"vajrada_amethyst_gemstone": 6,
+			"lightning_prism": 20,
+			"small_lamp_grass": 60,
+			"weathered_arrowhead": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Bolts of Downfall",
+			"desc": [
+				[
+					"Normal Attack",
+					"Perform up to 5 consecutive shots with a bow."
+				],
+				[
+					"Charged Attack",
+					"Perform a more precise Aimed Shot with increased DMG.\nWhile aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachs\u00fcchtig Blitz shall deal immense Electro DMG."
+				],
+				[
+					"Plunging Attack",
+					"Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Aimed Shot",
+					"Fully-Charged Aimed Shot",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"44.12%",
+						"46.78%",
+						"58.14%",
+						"57.71%",
+						"72.07%",
+						"43.86%",
+						"124%",
+						"56.83%",
+						"113.63%"
+					],
+					[
+						"47.71%",
+						"50.59%",
+						"62.87%",
+						"62.4%",
+						"77.93%",
+						"47.43%",
+						"133.3%",
+						"61.45%",
+						"122.88%"
+					],
+					[
+						"51.3%",
+						"54.4%",
+						"67.6%",
+						"67.1%",
+						"83.8%",
+						"51%",
+						"142.6%",
+						"66.08%",
+						"132.13%"
+					],
+					[
+						"56.43%",
+						"59.84%",
+						"74.36%",
+						"73.81%",
+						"92.18%",
+						"56.1%",
+						"155%",
+						"72.69%",
+						"145.35%"
+					],
+					[
+						"60.02%",
+						"63.65%",
+						"79.09%",
+						"78.51%",
+						"98.05%",
+						"59.67%",
+						"164.3%",
+						"77.31%",
+						"154.59%"
+					],
+					[
+						"64.13%",
+						"68%",
+						"84.5%",
+						"83.88%",
+						"104.75%",
+						"63.75%",
+						"173.6%",
+						"82.6%",
+						"165.17%"
+					],
+					[
+						"69.77%",
+						"73.98%",
+						"91.94%",
+						"91.26%",
+						"113.97%",
+						"69.36%",
+						"186%",
+						"89.87%",
+						"179.7%"
+					],
+					[
+						"75.41%",
+						"79.97%",
+						"99.37%",
+						"98.64%",
+						"123.19%",
+						"74.97%",
+						"198.4%",
+						"97.14%",
+						"194.23%"
+					],
+					[
+						"81.05%",
+						"85.95%",
+						"106.81%",
+						"106.02%",
+						"132.4%",
+						"80.58%",
+						"210.8%",
+						"104.41%",
+						"208.77%"
+					],
+					[
+						"87.21%",
+						"92.48%",
+						"114.92%",
+						"114.07%",
+						"142.46%",
+						"86.7%",
+						"223.2%",
+						"112.34%",
+						"224.62%"
+					],
+					[
+						"93.37%",
+						"99.01%",
+						"123.03%",
+						"122.12%",
+						"152.52%",
+						"92.82%",
+						"235.6%",
+						"120.27%",
+						"240.48%"
+					],
+					[
+						"99.52%",
+						"105.54%",
+						"131.14%",
+						"130.17%",
+						"162.57%",
+						"98.94%",
+						"248%",
+						"128.2%",
+						"256.34%"
+					],
+					[
+						"105.68%",
+						"112.06%",
+						"139.26%",
+						"138.23%",
+						"172.63%",
+						"105.06%",
+						"263.5%",
+						"136.12%",
+						"272.19%"
+					],
+					[
+						"111.83%",
+						"118.59%",
+						"147.37%",
+						"146.28%",
+						"182.68%",
+						"111.18%",
+						"279%",
+						"144.05%",
+						"288.05%"
+					],
+					[
+						"117.99%",
+						"125.12%",
+						"155.48%",
+						"154.33%",
+						"192.74%",
+						"117.3%",
+						"294.5%",
+						"151.98%",
+						"303.9%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Nightrider",
+			"desc": [
+				[
+					null,
+					"#Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing Electro DMG in a small AoE.\nFor the ability's duration, Oz will continuously attack nearby opponents with Freikugel.\nHold to adjust the location Oz will be summoned to.\nPress again any time during the ability's duration to once again summon him to Fischl's side."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Oz's ATK DMG",
+					"Summoning DMG",
+					"Oz's Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"88.8%",
+						"115.44%",
+						"10s",
+						"25s"
+					],
+					[
+						"95.46%",
+						"124.1%",
+						"10s",
+						"25s"
+					],
+					[
+						"102.12%",
+						"132.76%",
+						"10s",
+						"25s"
+					],
+					[
+						"111%",
+						"144.3%",
+						"10s",
+						"25s"
+					],
+					[
+						"117.66%",
+						"152.96%",
+						"10s",
+						"25s"
+					],
+					[
+						"124.32%",
+						"161.62%",
+						"10s",
+						"25s"
+					],
+					[
+						"133.2%",
+						"173.16%",
+						"10s",
+						"25s"
+					],
+					[
+						"142.08%",
+						"184.7%",
+						"10s",
+						"25s"
+					],
+					[
+						"150.96%",
+						"196.25%",
+						"10s",
+						"25s"
+					],
+					[
+						"159.84%",
+						"207.79%",
+						"10s",
+						"25s"
+					],
+					[
+						"168.72%",
+						"219.34%",
+						"10s",
+						"25s"
+					],
+					[
+						"177.6%",
+						"230.88%",
+						"10s",
+						"25s"
+					],
+					[
+						"188.7%",
+						"245.31%",
+						"10s",
+						"25s"
+					],
+					[
+						"199.8%",
+						"259.74%",
+						"10s",
+						"25s"
+					],
+					[
+						"210.9%",
+						"274.17%",
+						"10s",
+						"25s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Midnight Phantasmagoria",
+			"desc": [
+				[
+					null,
+					"Summons Oz to spread his twin wings of twilight and defend Fischl.\nHas the following properties during the ability's duration:\n\u2022 Fischl takes on Oz's form, greatly increasing her Movement Speed.\n\u2022 Strikes nearby opponents with lightning, dealing Electro DMG to opponents she comes into contact with. Each opponent can only be struck once.\n\u2022 Once this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Falling Thunder DMG",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"208%",
+						"15s",
+						"60"
+					],
+					[
+						"223.6%",
+						"15s",
+						"60"
+					],
+					[
+						"239.2%",
+						"15s",
+						"60"
+					],
+					[
+						"260%",
+						"15s",
+						"60"
+					],
+					[
+						"275.6%",
+						"15s",
+						"60"
+					],
+					[
+						"291.2%",
+						"15s",
+						"60"
+					],
+					[
+						"312%",
+						"15s",
+						"60"
+					],
+					[
+						"332.8%",
+						"15s",
+						"60"
+					],
+					[
+						"353.6%",
+						"15s",
+						"60"
+					],
+					[
+						"374.4%",
+						"15s",
+						"60"
+					],
+					[
+						"395.2%",
+						"15s",
+						"60"
+					],
+					[
+						"416%",
+						"15s",
+						"60"
+					],
+					[
+						"442%",
+						"15s",
+						"60"
+					],
+					[
+						"468%",
+						"15s",
+						"60"
+					],
+					[
+						"494%",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_ballad": 3,
+					"firm_arrowhead": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_ballad": 2,
+					"sharp_arrowhead": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_ballad": 4,
+					"sharp_arrowhead": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_ballad": 6,
+					"sharp_arrowhead": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_ballad": 9,
+					"sharp_arrowhead": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_ballad": 4,
+					"weathered_arrowhead": 4,
+					"spirit_locket_of_boreas": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_ballad": 6,
+					"weathered_arrowhead": 6,
+					"spirit_locket_of_boreas": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_ballad": 12,
+					"weathered_arrowhead": 9,
+					"spirit_locket_of_boreas": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_ballad": 16,
+					"weathered_arrowhead": 12,
+					"spirit_locket_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Mein Hausgarten",
+			"desc": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
+		},
+		{
+			"name": "Stellar Predator",
+			"desc": "When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down Thundering Retribution, dealing AoE Electro DMG equal to 152.7% of the arrow's DMG."
+		},
+		{
+			"name": "Undone Be Thy Sinful Hex",
+			"desc": "If your current active character triggers an Electro-related Elemental Reaction when Oz is on the field, the opponent shall be stricken with Thundering Retribution, dealing Electro DMG equal to 80% of Fischl's ATK."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Gaze of the Deep",
+			"desc": "Even when Oz is not present in combat, he can still watch over Fischl through his raven eyes. When Fischl performs a Normal Attack against an opponent, Oz fires a joint attack, dealing DMG equal to 22% of Fischl's ATK."
+		},
+		{
+			"name": "Devourer of All Sins",
+			"desc": "When Nightrider is used, it deals an additional 200% ATK as DMG, and its AoE is increased by 50%."
+		},
+		{
+			"name": "Wings of Nightmare",
+			"desc": "Increases the Level of Nightrider by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Her Pilgrimage of Bleak",
+			"desc": "When Midnight Phantasmagoria is used, it deals 222% of ATK as Electro DMG to surrounding opponents.\n When the skill duration ends, Fischl regenerates 20% of her HP."
+		},
+		{
+			"name": "Against the Fleeing Light",
+			"desc": "Increases the Level of Midnight Phantasmagoria by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Evernight Raven",
+			"desc": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs joint attacks with your active character when present, dealing 30% of Fischl's ATK as Electro DMG."
+		}
+	],
+	"constellation_increase_burst": 5,
+	"constellation_increase_skill": 3
+}

@@ -1,0 +1,4084 @@
+{
+	"waster_greatsword": {
+		"name": "Waster Greatsword",
+		"type": "claymore",
+		"rarity": 1,
+		"desc": "A sturdy sheet of iron that may be powerful enough to break apart mountains if wielded with enough willpower.",
+		"ability": null,
+		"enhancement": {
+			"desc": [
+				"Base Atk"
+			],
+			"values": {
+				"1": [
+					"23"
+				],
+				"5": [
+					"30"
+				],
+				"10": [
+					"39"
+				],
+				"15": [
+					"48"
+				],
+				"20": [
+					"56"
+				],
+				"20+": [
+					"68"
+				],
+				"25": [
+					"76"
+				],
+				"30": [
+					"85"
+				],
+				"35": [
+					"93"
+				],
+				"40": [
+					"102"
+				],
+				"40+": [
+					"113"
+				],
+				"45": [
+					"121"
+				],
+				"50": [
+					"130"
+				],
+				"50+": [
+					"141"
+				],
+				"55": [
+					"149"
+				],
+				"60": [
+					"158"
+				],
+				"60+": [
+					"169"
+				],
+				"65": [
+					"177"
+				],
+				"70": [
+					"185"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"boreal_wolfs_milk_tooth": 1,
+				"dead_ley_line_branch": 1,
+				"slime_condensate": 1,
+				"mora": 0
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 1,
+				"dead_ley_line_branch": 4,
+				"slime_condensate": 2,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 2,
+				"dead_ley_line_leaves": 2,
+				"slime_secretions": 2,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_broken_fang": 1,
+				"dead_ley_line_leaves": 4,
+				"slime_secretions": 3,
+				"mora": 10000
+			}
+		]
+	},
+	"old_mercs_pal": {
+		"name": "Old Merc's Pal",
+		"type": "claymore",
+		"rarity": 2,
+		"desc": "A battle-tested greatsword that has seen better days and worse.",
+		"ability": null,
+		"enhancement": {
+			"desc": [
+				"Base Atk"
+			],
+			"values": {
+				"1": [
+					"33"
+				],
+				"5": [
+					"43"
+				],
+				"10": [
+					"55"
+				],
+				"15": [
+					"68"
+				],
+				"20": [
+					"80"
+				],
+				"20+": [
+					"91"
+				],
+				"25": [
+					"103"
+				],
+				"30": [
+					"115"
+				],
+				"35": [
+					"127"
+				],
+				"40": [
+					"139"
+				],
+				"40+": [
+					"151"
+				],
+				"45": [
+					"162"
+				],
+				"50": [
+					"174"
+				],
+				"50+": [
+					"186"
+				],
+				"55": [
+					"197"
+				],
+				"60": [
+					"209"
+				],
+				"60+": [
+					"220"
+				],
+				"65": [
+					"232"
+				],
+				"70": [
+					"243"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"boreal_wolfs_milk_tooth": 1,
+				"dead_ley_line_branch": 1,
+				"slime_condensate": 1,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 1,
+				"dead_ley_line_branch": 5,
+				"slime_condensate": 4,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 3,
+				"dead_ley_line_leaves": 3,
+				"slime_secretions": 3,
+				"mora": 10000
+			},
+			{
+				"boreal_wolfs_broken_fang": 1,
+				"dead_ley_line_leaves": 5,
+				"slime_secretions": 4,
+				"mora": 15000
+			}
+		]
+	},
+	"bloodtainted_greatsword": {
+		"name": "Bloodtainted Greatsword",
+		"type": "claymore",
+		"rarity": 3,
+		"desc": "A steel sword that is said to have been coated with dragon blood, rendering it invulnerable to damage. This effect is not extended to its wielder, however.",
+		"ability": {
+			"name": "Bane of Fire and Thunder",
+			"desc": [
+				"Increases DMG dealt against opponents affected by Pyro or Electro by 12%.",
+				"Increases DMG dealt against opponents affected by Pyro or Electro by 15%.",
+				"Increases DMG dealt against opponents affected by Pyro or Electro by 18%.",
+				"Increases DMG dealt against opponents affected by Pyro or Electro by 21%.",
+				"Increases DMG against opponents affected by Pyro or Electro by 24%."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Elemental Mastery"
+			],
+			"values": {
+				"1": [
+					"38",
+					"41"
+				],
+				"5": [
+					"48",
+					"47"
+				],
+				"10": [
+					"61",
+					"56"
+				],
+				"15": [
+					"73",
+					"64"
+				],
+				"20": [
+					"86",
+					"72"
+				],
+				"20+": [
+					"105",
+					"72"
+				],
+				"25": [
+					"117",
+					"80"
+				],
+				"30": [
+					"129",
+					"89"
+				],
+				"35": [
+					"140",
+					"97"
+				],
+				"40": [
+					"151",
+					"105"
+				],
+				"40+": [
+					"171",
+					"105"
+				],
+				"45": [
+					"182",
+					"113"
+				],
+				"50": [
+					"193",
+					"122"
+				],
+				"50+": [
+					"212",
+					"122"
+				],
+				"55": [
+					"223",
+					"130"
+				],
+				"60": [
+					"234",
+					"138"
+				],
+				"60+": [
+					"253",
+					"138"
+				],
+				"65": [
+					"264",
+					"146"
+				],
+				"70": [
+					"274",
+					"154"
+				],
+				"70+": [
+					"294",
+					"154"
+				],
+				"75": [
+					"304",
+					"163"
+				],
+				"80": [
+					"314",
+					"171"
+				],
+				"80+": [
+					"334",
+					"171"
+				],
+				"85": [
+					"344",
+					"179"
+				],
+				"90": [
+					"354",
+					"187"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"boreal_wolfs_milk_tooth": 2,
+				"dead_ley_line_branch": 2,
+				"firm_arrowhead": 1,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 2,
+				"dead_ley_line_branch": 8,
+				"firm_arrowhead": 5,
+				"mora": 10000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 4,
+				"dead_ley_line_leaves": 4,
+				"sharp_arrowhead": 4,
+				"mora": 15000
+			},
+			{
+				"boreal_wolfs_broken_fang": 2,
+				"dead_ley_line_leaves": 8,
+				"sharp_arrowhead": 6,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_broken_fang": 4,
+				"ley_line_sprout": 6,
+				"weathered_arrowhead": 4,
+				"mora": 25000
+			},
+			{
+				"boreal_wolfs_nostalgia": 3,
+				"ley_line_sprout": 12,
+				"weathered_arrowhead": 8,
+				"mora": 30000
+			}
+		]
+	},
+	"debate_club": {
+		"name": "Debate Club",
+		"type": "claymore",
+		"rarity": 3,
+		"desc": "A handy club made of fine steel. The most persuasive line of reasoning in any debater's arsenal.",
+		"ability": {
+			"name": "Blunt Conclusion",
+			"desc": [
+				"After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 60% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+				"After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 75% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+				"After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 90% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+				"After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 105% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+				"After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 120% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"ATK"
+			],
+			"values": {
+				"1": [
+					"39",
+					"7.7"
+				],
+				"5": [
+					"50",
+					"8.9"
+				],
+				"10": [
+					"65",
+					"10.4"
+				],
+				"15": [
+					"79",
+					"12"
+				],
+				"20": [
+					"94",
+					"13.5"
+				],
+				"20+": [
+					"113",
+					"13.5"
+				],
+				"25": [
+					"127",
+					"15.1"
+				],
+				"30": [
+					"141",
+					"16.6"
+				],
+				"35": [
+					"155",
+					"18.2"
+				],
+				"40": [
+					"169",
+					"19.7"
+				],
+				"40+": [
+					"189",
+					"19.7"
+				],
+				"45": [
+					"202",
+					"21.3"
+				],
+				"50": [
+					"216",
+					"22.8"
+				],
+				"50+": [
+					"236",
+					"22.8"
+				],
+				"55": [
+					"249",
+					"24.4"
+				],
+				"60": [
+					"263",
+					"25.9"
+				],
+				"60+": [
+					"282",
+					"25.9"
+				],
+				"65": [
+					"296",
+					"27.5"
+				],
+				"70": [
+					"309",
+					"29"
+				],
+				"70+": [
+					"329",
+					"29"
+				],
+				"75": [
+					"342",
+					"30.5"
+				],
+				"80": [
+					"355",
+					"32.1"
+				],
+				"80+": [
+					"375",
+					"32.1"
+				],
+				"85": [
+					"388",
+					"33.6"
+				],
+				"90": [
+					"401",
+					"35.2"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"mist_veiled_lead_elixir": 2,
+				"mist_grass_pollen": 2,
+				"damaged_mask": 1,
+				"mora": 5000
+			},
+			{
+				"mist_veiled_mercury_elixir": 2,
+				"mist_grass_pollen": 8,
+				"damaged_mask": 5,
+				"mora": 10000
+			},
+			{
+				"mist_veiled_mercury_elixir": 4,
+				"mist_grass": 4,
+				"stained_mask": 4,
+				"mora": 15000
+			},
+			{
+				"mist_veiled_gold_elixir": 2,
+				"mist_grass": 8,
+				"stained_mask": 6,
+				"mora": 20000
+			},
+			{
+				"mist_veiled_gold_elixir": 4,
+				"mist_grass_wick": 6,
+				"ominous_mask": 4,
+				"mora": 25000
+			},
+			{
+				"mist_veiled_primo_elixir": 3,
+				"mist_grass_wick": 12,
+				"ominous_mask": 8,
+				"mora": 30000
+			}
+		]
+	},
+	"ferrous_shadow": {
+		"name": "Ferrous Shadow",
+		"type": "claymore",
+		"rarity": 3,
+		"desc": "A replica of the famed sword of Arundolyn, the Lion of Light. Feel the power of a legendary hero as you hold this sword in your hand! Imagine yourself as the great warrior himself! Note: Daydreaming not recommended in live combat.",
+		"ability": {
+			"name": "Unbending",
+			"desc": [
+				"When HP falls below 70%, increases Charged Attack DMG by 30% and Charged Attacks become harder to interrupt.",
+				"When HP falls below 75%, increases Charged Attack DMG by 35% and Charged Attacks become harder to interrupt.",
+				"When HP falls below 80%, increases Charged Attack DMG by 40% and Charged Attacks become harder to interrupt.",
+				"When HP falls below 85%, increases Charged Attack DMG by 45% and Charged Attacks become harder to interrupt.",
+				"When HP falls below 90%, increases Charged Attack DMG by 50% and Charged Attacks become harder to interrupt."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"HP"
+			],
+			"values": {
+				"1": [
+					"39",
+					"7.7"
+				],
+				"5": [
+					"50",
+					"8.9"
+				],
+				"10": [
+					"65",
+					"10.4"
+				],
+				"15": [
+					"79",
+					"12"
+				],
+				"20": [
+					"94",
+					"13.5"
+				],
+				"20+": [
+					"113",
+					"13.5"
+				],
+				"25": [
+					"127",
+					"15.1"
+				],
+				"30": [
+					"141",
+					"16.6"
+				],
+				"35": [
+					"155",
+					"18.2"
+				],
+				"40": [
+					"169",
+					"19.7"
+				],
+				"40+": [
+					"189",
+					"19.7"
+				],
+				"45": [
+					"202",
+					"21.3"
+				],
+				"50": [
+					"216",
+					"22.8"
+				],
+				"50+": [
+					"236",
+					"22.8"
+				],
+				"55": [
+					"249",
+					"24.4"
+				],
+				"60": [
+					"263",
+					"25.9"
+				],
+				"60+": [
+					"282",
+					"25.9"
+				],
+				"65": [
+					"296",
+					"27.5"
+				],
+				"70": [
+					"309",
+					"29"
+				],
+				"70+": [
+					"329",
+					"29"
+				],
+				"75": [
+					"342",
+					"30.5"
+				],
+				"80": [
+					"355",
+					"32.1"
+				],
+				"80+": [
+					"375",
+					"32.1"
+				],
+				"85": [
+					"388",
+					"33.6"
+				],
+				"90": [
+					"401",
+					"35.2"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"tile_of_decarabians_tower": 2,
+				"heavy_horn": 2,
+				"whopperflower_nectar": 1,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 2,
+				"heavy_horn": 8,
+				"whopperflower_nectar": 5,
+				"mora": 10000
+			},
+			{
+				"debris_of_decarabians_city": 4,
+				"black_bronze_horn": 4,
+				"shimmering_nectar": 4,
+				"mora": 15000
+			},
+			{
+				"fragment_of_decarabians_epic": 2,
+				"black_bronze_horn": 8,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"fragment_of_decarabians_epic": 4,
+				"black_crystal_horn": 6,
+				"energy_nectar": 4,
+				"mora": 25000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 3,
+				"black_crystal_horn": 12,
+				"energy_nectar": 8,
+				"mora": 30000
+			}
+		]
+	},
+	"skyrider_greatsword": {
+		"name": "Skyrider Greatsword",
+		"type": "claymore",
+		"rarity": 3,
+		"desc": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword... for the second time.",
+		"ability": {
+			"name": "Courage",
+			"desc": [
+				"On hit, Normal or Charged Attacks increase ATK by 6% for 6s. Max 4 stacks. Can occur once every 0.5s.",
+				"On hit, Normal or Charged Attacks increase ATK by 7% for 6s. Max 4 stacks. Can occur once every 0.5s.",
+				"On hit, Normal or Charged Attacks increase ATK by 8% for 6s. Max 4 stacks. Can occur once every 0.5s.",
+				"On hit, Normal or Charged Attacks increase ATK by 9% for 6s. Max 4 stacks. Can occur once every 0.5s.",
+				"On hit, Normal or Charged Attacks increase ATK by 10% for 6s. Max 4 stacks. Can occur once every 0.5s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Physical DMG Bonus"
+			],
+			"values": {
+				"1": [
+					"39",
+					"9.6"
+				],
+				"5": [
+					"50",
+					"11.1"
+				],
+				"10": [
+					"65",
+					"13"
+				],
+				"15": [
+					"79",
+					"15"
+				],
+				"20": [
+					"94",
+					"16.9"
+				],
+				"20+": [
+					"113",
+					"16.9"
+				],
+				"25": [
+					"127",
+					"18.8"
+				],
+				"30": [
+					"141",
+					"20.8"
+				],
+				"35": [
+					"155",
+					"22.7"
+				],
+				"40": [
+					"169",
+					"24.6"
+				],
+				"40+": [
+					"189",
+					"24.6"
+				],
+				"45": [
+					"202",
+					"26.5"
+				],
+				"50": [
+					"216",
+					"28.5"
+				],
+				"50+": [
+					"236",
+					"28.5"
+				],
+				"55": [
+					"249",
+					"30.4"
+				],
+				"60": [
+					"263",
+					"32.3"
+				],
+				"60+": [
+					"282",
+					"32.3"
+				],
+				"65": [
+					"296",
+					"34.3"
+				],
+				"70": [
+					"309",
+					"36.2"
+				],
+				"70+": [
+					"329",
+					"36.2"
+				],
+				"75": [
+					"342",
+					"38.1"
+				],
+				"80": [
+					"355",
+					"40.1"
+				],
+				"80+": [
+					"375",
+					"40.1"
+				],
+				"85": [
+					"388",
+					"42"
+				],
+				"90": [
+					"401",
+					"43.9"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"grain_of_aerosiderite": 2,
+				"fragile_bone_shard": 2,
+				"treasure_hoarder_insignia": 1,
+				"mora": 5000
+			},
+			{
+				"piece_of_aerosiderite": 2,
+				"fragile_bone_shard": 8,
+				"treasure_hoarder_insignia": 5,
+				"mora": 10000
+			},
+			{
+				"piece_of_aerosiderite": 4,
+				"sturdy_bone_shard": 4,
+				"silver_raven_insignia": 4,
+				"mora": 15000
+			},
+			{
+				"bit_of_aerosiderite": 2,
+				"sturdy_bone_shard": 8,
+				"silver_raven_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"bit_of_aerosiderite": 4,
+				"fossilized_bone_shard": 6,
+				"golden_raven_insignia": 4,
+				"mora": 25000
+			},
+			{
+				"chunk_of_aerosiderite": 3,
+				"fossilized_bone_shard": 12,
+				"golden_raven_insignia": 8,
+				"mora": 30000
+			}
+		]
+	},
+	"white_iron_greatsword": {
+		"name": "White Iron Greatsword",
+		"type": "claymore",
+		"rarity": 3,
+		"desc": "A claymore made from white iron. Lightweight without compromising on power. Effective even when wielded by one of average strength, it is extremely deadly in the hands of a physically stronger wielder.",
+		"ability": {
+			"name": "Cull the Weak",
+			"desc": [
+				"Defeating an opponent restores 8% HP.",
+				"Defeating an opponent restores 10% HP.",
+				"Defeating an opponent restores 12% HP.",
+				"Defeating an opponent restores 14% HP.",
+				"Defeating an opponent restores 16% HP."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"DEF"
+			],
+			"values": {
+				"1": [
+					"39",
+					"9.6"
+				],
+				"5": [
+					"50",
+					"11.1"
+				],
+				"10": [
+					"65",
+					"13"
+				],
+				"15": [
+					"79",
+					"15"
+				],
+				"20": [
+					"94",
+					"16.9"
+				],
+				"20+": [
+					"113",
+					"16.9"
+				],
+				"25": [
+					"127",
+					"18.8"
+				],
+				"30": [
+					"141",
+					"20.8"
+				],
+				"35": [
+					"155",
+					"22.7"
+				],
+				"40": [
+					"169",
+					"24.6"
+				],
+				"40+": [
+					"189",
+					"24.6"
+				],
+				"45": [
+					"202",
+					"26.5"
+				],
+				"50": [
+					"216",
+					"28.5"
+				],
+				"50+": [
+					"236",
+					"28.5"
+				],
+				"55": [
+					"249",
+					"30.4"
+				],
+				"60": [
+					"263",
+					"32.3"
+				],
+				"60+": [
+					"282",
+					"32.3"
+				],
+				"65": [
+					"296",
+					"34.3"
+				],
+				"70": [
+					"309",
+					"36.2"
+				],
+				"70+": [
+					"329",
+					"36.2"
+				],
+				"75": [
+					"342",
+					"38.1"
+				],
+				"80": [
+					"355",
+					"40.1"
+				],
+				"80+": [
+					"375",
+					"40.1"
+				],
+				"85": [
+					"388",
+					"42"
+				],
+				"90": [
+					"401",
+					"43.9"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"fetters_of_the_dandelion_gladiator": 2,
+				"chaos_device": 2,
+				"slime_condensate": 1,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 2,
+				"chaos_device": 8,
+				"slime_condensate": 5,
+				"mora": 10000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 4,
+				"chaos_circuit": 4,
+				"slime_secretions": 4,
+				"mora": 15000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 2,
+				"chaos_circuit": 8,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 4,
+				"chaos_core": 6,
+				"slime_concentrate": 4,
+				"mora": 25000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 3,
+				"chaos_core": 12,
+				"slime_concentrate": 8,
+				"mora": 30000
+			}
+		]
+	},
+	"blackcliff_slasher": {
+		"name": "Blackcliff Slasher",
+		"type": "claymore",
+		"rarity": 4,
+		"desc": "An extremely sturdy greatsword from the Blackcliff Forge. It has a dark crimson color from the blade to pommel.",
+		"ability": {
+			"name": "Press the Advantage",
+			"desc": [
+				"After defeating an opponent, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"After defeating an opponent, ATK is increased by 15% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"After defeating an enemy, ATK is increased by 18% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"After defeating an enemy, ATK is increased by 21% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"After defeating an enemy, ATK is increased by 24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"CRIT DMG"
+			],
+			"values": {
+				"1": [
+					"42",
+					"12"
+				],
+				"5": [
+					"56",
+					"13.9"
+				],
+				"10": [
+					"74",
+					"16.4"
+				],
+				"15": [
+					"91",
+					"18.8"
+				],
+				"20": [
+					"109",
+					"21.2"
+				],
+				"20+": [
+					"135",
+					"21.2"
+				],
+				"25": [
+					"152",
+					"23.6"
+				],
+				"30": [
+					"170",
+					"26.1"
+				],
+				"35": [
+					"187",
+					"28.5"
+				],
+				"40": [
+					"205",
+					"30.9"
+				],
+				"40+": [
+					"231",
+					"30.9"
+				],
+				"45": [
+					"248",
+					"33.3"
+				],
+				"50": [
+					"266",
+					"35.7"
+				],
+				"50+": [
+					"292",
+					"35.7"
+				],
+				"55": [
+					"309",
+					"38.2"
+				],
+				"60": [
+					"327",
+					"40.6"
+				],
+				"60+": [
+					"353",
+					"40.6"
+				],
+				"65": [
+					"370",
+					"43"
+				],
+				"70": [
+					"388",
+					"45.4"
+				],
+				"70+": [
+					"414",
+					"45.4"
+				],
+				"75": [
+					"431",
+					"47.9"
+				],
+				"80": [
+					"449",
+					"50.3"
+				],
+				"80+": [
+					"475",
+					"50.3"
+				],
+				"85": [
+					"492",
+					"52.7"
+				],
+				"90": [
+					"510",
+					"55.1"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"mist_veiled_lead_elixir": 3,
+				"mist_grass_pollen": 3,
+				"recruits_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"mist_veiled_mercury_elixir": 3,
+				"mist_grass_pollen": 12,
+				"recruits_insignia": 8,
+				"mora": 15000
+			},
+			{
+				"mist_veiled_mercury_elixir": 6,
+				"mist_grass": 6,
+				"sergeants_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"mist_veiled_gold_elixir": 3,
+				"mist_grass": 12,
+				"sergeants_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"mist_veiled_gold_elixir": 6,
+				"mist_grass_wick": 9,
+				"lieutenants_insignia": 6,
+				"mora": 35000
+			},
+			{
+				"mist_veiled_primo_elixir": 4,
+				"mist_grass_wick": 18,
+				"lieutenants_insignia": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"favonius_greatsword": {
+		"name": "Favonius Greatsword",
+		"type": "claymore",
+		"rarity": 4,
+		"desc": "A heavy ceremonial sword of the Knights of Favonius. It channels elemental power easily and is highly destructive.",
+		"ability": {
+			"name": "Windfall",
+			"desc": [
+				"CRIT Hits have a 60% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s.",
+				"CRIT Hits have a 70% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 10.5s.",
+				"CRIT Hits have a 80% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 9s.",
+				"CRIT Hits have a 90% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 7.5s.",
+				"CRIT Hits have a 100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 6s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Energy Recharge"
+			],
+			"values": {
+				"1": [
+					"41",
+					"13.3"
+				],
+				"5": [
+					"54",
+					"15.5"
+				],
+				"10": [
+					"69",
+					"18.2"
+				],
+				"15": [
+					"84",
+					"20.9"
+				],
+				"20": [
+					"99",
+					"23.6"
+				],
+				"20+": [
+					"125",
+					"23.6"
+				],
+				"25": [
+					"140",
+					"26.3"
+				],
+				"30": [
+					"155",
+					"28.9"
+				],
+				"35": [
+					"169",
+					"31.6"
+				],
+				"40": [
+					"184",
+					"34.3"
+				],
+				"40+": [
+					"210",
+					"34.3"
+				],
+				"45": [
+					"224",
+					"37"
+				],
+				"50": [
+					"238",
+					"39.7"
+				],
+				"50+": [
+					"264",
+					"39.7"
+				],
+				"55": [
+					"278",
+					"42.4"
+				],
+				"60": [
+					"293",
+					"45.1"
+				],
+				"60+": [
+					"319",
+					"45.1"
+				],
+				"65": [
+					"333",
+					"47.8"
+				],
+				"70": [
+					"347",
+					"50.5"
+				],
+				"70+": [
+					"373",
+					"50.5"
+				],
+				"75": [
+					"387",
+					"53.2"
+				],
+				"80": [
+					"401",
+					"55.9"
+				],
+				"80+": [
+					"427",
+					"55.9"
+				],
+				"85": [
+					"440",
+					"58.6"
+				],
+				"90": [
+					"454",
+					"61.3"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"fetters_of_the_dandelion_gladiator": 3,
+				"chaos_device": 3,
+				"recruits_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 3,
+				"chaos_device": 12,
+				"recruits_insignia": 8,
+				"mora": 15000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 6,
+				"chaos_circuit": 6,
+				"sergeants_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 3,
+				"chaos_circuit": 12,
+				"sergeants_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 6,
+				"chaos_core": 9,
+				"lieutenants_insignia": 6,
+				"mora": 35000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 4,
+				"chaos_core": 18,
+				"lieutenants_insignia": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"lithic_blade": {
+		"name": "Lithic Blade",
+		"type": "claymore",
+		"rarity": 4,
+		"desc": "A greatsword carved and chiseled from the very bedrock of Liyue.",
+		"ability": {
+			"name": "Lithic Axiom: Unity",
+			"desc": [
+				"For every character in the party who hails from Liyue, the character who equips this weapon gains a 7% ATK increase and a 3% CRIT Rate increase. This effect stacks up to 4 times.",
+				"For every character in the party who hails from Liyue, the character who equips this weapon gains a 8% ATK increase and a 4% CRIT Rate increase. This effect stacks up to 4 times.",
+				"For every character in the party who hails from Liyue, the character who equips this weapon gains a 9% ATK increase and a 5% CRIT Rate increase. This effect stacks up to 4 times.",
+				"For every character in the party who hails from Liyue, the character who equips this weapon gains a 10% ATK increase and a 6% CRIT Rate increase. This effect stacks up to 4 times.",
+				"For every character in the party who hails from Liyue, the character who equips this weapon gains a 11% ATK increase and a 7% CRIT Rate increase. This effect stacks up to 4 times."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"ATK"
+			],
+			"values": {
+				"1": [
+					"42",
+					"9"
+				],
+				"5": [
+					"56",
+					"10.5"
+				],
+				"10": [
+					"74",
+					"12.3"
+				],
+				"15": [
+					"91",
+					"14.1"
+				],
+				"20": [
+					"109",
+					"15.9"
+				],
+				"20+": [
+					"135",
+					"15.9"
+				],
+				"25": [
+					"152",
+					"17.7"
+				],
+				"30": [
+					"170",
+					"19.5"
+				],
+				"35": [
+					"187",
+					"21.4"
+				],
+				"40": [
+					"205",
+					"23.2"
+				],
+				"40+": [
+					"231",
+					"23.2"
+				],
+				"45": [
+					"248",
+					"25"
+				],
+				"50": [
+					"266",
+					"26.8"
+				],
+				"50+": [
+					"292",
+					"26.8"
+				],
+				"55": [
+					"309",
+					"28.6"
+				],
+				"60": [
+					"327",
+					"30.4"
+				],
+				"60+": [
+					"353",
+					"30.4"
+				],
+				"65": [
+					"370",
+					"32.3"
+				],
+				"70": [
+					"388",
+					"34.1"
+				],
+				"70+": [
+					"414",
+					"34.1"
+				],
+				"75": [
+					"431",
+					"35.9"
+				],
+				"80": [
+					"449",
+					"37.7"
+				],
+				"80+": [
+					"475",
+					"37.7"
+				],
+				"85": [
+					"492",
+					"39.5"
+				],
+				"90": [
+					"510",
+					"41.3"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"luminous_sands_from_guyun": 3,
+				"hunters_sacrificial_knife": 3,
+				"firm_arrowhead": 2,
+				"mora": 5000
+			},
+			{
+				"lustrous_stone_from_guyun": 3,
+				"hunters_sacrificial_knife": 12,
+				"firm_arrowhead": 8,
+				"mora": 15000
+			},
+			{
+				"lustrous_stone_from_guyun": 6,
+				"agents_sacrificial_knife": 6,
+				"sharp_arrowhead": 6,
+				"mora": 20000
+			},
+			{
+				"relic_from_guyun": 3,
+				"agents_sacrificial_knife": 12,
+				"sharp_arrowhead": 9,
+				"mora": 30000
+			},
+			{
+				"relic_from_guyun": 6,
+				"inspectors_sacrificial_knife": 9,
+				"weathered_arrowhead": 6,
+				"mora": 35000
+			},
+			{
+				"divine_body_from_guyun": 4,
+				"inspectors_sacrificial_knife": 18,
+				"weathered_arrowhead": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"prototype_archaic": {
+		"name": "Prototype Archaic",
+		"type": "claymore",
+		"rarity": 4,
+		"desc": "An ancient greatsword discovered in the Blackcliff Forge. It swings with such an immense force that one feels it could cut straight through reality itself.",
+		"ability": {
+			"name": "Crush",
+			"desc": [
+				"On hit, Normal or Charged Attacks have a 50% chance to deal an additional 240% ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
+				"On hit, Normal or Charged Attacks have a 50% chance to deal an additional 300% ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
+				"On hit, Normal or Charged Attacks have a 50% chance to deal an additional 360% ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
+				"On hit, Normal or Charged Attacks have a 50% chance to deal an additional 420% ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
+				"On hit, Normal or Charged Attacks have a 50% chance to deal an additional 480% ATK DMG to opponents within a small AoE. Can only occur once every 15s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"ATK"
+			],
+			"values": {
+				"1": [
+					"44",
+					"6"
+				],
+				"5": [
+					"59",
+					"7"
+				],
+				"10": [
+					"79",
+					"8.2"
+				],
+				"15": [
+					"99",
+					"9.4"
+				],
+				"20": [
+					"119",
+					"10.6"
+				],
+				"20+": [
+					"144",
+					"10.6"
+				],
+				"25": [
+					"165",
+					"11.8"
+				],
+				"30": [
+					"185",
+					"13"
+				],
+				"35": [
+					"205",
+					"14.2"
+				],
+				"40": [
+					"226",
+					"15.5"
+				],
+				"40+": [
+					"252",
+					"15.5"
+				],
+				"45": [
+					"273",
+					"16.7"
+				],
+				"50": [
+					"293",
+					"17.9"
+				],
+				"50+": [
+					"319",
+					"17.9"
+				],
+				"55": [
+					"340",
+					"19.1"
+				],
+				"60": [
+					"361",
+					"20.3"
+				],
+				"60+": [
+					"387",
+					"20.3"
+				],
+				"65": [
+					"408",
+					"21.5"
+				],
+				"70": [
+					"429",
+					"22.7"
+				],
+				"70+": [
+					"455",
+					"22.7"
+				],
+				"75": [
+					"476",
+					"23.9"
+				],
+				"80": [
+					"497",
+					"25.1"
+				],
+				"80+": [
+					"523",
+					"25.1"
+				],
+				"85": [
+					"544",
+					"26.4"
+				],
+				"90": [
+					"565",
+					"27.6"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"grain_of_aerosiderite": 3,
+				"fragile_bone_shard": 3,
+				"damaged_mask": 2,
+				"mora": 5000
+			},
+			{
+				"piece_of_aerosiderite": 3,
+				"fragile_bone_shard": 12,
+				"damaged_mask": 8,
+				"mora": 15000
+			},
+			{
+				"piece_of_aerosiderite": 6,
+				"sturdy_bone_shard": 6,
+				"stained_mask": 6,
+				"mora": 20000
+			},
+			{
+				"bit_of_aerosiderite": 3,
+				"sturdy_bone_shard": 12,
+				"stained_mask": 9,
+				"mora": 30000
+			},
+			{
+				"bit_of_aerosiderite": 6,
+				"fossilized_bone_shard": 9,
+				"ominous_mask": 6,
+				"mora": 35000
+			},
+			{
+				"chunk_of_aerosiderite": 4,
+				"fossilized_bone_shard": 18,
+				"ominous_mask": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"rainslasher": {
+		"name": "Rainslasher",
+		"type": "claymore",
+		"rarity": 4,
+		"desc": "A fluorescent greatsword with no sharp edge that crushes enemies with brute force and raw power.",
+		"ability": {
+			"name": "Bane of Storm and Tide",
+			"desc": [
+				"Increases DMG against opponents affected by Hydro or Electro by 20%.",
+				"Increases DMG against opponents affected by Hydro or Electro by 24%.",
+				"Increases DMG against opponents affected by Hydro or Electro by 28%.",
+				"Increases DMG against opponents affected by Hydro or Electro by 32%.",
+				"Increases DMG against opponents affected by Hydro or Electro by 36%."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Elemental Mastery"
+			],
+			"values": {
+				"1": [
+					"42",
+					"36"
+				],
+				"5": [
+					"56",
+					"42"
+				],
+				"10": [
+					"74",
+					"49"
+				],
+				"15": [
+					"91",
+					"56"
+				],
+				"20": [
+					"109",
+					"64"
+				],
+				"20+": [
+					"135",
+					"64"
+				],
+				"25": [
+					"152",
+					"71"
+				],
+				"30": [
+					"170",
+					"78"
+				],
+				"35": [
+					"187",
+					"85"
+				],
+				"40": [
+					"205",
+					"93"
+				],
+				"40+": [
+					"231",
+					"93"
+				],
+				"45": [
+					"248",
+					"100"
+				],
+				"50": [
+					"266",
+					"107"
+				],
+				"50+": [
+					"292",
+					"107"
+				],
+				"55": [
+					"309",
+					"115"
+				],
+				"60": [
+					"327",
+					"122"
+				],
+				"60+": [
+					"353",
+					"122"
+				],
+				"65": [
+					"370",
+					"129"
+				],
+				"70": [
+					"388",
+					"136"
+				],
+				"70+": [
+					"414",
+					"136"
+				],
+				"75": [
+					"431",
+					"144"
+				],
+				"80": [
+					"449",
+					"151"
+				],
+				"80+": [
+					"475",
+					"151"
+				],
+				"85": [
+					"492",
+					"158"
+				],
+				"90": [
+					"510",
+					"165"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"mist_veiled_lead_elixir": 3,
+				"mist_grass_pollen": 3,
+				"divining_scroll": 2,
+				"mora": 5000
+			},
+			{
+				"mist_veiled_mercury_elixir": 3,
+				"mist_grass_pollen": 12,
+				"divining_scroll": 8,
+				"mora": 15000
+			},
+			{
+				"mist_veiled_mercury_elixir": 6,
+				"mist_grass": 6,
+				"sealed_scroll": 6,
+				"mora": 20000
+			},
+			{
+				"mist_veiled_gold_elixir": 3,
+				"mist_grass": 12,
+				"sealed_scroll": 9,
+				"mora": 30000
+			},
+			{
+				"mist_veiled_gold_elixir": 6,
+				"mist_grass_wick": 9,
+				"forbidden_curse_scroll": 6,
+				"mora": 35000
+			},
+			{
+				"mist_veiled_primo_elixir": 4,
+				"mist_grass_wick": 18,
+				"forbidden_curse_scroll": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"royal_greatsword": {
+		"name": "Royal Greatsword",
+		"type": "claymore",
+		"rarity": 4,
+		"desc": "An old greatsword that belonged to the erstwhile rulers of Mondstadt. It is made from the finest-quality materials and has stood the test of time. A weapon for use by the nobility only.",
+		"ability": {
+			"name": "Focus",
+			"desc": [
+				"Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"Upon damaging an opponent, increases CRIT Rate by 10%. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"Upon damaging an opponent, increases CRIT Rate by 12%. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"Upon damaging an opponent, increases CRIT Rate by 14%. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"Upon damaging an opponent, increases CRIT Rate by 16%. Max 5 stacks. A CRIT Hit removes all stacks."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"ATK"
+			],
+			"values": {
+				"1": [
+					"44",
+					"6"
+				],
+				"5": [
+					"59",
+					"7"
+				],
+				"10": [
+					"79",
+					"8.2"
+				],
+				"15": [
+					"99",
+					"9.4"
+				],
+				"20": [
+					"119",
+					"10.6"
+				],
+				"20+": [
+					"144",
+					"10.6"
+				],
+				"25": [
+					"165",
+					"11.8"
+				],
+				"30": [
+					"185",
+					"13"
+				],
+				"35": [
+					"205",
+					"14.2"
+				],
+				"40": [
+					"226",
+					"15.5"
+				],
+				"40+": [
+					"252",
+					"15.5"
+				],
+				"45": [
+					"273",
+					"16.7"
+				],
+				"50": [
+					"293",
+					"17.9"
+				],
+				"50+": [
+					"319",
+					"17.9"
+				],
+				"55": [
+					"340",
+					"19.1"
+				],
+				"60": [
+					"361",
+					"20.3"
+				],
+				"60+": [
+					"387",
+					"20.3"
+				],
+				"65": [
+					"408",
+					"21.5"
+				],
+				"70": [
+					"429",
+					"22.7"
+				],
+				"70+": [
+					"455",
+					"22.7"
+				],
+				"75": [
+					"476",
+					"23.9"
+				],
+				"80": [
+					"497",
+					"25.1"
+				],
+				"80+": [
+					"523",
+					"25.1"
+				],
+				"85": [
+					"544",
+					"26.4"
+				],
+				"90": [
+					"565",
+					"27.6"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"fetters_of_the_dandelion_gladiator": 3,
+				"chaos_device": 3,
+				"slime_condensate": 2,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 3,
+				"chaos_device": 12,
+				"slime_condensate": 8,
+				"mora": 15000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 6,
+				"chaos_circuit": 6,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 3,
+				"chaos_circuit": 12,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 6,
+				"chaos_core": 9,
+				"slime_concentrate": 6,
+				"mora": 35000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 4,
+				"chaos_core": 18,
+				"slime_concentrate": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"serpent_spine": {
+		"name": "Serpent Spine",
+		"type": "claymore",
+		"rarity": 4,
+		"desc": "A rare weapon whose origin is the ancient ocean. One can hear the sound of the ageless waves as one swings it.",
+		"ability": {
+			"name": "Wavesplitter",
+			"desc": [
+				"Every 4s a character is on the field, they will deal 6% more DMG and take 3% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+				"Every 4s a character is on the field, they will deal 7% more DMG and take 2.7% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+				"Every 4s a character is on the field, they will deal 8% more DMG and take 2.4% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+				"Every 4s a character is on the field, they will deal 9% more DMG and take 2.2% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+				"Every 4s a character is on the field, they will deal 10% more DMG and take 2% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"CRIT Rate"
+			],
+			"values": {
+				"1": [
+					"42",
+					"6"
+				],
+				"5": [
+					"56",
+					"7"
+				],
+				"10": [
+					"74",
+					"8.2"
+				],
+				"15": [
+					"91",
+					"9.4"
+				],
+				"20": [
+					"109",
+					"10.6"
+				],
+				"20+": [
+					"135",
+					"10.6"
+				],
+				"25": [
+					"152",
+					"11.8"
+				],
+				"30": [
+					"170",
+					"13"
+				],
+				"35": [
+					"187",
+					"14.2"
+				],
+				"40": [
+					"205",
+					"15.5"
+				],
+				"40+": [
+					"231",
+					"15.5"
+				],
+				"45": [
+					"248",
+					"16.7"
+				],
+				"50": [
+					"266",
+					"17.9"
+				],
+				"50+": [
+					"292",
+					"17.9"
+				],
+				"55": [
+					"309",
+					"19.1"
+				],
+				"60": [
+					"327",
+					"20.3"
+				],
+				"60+": [
+					"353",
+					"20.3"
+				],
+				"65": [
+					"370",
+					"21.5"
+				],
+				"70": [
+					"388",
+					"22.7"
+				],
+				"70+": [
+					"414",
+					"22.7"
+				],
+				"75": [
+					"431",
+					"23.9"
+				],
+				"80": [
+					"449",
+					"25.1"
+				],
+				"80+": [
+					"475",
+					"25.1"
+				],
+				"85": [
+					"492",
+					"26.4"
+				],
+				"90": [
+					"510",
+					"27.6"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"grain_of_aerosiderite": 3,
+				"fragile_bone_shard": 3,
+				"whopperflower_nectar": 2,
+				"mora": 5000
+			},
+			{
+				"piece_of_aerosiderite": 3,
+				"fragile_bone_shard": 12,
+				"whopperflower_nectar": 8,
+				"mora": 15000
+			},
+			{
+				"piece_of_aerosiderite": 6,
+				"sturdy_bone_shard": 6,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"bit_of_aerosiderite": 3,
+				"sturdy_bone_shard": 12,
+				"shimmering_nectar": 9,
+				"mora": 30000
+			},
+			{
+				"bit_of_aerosiderite": 6,
+				"fossilized_bone_shard": 9,
+				"energy_nectar": 6,
+				"mora": 35000
+			},
+			{
+				"chunk_of_aerosiderite": 4,
+				"fossilized_bone_shard": 18,
+				"energy_nectar": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"the_bell": {
+		"name": "The Bell",
+		"type": "claymore",
+		"rarity": 4,
+		"desc": "A heavy greatsword. A clock is embedded within it, though its internal mechanisms have long been damaged.",
+		"ability": {
+			"name": "Rebellious Guardian",
+			"desc": [
+				"Taking DMG generates a shield which absorbs DMG up to 20% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 12% increased DMG.",
+				"Taking DMG generates a shield which absorbs DMG up to 23% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 15% increased DMG.",
+				"Taking DMG generates a shield which absorbs DMG up to 26% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 18% increased DMG.",
+				"Taking DMG generates a shield which absorbs DMG up to 29% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 21% increased DMG.",
+				"Taking DMG generates a shield which absorbs DMG up to 32% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 24% increased DMG."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"HP"
+			],
+			"values": {
+				"1": [
+					"42",
+					"9"
+				],
+				"5": [
+					"56",
+					"10.5"
+				],
+				"10": [
+					"74",
+					"12.3"
+				],
+				"15": [
+					"91",
+					"14.1"
+				],
+				"20": [
+					"109",
+					"15.9"
+				],
+				"20+": [
+					"135",
+					"15.9"
+				],
+				"25": [
+					"152",
+					"17.7"
+				],
+				"30": [
+					"170",
+					"19.5"
+				],
+				"35": [
+					"187",
+					"21.4"
+				],
+				"40": [
+					"205",
+					"23.2"
+				],
+				"40+": [
+					"231",
+					"23.2"
+				],
+				"45": [
+					"248",
+					"25"
+				],
+				"50": [
+					"266",
+					"26.8"
+				],
+				"50+": [
+					"292",
+					"26.8"
+				],
+				"55": [
+					"309",
+					"28.6"
+				],
+				"60": [
+					"327",
+					"30.4"
+				],
+				"60+": [
+					"353",
+					"30.4"
+				],
+				"65": [
+					"370",
+					"32.3"
+				],
+				"70": [
+					"388",
+					"34.1"
+				],
+				"70+": [
+					"414",
+					"34.1"
+				],
+				"75": [
+					"431",
+					"35.9"
+				],
+				"80": [
+					"449",
+					"37.7"
+				],
+				"80+": [
+					"475",
+					"37.7"
+				],
+				"85": [
+					"492",
+					"39.5"
+				],
+				"90": [
+					"510",
+					"41.3"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"tile_of_decarabians_tower": 3,
+				"heavy_horn": 3,
+				"whopperflower_nectar": 2,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 3,
+				"heavy_horn": 12,
+				"whopperflower_nectar": 8,
+				"mora": 15000
+			},
+			{
+				"debris_of_decarabians_city": 6,
+				"black_bronze_horn": 6,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"fragment_of_decarabians_epic": 3,
+				"black_bronze_horn": 12,
+				"shimmering_nectar": 9,
+				"mora": 30000
+			},
+			{
+				"fragment_of_decarabians_epic": 6,
+				"black_crystal_horn": 9,
+				"energy_nectar": 6,
+				"mora": 35000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 4,
+				"black_crystal_horn": 18,
+				"energy_nectar": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"whiteblind": {
+		"name": "Whiteblind",
+		"type": "claymore",
+		"rarity": 4,
+		"desc": "An exotic sword with one section of the blade left blunt. It made its way into Liyue via the hands of foreign traders. Incredibly powerful in the hands of someone who knows how to use it.",
+		"ability": {
+			"name": "Infusion Blade",
+			"desc": [
+				"On hit, Normal or Charged Attacks increase ATK and DEF by 6% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+				"On hit, Normal or Charged Attacks increase ATK and DEF by 7.5% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+				"On hit, Normal or Charged Attacks increase ATK and DEF by 9% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+				"On hit, Normal or Charged Attacks increase ATK and DEF by 10.5% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+				"On hit, Normal or Charged Attacks increase ATK and DEF by 12% for 6s. Max 4 stacks. This effect can only occur once every 0.5s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"DEF"
+			],
+			"values": {
+				"1": [
+					"42",
+					"11.3"
+				],
+				"5": [
+					"56",
+					"13.1"
+				],
+				"10": [
+					"74",
+					"15.3"
+				],
+				"15": [
+					"91",
+					"17.6"
+				],
+				"20": [
+					"109",
+					"19.9"
+				],
+				"20+": [
+					"135",
+					"19.9"
+				],
+				"25": [
+					"152",
+					"22.2"
+				],
+				"30": [
+					"170",
+					"24.4"
+				],
+				"35": [
+					"187",
+					"26.7"
+				],
+				"40": [
+					"205",
+					"29"
+				],
+				"40+": [
+					"231",
+					"29"
+				],
+				"45": [
+					"248",
+					"31.3"
+				],
+				"50": [
+					"266",
+					"33.5"
+				],
+				"50+": [
+					"292",
+					"33.5"
+				],
+				"55": [
+					"309",
+					"35.8"
+				],
+				"60": [
+					"327",
+					"38.1"
+				],
+				"60+": [
+					"353",
+					"38.1"
+				],
+				"65": [
+					"370",
+					"40.4"
+				],
+				"70": [
+					"388",
+					"42.6"
+				],
+				"70+": [
+					"414",
+					"42.6"
+				],
+				"75": [
+					"431",
+					"44.9"
+				],
+				"80": [
+					"449",
+					"47.2"
+				],
+				"80+": [
+					"475",
+					"47.2"
+				],
+				"85": [
+					"492",
+					"49.5"
+				],
+				"90": [
+					"510",
+					"51.7"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"luminous_sands_from_guyun": 3,
+				"hunters_sacrificial_knife": 3,
+				"treasure_hoarder_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"lustrous_stone_from_guyun": 3,
+				"hunters_sacrificial_knife": 12,
+				"treasure_hoarder_insignia": 8,
+				"mora": 15000
+			},
+			{
+				"lustrous_stone_from_guyun": 6,
+				"agents_sacrificial_knife": 6,
+				"silver_raven_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"relic_from_guyun": 3,
+				"agents_sacrificial_knife": 12,
+				"silver_raven_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"relic_from_guyun": 6,
+				"inspectors_sacrificial_knife": 9,
+				"golden_raven_insignia": 6,
+				"mora": 35000
+			},
+			{
+				"divine_body_from_guyun": 4,
+				"inspectors_sacrificial_knife": 18,
+				"golden_raven_insignia": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"sacrificial_greatsword": {
+		"name": "Sacrificial Greatsword",
+		"type": "claymore",
+		"rarity": 4,
+		"desc": "A ceremonial greatsword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+		"ability": {
+			"name": "Composed",
+			"desc": [
+				"After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.",
+				"After damaging an opponent with an Elemental Skill, the skill has a 50% chance to end its own CD. Can only occur once every 26s.",
+				"After damaging an opponent with an Elemental Skill, the skill has a 60% chance to end its own CD. Can only occur once every 22s.",
+				"After damaging an opponent with an Elemental Skill, the skill has a 70% chance to end its own CD. Can only occur once every 19s.",
+				"After damaging an opponent with an Elemental Skill, the skill has a 80% chance to end its own CD. Can only occur once every 16s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Energy Recharge"
+			],
+			"values": {
+				"1": [
+					"44",
+					"6.7"
+				],
+				"5": [
+					"59",
+					"7.7"
+				],
+				"10": [
+					"79",
+					"9.1"
+				],
+				"15": [
+					"99",
+					"10.4"
+				],
+				"20": [
+					"119",
+					"11.8"
+				],
+				"20+": [
+					"144",
+					"11.8"
+				],
+				"25": [
+					"165",
+					"13.1"
+				],
+				"30": [
+					"185",
+					"14.5"
+				],
+				"35": [
+					"205",
+					"15.8"
+				],
+				"40": [
+					"226",
+					"17.2"
+				],
+				"40+": [
+					"252",
+					"17.2"
+				],
+				"45": [
+					"273",
+					"18.5"
+				],
+				"50": [
+					"293",
+					"19.9"
+				],
+				"50+": [
+					"319",
+					"19.9"
+				],
+				"55": [
+					"340",
+					"21.2"
+				],
+				"60": [
+					"361",
+					"22.6"
+				],
+				"60+": [
+					"387",
+					"22.6"
+				],
+				"65": [
+					"408",
+					"23.9"
+				],
+				"70": [
+					"429",
+					"25.2"
+				],
+				"70+": [
+					"455",
+					"25.2"
+				],
+				"75": [
+					"476",
+					"26.6"
+				],
+				"80": [
+					"497",
+					"27.9"
+				],
+				"80+": [
+					"523",
+					"27.9"
+				],
+				"85": [
+					"544",
+					"29.3"
+				],
+				"90": [
+					"565",
+					"30.6"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"boreal_wolfs_milk_tooth": 3,
+				"dead_ley_line_branch": 3,
+				"firm_arrowhead": 2,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 3,
+				"dead_ley_line_branch": 12,
+				"firm_arrowhead": 8,
+				"mora": 15000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 6,
+				"dead_ley_line_leaves": 6,
+				"sharp_arrowhead": 6,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_broken_fang": 3,
+				"dead_ley_line_leaves": 12,
+				"sharp_arrowhead": 9,
+				"mora": 30000
+			},
+			{
+				"boreal_wolfs_broken_fang": 6,
+				"ley_line_sprout": 9,
+				"weathered_arrowhead": 6,
+				"mora": 35000
+			},
+			{
+				"boreal_wolfs_nostalgia": 4,
+				"ley_line_sprout": 18,
+				"weathered_arrowhead": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"snow_tombed_starsilver": {
+		"name": "Snow-Tombed Starsilver",
+		"type": "claymore",
+		"rarity": 4,
+		"desc": "An ancient greatsword that was stored between frescoes. Forged from Starsilver, it has the power to cleave through ice and snow.",
+		"ability": {
+			"name": "Frost Burial",
+			"desc": [
+				"Hitting an opponent with Normal and Charged Attacks has a 60% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 80% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 200% of ATK. Can only occur once every 10s.",
+				"Hitting an opponent with Normal and Charged Attacks has a 70% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 95% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 240% of ATK. Can only occur once every 10s.",
+				"Hitting an opponent with Normal and Charged Attacks has an 80% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 110% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 280% of ATK. Can only occur once every 10s.",
+				"Hitting an opponent with Normal and Charged Attacks has a 90% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 125% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 320% of ATK. Can only occur once every 10s.",
+				"Hitting an opponent with Normal and Charged Attacks has a 100% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 140% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 360% of ATK. Can only occur once every 10s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Physical DMG Bonus"
+			],
+			"values": {
+				"1": [
+					"44",
+					"7.5"
+				],
+				"5": [
+					"59",
+					"8.7"
+				],
+				"10": [
+					"79",
+					"10.2"
+				],
+				"15": [
+					"99",
+					"11.7"
+				],
+				"20": [
+					"119",
+					"13.3"
+				],
+				"20+": [
+					"144",
+					"13.3"
+				],
+				"25": [
+					"165",
+					"14.8"
+				],
+				"30": [
+					"185",
+					"16.3"
+				],
+				"35": [
+					"205",
+					"17.8"
+				],
+				"40": [
+					"226",
+					"19.3"
+				],
+				"40+": [
+					"252",
+					"19.3"
+				],
+				"45": [
+					"273",
+					"20.8"
+				],
+				"50": [
+					"293",
+					"22.4"
+				],
+				"50+": [
+					"319",
+					"22.4"
+				],
+				"55": [
+					"340",
+					"23.9"
+				],
+				"60": [
+					"361",
+					"25.4"
+				],
+				"60+": [
+					"387",
+					"25.4"
+				],
+				"65": [
+					"408",
+					"26.9"
+				],
+				"70": [
+					"429",
+					"28.4"
+				],
+				"70+": [
+					"455",
+					"28.4"
+				],
+				"75": [
+					"476",
+					"29.9"
+				],
+				"80": [
+					"497",
+					"31.5"
+				],
+				"80+": [
+					"523",
+					"31.5"
+				],
+				"85": [
+					"544",
+					"33"
+				],
+				"90": [
+					"565",
+					"34.5"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"tile_of_decarabians_tower": 3,
+				"heavy_horn": 3,
+				"slime_condensate": 2,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 3,
+				"heavy_horn": 12,
+				"slime_condensate": 8,
+				"mora": 15000
+			},
+			{
+				"debris_of_decarabians_city": 6,
+				"black_bronze_horn": 6,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"fragment_of_decarabians_epic": 3,
+				"black_bronze_horn": 12,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"fragment_of_decarabians_epic": 6,
+				"black_crystal_horn": 9,
+				"slime_concentrate": 6,
+				"mora": 35000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 4,
+				"black_crystal_horn": 18,
+				"slime_concentrate": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"katsuragikiri_nagamasa": {
+		"name": "Katsuragikiri Nagamasa",
+		"type": "claymore",
+		"rarity": 4,
+		"desc": "A blade that was once made in Tatarasuna. Heavy and tough.",
+		"ability": {
+			"name": "Samurai Conduct",
+			"desc": [
+				"Increases Elemental Skill DMG by 6%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 3 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"Increases Elemental Skill DMG by 7.5%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 3.5 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"Increases Elemental Skill DMG by 9%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 4 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"Increases Elemental Skill DMG by 10.5%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 4.5 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"Increases Elemental Skill DMG by 12%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 5 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Energy Recharge"
+			],
+			"values": {
+				"1": [
+					"42",
+					"10"
+				],
+				"5": [
+					"56",
+					"11.6"
+				],
+				"10": [
+					"74",
+					"13.6"
+				],
+				"15": [
+					"91",
+					"15.7"
+				],
+				"20": [
+					"109",
+					"17.7"
+				],
+				"20+": [
+					"135",
+					"17.7"
+				],
+				"25": [
+					"152",
+					"19.7"
+				],
+				"30": [
+					"170",
+					"21.7"
+				],
+				"35": [
+					"187",
+					"23.7"
+				],
+				"40": [
+					"205",
+					"25.8"
+				],
+				"40+": [
+					"231",
+					"25.8"
+				],
+				"45": [
+					"248",
+					"27.8"
+				],
+				"50": [
+					"266",
+					"29.8"
+				],
+				"50+": [
+					"292",
+					"29.8"
+				],
+				"55": [
+					"309",
+					"31.8"
+				],
+				"60": [
+					"327",
+					"33.8"
+				],
+				"60+": [
+					"353",
+					"33.8"
+				],
+				"65": [
+					"370",
+					"35.9"
+				],
+				"70": [
+					"388",
+					"37.9"
+				],
+				"70+": [
+					"414",
+					"37.9"
+				],
+				"75": [
+					"431",
+					"39.9"
+				],
+				"80": [
+					"449",
+					"41.9"
+				],
+				"80+": [
+					"475",
+					"41.9"
+				],
+				"85": [
+					"492",
+					"43.9"
+				],
+				"90": [
+					"510",
+					"45.9"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"narukamis_wisdom": 3,
+				"chaos_gear": 3,
+				"old_handguard": 2,
+				"mora": 5000
+			},
+			{
+				"narukamis_joy": 3,
+				"chaos_gear": 12,
+				"old_handguard": 8,
+				"mora": 15000
+			},
+			{
+				"narukamis_joy": 6,
+				"chaos_axis": 6,
+				"kageuchi_handguard": 6,
+				"mora": 20000
+			},
+			{
+				"narukamis_affection": 3,
+				"chaos_axis": 12,
+				"kageuchi_handguard": 9,
+				"mora": 30000
+			},
+			{
+				"narukamis_affection": 6,
+				"chaos_oculus": 9,
+				"famed_handguard": 6,
+				"mora": 35000
+			},
+			{
+				"narukamis_valor": 4,
+				"chaos_oculus": 18,
+				"famed_handguard": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"luxurious_sea_lord": {
+		"name": "Luxurious Sea-Lord",
+		"type": "claymore",
+		"rarity": 4,
+		"desc": "The great king of the ocean. Having been air-dried, it makes for a fine weapon as well as emergency sustenance.",
+		"ability": {
+			"name": "Oceanic Victory",
+			"desc": [
+				"Increases Elemental Burst DMG by 12%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 100% ATK as AoE DMG. This effect can occur once every 15s.",
+				"Increases Elemental Burst DMG by 15%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 125% ATK as AoE DMG. This effect can occur once every 15s.",
+				"Increases Elemental Burst DMG by 18%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 150% ATK as AoE DMG. This effect can occur once every 15s.",
+				"Increases Elemental Burst DMG by 21%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 175% ATK as AoE DMG. This effect can occur once every 15s.",
+				"Increases Elemental Burst DMG by 24%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 200% ATK as AoE DMG. This effect can occur once every 15s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"ATK"
+			],
+			"values": {
+				"1": [
+					"41",
+					"12"
+				],
+				"5": [
+					"54",
+					"13.9"
+				],
+				"10": [
+					"69",
+					"16.4"
+				],
+				"15": [
+					"84",
+					"18.8"
+				],
+				"20": [
+					"99",
+					"21.2"
+				],
+				"20+": [
+					"125",
+					"21.2"
+				],
+				"25": [
+					"140",
+					"23.6"
+				],
+				"30": [
+					"155",
+					"26.1"
+				],
+				"35": [
+					"169",
+					"28.5"
+				],
+				"40": [
+					"184",
+					"30.9"
+				],
+				"40+": [
+					"210",
+					"30.9"
+				],
+				"45": [
+					"224",
+					"33.3"
+				],
+				"50": [
+					"238",
+					"35.7"
+				],
+				"50+": [
+					"264",
+					"35.7"
+				],
+				"55": [
+					"278",
+					"38.2"
+				],
+				"60": [
+					"293",
+					"40.6"
+				],
+				"60+": [
+					"319",
+					"40.6"
+				],
+				"65": [
+					"333",
+					"43"
+				],
+				"70": [
+					"347",
+					"45.4"
+				],
+				"70+": [
+					"373",
+					"45.4"
+				],
+				"75": [
+					"387",
+					"47.9"
+				],
+				"80": [
+					"401",
+					"50.3"
+				],
+				"80+": [
+					"427",
+					"50.3"
+				],
+				"85": [
+					"440",
+					"52.7"
+				],
+				"90": [
+					"454",
+					"55.1"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"grain_of_aerosiderite": 3,
+				"fragile_bone_shard": 3,
+				"slime_condensate": 2,
+				"mora": 5000
+			},
+			{
+				"piece_of_aerosiderite": 3,
+				"fragile_bone_shard": 12,
+				"slime_condensate": 8,
+				"mora": 15000
+			},
+			{
+				"piece_of_aerosiderite": 6,
+				"sturdy_bone_shard": 6,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"bit_of_aerosiderite": 3,
+				"sturdy_bone_shard": 12,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"bit_of_aerosiderite": 6,
+				"fossilized_bone_shard": 9,
+				"slime_concentrate": 6,
+				"mora": 35000
+			},
+			{
+				"chunk_of_aerosiderite": 4,
+				"fossilized_bone_shard": 18,
+				"slime_concentrate": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"akuoumaru": {
+		"name": "Akuoumaru",
+		"type": "claymore",
+		"rarity": 4,
+		"desc": "The beloved sword of the legendary \"Akuou.\" The blade is huge and majestic, but is surprisingly easy to wield.",
+		"ability": {
+			"name": "Watatsumi Wavewalker",
+			"desc": [
+				"For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12%. A maximum of 40% increased Elemental Burst DMG can be achieved this way.",
+				"For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.15%. A maximum of 50% increased Elemental Burst DMG can be achieved this way.",
+				"For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.18%. A maximum of 60% increased Elemental Burst DMG can be achieved this way.",
+				"For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.21%. A maximum of 70% increased Elemental Burst DMG can be achieved this way.",
+				"For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.24%. A maximum of 80% increased Elemental Burst DMG can be achieved this way."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"ATK"
+			],
+			"values": {
+				"1": [
+					"42",
+					"9"
+				],
+				"5": [
+					"56",
+					"10.5"
+				],
+				"10": [
+					"74",
+					"12.3"
+				],
+				"15": [
+					"91",
+					"14.1"
+				],
+				"20": [
+					"109",
+					"15.9"
+				],
+				"20+": [
+					"135",
+					"15.9"
+				],
+				"25": [
+					"152",
+					"17.7"
+				],
+				"30": [
+					"170",
+					"19.5"
+				],
+				"35": [
+					"187",
+					"21.4"
+				],
+				"40": [
+					"205",
+					"23.2"
+				],
+				"40+": [
+					"231",
+					"23.2"
+				],
+				"45": [
+					"248",
+					"25"
+				],
+				"50": [
+					"266",
+					"26.8"
+				],
+				"50+": [
+					"292",
+					"26.8"
+				],
+				"55": [
+					"309",
+					"28.6"
+				],
+				"60": [
+					"327",
+					"30.4"
+				],
+				"60+": [
+					"353",
+					"30.4"
+				],
+				"65": [
+					"370",
+					"32.3"
+				],
+				"70": [
+					"388",
+					"34.1"
+				],
+				"70+": [
+					"414",
+					"34.1"
+				],
+				"75": [
+					"431",
+					"35.9"
+				],
+				"80": [
+					"449",
+					"37.7"
+				],
+				"80+": [
+					"475",
+					"37.7"
+				],
+				"85": [
+					"492",
+					"39.5"
+				],
+				"90": [
+					"510",
+					"41.3"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"coral_branch_of_a_distant_sea": 3,
+				"concealed_claw": 3,
+				"old_handguard": 2,
+				"mora": 5000
+			},
+			{
+				"jeweled_branch_of_a_distant_sea": 3,
+				"concealed_claw": 12,
+				"old_handguard": 8,
+				"mora": 15000
+			},
+			{
+				"jeweled_branch_of_a_distant_sea": 6,
+				"concealed_unguis": 6,
+				"kageuchi_handguard": 6,
+				"mora": 20000
+			},
+			{
+				"jade_branch_of_a_distant_sea": 3,
+				"concealed_unguis": 12,
+				"kageuchi_handguard": 9,
+				"mora": 30000
+			},
+			{
+				"jade_branch_of_a_distant_sea": 6,
+				"concealed_talon": 9,
+				"famed_handguard": 6,
+				"mora": 35000
+			},
+			{
+				"golden_branch_of_a_distant_sea": 4,
+				"concealed_talon": 18,
+				"famed_handguard": 12,
+				"mora": 45000
+			}
+		]
+	},
+	"skyward_pride": {
+		"name": "Skyward Pride",
+		"type": "claymore",
+		"rarity": 5,
+		"desc": "A claymore that symbolizes the pride of Dvalin soaring through the skies. When swung, it emits a deep hum as the full force of Dvalin's command of the sky and the wind is unleashed.",
+		"ability": {
+			"name": "Sky-ripping Dragon Spine",
+			"desc": [
+				"Increases all DMG by 8%. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does 80% of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
+				"Increases all DMG by 10%. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does 100% of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
+				"Increases all DMG by 12%. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does 120% of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
+				"Increases all DMG by 14%. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does 140% of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
+				"Increases all DMG by 16%. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does 160% of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Energy Recharge"
+			],
+			"values": {
+				"1": [
+					"48",
+					"8"
+				],
+				"5": [
+					"65",
+					"9.3"
+				],
+				"10": [
+					"87",
+					"10.9"
+				],
+				"15": [
+					"110",
+					"12.5"
+				],
+				"20": [
+					"133",
+					"14.1"
+				],
+				"20+": [
+					"164",
+					"14.1"
+				],
+				"25": [
+					"188",
+					"15.8"
+				],
+				"30": [
+					"212",
+					"17.4"
+				],
+				"35": [
+					"236",
+					"19"
+				],
+				"40": [
+					"261",
+					"20.6"
+				],
+				"40+": [
+					"292",
+					"20.6"
+				],
+				"45": [
+					"316",
+					"22.2"
+				],
+				"50": [
+					"341",
+					"23.8"
+				],
+				"50+": [
+					"373",
+					"23.8"
+				],
+				"55": [
+					"398",
+					"25.4"
+				],
+				"60": [
+					"423",
+					"27.1"
+				],
+				"60+": [
+					"455",
+					"27.1"
+				],
+				"65": [
+					"480",
+					"28.7"
+				],
+				"70": [
+					"506",
+					"30.3"
+				],
+				"70+": [
+					"537",
+					"30.3"
+				],
+				"75": [
+					"563",
+					"31.9"
+				],
+				"80": [
+					"590",
+					"33.5"
+				],
+				"80+": [
+					"621",
+					"33.5"
+				],
+				"85": [
+					"648",
+					"35.1"
+				],
+				"90": [
+					"674",
+					"36.8"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"boreal_wolfs_milk_tooth": 5,
+				"dead_ley_line_branch": 5,
+				"slime_condensate": 3,
+				"mora": 10000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 5,
+				"dead_ley_line_branch": 18,
+				"slime_condensate": 12,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 9,
+				"dead_ley_line_leaves": 9,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"boreal_wolfs_broken_fang": 5,
+				"dead_ley_line_leaves": 18,
+				"slime_secretions": 14,
+				"mora": 45000
+			},
+			{
+				"boreal_wolfs_broken_fang": 9,
+				"ley_line_sprout": 14,
+				"slime_concentrate": 9,
+				"mora": 55000
+			},
+			{
+				"boreal_wolfs_nostalgia": 6,
+				"ley_line_sprout": 27,
+				"slime_concentrate": 18,
+				"mora": 65000
+			}
+		]
+	},
+	"wolfs_gravestone": {
+		"name": "Wolf's Gravestone",
+		"type": "claymore",
+		"rarity": 5,
+		"desc": "A longsword used by the Wolf Knight. Originally just a heavy sheet of iron given to the knight by a blacksmith from the city, it became endowed with legendary power owing to his friendship with the wolves.",
+		"ability": {
+			"name": "Wolfish Tracker",
+			"desc": [
+				"Increases ATK by 20%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 40% for 12s. Can only occur once every 30s.",
+				"Increases ATK by 25%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 50% for 12s. Can only occur once every 30s.",
+				"Increases ATK by 30%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 60% for 12s. Can only occur once every 30s.",
+				"Increases ATK by 35%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 70% for 12s. Can only occur once every 30s.",
+				"Increases ATK by 40%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 80% for 12s. Can only occur once every 30s."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"ATK"
+			],
+			"values": {
+				"1": [
+					"46",
+					"10.8"
+				],
+				"5": [
+					"62",
+					"12.5"
+				],
+				"10": [
+					"82",
+					"14.7"
+				],
+				"15": [
+					"102",
+					"16.9"
+				],
+				"20": [
+					"122",
+					"19.1"
+				],
+				"20+": [
+					"153",
+					"19.1"
+				],
+				"25": [
+					"173",
+					"21.3"
+				],
+				"30": [
+					"194",
+					"23.4"
+				],
+				"35": [
+					"214",
+					"25.6"
+				],
+				"40": [
+					"235",
+					"27.8"
+				],
+				"40+": [
+					"266",
+					"27.8"
+				],
+				"45": [
+					"287",
+					"30"
+				],
+				"50": [
+					"308",
+					"32.2"
+				],
+				"50+": [
+					"340",
+					"32.2"
+				],
+				"55": [
+					"361",
+					"34.4"
+				],
+				"60": [
+					"382",
+					"36.5"
+				],
+				"60+": [
+					"414",
+					"36.5"
+				],
+				"65": [
+					"435",
+					"38.7"
+				],
+				"70": [
+					"457",
+					"40.9"
+				],
+				"70+": [
+					"488",
+					"40.9"
+				],
+				"75": [
+					"510",
+					"43.1"
+				],
+				"80": [
+					"532",
+					"45.3"
+				],
+				"80+": [
+					"563",
+					"45.3"
+				],
+				"85": [
+					"586",
+					"47.4"
+				],
+				"90": [
+					"608",
+					"49.6"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"fetters_of_the_dandelion_gladiator": 5,
+				"chaos_device": 5,
+				"divining_scroll": 3,
+				"mora": 10000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 5,
+				"chaos_device": 18,
+				"divining_scroll": 12,
+				"mora": 20000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 9,
+				"chaos_circuit": 9,
+				"sealed_scroll": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 5,
+				"chaos_circuit": 18,
+				"sealed_scroll": 14,
+				"mora": 45000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 9,
+				"chaos_core": 14,
+				"forbidden_curse_scroll": 9,
+				"mora": 55000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 6,
+				"chaos_core": 27,
+				"forbidden_curse_scroll": 18,
+				"mora": 65000
+			}
+		]
+	},
+	"the_unforged": {
+		"name": "The Unforged",
+		"type": "claymore",
+		"rarity": 5,
+		"desc": "Capable of driving away evil spirits and wicked people alike, this edgeless claymore seems to possess divine might.",
+		"ability": {
+			"name": "Golden Majesty",
+			"desc": [
+				"Increases Shield Strength by 20%. Scoring hits on opponents increases ATK by 4% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+				"Increases Shield Strength by 25%. Scoring hits on opponents increases ATK by 5% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+				"Increases Shield Strength by 30%. Scoring hits on opponents increases ATK by 6% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+				"Increases Shield Strength by 35%. Scoring hits on opponents increases ATK by 7% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+				"Increases Shield Strength by 40%. Scoring hits on opponents increases ATK by 8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"ATK"
+			],
+			"values": {
+				"1": [
+					"46",
+					"10.8"
+				],
+				"5": [
+					"62",
+					"12.5"
+				],
+				"10": [
+					"82",
+					"14.7"
+				],
+				"15": [
+					"102",
+					"16.9"
+				],
+				"20": [
+					"122",
+					"19.1"
+				],
+				"20+": [
+					"153",
+					"19.1"
+				],
+				"25": [
+					"173",
+					"21.3"
+				],
+				"30": [
+					"194",
+					"23.4"
+				],
+				"35": [
+					"214",
+					"25.6"
+				],
+				"40": [
+					"235",
+					"27.8"
+				],
+				"40+": [
+					"266",
+					"27.8"
+				],
+				"45": [
+					"287",
+					"30"
+				],
+				"50": [
+					"308",
+					"32.2"
+				],
+				"50+": [
+					"340",
+					"32.2"
+				],
+				"55": [
+					"361",
+					"34.4"
+				],
+				"60": [
+					"382",
+					"36.5"
+				],
+				"60+": [
+					"414",
+					"36.5"
+				],
+				"65": [
+					"435",
+					"38.7"
+				],
+				"70": [
+					"457",
+					"40.9"
+				],
+				"70+": [
+					"488",
+					"40.9"
+				],
+				"75": [
+					"510",
+					"43.1"
+				],
+				"80": [
+					"532",
+					"45.3"
+				],
+				"80+": [
+					"563",
+					"45.3"
+				],
+				"85": [
+					"586",
+					"47.4"
+				],
+				"90": [
+					"608",
+					"49.6"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"mist_veiled_lead_elixir": 5,
+				"mist_grass_pollen": 5,
+				"treasure_hoarder_insignia": 3,
+				"mora": 10000
+			},
+			{
+				"mist_veiled_mercury_elixir": 5,
+				"mist_grass_pollen": 18,
+				"treasure_hoarder_insignia": 12,
+				"mora": 20000
+			},
+			{
+				"mist_veiled_mercury_elixir": 9,
+				"mist_grass": 9,
+				"silver_raven_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"mist_veiled_gold_elixir": 5,
+				"mist_grass": 18,
+				"silver_raven_insignia": 14,
+				"mora": 45000
+			},
+			{
+				"mist_veiled_gold_elixir": 9,
+				"mist_grass_wick": 14,
+				"golden_raven_insignia": 9,
+				"mora": 55000
+			},
+			{
+				"mist_veiled_primo_elixir": 6,
+				"mist_grass_wick": 27,
+				"golden_raven_insignia": 18,
+				"mora": 65000
+			}
+		]
+	},
+	"song_of_broken_pines": {
+		"name": "Song of Broken Pines",
+		"type": "claymore",
+		"rarity": 5,
+		"desc": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
+		"ability": {
+			"name": "Rebel's Banner-Hymn",
+			"desc": [
+				"A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 16%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 12% and increases ATK by 20%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 20%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 15% and increases ATK by 25%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 24%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 18% and increases ATK by 30%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 28%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 21% and increases ATK by 35%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 32%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 24% and increases ATK by 40%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"Physical DMG Bonus"
+			],
+			"values": {
+				"1": [
+					"49",
+					"4.5"
+				],
+				"5": [
+					"68",
+					"5.2"
+				],
+				"10": [
+					"93",
+					"6.1"
+				],
+				"15": [
+					"119",
+					"7"
+				],
+				"20": [
+					"145",
+					"8"
+				],
+				"20+": [
+					"176",
+					"8"
+				],
+				"25": [
+					"203",
+					"8.9"
+				],
+				"30": [
+					"230",
+					"9.8"
+				],
+				"35": [
+					"258",
+					"10.7"
+				],
+				"40": [
+					"286",
+					"11.6"
+				],
+				"40+": [
+					"317",
+					"11.6"
+				],
+				"45": [
+					"346",
+					"12.5"
+				],
+				"50": [
+					"374",
+					"13.4"
+				],
+				"50+": [
+					"406",
+					"13.4"
+				],
+				"55": [
+					"435",
+					"14.3"
+				],
+				"60": [
+					"464",
+					"15.2"
+				],
+				"60+": [
+					"495",
+					"15.2"
+				],
+				"65": [
+					"525",
+					"16.1"
+				],
+				"70": [
+					"555",
+					"17"
+				],
+				"70+": [
+					"586",
+					"17"
+				],
+				"75": [
+					"617",
+					"17.9"
+				],
+				"80": [
+					"648",
+					"18.9"
+				],
+				"80+": [
+					"679",
+					"18.9"
+				],
+				"85": [
+					"709",
+					"19.8"
+				],
+				"90": [
+					"741",
+					"20.7"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"tile_of_decarabians_tower": 5,
+				"heavy_horn": 5,
+				"damaged_mask": 3,
+				"mora": 10000
+			},
+			{
+				"debris_of_decarabians_city": 5,
+				"heavy_horn": 18,
+				"damaged_mask": 12,
+				"mora": 20000
+			},
+			{
+				"debris_of_decarabians_city": 9,
+				"black_bronze_horn": 9,
+				"stained_mask": 9,
+				"mora": 30000
+			},
+			{
+				"fragment_of_decarabians_epic": 5,
+				"black_bronze_horn": 18,
+				"stained_mask": 14,
+				"mora": 45000
+			},
+			{
+				"fragment_of_decarabians_epic": 9,
+				"black_crystal_horn": 14,
+				"ominous_mask": 9,
+				"mora": 55000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 6,
+				"black_crystal_horn": 27,
+				"ominous_mask": 18,
+				"mora": 65000
+			}
+		]
+	},
+	"redhorn_stonethresher": {
+		"name": "Redhorn Stonethresher",
+		"type": "claymore",
+		"rarity": 5,
+		"desc": "According to its previous owner, this weapon is the \"Mighty Redhorn Stoic Stonethreshing Gilded Goldcrushing Lion Lord\" that can send any monster packing with its tail between its legs.",
+		"ability": {
+			"name": "Gokadaiou Otogibanashi",
+			"desc": [
+				"DEF is increased by 28%. Normal and Charged Attack DMG is increased by 40% of DEF.",
+				"DEF is increased by 35%. Normal and Charged Attack DMG is increased by 50% of DEF.",
+				"DEF is increased by 42%. Normal and Charged Attack DMG is increased by 60% of DEF.",
+				"DEF is increased by 49%. Normal and Charged Attack DMG is increased by 70% of DEF.",
+				"DEF is increased by 56%. Normal and Charged Attack DMG is increased by 80% of DEF."
+			]
+		},
+		"enhancement": {
+			"desc": [
+				"Base Atk",
+				"CRIT DMG"
+			],
+			"values": {
+				"1": [
+					"44",
+					"19.2"
+				],
+				"5": [
+					"58",
+					"22.3"
+				],
+				"10": [
+					"76",
+					"26.2"
+				],
+				"15": [
+					"93",
+					"30"
+				],
+				"20": [
+					"110",
+					"33.9"
+				],
+				"20+": [
+					"141",
+					"33.9"
+				],
+				"25": [
+					"158",
+					"37.8"
+				],
+				"30": [
+					"176",
+					"41.7"
+				],
+				"35": [
+					"193",
+					"45.6"
+				],
+				"40": [
+					"210",
+					"49.4"
+				],
+				"40+": [
+					"241",
+					"49.4"
+				],
+				"45": [
+					"258",
+					"53.3"
+				],
+				"50": [
+					"275",
+					"57.2"
+				],
+				"50+": [
+					"307",
+					"57.2"
+				],
+				"55": [
+					"324",
+					"61.1"
+				],
+				"60": [
+					"341",
+					"65"
+				],
+				"60+": [
+					"373",
+					"65"
+				],
+				"65": [
+					"390",
+					"68.8"
+				],
+				"70": [
+					"408",
+					"72.7"
+				],
+				"70+": [
+					"439",
+					"72.7"
+				],
+				"75": [
+					"457",
+					"76.6"
+				],
+				"80": [
+					"475",
+					"80.4"
+				],
+				"80+": [
+					"506",
+					"80.4"
+				],
+				"85": [
+					"524",
+					"84.3"
+				],
+				"90": [
+					"542",
+					"88.2"
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"narukamis_wisdom": 5,
+				"concealed_claw": 5,
+				"old_handguard": 3,
+				"mora": 10000
+			},
+			{
+				"narukamis_joy": 5,
+				"concealed_claw": 18,
+				"old_handguard": 12,
+				"mora": 20000
+			},
+			{
+				"narukamis_joy": 9,
+				"concealed_unguis": 9,
+				"kageuchi_handguard": 9,
+				"mora": 30000
+			},
+			{
+				"narukamis_affection": 5,
+				"concealed_unguis": 18,
+				"kageuchi_handguard": 14,
+				"mora": 45000
+			},
+			{
+				"narukamis_affection": 9,
+				"concealed_talon": 14,
+				"famed_handguard": 9,
+				"mora": 55000
+			},
+			{
+				"narukamis_valor": 6,
+				"concealed_talon": 27,
+				"famed_handguard": 18,
+				"mora": 65000
+			}
+		]
+	}
+}

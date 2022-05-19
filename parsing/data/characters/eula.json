@@ -1,0 +1,846 @@
+{
+	"name": "Eula",
+	"title": "Dance of the Shimmering Wave",
+	"allegiance": "Knights of Favonius",
+	"rarity": 5,
+	"vision": "Cryo",
+	"astrolabe": "Aphros Delos",
+	"weapon": "claymore",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"CRIT DMG",
+			"CRIT Rate"
+		],
+		"values": {
+			"1": [
+				"1030",
+				"27",
+				"58",
+				"50%",
+				"5%"
+			],
+			"20": [
+				"2671",
+				"69",
+				"152",
+				"50%",
+				"5%"
+			],
+			"20+": [
+				"3554",
+				"92",
+				"202",
+				"50%",
+				"5%"
+			],
+			"40": [
+				"5317",
+				"138",
+				"302",
+				"50%",
+				"5%"
+			],
+			"40+": [
+				"5944",
+				"154",
+				"337",
+				"59.6%",
+				"5%"
+			],
+			"50": [
+				"6839",
+				"177",
+				"388",
+				"59.6%",
+				"5%"
+			],
+			"50+": [
+				"7675",
+				"198",
+				"436",
+				"69.2%",
+				"5%"
+			],
+			"60": [
+				"8579",
+				"222",
+				"487",
+				"69.2%",
+				"5%"
+			],
+			"60+": [
+				"9207",
+				"238",
+				"523",
+				"69.2%",
+				"5%"
+			],
+			"70": [
+				"10119",
+				"262",
+				"574",
+				"69.2%",
+				"5%"
+			],
+			"70+": [
+				"10746",
+				"278",
+				"610",
+				"78.8%",
+				"5%"
+			],
+			"80": [
+				"11669",
+				"302",
+				"662",
+				"78.8%",
+				"5%"
+			],
+			"80+": [
+				"12296",
+				"318",
+				"698",
+				"88.4%",
+				"5%"
+			],
+			"90": [
+				"13226",
+				"342",
+				"751",
+				"88.4%",
+				"5%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"shivada_jade_sliver": 1,
+			"dandelion_seed": 3,
+			"damaged_mask": 3,
+			"mora": 20000
+		},
+		{
+			"shivada_jade_fragment": 3,
+			"crystalline_bloom": 2,
+			"dandelion_seed": 10,
+			"damaged_mask": 15,
+			"mora": 40000
+		},
+		{
+			"shivada_jade_fragment": 6,
+			"crystalline_bloom": 4,
+			"dandelion_seed": 20,
+			"stained_mask": 12,
+			"mora": 60000
+		},
+		{
+			"shivada_jade_chunk": 3,
+			"crystalline_bloom": 8,
+			"dandelion_seed": 30,
+			"stained_mask": 18,
+			"mora": 80000
+		},
+		{
+			"shivada_jade_chunk": 6,
+			"crystalline_bloom": 12,
+			"dandelion_seed": 45,
+			"ominous_mask": 12,
+			"mora": 100000
+		},
+		{
+			"shivada_jade_gemstone": 6,
+			"crystalline_bloom": 20,
+			"dandelion_seed": 60,
+			"ominous_mask": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Favonius Bladework - Edel",
+			"desc": [
+				[
+					"Normal Attack",
+					"Perform up to 5 consecutive strikes."
+				],
+				[
+					"Charged Attack",
+					"Drains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash."
+				],
+				[
+					"Plunging Attack",
+					"Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack Spinning DMG",
+					"Charged Attack Final DMG",
+					"Charged Attack Stamina Cost",
+					"Max Duration",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"89.73%",
+						"93.55%",
+						"56.8%",
+						"112.64%",
+						"71.83%",
+						"68.8%",
+						"124.4%",
+						"40/s",
+						"5s",
+						"74.59%",
+						"149.14%"
+					],
+					[
+						"97.04%",
+						"101.17%",
+						"61.42%",
+						"121.81%",
+						"77.68%",
+						"74.4%",
+						"134.52%",
+						"40/s",
+						"5s",
+						"80.66%",
+						"161.28%"
+					],
+					[
+						"104.34%",
+						"108.78%",
+						"66.05%",
+						"130.98%",
+						"83.53%",
+						"80%",
+						"144.65%",
+						"40/s",
+						"5s",
+						"86.73%",
+						"173.42%"
+					],
+					[
+						"114.77%",
+						"119.66%",
+						"72.65%",
+						"144.08%",
+						"91.88%",
+						"88%",
+						"159.12%",
+						"40/s",
+						"5s",
+						"95.4%",
+						"190.77%"
+					],
+					[
+						"122.08%",
+						"127.27%",
+						"77.27%",
+						"153.25%",
+						"97.73%",
+						"93.6%",
+						"169.24%",
+						"40/s",
+						"5s",
+						"101.47%",
+						"202.91%"
+					],
+					[
+						"130.43%",
+						"135.98%",
+						"82.56%",
+						"163.73%",
+						"104.41%",
+						"100%",
+						"180.81%",
+						"40/s",
+						"5s",
+						"108.41%",
+						"216.78%"
+					],
+					[
+						"141.9%",
+						"147.94%",
+						"89.82%",
+						"178.13%",
+						"113.6%",
+						"108.8%",
+						"196.72%",
+						"40/s",
+						"5s",
+						"117.95%",
+						"235.86%"
+					],
+					[
+						"153.38%",
+						"159.91%",
+						"97.09%",
+						"192.54%",
+						"122.79%",
+						"117.6%",
+						"212.64%",
+						"40/s",
+						"5s",
+						"127.49%",
+						"254.93%"
+					],
+					[
+						"164.86%",
+						"171.87%",
+						"104.35%",
+						"206.95%",
+						"131.97%",
+						"126.4%",
+						"228.55%",
+						"40/s",
+						"5s",
+						"137.03%",
+						"274.01%"
+					],
+					[
+						"177.38%",
+						"184.93%",
+						"112.28%",
+						"222.67%",
+						"142%",
+						"136%",
+						"245.91%",
+						"40/s",
+						"5s",
+						"147.44%",
+						"294.82%"
+					],
+					[
+						"191.72%",
+						"199.88%",
+						"121.36%",
+						"240.68%",
+						"153.48%",
+						"147%",
+						"265.79%",
+						"40/s",
+						"5s",
+						"159.37%",
+						"318.67%"
+					],
+					[
+						"208.6%",
+						"217.47%",
+						"132.04%",
+						"261.86%",
+						"166.99%",
+						"159.94%",
+						"289.18%",
+						"40/s",
+						"5s",
+						"173.39%",
+						"346.71%"
+					],
+					[
+						"225.47%",
+						"235.06%",
+						"142.72%",
+						"283.03%",
+						"180.49%",
+						"172.87%",
+						"312.57%",
+						"40/s",
+						"5s",
+						"187.41%",
+						"374.75%"
+					],
+					[
+						"242.34%",
+						"252.65%",
+						"153.4%",
+						"304.21%",
+						"194%",
+						"185.81%",
+						"335.96%",
+						"40/s",
+						"5s",
+						"201.44%",
+						"402.79%"
+					],
+					[
+						"260.75%",
+						"271.84%",
+						"165.05%",
+						"327.32%",
+						"208.74%",
+						"199.92%",
+						"361.48%",
+						"40/s",
+						"5s",
+						"216.74%",
+						"433.38%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Icetide Vortex",
+			"desc": [
+				[
+					null,
+					"#Sharp frost, swift blade."
+				],
+				[
+					"Press",
+					"Slashes swiftly, dealing Cryo DMG.\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s."
+				],
+				[
+					"Grimheart",
+					"Increases Eula's resistance to interruption and DEF."
+				],
+				[
+					"Hold",
+					"Wielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing AoE Cryo DMG to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Press DMG",
+					"Hold DMG",
+					"Icewhirl Brand DMG",
+					"DEF Bonus",
+					"Grimheart Duration",
+					"Physical RES Decrease",
+					"Cryo RES Decrease",
+					"RES Decrease Duration",
+					"Press CD",
+					"CD (hold)"
+				],
+				"values": [
+					[
+						"146.4%",
+						"245.6%",
+						"96%",
+						"30% Per Stack",
+						"18s",
+						"16%",
+						"16%",
+						"7s",
+						"4s",
+						"10s"
+					],
+					[
+						"157.38%",
+						"264.02%",
+						"103.2%",
+						"30% Per Stack",
+						"18s",
+						"17%",
+						"17%",
+						"7s",
+						"4s",
+						"10s"
+					],
+					[
+						"168.36%",
+						"282.44%",
+						"110.4%",
+						"30% Per Stack",
+						"18s",
+						"18%",
+						"18%",
+						"7s",
+						"4s",
+						"10s"
+					],
+					[
+						"183%",
+						"307%",
+						"120%",
+						"30% Per Stack",
+						"18s",
+						"19%",
+						"19%",
+						"7s",
+						"4s",
+						"10s"
+					],
+					[
+						"193.98%",
+						"325.42%",
+						"127.2%",
+						"30% Per Stack",
+						"18s",
+						"20%",
+						"20%",
+						"7s",
+						"4s",
+						"10s"
+					],
+					[
+						"204.96%",
+						"343.84%",
+						"134.4%",
+						"30% Per Stack",
+						"18s",
+						"21%",
+						"21%",
+						"7s",
+						"4s",
+						"10s"
+					],
+					[
+						"219.6%",
+						"368.4%",
+						"144%",
+						"30% Per Stack",
+						"18s",
+						"22%",
+						"22%",
+						"7s",
+						"4s",
+						"10s"
+					],
+					[
+						"234.24%",
+						"392.96%",
+						"153.6%",
+						"30% Per Stack",
+						"18s",
+						"23%",
+						"23%",
+						"7s",
+						"4s",
+						"10s"
+					],
+					[
+						"248.88%",
+						"417.52%",
+						"163.2%",
+						"30% Per Stack",
+						"18s",
+						"24%",
+						"24%",
+						"7s",
+						"4s",
+						"10s"
+					],
+					[
+						"263.52%",
+						"442.08%",
+						"172.8%",
+						"30% Per Stack",
+						"18s",
+						"25%",
+						"25%",
+						"7s",
+						"4s",
+						"10s"
+					],
+					[
+						"278.16%",
+						"466.64%",
+						"182.4%",
+						"30% Per Stack",
+						"18s",
+						"25%",
+						"25%",
+						"7s",
+						"4s",
+						"10s"
+					],
+					[
+						"292.8%",
+						"491.2%",
+						"192%",
+						"30% Per Stack",
+						"18s",
+						"25%",
+						"25%",
+						"7s",
+						"4s",
+						"10s"
+					],
+					[
+						"311.1%",
+						"521.9%",
+						"204%",
+						"30% Per Stack",
+						"18s",
+						"25%",
+						"25%",
+						"7s",
+						"4s",
+						"10s"
+					],
+					[
+						"329.4%",
+						"552.6%",
+						"216%",
+						"30% Per Stack",
+						"18s",
+						"25%",
+						"25%",
+						"7s",
+						"4s",
+						"10s"
+					],
+					[
+						"347.7%",
+						"583.3%",
+						"228%",
+						"30% Per Stack",
+						"18s",
+						"25%",
+						"25%",
+						"7s",
+						"4s",
+						"10s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Glacial Illumination",
+			"desc": [
+				[
+					null,
+					"Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will explode immediately."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Skill DMG",
+					"Lightfall Sword Base DMG",
+					"DMG Per Stack",
+					"Maximum Stacks",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"245.6%",
+						"367.05%",
+						"74.99%",
+						"30",
+						"20s",
+						"80"
+					],
+					[
+						"264.02%",
+						"396.92%",
+						"81.1%",
+						"30",
+						"20s",
+						"80"
+					],
+					[
+						"282.44%",
+						"426.8%",
+						"87.2%",
+						"30",
+						"20s",
+						"80"
+					],
+					[
+						"307%",
+						"469.48%",
+						"95.92%",
+						"30",
+						"20s",
+						"80"
+					],
+					[
+						"325.42%",
+						"499.36%",
+						"102.02%",
+						"30",
+						"20s",
+						"80"
+					],
+					[
+						"343.84%",
+						"533.5%",
+						"109%",
+						"30",
+						"20s",
+						"80"
+					],
+					[
+						"368.4%",
+						"580.45%",
+						"118.59%",
+						"30",
+						"20s",
+						"80"
+					],
+					[
+						"392.96%",
+						"627.4%",
+						"128.18%",
+						"30",
+						"20s",
+						"80"
+					],
+					[
+						"417.52%",
+						"674.34%",
+						"137.78%",
+						"30",
+						"20s",
+						"80"
+					],
+					[
+						"442.08%",
+						"725.56%",
+						"148.24%",
+						"30",
+						"20s",
+						"80"
+					],
+					[
+						"466.64%",
+						"784.25%",
+						"160.23%",
+						"30",
+						"20s",
+						"80"
+					],
+					[
+						"491.2%",
+						"853.26%",
+						"174.33%",
+						"30",
+						"20s",
+						"80"
+					],
+					[
+						"521.9%",
+						"922.27%",
+						"188.43%",
+						"30",
+						"20s",
+						"80"
+					],
+					[
+						"552.6%",
+						"991.29%",
+						"202.53%",
+						"30",
+						"20s",
+						"80"
+					],
+					[
+						"583.3%",
+						"1066.57%",
+						"217.91%",
+						"30",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_resistance": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_resistance": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_resistance": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_resistance": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_resistance": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_resistance": 4,
+					"ominous_mask": 4,
+					"dragon_lords_crown": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_resistance": 6,
+					"ominous_mask": 6,
+					"dragon_lords_crown": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_resistance": 12,
+					"ominous_mask": 9,
+					"dragon_lords_crown": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_resistance": 16,
+					"ominous_mask": 12,
+					"dragon_lords_crown": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Aristocratic Introspection",
+			"desc": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product."
+		},
+		{
+			"name": "Roiling Rime",
+			"desc": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of Icetide Vortex, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by Glacial Illumination."
+		},
+		{
+			"name": "Wellspring of War-Lust",
+			"desc": "When Glacial Illumination is cast, the CD of Icetide Vortex is reset and Eula gains 1 stack of Grimheart."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Tidal Illusion",
+			"desc": "Every time Icetide Vortex's Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\n Each stack consumed will increase the duration of this effect by 6s up to a maximum of 18s."
+		},
+		{
+			"name": "Lady of Seafoam",
+			"desc": "#Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to Press CD."
+		},
+		{
+			"name": "Lawrence Pedigree",
+			"desc": "Increases the Level of Glacial Illumination by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "The Obstinacy of One's Inferiors",
+			"desc": "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP."
+		},
+		{
+			"name": "Chivalric Quality",
+			"desc": "Increases the Level of Icetide Vortex by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Noble Obligation",
+			"desc": "Lightfall Swords created by Glacial Illumination start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy."
+		}
+	],
+	"constellation_increase_burst": 3,
+	"constellation_increase_skill": 5
+}

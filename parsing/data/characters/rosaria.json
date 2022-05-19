@@ -1,0 +1,673 @@
+{
+	"name": "Rosaria",
+	"title": "Thorny Benevolence",
+	"allegiance": "Church of Favonius",
+	"rarity": 4,
+	"vision": "Cryo",
+	"astrolabe": "Spinea Corona",
+	"weapon": "polearm",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"ATK",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"1030",
+				"20",
+				"60",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"2647",
+				"52",
+				"153",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"3417",
+				"67",
+				"197",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"5118",
+				"100",
+				"296",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"5665",
+				"111",
+				"327",
+				"6%",
+				"5%",
+				"50%"
+			],
+			"50": [
+				"6516",
+				"127",
+				"376",
+				"6%",
+				"5%",
+				"50%"
+			],
+			"50+": [
+				"7245",
+				"141",
+				"418",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"60": [
+				"8096",
+				"158",
+				"468",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"60+": [
+				"8643",
+				"169",
+				"499",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"70": [
+				"9493",
+				"185",
+				"548",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"70+": [
+				"10040",
+				"196",
+				"580",
+				"18%",
+				"5%",
+				"50%"
+			],
+			"80": [
+				"10891",
+				"213",
+				"629",
+				"18%",
+				"5%",
+				"50%"
+			],
+			"80+": [
+				"11438",
+				"223",
+				"661",
+				"24%",
+				"5%",
+				"50%"
+			],
+			"90": [
+				"12289",
+				"240",
+				"710",
+				"24%",
+				"5%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"shivada_jade_sliver": 1,
+			"valberry": 3,
+			"recruits_insignia": 3,
+			"mora": 20000
+		},
+		{
+			"shivada_jade_fragment": 3,
+			"hoarfrost_core": 2,
+			"valberry": 10,
+			"recruits_insignia": 15,
+			"mora": 40000
+		},
+		{
+			"shivada_jade_fragment": 6,
+			"hoarfrost_core": 4,
+			"valberry": 20,
+			"sergeants_insignia": 12,
+			"mora": 60000
+		},
+		{
+			"shivada_jade_chunk": 3,
+			"hoarfrost_core": 8,
+			"valberry": 30,
+			"sergeants_insignia": 18,
+			"mora": 80000
+		},
+		{
+			"shivada_jade_chunk": 6,
+			"hoarfrost_core": 12,
+			"valberry": 45,
+			"lieutenants_insignia": 12,
+			"mora": 100000
+		},
+		{
+			"shivada_jade_gemstone": 6,
+			"hoarfrost_core": 20,
+			"valberry": 60,
+			"lieutenants_insignia": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Spear of the Church",
+			"desc": [
+				[
+					"Normal Attack",
+					"Performs up to five consecutive spear strikes."
+				],
+				[
+					"Charged Attack",
+					"Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way."
+				],
+				[
+					"Plunging Attack",
+					"Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"52.46%",
+						"51.6%",
+						"31.82%\u00d72",
+						"69.66%",
+						"41.62%",
+						"136.74%",
+						"25",
+						"63.93%",
+						"127.84%"
+					],
+					[
+						"56.73%",
+						"55.8%",
+						"34.41%\u00d72",
+						"75.33%",
+						"45.01%",
+						"147.87%",
+						"25",
+						"69.14%",
+						"138.24%"
+					],
+					[
+						"61%",
+						"60%",
+						"37%\u00d72",
+						"81%",
+						"48.4%",
+						"159%",
+						"25",
+						"74.34%",
+						"148.65%"
+					],
+					[
+						"67.1%",
+						"66%",
+						"40.7%\u00d72",
+						"89.1%",
+						"53.24%",
+						"174.9%",
+						"25",
+						"81.77%",
+						"163.51%"
+					],
+					[
+						"71.37%",
+						"70.2%",
+						"43.29%\u00d72",
+						"94.77%",
+						"56.63%",
+						"186.03%",
+						"25",
+						"86.98%",
+						"173.92%"
+					],
+					[
+						"76.25%",
+						"75%",
+						"46.25%\u00d72",
+						"101.25%",
+						"60.5%",
+						"198.75%",
+						"25",
+						"92.93%",
+						"185.81%"
+					],
+					[
+						"82.96%",
+						"81.6%",
+						"50.32%\u00d72",
+						"110.16%",
+						"65.82%",
+						"216.24%",
+						"25",
+						"101.1%",
+						"202.16%"
+					],
+					[
+						"89.67%",
+						"88.2%",
+						"54.39%\u00d72",
+						"119.07%",
+						"71.15%",
+						"233.73%",
+						"25",
+						"109.28%",
+						"218.51%"
+					],
+					[
+						"96.38%",
+						"94.8%",
+						"58.46%\u00d72",
+						"127.98%",
+						"76.47%",
+						"251.22%",
+						"25",
+						"117.46%",
+						"234.86%"
+					],
+					[
+						"103.7%",
+						"102%",
+						"62.9%\u00d72",
+						"137.7%",
+						"82.28%",
+						"270.3%",
+						"25",
+						"126.38%",
+						"252.7%"
+					],
+					[
+						"111.02%",
+						"109.2%",
+						"67.34%\u00d72",
+						"147.42%",
+						"88.09%",
+						"289.38%",
+						"25",
+						"135.3%",
+						"270.54%"
+					],
+					[
+						"118.34%",
+						"116.4%",
+						"71.78%\u00d72",
+						"157.14%",
+						"93.9%",
+						"308.46%",
+						"25",
+						"144.22%",
+						"288.38%"
+					],
+					[
+						"125.66%",
+						"123.6%",
+						"76.22%\u00d72",
+						"166.86%",
+						"99.7%",
+						"327.54%",
+						"25",
+						"153.14%",
+						"306.22%"
+					],
+					[
+						"132.98%",
+						"130.8%",
+						"80.66%\u00d72",
+						"176.58%",
+						"105.51%",
+						"346.62%",
+						"25",
+						"162.06%",
+						"324.05%"
+					],
+					[
+						"140.3%",
+						"138%",
+						"85.1%\u00d72",
+						"186.3%",
+						"111.32%",
+						"365.7%",
+						"25",
+						"170.98%",
+						"341.89%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Ravaging Confession",
+			"desc": [
+				[
+					null,
+					"Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing Cryo DMG.\nThis ability cannot be used to travel behind opponents of a larger build."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Skill DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"58.4%",
+						"6s"
+					],
+					[
+						"62.78%",
+						"6s"
+					],
+					[
+						"67.16%",
+						"6s"
+					],
+					[
+						"73%",
+						"6s"
+					],
+					[
+						"77.38%",
+						"6s"
+					],
+					[
+						"81.76%",
+						"6s"
+					],
+					[
+						"87.6%",
+						"6s"
+					],
+					[
+						"93.44%",
+						"6s"
+					],
+					[
+						"99.28%",
+						"6s"
+					],
+					[
+						"105.12%",
+						"6s"
+					],
+					[
+						"110.96%",
+						"6s"
+					],
+					[
+						"116.8%",
+						"6s"
+					],
+					[
+						"124.1%",
+						"6s"
+					],
+					[
+						"131.4%",
+						"6s"
+					],
+					[
+						"138.7%",
+						"6s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Rites of Termination",
+			"desc": [
+				[
+					null,
+					"Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal Cryo DMG.\nWhile active, the Ice Lance periodically releases a blast of cold air, dealing Cryo DMG to surrounding opponents."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Skill DMG",
+					"Ice Lance DoT",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"104%",
+						"132%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"111.8%",
+						"141.9%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"119.6%",
+						"151.8%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"130%",
+						"165%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"137.8%",
+						"174.9%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"145.6%",
+						"184.8%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"156%",
+						"198%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"166.4%",
+						"211.2%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"176.8%",
+						"224.4%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"187.2%",
+						"237.6%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"197.6%",
+						"250.8%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"208%",
+						"264%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"221%",
+						"280.5%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"234%",
+						"297%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"247%",
+						"313.5%",
+						"8s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_ballad": 3,
+					"recruits_insignia": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_ballad": 2,
+					"sergeants_insignia": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_ballad": 4,
+					"sergeants_insignia": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_ballad": 6,
+					"sergeants_insignia": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_ballad": 9,
+					"sergeants_insignia": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_ballad": 4,
+					"lieutenants_insignia": 4,
+					"shadow_of_the_warrior": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_ballad": 6,
+					"lieutenants_insignia": 6,
+					"shadow_of_the_warrior": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_ballad": 12,
+					"lieutenants_insignia": 9,
+					"shadow_of_the_warrior": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_ballad": 16,
+					"lieutenants_insignia": 12,
+					"shadow_of_the_warrior": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Night Walk",
+			"desc": "At night (18:00\u20136:00), increases the Movement SPD of your own party members by 10%.\n Does not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the exact same effects."
+		},
+		{
+			"name": "Regina Probationum",
+			"desc": "When Rosaria strikes an opponent from behind using Ravaging Confession, Rosaria's CRIT Rate increases by 12% for 5s."
+		},
+		{
+			"name": "Shadow Samaritan",
+			"desc": "Casting Rites of Termination increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.\n CRIT Rate Bonus gained this way cannot exceed 15%."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Unholy Revelation",
+			"desc": "When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s."
+		},
+		{
+			"name": "Land Without Promise",
+			"desc": "The duration of the Ice Lance created by Rites of Termination is increased by 4s."
+		},
+		{
+			"name": "The Wages of Sin",
+			"desc": "Increases the Level of Ravaging Confession by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Painful Grace",
+			"desc": "Ravaging Confession's CRIT Hits regenerate 5 Energy for Rosaria.\n Can only be triggered once each time Ravaging Confession is cast."
+		},
+		{
+			"name": "Last Rites",
+			"desc": "Increases the Level of Rites of Termination by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Divine Retribution",
+			"desc": "Rites of Termination's attack decreases opponents' Physical RES by 20% for 10s."
+		}
+	],
+	"constellation_increase_burst": 5,
+	"constellation_increase_skill": 3
+}

@@ -1,0 +1,749 @@
+{
+	"name": "Diona",
+	"title": "K\u00e4tzlein Cocktail",
+	"allegiance": "The Cat's Tail",
+	"rarity": 4,
+	"vision": "Cryo",
+	"astrolabe": "Feles",
+	"weapon": "bow",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"Cryo DMG Bonus",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"802",
+				"18",
+				"50",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"2061",
+				"46",
+				"129",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"2661",
+				"59",
+				"167",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"3985",
+				"88",
+				"250",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"4411",
+				"98",
+				"277",
+				"6%",
+				"5%",
+				"50%"
+			],
+			"50": [
+				"5074",
+				"113",
+				"318",
+				"6%",
+				"5%",
+				"50%"
+			],
+			"50+": [
+				"5642",
+				"125",
+				"354",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"60": [
+				"6305",
+				"140",
+				"396",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"60+": [
+				"6731",
+				"149",
+				"422",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"70": [
+				"7393",
+				"164",
+				"464",
+				"12%",
+				"5%",
+				"50%"
+			],
+			"70+": [
+				"7818",
+				"174",
+				"491",
+				"18%",
+				"5%",
+				"50%"
+			],
+			"80": [
+				"8481",
+				"188",
+				"532",
+				"18%",
+				"5%",
+				"50%"
+			],
+			"80+": [
+				"8907",
+				"198",
+				"559",
+				"24%",
+				"5%",
+				"50%"
+			],
+			"90": [
+				"9570",
+				"212",
+				"601",
+				"24%",
+				"5%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"shivada_jade_sliver": 1,
+			"calla_lily": 3,
+			"firm_arrowhead": 3,
+			"mora": 20000
+		},
+		{
+			"shivada_jade_fragment": 3,
+			"hoarfrost_core": 2,
+			"calla_lily": 10,
+			"firm_arrowhead": 15,
+			"mora": 40000
+		},
+		{
+			"shivada_jade_fragment": 6,
+			"hoarfrost_core": 4,
+			"calla_lily": 20,
+			"sharp_arrowhead": 12,
+			"mora": 60000
+		},
+		{
+			"shivada_jade_chunk": 3,
+			"hoarfrost_core": 8,
+			"calla_lily": 30,
+			"sharp_arrowhead": 18,
+			"mora": 80000
+		},
+		{
+			"shivada_jade_chunk": 6,
+			"hoarfrost_core": 12,
+			"calla_lily": 45,
+			"weathered_arrowhead": 12,
+			"mora": 100000
+		},
+		{
+			"shivada_jade_gemstone": 6,
+			"hoarfrost_core": 20,
+			"calla_lily": 60,
+			"weathered_arrowhead": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "K\u00e4tzlein Style",
+			"desc": [
+				[
+					"Normal Attack",
+					"Perform up to 5 consecutive shots with a bow."
+				],
+				[
+					"Charged Attack",
+					"Perform a more precise Aimed Shot with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMG."
+				],
+				[
+					"Plunging Attack",
+					"Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Aimed Shot",
+					"Fully-Charged Aimed Shot",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"36.12%",
+						"33.54%",
+						"45.58%",
+						"43%",
+						"53.75%",
+						"43.86%",
+						"124%",
+						"56.83%",
+						"113.63%"
+					],
+					[
+						"39.06%",
+						"36.27%",
+						"49.29%",
+						"46.5%",
+						"58.13%",
+						"47.43%",
+						"133.3%",
+						"61.45%",
+						"122.88%"
+					],
+					[
+						"42%",
+						"39%",
+						"53%",
+						"50%",
+						"62.5%",
+						"51%",
+						"142.6%",
+						"66.08%",
+						"132.13%"
+					],
+					[
+						"46.2%",
+						"42.9%",
+						"58.3%",
+						"55%",
+						"68.75%",
+						"56.1%",
+						"155%",
+						"72.69%",
+						"145.35%"
+					],
+					[
+						"49.14%",
+						"45.63%",
+						"62.01%",
+						"58.5%",
+						"73.13%",
+						"59.67%",
+						"164.3%",
+						"77.31%",
+						"154.59%"
+					],
+					[
+						"52.5%",
+						"48.75%",
+						"66.25%",
+						"62.5%",
+						"78.13%",
+						"63.75%",
+						"173.6%",
+						"82.6%",
+						"165.17%"
+					],
+					[
+						"57.12%",
+						"53.04%",
+						"72.08%",
+						"68%",
+						"85%",
+						"69.36%",
+						"186%",
+						"89.87%",
+						"179.7%"
+					],
+					[
+						"61.74%",
+						"57.33%",
+						"77.91%",
+						"73.5%",
+						"91.88%",
+						"74.97%",
+						"198.4%",
+						"97.14%",
+						"194.23%"
+					],
+					[
+						"66.36%",
+						"61.62%",
+						"83.74%",
+						"79%",
+						"98.75%",
+						"80.58%",
+						"210.8%",
+						"104.41%",
+						"208.77%"
+					],
+					[
+						"71.4%",
+						"66.3%",
+						"90.1%",
+						"85%",
+						"106.25%",
+						"86.7%",
+						"223.2%",
+						"112.34%",
+						"224.62%"
+					],
+					[
+						"77.18%",
+						"71.66%",
+						"97.39%",
+						"91.88%",
+						"114.84%",
+						"93.71%",
+						"236.1%",
+						"120.27%",
+						"240.48%"
+					],
+					[
+						"83.97%",
+						"77.97%",
+						"105.96%",
+						"99.96%",
+						"124.95%",
+						"101.96%",
+						"252.96%",
+						"128.2%",
+						"256.34%"
+					],
+					[
+						"90.76%",
+						"84.28%",
+						"114.53%",
+						"108.05%",
+						"135.06%",
+						"110.21%",
+						"269.82%",
+						"136.12%",
+						"272.19%"
+					],
+					[
+						"97.55%",
+						"90.58%",
+						"123.1%",
+						"116.13%",
+						"145.16%",
+						"118.45%",
+						"286.69%",
+						"144.05%",
+						"288.05%"
+					],
+					[
+						"104.96%",
+						"97.46%",
+						"132.45%",
+						"124.95%",
+						"156.19%",
+						"127.45%",
+						"303.55%",
+						"151.98%",
+						"303.9%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Icy Paws",
+			"desc": [
+				[
+					null,
+					"#Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target."
+				],
+				[
+					"Press",
+					"Rapidly fires off 2 Icy Paws."
+				],
+				[
+					"Hold",
+					"Dashes back quickly before firing five Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\nThe shield has a 250% Cryo DMG Absorption Bonus, and will cause your active character to become affected by Cryo at the point of formation for a short duration."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Icy Paw DMG",
+					"Base Shield DMG Absorption",
+					"Duration",
+					"Press CD",
+					"Holding CD"
+				],
+				"values": [
+					[
+						"41.92% per Paw",
+						"7.2% Max HP",
+						"1.8s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"45.06% per Paw",
+						"7.74% Max HP",
+						"1.9s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"48.21% per Paw",
+						"8.28% Max HP",
+						"2s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"52.4% per Paw",
+						"9% Max HP",
+						"2.1s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"55.54% per Paw",
+						"9.54% Max HP",
+						"2.2s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"58.69% per Paw",
+						"10.08% Max HP",
+						"2.3s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"62.88% per Paw",
+						"10.8% Max HP",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"67.07% per Paw",
+						"11.52% Max HP",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"71.26% per Paw",
+						"12.24% Max HP",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"75.46% per Paw",
+						"12.96% Max HP",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"79.65% per Paw",
+						"13.68% Max HP",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"83.84% per Paw",
+						"14.4% Max HP",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"89.08% per Paw",
+						"15.3% Max HP",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"94.32% per Paw",
+						"16.2% Max HP",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"99.56% per Paw",
+						"17.1% Max HP",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Signature Mix",
+			"desc": [
+				[
+					null,
+					"Tosses out a special cold brew that deals AoE Cryo DMG and creates a Drunken Mist in an AoE."
+				],
+				[
+					"Drunken Mist",
+					"\u2022 Deals continuous Cryo DMG to opponents within the AoE.\n\u2022 Continuously regenerates the HP of characters within the AoE."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Skill DMG",
+					"Continuous Field DMG",
+					"HP Regeneration Over Time",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"80%",
+						"52.64%",
+						"5.34% Max HP",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"86%",
+						"56.59%",
+						"5.74% Max HP",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"92%",
+						"60.54%",
+						"6.14% Max HP",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"100%",
+						"65.8%",
+						"6.67% Max HP",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"106%",
+						"69.75%",
+						"7.07% Max HP",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"112%",
+						"73.7%",
+						"7.47% Max HP",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"120%",
+						"78.96%",
+						"8% Max HP",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"128%",
+						"84.22%",
+						"8.54% Max HP",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"136%",
+						"89.49%",
+						"9.07% Max HP",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"144%",
+						"94.75%",
+						"9.6% Max HP",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"152%",
+						"100.02%",
+						"10.14% Max HP",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"160%",
+						"105.28%",
+						"10.67% Max HP",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"170%",
+						"111.86%",
+						"11.34% Max HP",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"180%",
+						"118.44%",
+						"12.01% Max HP",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"190%",
+						"125.02%",
+						"12.67% Max HP",
+						"12s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_freedom": 3,
+					"firm_arrowhead": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_freedom": 2,
+					"sharp_arrowhead": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_freedom": 4,
+					"sharp_arrowhead": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_freedom": 6,
+					"sharp_arrowhead": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_freedom": 9,
+					"sharp_arrowhead": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_freedom": 4,
+					"weathered_arrowhead": 4,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_freedom": 6,
+					"weathered_arrowhead": 6,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_freedom": 12,
+					"weathered_arrowhead": 9,
+					"shard_of_a_foul_legacy": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_freedom": 16,
+					"weathered_arrowhead": 12,
+					"shard_of_a_foul_legacy": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Complimentary Bar Food",
+			"desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+		},
+		{
+			"name": "Cat's Tail Secret Menu",
+			"desc": "Characters shielded by Icy Paws have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%."
+		},
+		{
+			"name": "Drunkards' Farce",
+			"desc": "Opponents who enter the AoE of Signature Mix have 10% decreased ATK for 15s."
+		}
+	],
+	"constellations": [
+		{
+			"name": "A Lingering Flavor",
+			"desc": "Regenerates 15 Energy for Diona after the effects of Signature Mix end."
+		},
+		{
+			"name": "Shaken, Not Purred",
+			"desc": "Increases Icy Paws' DMG by 15%, and increases its shield's DMG Absorption by 15%.\n Additionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the Icy Paws shield's DMG Absorption for 5s."
+		},
+		{
+			"name": "A\u2014Another Round?",
+			"desc": "Increases the Level of Signature Mix by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Wine Industry Slayer",
+			"desc": "Within the radius of Signature Mix, Diona's charge time for aimed shots is reduced by 60%"
+		},
+		{
+			"name": "Double Shot, On The Rocks",
+			"desc": "Increases the Level of Icy Paws by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Cat's Tail Closing Time",
+			"desc": "Characters within Signature Mix's radius will gain the following effects based on their HP amounts:\n \u2022 Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\n \u2022 Elemental Mastery increased by 200 when HP is above 50%."
+		}
+	],
+	"constellation_increase_burst": 3,
+	"constellation_increase_skill": 5
+}

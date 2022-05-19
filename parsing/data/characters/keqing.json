@@ -1,0 +1,698 @@
+{
+	"name": "Keqing",
+	"title": "Driving Thunder",
+	"allegiance": "Liyue Qixing",
+	"rarity": 5,
+	"vision": "Electro",
+	"astrolabe": "Trulla Cementarii",
+	"weapon": "sword",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"CRIT DMG",
+			"CRIT Rate"
+		],
+		"values": {
+			"1": [
+				"1020",
+				"25",
+				"62",
+				"50%",
+				"5%"
+			],
+			"20": [
+				"2646",
+				"65",
+				"161",
+				"50%",
+				"5%"
+			],
+			"20+": [
+				"3521",
+				"87",
+				"215",
+				"50%",
+				"5%"
+			],
+			"40": [
+				"5268",
+				"130",
+				"321",
+				"50%",
+				"5%"
+			],
+			"40+": [
+				"5889",
+				"145",
+				"359",
+				"59.6%",
+				"5%"
+			],
+			"50": [
+				"6776",
+				"167",
+				"413",
+				"59.6%",
+				"5%"
+			],
+			"50+": [
+				"7604",
+				"187",
+				"464",
+				"69.2%",
+				"5%"
+			],
+			"60": [
+				"8500",
+				"209",
+				"519",
+				"69.2%",
+				"5%"
+			],
+			"60+": [
+				"9121",
+				"225",
+				"556",
+				"69.2%",
+				"5%"
+			],
+			"70": [
+				"10025",
+				"247",
+				"612",
+				"69.2%",
+				"5%"
+			],
+			"70+": [
+				"10647",
+				"262",
+				"649",
+				"78.8%",
+				"5%"
+			],
+			"80": [
+				"11561",
+				"285",
+				"705",
+				"78.8%",
+				"5%"
+			],
+			"80+": [
+				"12182",
+				"300",
+				"743",
+				"88.4%",
+				"5%"
+			],
+			"90": [
+				"13103",
+				"323",
+				"799",
+				"88.4%",
+				"5%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"vajrada_amethyst_sliver": 1,
+			"cor_lapis": 3,
+			"whopperflower_nectar": 3,
+			"mora": 20000
+		},
+		{
+			"vajrada_amethyst_fragment": 3,
+			"lightning_prism": 2,
+			"cor_lapis": 10,
+			"whopperflower_nectar": 15,
+			"mora": 40000
+		},
+		{
+			"vajrada_amethyst_fragment": 6,
+			"lightning_prism": 4,
+			"cor_lapis": 20,
+			"shimmering_nectar": 12,
+			"mora": 60000
+		},
+		{
+			"vajrada_amethyst_chunk": 3,
+			"lightning_prism": 8,
+			"cor_lapis": 30,
+			"shimmering_nectar": 18,
+			"mora": 80000
+		},
+		{
+			"vajrada_amethyst_chunk": 6,
+			"lightning_prism": 12,
+			"cor_lapis": 45,
+			"energy_nectar": 12,
+			"mora": 100000
+		},
+		{
+			"vajrada_amethyst_gemstone": 6,
+			"lightning_prism": 20,
+			"cor_lapis": 60,
+			"energy_nectar": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Yunlai Swordsmanship",
+			"desc": [
+				[
+					"Normal Attack",
+					"Perform up to 5 rapid strikes."
+				],
+				[
+					"Charged Attack",
+					"Consumes a certain amount of Stamina to unleash 2 rapid sword strikes."
+				],
+				[
+					"Plunging Attack",
+					"Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"41.02%",
+						"41.02%",
+						"54.44%",
+						"31.48%",
+						"66.99%",
+						"76.8%",
+						"25",
+						"63.93%",
+						"127.84%"
+					],
+					[
+						"44.36%",
+						"44.36%",
+						"58.87%",
+						"34.04%",
+						"72.45%",
+						"83.05%",
+						"25",
+						"69.14%",
+						"138.24%"
+					],
+					[
+						"47.7%",
+						"47.7%",
+						"63.3%",
+						"36.6%",
+						"77.9%",
+						"89.3%",
+						"25",
+						"74.34%",
+						"148.65%"
+					],
+					[
+						"52.47%",
+						"52.47%",
+						"69.63%",
+						"40.26%",
+						"85.69%",
+						"98.23%",
+						"25",
+						"81.77%",
+						"163.51%"
+					],
+					[
+						"55.81%",
+						"55.81%",
+						"74.06%",
+						"42.82%",
+						"91.14%",
+						"104.48%",
+						"25",
+						"86.98%",
+						"173.92%"
+					],
+					[
+						"59.62%",
+						"59.62%",
+						"79.13%",
+						"45.75%",
+						"97.38%",
+						"111.63%",
+						"25",
+						"92.93%",
+						"185.81%"
+					],
+					[
+						"64.87%",
+						"64.87%",
+						"86.09%",
+						"49.78%",
+						"105.94%",
+						"121.45%",
+						"25",
+						"101.1%",
+						"202.16%"
+					],
+					[
+						"70.12%",
+						"70.12%",
+						"93.05%",
+						"53.8%",
+						"114.51%",
+						"131.27%",
+						"25",
+						"109.28%",
+						"218.51%"
+					],
+					[
+						"75.37%",
+						"75.37%",
+						"100.01%",
+						"57.83%",
+						"123.08%",
+						"141.09%",
+						"25",
+						"117.46%",
+						"234.86%"
+					],
+					[
+						"81.09%",
+						"81.09%",
+						"107.61%",
+						"62.22%",
+						"132.43%",
+						"151.81%",
+						"25",
+						"126.38%",
+						"252.7%"
+					],
+					[
+						"86.81%",
+						"86.81%",
+						"115.21%",
+						"66.61%",
+						"141.78%",
+						"162.53%",
+						"25",
+						"135.3%",
+						"270.54%"
+					],
+					[
+						"92.54%",
+						"92.54%",
+						"122.8%",
+						"71%",
+						"151.13%",
+						"173.24%",
+						"25",
+						"144.22%",
+						"288.38%"
+					],
+					[
+						"98.26%",
+						"98.26%",
+						"130.4%",
+						"75.4%",
+						"160.47%",
+						"183.96%",
+						"25",
+						"153.14%",
+						"306.22%"
+					],
+					[
+						"103.99%",
+						"103.99%",
+						"137.99%",
+						"79.79%",
+						"169.82%",
+						"194.67%",
+						"25",
+						"162.06%",
+						"324.05%"
+					],
+					[
+						"109.71%",
+						"109.71%",
+						"145.59%",
+						"84.18%",
+						"179.17%",
+						"205.39%",
+						"25",
+						"170.98%",
+						"341.89%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Stellar Restoration",
+			"desc": [
+				[
+					null,
+					"Hurls a Lightning Stiletto that annihilates her opponents like the swift thunder.\nWhen the Stiletto hits its target, it deals Electro DMG to opponents in a small AoE, and places a Stiletto Mark on the spot hit."
+				],
+				[
+					"Hold",
+					"Hold to adjust the direction in which the Stiletto shall be thrown.\nStilettos thrown by the Hold attack mode can be suspended in mid-air, allowing Keqing to jump to them when using Stellar Restoration a second time."
+				],
+				[
+					"Lightning Stiletto",
+					"If Keqing uses Stellar Restoration again or uses a Charged Attack while its duration lasts, it will clear the Stiletto Mark and produce different effects:\n\u2022 If she uses Stellar Restoration again, she will blink to the location of the Mark and unleash one slashing attack that deals AoE Electro DMG. When blinking to a Stiletto that was thrown from a Holding attack, Keqing can leap across obstructing terrain.\n\u2022 If Keqing uses a Charged Attack, she will ignite a series of thundering cuts at the Mark's location, dealing AoE Electro DMG."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Lightning Stiletto DMG",
+					"Slashing DMG",
+					"Thunderclap Slash DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"50.4%",
+						"168%",
+						"84%\u00d72",
+						"7.5s"
+					],
+					[
+						"54.18%",
+						"180.6%",
+						"90.3%\u00d72",
+						"7.5s"
+					],
+					[
+						"57.96%",
+						"193.2%",
+						"96.6%\u00d72",
+						"7.5s"
+					],
+					[
+						"63%",
+						"210%",
+						"105%\u00d72",
+						"7.5s"
+					],
+					[
+						"66.78%",
+						"222.6%",
+						"111.3%\u00d72",
+						"7.5s"
+					],
+					[
+						"70.56%",
+						"235.2%",
+						"117.6%\u00d72",
+						"7.5s"
+					],
+					[
+						"75.6%",
+						"252%",
+						"126%\u00d72",
+						"7.5s"
+					],
+					[
+						"80.64%",
+						"268.8%",
+						"134.4%\u00d72",
+						"7.5s"
+					],
+					[
+						"85.68%",
+						"285.6%",
+						"142.8%\u00d72",
+						"7.5s"
+					],
+					[
+						"90.72%",
+						"302.4%",
+						"151.2%\u00d72",
+						"7.5s"
+					],
+					[
+						"95.76%",
+						"319.2%",
+						"159.6%\u00d72",
+						"7.5s"
+					],
+					[
+						"100.8%",
+						"336%",
+						"168%\u00d72",
+						"7.5s"
+					],
+					[
+						"107.1%",
+						"357%",
+						"178.5%\u00d72",
+						"7.5s"
+					],
+					[
+						"113.4%",
+						"378%",
+						"189%\u00d72",
+						"7.5s"
+					],
+					[
+						"119.7%",
+						"399%",
+						"199.5%\u00d72",
+						"7.5s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Starward Sword",
+			"desc": [
+				[
+					null,
+					"Keqing unleashes the power of lightning, dealing Electro DMG in an AOE.\nShe then blends into the shadow of her blade, striking a series of thunderclap-blows to nearby opponents simultaneously that deal multiple instances of Electro DMG. The final attack deals massive AoE Electro DMG."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Skill DMG",
+					"Consecutive Slash DMG",
+					"Last Attack DMG",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"88%",
+						"24%*8",
+						"188.8%",
+						"12s",
+						"40"
+					],
+					[
+						"94.6%",
+						"25.8%*8",
+						"202.96%",
+						"12s",
+						"40"
+					],
+					[
+						"101.2%",
+						"27.6%*8",
+						"217.12%",
+						"12s",
+						"40"
+					],
+					[
+						"110%",
+						"30%*8",
+						"236%",
+						"12s",
+						"40"
+					],
+					[
+						"116.6%",
+						"31.8%*8",
+						"250.16%",
+						"12s",
+						"40"
+					],
+					[
+						"123.2%",
+						"33.6%*8",
+						"264.32%",
+						"12s",
+						"40"
+					],
+					[
+						"132%",
+						"36%*8",
+						"283.2%",
+						"12s",
+						"40"
+					],
+					[
+						"140.8%",
+						"38.4%*8",
+						"302.08%",
+						"12s",
+						"40"
+					],
+					[
+						"149.6%",
+						"40.8%*8",
+						"320.96%",
+						"12s",
+						"40"
+					],
+					[
+						"158.4%",
+						"43.2%*8",
+						"339.84%",
+						"12s",
+						"40"
+					],
+					[
+						"167.2%",
+						"45.6%*8",
+						"358.72%",
+						"12s",
+						"40"
+					],
+					[
+						"176%",
+						"48%*8",
+						"377.6%",
+						"12s",
+						"40"
+					],
+					[
+						"187%",
+						"51%*8",
+						"401.2%",
+						"12s",
+						"40"
+					],
+					[
+						"198%",
+						"54%*8",
+						"424.8%",
+						"12s",
+						"40"
+					],
+					[
+						"209%",
+						"57%*8",
+						"448.4%",
+						"12s",
+						"40"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_prosperity": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_prosperity": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_prosperity": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_prosperity": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_prosperity": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_prosperity": 4,
+					"energy_nectar": 4,
+					"ring_of_boreas": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_prosperity": 6,
+					"energy_nectar": 6,
+					"ring_of_boreas": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_prosperity": 12,
+					"energy_nectar": 9,
+					"ring_of_boreas": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_prosperity": 16,
+					"energy_nectar": 12,
+					"ring_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Land's Overseer",
+			"desc": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%."
+		},
+		{
+			"name": "Thundering Penance",
+			"desc": "After recasting Stellar Restoration while a Lightning Stiletto is present, Keqing's weapon gains an Electro Infusion for 5s."
+		},
+		{
+			"name": "Aristocratic Dignity",
+			"desc": "When casting Starward Sword, Keqing's CRIT Rate is increased by 15%, and her Energy Recharge is increased by 15%. This effect lasts for 8s."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Thundering Might",
+			"desc": "Recasting Stellar Restoration while a Lightning Stiletto is present causes Keqing to deal 50% of her ATK as AoE Electro DMG at the start point and terminus of her Blink."
+		},
+		{
+			"name": "Keen Extraction",
+			"desc": "When Keqing's Normal and Charged Attacks hit opponents affected by Electro, they have a 50% chance of producing an Elemental Particle.\n This effect can only occur once every 5s."
+		},
+		{
+			"name": "Foreseen Reformation",
+			"desc": "Increases the Level of Starward Sword by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Attunement",
+			"desc": "For 10s after Keqing triggers an Electro-related Elemental Reaction, her ATK is increased by 25%."
+		},
+		{
+			"name": "Beckoning Stars",
+			"desc": "Increases the Level of Stellar Restoration by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Tenacious Star",
+			"desc": "When initiating a Normal Attack, a Charged Attack, Elemental Skill or Elemental Burst, Keqing gains a 6% Electro DMG Bonus for 8s.\n Effects triggered by Normal Attacks, Charged Attacks, Elemental Skills and Elemental Bursts are considered independent entities."
+		}
+	],
+	"constellation_increase_burst": 3,
+	"constellation_increase_skill": 5
+}

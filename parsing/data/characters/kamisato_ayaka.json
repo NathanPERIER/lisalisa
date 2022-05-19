@@ -1,0 +1,676 @@
+{
+	"name": "Kamisato Ayaka",
+	"title": "Frostflake Heron",
+	"allegiance": "Yashiro Commission",
+	"rarity": 5,
+	"vision": "Cryo",
+	"astrolabe": "Grus Nivis",
+	"weapon": "sword",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"CRIT DMG",
+			"CRIT Rate"
+		],
+		"values": {
+			"1": [
+				"1001",
+				"27",
+				"61",
+				"50%",
+				"5%"
+			],
+			"20": [
+				"2597",
+				"69",
+				"158",
+				"50%",
+				"5%"
+			],
+			"20+": [
+				"3455",
+				"92",
+				"211",
+				"50%",
+				"5%"
+			],
+			"40": [
+				"5170",
+				"138",
+				"315",
+				"50%",
+				"5%"
+			],
+			"40+": [
+				"5779",
+				"154",
+				"352",
+				"59.6%",
+				"5%"
+			],
+			"50": [
+				"6649",
+				"177",
+				"405",
+				"59.6%",
+				"5%"
+			],
+			"50+": [
+				"7462",
+				"198",
+				"455",
+				"69.2%",
+				"5%"
+			],
+			"60": [
+				"8341",
+				"222",
+				"509",
+				"69.2%",
+				"5%"
+			],
+			"60+": [
+				"8951",
+				"238",
+				"546",
+				"69.2%",
+				"5%"
+			],
+			"70": [
+				"9838",
+				"262",
+				"600",
+				"69.2%",
+				"5%"
+			],
+			"70+": [
+				"10448",
+				"278",
+				"637",
+				"78.8%",
+				"5%"
+			],
+			"80": [
+				"11345",
+				"302",
+				"692",
+				"78.8%",
+				"5%"
+			],
+			"80+": [
+				"11954",
+				"318",
+				"729",
+				"88.4%",
+				"5%"
+			],
+			"90": [
+				"12858",
+				"342",
+				"784",
+				"88.4%",
+				"5%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"shivada_jade_sliver": 1,
+			"sakura_bloom": 3,
+			"old_handguard": 3,
+			"mora": 20000
+		},
+		{
+			"shivada_jade_fragment": 3,
+			"perpetual_heart": 2,
+			"sakura_bloom": 10,
+			"old_handguard": 15,
+			"mora": 40000
+		},
+		{
+			"shivada_jade_fragment": 6,
+			"perpetual_heart": 4,
+			"sakura_bloom": 20,
+			"kageuchi_handguard": 12,
+			"mora": 60000
+		},
+		{
+			"shivada_jade_chunk": 3,
+			"perpetual_heart": 8,
+			"sakura_bloom": 30,
+			"kageuchi_handguard": 18,
+			"mora": 80000
+		},
+		{
+			"shivada_jade_chunk": 6,
+			"perpetual_heart": 12,
+			"sakura_bloom": 45,
+			"famed_handguard": 12,
+			"mora": 100000
+		},
+		{
+			"shivada_jade_gemstone": 6,
+			"perpetual_heart": 20,
+			"sakura_bloom": 60,
+			"famed_handguard": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Kamisato Art - Kabuki",
+			"desc": [
+				[
+					"Normal Attack",
+					"Performs up to 5 rapid strikes."
+				],
+				[
+					"Charged Attack",
+					"Consumes a certain amount of Stamina to unleash a flurry of sword ki."
+				],
+				[
+					"Plunging Attack",
+					"Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"45.73%",
+						"48.68%",
+						"62.62%",
+						"22.65%\u00d73",
+						"78.18%",
+						"55.13%\u00d73",
+						"20",
+						"63.93%",
+						"127.84%"
+					],
+					[
+						"49.45%",
+						"52.65%",
+						"67.72%",
+						"24.49%\u00d73",
+						"84.55%",
+						"59.61%\u00d73",
+						"20",
+						"69.14%",
+						"138.24%"
+					],
+					[
+						"53.17%",
+						"56.61%",
+						"72.82%",
+						"26.33%\u00d73",
+						"90.91%",
+						"64.1%\u00d73",
+						"20",
+						"74.34%",
+						"148.65%"
+					],
+					[
+						"58.49%",
+						"62.27%",
+						"80.1%",
+						"28.97%\u00d73",
+						"100%",
+						"70.51%\u00d73",
+						"20",
+						"81.77%",
+						"163.51%"
+					],
+					[
+						"62.21%",
+						"66.23%",
+						"85.19%",
+						"30.81%\u00d73",
+						"106.36%",
+						"75%\u00d73",
+						"20",
+						"86.98%",
+						"173.92%"
+					],
+					[
+						"66.46%",
+						"70.76%",
+						"91.02%",
+						"32.92%\u00d73",
+						"113.64%",
+						"80.13%\u00d73",
+						"20",
+						"92.93%",
+						"185.81%"
+					],
+					[
+						"72.31%",
+						"76.99%",
+						"99.03%",
+						"35.81%\u00d73",
+						"123.64%",
+						"87.18%\u00d73",
+						"20",
+						"101.1%",
+						"202.16%"
+					],
+					[
+						"78.16%",
+						"83.22%",
+						"107.04%",
+						"38.71%\u00d73",
+						"133.64%",
+						"94.23%\u00d73",
+						"20",
+						"109.28%",
+						"218.51%"
+					],
+					[
+						"84.01%",
+						"89.44%",
+						"115.05%",
+						"41.61%\u00d73",
+						"143.64%",
+						"101.28%\u00d73",
+						"20",
+						"117.46%",
+						"234.86%"
+					],
+					[
+						"90.39%",
+						"96.24%",
+						"123.79%",
+						"44.77%\u00d73",
+						"154.55%",
+						"108.97%\u00d73",
+						"20",
+						"126.38%",
+						"252.7%"
+					],
+					[
+						"96.77%",
+						"103.03%",
+						"132.53%",
+						"47.93%\u00d73",
+						"165.45%",
+						"116.66%\u00d73",
+						"20",
+						"135.3%",
+						"270.54%"
+					],
+					[
+						"103.15%",
+						"109.82%",
+						"141.26%",
+						"51.09%\u00d73",
+						"176.36%",
+						"124.35%\u00d73",
+						"20",
+						"144.22%",
+						"288.38%"
+					],
+					[
+						"109.53%",
+						"116.62%",
+						"150%",
+						"54.25%\u00d73",
+						"187.27%",
+						"132.05%\u00d73",
+						"20",
+						"153.14%",
+						"306.22%"
+					],
+					[
+						"115.91%",
+						"123.41%",
+						"158.74%",
+						"57.41%\u00d73",
+						"198.18%",
+						"139.74%\u00d73",
+						"20",
+						"162.06%",
+						"324.05%"
+					],
+					[
+						"122.29%",
+						"130.2%",
+						"167.48%",
+						"60.57%\u00d73",
+						"209.09%",
+						"147.43%\u00d73",
+						"20",
+						"170.98%",
+						"341.89%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Kamisato Art: Hyouka",
+			"desc": [
+				[
+					null,
+					"Summons blooming ice to launch nearby opponents, dealing AoE Cryo DMG."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Skill DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"239.2%",
+						"10s"
+					],
+					[
+						"257.14%",
+						"10s"
+					],
+					[
+						"275.08%",
+						"10s"
+					],
+					[
+						"299%",
+						"10s"
+					],
+					[
+						"316.94%",
+						"10s"
+					],
+					[
+						"334.88%",
+						"10s"
+					],
+					[
+						"358.8%",
+						"10s"
+					],
+					[
+						"382.72%",
+						"10s"
+					],
+					[
+						"406.64%",
+						"10s"
+					],
+					[
+						"430.56%",
+						"10s"
+					],
+					[
+						"454.48%",
+						"10s"
+					],
+					[
+						"478.4%",
+						"10s"
+					],
+					[
+						"508.3%",
+						"10s"
+					],
+					[
+						"538.2%",
+						"10s"
+					],
+					[
+						"568.1%",
+						"10s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Kamisato Art: Soumetsu",
+			"desc": [
+				[
+					null,
+					"Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously."
+				],
+				[
+					"Frostflake Seki no To",
+					"\u2022 A storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing Cryo DMG.\n\u2022 The snowstorm explodes after its duration ends, dealing AoE Cryo DMG."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Cutting DMG",
+					"Bloom DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"112.3%",
+						"168.45%",
+						"5s",
+						"20s",
+						"80"
+					],
+					[
+						"120.72%",
+						"181.08%",
+						"5s",
+						"20s",
+						"80"
+					],
+					[
+						"129.15%",
+						"193.72%",
+						"5s",
+						"20s",
+						"80"
+					],
+					[
+						"140.38%",
+						"210.56%",
+						"5s",
+						"20s",
+						"80"
+					],
+					[
+						"148.8%",
+						"223.2%",
+						"5s",
+						"20s",
+						"80"
+					],
+					[
+						"157.22%",
+						"235.83%",
+						"5s",
+						"20s",
+						"80"
+					],
+					[
+						"168.45%",
+						"252.68%",
+						"5s",
+						"20s",
+						"80"
+					],
+					[
+						"179.68%",
+						"269.52%",
+						"5s",
+						"20s",
+						"80"
+					],
+					[
+						"190.91%",
+						"286.36%",
+						"5s",
+						"20s",
+						"80"
+					],
+					[
+						"202.14%",
+						"303.21%",
+						"5s",
+						"20s",
+						"80"
+					],
+					[
+						"213.37%",
+						"320.05%",
+						"5s",
+						"20s",
+						"80"
+					],
+					[
+						"224.6%",
+						"336.9%",
+						"5s",
+						"20s",
+						"80"
+					],
+					[
+						"238.64%",
+						"357.96%",
+						"5s",
+						"20s",
+						"80"
+					],
+					[
+						"252.68%",
+						"379.01%",
+						"5s",
+						"20s",
+						"80"
+					],
+					[
+						"266.71%",
+						"400.07%",
+						"5s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"sprint": {
+			"title": "Kamisato Art: Senho",
+			"desc": [
+				[
+					"Alternate Sprint",
+					"Ayaka consumes Stamina and cloaks herself in a frozen fog that moves with her.\nIn Senho form, she moves swiftly upon water.\nWhen she reappears, the following effects occur:\n\u2022 Ayaka unleashes frigid energy to apply Cryo on nearby opponents.\n\u2022 Coldness condenses around Ayaka's blade, infusing her attacks with Cryo for a brief period."
+				]
+			],
+			"stats": {
+				"Activation Stamina Consumption": "10",
+				"Stamina Drain": "15/s",
+				"Infusion Duration": "5s"
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_elegance": 3,
+					"old_handguard": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_elegance": 2,
+					"kageuchi_handguard": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_elegance": 4,
+					"kageuchi_handguard": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_elegance": 6,
+					"kageuchi_handguard": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_elegance": 9,
+					"kageuchi_handguard": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_elegance": 4,
+					"famed_handguard": 4,
+					"bloodjade_branch": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_elegance": 6,
+					"famed_handguard": 6,
+					"bloodjade_branch": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_elegance": 12,
+					"famed_handguard": 9,
+					"bloodjade_branch": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_elegance": 16,
+					"famed_handguard": 12,
+					"bloodjade_branch": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Fruits of Shinsa",
+			"desc": "When Ayaka crafts Weapon Ascension Materials, she has a 10% chance to receive double the product."
+		},
+		{
+			"name": "Amatsumi Kunitsumi Sanctification",
+			"desc": "After using Kamisato Art: Hyouka, Kamisato Ayaka's Normal and Charged Attacks deal 30% increased DMG for 6s."
+		},
+		{
+			"name": "Kanten Senmyou Blessing",
+			"desc": "When the Cryo application at the end of Kamisato Art: Senho hits an opponent, Kamisato Ayaka gains the following effects:\n \u2022 Restores 10 Stamina\n \u2022 Gains 18% Cryo DMG Bonus for 10s."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Snowswept Sakura",
+			"desc": "When Kamisato Ayaka's Normal or Charged Attacks deal Cryo DMG to opponents, it has a 50% chance of decreasing the CD of Kamisato Art: Hyouka by 0.3s. This effect can occur once every 0.1s."
+		},
+		{
+			"name": "Blizzard Blade Seki no To",
+			"desc": "When casting Kamisato Art: Soumetsu, unleashes 2 smaller additional Frostflake Seki no To, each dealing 20% of the original storm's DMG."
+		},
+		{
+			"name": "Frostbloom Kamifubuki",
+			"desc": "Increases the Level of Kamisato Art: Soumetsu by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Ebb and Flow",
+			"desc": "Opponents damaged by Kamisato Art: Soumetsu's Frostflake Seki no To will have their DEF decreased by 30% for 6s."
+		},
+		{
+			"name": "Blossom Cloud Irutsuki",
+			"desc": "Increases the Level of Kamisato Art: Hyouka by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Dance of Suigetsu",
+			"desc": "Kamisato Ayaka gains Usurahi Butou every 10s, increasing her Charged Attack DMG by 298%. This buff will be cleared 0.5s after Ayaka's Charged ATK hits an opponent, after which the timer for this ability will restart."
+		}
+	],
+	"constellation_increase_burst": 3,
+	"constellation_increase_skill": 5
+}

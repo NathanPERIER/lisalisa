@@ -1,0 +1,733 @@
+{
+	"name": "Venti",
+	"title": "Windborne Bard",
+	"allegiance": "Mondstadt",
+	"rarity": 5,
+	"vision": "Anemo",
+	"astrolabe": "Carmen Dei",
+	"weapon": "bow",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"Energy Recharge",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"820",
+				"20",
+				"52",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"2127",
+				"53",
+				"135",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"2830",
+				"71",
+				"180",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"4234",
+				"106",
+				"269",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"4734",
+				"118",
+				"301",
+				"8%",
+				"5%",
+				"50%"
+			],
+			"50": [
+				"5446",
+				"136",
+				"346",
+				"8%",
+				"5%",
+				"50%"
+			],
+			"50+": [
+				"6112",
+				"153",
+				"388",
+				"16%",
+				"5%",
+				"50%"
+			],
+			"60": [
+				"6832",
+				"171",
+				"434",
+				"16%",
+				"5%",
+				"50%"
+			],
+			"60+": [
+				"7331",
+				"183",
+				"465",
+				"16%",
+				"5%",
+				"50%"
+			],
+			"70": [
+				"8058",
+				"201",
+				"512",
+				"16%",
+				"5%",
+				"50%"
+			],
+			"70+": [
+				"8557",
+				"214",
+				"543",
+				"24%",
+				"5%",
+				"50%"
+			],
+			"80": [
+				"9292",
+				"232",
+				"590",
+				"24%",
+				"5%",
+				"50%"
+			],
+			"80+": [
+				"9791",
+				"245",
+				"622",
+				"32%",
+				"5%",
+				"50%"
+			],
+			"90": [
+				"10531",
+				"263",
+				"669",
+				"32%",
+				"5%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"vayuda_turquoise_sliver": 1,
+			"cecilia": 3,
+			"slime_condensate": 3,
+			"mora": 20000
+		},
+		{
+			"vayuda_turquoise_fragment": 3,
+			"hurricane_seed": 2,
+			"cecilia": 10,
+			"slime_condensate": 15,
+			"mora": 40000
+		},
+		{
+			"vayuda_turquoise_fragment": 6,
+			"hurricane_seed": 4,
+			"cecilia": 20,
+			"slime_secretions": 12,
+			"mora": 60000
+		},
+		{
+			"vayuda_turquoise_chunk": 3,
+			"hurricane_seed": 8,
+			"cecilia": 30,
+			"slime_secretions": 18,
+			"mora": 80000
+		},
+		{
+			"vayuda_turquoise_chunk": 6,
+			"hurricane_seed": 12,
+			"cecilia": 45,
+			"slime_concentrate": 12,
+			"mora": 100000
+		},
+		{
+			"vayuda_turquoise_gemstone": 6,
+			"hurricane_seed": 20,
+			"cecilia": 60,
+			"slime_concentrate": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Divine Marksmanship",
+			"desc": [
+				[
+					"Normal Attack",
+					"Perform up to 6 consecutive shots with a bow."
+				],
+				[
+					"Charged Attack",
+					"Perform a more precise Aimed Shot with increased DMG.\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal Anemo DMG."
+				],
+				[
+					"Plunging Attack",
+					"Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"6-Hit DMG",
+					"Aimed Shot",
+					"Fully-Charged Aimed Shot",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"20.38%",
+						"44.38%",
+						"52.37%",
+						"26.06%",
+						"50.65%",
+						"70.95%",
+						"43.86%",
+						"124%",
+						"56.83%",
+						"113.63%"
+					],
+					[
+						"22.04%",
+						"47.99%",
+						"56.64%",
+						"28.18%",
+						"54.78%",
+						"76.73%",
+						"47.43%",
+						"133.3%",
+						"61.45%",
+						"122.88%"
+					],
+					[
+						"23.7%",
+						"51.6%",
+						"60.9%",
+						"30.3%",
+						"58.9%",
+						"82.5%",
+						"51%",
+						"142.6%",
+						"66.08%",
+						"132.13%"
+					],
+					[
+						"26.07%",
+						"56.76%",
+						"66.99%",
+						"33.33%",
+						"64.79%",
+						"90.75%",
+						"56.1%",
+						"155%",
+						"72.69%",
+						"145.35%"
+					],
+					[
+						"27.73%",
+						"60.37%",
+						"71.25%",
+						"35.45%",
+						"68.91%",
+						"96.53%",
+						"59.67%",
+						"164.3%",
+						"77.31%",
+						"154.59%"
+					],
+					[
+						"29.63%",
+						"64.5%",
+						"76.13%",
+						"37.87%",
+						"73.63%",
+						"103.13%",
+						"63.75%",
+						"173.6%",
+						"82.6%",
+						"165.17%"
+					],
+					[
+						"32.23%",
+						"70.18%",
+						"82.82%",
+						"41.21%",
+						"80.1%",
+						"112.2%",
+						"69.36%",
+						"186%",
+						"89.87%",
+						"179.7%"
+					],
+					[
+						"34.84%",
+						"75.85%",
+						"89.52%",
+						"44.54%",
+						"86.58%",
+						"121.28%",
+						"74.97%",
+						"198.4%",
+						"97.14%",
+						"194.23%"
+					],
+					[
+						"37.45%",
+						"81.53%",
+						"96.22%",
+						"47.87%",
+						"93.06%",
+						"130.35%",
+						"80.58%",
+						"210.8%",
+						"104.41%",
+						"208.77%"
+					],
+					[
+						"40.29%",
+						"87.72%",
+						"103.53%",
+						"51.51%",
+						"100.13%",
+						"140.25%",
+						"86.7%",
+						"223.2%",
+						"112.34%",
+						"224.62%"
+					],
+					[
+						"43.55%",
+						"94.82%",
+						"111.9%",
+						"55.68%",
+						"108.23%",
+						"151.59%",
+						"93.71%",
+						"236.1%",
+						"120.27%",
+						"240.48%"
+					],
+					[
+						"47.38%",
+						"103.16%",
+						"121.75%",
+						"60.58%",
+						"117.75%",
+						"164.93%",
+						"101.96%",
+						"252.96%",
+						"128.2%",
+						"256.34%"
+					],
+					[
+						"51.21%",
+						"111.5%",
+						"131.6%",
+						"65.48%",
+						"127.28%",
+						"178.27%",
+						"110.21%",
+						"269.82%",
+						"136.12%",
+						"272.19%"
+					],
+					[
+						"55.05%",
+						"119.85%",
+						"141.45%",
+						"70.37%",
+						"136.8%",
+						"191.61%",
+						"118.45%",
+						"286.69%",
+						"144.05%",
+						"288.05%"
+					],
+					[
+						"59.23%",
+						"128.95%",
+						"152.19%",
+						"75.72%",
+						"147.19%",
+						"206.17%",
+						"127.45%",
+						"303.55%",
+						"151.98%",
+						"303.9%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Skyward Sonnet",
+			"desc": [
+				[
+					null,
+					"#O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!"
+				],
+				[
+					"Press",
+					"Summons a Wind Domain at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air."
+				],
+				[
+					"Hold",
+					"Summons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected opponents into the air.\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\nOpponents hit by Skyward Sonnet will fall to the ground slowly."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Press DMG",
+					"Press CD",
+					"Hold DMG",
+					"CD (hold)"
+				],
+				"values": [
+					[
+						"276%",
+						"6s",
+						"380%",
+						"15s"
+					],
+					[
+						"296.7%",
+						"6s",
+						"408.5%",
+						"15s"
+					],
+					[
+						"317.4%",
+						"6s",
+						"437%",
+						"15s"
+					],
+					[
+						"345%",
+						"6s",
+						"475%",
+						"15s"
+					],
+					[
+						"365.7%",
+						"6s",
+						"503.5%",
+						"15s"
+					],
+					[
+						"386.4%",
+						"6s",
+						"532%",
+						"15s"
+					],
+					[
+						"414%",
+						"6s",
+						"570%",
+						"15s"
+					],
+					[
+						"441.6%",
+						"6s",
+						"608%",
+						"15s"
+					],
+					[
+						"469.2%",
+						"6s",
+						"646%",
+						"15s"
+					],
+					[
+						"496.8%",
+						"6s",
+						"684%",
+						"15s"
+					],
+					[
+						"524.4%",
+						"6s",
+						"722%",
+						"15s"
+					],
+					[
+						"552%",
+						"6s",
+						"760%",
+						"15s"
+					],
+					[
+						"586.5%",
+						"6s",
+						"807.5%",
+						"15s"
+					],
+					[
+						"621%",
+						"6s",
+						"855%",
+						"15s"
+					],
+					[
+						"655.5%",
+						"6s",
+						"902.5%",
+						"15s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Wind's Grand Ode",
+			"desc": [
+				[
+					null,
+					"Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in opponents and deals continuous Anemo DMG."
+				],
+				[
+					"Elemental Absorption",
+					"If the Stormeye comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use."
+				]
+			],
+			"stats": {
+				"desc": [
+					"DoT",
+					"Additional Elemental DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"37.6%",
+						"18.8%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"40.42%",
+						"20.21%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"43.24%",
+						"21.62%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"47%",
+						"23.5%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"49.82%",
+						"24.91%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"52.64%",
+						"26.32%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"56.4%",
+						"28.2%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"60.16%",
+						"30.08%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"63.92%",
+						"31.96%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"67.68%",
+						"33.84%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"71.44%",
+						"35.72%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"75.2%",
+						"37.6%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"79.9%",
+						"39.95%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"84.6%",
+						"42.3%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"89.3%",
+						"44.65%",
+						"8s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_ballad": 3,
+					"slime_condensate": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_ballad": 2,
+					"slime_secretions": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_ballad": 4,
+					"slime_secretions": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_ballad": 6,
+					"slime_secretions": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_ballad": 9,
+					"slime_secretions": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_ballad": 4,
+					"slime_concentrate": 4,
+					"tail_of_boreas": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_ballad": 6,
+					"slime_concentrate": 6,
+					"tail_of_boreas": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_ballad": 12,
+					"slime_concentrate": 9,
+					"tail_of_boreas": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_ballad": 16,
+					"slime_concentrate": 12,
+					"tail_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Windrider",
+			"desc": "Decreases gliding Stamina consumption for your own party members by 20%.\n Not stackable with Passive Talents that provide the exact same effects."
+		},
+		{
+			"name": "Embrace of Winds",
+			"desc": "Holding Skyward Sonnet creates an upcurrent that lasts for 20s."
+		},
+		{
+			"name": "Stormeye",
+			"desc": "Regenerates 15 Energy for Venti after the effects of Wind's Grand Ode end.\n If an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element in the party."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Splitting Gales",
+			"desc": "Fires 2 additional arrows per Aimed Shot, each dealing 33% of the original arrow's DMG."
+		},
+		{
+			"name": "Breeze of Reminiscence",
+			"desc": "Skyward Sonnet decreases opponents' Anemo RES and Physical RES by 12% for 10s.\n Opponents launched by Skyward Sonnet suffer an additional 12% Anemo RES and Physical RES decrease while airborne."
+		},
+		{
+			"name": "Ode to Thousand Winds",
+			"desc": "Increases the Level of Wind's Grand Ode by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Hurricane of Freedom",
+			"desc": "When Venti picks up an Elemental Orb or Particle, he receives a 25% Anemo DMG Bonus for 10s."
+		},
+		{
+			"name": "Concerto dal Cielo",
+			"desc": "Increases the Level of Skyward Sonnet by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Storm of Defiance",
+			"desc": "Targets who take DMG from Wind's Grand Ode have their Anemo RES decreased by 20%.\n If an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
+		}
+	],
+	"constellation_increase_burst": 3,
+	"constellation_increase_skill": 5
+}

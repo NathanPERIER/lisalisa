@@ -1,0 +1,729 @@
+{
+	"name": "Lisa",
+	"title": "Witch of Purple Rose",
+	"allegiance": "Knights of Favonius",
+	"rarity": 4,
+	"vision": "Electro",
+	"astrolabe": "Tempus Fugit",
+	"weapon": "catalyst",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"Elemental Mastery",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"802",
+				"19",
+				"48",
+				"0",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"2061",
+				"50",
+				"123",
+				"0",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"2661",
+				"64",
+				"159",
+				"0",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"3985",
+				"96",
+				"239",
+				"0",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"4411",
+				"107",
+				"264",
+				"24",
+				"5%",
+				"50%"
+			],
+			"50": [
+				"5074",
+				"123",
+				"304",
+				"24",
+				"5%",
+				"50%"
+			],
+			"50+": [
+				"5642",
+				"136",
+				"338",
+				"48",
+				"5%",
+				"50%"
+			],
+			"60": [
+				"6305",
+				"153",
+				"378",
+				"48",
+				"5%",
+				"50%"
+			],
+			"60+": [
+				"6731",
+				"163",
+				"403",
+				"48",
+				"5%",
+				"50%"
+			],
+			"70": [
+				"7393",
+				"179",
+				"443",
+				"48",
+				"5%",
+				"50%"
+			],
+			"70+": [
+				"7818",
+				"189",
+				"468",
+				"72",
+				"5%",
+				"50%"
+			],
+			"80": [
+				"8481",
+				"205",
+				"508",
+				"72",
+				"5%",
+				"50%"
+			],
+			"80+": [
+				"8907",
+				"215",
+				"534",
+				"96",
+				"5%",
+				"50%"
+			],
+			"90": [
+				"9570",
+				"232",
+				"573",
+				"96",
+				"5%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"vajrada_amethyst_sliver": 1,
+			"valberry": 3,
+			"slime_condensate": 3,
+			"mora": 20000
+		},
+		{
+			"vajrada_amethyst_fragment": 3,
+			"lightning_prism": 2,
+			"valberry": 10,
+			"slime_condensate": 15,
+			"mora": 40000
+		},
+		{
+			"vajrada_amethyst_fragment": 6,
+			"lightning_prism": 4,
+			"valberry": 20,
+			"slime_secretions": 12,
+			"mora": 60000
+		},
+		{
+			"vajrada_amethyst_chunk": 3,
+			"lightning_prism": 8,
+			"valberry": 30,
+			"slime_secretions": 18,
+			"mora": 80000
+		},
+		{
+			"vajrada_amethyst_chunk": 6,
+			"lightning_prism": 12,
+			"valberry": 45,
+			"slime_concentrate": 12,
+			"mora": 100000
+		},
+		{
+			"vajrada_amethyst_gemstone": 6,
+			"lightning_prism": 20,
+			"valberry": 60,
+			"slime_concentrate": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Lightning Touch",
+			"desc": [
+				[
+					"Normal Attack",
+					"Perform up to 4 lightning attacks that deal Electro DMG."
+				],
+				[
+					"Charged Attack",
+					"Consumes a certain amount of Stamina to deal AoE Electro DMG after a short casting time."
+				],
+				[
+					"Plunging Attack",
+					"Gathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Electro DMG upon impact with the ground."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"39.6%",
+						"35.92%",
+						"42.8%",
+						"54.96%",
+						"177.12%",
+						"50",
+						"56.83%",
+						"113.63%"
+					],
+					[
+						"42.57%",
+						"38.61%",
+						"46.01%",
+						"59.08%",
+						"190.4%",
+						"50",
+						"61.45%",
+						"122.88%"
+					],
+					[
+						"45.54%",
+						"41.31%",
+						"49.22%",
+						"63.2%",
+						"203.69%",
+						"50",
+						"66.08%",
+						"132.13%"
+					],
+					[
+						"49.5%",
+						"44.9%",
+						"53.5%",
+						"68.7%",
+						"221.4%",
+						"50",
+						"72.69%",
+						"145.35%"
+					],
+					[
+						"52.47%",
+						"47.59%",
+						"56.71%",
+						"72.82%",
+						"234.68%",
+						"50",
+						"77.31%",
+						"154.59%"
+					],
+					[
+						"55.44%",
+						"50.29%",
+						"59.92%",
+						"76.94%",
+						"247.97%",
+						"50",
+						"82.6%",
+						"165.17%"
+					],
+					[
+						"59.4%",
+						"53.88%",
+						"64.2%",
+						"82.44%",
+						"265.68%",
+						"50",
+						"89.87%",
+						"179.7%"
+					],
+					[
+						"63.36%",
+						"57.47%",
+						"68.48%",
+						"87.94%",
+						"283.39%",
+						"50",
+						"97.14%",
+						"194.23%"
+					],
+					[
+						"67.32%",
+						"61.06%",
+						"72.76%",
+						"93.43%",
+						"301.1%",
+						"50",
+						"104.41%",
+						"208.77%"
+					],
+					[
+						"71.28%",
+						"64.66%",
+						"77.04%",
+						"98.93%",
+						"318.82%",
+						"50",
+						"112.34%",
+						"224.62%"
+					],
+					[
+						"75.4%",
+						"68.39%",
+						"81.49%",
+						"104.64%",
+						"337.24%",
+						"50",
+						"120.27%",
+						"240.48%"
+					],
+					[
+						"80.78%",
+						"73.28%",
+						"87.31%",
+						"112.12%",
+						"361.32%",
+						"50",
+						"128.2%",
+						"256.34%"
+					],
+					[
+						"86.17%",
+						"78.16%",
+						"93.13%",
+						"119.59%",
+						"385.41%",
+						"50",
+						"136.12%",
+						"272.19%"
+					],
+					[
+						"91.56%",
+						"83.05%",
+						"98.95%",
+						"127.07%",
+						"409.5%",
+						"50",
+						"144.05%",
+						"288.05%"
+					],
+					[
+						"96.94%",
+						"87.93%",
+						"104.77%",
+						"134.54%",
+						"433.59%",
+						"50",
+						"151.98%",
+						"303.9%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Violet Arc",
+			"desc": [
+				[
+					null,
+					"#Channels the power of lightning to sweep bothersome matters away."
+				],
+				[
+					"Press",
+					"Releases a homing Lightning Orb.\nOn hit, it deals Electro DMG and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE."
+				],
+				[
+					"Hold",
+					"After an extended casting time, calls down lightning from the heavens, dealing massive Electro DMG to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Press DMG",
+					"Press CD",
+					"Non-Conductive Hold DMG",
+					"Stack 1 Conductive Hold DMG",
+					"Stack 2 Conductive Hold DMG",
+					"Stack 3 Conductive Hold DMG",
+					"Holding CD"
+				],
+				"values": [
+					[
+						"80%",
+						"1s",
+						"320%",
+						"368%",
+						"424%",
+						"487.2%",
+						"16s"
+					],
+					[
+						"86%",
+						"1s",
+						"344%",
+						"395.6%",
+						"455.8%",
+						"523.74%",
+						"16s"
+					],
+					[
+						"92%",
+						"1s",
+						"368%",
+						"423.2%",
+						"487.6%",
+						"560.28%",
+						"16s"
+					],
+					[
+						"100%",
+						"1s",
+						"400%",
+						"460%",
+						"530%",
+						"609%",
+						"16s"
+					],
+					[
+						"106%",
+						"1s",
+						"424%",
+						"487.6%",
+						"561.8%",
+						"645.54%",
+						"16s"
+					],
+					[
+						"112%",
+						"1s",
+						"448%",
+						"515.2%",
+						"593.6%",
+						"682.08%",
+						"16s"
+					],
+					[
+						"120%",
+						"1s",
+						"480%",
+						"552%",
+						"636%",
+						"730.8%",
+						"16s"
+					],
+					[
+						"128%",
+						"1s",
+						"512%",
+						"588.8%",
+						"678.4%",
+						"779.52%",
+						"16s"
+					],
+					[
+						"136%",
+						"1s",
+						"544%",
+						"625.6%",
+						"720.8%",
+						"828.24%",
+						"16s"
+					],
+					[
+						"144%",
+						"1s",
+						"576%",
+						"662.4%",
+						"763.2%",
+						"876.96%",
+						"16s"
+					],
+					[
+						"152%",
+						"1s",
+						"608%",
+						"699.2%",
+						"805.6%",
+						"925.68%",
+						"16s"
+					],
+					[
+						"160%",
+						"1s",
+						"640%",
+						"736%",
+						"848%",
+						"974.4%",
+						"16s"
+					],
+					[
+						"170%",
+						"1s",
+						"680%",
+						"782%",
+						"901%",
+						"1035.3%",
+						"16s"
+					],
+					[
+						"180%",
+						"1s",
+						"720%",
+						"828%",
+						"954%",
+						"1096.2%",
+						"16s"
+					],
+					[
+						"190%",
+						"1s",
+						"760%",
+						"874%",
+						"1007%",
+						"1157.1%",
+						"16s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Lightning Rose",
+			"desc": [
+				[
+					null,
+					"Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing Electro DMG.\nThe Lightning Rose will continuously emit lightning to knock back opponents and deal Electro DMG throughout the ability's duration."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Discharge DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"36.56%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"39.3%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"42.04%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"45.7%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"48.44%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"51.18%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"54.84%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"58.5%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"62.15%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"65.81%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"69.46%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"73.12%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"77.69%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"82.26%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"86.83%",
+						"15s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_ballad": 3,
+					"slime_condensate": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_ballad": 2,
+					"slime_secretions": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_ballad": 4,
+					"slime_secretions": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_ballad": 6,
+					"slime_secretions": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_ballad": 9,
+					"slime_secretions": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_ballad": 4,
+					"slime_concentrate": 4,
+					"dvalins_claw": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_ballad": 6,
+					"slime_concentrate": 6,
+					"dvalins_claw": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_ballad": 12,
+					"slime_concentrate": 9,
+					"dvalins_claw": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_ballad": 16,
+					"slime_concentrate": 12,
+					"dvalins_claw": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "General Pharmaceutics",
+			"desc": "When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used."
+		},
+		{
+			"name": "Induced Aftershock",
+			"desc": "Hits by Charged Attacks apply Violet Arc's Conductive status to opponents."
+		},
+		{
+			"name": "Static Electricity Field",
+			"desc": "Opponents hit by Lightning Rose have their DEF decreased by 15% for 10s."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Infinite Circuit",
+			"desc": "Lisa regenerates 2 Energy for every opponent hit while holding Violet Arc.\n A maximum of 10 Energy can be regenerated in this manner at any one time."
+		},
+		{
+			"name": "Electromagnetic Field",
+			"desc": "Holding Violet Arc has the following effects:\n \u2022 Increases DEF by 25%.\n \u2022 Increases Lisa's resistance to interruption."
+		},
+		{
+			"name": "Resonant Thunder",
+			"desc": "Increases the Level of Lightning Rose by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Plasma Eruption",
+			"desc": "Increases the number of lightning bolts released by Lightning Rose by 1-3."
+		},
+		{
+			"name": "Electrocute",
+			"desc": "Increases the Level of Violet Arc by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Pulsating Witch",
+			"desc": "When Lisa takes the field, she applies 3 stacks of Violet Arc's Conductive status onto nearby opponents.\n This effect can only occur once every 5s."
+		}
+	],
+	"constellation_increase_burst": 3,
+	"constellation_increase_skill": 5
+}

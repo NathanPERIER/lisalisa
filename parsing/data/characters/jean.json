@@ -1,0 +1,729 @@
+{
+	"name": "Jean",
+	"title": "Dandelion Knight",
+	"allegiance": "Knights of Favonius",
+	"rarity": 5,
+	"vision": "Anemo",
+	"astrolabe": "Leo Minor",
+	"weapon": "sword",
+	"stats": {
+		"desc": [
+			"Base HP",
+			"Base ATK",
+			"Base DEF",
+			"Healing Bonus",
+			"CRIT Rate",
+			"CRIT DMG"
+		],
+		"values": {
+			"1": [
+				"1144",
+				"19",
+				"60",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20": [
+				"2967",
+				"48",
+				"155",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"20+": [
+				"3948",
+				"64",
+				"206",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40": [
+				"5908",
+				"96",
+				"309",
+				"0%",
+				"5%",
+				"50%"
+			],
+			"40+": [
+				"6605",
+				"108",
+				"345",
+				"5.5%",
+				"5%",
+				"50%"
+			],
+			"50": [
+				"7599",
+				"124",
+				"397",
+				"5.5%",
+				"5%",
+				"50%"
+			],
+			"50+": [
+				"8528",
+				"139",
+				"446",
+				"11.1%",
+				"5%",
+				"50%"
+			],
+			"60": [
+				"9533",
+				"155",
+				"499",
+				"11.1%",
+				"5%",
+				"50%"
+			],
+			"60+": [
+				"10230",
+				"166",
+				"535",
+				"11.1%",
+				"5%",
+				"50%"
+			],
+			"70": [
+				"11243",
+				"183",
+				"588",
+				"11.1%",
+				"5%",
+				"50%"
+			],
+			"70+": [
+				"11940",
+				"194",
+				"624",
+				"16.6%",
+				"5%",
+				"50%"
+			],
+			"80": [
+				"12965",
+				"211",
+				"678",
+				"16.6%",
+				"5%",
+				"50%"
+			],
+			"80+": [
+				"13662",
+				"222",
+				"715",
+				"22.2%",
+				"5%",
+				"50%"
+			],
+			"90": [
+				"14695",
+				"239",
+				"769",
+				"22.2%",
+				"5%",
+				"50%"
+			]
+		}
+	},
+	"ascensions": [
+		{
+			"vayuda_turquoise_sliver": 1,
+			"dandelion_seed": 3,
+			"damaged_mask": 3,
+			"mora": 20000
+		},
+		{
+			"vayuda_turquoise_fragment": 3,
+			"hurricane_seed": 2,
+			"dandelion_seed": 10,
+			"damaged_mask": 15,
+			"mora": 40000
+		},
+		{
+			"vayuda_turquoise_fragment": 6,
+			"hurricane_seed": 4,
+			"dandelion_seed": 20,
+			"stained_mask": 12,
+			"mora": 60000
+		},
+		{
+			"vayuda_turquoise_chunk": 3,
+			"hurricane_seed": 8,
+			"dandelion_seed": 30,
+			"stained_mask": 18,
+			"mora": 80000
+		},
+		{
+			"vayuda_turquoise_chunk": 6,
+			"hurricane_seed": 12,
+			"dandelion_seed": 45,
+			"ominous_mask": 12,
+			"mora": 100000
+		},
+		{
+			"vayuda_turquoise_gemstone": 6,
+			"hurricane_seed": 20,
+			"dandelion_seed": 60,
+			"ominous_mask": 24,
+			"mora": 120000
+		}
+	],
+	"talents": {
+		"normal": {
+			"title": "Favonius Bladework",
+			"desc": [
+				[
+					"Normal Attack",
+					"Performs up to 5 consecutive strikes."
+				],
+				[
+					"Charged Attack",
+					"Consumes a certain amount of stamina to launch an opponent using the power of wind.\nLaunched opponents will slowly fall to the ground."
+				],
+				[
+					"Plunging Attack",
+					"Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+				]
+			],
+			"stats": {
+				"desc": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"48.33%",
+						"45.58%",
+						"60.29%",
+						"65.88%",
+						"79.21%",
+						"162.02%",
+						"20",
+						"63.93%",
+						"127.84%"
+					],
+					[
+						"52.27%",
+						"49.29%",
+						"65.19%",
+						"71.24%",
+						"85.65%",
+						"175.21%",
+						"20",
+						"69.14%",
+						"138.24%"
+					],
+					[
+						"56.2%",
+						"53%",
+						"70.1%",
+						"76.6%",
+						"92.1%",
+						"188.4%",
+						"20",
+						"74.34%",
+						"148.65%"
+					],
+					[
+						"61.82%",
+						"58.3%",
+						"77.11%",
+						"84.26%",
+						"101.31%",
+						"207.24%",
+						"20",
+						"81.77%",
+						"163.51%"
+					],
+					[
+						"65.75%",
+						"62.01%",
+						"82.02%",
+						"89.62%",
+						"107.76%",
+						"220.43%",
+						"20",
+						"86.98%",
+						"173.92%"
+					],
+					[
+						"70.25%",
+						"66.25%",
+						"87.63%",
+						"95.75%",
+						"115.13%",
+						"235.5%",
+						"20",
+						"92.93%",
+						"185.81%"
+					],
+					[
+						"76.43%",
+						"72.08%",
+						"95.34%",
+						"104.18%",
+						"125.26%",
+						"256.22%",
+						"20",
+						"101.1%",
+						"202.16%"
+					],
+					[
+						"82.61%",
+						"77.91%",
+						"103.05%",
+						"112.6%",
+						"135.39%",
+						"276.95%",
+						"20",
+						"109.28%",
+						"218.51%"
+					],
+					[
+						"88.8%",
+						"83.74%",
+						"110.76%",
+						"121.03%",
+						"145.52%",
+						"297.67%",
+						"20",
+						"117.46%",
+						"234.86%"
+					],
+					[
+						"95.54%",
+						"90.1%",
+						"119.17%",
+						"130.22%",
+						"156.57%",
+						"320.28%",
+						"20",
+						"126.38%",
+						"252.7%"
+					],
+					[
+						"103.27%",
+						"97.39%",
+						"128.81%",
+						"140.75%",
+						"169.23%",
+						"346.19%",
+						"20",
+						"135.3%",
+						"270.54%"
+					],
+					[
+						"112.36%",
+						"105.96%",
+						"140.14%",
+						"153.14%",
+						"184.13%",
+						"376.65%",
+						"20",
+						"144.22%",
+						"288.38%"
+					],
+					[
+						"121.44%",
+						"114.53%",
+						"151.48%",
+						"165.52%",
+						"199.02%",
+						"407.11%",
+						"20",
+						"153.14%",
+						"306.22%"
+					],
+					[
+						"130.53%",
+						"123.1%",
+						"162.81%",
+						"177.91%",
+						"213.91%",
+						"437.58%",
+						"20",
+						"162.06%",
+						"324.05%"
+					],
+					[
+						"140.44%",
+						"132.45%",
+						"175.18%",
+						"191.42%",
+						"230.16%",
+						"470.81%",
+						"20",
+						"170.98%",
+						"341.89%"
+					]
+				]
+			}
+		},
+		"skill": {
+			"title": "Gale Blade",
+			"desc": [
+				[
+					null,
+					"Focusing the might of the formless wind around her blade, Jean releases a miniature storm, launching opponents in the direction she aims at, dealing massive Anemo DMG."
+				],
+				[
+					"Hold",
+					"At the cost of continued stamina consumption, Jean can command the whirlwind to pull surrounding opponents and objects towards her front.\nDirection can be adjusted.\nCharacter is immobile during skill duration."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Skill DMG",
+					"Stamina Consumption",
+					"Max Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"292%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"313.9%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"335.8%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"365%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"386.9%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"408.8%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"438%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"467.2%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"496.4%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"525.6%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"554.8%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"584%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"620.5%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"657%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"693.5%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					]
+				]
+			}
+		},
+		"burst": {
+			"title": "Dandelion Breeze",
+			"desc": [
+				[
+					null,
+					"Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding opponents and dealing Anemo DMG.\nAt the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK."
+				],
+				[
+					"Dandelion Field",
+					"\u2022 Continuously regenerates HP of characters within the AoE and continuously imbues them with Anemo.\n\u2022 Deals Anemo DMG to opponents entering or exiting the Dandelion Field."
+				]
+			],
+			"stats": {
+				"desc": [
+					"Elemental Burst DMG",
+					"Field Entering/Exiting DMG",
+					"Field Activation Healing",
+					"Continuous Regeneration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"424.8%",
+						"78.4%",
+						"251.2% ATK",
+						"25.12% ATK",
+						"20s",
+						"80"
+					],
+					[
+						"456.66%",
+						"84.28%",
+						"270.04% ATK",
+						"27% ATK",
+						"20s",
+						"80"
+					],
+					[
+						"488.52%",
+						"90.16%",
+						"288.88% ATK",
+						"28.89% ATK",
+						"20s",
+						"80"
+					],
+					[
+						"531%",
+						"98%",
+						"314% ATK",
+						"31.4% ATK",
+						"20s",
+						"80"
+					],
+					[
+						"562.86%",
+						"103.88%",
+						"332.84% ATK",
+						"33.28% ATK",
+						"20s",
+						"80"
+					],
+					[
+						"594.72%",
+						"109.76%",
+						"351.68% ATK",
+						"35.17% ATK",
+						"20s",
+						"80"
+					],
+					[
+						"637.2%",
+						"117.6%",
+						"376.8% ATK",
+						"37.68% ATK",
+						"20s",
+						"80"
+					],
+					[
+						"679.68%",
+						"125.44%",
+						"401.92% ATK",
+						"40.19% ATK",
+						"20s",
+						"80"
+					],
+					[
+						"722.16%",
+						"133.28%",
+						"427.04% ATK",
+						"42.7% ATK",
+						"20s",
+						"80"
+					],
+					[
+						"764.64%",
+						"141.12%",
+						"452.16% ATK",
+						"45.22% ATK",
+						"20s",
+						"80"
+					],
+					[
+						"807.12%",
+						"148.96%",
+						"477.28% ATK",
+						"47.73% ATK",
+						"20s",
+						"80"
+					],
+					[
+						"849.6%",
+						"156.8%",
+						"502.4% ATK",
+						"50.24% ATK",
+						"20s",
+						"80"
+					],
+					[
+						"902.7%",
+						"166.6%",
+						"533.8% ATK",
+						"53.38% ATK",
+						"20s",
+						"80"
+					],
+					[
+						"955.8%",
+						"176.4%",
+						"565.2% ATK",
+						"56.52% ATK",
+						"20s",
+						"80"
+					],
+					[
+						"1008.9%",
+						"186.2%",
+						"596.6% ATK",
+						"59.66% ATK",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"ascensions": [
+			{
+				"Lv2": {
+					"teachings_of_resistance": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				"Lv3": {
+					"guide_to_resistance": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				"Lv4": {
+					"guide_to_resistance": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				"Lv5": {
+					"guide_to_resistance": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				"Lv6": {
+					"guide_to_resistance": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				"Lv7": {
+					"philosophies_of_resistance": 4,
+					"ominous_mask": 4,
+					"dvalins_plume": 1,
+					"mora": 120000
+				},
+				"Lv8": {
+					"philosophies_of_resistance": 6,
+					"ominous_mask": 6,
+					"dvalins_plume": 1,
+					"mora": 260000
+				},
+				"Lv9": {
+					"philosophies_of_resistance": 12,
+					"ominous_mask": 9,
+					"dvalins_plume": 2,
+					"mora": 450000
+				},
+				"Lv10": {
+					"philosophies_of_resistance": 16,
+					"ominous_mask": 12,
+					"dvalins_plume": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			}
+		]
+	},
+	"passives": [
+		{
+			"name": "Guiding Breeze",
+			"desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+		},
+		{
+			"name": "Wind Companion",
+			"desc": "On hit, Jean's Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members."
+		},
+		{
+			"name": "Let the Wind Lead",
+			"desc": "Using Dandelion Breeze will regenerate 20% of its Energy."
+		}
+	],
+	"constellations": [
+		{
+			"name": "Spiraling Tempest",
+			"desc": "Increases the pulling speed of Gale Blade after holding for more than 1s, and increases the DMG dealt by 40%."
+		},
+		{
+			"name": "People's Aegis",
+			"desc": "When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s."
+		},
+		{
+			"name": "When the West Wind Arises",
+			"desc": "Increases the Level of Dandelion Breeze by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Lands of Dandelion",
+			"desc": "Within the Field created by Dandelion Breeze, all opponents have their Anemo RES decreased by 40%."
+		},
+		{
+			"name": "Outbursting Gust",
+			"desc": "Increases the Level of Gale Blade by 3.\n Maximum upgrade level is 15."
+		},
+		{
+			"name": "Lion's Fang, Fair Protector of Mondstadt",
+			"desc": "Incoming DMG is decreased by 35% within the Field created by Dandelion Breeze. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s."
+		}
+	],
+	"constellation_increase_burst": 3,
+	"constellation_increase_skill": 5
+}
