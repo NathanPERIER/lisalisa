@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-from parsing.utils import readToSoup, idFromLink, idFromName, getTagContent, extractText, removeWrapper, getRef
-import re
+from utils.io import readToSoup
+from utils.soup import idFromLink, idFromName, extractText, getRef
 
 
 farmable_domains = {

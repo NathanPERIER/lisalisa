@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-from parsing.utils import readToSoup, getTagContent, extractText, getArray, removeWrapper, readNewItems, getLevelIndexedArray, idFromImage
+from utils.io import readToSoup
+from utils.soup import getTagContent, extractText, getArray, removeWrapper, readNewItems, getLevelIndexedArray, idFromImage
 
 import re
 import logging

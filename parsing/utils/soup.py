@@ -1,31 +1,10 @@
-#!/usr/bin/python3
-import bs4
-from urllib.request import Request, urlopen
-from lxml import etree
-import json
 import re
+import bs4
+from lxml import etree
 import logging
 
 logger = logging.getLogger('parsing.utils')
 
-
-def loadJson(path) :
-	with open(path, 'r') as f :
-		data = json.load(f)
-	return data
-
-def saveJson(path, data) :
-	logger.info(f"SAVE \"{path}\"")
-	with open(path, 'w') as f :
-		json.dump(data, f, indent='\t')
-
-
-def readToSoup(url) :
-	logger.info(f"PARSE {url}")
-	req = Request(url, headers={'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0'})
-	html_bytes = urlopen(req).read()
-	html_doc = html_bytes.decode("utf8")
-	return bs4.BeautifulSoup(html_doc, features="lxml")
 
 def getRef(a) :
 	return a['href']
@@ -144,51 +123,3 @@ def readNewItems(line, translate=None) :
 		ids = [translate[x] for x in ids]
 	count = [scanNum(getTagContent(x)) for x in line.select('div.itemstarcontbg_smol')]
 	return dict(zip(ids, count))
-
-
-class TrackUpdateDict(dict) :
-
-	def __init__(self, data={}) :
-		super().__init__(data)
-		self.modified = False
-		self.alert_add = lambda key, value : logger.info(f"ADD translation for key \"{key}\" : \"{value}\"")
-		self.alert_mod = lambda key, old, new : logger.warning(f"MODIFIED translation for key \"{key}\" : \"{old}\" => \"{new}\"")
-		self.alert_notfound = lambda key : logger.warning(f"NOT_FOUND translation for key \"{key}\"")
-
-	def onAdd(self, call) :
-		self.alert_add = call
-
-	def onModified(self, call) :
-		self.alert_mod = call
-	
-	def onNotFound(self, call) :
-		self.alert_notfound = call
-
-	def __setitem__(self, key, value) :
-		if key not in self :
-			self.alert_add(key, value)
-		elif self[key] != value :
-			self.alert_mod(key, self[key], value)
-		else :
-			return
-		super().__setitem__(key, value)
-		self.modified = True
-	
-	def __delitem__(self, key) :
-		if key in self :
-			super().__delitem__(key)
-			self.modified = True
-	
-	def __getitem__(self, key) :
-		if key not in self :
-			self.alert_notfound(key)
-			return None
-		else :
-			return super().__getitem__(key)
-		
-
-	def saveIfModified(self, path) :
-		if self.modified :
-			saveJson(path, self)
-			self.modified = False
-	

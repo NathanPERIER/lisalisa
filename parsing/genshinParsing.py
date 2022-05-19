@@ -3,7 +3,9 @@ import os
 import sys
 import logging
 
-from parsing.utils import readToSoup, idFromName, TrackUpdateDict, loadJson, saveJson
+from utils.io import readToSoup, loadJson, saveJson
+from utils.soup import idFromName
+from utils.translate import TrackUpdateDict
 import parsing.fix as fix
 from parsing.characters import getCharacterInfo
 from parsing.artifacts import readAllArtifacts
@@ -18,7 +20,6 @@ BASE_URL = 'https://genshin.honeyhunterworld.com'
 DIR = os.path.dirname(os.path.realpath(__file__))
 DEST_DIR = os.path.join(DIR, 'data')
 TRANSLATE_DIR = os.path.join(DEST_DIR, 'translate_cache.json')
-# DEST_DIR = os.path.join(os.path.dirname(DIR), 'assets')
 
 translate = TrackUpdateDict(loadJson(TRANSLATE_DIR))
 

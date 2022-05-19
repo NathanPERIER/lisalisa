@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-from parsing.utils import readToSoup, idFromLink, idFromName, getTagContent, removeWrapper, getRef
+from utils.io import readToSoup
+from utils.soup import idFromLink, idFromName, getTagContent, removeWrapper, getRef
 import re
 
 def readItem(soup, translate) :

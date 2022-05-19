@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-from parsing.utils import readToSoup, idFromImage, idFromName, getTagContent, getArray, removeWrapper, readItems, getRef
+from utils.io import readToSoup
+from utils.soup import idFromImage, idFromName, getTagContent, getArray, removeWrapper, readItems, getRef
 
 # The last column of a statistics table is usually incomplete
 # and doesn't contain interesting data
