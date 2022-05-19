@@ -107,6 +107,8 @@ if do_characters :
 	for link in [BASE_URL + c.select_one('a')['href'] for c in chars] :
 		data = getCharacterInfo(link, record)
 		char_id = idFromName(data['name'])
+		if char_id == 'traveler' :
+			char_id = link.split('/')[-2]
 		fix.apply(data, record, char_id)
 		record.images.popCharacter(char_id)
 		saveJson(os.path.join(DEST_DIR, f"characters/{char_id}.json"), data)
