@@ -5,7 +5,7 @@ import logging
 
 from utils.io import readToSoup, loadJson, saveJson
 from utils.soup import idFromName
-from utils.translate import TrackUpdateDict
+from utils.recorder import Recorder
 import parsing.fix as fix
 from parsing.characters import getCharacterInfo
 from parsing.artifacts import readAllArtifacts
@@ -20,8 +20,9 @@ BASE_URL = 'https://genshin.honeyhunterworld.com'
 DIR = os.path.dirname(os.path.realpath(__file__))
 DEST_DIR = os.path.join(DIR, 'data')
 TRANSLATE_DIR = os.path.join(DEST_DIR, 'translate_cache.json')
+IMAGES_DIR = os.path.join(DEST_DIR, 'images_urls.json')
 
-translate = TrackUpdateDict(loadJson(TRANSLATE_DIR))
+record = Recorder(loadJson(TRANSLATE_DIR))
 
 
 args = sys.argv[1:]
@@ -50,7 +51,7 @@ do_ingredients = do_recipes or do_potions or 'ingredients' in args
 
 if do_currency :
 	link = 'https://genshin.honeyhunterworld.com/db/item/currency/?lang=EN'
-	data = readAllItems(link, translate)
+	data = readAllItems(link, record)
 	saveJson(os.path.join(DEST_DIR, f"currencies.json"), data)
 
 
@@ -64,7 +65,7 @@ if do_exp :
 	data = {}
 	for page, name in exp_pages.items() :
 		link = f"https://genshin.honeyhunterworld.com/db/item/{page}/?lang=EN"
-		data[name] = readExpMaterials(link, translate)
+		data[name] = readExpMaterials(link, record)
 	saveJson(os.path.join(DEST_DIR, f"exp/materials.json"), data)
 
 
@@ -82,21 +83,21 @@ if do_ascension_materials :
 	data = {}
 	for page, name in ascension_material_pages.items() :
 		link = f"https://genshin.honeyhunterworld.com/db/item/{page}/?lang=EN"
-		data[name] = readAllItems(link, translate)
-		fix.apply(data[name], translate, name)
+		data[name] = readAllItems(link, record)
+		fix.apply(data[name], record, name)
 	saveJson(os.path.join(DEST_DIR, f"ascension_materials.json"), data)
 
 
 if do_artifacts :
 	link = 'https://genshin.honeyhunterworld.com/db/artifact/?lang=EN'
-	data = readAllArtifacts(link, translate)
+	data = readAllArtifacts(link, record)
 	saveJson(os.path.join(DEST_DIR, f"artifacts.json"), data)
 
 
 if do_weapons :
 	for weapon in ['sword', 'polearm', 'claymore', 'bow', 'catalyst'] :
 		link = f"https://genshin.honeyhunterworld.com/db/weapon/{weapon}/?lang=EN"
-		data = readAllWeapons(link, translate)
+		data = readAllWeapons(link, record)
 		saveJson(os.path.join(DEST_DIR, f"weapons/{weapon}.json"), data)
 
 
@@ -104,25 +105,25 @@ if do_characters :
 	soup = readToSoup('https://genshin.honeyhunterworld.com/db/char/characters/?lang=EN')
 	chars = soup.select('div.char_sea_cont')
 	for link in [BASE_URL + c.select_one('a')['href'] for c in chars] :
-		data = getCharacterInfo(link, translate)
+		data = getCharacterInfo(link, record)
 		char_id = idFromName(data['name'])
-		fix.apply(data, translate, char_id)
+		fix.apply(data, record, char_id)
 		saveJson(os.path.join(DEST_DIR, f"characters/{char_id}.json"), data)
 
 
 """
 link = 'https://genshin.honeyhunterworld.com/db/item/glider/?lang=EN'
-data = readAllItems(link, translate)
+data = readAllItems(link, record)
 print(data)
 # TODO save
 
 link = 'https://genshin.honeyhunterworld.com/db/item/ingredients/?lang=EN'
-data = readAllItems(link, translate)
+data = readAllItems(link, record)
 print(data)
 # TODO save
 
 link = 'https://genshin.honeyhunterworld.com/db/item/fish/?lang=EN'
-data = readAllItems(link, translate)
+data = readAllItems(link, record)
 print(data)
 # TODO save
 
@@ -135,7 +136,7 @@ gadget_pages = {
 data = {}
 for name, page in gadget_pages.items() :
 	link = f"https://genshin.honeyhunterworld.com/db/item/{page}/?lang=EN"
-	data[name] = readAllItems(link, translate)
+	data[name] = readAllItems(link, record)
 	print(data[name])
 # TODO save
 
@@ -200,5 +201,5 @@ https://genshin.honeyhunterworld.com/db/crafting-recipes-processing/?lang=EN
 		saveJson(data, dir + "/json/items/books.json")
 """
 
-translate.saveIfModified(TRANSLATE_DIR)
-
+record.translate.saveIfModified(TRANSLATE_DIR)
+record.images.save(IMAGES_DIR)

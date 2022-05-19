@@ -4,6 +4,37 @@ from utils.io import saveJson
 
 logger = logging.getLogger(__name__)
 
+
+class Recorder :
+
+	def __init__(self, translate_data={}) :
+		self.translate = TrackUpdateDict(translate_data)
+		self.images = ImageRegister()
+
+
+
+class ImageRegister :
+
+	def __init__(self) :
+		self._items = {}
+		self._characters = {}
+	
+	def addItem(self, identifier: str, url: str) :
+		self._items[identifier] = url
+	
+	def addCharacter(self, char: str, filename: str, url: str) :
+		if char not in self._characters :
+			self._characters[char] = {}
+		self._characters[char][filename] = url
+	
+	def getLinks(self) :
+		return {'items': self._items, 'characters': self._characters}
+	
+	def save(self, path) :
+		saveJson(path, self.getLinks())
+
+
+
 class TrackUpdateDict(dict) :
 
 	def __init__(self, data={}) :
