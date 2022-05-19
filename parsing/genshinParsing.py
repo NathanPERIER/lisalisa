@@ -108,6 +108,7 @@ if do_characters :
 		data = getCharacterInfo(link, record)
 		char_id = idFromName(data['name'])
 		fix.apply(data, record, char_id)
+		record.images.popCharacter(char_id)
 		saveJson(os.path.join(DEST_DIR, f"characters/{char_id}.json"), data)
 
 

@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 from utils.io import readToSoup
+from utils.recorder import Recorder
 from utils.soup import getTagContent, extractText, getArray, removeWrapper, readNewItems, getLevelIndexedArray, idFromImage
 
 import re
@@ -73,34 +74,37 @@ def readTalentAscension(table: Tag, translate) :
 # Reads the stats and description of a talent for which the description is in the i-th table
 def readTalent(soup: BeautifulSoup, i) :
 	res = {}
-	desc_html = soup.select_one(f"#live_data > table:nth-child({i})")
-	title_html = desc_html.select_one('tr:nth-child(1) > td:nth-child(2) > a:nth-child(1)')
-	desc_html = desc_html.select_one('div.skill_desc_layout')
+	table = soup.select_one(f"#live_data > table:nth-child({i})")
+	title_html = table.select_one('tr:nth-child(1) > td:nth-child(2) > a:nth-child(1)')
+	img = table.select_one('tr:nth-child(1) > td:nth-child(1) > div > img')['data-src']
+	desc_html = table.select_one('div.skill_desc_layout')
 	stats_html = soup.select_one(f"#live_data > div:nth-child({i+1}) > table:nth-child(1)")
 	res['title'] = getTagContent(title_html)
 	res['desc'] = interpreteDescription(desc_html)
 	if res['desc'][0][0] == 'Alternate Sprint' :
 		arr = getArray(stats_html)
-		res['stats'] = {l[0] : l[1] for l in arr[1:]}
+		res['stats'] = {l[0]: l[1] for l in arr[1:]}
 	else :
 		res['stats'] = getLevelIndexedArray(stats_html)
-	return res
+	return res, img
 
 # Reads the passive talents or the constellations of a character (same data structure) and returns
 # an associative array where the keys are the names and the items are the descriptions
 def readPassivesConstellations(html: Tag) : 
 	lines = html.select("tr")
 	res = []
+	images = []
 	for i in range(0, len(lines)//2) :
 		temp = {}
 		temp['name'] = getTagContent(lines[2*i].select_one("td:nth-child(2) > a"))
 		temp['desc'] = extractText(lines[2*i+1].select_one("td > div.skill_desc_layout"))
 		temp['name'] = temp['name'].replace('\\n', '\n').strip('\n')
+		images.append(lines[2*i].select_one("td:nth-child(1) > div > img")['data-src'])
 		res.append(temp)
-	return res
+	return res, images
 
 
-def getCharacterInfo(link: str, translate) :
+def getCharacterInfo(link: str, record: Recorder) :
 	# Associative array containing all the information
 	data = {}
 
@@ -115,30 +119,38 @@ def getCharacterInfo(link: str, translate) :
 	data['vision'] = idFromImage((char_lore_html.select('td')[10]).img).capitalize()
 	data['astrolabe'] = getTagContent(char_lore_html.select('td')[14])
 	data['weapon'] = getTagContent(char_lore_html.select('td')[8]).lower()
+	char_img = char_lore_html.select_one("tr:nth-child(1) > td:nth-child(1) > div > img")['data-src']
+	record.images.addForCharacter('card', char_img)
 	
 	# Character statistics (Atk, Def, ...)
 	char_stats_html = soup.select_one('#live_data > div:nth-child(5) > table:nth-child(1)')
 	data["stats"] = cleanStats(getArray(char_stats_html))
 	
 	# Materials and mora required for ascension
-	data["ascensions"] = readCharAscension(char_stats_html, translate)
+	data["ascensions"] = readCharAscension(char_stats_html, record.translate)
 	
 	# Attacks / talents of a character
 	talents = {}
 	# Auto attacks
-	talents['normal'] = readTalent(soup, 7)
-	if (talents['normal']['title']).startswith('Normal Attack: ') :
+	talents['normal'], normal_img = readTalent(soup, 7)
+	record.images.addForCharacter('normal', normal_img)
+	if talents['normal']['title'].startswith('Normal Attack: ') :
 		talents['normal']['title'] = talents['normal']['title'][15:]
 	# Elemental skill
-	talents['skill'] = readTalent(soup, 9)
+	talents['skill'], skill_img = readTalent(soup, 9)
+	record.images.addForCharacter('skill', skill_img)
 	# Elemental burst
-	talents['burst'] = readTalent(soup, 11)
+	talents['burst'], burst_img = readTalent(soup, 11)
 	if talents['burst']['desc'][0][0] == 'Alternate Sprint' : 
 		i = 16
 		talents['sprint'] = talents['burst']
-		talents['burst'] = readTalent(soup, 13)
+		sprint_img = burst_img
+		record.images.addForCharacter('sprint', sprint_img)
+		talents['burst'], burst_img = readTalent(soup, 13)
+		record.images.addForCharacter('burst', burst_img)
 	else : 
 		i = 14
+		record.images.addForCharacter('burst', burst_img)
 		talents['sprint'] = None
 	
 	title_next_part = soup.select_one(f"#live_data > span:nth-child({i-1})").text
@@ -167,14 +179,18 @@ def getCharacterInfo(link: str, translate) :
 	constellations_html = soup.select_one(f"#live_data > table:nth-child({i+2})")
 	
 	# Items required for talent ascension
-	talents['ascensions'] = [readTalentAscension(x, translate) for x in talents_stats_html]
+	talents['ascensions'] = [readTalentAscension(x, record.translate) for x in talents_stats_html]
 	data['talents'] = talents
 	
 	# Passives
-	data['passives'] = readPassivesConstellations(passives_html)
+	data['passives'], imgs = readPassivesConstellations(passives_html)
+	for i, img in enumerate(imgs) :
+		record.images.addForCharacter(f"passive{i+1}", img)
 	
 	# Constellations
-	data['constellations'] = readPassivesConstellations(constellations_html)
+	data['constellations'], imgs = readPassivesConstellations(constellations_html)
+	for i, img in enumerate(imgs) :
+		record.images.addForCharacter(f"constellation{i+1}", img)
 	
 	if data['constellations'][2]['desc'].startswith(f"Increases the Level of {data['talents']['burst']['title']}") :
 		data['constellation_increase_burst'] = 3
@@ -182,6 +198,16 @@ def getCharacterInfo(link: str, translate) :
 	else :
 		data['constellation_increase_burst'] = 5
 		data['constellation_increase_skill'] = 3
+	
+	if 'Traveler' not in data['name'] :
+		gallery = soup.select_one('div.gallery_cont:nth-child(2)').select('div.gallery_content_cont')
+		img_bg_profile = gallery[1].select_one('a')['href']
+		img_bg_party = gallery[2].select_one('a')['href']
+		record.images.addForCharacter('bg_profile', img_bg_profile)
+		record.images.addForCharacter('bg_party', img_bg_party)
+
+	special_dish = soup.select_one('table.item_main_table:nth-child(14) > tr:nth-child(1) > td:nth-child(2) > a:nth-child(1)')
+	data['dish'] = extractText(special_dish) if special_dish is not None else None
 	
 	return data
 
