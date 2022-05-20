@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 from utils.io import readToSoup
+from utils.recorder import Recorder
 from utils.soup import idFromImage, idFromName, getTagContent, getArray, removeWrapper, readItems, getRef
 
 # The last column of a statistics table is usually incomplete
@@ -21,7 +22,16 @@ def cleanStats(arr, last_col_name) :
 	}
 
 
-def getWeaponInfo(link, translate) :
+def getImages(name, images) :
+	soup = readToSoup(f"https://genshin-impact.fandom.com/wiki/{name.replace(' ', '_')}")
+	gallery = soup.select_one('.pi-image-collection')
+	img_base = gallery.select_one('div:nth-child(2) > figure > a > img')['src']
+	img_awakened = gallery.select_one('div:nth-child(3) > figure > a > img')['src']
+	images.addForWeapon('base', img_base)
+	images.addForWeapon('awakened', img_awakened)
+
+
+def getWeaponInfo(link, record: Recorder) :
 	res={}
 	soup = readToSoup(link)
 	
@@ -43,21 +53,24 @@ def getWeaponInfo(link, translate) :
 	
 	refine = soup.select_one('div.data_cont_wrapper:nth-child(5) > table:nth-child(3)')
 	res['enhancement'] = cleanStats(getArray(refine), 'Ascension Materials')
-	res['ascensions'] = [readItems(x, translate) for x in refine.select('td:nth-child(4)')[2:]]
+	res['ascensions'] = [readItems(x, record.translate) for x in refine.select('td:nth-child(4)')[2:]]
 	
+	getImages(res['name'], record.images)
+
 	return res
 
 
-def readAllWeapons(link, translate) : 
+def readAllWeapons(link, record: Recorder) : 
 	res = {}
 	soup = readToSoup(link)
 	table = soup.select_one('div.scrollwrapper:nth-child(3) > table:nth-child(1)')
 	for tr in table.select('tr')[1:] :
 		link = "https://genshin.honeyhunterworld.com" + getRef(tr.select_one('td:nth-child(3) > a'))
 		honey_id = idFromImage(tr.select_one('.itempic'))
-		data = getWeaponInfo(link, translate)
+		data = getWeaponInfo(link, record)
 		identifier = idFromName(data['name'])
 		res[identifier] = data
-		translate[honey_id] = identifier
+		record.translate[honey_id] = identifier
+		record.images.popWeapon(identifier)
 	return res
 

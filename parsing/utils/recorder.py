@@ -18,7 +18,9 @@ class ImageRegister :
 	def __init__(self) :
 		self._items = {}
 		self._characters = {}
+		self._weapons = {}
 		self._temp_char = {}
+		self._temp_weapon = {}
 	
 	def addItem(self, identifier: str, url: str) :
 		self._items[identifier] = url
@@ -30,8 +32,15 @@ class ImageRegister :
 		self._characters[char] = self._temp_char
 		self._temp_char = {}
 	
+	def addForWeapon(self, filename: str, url: str) :
+		self._temp_weapon[filename] = url
+	
+	def popWeapon(self, weapon: str) :
+		self._weapons[weapon] = self._temp_weapon
+		self._temp_weapon = {}
+	
 	def getLinks(self) :
-		return {'items': self._items, 'characters': self._characters}
+		return {'characters': self._characters, 'weapons': self._weapons, 'items': self._items}
 	
 	def save(self, path) :
 		saveJson(path, self.getLinks())
