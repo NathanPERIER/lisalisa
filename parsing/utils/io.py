@@ -1,5 +1,6 @@
 import json
 import bs4
+import requests
 from urllib.request import Request, urlopen
 import logging
 
@@ -19,9 +20,19 @@ def saveJson(path, data) :
 		json.dump(data, f, indent='\t')
 
 
+def fetchJson(url: str, silent=False) :
+	r = requests.get(url)
+	if r.ok :
+		return r.json()
+	if silent :
+		return None
+	raise Exception(f"Request to url {url} returned with code {r.status_code}")
+
+
 def readToSoup(url) :
 	logger.info(f"PARSE {url}")
-	req = Request(url, headers={'User-Agent': USER_AGENT})
-	html_bytes = urlopen(req).read()
-	html_doc = html_bytes.decode("utf8")
-	return bs4.BeautifulSoup(html_doc, features="lxml")
+	r = requests.get(url, headers={'User-Agent': USER_AGENT})
+	if not r.ok :
+		raise Exception(f"Request to url {url} returned with code {r.status_code}")
+	return bs4.BeautifulSoup(r.text, features="lxml")
+	
