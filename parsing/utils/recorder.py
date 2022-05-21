@@ -10,7 +10,10 @@ class Recorder :
 	def __init__(self, translate_data={}) :
 		self.translate = TrackUpdateDict(translate_data)
 		self.images = ImageRegister()
-
+	
+	def addItem(self, identifier: str, honey_id: str, url: str) :
+		self.translate[honey_id] = identifier
+		self.images.addItem(identifier, url)
 
 
 class ImageRegister :
