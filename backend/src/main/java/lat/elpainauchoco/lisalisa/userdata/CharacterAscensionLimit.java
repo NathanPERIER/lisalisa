@@ -1,5 +1,6 @@
 package lat.elpainauchoco.lisalisa.userdata;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -7,10 +8,13 @@ import lombok.Setter;
 @Setter
 public class CharacterAscensionLimit {
 
-    private int normalAttack;   // 1-10
-    private int elementalSkill; // 1-10
-    private int elementalBurst; // 1-10
-    private int ascension;      // 1-6
     private int level;          // 1-90
+    private int ascension;      // 1-6
+    @JsonProperty("normal_attack")
+    private int normalAttack;   // 1-10
+    @JsonProperty("elemental_skill")
+    private int elementalSkill; // 1-10
+    @JsonProperty("elemental_burst")
+    private int elementalBurst; // 1-10
 
 }
