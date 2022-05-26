@@ -9,7 +9,7 @@ import lombok.Setter;
 public class CharacterConf {
 
     private int level;          // 1-90
-    private int ascension;      // 1-6
+    private int ascension;      // 0-6
     @JsonProperty("normal_attack")
     private int normalAttack;   // 1-10
     @JsonProperty("elemental_skill")
@@ -21,5 +21,23 @@ public class CharacterConf {
     private String skin;        // In list of valid skins
     private CharacterAscensionLimit limit;
     private WeaponConf weapon;
+    private ArtifactsConf artifacts;
+
+    public CharacterConf() { }
+
+    public CharacterConf(String id, UserConf user) {
+        // Temporary, a generic system would be better
+        level = 1;
+        ascension = 0;
+        normalAttack = 1;
+        elementalSkill = 1;
+        elementalBurst = 1;
+        constellations = 0;
+        glider = "wings_of_first_flight"; // TODO first glider in the list
+        skin = "default";                 // TODO character's default skin
+        limit = user.getLimit().getCharacter();
+        // TODO default weapon of the correct type
+        artifacts = new ArtifactsConf();
+    }
 
 }
