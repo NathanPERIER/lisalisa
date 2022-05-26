@@ -1,3 +1,10 @@
+# Backend (Maven + Java + IntelliJ IDEA)
+backend/.idea
+backend/target
+*.iml
+*.jar
+*.class
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
