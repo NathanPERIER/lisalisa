@@ -7,7 +7,7 @@ import lombok.Setter;
 @Setter
 public class WeaponAscensionLimit {
 
-    private int ascension; // 1-6
     private int level;     // 1-90
+    private int ascension; // 0-6
 
 }
