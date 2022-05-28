@@ -1,6 +1,7 @@
 package lat.elpainauchoco.lisalisa.userdata;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -18,21 +19,20 @@ public class CharacterConf {
     private int elementalBurst; // 1-10
     private int constellations; // 0-6
     private String glider;      // In list of valid gliders
-    private String skin;        // In list of valid skins
+    private String skin;        // In list of valid skins for the character
     private CharacterAscensionLimit limit;
     private WeaponConf weapon;
     private ArtifactsConf artifacts;
 
     public CharacterConf() { }
 
-    public CharacterConf(String id, UserConf user) {
-        // Temporary, a generic system would be better
-        level = 1;
-        ascension = 0;
-        normalAttack = 1;
-        elementalSkill = 1;
-        elementalBurst = 1;
-        constellations = 0;
+    public CharacterConf(String id, UserConf user, GameDataService gdata) {
+        ascension = gdata.getMinAscension();
+        level = gdata.getMinLevel(ascension);
+        normalAttack = gdata.getMinTalent();
+        elementalSkill = normalAttack;
+        elementalBurst = normalAttack;
+        constellations = gdata.getMinConstellations();
         glider = "wings_of_first_flight"; // TODO first glider in the list
         skin = "default";                 // TODO character's default skin
         limit = user.getLimit().getCharacter();

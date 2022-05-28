@@ -1,6 +1,7 @@
 package lat.elpainauchoco.lisalisa.userdata;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -26,18 +27,18 @@ public class UserConf {
 
     public UserConf() { }
 
-    public UserConf(String uid, String n, TravelerType tt) {
+    public UserConf(final String uid, final String n, final TravelerType tt, final GameDataService gdata) {
         id = uid;
         name = n;
         desc = "";
         profile = "traveler_" + tt.toString().toLowerCase() + "_anemo";
-        namecard = "achievement_challenger";
-        adventureRank = 1;
-        worldLevel = 1;
+        namecard = "achievement_challenger"; // TODO
+        worldLevel = gdata.getMinWL();
+        adventureRank = gdata.getMinAR(worldLevel);
         pity = new PityConf();
-        limit = new UserDefaultLimits();
+        limit = new UserDefaultLimits(gdata);
         characters = new HashMap<>();
-        characters.put(profile, new CharacterConf(profile, this));
+        characters.put(profile, new CharacterConf(profile, this, gdata));
     }
 
     public enum TravelerType {

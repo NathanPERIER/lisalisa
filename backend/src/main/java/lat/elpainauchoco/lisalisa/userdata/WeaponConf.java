@@ -1,5 +1,6 @@
 package lat.elpainauchoco.lisalisa.userdata;
 
+import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -15,12 +16,11 @@ public class WeaponConf {
 
     public WeaponConf() { }
 
-    public WeaponConf(String id, UserConf user) {
+    public WeaponConf(String id, UserConf user, GameDataService gdata) {
         this.id = id;
-        // Temporary, a generic system would be better
-        level = 1;
-        ascension = 0;
-        refinement = 1;
+        ascension = gdata.getMinAscension();
+        level = gdata.getMinLevel(ascension);
+        refinement = gdata.getMinRefinement();
         limit = user.getLimit().getWeapon();
     }
 

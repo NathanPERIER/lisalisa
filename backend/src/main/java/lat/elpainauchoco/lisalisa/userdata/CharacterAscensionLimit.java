@@ -1,6 +1,7 @@
 package lat.elpainauchoco.lisalisa.userdata;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -16,5 +17,17 @@ public class CharacterAscensionLimit {
     private int elementalSkill; // 1-10
     @JsonProperty("elemental_burst")
     private int elementalBurst; // 1-10
+
+    public CharacterAscensionLimit() { }
+
+    public CharacterAscensionLimit(final GameDataService gdata) {
+        int wl = gdata.getMaxWL();
+        int ar = gdata.getMaxAR(wl);
+        ascension = gdata.getMaxAscension(ar);
+        level = gdata.getMaxLevel(ascension);
+        normalAttack = gdata.getMaxTalent(ascension);
+        elementalSkill = normalAttack;
+        elementalBurst = normalAttack;
+    }
 
 }

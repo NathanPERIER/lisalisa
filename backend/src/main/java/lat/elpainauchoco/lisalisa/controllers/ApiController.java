@@ -2,9 +2,11 @@ package lat.elpainauchoco.lisalisa.controllers;
 
 import lat.elpainauchoco.lisalisa.MainApplication;
 import lat.elpainauchoco.lisalisa.dto.CreateUserDTO;
+import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
 import lat.elpainauchoco.lisalisa.userdata.UserConf;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,6 +15,9 @@ import javax.lang.model.type.NullType;
 @RestController
 @RequestMapping("/api")
 public class ApiController {
+
+    @Autowired
+    private GameDataService gdata;
 
     public ApiController() {
         MainApplication.verbose();
@@ -36,7 +41,7 @@ public class ApiController {
     @GetMapping("/test")
     public ResponseEntity<UserConf> getTest() {
         // TODO
-        return ResponseEntity.ok(new UserConf("7000000", "Jean", UserConf.TravelerType.BOY));
+        return ResponseEntity.ok(new UserConf("7000000", "Jean", UserConf.TravelerType.BOY, gdata));
     }
 
 }
