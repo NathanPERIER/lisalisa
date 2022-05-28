@@ -1,6 +1,7 @@
 # Backend (Maven + Java + IntelliJ IDEA)
 backend/.idea
 backend/target
+backend/src/main/resources/genshin
 *.iml
 *.jar
 *.class
