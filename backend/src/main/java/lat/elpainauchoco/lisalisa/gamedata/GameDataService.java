@@ -50,7 +50,7 @@ public class GameDataService {
         adventure_ranks = readFromJar("/genshin/adventure_rank.json", new TypeReference<>() { });
         Map<String, Integer> constants = readFromJar("/genshin/numeric_constants.json", new TypeReference<>() { });
         minWL = constants.get("world.level.min");
-        maxWL = minWL + world_levels.length;
+        maxWL = minWL + world_levels.length - 1;
         minTalent = constants.get("talent.level.min");
         minAscension = constants.get("ascension.level.min");
         minConstellations = constants.get("constellations.num.min");
