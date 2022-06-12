@@ -5,10 +5,13 @@ import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
 import lat.elpainauchoco.lisalisa.userdata.CharacterConf;
 import lat.elpainauchoco.lisalisa.userdata.PityConf;
 import lat.elpainauchoco.lisalisa.userdata.UserConf;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.Map;
 import java.util.regex.Pattern;
 
+@Component
 public class UserConfSanitiser {
 
     private static final Pattern USER_ID_REG = Pattern.compile("[1-9][0-9]{8}");
@@ -17,6 +20,7 @@ public class UserConfSanitiser {
     private final GameDataService gservice;
     private final CharacterConfSanitiser charSanitiser;
 
+    @Autowired
     public UserConfSanitiser(final GameDataService gs) {
         gservice = gs;
         charSanitiser = new CharacterConfSanitiser(gs);

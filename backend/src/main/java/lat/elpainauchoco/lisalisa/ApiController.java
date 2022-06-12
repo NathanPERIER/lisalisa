@@ -1,9 +1,9 @@
 package lat.elpainauchoco.lisalisa;
 
-import lat.elpainauchoco.lisalisa.MainApplication;
 import lat.elpainauchoco.lisalisa.dto.CreateUserDTO;
 import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
 import lat.elpainauchoco.lisalisa.userdata.UserConf;
+import lat.elpainauchoco.lisalisa.userdata.sanitise.UserConfSanitiser;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +15,9 @@ import javax.lang.model.type.NullType;
 @RestController
 @RequestMapping("/api")
 public class ApiController {
+
+    @Autowired
+    private UserConfSanitiser sanitiser;
 
     @Autowired
     private GameDataService gdata;
