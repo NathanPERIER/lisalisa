@@ -1,4 +1,4 @@
-package lat.elpainauchoco.lisalisa.controllers;
+package lat.elpainauchoco.lisalisa;
 
 import lat.elpainauchoco.lisalisa.MainApplication;
 import lat.elpainauchoco.lisalisa.dto.CreateUserDTO;

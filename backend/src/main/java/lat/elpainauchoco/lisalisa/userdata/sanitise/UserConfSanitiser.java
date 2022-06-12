@@ -1,4 +1,4 @@
-package lat.elpainauchoco.lisalisa.sanitise;
+package lat.elpainauchoco.lisalisa.userdata.sanitise;
 
 import lat.elpainauchoco.lisalisa.exceptions.UserConfigException;
 import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
