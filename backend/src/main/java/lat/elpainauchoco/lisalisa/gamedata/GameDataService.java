@@ -39,6 +39,10 @@ public class GameDataService {
     private final int minRefinement;
     @Getter
     private final int maxRefinement; // TODO move to `WeaponData`
+    @Getter
+    private final int minPity;
+    @Getter
+    private final int maxPity;
 
 
     public GameDataService() {
@@ -57,6 +61,8 @@ public class GameDataService {
         maxConstellations = constants.get("constellations.num.max");
         minRefinement = constants.get("refinement.level.min");
         maxRefinement = constants.get("refinement.level.max");
+        minPity = constants.get("banner.pity.min");
+        maxPity = constants.get("banner.pity.max");
     }
 
     public int getMinAR(int world_level) {

@@ -3,6 +3,7 @@ package lat.elpainauchoco.lisalisa.userdata.sanitise;
 import lat.elpainauchoco.lisalisa.exceptions.UserConfigException;
 import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
 import lat.elpainauchoco.lisalisa.userdata.CharacterConf;
+import lat.elpainauchoco.lisalisa.userdata.PityConf;
 import lat.elpainauchoco.lisalisa.userdata.UserConf;
 
 import java.util.Map;
@@ -17,7 +18,7 @@ public class UserConfSanitiser {
     private final CharacterConfSanitiser charSanitiser;
 
     public UserConfSanitiser(final GameDataService gs) {
-         gservice = gs;
+        gservice = gs;
         charSanitiser = new CharacterConfSanitiser(gs);
     }
 
@@ -29,7 +30,7 @@ public class UserConfSanitiser {
         sanitiseAdventureRank(user.getAdventureRank(), user.getWorldLevel());
         sanitiseProfileCharacter(user.getProfile(), user.getCharacters());
         // TODO namecard
-        // TODO pity
+        sanitisePity(user.getPity());
         // TODO limit
         sanitiseCharacters(user);
     }
@@ -61,6 +62,18 @@ public class UserConfSanitiser {
     protected void sanitiseProfileCharacter(final String profile, final Map<String, CharacterConf> characters) {
         if(!characters.containsKey(profile)) {
             throw new UserConfigException("Profile character has to be owned by the user");
+        }
+    }
+
+    protected void sanitisePity(final PityConf pity) {
+        if(pity == null) {
+            throw new UserConfigException("Pity configuration cannot be null");
+        }
+        if(pity.getPerma() < gservice.getMinPity() || pity.getPerma() > gservice.getMaxPity()) {
+            throw new UserConfigException("Invalid pity value " + pity.getPerma() + " on the permanent banner");
+        }
+        if(pity.getTempo() < gservice.getMinPity() || pity.getTempo() > gservice.getMaxPity()) {
+            throw new UserConfigException("Invalid pity value " + pity.getTempo() + " on the temporary banner");
         }
     }
 
