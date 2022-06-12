@@ -21,6 +21,9 @@
 .DS_Store
 Thumbs.db
 
+# Data collection
+/GenshinData
+
 # Backend (Maven + Java + IntelliJ IDEA)
 backend/.idea
 backend/target
