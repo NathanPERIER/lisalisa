@@ -69,10 +69,17 @@ public class GameDataService {
         return world_levels[world_level][0];
     }
 
+    /** Retrieves the maximum adventure rank at a certain world level */
     public int getMaxAR(int world_level) {
         return world_levels[world_level][1];
     }
 
+    /** Retrieves the maximum adventure rank achievable */
+    public int getMaxAR() {
+        return getMaxAR(getMaxWL());
+    }
+
+    /** Retrieves the maximum ascension level at a certain adventure rank */
     public int getMaxAscension(int adventure_rank) {
         for(AdventureRankData ard : adventure_ranks) {
             if(ard.inRange(adventure_rank)) {
@@ -80,6 +87,11 @@ public class GameDataService {
             }
         }
         throw new UserConfigException("Bad adventure rank : " + adventure_rank);
+    }
+
+    /** Retrieves the maximum ascension level achievable */
+    public int getMaxAscension() {
+        return getMaxAscension(getMaxAR());
     }
 
     public int getMinLevel(int ascension) {

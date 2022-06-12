@@ -2,6 +2,7 @@ package lat.elpainauchoco.lisalisa.userdata.sanitise;
 
 import lat.elpainauchoco.lisalisa.exceptions.UserConfigException;
 import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
+import lat.elpainauchoco.lisalisa.userdata.CharacterAscensionLimit;
 import lat.elpainauchoco.lisalisa.userdata.CharacterConf;
 import lat.elpainauchoco.lisalisa.userdata.UserConf;
 
@@ -24,11 +25,11 @@ public class CharacterConfSanitiser {
         sanitiseCharacterTalent(char_id, character.getNormalAttack(), "normal attack", character.getAscension());
         sanitiseCharacterTalent(char_id, character.getElementalSkill(), "elemental skill", character.getAscension());
         sanitiseCharacterTalent(char_id, character.getElementalBurst(), "elemental burst", character.getAscension());
+        sanitiseCharacterLimits(char_id, character.getLimit());
         // TODO weapon
         // TODO artifacts
         // TODO glider
         // TODO skin
-        // TODO limit
     }
 
     public void sanitiseCharacterAscension(final String char_id, final int ascension, final int ar) {
@@ -71,6 +72,36 @@ public class CharacterConfSanitiser {
             throw new UserConfigException("Invalid " + talentType + " level " + talentLevel
                     + " at ascension " + ascension
                     + " for character " + char_id
+            );
+        }
+    }
+
+    protected void sanitiseCharacterLimits(final String char_id, final CharacterAscensionLimit limits) {
+        if(limits == null) {
+            return;
+        }
+        int ascension = limits.getAscension();
+        if(ascension < gservice.getMinAscension() || ascension > gservice.getMaxAscension()) {
+            throw new UserConfigException("Invalid ascension level " + ascension + " in the limits of character " + char_id);
+        }
+        int level = limits.getLevel();
+        if(level < gservice.getMinLevel(ascension) || level > gservice.getMaxLevel(ascension)) {
+            throw new UserConfigException("Invalid character level " + level
+                    + " with ascension " + ascension
+                    + " in the limits of character " + char_id
+            );
+        }
+        sanitiseCharacterTalentLimit(char_id, limits.getNormalAttack(), "normal attack", ascension);
+        sanitiseCharacterTalentLimit(char_id, limits.getElementalSkill(), "elemental skill", ascension);
+        sanitiseCharacterTalentLimit(char_id, limits.getElementalBurst(), "elemental burst", ascension);
+    }
+
+    protected void sanitiseCharacterTalentLimit(final String char_id, final int talentLevel, final String talentType,
+                                                final int ascension) {
+        if(talentLevel < gservice.getMinTalent() || talentLevel > gservice.getMaxTalent(ascension)) {
+            throw new UserConfigException("Invalid " + talentType + " level " + talentLevel
+                    + " with ascension " + ascension
+                    + " in the limits of character " + char_id
             );
         }
     }
