@@ -1,10 +1,11 @@
 
 from utils import loadJson, saveJson
-from constants import CHAR_DATA_JSON
+from constants import CHAR_DATA_JSON, PropType
+from weapons import WeaponType
 from translate.textmap import lang
 from characters.info import readInfo
 from characters.skins import readSkins
-from characters.ascensions import readAscensions, PropType
+from characters.ascensions import readAscensions
 from characters.skills import readSkillsConstellations
 from characters.curves import setCurves
 
@@ -24,13 +25,6 @@ class QualityType(Enum) :
     QUALITY_PURPLE = 4
     QUALITY_ORANGE = 5
 
-class WeaponType(Enum) :
-    WEAPON_SWORD_ONE_HAND = 'sword'
-    WEAPON_CATALYST = 'catalyst'
-    WEAPON_CLAYMORE = 'claymore'
-    WEAPON_POLE = 'polearm'
-    WEAPON_BOW = 'bow'
-
 
 def __g_filterCharacters(chars: list) -> list :
 	return [
@@ -41,7 +35,7 @@ def __g_filterCharacters(chars: list) -> list :
 chars = __g_filterCharacters(loadJson(CHAR_DATA_JSON))
 
 
-def __g_readCharacters() :
+def readCharacters() :
 	characters = {}
 
 	for char in chars :
