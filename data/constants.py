@@ -26,3 +26,6 @@ LANG_JSON_TEMPLATE = os.path.join(REPO_DIR, 'GenshinData/TextMap/TextMap{lang}.j
 
 # Misc
 COOKING_RECIPES_JSON = os.path.join(EXCEL_DIR, 'CookRecipeExcelConfigData.json')
+
+
+ITEM_MORA_ID = 'mora' # TODO
