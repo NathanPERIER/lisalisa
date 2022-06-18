@@ -2,7 +2,10 @@ from translate.textmap import lang
 from constants import CHAR_INFO_JSON
 from utils import loadJson
 
+import logging
 from enum import Enum
+
+logger = logging.getLogger(__name__)
 
 class AssocType(Enum) :
     ASSOC_TYPE_MONDSTADT = 'mondstadt'
@@ -20,7 +23,7 @@ def readInfo(characters) :
     for inf in info :
         char_id = __g_readInfo(inf, characters)
         if char_id in ok :
-            print(f"Warning : override {char_id}")
+            logger.warning('Overriding character info for %d', char_id)
         else :
             ok.add(char_id)
     # TODO check for characters that haven't been used

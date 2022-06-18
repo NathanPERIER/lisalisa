@@ -1,7 +1,10 @@
-from constants import CHAR_ASCENSIONS_JSON
+from constants import CHAR_ASCENSIONS_JSON, ITEM_MORA_ID
 from utils import loadJson
 
+import logging
 from enum import Enum
+
+logger = logging.getLogger(__name__)
 
 class PropType(Enum) :
     FIGHT_PROP_BASE_HP         = 'Base HP'
@@ -23,8 +26,6 @@ class PropType(Enum) :
     FIGHT_PROP_WIND_ADD_HURT  = 'Anemo DMG%'
     FIGHT_PROP_ROCK_ADD_HURT  = 'Geo DMG%'
 
-MORA_ID = 'mora' # TODO find real id
-
 ascensions = loadJson(CHAR_ASCENSIONS_JSON)
 
 
@@ -35,8 +36,7 @@ def readAscensions(characters: dict) :
     for char in characters.values() :
         promote_id = char['promote_id']
         if promote_id not in data :
-            # TODO logging
-            print(f"Warning : ascensions not found for {char['hoyo_id']}")
+            logger.warning('Ascensions not found for %s (%d)', char['name'], char['hoyo_id'])
         else :
             char['ascensions'] = __g_formatCharAscensions(data[promote_id])
     
@@ -55,7 +55,7 @@ def __g_readAscension(asc: dict, data: dict) :
         if 'id' in c and 'count' in c
     }
     if 'scoinCost' in asc :
-        cost[MORA_ID] = asc['scoinCost']
+        cost[ITEM_MORA_ID] = asc['scoinCost']
     data[promote_id].append({
         'level': asc['promoteLevel'] if 'promoteLevel' in asc else 0,
         'maxLvl': asc['unlockMaxLevel'],
@@ -64,7 +64,10 @@ def __g_readAscension(asc: dict, data: dict) :
     })
 
 def __g_formatCharAscensions(ascensions: list) -> dict :
-    # TODO check that there are 6 ascensions (actually 7 items)
+    if len(ascensions) == 7 :
+        ascensions = ascensions[1:]
+    else :
+        logger.warning('Expected 6 ascensions (7 items), got %d items', len(ascensions))
     ascensions.sort(key = lambda asc: asc['level'])
     # TODO translate the item ids (hoyo_id)
     costs = [asc['cost'] for asc in ascensions]
