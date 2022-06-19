@@ -15,4 +15,4 @@ def saveJson(data, file: str) :
 
 filter_reg = re.compile('[^a-zA-Z0-9]+')
 def idFromName(name) :
-	return filter_reg.sub('_', name.replace('\'', '').lower())
+	return filter_reg.sub('_', name.replace('\'', '').lower()).strip('_')
