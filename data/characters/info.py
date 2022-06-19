@@ -1,6 +1,8 @@
-from translate.textmap import lang
-from constants import CHAR_INFO_JSON
+
 from utils import loadJson
+from constants import CHAR_INFO_JSON
+from common.dataobj.character import Character
+from translate.textmap import lang
 
 import logging
 from enum import Enum
@@ -18,7 +20,7 @@ class AssocType(Enum) :
 info = loadJson(CHAR_INFO_JSON)
 
 
-def readInfo(characters) :
+def readInfo(characters: "dict[str,Character]") :
     ok = set()
     for inf in info :
         char_id = __g_readInfo(inf, characters)
@@ -28,32 +30,30 @@ def readInfo(characters) :
             ok.add(char_id)
     # TODO check for characters that haven't been used
 
-def __g_readInfo(inf, characters) :
+def __g_readInfo(inf: dict, characters: "dict[str,Character]") :
     char_id = inf['avatarId']
     data = characters[char_id]
     if 'infoBirthDay' in inf and 'infoBirthMonth' in inf :
-        data['birthday'] = [
+        data.birthday = [
             inf['infoBirthDay'],
             inf['infoBirthMonth']
         ]
-    else :
-        data['birthday'] = None
-    data['vision_hash'] = [
+    data.vision_hash = [
         inf['avatarVisionBeforTextMapHash'],
         inf['avatarVisionAfterTextMapHash']
     ]
-    data['vision'] = lang[str(data['vision_hash'][0])].lower()
-    data['astrolabe_hash'] = [
+    data.vision = lang[str(data.vision_hash[0])].lower()
+    data.astrolabe_hash = [
         inf['avatarConstellationBeforTextMapHash'],
         inf['avatarConstellationAfterTextMapHash']
     ]
-    data['astrolabe'] = lang[str(data['astrolabe_hash'][1])]
-    if data['astrolabe'] == "" :
-        data['astrolabe'] = lang[str(data['astrolabe_hash'][0])]
-    data['allegiance_hash'] = inf['avatarNativeTextMapHash']
-    data['allegiance'] = lang[str(data['allegiance_hash'])]
+    data.astrolabe = lang[str(data.astrolabe_hash[1])]
+    if data.astrolabe == '' :
+        data.astrolabe = lang[str(data.astrolabe_hash[0])]
+    data.allegiance_hash = inf['avatarNativeTextMapHash']
+    data.allegiance = lang[str(data.allegiance_hash)]
     # Translation of `avatarDetailTextMapHash` should be the same as character desc
     # TODO test + warning
-    data['region'] = AssocType[inf['avatarAssocType']].value
-    data['fetter_id'] = inf['fetterId']
+    data.region = AssocType[inf['avatarAssocType']].value
+    data.fetter_id = inf['fetterId']
     return char_id

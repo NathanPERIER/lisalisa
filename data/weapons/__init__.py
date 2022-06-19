@@ -1,8 +1,8 @@
 
-from unicodedata import name
 from utils import loadJson
 from constants import WEAPON_DATA_JSON, PropType
 from translate.textmap import lang
+from common.dataobj.weapon import Weapon
 from weapons.ascensions import readAscensions
 from weapons.abilities import readAbilities
 
@@ -18,7 +18,7 @@ class WeaponType(Enum) :
     WEAPON_BOW = 'bow'
 
 
-def readWeapons() :
+def readWeapons() -> "dict[str,Weapon]" :
 	res = {}
 	for weapon in weapons :
 		data = __g_readWeaponBase(weapon)
@@ -35,38 +35,32 @@ def readWeapons() :
 
 
 # weapon['rank'] is always 10 (idk)
-def __g_readWeaponBase(weapon: dict) -> dict :
-	data = {
-		'hoyo_id': weapon['id'],
-		'promote_id': weapon['weaponPromoteId'],
-		'gadget_id': weapon['gadgetId'],
-		'story_id': weapon['storyId'] if 'storyId' in weapon else None,
-		'skill_affix': weapon['skillAffix'],
-		'name_hash': weapon['nameTextMapHash'],
-		'desc_hash': weapon['descTextMapHash'],
-		'rarity': weapon['rankLevel'],
-		'type': WeaponType[weapon['weaponType']].value
-	}
+def __g_readWeaponBase(weapon: dict) -> Weapon :
+	data = Weapon()
 
-	data['name'] = lang[str(data['name_hash'])]
-	data['desc'] = lang[str(data['desc_hash'])]
-	# print(data['name'])
-	# print(data['type'])
+	data.hoyo_id     = weapon['id']
+	data.promote_id  = weapon['weaponPromoteId']
+	data.gadget_id   = weapon['gadgetId']
+	data.story_id    = weapon['storyId'] if 'storyId' in weapon else None,
+	data.skill_affix = weapon['skillAffix']
 
-	if(data['name'] == '') :
+	data.type = WeaponType[weapon['weaponType']].value
+	data.name_hash = weapon['nameTextMapHash']
+	data.desc_hash = weapon['descTextMapHash']
+	data.name = lang[str(data.name_hash)]
+	data.desc = lang[str(data.desc_hash)]
+	data.rarity = weapon['rankLevel']
+
+	if data.name == '' :
 		return None
 
-	base_stats = {}
-	curves = {}
 	for prop in weapon['weaponProp'] :
 		if 'propType' in prop and 'initValue' in prop and 'type' in prop :
 			prop_type = PropType[prop['propType']].value
 			base_val = prop['initValue']
 			curve = prop['type']
-			base_stats[prop_type] = base_val
-			curves[prop_type] = curve
-	data['base_stats'] = base_stats
-	data['curves'] = curves
+			data.base_stats[prop_type] = base_val
+			data.curves[prop_type] = curve
 
 	# print(weapon['weaponBaseExp'])
 	# if 'initialLockState' in weapon :

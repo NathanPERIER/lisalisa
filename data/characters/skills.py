@@ -1,6 +1,8 @@
-from translate.textmap import lang
-from constants import CHAR_SKILL_DEPOT_JSON, CHAR_SKILLS_JSON, CHAR_TALENTS_JSON, CHAR_PROUD_SKILL_JSON, ITEM_MORA_ID
+
 from utils import loadJson
+from constants import CHAR_SKILL_DEPOT_JSON, CHAR_SKILLS_JSON, CHAR_TALENTS_JSON, CHAR_PROUD_SKILL_JSON, ITEM_MORA_ID
+from common.dataobj.character import Character
+from translate.textmap import lang
 
 import re
 import logging
@@ -15,10 +17,10 @@ talents = loadJson(CHAR_TALENTS_JSON)
 proud_skills = loadJson(CHAR_PROUD_SKILL_JSON)
 
 
-def readSkillsConstellations(char: dict) :
-    depot_search = [x for x in skill_depot if x['id'] == char['skill_depot_id']]
+def readSkillsConstellations(char: Character) :
+    depot_search = [x for x in skill_depot if x['id'] == char.skill_depot_id]
     if len(depot_search) != 1 :
-        logger.error('No skills found for %s (%d)', char['name'], char['hoyo_id'])
+        logger.error('No skills found for %s (%d)', char.name, char.hoyo_id)
         return
     depot = depot_search[0]
     skills = {
@@ -30,15 +32,15 @@ def readSkillsConstellations(char: dict) :
     if depot['skills'][2] != 0 :
         skills['alternate_sprint'] = __g_readSkill(depot['skills'][2])
     if depot['skills'][3] != 0 :
-        logger.info('Fourth skill slot (id : %d) used by character %s (%d)', depot['skills'][3], char['name'], char['hoyo_id'])
-    char['skills'] = skills
-    talents = [
+        logger.info('Fourth skill slot (id: %d) used by character %s (%d)', depot['skills'][3], char['name'], char['hoyo_id'])
+    char.talents = skills
+    passives = [
         __g_readSimpleSkill(talent['proudSkillGroupId'], talent['needAvatarPromoteLevel'] if 'needAvatarPromoteLevel' in talent else None)
         for talent in depot['inherentProudSkillOpens']
         if 'proudSkillGroupId' in talent
     ]
-    char['talents'] = talents
-    char['constellations'] = __g_readConstellations(depot['talents'])
+    char.passives = passives
+    char.constellations = __g_readConstellations(depot['talents'])
 
 
 def __g_readConstellations(const_ids: "list[int]") -> list :

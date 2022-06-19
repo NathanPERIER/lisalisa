@@ -1,4 +1,5 @@
 
+from common.dataobj.weapon import Weapon
 from utils import loadJson
 from constants import WEAPON_ABILITY_JSON
 from translate.textmap import lang
@@ -10,18 +11,16 @@ logger = logging.getLogger(__name__)
 abilities = loadJson(WEAPON_ABILITY_JSON)
 
 
-def readAbilities(weapon: dict, refinement_costs: "list[int]", awaken_material: int) :
-	skill_affix: 'list[int]' = weapon['skill_affix']
-	if skill_affix[0] == 0 :
-		weapon['abilities'] = None
+def readAbilities(weapon: Weapon, refinement_costs: "list[int]", awaken_material: int) :
+	if weapon.skill_affix[0] == 0 :
 		return
-	if skill_affix[1] != 0 :
-		logger.warning("Second slot of skill affix is %d for %s (%d), usually is 0", 
-						skill_affix[1], weapon['name'], weapon['hoyo_id'])
-	__g_readWeaponAbilities(weapon, skill_affix[0], refinement_costs, awaken_material)
+	if weapon.skill_affix[1] != 0 :
+		logger.info("Second slot of skill affix is %d for %s (%d), usually is 0", 
+						weapon.skill_affix[1], weapon.name, weapon.hoyo_id)
+	__g_readWeaponAbilities(weapon, weapon.skill_affix[0], refinement_costs, awaken_material)
 
 
-def __g_readWeaponAbilities(weapon: dict, affix: int, costs: "list[int]", awaken_material: int) :
+def __g_readWeaponAbilities(weapon: Weapon, affix: int, costs: "list[int]", awaken_material: int) :
 	res = [
 		__g_readAbilityEntry(entry)
 		for entry in abilities
@@ -31,14 +30,14 @@ def __g_readWeaponAbilities(weapon: dict, affix: int, costs: "list[int]", awaken
 	# Check that we have at least an ability, else is sus
 	if len(res) == 0 :
 		logger.warning("Got no abilities for %s (%d), with affix %d",
-						weapon['name'], weapon['hoyo_id'], affix)
+						weapon.name, weapon.hoyo_id, affix)
 		return
 	# First ability is given by default, so we set the cost to zero
 	padded_costs = [0, *costs]
 	# Check that we have the right amount of costs
 	if len(res) != len(padded_costs) :
 		logger.warning("Got %d abilities for %s (%d), but had %d costs", 
-						len(res), weapon['name'], weapon['hoyo_id'], len(costs))
+						len(res), weapon.name, weapon.hoyo_id, len(costs))
 		if len(res) > len(padded_costs) :
 			padded_costs.extend( [0] * (len(res) - len(padded_costs)) )
 	# Integrate the mora cost in all 
@@ -52,7 +51,7 @@ def __g_readWeaponAbilities(weapon: dict, affix: int, costs: "list[int]", awaken
 		del ability['level']
 		del ability['name_hash']
 		del ability['name']
-	weapon['abilities'] = {
+	weapon.abilities = {
 		'name_hash': name_hash,
 		'name': name,
 		'special_material': awaken_material, # TODO translate
