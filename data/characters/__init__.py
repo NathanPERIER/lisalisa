@@ -7,7 +7,7 @@ from characters.info import readInfo
 from characters.skins import readSkins
 from characters.ascensions import readAscensions
 from characters.skills import readSkillsConstellations
-from characters.curves import setCurves
+from characters.curves import curves
 
 import logging
 from enum import Enum
@@ -40,9 +40,9 @@ def readCharacters() :
 
 	for char in chars :
 		data = __g_readCharacterBase(char)
-		characters[char['hoyo_id']] = char
+		characters[char['hoyo_id']] = data
 
-	for char_id, char in [x for x in characters.items()] :
+	for char_id, char in list(characters.items()) :
 		if char['name'] == 'Traveler' :
 			pass # TODO
 		else :
@@ -54,13 +54,13 @@ def readCharacters() :
 
 	readAscensions(characters)
 
-	setCurves(characters)
-
-	for char_id, char in characters.items() :
-		saveJson(char, f"temp/{char_id}.json")
+	return characters
 
 
-# avatarIdentityType ?
+def getCharacterCurves() -> "dict[str,list[float]]" :
+	return curves
+
+
 def __g_readCharacterBase(char: dict) -> dict :
 	print(char)
 	data = {
@@ -87,11 +87,11 @@ def __g_readCharacterBase(char: dict) -> dict :
 		'alt': []
 	}
 
-	# 'avatarIdentityType' not in data
+	# <=> 'avatarIdentityType' not in data
 	if data['name'] == 'Traveler' :
 		data['skill_depot_id'] = char['candSkillDepotIds']
 
-	# initialWeapon -> we need weapons first
+	# TODO initialWeapon -> we need weapons first
 
 	data['base_stats'] = {
 		PropType.FIGHT_PROP_BASE_HP.value:       char['hpBase'],
