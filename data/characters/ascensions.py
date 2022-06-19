@@ -1,5 +1,5 @@
 from constants import CHAR_ASCENSIONS_JSON, ITEM_MORA_ID, PropType
-from common.ascensions import formatAscensions as __g_formatCharAscensions
+from common.ascensions import formatAscensions as __g_formatAscensions
 from utils import loadJson
 
 import logging
@@ -18,7 +18,7 @@ def readAscensions(characters: dict) :
         if promote_id not in data :
             logger.warning('Ascensions not found for %s (%d)', char['name'], char['hoyo_id'])
         else :
-            char['ascensions'] = __g_formatCharAscensions(data[promote_id])
+            char['ascensions'] = __g_formatAscensions(data[promote_id], char)
     
 
 def __g_readAscension(asc: dict, data: dict) :
