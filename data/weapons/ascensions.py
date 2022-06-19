@@ -1,7 +1,8 @@
 
 from utils import loadJson
-from constants import WEAPON_ASCENSIONS_JSON, ITEM_MORA_ID, PropType
+from constants import WEAPON_ASCENSIONS_JSON
 from common.ascensions import formatAscensions as __g_formatAscensions
+from common.ascensions import readAscension    as __g_readAscension
 
 import logging
 
@@ -10,10 +11,14 @@ logger = logging.getLogger(__name__)
 ascensions = loadJson(WEAPON_ASCENSIONS_JSON)
 
 
+PROMOTE_ID_FIELD = 'weaponPromoteId'
+MORA_COST_FIELD  = 'coinCost'
+
+# TODO keep only useful parameters in props
 def readAscensions(weapons: dict) :
 	data = {}
 	for asc in ascensions :
-		__g_readAscension(asc, data)
+		__g_readAscension(asc, data, PROMOTE_ID_FIELD, MORA_COST_FIELD)
 	for weapon in weapons.values() :
 		promote_id = weapon['promote_id']
 		if promote_id not in data :
@@ -21,27 +26,3 @@ def readAscensions(weapons: dict) :
 		else :
 			expected = 6 if weapon['rarity'] >= 3 else 4
 			weapon['ascensions'] = __g_formatAscensions(data[promote_id], weapon, expected)
-    
-
-def __g_readAscension(asc: dict, data: dict) :
-    promote_id = asc['weaponPromoteId']
-    if promote_id not in data :
-        data[promote_id] = []
-    props = {
-        PropType[p['propType']].value: p['value'] if 'value' in p else 0.0
-        for p in asc['addProps']
-    }
-    cost = {
-        c['id']: c['count']
-        for c in asc['costItems']
-        if 'id' in c and 'count' in c
-    }
-    if 'coinCost' in asc :
-        cost[ITEM_MORA_ID] = asc['coinCost']
-    data[promote_id].append({
-        'level': asc['promoteLevel'] if 'promoteLevel' in asc else 0,
-        'maxLvl': asc['unlockMaxLevel'],
-        'props': props,
-        'cost': cost
-    })
-	
