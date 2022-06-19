@@ -64,7 +64,7 @@ def __g_readAbilityEntry(entry: dict) -> dict :
 		'affix_id': entry['affixId'],
 		'level': entry['level'] if 'level' in entry else 0,
 		'name_hash': entry['nameTextMapHash'],
-		'desc_hash': entry['nameTextMapHash']
+		'desc_hash': entry['descTextMapHash']
 	}
 	ability['name'] = lang[str(ability['name_hash'])]
 	ability['desc'] = lang[str(ability['desc_hash'])]
