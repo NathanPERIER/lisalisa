@@ -1,5 +1,7 @@
+
+from utils import loadJson
 from constants import CHAR_CURVES_JSON
-from utils import loadJson, makeCurves
+from common.curves import makeCurves
 
 curves = makeCurves(loadJson(CHAR_CURVES_JSON))
 

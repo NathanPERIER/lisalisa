@@ -11,14 +11,6 @@ def saveJson(data, file: str) :
         json.dump(data, f, indent='\t')
 
 
-def makeCurves(curves) -> "dict[str, list]" :
-    data = {curve['type']: [] for curve in curves[0]['curveInfos']}
-    for point in curves :
-        for curve in point['curveInfos'] :
-            data[curve['type']].append(curve['value'])
-    return data
-
-
 filter_reg = re.compile('[^a-zA-Z0-9]+')
 def idFromName(name) :
 	return filter_reg.sub('_', name.replace('\'', '').lower())
