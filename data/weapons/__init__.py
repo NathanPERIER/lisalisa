@@ -1,8 +1,10 @@
 
+from unicodedata import name
 from utils import loadJson
 from constants import WEAPON_DATA_JSON, PropType
 from translate.textmap import lang
 from weapons.ascensions import readAscensions
+from weapons.abilities import readAbilities
 
 from enum import Enum
 
@@ -20,18 +22,26 @@ def readWeapons() :
 	res = {}
 	for weapon in weapons :
 		data = __g_readWeaponBase(weapon)
-		res[data['hoyo_id']] = data
+		if data is not None :
+			res[data['hoyo_id']] = data
 
 	readAscensions(res)
+	
+	# for weapon in res.values() :
+	#	print(weapon['name'])
+	# 	print(weapon)
 
 	return res
 
 
+# weapon['rank'] is always 10 (idk)
 def __g_readWeaponBase(weapon: dict) -> dict :
 	data = {
 		'hoyo_id': weapon['id'],
 		'promote_id': weapon['weaponPromoteId'],
 		'gadget_id': weapon['gadgetId'],
+		'story_id': weapon['storyId'] if 'storyId' in weapon else None,
+		'skill_affix': weapon['skillAffix'],
 		'name_hash': weapon['nameTextMapHash'],
 		'desc_hash': weapon['descTextMapHash'],
 		'rarity': weapon['rankLevel'],
@@ -40,13 +50,15 @@ def __g_readWeaponBase(weapon: dict) -> dict :
 
 	data['name'] = lang[str(data['name_hash'])]
 	data['desc'] = lang[str(data['desc_hash'])]
-	print(data['name'])
-	print(data['type'])
+	# print(data['name'])
+	# print(data['type'])
+
+	if(data['name'] == '') :
+		return None
 
 	base_stats = {}
 	curves = {}
 	for prop in weapon['weaponProp'] :
-		print(prop)
 		if 'propType' in prop and 'initValue' in prop and 'type' in prop :
 			prop_type = PropType[prop['propType']].value
 			base_val = prop['initValue']
@@ -56,13 +68,13 @@ def __g_readWeaponBase(weapon: dict) -> dict :
 	data['base_stats'] = base_stats
 	data['curves'] = curves
 
-	refinement_costs = weapon['awakenCosts']
-	skill_affix = weapon['skillAffix']
 	# print(weapon['weaponBaseExp'])
 	# if 'initialLockState' in weapon :
 	# 	print(weapon['initialLockState'])
-	# weapon['rank'] is always 10 (idk)
-	print('storyId' in weapon)
-	print('--------------')
+	# print('--------------')
+	
+	refinement_costs = weapon['awakenCosts']
+	awaken_material = weapon['awakenMaterial'] if 'awakenMaterial' in weapon else None
+	readAbilities(data, refinement_costs, awaken_material)
 
 	return data

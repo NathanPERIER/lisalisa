@@ -24,6 +24,10 @@ CHAR_PROUD_SKILL_JSON = os.path.join(EXCEL_DIR, 'ProudSkillExcelConfigData.json'
 WEAPON_DATA_JSON       = os.path.join(EXCEL_DIR, 'WeaponExcelConfigData.json')
 WEAPON_CURVES_JSON     = os.path.join(EXCEL_DIR, 'WeaponCurveExcelConfigData.json')
 WEAPON_ASCENSIONS_JSON = os.path.join(EXCEL_DIR, 'WeaponPromoteExcelConfigData.json')
+WEAPON_ABILITY_JSON    = os.path.join(EXCEL_DIR, 'EquipAffixExcelConfigData.json')
+# DocumentExcelConfigData.json (storyId)
+# LocalizationExcelConfigData.json
+
 
 # Artifacts
 ARTIFACT_DATA_JSON   = os.path.join(EXCEL_DIR, 'ReliquaryExcelConfigData.json')
