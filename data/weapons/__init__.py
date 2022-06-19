@@ -2,6 +2,7 @@
 from utils import loadJson
 from constants import WEAPON_DATA_JSON, PropType
 from translate.textmap import lang
+from weapons.ascensions import readAscensions
 
 from enum import Enum
 
@@ -16,8 +17,14 @@ class WeaponType(Enum) :
 
 
 def readWeapons() :
+	res = {}
 	for weapon in weapons :
-		__g_readWeaponBase(weapon)
+		data = __g_readWeaponBase(weapon)
+		res[data['hoyo_id']] = data
+
+	readAscensions(res)
+
+	return res
 
 
 def __g_readWeaponBase(weapon: dict) -> dict :
@@ -50,9 +57,12 @@ def __g_readWeaponBase(weapon: dict) -> dict :
 	data['curves'] = curves
 
 	refinement_costs = weapon['awakenCosts']
+	skill_affix = weapon['skillAffix']
 	# print(weapon['weaponBaseExp'])
 	# if 'initialLockState' in weapon :
 	# 	print(weapon['initialLockState'])
 	# weapon['rank'] is always 10 (idk)
 	print('storyId' in weapon)
 	print('--------------')
+
+	return data
