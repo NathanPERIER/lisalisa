@@ -1,12 +1,17 @@
 
-from utils import loadJson
+from utils import loadJson, idFromName
 from constants import WEAPON_DATA_JSON, PropType
 from translate.textmap import lang
+from translate.mhy import mhy_weapons
 from common.dataobj.weapon import Weapon
 from weapons.ascensions import readAscensions
 from weapons.abilities import readAbilities
+from weapons.curves import curves
 
+import logging
 from enum import Enum
+
+logger = logging.getLogger(__name__)
 
 weapons = loadJson(WEAPON_DATA_JSON)
 
@@ -23,15 +28,17 @@ def readWeapons() -> "dict[str,Weapon]" :
 	for weapon in weapons :
 		data = __g_readWeaponBase(weapon)
 		if data is not None :
-			res[data['hoyo_id']] = data
+			identifier = idFromName(data.name)
+			res[identifier] = data
+			mhy_weapons[data.hoyo_id] = identifier
 
 	readAscensions(res)
-	
-	# for weapon in res.values() :
-	#	print(weapon['name'])
-	# 	print(weapon)
 
 	return res
+
+
+def getWeaponCurves() -> dict :
+	return curves
 
 
 # weapon['rank'] is always 10 (idk)
@@ -53,6 +60,12 @@ def __g_readWeaponBase(weapon: dict) -> Weapon :
 
 	if data.name == '' :
 		return None
+	
+	if data.rarity > 1 and data.promote_id == 11101 :
+		logger.info("< %s > (ignored)", data.name)
+		return None
+	
+	logger.info("< %s >", data.name)
 
 	for prop in weapon['weaponProp'] :
 		if 'propType' in prop and 'initValue' in prop and 'type' in prop :
