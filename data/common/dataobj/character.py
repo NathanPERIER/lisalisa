@@ -25,6 +25,7 @@ class Character(DataObject) :
 		self.vision:     str = None
 		self.astrolabe:  str = None
 		self.allegiance: str = None
+		self.default_weapon: str = None
 		# Stats
 		self.base_stats = {}
 		self.curves = {}

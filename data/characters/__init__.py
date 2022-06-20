@@ -1,8 +1,9 @@
 
-from utils import loadJson
+from utils import idFromName, loadJson
 from constants import CHAR_DATA_JSON, PropType
 from weapons import WeaponType
 from translate.textmap import lang
+from translate.mhy import mhy_chars, mhy_weapons
 from common.dataobj.character import Character
 from characters.info import readInfo
 from characters.skins import readSkins
@@ -41,7 +42,9 @@ def readCharacters() -> "dict[str,Character]" :
 
 	for char in chars :
 		data = __g_readCharacterBase(char)
-		characters[data.hoyo_id] = data
+		identifier = idFromName(data.name)
+		characters[identifier] = data
+		mhy_chars[data.hoyo_id] = identifier
 
 	for char_id, char in list(characters.items()) :
 		if char.name == 'Traveler' :
@@ -89,7 +92,7 @@ def __g_readCharacterBase(char: dict) -> Character :
 	if data.name == 'Traveler' :
 		data.skill_depot_id = char['candSkillDepotIds']
 
-	# TODO initialWeapon -> we need weapons first
+	data.default_weapon = mhy_weapons[char['initialWeapon']]
 
 	data.base_stats = {
 		PropType.FIGHT_PROP_BASE_HP.value:       char['hpBase'],
