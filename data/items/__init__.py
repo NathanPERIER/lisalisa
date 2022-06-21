@@ -17,7 +17,8 @@ def getAutoTranslated() -> dict :
 	return __g_auto_translated
 
 
-def __g_supplyThroughItems(hoyo_id: int) -> str :
+def __g_supplyThroughItems(str_id: str) -> str :
+	hoyo_id = int(str_id)
 	if hoyo_id in items :
 		item = items[hoyo_id]
 		identifier = idFromName(lang[str(item['nameTextMapHash'])])
@@ -35,7 +36,7 @@ def __g_readItem(item: dict) -> dict :
 		'name_hash': item['nameTextMapHash'],
 		'desc_hash': item['descTextMapHash'],
 		'type_hash': item['typeDescTextMapHash'],
-		'rarity': item['rankLevel']
+		'rarity': item['rankLevel'] if 'rankLevel' in item else 1
 	}
 	res['name'] = lang[str(res['name_hash'])]
 	res['desc'] = lang[str(res['desc_hash'])]

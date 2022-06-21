@@ -2,7 +2,7 @@
 from utils import loadJson, idFromName
 from constants import WEAPON_DATA_JSON, PropType
 from translate.textmap import lang
-from translate.mhy import mhy_weapons
+from translate.mhy import mhy_weapons, mhy_items
 from common.dataobj.weapon import Weapon
 from weapons.ascensions import readAscensions
 from weapons.abilities import readAbilities
@@ -82,6 +82,8 @@ def __g_readWeaponBase(weapon: dict) -> Weapon :
 	
 	refinement_costs = weapon['awakenCosts']
 	awaken_material = weapon['awakenMaterial'] if 'awakenMaterial' in weapon else None
+	if awaken_material is not None :
+		awaken_material = mhy_items[awaken_material]
 	readAbilities(data, refinement_costs, awaken_material)
 
 	return data

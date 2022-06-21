@@ -1,5 +1,6 @@
 
 from constants import ITEM_MORA_ID, PropType
+from translate.mhy import mhy_items
 
 import logging
 
@@ -13,8 +14,10 @@ def formatAscensions(ascensions: list, name: str, hoyo_id: int, promote_id: int,
         logger.warning('Expected %d ascensions (%d items) for %s (hoyo: %d / promote: %d), got %d items', 
 						expected_nb, expected_nb+1, name, hoyo_id, promote_id, len(ascensions))
     ascensions.sort(key = lambda asc: asc['level'])
-    # TODO translate the item ids (hoyo_id)
-    costs = [asc['cost'] for asc in ascensions]
+    costs = [
+        formatCosts(asc['cost'], asc['mora_cost'])
+        for asc in ascensions
+    ]
     props = [
         {
             'values': asc['props'], 
@@ -41,11 +44,21 @@ def readAscension(asc: dict, data: dict, promote_id_field: str, mora_cost_field:
         for c in asc['costItems']
         if 'id' in c and 'count' in c
     }
-    if mora_cost_field in asc :
-        cost[ITEM_MORA_ID] = asc[mora_cost_field]
+    mora_cost = asc[mora_cost_field] if mora_cost_field in asc else 0
     data[promote_id].append({
         'level': asc['promoteLevel'] if 'promoteLevel' in asc else 0,
         'maxLvl': asc['unlockMaxLevel'],
         'props': props,
-        'cost': cost
+        'cost': cost,
+        'mora_cost': mora_cost
     })
+
+
+def formatCosts(costs: "dict[int,int]", mora_cost: int) -> "dict[str,int]" :
+    res = {
+        mhy_items[item]: count 
+        for item, count in costs.items()
+    }
+    if mora_cost > 0 :
+        res[ITEM_MORA_ID] = mora_cost
+    return res

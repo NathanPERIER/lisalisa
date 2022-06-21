@@ -54,7 +54,7 @@ def __g_readWeaponAbilities(weapon: Weapon, affix: int, costs: "list[int]", awak
 	weapon.abilities = {
 		'name_hash': name_hash,
 		'name': name,
-		'special_material': awaken_material, # TODO translate
+		'special_material': awaken_material,
 		'values': res
 	}
 

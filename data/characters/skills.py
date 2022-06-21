@@ -1,7 +1,8 @@
 
 from utils import loadJson
-from constants import CHAR_SKILL_DEPOT_JSON, CHAR_SKILLS_JSON, CHAR_TALENTS_JSON, CHAR_PROUD_SKILL_JSON, ITEM_MORA_ID
+from constants import CHAR_SKILL_DEPOT_JSON, CHAR_SKILLS_JSON, CHAR_TALENTS_JSON, CHAR_PROUD_SKILL_JSON
 from common.dataobj.character import Character
+from common.ascensions import formatCosts
 from translate.textmap import lang
 
 import re
@@ -106,8 +107,8 @@ def __g_readProudSkillGroup(psg_id: int) -> "tuple[list,dict]" :
         'values': []
     }
     for psk in group :
-        cost, stat = __g_readProudSkill(psk)
-        costs.append(cost)
+        cost, mora_cost, stat = __g_readProudSkill(psk)
+        costs.append(formatCosts(cost, mora_cost))
         if stats['names'] is None :
             stats['names'] = list(stat.keys())
         stats['values'].append(list(stat.values()))
@@ -119,16 +120,15 @@ def __g_readProudSkillGroup(psg_id: int) -> "tuple[list,dict]" :
 # unlockDescTextMapHash ?
 # breakLevel must be the level required to unlock, not very useful here
 # proudSkillType => 3 for burst, ...
-def __g_readProudSkill(psk: dict) -> "tuple[dict,dict]" :
+def __g_readProudSkill(psk: dict) -> "tuple[dict,int,dict]" :
     cost = {
         c['id']: c['count']
         for c in psk['costItems']
         if 'id' in c and 'count' in c
     }
-    if 'coinCost' in psk :
-        cost[ITEM_MORA_ID] = psk['coinCost']
+    mora_cost = psk['coinCost'] if 'coinCost' in psk else 0
     stats = __g_readStats(psk['paramDescList'], psk['paramList'])
-    return cost, stats
+    return cost, mora_cost, stats
 
 def __g_readStats(desc: "list[int]", values: "list[float]") -> dict :
     res = {}
