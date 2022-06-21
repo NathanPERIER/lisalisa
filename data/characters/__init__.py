@@ -42,9 +42,7 @@ def readCharacters() -> "dict[str,Character]" :
 
 	for char in chars :
 		data = __g_readCharacterBase(char)
-		identifier = idFromName(data.name)
-		characters[identifier] = data
-		mhy_chars[data.hoyo_id] = identifier
+		characters[data.hoyo_id] = data
 
 	for char_id, char in list(characters.items()) :
 		if char.name == 'Traveler' :
@@ -58,7 +56,13 @@ def readCharacters() -> "dict[str,Character]" :
 
 	readAscensions(characters)
 
-	return characters
+	res = {}
+	for char in characters.values() :
+		identifier = idFromName(char.name)
+		res[identifier] = char
+		mhy_chars[char.hoyo_id] = identifier
+
+	return res
 
 
 def getCharacterCurves() -> "dict[str,list[float]]" :
