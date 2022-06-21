@@ -54,6 +54,6 @@ def __g_readInfo(inf: dict, characters: "dict[str,Character]") :
     data.allegiance = lang[str(data.allegiance_hash)]
     # Translation of `avatarDetailTextMapHash` should be the same as character desc
     # TODO test + warning
-    data.region = AssocType[inf['avatarAssocType']].value
+    data.region = AssocType[inf['avatarAssocType']]
     data.fetter_id = inf['fetterId']
     return char_id

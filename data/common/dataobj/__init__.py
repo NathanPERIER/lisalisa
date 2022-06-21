@@ -1,5 +1,6 @@
 
 from json import JSONEncoder
+from enum import Enum
 
 
 class DataObject :
@@ -16,4 +17,6 @@ class DOEncoder(JSONEncoder) :
 	def default(self, o) :
 		if issubclass(type(o), DataObject) :
 			return o.toJson()
+		if issubclass(type(o), Enum) :
+			return o.value
 		return super().default(o)

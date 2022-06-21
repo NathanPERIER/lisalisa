@@ -51,7 +51,7 @@ def __g_readWeaponBase(weapon: dict) -> Weapon :
 	data.story_id    = weapon['storyId'] if 'storyId' in weapon else None,
 	data.skill_affix = weapon['skillAffix']
 
-	data.type = WeaponType[weapon['weaponType']].value
+	data.type = WeaponType[weapon['weaponType']]
 	data.name_hash = weapon['nameTextMapHash']
 	data.desc_hash = weapon['descTextMapHash']
 	data.name = lang[str(data.name_hash)]

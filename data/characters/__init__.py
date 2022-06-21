@@ -72,14 +72,14 @@ def __g_readCharacterBase(char: dict) -> Character :
 	data.promote_id     = char['avatarPromoteId']
 	data.skill_depot_id = char['skillDepotId']
 
-	data.weapon = WeaponType[char['weaponType']].value
+	data.weapon = WeaponType[char['weaponType']]
 	data.body = BodyType[char['bodyType']].name
 
 	quality: str = char['qualityType']
 	if quality.endswith('_SP') :
 		quality = quality[:-3]
 		data.special = True
-	data.rarity = QualityType[quality].value
+	data.rarity = QualityType[quality]
 
 	data.name_hash = char['nameTextMapHash']
 	data.desc_hash = char['descTextMapHash']
