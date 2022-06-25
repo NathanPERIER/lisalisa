@@ -40,7 +40,7 @@ ITEM_GLIDERS_JSON = os.path.join(EXCEL_DIR, 'AvatarFlycloakExcelConfigData.json'
 ITEM_REWARDS_JSON = os.path.join(EXCEL_DIR, 'RewardExcelConfigData.json')
 
 # Domains
-DOMAIN_DATA_JSON    = os.path.join(EXCEL_DIR, 'DungeonExcelConfigData.json')
+DOMAIN_DATA_JSON  = os.path.join(EXCEL_DIR, 'DungeonExcelConfigData.json')
 DOMAIN_DAILY_JSON = os.path.join(EXCEL_DIR, 'DailyDungeonConfigData.json')
 
 # Exp
@@ -56,11 +56,12 @@ LANG_JSON_TEMPLATE = os.path.join(REPO_DIR, 'GenshinData/TextMap/TextMap{lang}.j
 
 # Misc
 COOKING_RECIPES_JSON = os.path.join(EXCEL_DIR, 'CookRecipeExcelConfigData.json')
+SPECIAL_DISHES_JSON  = os.path.join(EXCEL_DIR, 'CookBonusExcelConfigData.json')
 WORLD_CITIES_JSON    = os.path.join(EXCEL_DIR, 'CityConfigData.json')
 # FRIENDSHIP_REWARDS_JSON = os.path.join(EXCEL_DIR, 'FetterCharacterCardExcelConfigData.json')
 
 
-ITEM_MORA_ID = 'mora' # TODO
+ITEM_MORA_ID = 'mora'
 
 
 class PropType(Enum) :
@@ -74,8 +75,8 @@ class PropType(Enum) :
     FIGHT_PROP_CRITICAL        = 'Crit Rate%'
     FIGHT_PROP_CHARGE_EFFICIENCY = 'Energy Recharge%'
     FIGHT_PROP_ELEMENT_MASTERY   = 'Elemental Mastery'
-    FIGHT_PROP_PHYSICAL_ADD_HURT = 'Physical DMG%'    # TODO ?
-    FIGHT_PROP_HEAL_ADD          = 'Healing Bonus%'   # TODO ?
+    FIGHT_PROP_PHYSICAL_ADD_HURT = 'Physical DMG%'
+    FIGHT_PROP_HEAL_ADD          = 'Healing Bonus%'
     FIGHT_PROP_FIRE_ADD_HURT  = 'Pyro DMG%'
     FIGHT_PROP_WATER_ADD_HURT = 'Hydro DMG%'
     FIGHT_PROP_ICE_ADD_HURT   = 'Cryo DMG%'
