@@ -1,4 +1,5 @@
 
+import copy
 from json import JSONEncoder
 from enum import Enum
 
@@ -7,6 +8,9 @@ class DataObject :
 
 	def toJson(self) :
 		return self.__dict__
+	
+	def clone(self) :
+		return copy.deepcopy(self)
 
 
 class DOEncoder(JSONEncoder) :
