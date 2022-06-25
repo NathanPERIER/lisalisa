@@ -29,12 +29,12 @@ class Character(DataObject) :
 		# Stats
 		self.base_stats = {}
 		self.curves = {}
+		# Ascensions
+		self.ascensions: dict = None
 		# Talents, passives, constellations
 		self.talents:        dict = None
 		self.passives:       dict = None
 		self.constellations: dict = None
-		# Abilities + refinement
-		self.abilities: list = None
 		# Skins
 		self.skins = {
 			'default': None,
