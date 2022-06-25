@@ -10,6 +10,7 @@ from characters.skins import readSkins
 from characters.ascensions import readAscensions
 from characters.skills import readSkillsConstellations
 from characters.curves import curves
+from items.recipes import readSpecialDish
 
 import logging
 from enum import Enum
@@ -70,7 +71,6 @@ def getCharacterCurves() -> "dict[str,list[float]]" :
 
 
 def __g_readCharacterBase(char: dict) -> Character :
-	print(char)
 	data = Character()
 	data.hoyo_id        = char['id']
 	data.promote_id     = char['avatarPromoteId']
@@ -109,5 +109,7 @@ def __g_readCharacterBase(char: dict) -> Character :
 		PropType[x['type']].value: x['growCurve']
 		for x in char['propGrowCurves']
 	}
+
+	data.special_dish = readSpecialDish(data.hoyo_id)
 
 	return data

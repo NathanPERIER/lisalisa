@@ -40,3 +40,5 @@ class Character(DataObject) :
 			'default': None,
 			'alt': []
 		}
+		# Special dish
+		self.special_dish: dict = None
