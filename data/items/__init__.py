@@ -22,7 +22,7 @@ def __g_supplyThroughItems(str_id: str) -> str :
 	if hoyo_id in items :
 		item = items[hoyo_id]
 		identifier = idFromName(lang[str(item['nameTextMapHash'])])
-		__g_auto_translated[identifier] = __g_readItem(item)
+		__g_auto_translated[identifier] = readItem(item)
 		return identifier
 	logger.warning("No item found with hoyo id %d", hoyo_id)
 	return str(hoyo_id)
@@ -30,7 +30,7 @@ def __g_supplyThroughItems(str_id: str) -> str :
 mhy_items.setSupplyStrategy(__g_supplyThroughItems)
 
 
-def __g_readItem(item: dict) -> dict :
+def readItem(item: dict) -> dict :
 	res = {
 		'hoyo_id': item['id'],
 		'name_hash': item['nameTextMapHash'],
