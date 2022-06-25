@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 14408,
+	"promote_id": 14408,
+	"gadget_id": 50014408,
+	"story_id": [
+		194408
+	],
+	"skill_affix": [
+		114408,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 3273999011,
+	"desc_hash": 3555971517,
+	"name": "Blackcliff Agate",
+	"desc": "A mysterious catalyst made of a material known as \"blackcliff.\" It has an ominous crimson glow that seems to pulse in synchronization with the tremors from deep within the earth.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"Crit DMG%": 0.11999999731779099
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"Crit DMG%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"luminous_sands_from_guyun": 3,
+				"hunters_sacrificial_knife": 3,
+				"divining_scroll": 2,
+				"mora": 5000
+			},
+			{
+				"lustrous_stone_from_guyun": 3,
+				"hunters_sacrificial_knife": 12,
+				"divining_scroll": 8,
+				"mora": 15000
+			},
+			{
+				"lustrous_stone_from_guyun": 6,
+				"agents_sacrificial_knife": 6,
+				"sealed_scroll": 6,
+				"mora": 20000
+			},
+			{
+				"relic_from_guyun": 3,
+				"agents_sacrificial_knife": 12,
+				"sealed_scroll": 9,
+				"mora": 30000
+			},
+			{
+				"relic_from_guyun": 6,
+				"inspectors_sacrificial_knife": 9,
+				"forbidden_curse_scroll": 6,
+				"mora": 35000
+			},
+			{
+				"divine_body_from_guyun": 4,
+				"inspectors_sacrificial_knife": 18,
+				"forbidden_curse_scroll": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1776215435,
+		"name": "Press the Advantage",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1144080,
+				"desc_hash": 215535497,
+				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>12%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1144081,
+				"desc_hash": 816725657,
+				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>15%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1144082,
+				"desc_hash": 3681942025,
+				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>18%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1144083,
+				"desc_hash": 906061657,
+				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>21%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1144084,
+				"desc_hash": 436195881,
+				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>24%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"cost": 8000
+			}
+		]
+	}
+}

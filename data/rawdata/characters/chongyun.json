@@ -1,0 +1,791 @@
+{
+	"hoyo_id": 10000036,
+	"promote_id": 36,
+	"skill_depot_id": 3601,
+	"fetter_id": 124,
+	"weapon": "claymore",
+	"name_hash": 2876340530,
+	"desc_hash": 572700337,
+	"name": "Chongyun",
+	"desc": "A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_BOY",
+	"birthday": [
+		7,
+		9
+	],
+	"region": "liyue",
+	"vision_hash": [
+		766902996,
+		1485672225
+	],
+	"astrolabe_hash": [
+		4203973938,
+		895213803
+	],
+	"allegiance_hash": 1769238889,
+	"vision": "cryo",
+	"astrolabe": "Nubis Caesor",
+	"allegiance": "Tianheng Thaumaturges",
+	"default_weapon": "waster_greatsword",
+	"base_stats": {
+		"Base HP": 920.908935546875,
+		"Base ATK": 18.698400497436523,
+		"Base DEF": 54.36375045776367,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"shivada_jade_sliver": 1,
+				"cor_lapis": 3,
+				"damaged_mask": 3,
+				"mora": 20000
+			},
+			{
+				"shivada_jade_fragment": 3,
+				"hoarfrost_core": 2,
+				"cor_lapis": 10,
+				"damaged_mask": 15,
+				"mora": 40000
+			},
+			{
+				"shivada_jade_fragment": 6,
+				"hoarfrost_core": 4,
+				"cor_lapis": 20,
+				"stained_mask": 12,
+				"mora": 60000
+			},
+			{
+				"shivada_jade_chunk": 3,
+				"hoarfrost_core": 8,
+				"cor_lapis": 30,
+				"stained_mask": 18,
+				"mora": 80000
+			},
+			{
+				"shivada_jade_chunk": 6,
+				"hoarfrost_core": 12,
+				"cor_lapis": 45,
+				"ominous_mask": 12,
+				"mora": 100000
+			},
+			{
+				"shivada_jade_gemstone": 6,
+				"hoarfrost_core": 20,
+				"cor_lapis": 60,
+				"ominous_mask": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 687.9661254882812,
+					"Base DEF": 40.61249923706055,
+					"Base ATK": 13.968990325927734,
+					"ATK%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1176.7841796875,
+					"Base DEF": 69.46875,
+					"Base ATK": 23.894325256347656,
+					"ATK%": 0.05999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1828.54150390625,
+					"Base DEF": 107.9437484741211,
+					"Base ATK": 37.12810516357422,
+					"ATK%": 0.11999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2317.359619140625,
+					"Base DEF": 136.8000030517578,
+					"Base ATK": 47.05344009399414,
+					"ATK%": 0.11999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2806.177490234375,
+					"Base DEF": 165.65625,
+					"Base ATK": 56.97877502441406,
+					"ATK%": 0.18000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3294.99560546875,
+					"Base DEF": 194.5124969482422,
+					"Base ATK": 66.90411376953125,
+					"ATK%": 0.23999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 1917853333,
+			"desc_hash": 588212448,
+			"charge_num": 1,
+			"name": "Normal Attack: Demonbane",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, perform a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_diligence": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_diligence": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_diligence": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_diligence": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_diligence": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_diligence": 4,
+					"ominous_mask": 4,
+					"dvalins_sigh": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_diligence": 6,
+					"ominous_mask": 6,
+					"dvalins_sigh": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_diligence": 12,
+					"ominous_mask": 9,
+					"dvalins_sigh": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_diligence": 16,
+					"ominous_mask": 12,
+					"dvalins_sigh": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack Spinning DMG",
+					"Charged Attack Final DMG",
+					"Charged Attack Stamina Cost",
+					"Max Duration",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"70%",
+						"63.12%",
+						"80.32%",
+						"101.22%",
+						"56.29%",
+						"101.78%",
+						"40/s",
+						"5s",
+						"74.59%",
+						"149.14%/186.29%"
+					],
+					[
+						"75.7%",
+						"68.26%",
+						"86.86%",
+						"109.46%",
+						"60.87%",
+						"110.07%",
+						"40/s",
+						"5s",
+						"80.66%",
+						"161.28%/201.45%"
+					],
+					[
+						"81.4%",
+						"73.4%",
+						"93.4%",
+						"117.7%",
+						"65.45%",
+						"118.35%",
+						"40/s",
+						"5s",
+						"86.73%",
+						"173.42%/216.62%"
+					],
+					[
+						"89.54%",
+						"80.74%",
+						"102.74%",
+						"129.47%",
+						"71.99%",
+						"130.18%",
+						"40/s",
+						"5s",
+						"95.4%",
+						"190.77%/238.28%"
+					],
+					[
+						"95.24%",
+						"85.88%",
+						"109.28%",
+						"137.71%",
+						"76.57%",
+						"138.47%",
+						"40/s",
+						"5s",
+						"101.47%",
+						"202.91%/253.44%"
+					],
+					[
+						"101.75%",
+						"91.75%",
+						"116.75%",
+						"147.13%",
+						"81.81%",
+						"147.94%",
+						"40/s",
+						"5s",
+						"108.41%",
+						"216.78%/270.77%"
+					],
+					[
+						"110.7%",
+						"99.82%",
+						"127.02%",
+						"160.07%",
+						"89.01%",
+						"160.96%",
+						"40/s",
+						"5s",
+						"117.95%",
+						"235.86%/294.6%"
+					],
+					[
+						"119.66%",
+						"107.9%",
+						"137.3%",
+						"173.02%",
+						"96.21%",
+						"173.97%",
+						"40/s",
+						"5s",
+						"127.49%",
+						"254.93%/318.42%"
+					],
+					[
+						"128.61%",
+						"115.97%",
+						"147.57%",
+						"185.97%",
+						"103.41%",
+						"186.99%",
+						"40/s",
+						"5s",
+						"137.03%",
+						"274.01%/342.25%"
+					],
+					[
+						"138.38%",
+						"124.78%",
+						"158.78%",
+						"200.09%",
+						"111.26%",
+						"201.2%",
+						"40/s",
+						"5s",
+						"147.44%",
+						"294.82%/368.25%"
+					],
+					[
+						"148.15%",
+						"133.59%",
+						"169.99%",
+						"214.21%",
+						"119.12%",
+						"215.4%",
+						"40/s",
+						"5s",
+						"157.85%",
+						"315.63%/394.24%"
+					],
+					[
+						"157.92%",
+						"142.4%",
+						"181.2%",
+						"228.34%",
+						"126.97%",
+						"229.6%",
+						"40/s",
+						"5s",
+						"168.26%",
+						"336.44%/420.23%"
+					],
+					[
+						"167.68%",
+						"151.2%",
+						"192.4%",
+						"242.46%",
+						"134.82%",
+						"243.8%",
+						"40/s",
+						"5s",
+						"178.66%",
+						"357.25%/446.23%"
+					],
+					[
+						"177.45%",
+						"160.01%",
+						"203.61%",
+						"256.59%",
+						"142.68%",
+						"258%",
+						"40/s",
+						"5s",
+						"189.07%",
+						"378.06%/472.22%"
+					],
+					[
+						"187.22%",
+						"168.82%",
+						"214.82%",
+						"270.71%",
+						"150.53%",
+						"272.2%",
+						"40/s",
+						"5s",
+						"199.48%",
+						"398.87%/498.21%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 1241562797,
+			"desc_hash": 543360552,
+			"charge_num": 1,
+			"name": "Spirit Blade: Chonghua's Layered Frost",
+			"desc": "Chongyun strikes the ground with his greatsword, causing a Cryo explosion in a circular AoE in front of him that deals <color=#99FFFFFF>Cryo DMG</color>.\\nAfter a short delay, the cold air created by the Cryo explosion will coalesce into a Chonghua Frost Field, within which all Sword, Claymore and Polearm-wielding characters' weapons will be infused with <color=#99FFFFFF>Cryo</color>.\\n\\n<i>\"A crystal-clear ring, and all is silent. The rivers move not, and the clouds are heavy with frost. The altar gates open, and evil is banished.\"</i>",
+			"costs": [
+				{
+					"teachings_of_diligence": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_diligence": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_diligence": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_diligence": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_diligence": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_diligence": 4,
+					"ominous_mask": 4,
+					"dvalins_sigh": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_diligence": 6,
+					"ominous_mask": 6,
+					"dvalins_sigh": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_diligence": 12,
+					"ominous_mask": 9,
+					"dvalins_sigh": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_diligence": 16,
+					"ominous_mask": 12,
+					"dvalins_sigh": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Infusion Duration",
+					"Field Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"172.04%",
+						"2s",
+						"10s",
+						"15s"
+					],
+					[
+						"184.94%",
+						"2.1s",
+						"10s",
+						"15s"
+					],
+					[
+						"197.85%",
+						"2.2s",
+						"10s",
+						"15s"
+					],
+					[
+						"215.05%",
+						"2.3s",
+						"10s",
+						"15s"
+					],
+					[
+						"227.95%",
+						"2.4s",
+						"10s",
+						"15s"
+					],
+					[
+						"240.86%",
+						"2.5s",
+						"10s",
+						"15s"
+					],
+					[
+						"258.06%",
+						"2.6s",
+						"10s",
+						"15s"
+					],
+					[
+						"275.26%",
+						"2.7s",
+						"10s",
+						"15s"
+					],
+					[
+						"292.47%",
+						"2.8s",
+						"10s",
+						"15s"
+					],
+					[
+						"309.67%",
+						"2.9s",
+						"10s",
+						"15s"
+					],
+					[
+						"326.88%",
+						"3s",
+						"10s",
+						"15s"
+					],
+					[
+						"344.08%",
+						"3s",
+						"10s",
+						"15s"
+					],
+					[
+						"365.58%",
+						"3s",
+						"10s",
+						"15s"
+					],
+					[
+						"387.09%",
+						"3s",
+						"10s",
+						"15s"
+					],
+					[
+						"408.59%",
+						"3s",
+						"10s",
+						"15s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 514253413,
+			"desc_hash": 3537624992,
+			"charge_num": 1,
+			"name": "Spirit Blade: Cloud-Parting Star",
+			"desc": "Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground.\\nWhen the spirit blades explode, they will deal <color=#99FFFFFF>AoE Cryo DMG</color> and launch opponents.\\n\\n<i>\"As ice doth give the biting frost birth, My transcendent blade shakes heaven and earth. Heed my summons and come hence!\"</i>",
+			"costs": [
+				{
+					"teachings_of_diligence": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_diligence": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_diligence": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_diligence": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_diligence": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_diligence": 4,
+					"ominous_mask": 4,
+					"dvalins_sigh": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_diligence": 6,
+					"ominous_mask": 6,
+					"dvalins_sigh": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_diligence": 12,
+					"ominous_mask": 9,
+					"dvalins_sigh": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_diligence": 16,
+					"ominous_mask": 12,
+					"dvalins_sigh": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"142.4%",
+						"12s",
+						"40"
+					],
+					[
+						"153.08%",
+						"12s",
+						"40"
+					],
+					[
+						"163.76%",
+						"12s",
+						"40"
+					],
+					[
+						"178%",
+						"12s",
+						"40"
+					],
+					[
+						"188.68%",
+						"12s",
+						"40"
+					],
+					[
+						"199.36%",
+						"12s",
+						"40"
+					],
+					[
+						"213.6%",
+						"12s",
+						"40"
+					],
+					[
+						"227.84%",
+						"12s",
+						"40"
+					],
+					[
+						"242.08%",
+						"12s",
+						"40"
+					],
+					[
+						"256.32%",
+						"12s",
+						"40"
+					],
+					[
+						"270.56%",
+						"12s",
+						"40"
+					],
+					[
+						"284.8%",
+						"12s",
+						"40"
+					],
+					[
+						"302.6%",
+						"12s",
+						"40"
+					],
+					[
+						"320.4%",
+						"12s",
+						"40"
+					],
+					[
+						"338.2%",
+						"12s",
+						"40"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 1471902469,
+			"desc_hash": 2917701275,
+			"ascension": 1,
+			"name": "Steady Breathing",
+			"desc": "Sword, Claymore, or Polearm-wielding characters within the field created by <color=#FFD780FF>Spirit Blade: Chonghua's Layered Frost</color> have their Normal ATK SPD increased by 8%."
+		},
+		{
+			"name_hash": 2188306525,
+			"desc_hash": 1400289131,
+			"ascension": 4,
+			"name": "Rimechaser Blade",
+			"desc": "When the field created by <color=#FFD780FF>Spirit Blade: Chonghua's Layered Frost</color> disappears, another spirit blade will be summoned to strike nearby opponents, dealing 100% of Chonghua's Layered Frost's Skill DMG as <color=#99FFFFFF>AoE Cryo DMG</color>. Opponents hit by this blade will have their <color=#99FFFFFF>Cryo RES</color> decreased by 10% for 8s."
+		},
+		{
+			"name_hash": 1722331629,
+			"desc_hash": 225068227,
+			"ascension": null,
+			"name": "Gallant Journey",
+			"desc": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 1859111849,
+			"name": "Ice Unleashed",
+			"desc_hash": 3874733319,
+			"desc": "The last attack of Chongyun's Normal Attack combo releases 3 ice blades. Each blade deals 50% of Chongyun's ATK as <color=#99FFFFFF>Cryo DMG</color> to all opponents in its path."
+		},
+		{
+			"name_hash": 1016771721,
+			"name": "Atmospheric Revolution",
+			"desc_hash": 1537894911,
+			"desc": "Elemental Skills and Elemental Bursts cast within the Frost Field created by <color=#FFD780FF>Spirit Blade: Chonghua's Layered Frost</color> have their CD time decreased by 15%."
+		},
+		{
+			"name_hash": 294514897,
+			"name": "Cloudburst",
+			"desc_hash": 1615074199,
+			"desc": "Increases the Level of <color=#FFD780FF>Spirit Blade: Cloud-Parting Star</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 1282888193,
+			"name": "Frozen Skies",
+			"desc_hash": 461481359,
+			"desc": "Chongyun regenerates 1 Energy every time he hits an opponent affected by <color=#99FFFFFF>Cryo</color>.\\nThis effect can only occur once every 2s."
+		},
+		{
+			"name_hash": 1493556457,
+			"name": "The True Path",
+			"desc_hash": 3819808039,
+			"desc": "Increases the Level of <color=#FFD780FF>Spirit Blade: Chonghua's Layered Frost</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3391919345,
+			"name": "Rally of Four Blades",
+			"desc_hash": 121953951,
+			"desc": "<color=#FFD780FF>Spirit Blade: Cloud-Parting Star</color> deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun.\\nThis skill will also summon 1 additional spirit blade."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 1142485354,
+			"desc_hash": 3971237746,
+			"restricted": false,
+			"name": "Pure Spirit",
+			"desc": "Chongyun's outfit. A traditional thaumaturge's trappings."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108144,
+		"name_hash": 1838781284,
+		"desc_hash": 611853869,
+		"type_hash": 232835230,
+		"rarity": 2,
+		"name": "Cold Noodles with Mountain Delicacies",
+		"desc": "Chongyun's specialty. Though these springy noodles would be irresistible in the sweltering summer, Chongyun insists on dining on them even in the chattering cold of winter. What a guy.",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 2829041399,
+		"effect": "Restores 80 Stamina",
+		"original_recipe": "noodles_with_mountain_delicacies"
+	}
+}

@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12303,
+	"promote_id": 12303,
+	"gadget_id": 50012303,
+	"story_id": [
+		192303
+	],
+	"skill_affix": [
+		112303,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 850802171,
+	"desc_hash": 2243594437,
+	"name": "White Iron Greatsword",
+	"desc": "A claymore made from white iron. Lightweight without compromising on power. Effective even when wielded by one of average strength, it is extremely deadly in the hands of a physically stronger wielder.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 38.74129867553711,
+		"DEF%": 0.09560000151395798
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101",
+		"DEF%": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 2,
+				"chaos_device": 2,
+				"slime_condensate": 1,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 2,
+				"chaos_device": 8,
+				"slime_condensate": 5,
+				"mora": 10000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 4,
+				"chaos_circuit": 4,
+				"slime_secretions": 4,
+				"mora": 15000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 2,
+				"chaos_circuit": 8,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 4,
+				"chaos_core": 6,
+				"slime_concentrate": 4,
+				"mora": 25000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 3,
+				"chaos_core": 12,
+				"slime_concentrate": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2479230075,
+		"name": "Cull the Weak",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1123030,
+				"desc_hash": 3395408817,
+				"desc": "Defeating an opponent restores <color=#99FFFFFF>8%</color> HP.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1123031,
+				"desc_hash": 568240425,
+				"desc": "Defeating an opponent restores <color=#99FFFFFF>10%</color> HP.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1123032,
+				"desc_hash": 1069952849,
+				"desc": "Defeating an opponent restores <color=#99FFFFFF>12%</color> HP.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1123033,
+				"desc_hash": 3748745,
+				"desc": "Defeating an opponent restores <color=#99FFFFFF>14%</color> HP.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1123034,
+				"desc_hash": 622203977,
+				"desc": "Defeating an opponent restores <color=#99FFFFFF>16%</color> HP.",
+				"cost": 4000
+			}
+		]
+	}
+}

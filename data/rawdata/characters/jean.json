@@ -1,0 +1,840 @@
+{
+	"hoyo_id": 10000003,
+	"promote_id": 3,
+	"skill_depot_id": 301,
+	"fetter_id": 102,
+	"weapon": "sword",
+	"name_hash": 3221566250,
+	"desc_hash": 2215890689,
+	"name": "Jean",
+	"desc": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_LADY",
+	"birthday": [
+		14,
+		3
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		467004516,
+		1453458049
+	],
+	"astrolabe_hash": [
+		201010258,
+		144282507
+	],
+	"allegiance_hash": 2100503169,
+	"vision": "anemo",
+	"astrolabe": "Leo Minor",
+	"allegiance": "Knights of Favonius",
+	"default_weapon": "dull_blade",
+	"base_stats": {
+		"Base HP": 1143.9840087890625,
+		"Base ATK": 18.6200008392334,
+		"Base DEF": 59.83000183105469,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"vayuda_turquoise_sliver": 1,
+				"dandelion_seed": 3,
+				"damaged_mask": 3,
+				"mora": 20000
+			},
+			{
+				"vayuda_turquoise_fragment": 3,
+				"hurricane_seed": 2,
+				"dandelion_seed": 10,
+				"damaged_mask": 15,
+				"mora": 40000
+			},
+			{
+				"vayuda_turquoise_fragment": 6,
+				"hurricane_seed": 4,
+				"dandelion_seed": 20,
+				"stained_mask": 12,
+				"mora": 60000
+			},
+			{
+				"vayuda_turquoise_chunk": 3,
+				"hurricane_seed": 8,
+				"dandelion_seed": 30,
+				"stained_mask": 18,
+				"mora": 80000
+			},
+			{
+				"vayuda_turquoise_chunk": 6,
+				"hurricane_seed": 12,
+				"dandelion_seed": 45,
+				"ominous_mask": 12,
+				"mora": 100000
+			},
+			{
+				"vayuda_turquoise_gemstone": 6,
+				"hurricane_seed": 20,
+				"dandelion_seed": 60,
+				"ominous_mask": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 980.8628540039062,
+					"Base DEF": 51.29999923706055,
+					"Base ATK": 15.963800430297852,
+					"Healing Bonus%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1677.791748046875,
+					"Base DEF": 87.75,
+					"Base ATK": 27.306499481201172,
+					"Healing Bonus%": 0.055399999022483826
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2607.0302734375,
+					"Base DEF": 136.35000610351562,
+					"Base ATK": 42.43009948730469,
+					"Healing Bonus%": 0.11079999804496765
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 3303.958984375,
+					"Base DEF": 172.8000030517578,
+					"Base ATK": 53.77280044555664,
+					"Healing Bonus%": 0.11079999804496765
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 4000.887939453125,
+					"Base DEF": 209.25,
+					"Base ATK": 65.1155014038086,
+					"Healing Bonus%": 0.16619999706745148
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 4697.81689453125,
+					"Base DEF": 245.6999969482422,
+					"Base ATK": 76.45819854736328,
+					"Healing Bonus%": 0.2214999943971634
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 3128535397,
+			"desc_hash": 2357477968,
+			"charge_num": 1,
+			"name": "Normal Attack: Favonius Bladework",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 5 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of stamina to launch an opponent using the power of wind.\\nLaunched opponents will slowly fall to the ground.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_resistance": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_resistance": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_resistance": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_resistance": 4,
+					"ominous_mask": 4,
+					"dvalins_plume": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_resistance": 6,
+					"ominous_mask": 6,
+					"dvalins_plume": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"ominous_mask": 9,
+					"dvalins_plume": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_resistance": 16,
+					"ominous_mask": 12,
+					"dvalins_plume": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"48.33%",
+						"45.58%",
+						"60.29%",
+						"65.88%",
+						"79.21%",
+						"162.02%",
+						"20",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"52.27%",
+						"49.29%",
+						"65.19%",
+						"71.24%",
+						"85.65%",
+						"175.21%",
+						"20",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"56.2%",
+						"53%",
+						"70.1%",
+						"76.6%",
+						"92.1%",
+						"188.4%",
+						"20",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"61.82%",
+						"58.3%",
+						"77.11%",
+						"84.26%",
+						"101.31%",
+						"207.24%",
+						"20",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"65.75%",
+						"62.01%",
+						"82.02%",
+						"89.62%",
+						"107.76%",
+						"220.43%",
+						"20",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"70.25%",
+						"66.25%",
+						"87.63%",
+						"95.75%",
+						"115.13%",
+						"235.5%",
+						"20",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"76.43%",
+						"72.08%",
+						"95.34%",
+						"104.18%",
+						"125.26%",
+						"256.22%",
+						"20",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"82.61%",
+						"77.91%",
+						"103.05%",
+						"112.6%",
+						"135.39%",
+						"276.95%",
+						"20",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"88.8%",
+						"83.74%",
+						"110.76%",
+						"121.03%",
+						"145.52%",
+						"297.67%",
+						"20",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"95.54%",
+						"90.1%",
+						"119.17%",
+						"130.22%",
+						"156.57%",
+						"320.28%",
+						"20",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"103.27%",
+						"97.39%",
+						"128.81%",
+						"140.75%",
+						"169.23%",
+						"346.18%",
+						"20",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"112.36%",
+						"105.96%",
+						"140.14%",
+						"153.14%",
+						"184.13%",
+						"376.65%",
+						"20",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"121.44%",
+						"114.53%",
+						"151.48%",
+						"165.52%",
+						"199.02%",
+						"407.11%",
+						"20",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"130.53%",
+						"123.1%",
+						"162.81%",
+						"177.91%",
+						"213.91%",
+						"437.58%",
+						"20",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"140.44%",
+						"132.45%",
+						"175.18%",
+						"191.42%",
+						"230.16%",
+						"470.81%",
+						"20",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 1433276421,
+			"desc_hash": 1281904448,
+			"charge_num": 1,
+			"name": "Gale Blade",
+			"desc": "Focusing the might of the formless wind around her blade, Jean releases a miniature storm, launching opponents in the direction she aims at, dealing massive <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nAt the cost of continued stamina consumption, Jean can command the whirlwind to pull surrounding opponents and objects towards her front.\\nDirection can be adjusted.\\nCharacter is immobile during skill duration.\\n\\n<i>That which follows Jean, the wholehearted defender, is a guardian wind that can banish danger from her comrades' presence.</i>",
+			"costs": [
+				{
+					"teachings_of_resistance": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_resistance": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_resistance": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_resistance": 4,
+					"ominous_mask": 4,
+					"dvalins_plume": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_resistance": 6,
+					"ominous_mask": 6,
+					"dvalins_plume": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"ominous_mask": 9,
+					"dvalins_plume": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_resistance": 16,
+					"ominous_mask": 12,
+					"dvalins_plume": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Stamina Consumption",
+					"Max Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"292%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"313.9%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"335.8%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"365%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"386.9%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"408.8%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"438%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"467.2%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"496.4%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"525.6%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"554.8%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"584%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"620.5%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"657%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					],
+					[
+						"693.5%",
+						"20 Per Second",
+						"5s",
+						"6s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 1586562613,
+			"desc_hash": 1484586416,
+			"charge_num": 1,
+			"name": "Dandelion Breeze",
+			"desc": "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding opponents and dealing <color=#80FFD7FF>Anemo DMG</color>.\\nAt the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK.\\n\\n<color=#FFD780FF>Dandelion Field</color>\\n\u00b7Continuously regenerates HP of characters within the AoE and continuously imbues them with <color=#80FFD7FF>Anemo</color>.\\n\u00b7Deals <color=#80FFD7FF>Anemo DMG</color> to opponents entering or exiting the Dandelion Field.\\n\\n<i>Jean's magnanimity is as vast as the dandelion fields, and it is the root of her wish to protect others.</i>",
+			"costs": [
+				{
+					"teachings_of_resistance": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_resistance": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_resistance": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_resistance": 4,
+					"ominous_mask": 4,
+					"dvalins_plume": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_resistance": 6,
+					"ominous_mask": 6,
+					"dvalins_plume": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"ominous_mask": 9,
+					"dvalins_plume": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_resistance": 16,
+					"ominous_mask": 12,
+					"dvalins_plume": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Elemental Burst DMG",
+					"Field Entering/Exiting DMG",
+					"Field Activation Healing",
+					"Continuous Regeneration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"424.8%",
+						"78.4%",
+						"251.2% ATK+1540",
+						"25.12% ATK+154",
+						"20s",
+						"80"
+					],
+					[
+						"456.66%",
+						"84.28%",
+						"270.04% ATK+1694",
+						"27% ATK+169",
+						"20s",
+						"80"
+					],
+					[
+						"488.52%",
+						"90.16%",
+						"288.88% ATK+1861",
+						"28.89% ATK+186",
+						"20s",
+						"80"
+					],
+					[
+						"531%",
+						"98%",
+						"314% ATK+2041",
+						"31.4% ATK+204",
+						"20s",
+						"80"
+					],
+					[
+						"562.86%",
+						"103.88%",
+						"332.84% ATK+2233",
+						"33.28% ATK+223",
+						"20s",
+						"80"
+					],
+					[
+						"594.72%",
+						"109.76%",
+						"351.68% ATK+2438",
+						"35.17% ATK+243",
+						"20s",
+						"80"
+					],
+					[
+						"637.2%",
+						"117.6%",
+						"376.8% ATK+2657",
+						"37.68% ATK+265",
+						"20s",
+						"80"
+					],
+					[
+						"679.68%",
+						"125.44%",
+						"401.92% ATK+2888",
+						"40.19% ATK+288",
+						"20s",
+						"80"
+					],
+					[
+						"722.16%",
+						"133.28%",
+						"427.04% ATK+3132",
+						"42.7% ATK+313",
+						"20s",
+						"80"
+					],
+					[
+						"764.64%",
+						"141.12%",
+						"452.16% ATK+3388",
+						"45.22% ATK+338",
+						"20s",
+						"80"
+					],
+					[
+						"807.12%",
+						"148.96%",
+						"477.28% ATK+3658",
+						"47.73% ATK+365",
+						"20s",
+						"80"
+					],
+					[
+						"849.6%",
+						"156.8%",
+						"502.4% ATK+3940",
+						"50.24% ATK+394",
+						"20s",
+						"80"
+					],
+					[
+						"902.7%",
+						"166.6%",
+						"533.8% ATK+4236",
+						"53.38% ATK+423",
+						"20s",
+						"80"
+					],
+					[
+						"955.8%",
+						"176.4%",
+						"565.2% ATK+4544",
+						"56.52% ATK+454",
+						"20s",
+						"80"
+					],
+					[
+						"1008.9%",
+						"186.2%",
+						"596.6% ATK+4865",
+						"59.66% ATK+486",
+						"80s",
+						"0"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 1495472693,
+			"desc_hash": 1706320299,
+			"ascension": 1,
+			"name": "Wind Companion",
+			"desc": "On hit, Jean's Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members."
+		},
+		{
+			"name_hash": 2466088197,
+			"desc_hash": 854544579,
+			"ascension": 4,
+			"name": "Let the Wind Lead",
+			"desc": "Using <color=#FFD780FF>Dandelion Breeze</color> will regenerate 20% of its Energy."
+		},
+		{
+			"name_hash": 3874514189,
+			"desc_hash": 1823299387,
+			"ascension": null,
+			"name": "Guiding Breeze",
+			"desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 2935753641,
+			"name": "Spiraling Tempest",
+			"desc_hash": 988897943,
+			"desc": "Increases the pulling speed of <color=#FFD780FF>Gale Blade</color> after holding for more than 1s, and increases the DMG dealt by 40%."
+		},
+		{
+			"name_hash": 573725673,
+			"name": "People's Aegis",
+			"desc_hash": 544290319,
+			"desc": "When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s."
+		},
+		{
+			"name_hash": 997607873,
+			"name": "When the West Wind Arises",
+			"desc_hash": 3837932671,
+			"desc": "Increases the Level of <color=#FFD780FF>Dandelion Breeze</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2887613457,
+			"name": "Lands of Dandelion",
+			"desc_hash": 2911211423,
+			"desc": "Within the Field created by <color=#FFD780FF>Dandelion Breeze</color>, all opponents have their <color=#80FFD7FF>Anemo RES</color> decreased by 40%."
+		},
+		{
+			"name_hash": 2712156785,
+			"name": "Outbursting Gust",
+			"desc_hash": 3588133439,
+			"desc": "Increases the Level of <color=#FFD780FF>Gale Blade</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3167949041,
+			"name": "Lion's Fang, Fair Protector of Mondstadt",
+			"desc_hash": 4148193751,
+			"desc": "Incoming DMG is decreased by 35% within the Field created by <color=#FFD780FF>Dandelion Breeze</color>. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 2431528538,
+			"desc_hash": 248153650,
+			"restricted": false,
+			"name": "Favonian Devotion",
+			"desc": "Jean's outfit. Neat and smart clothing that emphasizes her chivalry."
+		},
+		"alt": [
+			{
+				"hoyo_id": 340001,
+				"name_hash": 1504245738,
+				"desc_hash": 3529954098,
+				"restricted": false,
+				"name": "Sea Breeze Dandelion",
+				"desc": "Jean's summer wear. Light and cool, but no less elegant for it. The perfect choice for a trip to the seaside."
+			},
+			{
+				"hoyo_id": 340006,
+				"name_hash": 2691230306,
+				"desc_hash": 1553444314,
+				"restricted": true,
+				"name": "Gunnhildr's Legacy",
+				"desc": "Jean's outfit. This classic knight's ceremonial outfit is suited to all manner of occasions."
+			}
+		]
+	},
+	"special_dish": {
+		"hoyo_id": 108044,
+		"name_hash": 3225627540,
+		"desc_hash": 1679435333,
+		"type_hash": 2152302662,
+		"rarity": 3,
+		"name": "Invigorating Pizza",
+		"desc": "Jean's specialty. This pizza almost seems more art than food. Just one slice is enough to have you raring to go. Is this what keeps Jean working so hard?",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 3205020775,
+		"effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s.",
+		"original_recipe": "mushroom_pizza"
+	}
+}

@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13509,
+	"promote_id": 13509,
+	"gadget_id": 50013509,
+	"story_id": [
+		193509
+	],
+	"skill_affix": [
+		113509,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 3717849275,
+	"desc_hash": 859215189,
+	"name": "Engulfing Lightning",
+	"desc": "A naginata used to \"cut grass.\" Any army that stands before this weapon will probably be likewise cut down...",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 45.9364013671875,
+		"Energy Recharge%": 0.11999999731779099
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_301",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"mask_of_the_wicked_lieutenant": 5,
+				"chaos_gear": 5,
+				"old_handguard": 3,
+				"mora": 10000
+			},
+			{
+				"mask_of_the_tigers_bite": 5,
+				"chaos_gear": 18,
+				"old_handguard": 12,
+				"mora": 20000
+			},
+			{
+				"mask_of_the_tigers_bite": 9,
+				"chaos_axis": 9,
+				"kageuchi_handguard": 9,
+				"mora": 30000
+			},
+			{
+				"mask_of_the_one_horned": 5,
+				"chaos_axis": 18,
+				"kageuchi_handguard": 14,
+				"mora": 45000
+			},
+			{
+				"mask_of_the_one_horned": 9,
+				"chaos_oculus": 14,
+				"famed_handguard": 9,
+				"mora": 55000
+			},
+			{
+				"mask_of_the_kijin": 6,
+				"chaos_oculus": 27,
+				"famed_handguard": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2229628659,
+		"name": "Timeless Dream: Eternal Stove",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1135090,
+				"desc_hash": 3110784401,
+				"desc": "ATK increased by <color=#99FFFFFF>28%</color> of Energy Recharge over the base 100%. You can gain a maximum bonus of <color=#99FFFFFF>80%</color> ATK. Gain <color=#99FFFFFF>30%</color> Energy Recharge for 12s after using an Elemental Burst.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1135091,
+				"desc_hash": 1381088409,
+				"desc": "ATK increased by <color=#99FFFFFF>35%</color> of Energy Recharge over the base 100%. You can gain a maximum bonus of <color=#99FFFFFF>90%</color> ATK. Gain <color=#99FFFFFF>35%</color> Energy Recharge for 12s after using an Elemental Burst.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1135092,
+				"desc_hash": 445724265,
+				"desc": "ATK increased by <color=#99FFFFFF>42%</color> of Energy Recharge over the base 100%. You can gain a maximum bonus of <color=#99FFFFFF>100%</color> ATK. Gain <color=#99FFFFFF>40%</color> Energy Recharge for 12s after using an Elemental Burst.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1135093,
+				"desc_hash": 3958647865,
+				"desc": "ATK increased by <color=#99FFFFFF>49%</color> of Energy Recharge over the base 100%. You can gain a maximum bonus of <color=#99FFFFFF>110%</color> ATK. Gain <color=#99FFFFFF>45%</color> Energy Recharge for 12s after using an Elemental Burst.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1135094,
+				"desc_hash": 57447913,
+				"desc": "ATK increased by <color=#99FFFFFF>56%</color> of Energy Recharge over the base 100%. You can gain a maximum bonus of <color=#99FFFFFF>120%</color> ATK. Gain <color=#99FFFFFF>50%</color> Energy Recharge for 12s after using an Elemental Burst.",
+				"cost": 16000
+			}
+		]
+	}
+}

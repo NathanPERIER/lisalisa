@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 14404,
+	"promote_id": 14404,
+	"gadget_id": 50014404,
+	"story_id": [
+		194404
+	],
+	"skill_affix": [
+		114404,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 3827789435,
+	"desc_hash": 2717009405,
+	"name": "Royal Grimoire",
+	"desc": "A book that once belonged to a court mage of Mondstadt who served the nobility. It contains faithful and comprehensive historical accounts as well as magic spells.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 43.734901428222656,
+		"ATK%": 0.05999999865889549
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_202",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"tile_of_decarabians_tower": 3,
+				"heavy_horn": 3,
+				"recruits_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 3,
+				"heavy_horn": 12,
+				"recruits_insignia": 8,
+				"mora": 15000
+			},
+			{
+				"debris_of_decarabians_city": 6,
+				"black_bronze_horn": 6,
+				"sergeants_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"fragment_of_decarabians_epic": 3,
+				"black_bronze_horn": 12,
+				"sergeants_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"fragment_of_decarabians_epic": 6,
+				"black_crystal_horn": 9,
+				"lieutenants_insignia": 6,
+				"mora": 35000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 4,
+				"black_crystal_horn": 18,
+				"lieutenants_insignia": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 916503587,
+		"name": "Focus",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1144040,
+				"desc_hash": 3437160097,
+				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>8%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1144041,
+				"desc_hash": 1512900809,
+				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>10%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1144042,
+				"desc_hash": 3546181585,
+				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>12%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1144043,
+				"desc_hash": 1052312137,
+				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>14%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1144044,
+				"desc_hash": 953622361,
+				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>16%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"cost": 8000
+			}
+		]
+	}
+}

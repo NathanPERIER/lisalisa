@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15509,
+	"promote_id": 15509,
+	"gadget_id": 50015509,
+	"story_id": [
+		195509
+	],
+	"skill_affix": [
+		115509,
+		0
+	],
+	"type": "bow",
+	"name_hash": 2918525947,
+	"desc_hash": 2907094261,
+	"name": "Thundering Pulse",
+	"desc": "A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 45.9364013671875,
+		"Crit DMG%": 0.14399999380111694
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_301",
+		"Crit DMG%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"narukamis_wisdom": 5,
+				"dismal_prism": 5,
+				"firm_arrowhead": 3,
+				"mora": 10000
+			},
+			{
+				"narukamis_joy": 5,
+				"dismal_prism": 18,
+				"firm_arrowhead": 12,
+				"mora": 20000
+			},
+			{
+				"narukamis_joy": 9,
+				"crystal_prism": 9,
+				"sharp_arrowhead": 9,
+				"mora": 30000
+			},
+			{
+				"narukamis_affection": 5,
+				"crystal_prism": 18,
+				"sharp_arrowhead": 14,
+				"mora": 45000
+			},
+			{
+				"narukamis_affection": 9,
+				"polarizing_prism": 14,
+				"weathered_arrowhead": 9,
+				"mora": 55000
+			},
+			{
+				"narukamis_valor": 6,
+				"polarizing_prism": 27,
+				"weathered_arrowhead": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1682410515,
+		"name": "Rule by Thunder",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1155090,
+				"desc_hash": 4166726593,
+				"desc": "Increases ATK by <color=#99FFFFFF>20%</color> and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by <color=#99FFFFFF>12/24/40%</color>. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1155091,
+				"desc_hash": 2262429105,
+				"desc": "Increases ATK by <color=#99FFFFFF>25%</color> and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by <color=#99FFFFFF>15/30/50%</color>. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1155092,
+				"desc_hash": 250047161,
+				"desc": "Increases ATK by <color=#99FFFFFF>30%</color> and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by <color=#99FFFFFF>18/36/60%</color>. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1155093,
+				"desc_hash": 3651035713,
+				"desc": "Increases ATK by <color=#99FFFFFF>35%</color> and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by <color=#99FFFFFF>21/42/70%</color>. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1155094,
+				"desc_hash": 832907033,
+				"desc": "Increases ATK by <color=#99FFFFFF>40%</color> and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by <color=#99FFFFFF>24/48/80%</color>. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+				"cost": 16000
+			}
+		]
+	}
+}

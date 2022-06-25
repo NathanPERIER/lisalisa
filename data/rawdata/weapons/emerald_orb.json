@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 14304,
+	"promote_id": 14304,
+	"gadget_id": 50014304,
+	"story_id": [
+		194304
+	],
+	"skill_affix": [
+		114304,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 2963220587,
+	"desc_hash": 4004013141,
+	"name": "Emerald Orb",
+	"desc": "A catalyst carved out of the hard jade from Jueyun Karst north of Liyue. Small, light, and durable, it is known more colloquially as the \"jade ball.\"",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 39.875099182128906,
+		"Elemental Mastery": 20.399999618530273
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_102",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"luminous_sands_from_guyun": 2,
+				"hunters_sacrificial_knife": 2,
+				"treasure_hoarder_insignia": 1,
+				"mora": 5000
+			},
+			{
+				"lustrous_stone_from_guyun": 2,
+				"hunters_sacrificial_knife": 8,
+				"treasure_hoarder_insignia": 5,
+				"mora": 10000
+			},
+			{
+				"lustrous_stone_from_guyun": 4,
+				"agents_sacrificial_knife": 4,
+				"silver_raven_insignia": 4,
+				"mora": 15000
+			},
+			{
+				"relic_from_guyun": 2,
+				"agents_sacrificial_knife": 8,
+				"silver_raven_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"relic_from_guyun": 4,
+				"inspectors_sacrificial_knife": 6,
+				"golden_raven_insignia": 4,
+				"mora": 25000
+			},
+			{
+				"divine_body_from_guyun": 3,
+				"inspectors_sacrificial_knife": 12,
+				"golden_raven_insignia": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 4164346867,
+		"name": "Rapids",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1143040,
+				"desc_hash": 3736277897,
+				"desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>20%</color> for 12s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1143041,
+				"desc_hash": 3424958577,
+				"desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>25%</color> for 12s.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1143042,
+				"desc_hash": 3724222105,
+				"desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>30%</color> for 12s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1143043,
+				"desc_hash": 1485253745,
+				"desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>35%</color> for 12s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1143044,
+				"desc_hash": 3868306657,
+				"desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>40%</color> for 12s.",
+				"cost": 4000
+			}
+		]
+	}
+}

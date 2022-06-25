@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 14303,
+	"promote_id": 14303,
+	"gadget_id": 50014303,
+	"story_id": [
+		194303
+	],
+	"skill_affix": [
+		114303,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 1406746947,
+	"desc_hash": 201204037,
+	"name": "Otherworldly Story",
+	"desc": "A cheap fantasy novel with no value whatsoever. Any claim that it possesses the power of catalysis is also pure fantasy.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 38.74129867553711,
+		"Energy Recharge%": 0.08500000089406967
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 2,
+				"chaos_device": 2,
+				"damaged_mask": 1,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 2,
+				"chaos_device": 8,
+				"damaged_mask": 5,
+				"mora": 10000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 4,
+				"chaos_circuit": 4,
+				"stained_mask": 4,
+				"mora": 15000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 2,
+				"chaos_circuit": 8,
+				"stained_mask": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 4,
+				"chaos_core": 6,
+				"ominous_mask": 4,
+				"mora": 25000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 3,
+				"chaos_core": 12,
+				"ominous_mask": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2433054179,
+		"name": "Energy Shower",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1143030,
+				"desc_hash": 3986553513,
+				"desc": "Picking up an Elemental Energy Orb/Particle recovers <color=#99FFFFFF>1%</color> HP.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1143031,
+				"desc_hash": 4118449793,
+				"desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.25%</color> HP.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1143032,
+				"desc_hash": 3866142489,
+				"desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.5%</color> HP.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1143033,
+				"desc_hash": 3983462457,
+				"desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.75%</color> HP.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1143034,
+				"desc_hash": 694477017,
+				"desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>2%</color> HP.",
+				"cost": 4000
+			}
+		]
+	}
+}

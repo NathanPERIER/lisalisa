@@ -1,0 +1,839 @@
+{
+	"hoyo_id": 10000039,
+	"promote_id": 39,
+	"skill_depot_id": 3901,
+	"fetter_id": 127,
+	"weapon": "bow",
+	"name_hash": 1468367538,
+	"desc_hash": 3149724857,
+	"name": "Diona",
+	"desc": "A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_LOLI",
+	"birthday": [
+		18,
+		1
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		4127670180,
+		924821409
+	],
+	"astrolabe_hash": [
+		2062356506,
+		516952915
+	],
+	"allegiance_hash": 967464153,
+	"vision": "cryo",
+	"astrolabe": "Feles",
+	"allegiance": "The Cat's Tail",
+	"default_weapon": "hunters_bow",
+	"base_stats": {
+		"Base HP": 802.3760986328125,
+		"Base ATK": 17.808000564575195,
+		"Base DEF": 50.358001708984375,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"shivada_jade_sliver": 1,
+				"calla_lily": 3,
+				"firm_arrowhead": 3,
+				"mora": 20000
+			},
+			{
+				"shivada_jade_fragment": 3,
+				"hoarfrost_core": 2,
+				"calla_lily": 10,
+				"firm_arrowhead": 15,
+				"mora": 40000
+			},
+			{
+				"shivada_jade_fragment": 6,
+				"hoarfrost_core": 4,
+				"calla_lily": 20,
+				"sharp_arrowhead": 12,
+				"mora": 60000
+			},
+			{
+				"shivada_jade_chunk": 3,
+				"hoarfrost_core": 8,
+				"calla_lily": 30,
+				"sharp_arrowhead": 18,
+				"mora": 80000
+			},
+			{
+				"shivada_jade_chunk": 6,
+				"hoarfrost_core": 12,
+				"calla_lily": 45,
+				"weathered_arrowhead": 12,
+				"mora": 100000
+			},
+			{
+				"shivada_jade_gemstone": 6,
+				"hoarfrost_core": 20,
+				"calla_lily": 60,
+				"weathered_arrowhead": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 599.416015625,
+					"Base DEF": 37.619998931884766,
+					"Base ATK": 13.303799629211426,
+					"Cryo DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1025.31689453125,
+					"Base DEF": 64.3499984741211,
+					"Base ATK": 22.756500244140625,
+					"Cryo DMG%": 0.05999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1593.1846923828125,
+					"Base DEF": 99.98999786376953,
+					"Base ATK": 35.36009979248047,
+					"Cryo DMG%": 0.11999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2019.08544921875,
+					"Base DEF": 126.72000122070312,
+					"Base ATK": 44.812801361083984,
+					"Cryo DMG%": 0.11999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2444.986328125,
+					"Base DEF": 153.4499969482422,
+					"Base ATK": 54.265499114990234,
+					"Cryo DMG%": 0.18000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 2870.88720703125,
+					"Base DEF": 180.17999267578125,
+					"Base ATK": 63.71820068359375,
+					"Cryo DMG%": 0.23999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 3860542709,
+			"desc_hash": 55456664,
+			"charge_num": 1,
+			"name": "Normal Attack: K\u00e4tzlein Style",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"firm_arrowhead": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"sharp_arrowhead": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"sharp_arrowhead": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sharp_arrowhead": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"sharp_arrowhead": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"weathered_arrowhead": 4,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"weathered_arrowhead": 6,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"weathered_arrowhead": 9,
+					"shard_of_a_foul_legacy": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"weathered_arrowhead": 12,
+					"shard_of_a_foul_legacy": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Aimed Shot",
+					"Fully-Charged Aimed Shot",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"36.12%",
+						"33.54%",
+						"45.58%",
+						"43%",
+						"53.75%",
+						"43.86%",
+						"124%",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"39.06%",
+						"36.27%",
+						"49.29%",
+						"46.5%",
+						"58.13%",
+						"47.43%",
+						"133.3%",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"42%",
+						"39%",
+						"53%",
+						"50%",
+						"62.5%",
+						"51%",
+						"142.6%",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"46.2%",
+						"42.9%",
+						"58.3%",
+						"55%",
+						"68.75%",
+						"56.1%",
+						"155%",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"49.14%",
+						"45.63%",
+						"62.01%",
+						"58.5%",
+						"73.12%",
+						"59.67%",
+						"164.3%",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"52.5%",
+						"48.75%",
+						"66.25%",
+						"62.5%",
+						"78.12%",
+						"63.75%",
+						"173.6%",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"57.12%",
+						"53.04%",
+						"72.08%",
+						"68%",
+						"85%",
+						"69.36%",
+						"186%",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"61.74%",
+						"57.33%",
+						"77.91%",
+						"73.5%",
+						"91.87%",
+						"74.97%",
+						"198.4%",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"66.36%",
+						"61.62%",
+						"83.74%",
+						"79%",
+						"98.75%",
+						"80.58%",
+						"210.8%",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"71.4%",
+						"66.3%",
+						"90.1%",
+						"85%",
+						"106.25%",
+						"86.7%",
+						"223.2%",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"77.17%",
+						"71.66%",
+						"97.39%",
+						"91.87%",
+						"114.84%",
+						"93.71%",
+						"236.1%",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"83.97%",
+						"77.97%",
+						"105.96%",
+						"99.96%",
+						"124.95%",
+						"101.96%",
+						"252.96%",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"90.76%",
+						"84.28%",
+						"114.53%",
+						"108.05%",
+						"135.06%",
+						"110.21%",
+						"269.82%",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"97.55%",
+						"90.58%",
+						"123.1%",
+						"116.13%",
+						"145.16%",
+						"118.45%",
+						"286.69%",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"104.96%",
+						"97.46%",
+						"132.45%",
+						"124.95%",
+						"156.19%",
+						"127.45%",
+						"303.55%",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 3942666181,
+			"desc_hash": 3246576584,
+			"charge_num": 1,
+			"name": "Icy Paws",
+			"desc": "#Fires an Icy Paw that deals <color=#99FFFFFF>Cryo DMG</color> to opponents and forms a shield on hit.\\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nRapidly fires off 2 Icy Paws.\\n\\n<color=#FFD780FF>Hold</color>\\nDashes back quickly before firing five Icy Paws.\\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\\n\\nThe shield has a 250% <color=#99FFFFFF>Cryo DMG</color> Absorption Bonus, and will cause your active character to become affected by <color=#99FFFFFF>Cryo</color> at the point of formation for a short duration.\\n\\n<i>When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision \u2014 now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"firm_arrowhead": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"sharp_arrowhead": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"sharp_arrowhead": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sharp_arrowhead": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"sharp_arrowhead": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"weathered_arrowhead": 4,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"weathered_arrowhead": 6,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"weathered_arrowhead": 9,
+					"shard_of_a_foul_legacy": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"weathered_arrowhead": 12,
+					"shard_of_a_foul_legacy": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Icy Paw DMG",
+					"Base Shield DMG Absorption",
+					"Duration",
+					"#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD",
+					"Holding CD"
+				],
+				"values": [
+					[
+						"41.92% per Paw",
+						"7.2% Max HP+692",
+						"1.8s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"45.06% per Paw",
+						"7.74% Max HP+762",
+						"1.9s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"48.21% per Paw",
+						"8.28% Max HP+837",
+						"2s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"52.4% per Paw",
+						"9% Max HP+918",
+						"2.1s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"55.54% per Paw",
+						"9.54% Max HP+1004",
+						"2.2s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"58.69% per Paw",
+						"10.08% Max HP+1096",
+						"2.3s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"62.88% per Paw",
+						"10.8% Max HP+1195",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"67.07% per Paw",
+						"11.52% Max HP+1299",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"71.26% per Paw",
+						"12.24% Max HP+1408",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"75.46% per Paw",
+						"12.96% Max HP+1524",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"79.65% per Paw",
+						"13.68% Max HP+1645",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"83.84% per Paw",
+						"14.4% Max HP+1772",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"89.08% per Paw",
+						"15.3% Max HP+1905",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"94.32% per Paw",
+						"16.2% Max HP+2043",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					],
+					[
+						"99.56% per Paw",
+						"17.1% Max HP+2188",
+						"2.4s per Paw",
+						"6s",
+						"15s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 948563965,
+			"desc_hash": 56887240,
+			"charge_num": 1,
+			"name": "Signature Mix",
+			"desc": "Tosses out a special cold brew that deals <color=#99FFFFFF>AoE Cryo DMG</color> and creates a Drunken Mist in an AoE.\\n\\n<color=#FFD780FF>Drunken Mist</color>\\n\u00b7Deals continuous <color=#99FFFFFF>Cryo DMG</color> to opponents within the AoE.\\n\u00b7Continuously regenerates the HP of characters within the AoE.\\n\\n<i>A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"firm_arrowhead": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"sharp_arrowhead": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"sharp_arrowhead": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sharp_arrowhead": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"sharp_arrowhead": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"weathered_arrowhead": 4,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"weathered_arrowhead": 6,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"weathered_arrowhead": 9,
+					"shard_of_a_foul_legacy": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"weathered_arrowhead": 12,
+					"shard_of_a_foul_legacy": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Continuous Field DMG",
+					"HP Regeneration Over Time",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"80%",
+						"52.64%",
+						"5.34% Max HP+513",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"86%",
+						"56.59%",
+						"5.74% Max HP+564",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"92%",
+						"60.54%",
+						"6.14% Max HP+620",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"100%",
+						"65.8%",
+						"6.67% Max HP+680",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"106%",
+						"69.75%",
+						"7.07% Max HP+744",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"112%",
+						"73.7%",
+						"7.47% Max HP+812",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"120%",
+						"78.96%",
+						"8% Max HP+885",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"128%",
+						"84.22%",
+						"8.54% Max HP+962",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"136%",
+						"89.49%",
+						"9.07% Max HP+1043",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"144%",
+						"94.75%",
+						"9.6% Max HP+1129",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"152%",
+						"100.02%",
+						"10.14% Max HP+1218",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"160%",
+						"105.28%",
+						"10.67% Max HP+1313",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"170%",
+						"111.86%",
+						"11.34% Max HP+1411",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"180%",
+						"118.44%",
+						"12.01% Max HP+1514",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"190%",
+						"125.02%",
+						"12.67% Max HP+1620",
+						"12s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 3742754573,
+			"desc_hash": 3924394963,
+			"ascension": 1,
+			"name": "Cat's Tail Secret Menu",
+			"desc": "Characters shielded by <color=#FFD780FF>Icy Paws</color> have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%."
+		},
+		{
+			"name_hash": 184677189,
+			"desc_hash": 907839219,
+			"ascension": 4,
+			"name": "Drunkards' Farce",
+			"desc": "Opponents who enter the AoE of <color=#FFD780FF>Signature Mix</color> have 10% decreased ATK for 15s."
+		},
+		{
+			"name_hash": 2478336245,
+			"desc_hash": 2768580979,
+			"ascension": null,
+			"name": "Complimentary Bar Food",
+			"desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 2653503505,
+			"name": "A Lingering Flavor",
+			"desc_hash": 1358209303,
+			"desc": "Regenerates 15 Energy for Diona after the effects of <color=#FFD780FF>Signature Mix</color> end."
+		},
+		{
+			"name_hash": 3233494081,
+			"name": "Shaken, Not Purred",
+			"desc_hash": 2723142055,
+			"desc": "Increases <color=#FFD780FF>Icy Paws</color>' DMG by 15%, and increases its shield's DMG Absorption by 15%.\\nAdditionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the <color=#FFD780FF>Icy Paws</color> shield's DMG Absorption for 5s."
+		},
+		{
+			"name_hash": 1153113417,
+			"name": "A\u2014Another Round?",
+			"desc_hash": 266501231,
+			"desc": "Increases the Level of <color=#FFD780FF>Signature Mix</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 389925129,
+			"name": "Wine Industry Slayer",
+			"desc_hash": 1880884495,
+			"desc": "Within the radius of <color=#FFD780FF>Signature Mix</color>, Diona's charge time for aimed shots is reduced by 60%"
+		},
+		{
+			"name_hash": 2582391273,
+			"name": "Double Shot, on the Rocks",
+			"desc_hash": 859024503,
+			"desc": "Increases the Level of <color=#FFD780FF>Icy Paws</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3637405321,
+			"name": "Cat's Tail Closing Time",
+			"desc_hash": 1673554303,
+			"desc": "Characters within <color=#FFD780FF>Signature Mix</color>'s radius will gain the following effects based on their HP amounts:\\n\u00b7Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\\n\u00b7Elemental Mastery increased by 200 when HP is above 50%."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 2364432618,
+			"desc_hash": 670221618,
+			"restricted": false,
+			"name": "Sugary Brew",
+			"desc": "Diona's outfit. The work uniform of the Cat's Tail's star bartender."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108134,
+		"name_hash": 77809404,
+		"desc_hash": 3103134717,
+		"type_hash": 2850965942,
+		"rarity": 1,
+		"name": "Definitely Not Bar Food!",
+		"desc": "Diona's specialty. The fish skin is crisp, and the meat is sumptuous. Only someone with a sufficiently great love for fish would be able to bring out such lovely flavors. Now, if only there were something to drink to go with it... Uh-oh, she's looking this way!",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 25142175,
+		"effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+		"original_recipe": "mondstadt_grilled_fish"
+	}
+}

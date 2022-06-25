@@ -1,0 +1,855 @@
+{
+	"hoyo_id": 10000024,
+	"promote_id": 24,
+	"skill_depot_id": 2401,
+	"fetter_id": 113,
+	"weapon": "claymore",
+	"name_hash": 2646367730,
+	"desc_hash": 2910785993,
+	"name": "Beidou",
+	"desc": "Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_LADY",
+	"birthday": [
+		14,
+		2
+	],
+	"region": "liyue",
+	"vision_hash": [
+		4219874220,
+		3157737289
+	],
+	"astrolabe_hash": [
+		3853657898,
+		4085422171
+	],
+	"allegiance_hash": 3508028969,
+	"vision": "electro",
+	"astrolabe": "Victor Mare",
+	"allegiance": "The Crux",
+	"default_weapon": "waster_greatsword",
+	"base_stats": {
+		"Base HP": 1094.149169921875,
+		"Base ATK": 18.876480102539062,
+		"Base DEF": 54.36375045776367,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"vajrada_amethyst_sliver": 1,
+				"noctilucous_jade": 3,
+				"treasure_hoarder_insignia": 3,
+				"mora": 20000
+			},
+			{
+				"vajrada_amethyst_fragment": 3,
+				"lightning_prism": 2,
+				"noctilucous_jade": 10,
+				"treasure_hoarder_insignia": 15,
+				"mora": 40000
+			},
+			{
+				"vajrada_amethyst_fragment": 6,
+				"lightning_prism": 4,
+				"noctilucous_jade": 20,
+				"silver_raven_insignia": 12,
+				"mora": 60000
+			},
+			{
+				"vajrada_amethyst_chunk": 3,
+				"lightning_prism": 8,
+				"noctilucous_jade": 30,
+				"silver_raven_insignia": 18,
+				"mora": 80000
+			},
+			{
+				"vajrada_amethyst_chunk": 6,
+				"lightning_prism": 12,
+				"noctilucous_jade": 45,
+				"golden_raven_insignia": 12,
+				"mora": 100000
+			},
+			{
+				"vajrada_amethyst_gemstone": 6,
+				"lightning_prism": 20,
+				"noctilucous_jade": 60,
+				"golden_raven_insignia": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 817.385498046875,
+					"Base DEF": 40.61249923706055,
+					"Base ATK": 14.102027893066406,
+					"Electro DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1398.1593017578125,
+					"Base DEF": 69.46875,
+					"Base ATK": 24.121889114379883,
+					"Electro DMG%": 0.05999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2172.524658203125,
+					"Base DEF": 107.9437484741211,
+					"Base ATK": 37.48170471191406,
+					"Electro DMG%": 0.11999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2753.29833984375,
+					"Base DEF": 136.8000030517578,
+					"Base ATK": 47.50156784057617,
+					"Electro DMG%": 0.11999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 3334.072265625,
+					"Base DEF": 165.65625,
+					"Base ATK": 57.52143096923828,
+					"Electro DMG%": 0.18000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3914.84619140625,
+					"Base DEF": 194.5124969482422,
+					"Base ATK": 67.54129028320312,
+					"Electro DMG%": 0.23999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 3770302877,
+			"desc_hash": 723463672,
+			"charge_num": 1,
+			"name": "Normal Attack: Oceanborne",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous slashes.\\nAt the end of the sequence, perform a more powerful slash.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_gold": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_gold": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_gold": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_gold": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_gold": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_gold": 4,
+					"golden_raven_insignia": 4,
+					"dvalins_sigh": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_gold": 6,
+					"golden_raven_insignia": 6,
+					"dvalins_sigh": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_gold": 12,
+					"golden_raven_insignia": 9,
+					"dvalins_sigh": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_gold": 16,
+					"golden_raven_insignia": 12,
+					"dvalins_sigh": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack Spinning DMG",
+					"Charged Attack Final DMG",
+					"Charged Attack Stamina Cost",
+					"Max Duration",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"71.12%",
+						"70.86%",
+						"88.32%",
+						"86.52%",
+						"112.14%",
+						"56.24%",
+						"101.82%",
+						"40/s",
+						"5s",
+						"74.59%",
+						"149.14%/186.29%"
+					],
+					[
+						"76.91%",
+						"76.63%",
+						"95.51%",
+						"93.56%",
+						"121.27%",
+						"60.82%",
+						"110.11%",
+						"40/s",
+						"5s",
+						"80.66%",
+						"161.28%/201.45%"
+					],
+					[
+						"82.7%",
+						"82.4%",
+						"102.7%",
+						"100.6%",
+						"130.4%",
+						"65.4%",
+						"118.4%",
+						"40/s",
+						"5s",
+						"86.73%",
+						"173.42%/216.62%"
+					],
+					[
+						"90.97%",
+						"90.64%",
+						"112.97%",
+						"110.66%",
+						"143.44%",
+						"71.94%",
+						"130.24%",
+						"40/s",
+						"5s",
+						"95.4%",
+						"190.77%/238.28%"
+					],
+					[
+						"96.76%",
+						"96.41%",
+						"120.16%",
+						"117.7%",
+						"152.57%",
+						"76.52%",
+						"138.53%",
+						"40/s",
+						"5s",
+						"101.47%",
+						"202.91%/253.44%"
+					],
+					[
+						"103.38%",
+						"103%",
+						"128.38%",
+						"125.75%",
+						"163%",
+						"81.75%",
+						"148%",
+						"40/s",
+						"5s",
+						"108.41%",
+						"216.78%/270.77%"
+					],
+					[
+						"112.47%",
+						"112.06%",
+						"139.67%",
+						"136.82%",
+						"177.34%",
+						"88.94%",
+						"161.02%",
+						"40/s",
+						"5s",
+						"117.95%",
+						"235.86%/294.6%"
+					],
+					[
+						"121.57%",
+						"121.13%",
+						"150.97%",
+						"147.88%",
+						"191.69%",
+						"96.14%",
+						"174.05%",
+						"40/s",
+						"5s",
+						"127.49%",
+						"254.93%/318.42%"
+					],
+					[
+						"130.67%",
+						"130.19%",
+						"162.27%",
+						"158.95%",
+						"206.03%",
+						"103.33%",
+						"187.07%",
+						"40/s",
+						"5s",
+						"137.03%",
+						"274.01%/342.25%"
+					],
+					[
+						"140.59%",
+						"140.08%",
+						"174.59%",
+						"171.02%",
+						"221.68%",
+						"111.18%",
+						"201.28%",
+						"40/s",
+						"5s",
+						"147.44%",
+						"294.82%/368.25%"
+					],
+					[
+						"151.96%",
+						"151.41%",
+						"188.71%",
+						"184.85%",
+						"239.61%",
+						"120.17%",
+						"217.56%",
+						"40/s",
+						"5s",
+						"157.85%",
+						"315.63%/394.24%"
+					],
+					[
+						"165.33%",
+						"164.73%",
+						"205.32%",
+						"201.12%",
+						"260.7%",
+						"130.75%",
+						"236.71%",
+						"40/s",
+						"5s",
+						"168.26%",
+						"336.44%/420.23%"
+					],
+					[
+						"178.71%",
+						"178.06%",
+						"221.92%",
+						"217.39%",
+						"281.78%",
+						"141.32%",
+						"255.85%",
+						"40/s",
+						"5s",
+						"178.66%",
+						"357.25%/446.23%"
+					],
+					[
+						"192.08%",
+						"191.38%",
+						"238.53%",
+						"233.65%",
+						"302.87%",
+						"151.9%",
+						"275%",
+						"40/s",
+						"5s",
+						"189.07%",
+						"378.06%/472.22%"
+					],
+					[
+						"206.67%",
+						"205.92%",
+						"256.65%",
+						"251.4%",
+						"325.87%",
+						"163.43%",
+						"295.88%",
+						"40/s",
+						"5s",
+						"199.48%",
+						"398.87%/498.21%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 3028116765,
+			"desc_hash": 3101314424,
+			"charge_num": 1,
+			"name": "Tidecaller",
+			"desc": "#Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing <color=#FFACFFFF>Electro DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing <color=#FFACFFFF>Electro DMG</color>. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\\nThe shield possesses the following properties:\\n\u00b7Has 250% <color=#FFACFFFF>Electro DMG</color> Absorption Efficiency.\\n\u00b7Applies the <color=#FFACFFFF>Electro element</color> to Beidou upon activation.\\n\\n<i>Conquer the high seas! Pursue the waves and chase the storm!</i>",
+			"costs": [
+				{
+					"teachings_of_gold": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_gold": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_gold": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_gold": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_gold": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_gold": 4,
+					"golden_raven_insignia": 4,
+					"dvalins_sigh": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_gold": 6,
+					"golden_raven_insignia": 6,
+					"dvalins_sigh": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_gold": 12,
+					"golden_raven_insignia": 9,
+					"dvalins_sigh": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_gold": 16,
+					"golden_raven_insignia": 12,
+					"dvalins_sigh": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Shield DMG Absorption",
+					"Base DMG",
+					"DMG Bonus on Hit Taken",
+					"CD"
+				],
+				"values": [
+					[
+						"14.4% Max HP+1386",
+						"121.6%",
+						"160%",
+						"7.5s"
+					],
+					[
+						"15.48% Max HP+1525",
+						"130.72%",
+						"172%",
+						"7.5s"
+					],
+					[
+						"16.56% Max HP+1675",
+						"139.84%",
+						"184%",
+						"7.5s"
+					],
+					[
+						"18% Max HP+1837",
+						"152%",
+						"200%",
+						"7.5s"
+					],
+					[
+						"19.08% Max HP+2010",
+						"161.12%",
+						"212%",
+						"7.5s"
+					],
+					[
+						"20.16% Max HP+2195",
+						"170.24%",
+						"224%",
+						"7.5s"
+					],
+					[
+						"21.6% Max HP+2391",
+						"182.4%",
+						"240%",
+						"7.5s"
+					],
+					[
+						"23.04% Max HP+2599",
+						"194.56%",
+						"256%",
+						"7.5s"
+					],
+					[
+						"24.48% Max HP+2819",
+						"206.72%",
+						"272%",
+						"7.5s"
+					],
+					[
+						"25.92% Max HP+3050",
+						"218.88%",
+						"288%",
+						"7.5s"
+					],
+					[
+						"27.36% Max HP+3292",
+						"231.04%",
+						"304%",
+						"7.5s"
+					],
+					[
+						"28.8% Max HP+3547",
+						"243.2%",
+						"320%",
+						"7.5s"
+					],
+					[
+						"30.6% Max HP+3812",
+						"258.4%",
+						"340%",
+						"7.5s"
+					],
+					[
+						"32.4% Max HP+4090",
+						"273.6%",
+						"360%",
+						"7.5s"
+					],
+					[
+						"34.2% Max HP+4379",
+						"288.8%",
+						"380%",
+						"7.5s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 2874294485,
+			"desc_hash": 1233611720,
+			"charge_num": 1,
+			"name": "Stormbreaker",
+			"desc": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing <color=#FFACFFFF>Electro DMG</color> to nearby opponents.\\n\\n<color=#FFD780FF>Thunderbeast's Targe</color>\\n\u00b7When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing <color=#FFACFFFF>Electro DMG</color>.\\n\u00b7Increases the character's resistance to interruption, and decreases DMG taken.\\n\\nA maximum of 1 lightning discharge can be triggered per second.\\n\\n<i>With a peal of thunder, Haishan is slain.</i>",
+			"costs": [
+				{
+					"teachings_of_gold": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_gold": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_gold": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_gold": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_gold": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_gold": 4,
+					"golden_raven_insignia": 4,
+					"dvalins_sigh": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_gold": 6,
+					"golden_raven_insignia": 6,
+					"dvalins_sigh": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_gold": 12,
+					"golden_raven_insignia": 9,
+					"dvalins_sigh": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_gold": 16,
+					"golden_raven_insignia": 12,
+					"dvalins_sigh": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Lightning DMG",
+					"DMG Reduction",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"121.6%",
+						"96%",
+						"20%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"130.72%",
+						"103.2%",
+						"21%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"139.84%",
+						"110.4%",
+						"22%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"152%",
+						"120%",
+						"24%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"161.12%",
+						"127.2%",
+						"25%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"170.24%",
+						"134.4%",
+						"26%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"182.4%",
+						"144%",
+						"28%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"194.56%",
+						"153.6%",
+						"30%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"206.72%",
+						"163.2%",
+						"32%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"218.88%",
+						"172.8%",
+						"34%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"231.04%",
+						"182.4%",
+						"35%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"243.2%",
+						"192%",
+						"36%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"258.4%",
+						"204%",
+						"37%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"273.6%",
+						"216%",
+						"38%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"288.8%",
+						"228%",
+						"39%",
+						"15s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 4133627029,
+			"desc_hash": 2212073723,
+			"ascension": 1,
+			"name": "Retribution",
+			"desc": "Counterattacking with <color=#FFD780FF>Tidecaller</color> at the precise moment when the character is hit grants the maximum DMG Bonus."
+		},
+		{
+			"name_hash": 634340965,
+			"desc_hash": 3738470891,
+			"ascension": 4,
+			"name": "Lightning Storm",
+			"desc": "Gain the following effects for 10s after unleashing <color=#FFD780FF>Tidecaller</color> with its maximum DMG Bonus: \\n\u00b7DMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\\n\u00b7Greatly reduced delay before unleashing Charged Attacks."
+		},
+		{
+			"name_hash": 2541261109,
+			"desc_hash": 792917115,
+			"ascension": null,
+			"name": "Conqueror of Tides",
+			"desc": "Decreases swimming Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 1598246073,
+			"name": "Sea Beast's Scourge",
+			"desc_hash": 2899101639,
+			"desc": "When <color=#FFD780FF>Stormbreaker</color> is used:\\nCreates a shield that absorbs up to 16% of Beidou's Max HP for 15s.\\nThis shield absorbs <color=#FFACFFFF>Electro DMG</color> 250% more effectively."
+		},
+		{
+			"name_hash": 2620399769,
+			"name": "Upon the Turbulent Sea, the Thunder Arises",
+			"desc_hash": 2277441935,
+			"desc": "<color=#FFD780FF>Stormbreaker</color>'s arc lightning can jump to 2 additional targets."
+		},
+		{
+			"name_hash": 2741836993,
+			"name": "Summoner of Storm",
+			"desc_hash": 4053128919,
+			"desc": "Increases the Level of <color=#FFD780FF>Tidecaller</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 1523101409,
+			"name": "Stunning Revenge",
+			"desc_hash": 1024043391,
+			"desc": "Upon being attacked, Beidou's Normal Attacks gain an additional instance of 20% <color=#FFACFFFF>Electro DMG</color> for 10s."
+		},
+		{
+			"name_hash": 2181637521,
+			"name": "Crimson Tidewalker",
+			"desc_hash": 938587127,
+			"desc": "Increases the Level of <color=#FFD780FF>Stormbreaker</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 688452449,
+			"name": "Bane of Evil",
+			"desc_hash": 1391917287,
+			"desc": "During the duration of <color=#FFD780FF>Stormbreaker</color>, the <color=#FFACFFFF>Electro RES</color> of surrounding opponents is decreased by 15%."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 2091122082,
+			"desc_hash": 1844332810,
+			"restricted": false,
+			"name": "Rolling Waves",
+			"desc": "Beidou's outfit. Lightweight clothing saturated with a brave seafarer's spirit."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108138,
+		"name_hash": 4120813956,
+		"desc_hash": 2696049221,
+		"type_hash": 135788662,
+		"rarity": 1,
+		"name": "Flash-Fried Filet",
+		"desc": "Beidou's specialty. They say that Beidou once learned some tricks from Xiangling, making some refinements and adding more flavor to this dish. If you can clean it out in one go, perhaps you might impress her.",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 1709769823,
+		"effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+		"original_recipe": "stir_fried_filet"
+	}
+}

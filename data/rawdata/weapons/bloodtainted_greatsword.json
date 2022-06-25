@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12302,
+	"promote_id": 12302,
+	"gadget_id": 50012302,
+	"story_id": [
+		192302
+	],
+	"skill_affix": [
+		112302,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 4090429643,
+	"desc_hash": 3230364157,
+	"name": "Bloodtainted Greatsword",
+	"desc": "A steel sword that is said to have been coated with dragon blood, rendering it invulnerable to damage. This effect is not extended to its wielder, however.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 37.60749816894531,
+		"Elemental Mastery": 40.79999923706055
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_104",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"boreal_wolfs_milk_tooth": 2,
+				"dead_ley_line_branch": 2,
+				"firm_arrowhead": 1,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 2,
+				"dead_ley_line_branch": 8,
+				"firm_arrowhead": 5,
+				"mora": 10000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 4,
+				"dead_ley_line_leaves": 4,
+				"sharp_arrowhead": 4,
+				"mora": 15000
+			},
+			{
+				"boreal_wolfs_broken_fang": 2,
+				"dead_ley_line_leaves": 8,
+				"sharp_arrowhead": 6,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_broken_fang": 4,
+				"ley_line_sprout": 6,
+				"weathered_arrowhead": 4,
+				"mora": 25000
+			},
+			{
+				"boreal_wolfs_nostalgia": 3,
+				"ley_line_sprout": 12,
+				"weathered_arrowhead": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2101250667,
+		"name": "Bane of Fire and Thunder",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1123020,
+				"desc_hash": 2986417169,
+				"desc": "Increases DMG dealt against opponents affected by Pyro or Electro by <color=#99FFFFFF>12%</color>.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1123021,
+				"desc_hash": 448306209,
+				"desc": "Increases DMG dealt against opponents affected by Pyro or Electro by <color=#99FFFFFF>15%</color>.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1123022,
+				"desc_hash": 563867881,
+				"desc": "Increases DMG dealt against opponents affected by Pyro or Electro by <color=#99FFFFFF>18%</color>.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1123023,
+				"desc_hash": 1722471113,
+				"desc": "Increases DMG dealt against opponents affected by Pyro or Electro by <color=#99FFFFFF>21%</color>.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1123024,
+				"desc_hash": 2736186969,
+				"desc": "Increases DMG against opponents affected by Pyro or Electro by <color=#99FFFFFF>24%</color>.",
+				"cost": 4000
+			}
+		]
+	}
+}

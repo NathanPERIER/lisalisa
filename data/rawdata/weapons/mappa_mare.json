@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 14407,
+	"promote_id": 14407,
+	"gadget_id": 50014407,
+	"story_id": [
+		194407
+	],
+	"skill_affix": [
+		114407,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 1072884907,
+	"desc_hash": 727794477,
+	"name": "Mappa Mare",
+	"desc": "A nautical chart featuring nearby currents and climates that somehow found its way into Liyue via foreign traders.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 43.734901428222656,
+		"Elemental Mastery": 24.0
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_202",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"grain_of_aerosiderite": 3,
+				"fragile_bone_shard": 3,
+				"slime_condensate": 2,
+				"mora": 5000
+			},
+			{
+				"piece_of_aerosiderite": 3,
+				"fragile_bone_shard": 12,
+				"slime_condensate": 8,
+				"mora": 15000
+			},
+			{
+				"piece_of_aerosiderite": 6,
+				"sturdy_bone_shard": 6,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"bit_of_aerosiderite": 3,
+				"sturdy_bone_shard": 12,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"bit_of_aerosiderite": 6,
+				"fossilized_bone_shard": 9,
+				"slime_concentrate": 6,
+				"mora": 35000
+			},
+			{
+				"chunk_of_aerosiderite": 4,
+				"fossilized_bone_shard": 18,
+				"slime_concentrate": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1663313163,
+		"name": "Infusion Scroll",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1144070,
+				"desc_hash": 170742345,
+				"desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>8%</color> Elemental DMG Bonus for 10s. Max 2 stacks.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1144071,
+				"desc_hash": 7429425,
+				"desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>10%</color> Elemental DMG Bonus for 10s. Max 2 stacks.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1144072,
+				"desc_hash": 3809105025,
+				"desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>12%</color> Elemental DMG Bonus for 10s. Max 2 stacks.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1144073,
+				"desc_hash": 3091429793,
+				"desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>14%</color> Elemental DMG Bonus for 10s. Max 2 stacks.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1144074,
+				"desc_hash": 3645696297,
+				"desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>16%</color> Elemental DMG Bonus for 10s. Max 2 stacks.",
+				"cost": 8000
+			}
+		]
+	}
+}

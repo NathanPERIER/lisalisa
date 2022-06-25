@@ -1,0 +1,759 @@
+{
+	"hoyo_id": 10000029,
+	"promote_id": 29,
+	"skill_depot_id": 2901,
+	"fetter_id": 117,
+	"weapon": "catalyst",
+	"name_hash": 3339083250,
+	"desc_hash": 2313554193,
+	"name": "Klee",
+	"desc": "An explosives expert and a regular at the Knights of Favonius's confinement room. Also known as Fleeing Sunlight.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_LOLI",
+	"birthday": [
+		27,
+		7
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		3847511308,
+		3057376089
+	],
+	"astrolabe_hash": [
+		2230999650,
+		567731819
+	],
+	"allegiance_hash": 702194017,
+	"vision": "pyro",
+	"astrolabe": "Trifolium",
+	"allegiance": "Knights of Favonius",
+	"default_weapon": "apprentices_notes",
+	"base_stats": {
+		"Base HP": 800.788818359375,
+		"Base ATK": 24.20599937438965,
+		"Base DEF": 47.86399841308594,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"agnidus_agate_sliver": 1,
+				"philanemo_mushroom": 3,
+				"divining_scroll": 3,
+				"mora": 20000
+			},
+			{
+				"agnidus_agate_fragment": 3,
+				"everflame_seed": 2,
+				"philanemo_mushroom": 10,
+				"divining_scroll": 15,
+				"mora": 40000
+			},
+			{
+				"agnidus_agate_fragment": 6,
+				"everflame_seed": 4,
+				"philanemo_mushroom": 20,
+				"sealed_scroll": 12,
+				"mora": 60000
+			},
+			{
+				"agnidus_agate_chunk": 3,
+				"everflame_seed": 8,
+				"philanemo_mushroom": 30,
+				"sealed_scroll": 18,
+				"mora": 80000
+			},
+			{
+				"agnidus_agate_chunk": 6,
+				"everflame_seed": 12,
+				"philanemo_mushroom": 45,
+				"forbidden_curse_scroll": 12,
+				"mora": 100000
+			},
+			{
+				"agnidus_agate_gemstone": 6,
+				"everflame_seed": 20,
+				"philanemo_mushroom": 60,
+				"forbidden_curse_scroll": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 686.60400390625,
+					"Base DEF": 41.040000915527344,
+					"Base ATK": 20.752939224243164,
+					"Pyro DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1174.4542236328125,
+					"Base DEF": 70.19999694824219,
+					"Base ATK": 35.498451232910156,
+					"Pyro DMG%": 0.07199999690055847
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1824.921142578125,
+					"Base DEF": 109.08000183105469,
+					"Base ATK": 55.15913009643555,
+					"Pyro DMG%": 0.14399999380111694
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2312.771240234375,
+					"Base DEF": 138.24000549316406,
+					"Base ATK": 69.9046401977539,
+					"Pyro DMG%": 0.14399999380111694
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2800.62158203125,
+					"Base DEF": 167.39999389648438,
+					"Base ATK": 84.650146484375,
+					"Pyro DMG%": 0.2160000056028366
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3288.4716796875,
+					"Base DEF": 196.55999755859375,
+					"Base ATK": 99.39566040039062,
+					"Pyro DMG%": 0.2879999876022339
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 161160581,
+			"desc_hash": 468291488,
+			"charge_num": 1,
+			"name": "Normal Attack: Kaboom!",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nThrows things that go boom when they hit things! Perform up to 3 explosive attacks, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina and deals <color=#FF9999FF>AoE Pyro DMG</color> to opponents after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FF9999FF>AoE Pyro DMG</color> upon impact with the ground.",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"forbidden_curse_scroll": 4,
+					"ring_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"forbidden_curse_scroll": 6,
+					"ring_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"forbidden_curse_scroll": 9,
+					"ring_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"forbidden_curse_scroll": 12,
+					"ring_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"72.16%",
+						"62.4%",
+						"89.92%",
+						"157.36%",
+						"50",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"77.57%",
+						"67.08%",
+						"96.66%",
+						"169.16%",
+						"50",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"82.98%",
+						"71.76%",
+						"103.41%",
+						"180.96%",
+						"50",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"90.2%",
+						"78%",
+						"112.4%",
+						"196.7%",
+						"50",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"95.61%",
+						"82.68%",
+						"119.14%",
+						"208.5%",
+						"50",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"101.02%",
+						"87.36%",
+						"125.89%",
+						"220.3%",
+						"50",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"108.24%",
+						"93.6%",
+						"134.88%",
+						"236.04%",
+						"50",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"115.46%",
+						"99.84%",
+						"143.87%",
+						"251.78%",
+						"50",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"122.67%",
+						"106.08%",
+						"152.86%",
+						"267.51%",
+						"50",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"129.89%",
+						"112.32%",
+						"161.86%",
+						"283.25%",
+						"50",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"137.39%",
+						"118.81%",
+						"171.21%",
+						"299.61%",
+						"50",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"147.21%",
+						"127.3%",
+						"183.44%",
+						"321.01%",
+						"50",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"157.02%",
+						"135.78%",
+						"195.67%",
+						"342.42%",
+						"50",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"166.83%",
+						"144.27%",
+						"207.89%",
+						"363.82%",
+						"50",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"176.65%",
+						"152.76%",
+						"220.12%",
+						"385.22%",
+						"50",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 3723743117,
+			"desc_hash": 713417336,
+			"charge_num": 2,
+			"name": "Jumpy Dumpty",
+			"desc": "Jumpy Dumpty is tons of boom-bang-fun! \\nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing <color=#FF9999FF>AoE Pyro DMG</color> with every bounce.\\n\\nOn the third bounce, the bomb splits into many mines.\\nThe mines will explode upon contact with opponents, or after a short period of time, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\n\\nStarts with 2 charges.\\n\\n<i>Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone.</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"forbidden_curse_scroll": 4,
+					"ring_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"forbidden_curse_scroll": 6,
+					"ring_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"forbidden_curse_scroll": 9,
+					"ring_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"forbidden_curse_scroll": 12,
+					"ring_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Jumpy Dumpty DMG",
+					"Mine DMG",
+					"Mine Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"95.2%",
+						"32.8%",
+						"15s",
+						"20s"
+					],
+					[
+						"102.34%",
+						"35.26%",
+						"15s",
+						"20s"
+					],
+					[
+						"109.48%",
+						"37.72%",
+						"15s",
+						"20s"
+					],
+					[
+						"119%",
+						"41%",
+						"15s",
+						"20s"
+					],
+					[
+						"126.14%",
+						"43.46%",
+						"15s",
+						"20s"
+					],
+					[
+						"133.28%",
+						"45.92%",
+						"15s",
+						"20s"
+					],
+					[
+						"142.8%",
+						"49.2%",
+						"15s",
+						"20s"
+					],
+					[
+						"152.32%",
+						"52.48%",
+						"15s",
+						"20s"
+					],
+					[
+						"161.84%",
+						"55.76%",
+						"15s",
+						"20s"
+					],
+					[
+						"171.36%",
+						"59.04%",
+						"15s",
+						"20s"
+					],
+					[
+						"180.88%",
+						"62.32%",
+						"15s",
+						"20s"
+					],
+					[
+						"190.4%",
+						"65.6%",
+						"15s",
+						"20s"
+					],
+					[
+						"202.3%",
+						"69.7%",
+						"15s",
+						"20s"
+					],
+					[
+						"214.2%",
+						"73.8%",
+						"15s",
+						"20s"
+					],
+					[
+						"226.1%",
+						"77.9%",
+						"15s",
+						"20s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 1371192733,
+			"desc_hash": 3680863856,
+			"charge_num": 1,
+			"name": "Sparks 'n' Splash",
+			"desc": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\n\\n<i>The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"forbidden_curse_scroll": 4,
+					"ring_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"forbidden_curse_scroll": 6,
+					"ring_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"forbidden_curse_scroll": 9,
+					"ring_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"forbidden_curse_scroll": 12,
+					"ring_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Sparks 'n' Splash DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"42.64%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"45.84%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"49.04%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"53.3%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"56.5%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"59.7%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"63.96%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"68.22%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"72.49%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"76.75%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"81.02%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"85.28%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"90.61%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"95.94%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"101.27%",
+						"10s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 1539278821,
+			"desc_hash": 633641795,
+			"ascension": 1,
+			"name": "Pounding Surprise",
+			"desc": "When <color=#FFD780FF>Jumpy Dumpty</color> and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark.\\nThis Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG."
+		},
+		{
+			"name_hash": 330795749,
+			"desc_hash": 3585141899,
+			"ascension": 4,
+			"name": "Sparkling Burst",
+			"desc": "When Klee's Charged Attack results in a CRIT Hit, all party members gain 2 Elemental Energy."
+		},
+		{
+			"name_hash": 3590967205,
+			"desc_hash": 710544459,
+			"ascension": null,
+			"name": "All Of My Treasures!",
+			"desc": "Displays the location of nearby <color=#FFD780FF>resources unique to Mondstadt</color> on the mini-map."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 600240137,
+			"name": "Chained Reactions",
+			"desc_hash": 4004824647,
+			"desc": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of <color=#FFD780FF>Sparks 'n' Splash</color>'s DMG."
+		},
+		{
+			"name_hash": 328772169,
+			"name": "Explosive Frags",
+			"desc_hash": 4201661495,
+			"desc": "Being hit by <color=#FFD780FF>Jumpy Dumpty</color>'s mines decreases opponents' DEF by 23% for 10s."
+		},
+		{
+			"name_hash": 1369435161,
+			"name": "Exquisite Compound",
+			"desc_hash": 2182377015,
+			"desc": "Increases the Level of <color=#FFD780FF>Jumpy Dumpty</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 1327047857,
+			"name": "Sparkly Explosion",
+			"desc_hash": 3999371183,
+			"desc": "If Klee leaves the field during the duration of <color=#FFD780FF>Sparks 'n' Splash</color>, her departure triggers an explosion that deals 555% of her ATK as <color=#FF9999FF>AoE Pyro DMG</color>."
+		},
+		{
+			"name_hash": 3317796233,
+			"name": "Nova Burst",
+			"desc_hash": 4010119167,
+			"desc": "Increases the Level of <color=#FFD780FF>Sparks 'n' Splash</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 1554210529,
+			"name": "Blazing Delight",
+			"desc_hash": 1281989519,
+			"desc": "While under the effects of <color=#FFD780FF>Sparks 'n' Splash</color>, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.\\nWhen <color=#FFD780FF>Sparks 'n' Splash</color> is used, all party members will gain a 10% <color=#FF9999FF>Pyro DMG Bonus</color> for 25s."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 1023505626,
+			"desc_hash": 3488214794,
+			"restricted": false,
+			"name": "Shooting Spark",
+			"desc": "Klee's outfit. A set of clothing for an energetic child that even comes with a matching leather backpack."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108115,
+		"name_hash": 4243799012,
+		"desc_hash": 2403757549,
+		"type_hash": 4291242670,
+		"rarity": 2,
+		"name": "Fish-Flavored Toast",
+		"desc": "Klee's specialty. By way of apology for wantonly using her bombs to scare away the fish, Jean instructed Klee to make this toast for the fishermen. It's filling and tasty. Klee will never starve again, even after a whole day of blast fishing.",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 2045678999,
+		"effect": "Increases all party members' DEF by 151 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+		"original_recipe": "fishermans_toast"
+	}
+}

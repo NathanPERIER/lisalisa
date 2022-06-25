@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 11305,
+	"promote_id": 11305,
+	"gadget_id": 50011305,
+	"story_id": [
+		191305
+	],
+	"skill_affix": [
+		111305,
+		0
+	],
+	"type": "sword",
+	"name_hash": 3421967235,
+	"desc_hash": 2798582285,
+	"name": "Fillet Blade",
+	"desc": "A sharp filleting knife. The blade is long, thin, and incredibly sharp.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 38.74129867553711,
+		"ATK%": 0.07660000026226044
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101",
+		"ATK%": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"mist_veiled_lead_elixir": 2,
+				"mist_grass_pollen": 2,
+				"treasure_hoarder_insignia": 1,
+				"mora": 5000
+			},
+			{
+				"mist_veiled_mercury_elixir": 2,
+				"mist_grass_pollen": 8,
+				"treasure_hoarder_insignia": 5,
+				"mora": 10000
+			},
+			{
+				"mist_veiled_mercury_elixir": 4,
+				"mist_grass": 4,
+				"silver_raven_insignia": 4,
+				"mora": 15000
+			},
+			{
+				"mist_veiled_gold_elixir": 2,
+				"mist_grass": 8,
+				"silver_raven_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"mist_veiled_gold_elixir": 4,
+				"mist_grass_wick": 6,
+				"golden_raven_insignia": 4,
+				"mora": 25000
+			},
+			{
+				"mist_veiled_primo_elixir": 3,
+				"mist_grass_wick": 12,
+				"golden_raven_insignia": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3397834435,
+		"name": "Gash",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1113050,
+				"desc_hash": 3893281385,
+				"desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>240%</color> ATK DMG to a single opponent. Can only occur once every <color=#99FFFFFF>15</color>s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1113051,
+				"desc_hash": 4143726001,
+				"desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>280%</color> ATK DMG to a single opponent. Can only occur once every <color=#99FFFFFF>14</color>s.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1113052,
+				"desc_hash": 3297377633,
+				"desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>320%</color> ATK DMG to a single opponent. Can only occur once every <color=#99FFFFFF>13</color>s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1113053,
+				"desc_hash": 91557945,
+				"desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>360%</color> ATK DMG to a single opponent. Can only occur once every <color=#99FFFFFF>12</color>s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1113054,
+				"desc_hash": 3687483889,
+				"desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>400%</color> ATK DMG to a single target. Can only occur once every <color=#99FFFFFF>11</color>s.",
+				"cost": 4000
+			}
+		]
+	}
+}

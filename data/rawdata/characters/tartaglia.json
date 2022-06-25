@@ -1,0 +1,1031 @@
+{
+	"hoyo_id": 10000033,
+	"promote_id": 33,
+	"skill_depot_id": 3301,
+	"fetter_id": 121,
+	"weapon": "bow",
+	"name_hash": 3847143266,
+	"desc_hash": 1915755417,
+	"name": "Tartaglia",
+	"desc": "No. 11 of The Harbingers, also known as \"Childe.\" His name is highly feared on the battlefield.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_MALE",
+	"birthday": [
+		20,
+		7
+	],
+	"region": "snezhnaya",
+	"vision_hash": [
+		3646588372,
+		2573101121
+	],
+	"astrolabe_hash": [
+		3423950162,
+		605778827
+	],
+	"allegiance_hash": 3774913721,
+	"vision": "hydro",
+	"astrolabe": "Monoceros Caeli",
+	"allegiance": "Fatui",
+	"default_weapon": "hunters_bow",
+	"base_stats": {
+		"Base HP": 1020.0524291992188,
+		"Base ATK": 23.461200714111328,
+		"Base DEF": 63.4197998046875,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"varunada_lazurite_sliver": 1,
+				"starconch": 3,
+				"recruits_insignia": 3,
+				"mora": 20000
+			},
+			{
+				"varunada_lazurite_fragment": 3,
+				"cleansing_heart": 2,
+				"starconch": 10,
+				"recruits_insignia": 15,
+				"mora": 40000
+			},
+			{
+				"varunada_lazurite_fragment": 6,
+				"cleansing_heart": 4,
+				"starconch": 20,
+				"sergeants_insignia": 12,
+				"mora": 60000
+			},
+			{
+				"varunada_lazurite_chunk": 3,
+				"cleansing_heart": 8,
+				"starconch": 30,
+				"sergeants_insignia": 18,
+				"mora": 80000
+			},
+			{
+				"varunada_lazurite_chunk": 6,
+				"cleansing_heart": 12,
+				"starconch": 45,
+				"lieutenants_insignia": 12,
+				"mora": 100000
+			},
+			{
+				"varunada_lazurite_gemstone": 6,
+				"cleansing_heart": 20,
+				"starconch": 60,
+				"lieutenants_insignia": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 874.6027221679688,
+					"Base DEF": 54.37799835205078,
+					"Base ATK": 20.11438751220703,
+					"Hydro DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1496.0308837890625,
+					"Base DEF": 93.01499938964844,
+					"Base ATK": 34.40618896484375,
+					"Hydro DMG%": 0.07199999690055847
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2324.601806640625,
+					"Base DEF": 144.531005859375,
+					"Base ATK": 53.4619255065918,
+					"Hydro DMG%": 0.14399999380111694
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2946.030029296875,
+					"Base DEF": 183.16799926757812,
+					"Base ATK": 67.75373077392578,
+					"Hydro DMG%": 0.14399999380111694
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 3567.45849609375,
+					"Base DEF": 221.80499267578125,
+					"Base ATK": 82.0455322265625,
+					"Hydro DMG%": 0.2160000056028366
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 4188.88671875,
+					"Base DEF": 260.4419860839844,
+					"Base ATK": 96.33733367919922,
+					"Hydro DMG%": 0.2879999876022339
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 2900039733,
+			"desc_hash": 3006751504,
+			"charge_num": 1,
+			"name": "Normal Attack: Cutting Torrent",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 6 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal <color=#80C0FFFF>Hydro DMG</color> and apply the Riptide status.\\n\\n<color=#FFD780FF>Riptide</color>\\nOpponents affected by Riptide will suffer from <color=#80C0FFFF>AoE Hydro DMG</color> effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.\\n\u00b7Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.\\n\u00b7Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\\nWhen Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"recruits_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"sergeants_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"sergeants_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sergeants_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"sergeants_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"lieutenants_insignia": 4,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"lieutenants_insignia": 6,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"lieutenants_insignia": 9,
+					"shard_of_a_foul_legacy": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"lieutenants_insignia": 12,
+					"shard_of_a_foul_legacy": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"6-Hit DMG",
+					"Aimed Shot",
+					"Fully-Charged Aimed Shot",
+					"Riptide Flash DMG",
+					"Riptide Burst DMG",
+					"Riptide Duration",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"41.28%",
+						"46.27%",
+						"55.38%",
+						"57.02%",
+						"60.89%",
+						"72.76%",
+						"43.86%",
+						"124%",
+						"12.4%\u00d73",
+						"62%",
+						"10s",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"44.64%",
+						"50.03%",
+						"59.89%",
+						"61.66%",
+						"65.84%",
+						"78.68%",
+						"47.43%",
+						"133.3%",
+						"13.33%\u00d73",
+						"66.65%",
+						"10s",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"48%",
+						"53.8%",
+						"64.4%",
+						"66.3%",
+						"70.8%",
+						"84.6%",
+						"51%",
+						"142.6%",
+						"14.26%\u00d73",
+						"71.3%",
+						"10s",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"52.8%",
+						"59.18%",
+						"70.84%",
+						"72.93%",
+						"77.88%",
+						"93.06%",
+						"56.1%",
+						"155%",
+						"15.5%\u00d73",
+						"77.5%",
+						"10s",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"56.16%",
+						"62.95%",
+						"75.35%",
+						"77.57%",
+						"82.84%",
+						"98.98%",
+						"59.67%",
+						"164.3%",
+						"16.43%\u00d73",
+						"82.15%",
+						"10s",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"60%",
+						"67.25%",
+						"80.5%",
+						"82.88%",
+						"88.5%",
+						"105.75%",
+						"63.75%",
+						"173.6%",
+						"17.36%\u00d73",
+						"86.8%",
+						"10s",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"65.28%",
+						"73.17%",
+						"87.58%",
+						"90.17%",
+						"96.29%",
+						"115.06%",
+						"69.36%",
+						"186%",
+						"18.6%\u00d73",
+						"93%",
+						"10s",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"70.56%",
+						"79.09%",
+						"94.67%",
+						"97.46%",
+						"104.08%",
+						"124.36%",
+						"74.97%",
+						"198.4%",
+						"19.84%\u00d73",
+						"99.2%",
+						"10s",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"75.84%",
+						"85%",
+						"101.75%",
+						"104.75%",
+						"111.86%",
+						"133.67%",
+						"80.58%",
+						"210.8%",
+						"21.08%\u00d73",
+						"105.4%",
+						"10s",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"81.6%",
+						"91.46%",
+						"109.48%",
+						"112.71%",
+						"120.36%",
+						"143.82%",
+						"86.7%",
+						"223.2%",
+						"22.32%\u00d73",
+						"111.6%",
+						"10s",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"87.36%",
+						"97.92%",
+						"117.21%",
+						"120.67%",
+						"128.86%",
+						"153.97%",
+						"92.82%",
+						"235.6%",
+						"23.56%\u00d73",
+						"117.8%",
+						"10s",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"93.12%",
+						"104.37%",
+						"124.94%",
+						"128.62%",
+						"137.35%",
+						"164.12%",
+						"98.94%",
+						"248%",
+						"24.8%\u00d73",
+						"124%",
+						"10s",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"98.88%",
+						"110.83%",
+						"132.66%",
+						"136.58%",
+						"145.85%",
+						"174.28%",
+						"105.06%",
+						"263.5%",
+						"26.35%\u00d73",
+						"131.75%",
+						"10s",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"104.64%",
+						"117.28%",
+						"140.39%",
+						"144.53%",
+						"154.34%",
+						"184.43%",
+						"111.18%",
+						"279%",
+						"27.9%\u00d73",
+						"139.5%",
+						"10s",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"110.4%",
+						"123.74%",
+						"148.12%",
+						"152.49%",
+						"162.84%",
+						"194.58%",
+						"117.3%",
+						"294.5%",
+						"29.45%\u00d73",
+						"147.25%",
+						"10s",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 863456805,
+			"desc_hash": 4166160984,
+			"charge_num": 1,
+			"name": "Foul Legacy: Raging Tide",
+			"desc": "Unleashes a set of weaponry made of pure water, dealing <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents and entering Melee Stance.\\nIn this Stance, Tartaglia's Normal and Charged Attacks are converted to <color=#80C0FFFF>Hydro DMG</color> that cannot be overridden by any other elemental infusion and change as follows:\\n\\n<color=#FFD780FF>Normal Attack</color>\\nPerform up to 6 consecutive <color=#80C0FFFF>Hydro</color> strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash a cross slash, dealing <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Riptide Slash</color>\\nHitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals <color=#80C0FFFF>AoE Hydro DMG</color>. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.\\n\\nAfter 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD.\\nIf the return to a ranged stance occurs automatically after 30s, the CD is even longer.\\n\\n<i>He chose the bow as his weapon precisely to overcome his weakness with it. But a serious fight demands that he gets serious...</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"recruits_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"sergeants_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"sergeants_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sergeants_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"sergeants_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"lieutenants_insignia": 4,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"lieutenants_insignia": 6,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"lieutenants_insignia": 9,
+					"shard_of_a_foul_legacy": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"lieutenants_insignia": 12,
+					"shard_of_a_foul_legacy": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Stance Change DMG",
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"6-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Riptide Slash",
+					"Max Duration",
+					"Preemptive CD",
+					"Max CD"
+				],
+				"values": [
+					[
+						"72%",
+						"38.87%",
+						"41.62%",
+						"56.33%",
+						"59.94%",
+						"55.3%",
+						"35.43%+37.67%",
+						"60.2%+71.98%",
+						"20",
+						"60.2%",
+						"30s",
+						"6-36s",
+						"45s"
+					],
+					[
+						"77.4%",
+						"42.04%",
+						"45.01%",
+						"60.91%",
+						"64.82%",
+						"59.8%",
+						"38.32%+40.73%",
+						"65.1%+77.84%",
+						"20",
+						"65.1%",
+						"30s",
+						"6-36s",
+						"45s"
+					],
+					[
+						"82.8%",
+						"45.2%",
+						"48.4%",
+						"65.5%",
+						"69.7%",
+						"64.3%",
+						"41.2%+43.8%",
+						"70%+83.7%",
+						"20",
+						"70%",
+						"30s",
+						"6-36s",
+						"45s"
+					],
+					[
+						"90%",
+						"49.72%",
+						"53.24%",
+						"72.05%",
+						"76.67%",
+						"70.73%",
+						"45.32%+48.18%",
+						"77%+92.07%",
+						"20",
+						"77%",
+						"30s",
+						"6-36s",
+						"45s"
+					],
+					[
+						"95.4%",
+						"52.88%",
+						"56.63%",
+						"76.63%",
+						"81.55%",
+						"75.23%",
+						"48.2%+51.25%",
+						"81.9%+97.93%",
+						"20",
+						"81.9%",
+						"30s",
+						"6-36s",
+						"45s"
+					],
+					[
+						"100.8%",
+						"56.5%",
+						"60.5%",
+						"81.88%",
+						"87.12%",
+						"80.37%",
+						"51.5%+54.75%",
+						"87.5%+104.62%",
+						"20",
+						"87.5%",
+						"30s",
+						"6-36s",
+						"45s"
+					],
+					[
+						"108%",
+						"61.47%",
+						"65.82%",
+						"89.08%",
+						"94.79%",
+						"87.45%",
+						"56.03%+59.57%",
+						"95.2%+113.83%",
+						"20",
+						"95.2%",
+						"30s",
+						"6-36s",
+						"45s"
+					],
+					[
+						"115.2%",
+						"66.44%",
+						"71.15%",
+						"96.28%",
+						"102.46%",
+						"94.52%",
+						"60.56%+64.39%",
+						"102.9%+123.04%",
+						"20",
+						"102.9%",
+						"30s",
+						"6-36s",
+						"45s"
+					],
+					[
+						"122.4%",
+						"71.42%",
+						"76.47%",
+						"103.49%",
+						"110.13%",
+						"101.59%",
+						"65.1%+69.2%",
+						"110.6%+132.25%",
+						"20",
+						"110.6%",
+						"30s",
+						"6-36s",
+						"45s"
+					],
+					[
+						"129.6%",
+						"76.84%",
+						"82.28%",
+						"111.35%",
+						"118.49%",
+						"109.31%",
+						"70.04%+74.46%",
+						"119%+142.29%",
+						"20",
+						"119%",
+						"30s",
+						"6-36s",
+						"45s"
+					],
+					[
+						"136.8%",
+						"82.26%",
+						"88.09%",
+						"119.21%",
+						"126.85%",
+						"117.03%",
+						"74.98%+79.72%",
+						"127.4%+152.33%",
+						"20",
+						"127.4%",
+						"30s",
+						"6-36s",
+						"45s"
+					],
+					[
+						"144%",
+						"87.69%",
+						"93.9%",
+						"127.07%",
+						"135.22%",
+						"124.74%",
+						"79.93%+84.97%",
+						"135.8%+162.38%",
+						"20",
+						"135.8%",
+						"30s",
+						"6-36s",
+						"45s"
+					],
+					[
+						"153%",
+						"93.11%",
+						"99.7%",
+						"134.93%",
+						"143.58%",
+						"132.46%",
+						"84.87%+90.23%",
+						"144.2%+172.42%",
+						"20",
+						"144.2%",
+						"30s",
+						"6-36s",
+						"45s"
+					],
+					[
+						"162%",
+						"98.54%",
+						"105.51%",
+						"142.79%",
+						"151.95%",
+						"140.17%",
+						"89.82%+95.48%",
+						"152.6%+182.47%",
+						"20",
+						"152.6%",
+						"30s",
+						"6-36s",
+						"45s"
+					],
+					[
+						"171%",
+						"103.96%",
+						"111.32%",
+						"150.65%",
+						"160.31%",
+						"147.89%",
+						"94.76%+100.74%",
+						"161%+192.51%",
+						"20",
+						"161%",
+						"30s",
+						"6-36s",
+						"45s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 2804759909,
+			"desc_hash": 3448962704,
+			"charge_num": 1,
+			"name": "Havoc: Obliteration",
+			"desc": "Performs different attacks based on what stance Tartaglia is in when casting.\\n\\n<color=#FFD780FF>Ranged Stance: Flash of Havoc</color>\\nSwiftly fires a Hydro-imbued magic arrow, dealing <color=#80C0FFFF>AoE Hydro DMG</color> and applying the Riptide status.\\nReturns a portion of its Energy Cost after use.\\n\\n<color=#FFD780FF>Melee Stance: Light of Obliteration</color>\\nPerforms a slash with a large AoE, dealing massive <color=#80C0FFFF>Hydro DMG</color> to all surrounding opponents, which triggers Riptide Blast.\\n\\n<color=#FFD780FF>Riptide Blast</color>\\nWhen the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals <color=#80C0FFFF>AoE Hydro DMG</color>.\\nDMG dealt in this way is considered Elemental Burst DMG.\\n\\n<i>Rushing waters are rarely seen in his snowy homeland. Perhaps his ability to command water is due to his understanding of just how precious it is.</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"recruits_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"sergeants_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"sergeants_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sergeants_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"sergeants_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"lieutenants_insignia": 4,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"lieutenants_insignia": 6,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"lieutenants_insignia": 9,
+					"shard_of_a_foul_legacy": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"lieutenants_insignia": 12,
+					"shard_of_a_foul_legacy": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG: Melee",
+					"Skill DMG: Ranged",
+					"Riptide Blast DMG",
+					"Energy Return (Ranged)",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"464%",
+						"378.4%",
+						"120%",
+						"20",
+						"15s",
+						"60"
+					],
+					[
+						"498.8%",
+						"406.78%",
+						"129%",
+						"20",
+						"15s",
+						"60"
+					],
+					[
+						"533.6%",
+						"435.16%",
+						"138%",
+						"20",
+						"15s",
+						"60"
+					],
+					[
+						"580%",
+						"473%",
+						"150%",
+						"20",
+						"15s",
+						"60"
+					],
+					[
+						"614.8%",
+						"501.38%",
+						"159%",
+						"20",
+						"15s",
+						"60"
+					],
+					[
+						"649.6%",
+						"529.76%",
+						"168%",
+						"20",
+						"15s",
+						"60"
+					],
+					[
+						"696%",
+						"567.6%",
+						"180%",
+						"20",
+						"15s",
+						"60"
+					],
+					[
+						"742.4%",
+						"605.44%",
+						"192%",
+						"20",
+						"15s",
+						"60"
+					],
+					[
+						"788.8%",
+						"643.28%",
+						"204%",
+						"20",
+						"15s",
+						"60"
+					],
+					[
+						"835.2%",
+						"681.12%",
+						"216%",
+						"20",
+						"15s",
+						"60"
+					],
+					[
+						"881.6%",
+						"718.96%",
+						"228%",
+						"20",
+						"15s",
+						"60"
+					],
+					[
+						"928%",
+						"756.8%",
+						"240%",
+						"20",
+						"15s",
+						"60"
+					],
+					[
+						"986%",
+						"804.1%",
+						"255%",
+						"20",
+						"15s",
+						"60"
+					],
+					[
+						"1044%",
+						"851.4%",
+						"270%",
+						"20",
+						"15s",
+						"60"
+					],
+					[
+						"1102%",
+						"898.7%",
+						"285%",
+						"20",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 3534614517,
+			"desc_hash": 2913186835,
+			"ascension": 1,
+			"name": "Never Ending",
+			"desc": "Extends Riptide duration by 8s."
+		},
+		{
+			"name_hash": 662584285,
+			"desc_hash": 2794165467,
+			"ascension": 4,
+			"name": "Sword of Torrents",
+			"desc": "When Tartaglia is in <color=#FFD780FF>Foul Legacy: Raging Tide</color>'s Melee Stance, on dealing a CRIT hit, Normal and Charged Attacks apply the Riptide status effect to opponents."
+		},
+		{
+			"name_hash": 3474329165,
+			"desc_hash": 3671922915,
+			"ascension": null,
+			"name": "Master of Weaponry",
+			"desc": "Increases your own party members' <color=#FFD780FF>Normal Attack</color> Level by 1."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 1777276769,
+			"name": "Foul Legacy: Tide Withholder",
+			"desc_hash": 926660471,
+			"desc": "Decreases the CD of <color=#FFD780FF>Foul Legacy: Raging Tide</color> by 20%"
+		},
+		{
+			"name_hash": 3821979753,
+			"name": "Foul Legacy: Understream",
+			"desc_hash": 3189611455,
+			"desc": "When opponents affected by Riptide are defeated, Tartaglia regenerates 4 Elemental Energy."
+		},
+		{
+			"name_hash": 1562607913,
+			"name": "Abyssal Mayhem: Vortex of Turmoil",
+			"desc_hash": 1409214983,
+			"desc": "Increases the Level of <color=#FFD780FF>Foul Legacy: Raging Tide</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3252659577,
+			"name": "Abyssal Mayhem: Hydrospout",
+			"desc_hash": 2705925063,
+			"desc": "If Tartaglia is in <color=#FFD780FF>Foul Legacy: Raging Tide</color>'s Melee Stance, triggers Riptide Slash against opponents on the field affected by Riptide every 4s, otherwise, triggers Riptide Flash.\\nRiptide Slashes and Riptide Flashes triggered by this Constellation effect are not subject to the time intervals that would typically apply to these two Riptide effects, nor do they have any effect on those time intervals."
+		},
+		{
+			"name_hash": 1429851537,
+			"name": "Havoc: Formless Blade",
+			"desc_hash": 2922457007,
+			"desc": "Increases the Level of <color=#FFD780FF>Havoc: Obliteration</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 1479737849,
+			"name": "Havoc: Annihilation",
+			"desc_hash": 792778623,
+			"desc": "When <color=#FFD780FF>Havoc: Obliteration</color> is cast in Melee Stance, the CD of <color=#FFD780FF>Foul Legacy: Raging Tide</color> is reset.\\nThis effect will only take place once Tartaglia returns to his Ranged Stance."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 369350914,
+			"desc_hash": 1165773426,
+			"restricted": false,
+			"name": "Blades of Glory",
+			"desc": "Tartaglia's outfit. Illustrious attire that signifies Childe's position as the eleventh Fatui Harbinger."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108175,
+		"name_hash": 981522044,
+		"desc_hash": 968287181,
+		"type_hash": 1362663030,
+		"rarity": 3,
+		"name": "A Prize Catch",
+		"desc": "Tartaglia's specialty. It looks like a trapped beast floundering in an ocean of blood, its death throes an inaudible scream... But Tartaglia smiles and explains that this is something he fished out of the sea, with some products from his homeland on the side.",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 2022288863,
+		"effect": "Increases all party members' DEF by 282 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+		"original_recipe": "calla_lily_seafood_soup"
+	}
+}

@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12404,
+	"promote_id": 12404,
+	"gadget_id": 50012404,
+	"story_id": [
+		192404
+	],
+	"skill_affix": [
+		112404,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 877751435,
+	"desc_hash": 205162989,
+	"name": "Royal Greatsword",
+	"desc": "An old greatsword that belonged to the erstwhile rulers of Mondstadt. It is made from the finest-quality materials and has stood the test of time. A weapon for use by the nobility only.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 43.734901428222656,
+		"ATK%": 0.05999999865889549
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_202",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 3,
+				"chaos_device": 3,
+				"slime_condensate": 2,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 3,
+				"chaos_device": 12,
+				"slime_condensate": 8,
+				"mora": 15000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 6,
+				"chaos_circuit": 6,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 3,
+				"chaos_circuit": 12,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 6,
+				"chaos_core": 9,
+				"slime_concentrate": 6,
+				"mora": 35000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 4,
+				"chaos_core": 18,
+				"slime_concentrate": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2759911603,
+		"name": "Focus",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1124040,
+				"desc_hash": 2117112953,
+				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>8%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1124041,
+				"desc_hash": 3119127689,
+				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>10%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1124042,
+				"desc_hash": 1440638649,
+				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>12%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1124043,
+				"desc_hash": 713108929,
+				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>14%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1124044,
+				"desc_hash": 1895179769,
+				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>16%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"cost": 8000
+			}
+		]
+	}
+}

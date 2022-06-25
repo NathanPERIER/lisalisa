@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 11302,
+	"promote_id": 11302,
+	"gadget_id": 50011302,
+	"story_id": [
+		191302
+	],
+	"skill_affix": [
+		111302,
+		0
+	],
+	"type": "sword",
+	"name_hash": 1608953539,
+	"desc_hash": 1716657229,
+	"name": "Harbinger of Dawn",
+	"desc": "A sword that once shone like the sun. The wielder of this sword will be blessed with a \"feel-good\" buff. The reflective material on the blade has long worn off.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 38.74129867553711,
+		"Crit DMG%": 0.10199999809265137
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101",
+		"Crit DMG%": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"boreal_wolfs_milk_tooth": 2,
+				"dead_ley_line_branch": 2,
+				"slime_condensate": 1,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 2,
+				"dead_ley_line_branch": 8,
+				"slime_condensate": 5,
+				"mora": 10000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 4,
+				"dead_ley_line_leaves": 4,
+				"slime_secretions": 4,
+				"mora": 15000
+			},
+			{
+				"boreal_wolfs_broken_fang": 2,
+				"dead_ley_line_leaves": 8,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_broken_fang": 4,
+				"ley_line_sprout": 6,
+				"slime_concentrate": 4,
+				"mora": 25000
+			},
+			{
+				"boreal_wolfs_nostalgia": 3,
+				"ley_line_sprout": 12,
+				"slime_concentrate": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2866125259,
+		"name": "Vigorous",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1113020,
+				"desc_hash": 307733865,
+				"desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>14%</color>.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1113021,
+				"desc_hash": 3332141809,
+				"desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>17.5%</color>.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1113022,
+				"desc_hash": 3037472457,
+				"desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>21%</color>.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1113023,
+				"desc_hash": 1527692505,
+				"desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>24.5%</color>.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1113024,
+				"desc_hash": 1272240945,
+				"desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>28%</color>.",
+				"cost": 4000
+			}
+		]
+	}
+}

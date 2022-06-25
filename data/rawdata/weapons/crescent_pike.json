@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13403,
+	"promote_id": 13403,
+	"gadget_id": 50013403,
+	"story_id": [
+		193403
+	],
+	"skill_affix": [
+		113403,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 578575283,
+	"desc_hash": 4181232573,
+	"name": "Crescent Pike",
+	"desc": "An exotic weapon with an extremely long blade on the top and a crescent blade at the bottom. It found its way into Liyue through foreign traders. With practice, it can deal heavy damage.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 43.734901428222656,
+		"Physical DMG%": 0.07506699860095978
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_202",
+		"Physical DMG%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"luminous_sands_from_guyun": 3,
+				"hunters_sacrificial_knife": 3,
+				"treasure_hoarder_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"lustrous_stone_from_guyun": 3,
+				"hunters_sacrificial_knife": 12,
+				"treasure_hoarder_insignia": 8,
+				"mora": 15000
+			},
+			{
+				"lustrous_stone_from_guyun": 6,
+				"agents_sacrificial_knife": 6,
+				"silver_raven_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"relic_from_guyun": 3,
+				"agents_sacrificial_knife": 12,
+				"silver_raven_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"relic_from_guyun": 6,
+				"inspectors_sacrificial_knife": 9,
+				"golden_raven_insignia": 6,
+				"mora": 35000
+			},
+			{
+				"divine_body_from_guyun": 4,
+				"inspectors_sacrificial_knife": 18,
+				"golden_raven_insignia": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1859047483,
+		"name": "Infusion Needle",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1134030,
+				"desc_hash": 3150512345,
+				"desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>20%</color> of ATK for 5s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1134031,
+				"desc_hash": 1629566577,
+				"desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>25%</color> of ATK for 5s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1134032,
+				"desc_hash": 162703737,
+				"desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>30%</color> of ATK for 5s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1134033,
+				"desc_hash": 2050638753,
+				"desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>35%</color> of ATK for 5s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1134034,
+				"desc_hash": 2830231553,
+				"desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>40%</color> of ATK for 5s.",
+				"cost": 8000
+			}
+		]
+	}
+}

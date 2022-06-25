@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13502,
+	"promote_id": 13502,
+	"gadget_id": 50013502,
+	"story_id": [
+		193502
+	],
+	"skill_affix": [
+		113502,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 4158505619,
+	"desc_hash": 2400004301,
+	"name": "Skyward Spine",
+	"desc": "A polearm that symbolizes Dvalin's firm resolve. The upright shaft of this weapon points towards the heavens, clad in the might of sky and wind.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 47.5369987487793,
+		"Energy Recharge%": 0.07999999821186066
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_302",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 5,
+				"chaos_device": 5,
+				"divining_scroll": 3,
+				"mora": 10000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 5,
+				"chaos_device": 18,
+				"divining_scroll": 12,
+				"mora": 20000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 9,
+				"chaos_circuit": 9,
+				"sealed_scroll": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 5,
+				"chaos_circuit": 18,
+				"sealed_scroll": 14,
+				"mora": 45000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 9,
+				"chaos_core": 14,
+				"forbidden_curse_scroll": 9,
+				"mora": 55000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 6,
+				"chaos_core": 27,
+				"forbidden_curse_scroll": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2421341659,
+		"name": "Black Wing",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1135020,
+				"desc_hash": 3677933153,
+				"desc": "Increases CRIT Rate by <color=#99FFFFFF>8%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>40%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1135021,
+				"desc_hash": 965461625,
+				"desc": "Increases CRIT Rate by <color=#99FFFFFF>10%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>55%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1135022,
+				"desc_hash": 680920065,
+				"desc": "Increases CRIT Rate by <color=#99FFFFFF>12%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>70%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1135023,
+				"desc_hash": 2889838121,
+				"desc": "Increases CRIT Rate by <color=#99FFFFFF>14%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>85%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1135024,
+				"desc_hash": 762646945,
+				"desc": "Increases CRIT Rate by <color=#99FFFFFF>16%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>100%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+				"cost": 16000
+			}
+		]
+	}
+}

@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13302,
+	"promote_id": 13302,
+	"gadget_id": 50013302,
+	"story_id": [
+		193302
+	],
+	"skill_affix": [
+		113302,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 618786571,
+	"desc_hash": 4218316925,
+	"name": "Halberd",
+	"desc": "A polearm with an axe blade mounted on top that can deal quite a lot of damage. It's favored by the Millelith officers.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 39.875099182128906,
+		"ATK%": 0.05106699839234352
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_102",
+		"ATK%": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"mist_veiled_lead_elixir": 2,
+				"mist_grass_pollen": 2,
+				"whopperflower_nectar": 1,
+				"mora": 5000
+			},
+			{
+				"mist_veiled_mercury_elixir": 2,
+				"mist_grass_pollen": 8,
+				"whopperflower_nectar": 5,
+				"mora": 10000
+			},
+			{
+				"mist_veiled_mercury_elixir": 4,
+				"mist_grass": 4,
+				"shimmering_nectar": 4,
+				"mora": 15000
+			},
+			{
+				"mist_veiled_gold_elixir": 2,
+				"mist_grass": 8,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"mist_veiled_gold_elixir": 4,
+				"mist_grass_wick": 6,
+				"energy_nectar": 4,
+				"mora": 25000
+			},
+			{
+				"mist_veiled_primo_elixir": 3,
+				"mist_grass_wick": 12,
+				"energy_nectar": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1364562483,
+		"name": "Heavy",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1133020,
+				"desc_hash": 12012241,
+				"desc": "Normal Attacks deal an additional <color=#99FFFFFF>160%</color> ATK as DMG. Can only occur once every 10s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1133021,
+				"desc_hash": 4224599497,
+				"desc": "Normal Attacks deal an additional <color=#99FFFFFF>200%</color> ATK as DMG. This effect can only occur once every 10s.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1133022,
+				"desc_hash": 1141380905,
+				"desc": "Normal Attacks deal an additional <color=#99FFFFFF>240%</color> ATK as DMG. This effect can only occur once every 10s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1133023,
+				"desc_hash": 2326110457,
+				"desc": "Normal Attacks deal an additional <color=#99FFFFFF>280%</color> ATK as DMG. This effect can only occur once every 10s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1133024,
+				"desc_hash": 1869215529,
+				"desc": "Normal Attacks deal an additional <color=#99FFFFFF>320%</color> ATK as DMG. This effect can only occur once every 10s.",
+				"cost": 4000
+			}
+		]
+	}
+}

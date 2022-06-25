@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 11509,
+	"promote_id": 11509,
+	"gadget_id": 50011509,
+	"story_id": [
+		191509
+	],
+	"skill_affix": [
+		111509,
+		0
+	],
+	"type": "sword",
+	"name_hash": 4124851547,
+	"desc_hash": 1497683685,
+	"name": "Mistsplitter Reforged",
+	"desc": "A sword that blazes with a fierce violet light. The name \"Reforged\" comes from it having been broken once before.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 47.5369987487793,
+		"Crit DMG%": 0.09600000083446503
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_302",
+		"Crit DMG%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"coral_branch_of_a_distant_sea": 5,
+				"chaos_gear": 5,
+				"old_handguard": 3,
+				"mora": 10000
+			},
+			{
+				"jeweled_branch_of_a_distant_sea": 5,
+				"chaos_gear": 18,
+				"old_handguard": 12,
+				"mora": 20000
+			},
+			{
+				"jeweled_branch_of_a_distant_sea": 9,
+				"chaos_axis": 9,
+				"kageuchi_handguard": 9,
+				"mora": 30000
+			},
+			{
+				"jade_branch_of_a_distant_sea": 5,
+				"chaos_axis": 18,
+				"kageuchi_handguard": 14,
+				"mora": 45000
+			},
+			{
+				"jade_branch_of_a_distant_sea": 9,
+				"chaos_oculus": 14,
+				"famed_handguard": 9,
+				"mora": 55000
+			},
+			{
+				"golden_branch_of_a_distant_sea": 6,
+				"chaos_oculus": 27,
+				"famed_handguard": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1919913067,
+		"name": "Mistsplitter's Edge",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1115090,
+				"desc_hash": 1308195009,
+				"desc": "Gain a <color=#99FFFFFF>12%</color> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>8/16/28%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1115091,
+				"desc_hash": 2464946881,
+				"desc": "Gain a <color=#99FFFFFF>15%</color> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>10/20/35%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1115092,
+				"desc_hash": 662806689,
+				"desc": "Gain a <color=#99FFFFFF>18%</color> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>12/24/42%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1115093,
+				"desc_hash": 2935141465,
+				"desc": "Gain a <color=#99FFFFFF>21%</color> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>14/28/49%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1115094,
+				"desc_hash": 3107589001,
+				"desc": "Gain a <color=#99FFFFFF>24%</color> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>16/32/56%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of the Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+				"cost": 16000
+			}
+		]
+	}
+}

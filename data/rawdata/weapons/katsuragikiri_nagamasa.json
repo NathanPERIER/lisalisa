@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12414,
+	"promote_id": 12414,
+	"gadget_id": 50012414,
+	"story_id": [
+		192414
+	],
+	"skill_affix": [
+		112414,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 4193089947,
+	"desc_hash": 2449465901,
+	"name": "Katsuragikiri Nagamasa",
+	"desc": "A blade that was once made in Tatarasuna. Heavy and tough.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"Energy Recharge%": 0.10000000149011612
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"narukamis_wisdom": 3,
+				"chaos_gear": 3,
+				"old_handguard": 2,
+				"mora": 5000
+			},
+			{
+				"narukamis_joy": 3,
+				"chaos_gear": 12,
+				"old_handguard": 8,
+				"mora": 15000
+			},
+			{
+				"narukamis_joy": 6,
+				"chaos_axis": 6,
+				"kageuchi_handguard": 6,
+				"mora": 20000
+			},
+			{
+				"narukamis_affection": 3,
+				"chaos_axis": 12,
+				"kageuchi_handguard": 9,
+				"mora": 30000
+			},
+			{
+				"narukamis_affection": 6,
+				"chaos_oculus": 9,
+				"famed_handguard": 6,
+				"mora": 35000
+			},
+			{
+				"narukamis_valor": 4,
+				"chaos_oculus": 18,
+				"famed_handguard": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1828182659,
+		"name": "Samurai Conduct",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1124140,
+				"desc_hash": 437621345,
+				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>6%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>3</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1124141,
+				"desc_hash": 4257676377,
+				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>7.5%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>3.5</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1124142,
+				"desc_hash": 2352434905,
+				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>9%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>4</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1124143,
+				"desc_hash": 715445137,
+				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>10.5%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>4.5</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1124144,
+				"desc_hash": 2607024913,
+				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>12%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>5</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"cost": 8000
+			}
+		]
+	}
+}

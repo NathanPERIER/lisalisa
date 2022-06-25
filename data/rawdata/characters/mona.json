@@ -1,0 +1,819 @@
+{
+	"hoyo_id": 10000041,
+	"promote_id": 41,
+	"skill_depot_id": 4101,
+	"fetter_id": 128,
+	"weapon": "catalyst",
+	"name_hash": 1113306282,
+	"desc_hash": 506249649,
+	"name": "Mona",
+	"desc": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": [
+		31,
+		8
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		321258364,
+		735012401
+	],
+	"astrolabe_hash": [
+		677289434,
+		3963245579
+	],
+	"allegiance_hash": 1827140513,
+	"vision": "hydro",
+	"astrolabe": "Astrolabos",
+	"allegiance": "Mondstadt",
+	"default_weapon": "apprentices_notes",
+	"base_stats": {
+		"Base HP": 810.322021484375,
+		"Base ATK": 22.3439998626709,
+		"Base DEF": 50.855499267578125,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"varunada_lazurite_sliver": 1,
+				"philanemo_mushroom": 3,
+				"whopperflower_nectar": 3,
+				"mora": 20000
+			},
+			{
+				"varunada_lazurite_fragment": 3,
+				"cleansing_heart": 2,
+				"philanemo_mushroom": 10,
+				"whopperflower_nectar": 15,
+				"mora": 40000
+			},
+			{
+				"varunada_lazurite_fragment": 6,
+				"cleansing_heart": 4,
+				"philanemo_mushroom": 20,
+				"shimmering_nectar": 12,
+				"mora": 60000
+			},
+			{
+				"varunada_lazurite_chunk": 3,
+				"cleansing_heart": 8,
+				"philanemo_mushroom": 30,
+				"shimmering_nectar": 18,
+				"mora": 80000
+			},
+			{
+				"varunada_lazurite_chunk": 6,
+				"cleansing_heart": 12,
+				"philanemo_mushroom": 45,
+				"energy_nectar": 12,
+				"mora": 100000
+			},
+			{
+				"varunada_lazurite_gemstone": 6,
+				"cleansing_heart": 20,
+				"philanemo_mushroom": 60,
+				"energy_nectar": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 694.77783203125,
+					"Base DEF": 43.60499954223633,
+					"Base ATK": 19.15656089782715,
+					"Energy Recharge%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1188.435791015625,
+					"Base DEF": 74.5875015258789,
+					"Base ATK": 32.767799377441406,
+					"Energy Recharge%": 0.07999999821186066
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1846.6463623046875,
+					"Base DEF": 115.89749908447266,
+					"Base ATK": 50.91611862182617,
+					"Energy Recharge%": 0.1599999964237213
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2340.30419921875,
+					"Base DEF": 146.8800048828125,
+					"Base ATK": 64.52735900878906,
+					"Energy Recharge%": 0.1599999964237213
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2833.962158203125,
+					"Base DEF": 177.8625030517578,
+					"Base ATK": 78.13860321044922,
+					"Energy Recharge%": 0.23999999463558197
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3327.6201171875,
+					"Base DEF": 208.84500122070312,
+					"Base ATK": 91.74983978271484,
+					"Energy Recharge%": 0.3199999928474426
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 2512572181,
+			"desc_hash": 239283280,
+			"charge_num": 1,
+			"name": "Normal Attack: Ripple of Fate",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 water splash attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+			"costs": [
+				{
+					"teachings_of_resistance": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_resistance": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_resistance": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_resistance": 4,
+					"energy_nectar": 4,
+					"ring_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_resistance": 6,
+					"energy_nectar": 6,
+					"ring_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"energy_nectar": 9,
+					"ring_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_resistance": 16,
+					"energy_nectar": 12,
+					"ring_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"37.6%",
+						"36%",
+						"44.8%",
+						"56.16%",
+						"149.72%",
+						"50",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"40.42%",
+						"38.7%",
+						"48.16%",
+						"60.37%",
+						"160.95%",
+						"50",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"43.24%",
+						"41.4%",
+						"51.52%",
+						"64.58%",
+						"172.18%",
+						"50",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"47%",
+						"45%",
+						"56%",
+						"70.2%",
+						"187.15%",
+						"50",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"49.82%",
+						"47.7%",
+						"59.36%",
+						"74.41%",
+						"198.38%",
+						"50",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"52.64%",
+						"50.4%",
+						"62.72%",
+						"78.62%",
+						"209.61%",
+						"50",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"56.4%",
+						"54%",
+						"67.2%",
+						"84.24%",
+						"224.58%",
+						"50",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"60.16%",
+						"57.6%",
+						"71.68%",
+						"89.86%",
+						"239.55%",
+						"50",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"63.92%",
+						"61.2%",
+						"76.16%",
+						"95.47%",
+						"254.52%",
+						"50",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"67.68%",
+						"64.8%",
+						"80.64%",
+						"101.09%",
+						"269.5%",
+						"50",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"71.44%",
+						"68.4%",
+						"85.12%",
+						"106.7%",
+						"285.07%",
+						"50",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"75.2%",
+						"72%",
+						"89.6%",
+						"112.32%",
+						"305.43%",
+						"50",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"79.9%",
+						"76.5%",
+						"95.2%",
+						"119.34%",
+						"325.79%",
+						"50",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"84.6%",
+						"81%",
+						"100.8%",
+						"126.36%",
+						"346.15%",
+						"50",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"89.3%",
+						"85.5%",
+						"106.4%",
+						"133.38%",
+						"366.51%",
+						"50",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 1125648053,
+			"desc_hash": 3421937592,
+			"charge_num": 1,
+			"name": "Mirror Reflection of Doom",
+			"desc": "Creates an illusory Phantom of Fate from coalesced waterspouts.\\n\\nThe <color=#FFD780FF>Phantom</color> has the following special properties:\\n\u00b7Continuously taunts nearby opponents, attracting their fire.\\n\u00b7Continuously deals <color=#80C0FFFF>Hydro DMG</color> to nearby opponents.\\n\u00b7When its duration expires, the Phantom explodes, dealing <color=#80C0FFFF>AoE Hydro DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\\n\\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\\n\\n<i>Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.</i>",
+			"costs": [
+				{
+					"teachings_of_resistance": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_resistance": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_resistance": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_resistance": 4,
+					"energy_nectar": 4,
+					"ring_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_resistance": 6,
+					"energy_nectar": 6,
+					"ring_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"energy_nectar": 9,
+					"ring_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_resistance": 16,
+					"energy_nectar": 12,
+					"ring_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"DoT",
+					"Explosion DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"32%",
+						"132.8%",
+						"12s"
+					],
+					[
+						"34.4%",
+						"142.76%",
+						"12s"
+					],
+					[
+						"36.8%",
+						"152.72%",
+						"12s"
+					],
+					[
+						"40%",
+						"166%",
+						"12s"
+					],
+					[
+						"42.4%",
+						"175.96%",
+						"12s"
+					],
+					[
+						"44.8%",
+						"185.92%",
+						"12s"
+					],
+					[
+						"48%",
+						"199.2%",
+						"12s"
+					],
+					[
+						"51.2%",
+						"212.48%",
+						"12s"
+					],
+					[
+						"54.4%",
+						"225.76%",
+						"12s"
+					],
+					[
+						"57.6%",
+						"239.04%",
+						"12s"
+					],
+					[
+						"60.8%",
+						"252.32%",
+						"12s"
+					],
+					[
+						"64%",
+						"265.6%",
+						"12s"
+					],
+					[
+						"68%",
+						"282.2%",
+						"12s"
+					],
+					[
+						"72%",
+						"298.8%",
+						"12s"
+					],
+					[
+						"76%",
+						"315.4%",
+						"12s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 3616116589,
+			"desc_hash": 3902311160,
+			"charge_num": 1,
+			"name": "Stellaris Phantasm",
+			"desc": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE.\\n\\n<color=#FFD780FF>Illusory Bubble</color>\\nTraps opponents inside a pocket of destiny and also makes them <color=#80C0FFFF>Wet</color>. Renders weaker opponents immobile.\\nWhen an opponent affected by Illusory Bubble sustains DMG, it has the following effects:\\n\u00b7Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.\\n\u00b7Removes the Illusory Bubble, dealing <color=#80C0FFFF>Hydro</color> DMG in the process.\\n\\n<color=#FFD780FF>Omen</color>\\nDuring its duration, increases DMG taken by opponents.\\n\\n<i>It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.</i>",
+			"costs": [
+				{
+					"teachings_of_resistance": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_resistance": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_resistance": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_resistance": 4,
+					"energy_nectar": 4,
+					"ring_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_resistance": 6,
+					"energy_nectar": 6,
+					"ring_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"energy_nectar": 9,
+					"ring_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_resistance": 16,
+					"energy_nectar": 12,
+					"ring_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Illusory Bubble Duration",
+					"Illusory Bubble Explosion DMG",
+					"DMG Bonus",
+					"Omen Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"8s",
+						"442.4%",
+						"42%",
+						"4s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"475.58%",
+						"44%",
+						"4s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"508.76%",
+						"46%",
+						"4s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"553%",
+						"48%",
+						"4.5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"586.18%",
+						"50%",
+						"4.5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"619.36%",
+						"52%",
+						"4.5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"663.6%",
+						"54%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"707.84%",
+						"56%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"752.08%",
+						"58%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"796.32%",
+						"60%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"840.56%",
+						"60%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"884.8%",
+						"60%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"940.1%",
+						"60%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"995.4%",
+						"60%",
+						"5s",
+						"15s",
+						"60"
+					],
+					[
+						"8s",
+						"1050.7%",
+						"60%",
+						"5s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": {
+			"name_hash": 1057341493,
+			"desc_hash": 3378550992,
+			"charge_num": 1,
+			"name": "Illusory Torrent",
+			"desc": "<color=#FFD780FF>Alternate Sprint</color>\\nMona cloaks herself within the water's flow, consuming Stamina to move rapidly.\\n\\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.\\nApplies the <color=#80C0FFFF>Wet</color> status to nearby opponents when she reappears.\\n\\n<i>This is something that Mona can do, but her teacher cannot. Well, but it's not as if her teacher would pursue any matter concerning Hydro Visions anyway...</i>",
+			"costs": [],
+			"stats": {
+				"names": [
+					"Activation Stamina Consumption",
+					"Stamina Drain"
+				],
+				"values": [
+					[
+						"10",
+						"15/s"
+					]
+				]
+			}
+		}
+	},
+	"passives": [
+		{
+			"name_hash": 2516099965,
+			"desc_hash": 1706572851,
+			"ascension": 1,
+			"name": "\"Come 'n' Get Me, Hag!\"",
+			"desc": "After she has used <color=#FFD780FF>Illusory Torrent</color> for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of <color=#FFD780FF>Mirror Reflection of Doom</color>."
+		},
+		{
+			"name_hash": 1413844365,
+			"desc_hash": 3379482011,
+			"ascension": 4,
+			"name": "Waterborne Destiny",
+			"desc": "Increases Mona's <color=#80C0FFFF>Hydro DMG Bonus</color> by a degree equivalent to 20% of her Energy Recharge rate."
+		},
+		{
+			"name_hash": 3413416829,
+			"desc_hash": 1213329395,
+			"ascension": null,
+			"name": "Principium of Astrology",
+			"desc": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 3262519193,
+			"name": "Prophecy of Submersion",
+			"desc_hash": 452602631,
+			"desc": "When any of your own party members hits an opponent affected by an Omen, the effects of <color=#80C0FFFF>Hydro-related Elemental Reactions</color> are enhanced for 8s:\\n\u00b7Electro-Charged DMG increases by 15%.\\n\u00b7Vaporize DMG increases by 15%.\\n\u00b7Hydro Swirl DMG increases by 15%.\\n\u00b7Frozen duration is extended by 15%."
+		},
+		{
+			"name_hash": 3030801713,
+			"name": "Lunar Chain",
+			"desc_hash": 2775748423,
+			"desc": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\\nThis effect can only occur once every 5s."
+		},
+		{
+			"name_hash": 3782923609,
+			"name": "Restless Revolution",
+			"desc_hash": 4292322247,
+			"desc": "Increases the Level of <color=#FFD780FF>Stellaris Phantasm</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 488631345,
+			"name": "Prophecy of Oblivion",
+			"desc_hash": 4223850175,
+			"desc": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%."
+		},
+		{
+			"name_hash": 496658001,
+			"name": "Mockery of Fortuna",
+			"desc_hash": 167333135,
+			"desc": "Increases the Level of <color=#FFD780FF>Mirror Reflection of Doom</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 300946497,
+			"name": "Rhetorics of Calamitas",
+			"desc_hash": 2932631807,
+			"desc": "Upon entering <color=#FFD780FF>Illusory Torrent</color>, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement.\\nA maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 4029369362,
+			"desc_hash": 871545986,
+			"restricted": false,
+			"name": "Flowing Fate",
+			"desc": "Mona's outfit. A light astrologist's outfit that does away with superfluous fabric to provide top quality at an affordable price."
+		},
+		"alt": [
+			{
+				"hoyo_id": 340008,
+				"name_hash": 1860400666,
+				"desc_hash": 2912743770,
+				"restricted": true,
+				"name": "Pact of Stars and Moon",
+				"desc": "Mona's outfit. A costume made specifically to encompass the astrological concept of \"the destined moment,\" thanks to the 30% discount ticket she got from the planetarium refund."
+			}
+		]
+	},
+	"special_dish": {
+		"hoyo_id": 108114,
+		"name_hash": 1408147348,
+		"desc_hash": 3111728525,
+		"type_hash": 4117256230,
+		"rarity": 2,
+		"name": "Der Weisheit Letzter Schluss (Life)",
+		"desc": "Mona's specialty. A great work from a great astrologer. Its greatest aspect lies with its cost-effectiveness in filling one's stomach.",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 398061119,
+		"effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+		"original_recipe": "satisfying_salad"
+	}
+}

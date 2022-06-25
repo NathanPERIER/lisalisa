@@ -1,0 +1,808 @@
+{
+	"hoyo_id": 10000007,
+	"promote_id": 12,
+	"skill_depot_id": 704,
+	"fetter_id": 105,
+	"weapon": "sword",
+	"name_hash": null,
+	"desc_hash": 4261991457,
+	"name": "Anemo Traveler",
+	"desc": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": null,
+	"region": "outlander",
+	"vision_hash": null,
+	"astrolabe_hash": [
+		816482658,
+		1928056899
+	],
+	"allegiance_hash": 4064367953,
+	"vision": "anemo",
+	"astrolabe": "Viatrix",
+	"allegiance": "-",
+	"default_weapon": "dull_blade",
+	"base_stats": {
+		"Base HP": 911.791015625,
+		"Base ATK": 17.808000564575195,
+		"Base DEF": 57.224998474121094,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"brilliant_diamond_sliver": 1,
+				"windwheel_aster": 3,
+				"damaged_mask": 3,
+				"mora": 20000
+			},
+			{
+				"brilliant_diamond_fragment": 3,
+				"windwheel_aster": 10,
+				"damaged_mask": 15,
+				"mora": 40000
+			},
+			{
+				"brilliant_diamond_fragment": 6,
+				"windwheel_aster": 20,
+				"stained_mask": 12,
+				"mora": 60000
+			},
+			{
+				"brilliant_diamond_chunk": 3,
+				"windwheel_aster": 30,
+				"stained_mask": 18,
+				"mora": 80000
+			},
+			{
+				"brilliant_diamond_chunk": 6,
+				"windwheel_aster": 45,
+				"ominous_mask": 12,
+				"mora": 100000
+			},
+			{
+				"brilliant_diamond_gemstone": 6,
+				"windwheel_aster": 60,
+				"ominous_mask": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 681.154541015625,
+					"Base DEF": 42.75,
+					"Base ATK": 13.303799629211426,
+					"ATK%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1165.1328125,
+					"Base DEF": 73.125,
+					"Base ATK": 22.756500244140625,
+					"ATK%": 0.05999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1810.4371337890625,
+					"Base DEF": 113.625,
+					"Base ATK": 35.36009979248047,
+					"ATK%": 0.11999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2294.415283203125,
+					"Base DEF": 144.0,
+					"Base ATK": 44.812801361083984,
+					"ATK%": 0.11999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2778.3935546875,
+					"Base DEF": 174.375,
+					"Base ATK": 54.265499114990234,
+					"ATK%": 0.18000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3262.371826171875,
+					"Base DEF": 204.75,
+					"Base ATK": 63.71820068359375,
+					"ATK%": 0.23999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 2182891949,
+			"desc_hash": 3290781720,
+			"charge_num": 1,
+			"name": "Normal Attack: Foreign Ironwind",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"forbidden_curse_scroll": 4,
+					"dvalins_sigh": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"forbidden_curse_scroll": 6,
+					"dvalins_sigh": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"forbidden_curse_scroll": 9,
+					"dvalins_sigh": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"forbidden_curse_scroll": 12,
+					"dvalins_sigh": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"44.46%",
+						"43.43%",
+						"52.98%",
+						"58.31%",
+						"70.78%",
+						"55.9%+72.24%",
+						"20",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"48.08%",
+						"46.97%",
+						"57.29%",
+						"63.05%",
+						"76.54%",
+						"60.45%+78.12%",
+						"20",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"51.7%",
+						"50.5%",
+						"61.6%",
+						"67.8%",
+						"82.3%",
+						"65%+84%",
+						"20",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"56.87%",
+						"55.55%",
+						"67.76%",
+						"74.58%",
+						"90.53%",
+						"71.5%+92.4%",
+						"20",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"60.49%",
+						"59.08%",
+						"72.07%",
+						"79.33%",
+						"96.29%",
+						"76.05%+98.28%",
+						"20",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"64.63%",
+						"63.13%",
+						"77%",
+						"84.75%",
+						"102.87%",
+						"81.25%+105%",
+						"20",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"70.31%",
+						"68.68%",
+						"83.78%",
+						"92.21%",
+						"111.93%",
+						"88.4%+114.24%",
+						"20",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"76%",
+						"74.23%",
+						"90.55%",
+						"99.67%",
+						"120.98%",
+						"95.55%+123.48%",
+						"20",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"81.69%",
+						"79.79%",
+						"97.33%",
+						"107.12%",
+						"130.03%",
+						"102.7%+132.72%",
+						"20",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"87.89%",
+						"85.85%",
+						"104.72%",
+						"115.26%",
+						"139.91%",
+						"110.5%+142.8%",
+						"20",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"94.09%",
+						"91.91%",
+						"112.11%",
+						"123.4%",
+						"149.79%",
+						"118.3%+152.88%",
+						"20",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"100.3%",
+						"97.97%",
+						"119.5%",
+						"131.53%",
+						"159.66%",
+						"126.1%+162.96%",
+						"20",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"106.5%",
+						"104.03%",
+						"126.9%",
+						"139.67%",
+						"169.54%",
+						"133.9%+173.04%",
+						"20",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"112.71%",
+						"110.09%",
+						"134.29%",
+						"147.8%",
+						"179.41%",
+						"141.7%+183.12%",
+						"20",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"118.91%",
+						"116.15%",
+						"141.68%",
+						"155.94%",
+						"189.29%",
+						"149.5%+193.2%",
+						"20",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2639384229,
+			"desc_hash": 3074217384,
+			"charge_num": 1,
+			"name": "Palm Vortex",
+			"desc": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous <color=#80FFD7FF>Anemo DMG</color> to opponents in front of you.\\nThe vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.\\n\\n<color=#FFD780FF>Hold</color>\\nDMG and AoE will gradually increase.\\n\\n<color=#FFD780FF>Elemental Absorption</color>\\nIf the vortex comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>You discussed the way to grasp the formless wind with Paimon.</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"forbidden_curse_scroll": 4,
+					"dvalins_sigh": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"forbidden_curse_scroll": 6,
+					"dvalins_sigh": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"forbidden_curse_scroll": 9,
+					"dvalins_sigh": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"forbidden_curse_scroll": 12,
+					"dvalins_sigh": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Initial Cutting DMG",
+					"Max Cutting DMG",
+					"Initial Storm DMG",
+					"Max Storm DMG",
+					"Base CD",
+					"Max Charging CD"
+				],
+				"values": [
+					[
+						"12%",
+						"16.8%",
+						"176%",
+						"192%",
+						"5s",
+						"8s"
+					],
+					[
+						"12.9%",
+						"18.06%",
+						"189.2%",
+						"206.4%",
+						"5s",
+						"8s"
+					],
+					[
+						"13.8%",
+						"19.32%",
+						"202.4%",
+						"220.8%",
+						"5s",
+						"8s"
+					],
+					[
+						"15%",
+						"21%",
+						"220%",
+						"240%",
+						"5s",
+						"8s"
+					],
+					[
+						"15.9%",
+						"22.26%",
+						"233.2%",
+						"254.4%",
+						"5s",
+						"8s"
+					],
+					[
+						"16.8%",
+						"23.52%",
+						"246.4%",
+						"268.8%",
+						"5s",
+						"8s"
+					],
+					[
+						"18%",
+						"25.2%",
+						"264%",
+						"288%",
+						"5s",
+						"8s"
+					],
+					[
+						"19.2%",
+						"26.88%",
+						"281.6%",
+						"307.2%",
+						"5s",
+						"8s"
+					],
+					[
+						"20.4%",
+						"28.56%",
+						"299.2%",
+						"326.4%",
+						"5s",
+						"8s"
+					],
+					[
+						"21.6%",
+						"30.24%",
+						"316.8%",
+						"345.6%",
+						"5s",
+						"8s"
+					],
+					[
+						"22.8%",
+						"31.92%",
+						"334.4%",
+						"364.8%",
+						"5s",
+						"8s"
+					],
+					[
+						"24%",
+						"33.6%",
+						"352%",
+						"384%",
+						"5s",
+						"8s"
+					],
+					[
+						"25.5%",
+						"35.7%",
+						"374%",
+						"408%",
+						"5s",
+						"8s"
+					],
+					[
+						"27%",
+						"37.8%",
+						"396%",
+						"432%",
+						"5s",
+						"8s"
+					],
+					[
+						"28.5%",
+						"39.9%",
+						"418%",
+						"456%",
+						"5s",
+						"8s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 565740677,
+			"desc_hash": 68132912,
+			"charge_num": 1,
+			"name": "Gust Surge",
+			"desc": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Elemental Absorption</color>\\nIf the tornado comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>You and Paimon studied the flapping of a butterfly's wings.</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"forbidden_curse_scroll": 4,
+					"dvalins_sigh": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"forbidden_curse_scroll": 6,
+					"dvalins_sigh": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"forbidden_curse_scroll": 9,
+					"dvalins_sigh": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"forbidden_curse_scroll": 12,
+					"dvalins_sigh": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Tornado DMG",
+					"Additional Elemental DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"80.8%",
+						"24.8%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"86.86%",
+						"26.66%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"92.92%",
+						"28.52%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"101%",
+						"31%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"107.06%",
+						"32.86%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"113.12%",
+						"34.72%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"121.2%",
+						"37.2%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"129.28%",
+						"39.68%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"137.36%",
+						"42.16%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"145.44%",
+						"44.64%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"153.52%",
+						"47.12%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"161.6%",
+						"49.6%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"171.7%",
+						"52.7%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"181.8%",
+						"55.8%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"191.9%",
+						"58.9%",
+						"6s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 290187581,
+			"desc_hash": 3531151099,
+			"ascension": 1,
+			"name": "Slitting Wind",
+			"desc": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as <color=#80FFD7FF>Anemo DMG</color> to all opponents in its path."
+		},
+		{
+			"name_hash": 1816631405,
+			"desc_hash": 626310931,
+			"ascension": 4,
+			"name": "Second Wind",
+			"desc": "<color=#FFD780FF>Palm Vortex</color> kills regenerate 2% HP for 5s. This effect can only occur once every 5s."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 1939010113,
+			"name": "Raging Vortex",
+			"desc_hash": 1376664943,
+			"desc": "<color=#FFD780FF>Palm Vortex</color> pulls in opponents and objects within a 5m radius."
+		},
+		{
+			"name_hash": 202198665,
+			"name": "Uprising Whirlwind",
+			"desc_hash": 1959927503,
+			"desc": "Increases Energy Recharge by 16%."
+		},
+		{
+			"name_hash": 3296754769,
+			"name": "Sweeping Gust",
+			"desc_hash": 125832943,
+			"desc": "Increases the Level of <color=#FFD780FF>Gust Surge</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2963680761,
+			"name": "Cherishing Breezes",
+			"desc_hash": 3431258791,
+			"desc": "Reduces DMG taken while casting <color=#FFD780FF>Palm Vortex</color> by 10%."
+		},
+		{
+			"name_hash": 1400173321,
+			"name": "Vortex Stellaris",
+			"desc_hash": 2655543991,
+			"desc": "Increases the Level of <color=#FFD780FF>Palm Vortex</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3558611633,
+			"name": "Intertwined Winds",
+			"desc_hash": 2741900303,
+			"desc": "Targets who take DMG from <color=#FFD780FF>Gust Surge</color> have their <color=#80FFD7FF>Anemo RES</color> decreased by 20%.\\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 3561662730,
+			"desc_hash": 2020994066,
+			"restricted": false,
+			"name": "Rising Star",
+			"desc": "The Traveler's outfit. A practical set of clothing to wear during a long journey."
+		},
+		"alt": []
+	},
+	"special_dish": null
+}

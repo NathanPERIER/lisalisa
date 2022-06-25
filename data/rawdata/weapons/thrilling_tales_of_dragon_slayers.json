@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 14302,
+	"promote_id": 14302,
+	"gadget_id": 50014302,
+	"story_id": [
+		194302
+	],
+	"skill_affix": [
+		114302,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 3500935003,
+	"desc_hash": 4081562589,
+	"name": "Thrilling Tales of Dragon Slayers",
+	"desc": "A fictional story of a band of five heroes who go off on a dragon hunt. It is poorly written and structurally incoherent. Its value lies in the many lessons that can be learned from failure.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 38.74129867553711,
+		"HP%": 0.07660000026226044
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101",
+		"HP%": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"boreal_wolfs_milk_tooth": 2,
+				"dead_ley_line_branch": 2,
+				"divining_scroll": 1,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 2,
+				"dead_ley_line_branch": 8,
+				"divining_scroll": 5,
+				"mora": 10000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 4,
+				"dead_ley_line_leaves": 4,
+				"sealed_scroll": 4,
+				"mora": 15000
+			},
+			{
+				"boreal_wolfs_broken_fang": 2,
+				"dead_ley_line_leaves": 8,
+				"sealed_scroll": 6,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_broken_fang": 4,
+				"ley_line_sprout": 6,
+				"forbidden_curse_scroll": 4,
+				"mora": 25000
+			},
+			{
+				"boreal_wolfs_nostalgia": 3,
+				"ley_line_sprout": 12,
+				"forbidden_curse_scroll": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 110253283,
+		"name": "Heritage",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1143020,
+				"desc_hash": 1439036377,
+				"desc": "When switching characters, the new character taking the field has their ATK increased by <color=#99FFFFFF>24%</color> for 10s. This effect can only occur once every 20s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1143021,
+				"desc_hash": 880919241,
+				"desc": "When switching characters, the new character taking the field has their ATK increased by <color=#99FFFFFF>30%</color> for 10s. This effect can only occur once every 20s.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1143022,
+				"desc_hash": 3534876777,
+				"desc": "When switching characters, the new character taking the field has their ATK increased by <color=#99FFFFFF>36%</color> for 10s. This effect can only occur once every 20s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1143023,
+				"desc_hash": 3632690217,
+				"desc": "When switching characters, the new character taking the field has their ATK increased by <color=#99FFFFFF>42%</color> for 10s. This effect can only occur once every 20s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1143024,
+				"desc_hash": 4025167113,
+				"desc": "When switching characters, the new character taking the field has their ATK increased by <color=#99FFFFFF>48%</color> for 10s. This effect can only occur once every 20s.",
+				"cost": 4000
+			}
+		]
+	}
+}

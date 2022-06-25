@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12305,
+	"promote_id": 12305,
+	"gadget_id": 50012305,
+	"story_id": [
+		192305
+	],
+	"skill_affix": [
+		112305,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 3097441915,
+	"desc_hash": 2797040229,
+	"name": "Debate Club",
+	"desc": "A handy club made of fine steel. The most persuasive line of reasoning in any debater's arsenal.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 38.74129867553711,
+		"ATK%": 0.07660000026226044
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101",
+		"ATK%": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"mist_veiled_lead_elixir": 2,
+				"mist_grass_pollen": 2,
+				"damaged_mask": 1,
+				"mora": 5000
+			},
+			{
+				"mist_veiled_mercury_elixir": 2,
+				"mist_grass_pollen": 8,
+				"damaged_mask": 5,
+				"mora": 10000
+			},
+			{
+				"mist_veiled_mercury_elixir": 4,
+				"mist_grass": 4,
+				"stained_mask": 4,
+				"mora": 15000
+			},
+			{
+				"mist_veiled_gold_elixir": 2,
+				"mist_grass": 8,
+				"stained_mask": 6,
+				"mora": 20000
+			},
+			{
+				"mist_veiled_gold_elixir": 4,
+				"mist_grass_wick": 6,
+				"ominous_mask": 4,
+				"mora": 25000
+			},
+			{
+				"mist_veiled_primo_elixir": 3,
+				"mist_grass_wick": 12,
+				"ominous_mask": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2276876379,
+		"name": "Blunt Conclusion",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1123050,
+				"desc_hash": 1389968321,
+				"desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>60%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1123051,
+				"desc_hash": 3174462481,
+				"desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>75%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1123052,
+				"desc_hash": 1857844849,
+				"desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>90%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1123053,
+				"desc_hash": 3559833745,
+				"desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>105%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1123054,
+				"desc_hash": 2231593369,
+				"desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>120%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+				"cost": 4000
+			}
+		]
+	}
+}

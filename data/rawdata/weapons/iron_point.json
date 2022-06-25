@@ -1,0 +1,95 @@
+{
+	"hoyo_id": 13201,
+	"promote_id": 13201,
+	"gadget_id": 50013201,
+	"story_id": [
+		193201
+	],
+	"skill_affix": [
+		0,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 3070169307,
+	"desc_hash": 1460440477,
+	"name": "Iron Point",
+	"desc": "Sharp and pointy at one end, it is a balanced weapon that is quite popular among travelers.",
+	"rarity": 2,
+	"base_stats": {
+		"Base ATK": 32.93000030517578
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 1,
+				"chaos_device": 1,
+				"divining_scroll": 1,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 1,
+				"chaos_device": 5,
+				"divining_scroll": 4,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 3,
+				"chaos_circuit": 3,
+				"sealed_scroll": 3,
+				"mora": 10000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 1,
+				"chaos_circuit": 5,
+				"sealed_scroll": 4,
+				"mora": 15000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 11.699999809265137,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 23.299999237060547,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 35.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 46.70000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			}
+		]
+	},
+	"abilities": null
+}

@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13416,
+	"promote_id": 13416,
+	"gadget_id": 50013416,
+	"story_id": [
+		193416
+	],
+	"skill_affix": [
+		113416,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 4122509083,
+	"desc_hash": 1730885565,
+	"name": "Wavebreaker's Fin",
+	"desc": "A naginata forged from luminescent material deep in the ocean depths. It was once the possession of the tengu race.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 45.06869888305664,
+		"ATK%": 0.029999999329447746
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_203",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"mask_of_the_wicked_lieutenant": 3,
+				"concealed_claw": 3,
+				"old_handguard": 2,
+				"mora": 5000
+			},
+			{
+				"mask_of_the_tigers_bite": 3,
+				"concealed_claw": 12,
+				"old_handguard": 8,
+				"mora": 15000
+			},
+			{
+				"mask_of_the_tigers_bite": 6,
+				"concealed_unguis": 6,
+				"kageuchi_handguard": 6,
+				"mora": 20000
+			},
+			{
+				"mask_of_the_one_horned": 3,
+				"concealed_unguis": 12,
+				"kageuchi_handguard": 9,
+				"mora": 30000
+			},
+			{
+				"mask_of_the_one_horned": 6,
+				"concealed_talon": 9,
+				"famed_handguard": 6,
+				"mora": 35000
+			},
+			{
+				"mask_of_the_kijin": 4,
+				"concealed_talon": 18,
+				"famed_handguard": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1938172147,
+		"name": "Watatsumi Wavewalker",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1134160,
+				"desc_hash": 2943644025,
+				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.12%</color>. A maximum of <color=#99FFFFFF>40%</color> increased Elemental Burst DMG can be achieved this way.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1134161,
+				"desc_hash": 3756656953,
+				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.15%</color>. A maximum of <color=#99FFFFFF>50%</color> increased Elemental Burst DMG can be achieved this way.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1134162,
+				"desc_hash": 325676553,
+				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.18%</color>. A maximum of <color=#99FFFFFF>60%</color> increased Elemental Burst DMG can be achieved this way.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1134163,
+				"desc_hash": 759699921,
+				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.21%</color>. A maximum of <color=#99FFFFFF>70%</color> increased Elemental Burst DMG can be achieved this way.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1134164,
+				"desc_hash": 775754601,
+				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.24%</color>. A maximum of <color=#99FFFFFF>80%</color> increased Elemental Burst DMG can be achieved this way.",
+				"cost": 8000
+			}
+		]
+	}
+}

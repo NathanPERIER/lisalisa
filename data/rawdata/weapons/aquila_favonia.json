@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 11501,
+	"promote_id": 11501,
+	"gadget_id": 50011501,
+	"story_id": [
+		191501
+	],
+	"skill_affix": [
+		111501,
+		0
+	],
+	"type": "sword",
+	"name_hash": 902264035,
+	"desc_hash": 291327109,
+	"name": "Aquila Favonia",
+	"desc": "The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil \u2014 just like the last heroine who wielded it.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 47.5369987487793,
+		"Physical DMG%": 0.09000000357627869
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_302",
+		"Physical DMG%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"tile_of_decarabians_tower": 5,
+				"heavy_horn": 5,
+				"firm_arrowhead": 3,
+				"mora": 10000
+			},
+			{
+				"debris_of_decarabians_city": 5,
+				"heavy_horn": 18,
+				"firm_arrowhead": 12,
+				"mora": 20000
+			},
+			{
+				"debris_of_decarabians_city": 9,
+				"black_bronze_horn": 9,
+				"sharp_arrowhead": 9,
+				"mora": 30000
+			},
+			{
+				"fragment_of_decarabians_epic": 5,
+				"black_bronze_horn": 18,
+				"sharp_arrowhead": 14,
+				"mora": 45000
+			},
+			{
+				"fragment_of_decarabians_epic": 9,
+				"black_crystal_horn": 14,
+				"weathered_arrowhead": 9,
+				"mora": 55000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 6,
+				"black_crystal_horn": 27,
+				"weathered_arrowhead": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1362580043,
+		"name": "Falcon's Defiance",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1115010,
+				"desc_hash": 2016911921,
+				"desc": "ATK is increased by <color=#99FFFFFF>20%</color>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <color=#99FFFFFF>100%</color> of ATK and dealing <color=#99FFFFFF>200%</color> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1115011,
+				"desc_hash": 3504557121,
+				"desc": "ATK is increased by <color=#99FFFFFF>25%</color>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <color=#99FFFFFF>115%</color> of ATK and dealing <color=#99FFFFFF>230%</color> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1115012,
+				"desc_hash": 2852492177,
+				"desc": "ATK is increased by <color=#99FFFFFF>30%</color>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <color=#99FFFFFF>130%</color> of ATK and dealing <color=#99FFFFFF>260%</color> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1115013,
+				"desc_hash": 1882608865,
+				"desc": "ATK is increased by <color=#99FFFFFF>35%</color>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <color=#99FFFFFF>145%</color> of ATK and dealing <color=#99FFFFFF>290%</color> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1115014,
+				"desc_hash": 2400729121,
+				"desc": "ATK is increased by <color=#99FFFFFF>40%</color>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <color=#99FFFFFF>160%</color> of ATK and dealing <color=#99FFFFFF>320%</color> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+				"cost": 16000
+			}
+		]
+	}
+}

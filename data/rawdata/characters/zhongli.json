@@ -1,0 +1,855 @@
+{
+	"hoyo_id": 10000030,
+	"promote_id": 30,
+	"skill_depot_id": 3001,
+	"fetter_id": 118,
+	"weapon": "polearm",
+	"name_hash": 3862787418,
+	"desc_hash": 2898546105,
+	"name": "Zhongli",
+	"desc": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_MALE",
+	"birthday": [
+		31,
+		12
+	],
+	"region": "liyue",
+	"vision_hash": [
+		967031460,
+		2507042785
+	],
+	"astrolabe_hash": [
+		1594094098,
+		2721221067
+	],
+	"allegiance_hash": 3651078097,
+	"vision": "geo",
+	"astrolabe": "Lapis Dei",
+	"allegiance": "Liyue Harbor",
+	"default_weapon": "beginners_protector",
+	"base_stats": {
+		"Base HP": 1143.9840087890625,
+		"Base ATK": 19.551000595092773,
+		"Base DEF": 57.436798095703125,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"prithiva_topaz_sliver": 1,
+				"cor_lapis": 3,
+				"slime_condensate": 3,
+				"mora": 20000
+			},
+			{
+				"prithiva_topaz_fragment": 3,
+				"basalt_pillar": 2,
+				"cor_lapis": 10,
+				"slime_condensate": 15,
+				"mora": 40000
+			},
+			{
+				"prithiva_topaz_fragment": 6,
+				"basalt_pillar": 4,
+				"cor_lapis": 20,
+				"slime_secretions": 12,
+				"mora": 60000
+			},
+			{
+				"prithiva_topaz_chunk": 3,
+				"basalt_pillar": 8,
+				"cor_lapis": 30,
+				"slime_secretions": 18,
+				"mora": 80000
+			},
+			{
+				"prithiva_topaz_chunk": 6,
+				"basalt_pillar": 12,
+				"cor_lapis": 45,
+				"slime_concentrate": 12,
+				"mora": 100000
+			},
+			{
+				"prithiva_topaz_gemstone": 6,
+				"basalt_pillar": 20,
+				"cor_lapis": 60,
+				"slime_concentrate": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 980.86279296875,
+					"Base DEF": 49.24800109863281,
+					"Base ATK": 16.761999130249023,
+					"Geo DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1677.791748046875,
+					"Base DEF": 84.23999786376953,
+					"Base ATK": 28.67180061340332,
+					"Geo DMG%": 0.07199999690055847
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2607.0302734375,
+					"Base DEF": 130.89599609375,
+					"Base ATK": 44.55160140991211,
+					"Geo DMG%": 0.14399999380111694
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 3303.958984375,
+					"Base DEF": 165.88800048828125,
+					"Base ATK": 56.46139907836914,
+					"Geo DMG%": 0.14399999380111694
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 4000.887939453125,
+					"Base DEF": 200.8800048828125,
+					"Base ATK": 68.37129974365234,
+					"Geo DMG%": 0.2160000056028366
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 4697.81689453125,
+					"Base DEF": 235.8719940185547,
+					"Base ATK": 80.28109741210938,
+					"Geo DMG%": 0.2879999876022339
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 2119081949,
+			"desc_hash": 804532184,
+			"charge_num": 1,
+			"name": "Normal Attack: Rain of Stone",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 6 consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_gold": 3,
+					"slime_condensate": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_gold": 2,
+					"slime_secretions": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_gold": 4,
+					"slime_secretions": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_gold": 6,
+					"slime_secretions": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_gold": 9,
+					"slime_secretions": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_gold": 4,
+					"slime_concentrate": 4,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_gold": 6,
+					"slime_concentrate": 6,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_gold": 12,
+					"slime_concentrate": 9,
+					"tusk_of_monoceros_caeli": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_gold": 16,
+					"slime_concentrate": 12,
+					"tusk_of_monoceros_caeli": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"6-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"30.77%",
+						"31.15%",
+						"38.58%",
+						"42.94%",
+						"10.75%\u00d74",
+						"54.5%",
+						"111.03%",
+						"25",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"33.27%",
+						"33.69%",
+						"41.72%",
+						"46.43%",
+						"11.63%\u00d74",
+						"58.93%",
+						"120.06%",
+						"25",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"35.78%",
+						"36.22%",
+						"44.86%",
+						"49.93%",
+						"12.5%\u00d74",
+						"63.37%",
+						"129.1%",
+						"25",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"39.36%",
+						"39.85%",
+						"49.34%",
+						"54.92%",
+						"13.75%\u00d74",
+						"69.7%",
+						"142.01%",
+						"25",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"41.86%",
+						"42.38%",
+						"52.48%",
+						"58.42%",
+						"14.62%\u00d74",
+						"74.14%",
+						"151.05%",
+						"25",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"44.72%",
+						"45.28%",
+						"56.07%",
+						"62.41%",
+						"15.62%\u00d74",
+						"79.21%",
+						"161.37%",
+						"25",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"48.66%",
+						"49.26%",
+						"61%",
+						"67.9%",
+						"17%\u00d74",
+						"86.18%",
+						"175.58%",
+						"25",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"52.59%",
+						"53.25%",
+						"65.94%",
+						"73.4%",
+						"18.38%\u00d74",
+						"93.15%",
+						"189.78%",
+						"25",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"56.53%",
+						"57.23%",
+						"70.87%",
+						"78.89%",
+						"19.75%\u00d74",
+						"100.12%",
+						"203.98%",
+						"25",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"60.82%",
+						"61.58%",
+						"76.26%",
+						"84.88%",
+						"21.25%\u00d74",
+						"107.73%",
+						"219.47%",
+						"25",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"65.74%",
+						"66.56%",
+						"82.42%",
+						"91.74%",
+						"22.97%\u00d74",
+						"116.44%",
+						"237.22%",
+						"25",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"71.53%",
+						"72.42%",
+						"89.68%",
+						"99.82%",
+						"24.99%\u00d74",
+						"126.69%",
+						"258.1%",
+						"25",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"77.31%",
+						"78.27%",
+						"96.93%",
+						"107.89%",
+						"27.01%\u00d74",
+						"136.93%",
+						"278.97%",
+						"25",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"83.1%",
+						"84.13%",
+						"104.18%",
+						"115.97%",
+						"29.03%\u00d74",
+						"147.18%",
+						"299.85%",
+						"25",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"89.41%",
+						"90.52%",
+						"112.1%",
+						"124.77%",
+						"31.24%\u00d74",
+						"158.36%",
+						"322.62%",
+						"25",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 3426814373,
+			"desc_hash": 20709872,
+			"charge_num": 1,
+			"name": "Dominus Lapidis",
+			"desc": "#Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nCommands the power of earth to create a Stone Stele.\\n\\n<color=#FFD780FF>Hold</color>\\nCauses nearby Geo energy to explode, causing the following effects:\\n\u00b7If their maximum number hasn't been reached, creates a Stone Stele.\\n\u00b7Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP.\\n\u00b7Deals <color=#FFE699FF>AoE Geo DMG</color>.\\n\u00b7If there are nearby targets with the <color=#FFE699FF>Geo element</color>, it will drain a large amount of <color=#FFE699FF>Geo element</color> from a maximum of 2 such targets. This effect does not cause DMG.\\n\\n<color=#FFD780FF>Stone Stele</color>\\nWhen created, deals <color=#FFE699FF>AoE Geo DMG</color>.\\nAdditionally, it will intermittently resonate with other nearby <color=#FFE699FF>Geo constructs</color>, dealing <color=#FFE699FF>Geo DMG</color> to nearby opponents.\\nThe Stone Stele is considered a <color=#FFE699FF>Geo construct</color> that can both be climbed and used to block attacks.\\nOnly one Stele created by Zhongli himself may initially exist at any one time.\\n\\n<color=#FFD780FF>Jade Shield</color>\\nPossesses 150% DMG Absorption against all Elemental and Physical DMG.\\nCharacters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.\\n\\n<i>A true master of stone may carve jade and shape gold.</i>",
+			"costs": [
+				{
+					"teachings_of_gold": 3,
+					"slime_condensate": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_gold": 2,
+					"slime_secretions": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_gold": 4,
+					"slime_secretions": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_gold": 6,
+					"slime_secretions": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_gold": 9,
+					"slime_secretions": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_gold": 4,
+					"slime_concentrate": 4,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_gold": 6,
+					"slime_concentrate": 6,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_gold": 12,
+					"slime_concentrate": 9,
+					"tusk_of_monoceros_caeli": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_gold": 16,
+					"slime_concentrate": 12,
+					"tusk_of_monoceros_caeli": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Stone Stele/Resonance DMG",
+					"#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD",
+					"Hold DMG",
+					"Shield Base Absorption",
+					"Additional Shield Absorption",
+					"Shield Duration",
+					"CD (hold)"
+				],
+				"values": [
+					[
+						"16%/32%",
+						"4s",
+						"80%",
+						"1232",
+						"12.8% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"17.2%/34.4%",
+						"4s",
+						"86%",
+						"1355",
+						"13.76% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"18.4%/36.8%",
+						"4s",
+						"92%",
+						"1489",
+						"14.72% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"20%/40%",
+						"4s",
+						"100%",
+						"1633",
+						"16% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"21.2%/42.4%",
+						"4s",
+						"106%",
+						"1787",
+						"16.96% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"22.4%/44.8%",
+						"4s",
+						"112%",
+						"1951",
+						"17.92% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"24%/48%",
+						"4s",
+						"120%",
+						"2126",
+						"19.2% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"25.6%/51.2%",
+						"4s",
+						"128%",
+						"2310",
+						"20.48% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"27.2%/54.4%",
+						"4s",
+						"136%",
+						"2506",
+						"21.76% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"28.8%/57.6%",
+						"4s",
+						"144%",
+						"2711",
+						"23.04% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"30.4%/60.8%",
+						"4s",
+						"152%",
+						"2927",
+						"24.32% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"32%/64%",
+						"4s",
+						"160%",
+						"3153",
+						"25.6% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"34%/68%",
+						"4s",
+						"170%",
+						"3389",
+						"27.2% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"36%/72%",
+						"4s",
+						"180%",
+						"3635",
+						"28.8% Max HP",
+						"20s",
+						"12s"
+					],
+					[
+						"38%/76%",
+						"4s",
+						"190%",
+						"3892",
+						"30.4% Max HP",
+						"20s",
+						"12s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 3055197325,
+			"desc_hash": 3466156896,
+			"charge_num": 1,
+			"name": "Planet Befall",
+			"desc": "Brings a falling meteor down to earth, dealing massive <color=#FFE699FF>Geo DMG</color> to opponents caught in its AoE and applying the <color=#FFE699FF>Petrification</color> status to them.\\n\\n<color=#FFD780FF>Petrification</color>\\nOpponents affected by the <color=#FFE699FF>Petrification</color> status cannot move.\\n\\n<i>The falling meteor punishes the unjust.</i>",
+			"costs": [
+				{
+					"teachings_of_gold": 3,
+					"slime_condensate": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_gold": 2,
+					"slime_secretions": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_gold": 4,
+					"slime_secretions": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_gold": 6,
+					"slime_secretions": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_gold": 9,
+					"slime_secretions": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_gold": 4,
+					"slime_concentrate": 4,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_gold": 6,
+					"slime_concentrate": 6,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_gold": 12,
+					"slime_concentrate": 9,
+					"tusk_of_monoceros_caeli": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_gold": 16,
+					"slime_concentrate": 12,
+					"tusk_of_monoceros_caeli": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Petrification Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"401.08%",
+						"3.1s",
+						"12s",
+						"40"
+					],
+					[
+						"444.44%",
+						"3.2s",
+						"12s",
+						"40"
+					],
+					[
+						"487.8%",
+						"3.3s",
+						"12s",
+						"40"
+					],
+					[
+						"542%",
+						"3.4s",
+						"12s",
+						"40"
+					],
+					[
+						"590.78%",
+						"3.5s",
+						"12s",
+						"40"
+					],
+					[
+						"639.56%",
+						"3.6s",
+						"12s",
+						"40"
+					],
+					[
+						"704.6%",
+						"3.7s",
+						"12s",
+						"40"
+					],
+					[
+						"769.64%",
+						"3.8s",
+						"12s",
+						"40"
+					],
+					[
+						"834.68%",
+						"3.9s",
+						"12s",
+						"40"
+					],
+					[
+						"899.72%",
+						"4s",
+						"12s",
+						"40"
+					],
+					[
+						"964.76%",
+						"4s",
+						"12s",
+						"40"
+					],
+					[
+						"1029.8%",
+						"4s",
+						"12s",
+						"40"
+					],
+					[
+						"1084%",
+						"4s",
+						"12s",
+						"40"
+					],
+					[
+						"1138.2%",
+						"4s",
+						"12s",
+						"40"
+					],
+					[
+						"1192.4%",
+						"4s",
+						"12s",
+						"40"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 4116255925,
+			"desc_hash": 4290345675,
+			"ascension": 1,
+			"name": "Resonant Waves",
+			"desc": "When the Jade Shield takes DMG, it will Fortify:\\n\u00b7Fortified characters have 5% increased Shield Strength.\\nCan stack up to 5 times, and lasts until the Jade Shield disappears."
+		},
+		{
+			"name_hash": 3036449245,
+			"desc_hash": 1026698715,
+			"ascension": 4,
+			"name": "Dominance of Earth",
+			"desc": "Zhongli deals bonus DMG based on his Max HP:\\n\u00b7Normal Attack, Charged Attack, and Plunging Attack DMG is increased by 1.39% of Max HP.\\n\u00b7<color=#FFD780FF>Dominus Lapidis'</color> Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.\\n\u00b7<color=#FFD780FF>Planet Befall's</color> DMG is increased by 33% of Max HP."
+		},
+		{
+			"name_hash": 3319973493,
+			"desc_hash": 487161675,
+			"ascension": null,
+			"name": "Arcanum of Crystal",
+			"desc": "Refunds 15% of the ore used when crafting Polearm-type weapons."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 3111572937,
+			"name": "Rock, the Backbone of Earth",
+			"desc_hash": 2163509591,
+			"desc": "Increases the maximum number of Stone Steles created by <color=#FFD780FF>Dominus Lapidis</color> that may exist simultaneously to 2."
+		},
+		{
+			"name_hash": 519733529,
+			"name": "Stone, the Cradle of Jade",
+			"desc_hash": 3521405695,
+			"desc": "<color=#FFD780FF>Planet Befall</color> grants nearby characters on the field a Jade Shield when it descends."
+		},
+		{
+			"name_hash": 1427308897,
+			"name": "Jade, Shimmering through Darkness",
+			"desc_hash": 706146151,
+			"desc": "Increases the Level of <color=#FFD780FF>Dominus Lapidis</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 583045657,
+			"name": "Topaz, Unbreakable and Fearless",
+			"desc_hash": 1050713703,
+			"desc": "Increases <color=#FFD780FF>Planet Befall</color>'s AoE by 20% and increases the duration of Planet Befall's Petrification effect by 2s."
+		},
+		{
+			"name_hash": 3586646841,
+			"name": "Lazuli, Herald of the Order",
+			"desc_hash": 2198645143,
+			"desc": "Increases the Level of <color=#FFD780FF>Planet Befall</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2555647321,
+			"name": "Chrysos, Bounty of Dominator",
+			"desc_hash": 221212679,
+			"desc": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character.\\nA single instance of regeneration cannot exceed 8% of that character's Max HP."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 41327378,
+			"desc_hash": 2640185922,
+			"restricted": false,
+			"name": "Hermit of Mortal Life",
+			"desc": "Zhongli's outfit. This is the leisurewear of choice for Zhongli, the Wangsheng Funeral Parlor's consultant."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108173,
+		"name_hash": 1586354564,
+		"desc_hash": 1447966037,
+		"type_hash": 2726406134,
+		"rarity": 3,
+		"name": "Slow-Cooked Bamboo Shoot Soup",
+		"desc": "Zhongli's specialty. The ham is a butt end selected according to Yuehai Pavilion's gourmet standards. The fresh meat is pork belly, freshly hunted in Springvale, while the bamboo shoots are the densest you'll find in Qingce Village. It is then heated, slowly, gently, and with the utmost care and technique... Such a \"particular\" taste may only be shared with those who know how to appreciate it.",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 2009447975,
+		"effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s.",
+		"original_recipe": "bamboo_shoot_soup"
+	}
+}

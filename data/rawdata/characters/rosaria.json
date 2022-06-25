@@ -1,0 +1,784 @@
+{
+	"hoyo_id": 10000045,
+	"promote_id": 45,
+	"skill_depot_id": 4501,
+	"fetter_id": 133,
+	"weapon": "polearm",
+	"name_hash": 4260733330,
+	"desc_hash": 1025256649,
+	"name": "Rosaria",
+	"desc": "A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_LADY",
+	"birthday": [
+		24,
+		1
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		2778487532,
+		3452454753
+	],
+	"astrolabe_hash": [
+		3331210802,
+		490664827
+	],
+	"allegiance_hash": 1208431633,
+	"vision": "cryo",
+	"astrolabe": "Spinea Corona",
+	"allegiance": "Church of Favonius",
+	"default_weapon": "beginners_protector",
+	"base_stats": {
+		"Base HP": 1030.3238525390625,
+		"Base ATK": 20.12303924560547,
+		"Base DEF": 59.513999938964844,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"shivada_jade_sliver": 1,
+				"valberry": 3,
+				"recruits_insignia": 3,
+				"mora": 20000
+			},
+			{
+				"shivada_jade_fragment": 3,
+				"hoarfrost_core": 2,
+				"valberry": 10,
+				"recruits_insignia": 15,
+				"mora": 40000
+			},
+			{
+				"shivada_jade_fragment": 6,
+				"hoarfrost_core": 4,
+				"valberry": 20,
+				"sergeants_insignia": 12,
+				"mora": 60000
+			},
+			{
+				"shivada_jade_chunk": 3,
+				"hoarfrost_core": 8,
+				"valberry": 30,
+				"sergeants_insignia": 18,
+				"mora": 80000
+			},
+			{
+				"shivada_jade_chunk": 6,
+				"hoarfrost_core": 12,
+				"valberry": 45,
+				"lieutenants_insignia": 12,
+				"mora": 100000
+			},
+			{
+				"shivada_jade_gemstone": 6,
+				"hoarfrost_core": 20,
+				"valberry": 60,
+				"lieutenants_insignia": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 769.7046508789062,
+					"Base DEF": 44.459999084472656,
+					"Base ATK": 15.033293724060059,
+					"ATK%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1316.60009765625,
+					"Base DEF": 76.05000305175781,
+					"Base ATK": 25.714845657348633,
+					"ATK%": 0.05999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2045.7939453125,
+					"Base DEF": 118.16999816894531,
+					"Base ATK": 39.956912994384766,
+					"ATK%": 0.11999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2592.689453125,
+					"Base DEF": 149.75999450683594,
+					"Base ATK": 50.638465881347656,
+					"ATK%": 0.11999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 3139.584716796875,
+					"Base DEF": 181.35000610351562,
+					"Base ATK": 61.32001495361328,
+					"ATK%": 0.18000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3686.480224609375,
+					"Base DEF": 212.94000244140625,
+					"Base ATK": 72.0015640258789,
+					"ATK%": 0.23999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 37074469,
+			"desc_hash": 1514818096,
+			"charge_num": 1,
+			"name": "Normal Attack: Spear of the Church",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to five consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"recruits_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"sergeants_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"sergeants_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"sergeants_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"sergeants_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"lieutenants_insignia": 4,
+					"shadow_of_the_warrior": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"lieutenants_insignia": 6,
+					"shadow_of_the_warrior": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"lieutenants_insignia": 9,
+					"shadow_of_the_warrior": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"lieutenants_insignia": 12,
+					"shadow_of_the_warrior": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"52.46%",
+						"51.6%",
+						"31.82%\u00d72",
+						"69.66%",
+						"41.62%+43%",
+						"136.74%",
+						"25",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"56.73%",
+						"55.8%",
+						"34.41%\u00d72",
+						"75.33%",
+						"45.01%+46.5%",
+						"147.87%",
+						"25",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"61%",
+						"60%",
+						"37%\u00d72",
+						"81%",
+						"48.4%+50%",
+						"159%",
+						"25",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"67.1%",
+						"66%",
+						"40.7%\u00d72",
+						"89.1%",
+						"53.24%+55%",
+						"174.9%",
+						"25",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"71.37%",
+						"70.2%",
+						"43.29%\u00d72",
+						"94.77%",
+						"56.63%+58.5%",
+						"186.03%",
+						"25",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"76.25%",
+						"75%",
+						"46.25%\u00d72",
+						"101.25%",
+						"60.5%+62.5%",
+						"198.75%",
+						"25",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"82.96%",
+						"81.6%",
+						"50.32%\u00d72",
+						"110.16%",
+						"65.82%+68%",
+						"216.24%",
+						"25",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"89.67%",
+						"88.2%",
+						"54.39%\u00d72",
+						"119.07%",
+						"71.15%+73.5%",
+						"233.73%",
+						"25",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"96.38%",
+						"94.8%",
+						"58.46%\u00d72",
+						"127.98%",
+						"76.47%+79%",
+						"251.22%",
+						"25",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"103.7%",
+						"102%",
+						"62.9%\u00d72",
+						"137.7%",
+						"82.28%+85%",
+						"270.3%",
+						"25",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"111.02%",
+						"109.2%",
+						"67.34%\u00d72",
+						"147.42%",
+						"88.09%+91%",
+						"289.38%",
+						"25",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"118.34%",
+						"116.4%",
+						"71.78%\u00d72",
+						"157.14%",
+						"93.9%+97%",
+						"308.46%",
+						"25",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"125.66%",
+						"123.6%",
+						"76.22%\u00d72",
+						"166.86%",
+						"99.7%+103%",
+						"327.54%",
+						"25",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"132.98%",
+						"130.8%",
+						"80.66%\u00d72",
+						"176.58%",
+						"105.51%+109%",
+						"346.62%",
+						"25",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"140.3%",
+						"138%",
+						"85.1%\u00d72",
+						"186.3%",
+						"111.32%+115%",
+						"365.7%",
+						"25",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2398605029,
+			"desc_hash": 1467181408,
+			"charge_num": 1,
+			"name": "Ravaging Confession",
+			"desc": "Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing <color=#99FFFFFF>Cryo DMG</color>.\\nThis ability cannot be used to travel behind opponents of a larger build.\\n\\n<i>Those who confess to Sister Rosaria will be granted no absolution. All sinners shall be met with the piercing cold of punishment proportionate to the weight of their sins.</i>",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"recruits_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"sergeants_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"sergeants_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"sergeants_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"sergeants_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"lieutenants_insignia": 4,
+					"shadow_of_the_warrior": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"lieutenants_insignia": 6,
+					"shadow_of_the_warrior": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"lieutenants_insignia": 9,
+					"shadow_of_the_warrior": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"lieutenants_insignia": 12,
+					"shadow_of_the_warrior": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"58.4%+136%",
+						"6s"
+					],
+					[
+						"62.78%+146.2%",
+						"6s"
+					],
+					[
+						"67.16%+156.4%",
+						"6s"
+					],
+					[
+						"73%+170%",
+						"6s"
+					],
+					[
+						"77.38%+180.2%",
+						"6s"
+					],
+					[
+						"81.76%+190.4%",
+						"6s"
+					],
+					[
+						"87.6%+204%",
+						"6s"
+					],
+					[
+						"93.44%+217.6%",
+						"6s"
+					],
+					[
+						"99.28%+231.2%",
+						"6s"
+					],
+					[
+						"105.12%+244.8%",
+						"6s"
+					],
+					[
+						"110.96%+258.4%",
+						"6s"
+					],
+					[
+						"116.8%+272%",
+						"6s"
+					],
+					[
+						"124.1%+289%",
+						"6s"
+					],
+					[
+						"131.4%+306%",
+						"6s"
+					],
+					[
+						"138.7%+323%",
+						"6s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 3067800421,
+			"desc_hash": 2194551560,
+			"charge_num": 1,
+			"name": "Rites of Termination",
+			"desc": "Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal <color=#99FFFFFF>Cryo DMG</color>.\\nWhile active, the Ice Lance periodically releases a blast of cold air, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\\n\\n<i>Judgment is such a tedious ordeal \u2014 much easier to skip that phase and get straight to the last rites. Rosaria was never very devoted to the Anemo God anyway, which makes performing them all too easy.</i>",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"recruits_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"sergeants_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"sergeants_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"sergeants_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"sergeants_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"lieutenants_insignia": 4,
+					"shadow_of_the_warrior": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"lieutenants_insignia": 6,
+					"shadow_of_the_warrior": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"lieutenants_insignia": 9,
+					"shadow_of_the_warrior": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"lieutenants_insignia": 12,
+					"shadow_of_the_warrior": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Ice Lance DoT",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"104%+152%",
+						"132%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"111.8%+163.4%",
+						"141.9%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"119.6%+174.8%",
+						"151.8%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"130%+190%",
+						"165%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"137.8%+201.4%",
+						"174.9%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"145.6%+212.8%",
+						"184.8%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"156%+228%",
+						"198%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"166.4%+243.2%",
+						"211.2%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"176.8%+258.4%",
+						"224.4%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"187.2%+273.6%",
+						"237.6%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"197.6%+288.8%",
+						"250.8%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"208%+304%",
+						"264%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"221%+323%",
+						"280.5%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"234%+342%",
+						"297%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"247%+361%",
+						"313.5%",
+						"8s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 1821354965,
+			"desc_hash": 978610771,
+			"ascension": 1,
+			"name": "Regina Probationum",
+			"desc": "When Rosaria strikes an opponent from behind using <color=#FFD780FF>Ravaging Confession</color>, Rosaria's CRIT Rate increases by 12% for 5s."
+		},
+		{
+			"name_hash": 3761750205,
+			"desc_hash": 311863307,
+			"ascension": 4,
+			"name": "Shadow Samaritan",
+			"desc": "Casting <color=#FFD780FF>Rites of Termination</color> increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.\\nCRIT Rate Bonus gained this way cannot exceed 15%."
+		},
+		{
+			"name_hash": 1285745693,
+			"desc_hash": 3191921099,
+			"ascension": null,
+			"name": "Night Walk",
+			"desc": "At night (18:00\u20136:00), increases the Movement SPD of your own party members by 10%.\\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the exact same effects."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 1747862233,
+			"name": "Unholy Revelation",
+			"desc_hash": 3325524863,
+			"desc": "When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s."
+		},
+		{
+			"name_hash": 3870318265,
+			"name": "Land Without Promise",
+			"desc_hash": 1426432255,
+			"desc": "The duration of the Ice Lance created by <color=#FFD780FF>Rites of Termination</color> is increased by 4s."
+		},
+		{
+			"name_hash": 3057954913,
+			"name": "The Wages of Sin",
+			"desc_hash": 3853272615,
+			"desc": "Increases the Level of <color=#FFD780FF>Ravaging Confession</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 1072343465,
+			"name": "Painful Grace",
+			"desc_hash": 1502603863,
+			"desc": "<color=#FFD780FF>Ravaging Confession</color>'s CRIT Hits regenerate 5 Energy for Rosaria.\\nCan only be triggered once each time Ravaging Confession is cast."
+		},
+		{
+			"name_hash": 1802655737,
+			"name": "Last Rites",
+			"desc_hash": 2207642951,
+			"desc": "Increases the Level of <color=#FFD780FF>Rites of Termination</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3739872265,
+			"name": "Divine Retribution",
+			"desc_hash": 1651444399,
+			"desc": "<color=#FFD780FF>Rites of Termination</color>'s attack decreases opponents' Physical RES by 20% for 10s."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 772899890,
+			"desc_hash": 4067539010,
+			"restricted": false,
+			"name": "Executor's Thorns",
+			"desc": "Rosaria's outfit. Rosaria has heavily modified this particular Church of Favonius uniform."
+		},
+		"alt": [
+			{
+				"hoyo_id": 340009,
+				"name_hash": 2412226586,
+				"desc_hash": 3143995322,
+				"restricted": true,
+				"name": "To the Church's Free Spirit",
+				"desc": "Rosaria's outfit. This seems to have been custom-made for her by the Church."
+			}
+		]
+	},
+	"special_dish": {
+		"hoyo_id": 108234,
+		"name_hash": 4177634804,
+		"desc_hash": 4055431757,
+		"type_hash": 3087823190,
+		"rarity": 2,
+		"name": "Dinner of Judgment",
+		"desc": "Rosaria's specialty. The seemingly dark thorns make it hard to know how to begin tucking in. After some effort, you manage to clear the ornamentation away... and to your surprise, the first taste of the tender chicken unveils a shockingly lovely taste. As Rosaria studies your reaction, she seems pleased.",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 3874610239,
+		"effect": "Restores 30% of Max HP and an additional 1,750 HP to the selected character.",
+		"original_recipe": "sweet_madame"
+	}
+}

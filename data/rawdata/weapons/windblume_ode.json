@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15413,
+	"promote_id": 15413,
+	"gadget_id": 50015413,
+	"story_id": [
+		195413
+	],
+	"skill_affix": [
+		115413,
+		0
+	],
+	"type": "bow",
+	"name_hash": 650049651,
+	"desc_hash": 1031521493,
+	"name": "Windblume Ode",
+	"desc": "A bow adorned with nameless flowers that bears the earnest hopes of an equally nameless person.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"Elemental Mastery": 36.0
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 3,
+				"dead_ley_line_branch": 3,
+				"whopperflower_nectar": 2,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 3,
+				"dead_ley_line_branch": 12,
+				"whopperflower_nectar": 8,
+				"mora": 15000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 6,
+				"dead_ley_line_leaves": 6,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 3,
+				"dead_ley_line_leaves": 12,
+				"shimmering_nectar": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 6,
+				"ley_line_sprout": 9,
+				"energy_nectar": 6,
+				"mora": 35000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 4,
+				"ley_line_sprout": 18,
+				"energy_nectar": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2243732203,
+		"name": "Windblume Wish",
+		"special_material": "the_visible_winds",
+		"values": [
+			{
+				"affix_id": 1154130,
+				"desc_hash": 3011253385,
+				"desc": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by <color=#99FFFFFF>16%</color> for 6s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1154131,
+				"desc_hash": 1438538761,
+				"desc": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by <color=#99FFFFFF>20%</color> for 6s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1154132,
+				"desc_hash": 1633168769,
+				"desc": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by <color=#99FFFFFF>24%</color> for 6s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1154133,
+				"desc_hash": 1464349937,
+				"desc": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by <color=#99FFFFFF>28%</color> for 6s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1154134,
+				"desc_hash": 2359422417,
+				"desc": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by <color=#99FFFFFF>32%</color> for 6s.",
+				"cost": 8000
+			}
+		]
+	}
+}

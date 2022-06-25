@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12412,
+	"promote_id": 12412,
+	"gadget_id": 50012412,
+	"story_id": [
+		192412
+	],
+	"skill_affix": [
+		112412,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 346510395,
+	"desc_hash": 3519261853,
+	"name": "Luxurious Sea-Lord",
+	"desc": "The great king of the ocean. Having been air-dried, it makes for a fine weapon as well as emergency sustenance.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 41.067100524902344,
+		"ATK%": 0.11999999731779099
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_204",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"grain_of_aerosiderite": 3,
+				"fragile_bone_shard": 3,
+				"slime_condensate": 2,
+				"mora": 5000
+			},
+			{
+				"piece_of_aerosiderite": 3,
+				"fragile_bone_shard": 12,
+				"slime_condensate": 8,
+				"mora": 15000
+			},
+			{
+				"piece_of_aerosiderite": 6,
+				"sturdy_bone_shard": 6,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"bit_of_aerosiderite": 3,
+				"sturdy_bone_shard": 12,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"bit_of_aerosiderite": 6,
+				"fossilized_bone_shard": 9,
+				"slime_concentrate": 6,
+				"mora": 35000
+			},
+			{
+				"chunk_of_aerosiderite": 4,
+				"fossilized_bone_shard": 18,
+				"slime_concentrate": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1016634707,
+		"name": "Oceanic Victory",
+		"special_material": "emperors_balsam",
+		"values": [
+			{
+				"affix_id": 1124120,
+				"desc_hash": 2335370529,
+				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>12%</color>. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals <color=#99FFFFFF>100%</color> ATK as AoE DMG. This effect can occur once every 15s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1124121,
+				"desc_hash": 2419718961,
+				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>15%</color>. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals <color=#99FFFFFF>125%</color> ATK as AoE DMG. This effect can occur once every 15s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1124122,
+				"desc_hash": 1030583761,
+				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>18%</color>. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals <color=#99FFFFFF>150%</color> ATK as AoE DMG. This effect can occur once every 15s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1124123,
+				"desc_hash": 292425609,
+				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>21%</color>. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals <color=#99FFFFFF>175%</color> ATK as AoE DMG. This effect can occur once every 15s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1124124,
+				"desc_hash": 2434899201,
+				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>24%</color>. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals <color=#99FFFFFF>200%</color> ATK as AoE DMG. This effect can occur once every 15s.",
+				"cost": 8000
+			}
+		]
+	}
+}

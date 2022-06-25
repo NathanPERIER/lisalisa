@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12510,
+	"promote_id": 12510,
+	"gadget_id": 50012510,
+	"story_id": [
+		192510
+	],
+	"skill_affix": [
+		112510,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 3914951691,
+	"desc_hash": 1789248637,
+	"name": "Redhorn Stonethresher",
+	"desc": "According to its previous owner, this weapon is the \"Mighty Redhorn Stoic Stonethreshing Gilded Goldcrushing Lion Lord\" that can send any monster packing with its tail between its legs.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 44.33580017089844,
+		"Crit DMG%": 0.19200000166893005
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_304",
+		"Crit DMG%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"narukamis_wisdom": 5,
+				"concealed_claw": 5,
+				"old_handguard": 3,
+				"mora": 10000
+			},
+			{
+				"narukamis_joy": 5,
+				"concealed_claw": 18,
+				"old_handguard": 12,
+				"mora": 20000
+			},
+			{
+				"narukamis_joy": 9,
+				"concealed_unguis": 9,
+				"kageuchi_handguard": 9,
+				"mora": 30000
+			},
+			{
+				"narukamis_affection": 5,
+				"concealed_unguis": 18,
+				"kageuchi_handguard": 14,
+				"mora": 45000
+			},
+			{
+				"narukamis_affection": 9,
+				"concealed_talon": 14,
+				"famed_handguard": 9,
+				"mora": 55000
+			},
+			{
+				"narukamis_valor": 6,
+				"concealed_talon": 27,
+				"famed_handguard": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 372854075,
+		"name": "Gokadaiou Otogibanashi",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1125100,
+				"desc_hash": 900434577,
+				"desc": "DEF is increased by <color=#99FFFFFF>28%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>40%</color> of DEF.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1125101,
+				"desc_hash": 1706844625,
+				"desc": "DEF is increased by <color=#99FFFFFF>35%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>50%</color> of DEF.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1125102,
+				"desc_hash": 3214818497,
+				"desc": "DEF is increased by <color=#99FFFFFF>42%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>60%</color> of DEF.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1125103,
+				"desc_hash": 1309441409,
+				"desc": "DEF is increased by <color=#99FFFFFF>49%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>70%</color> of DEF.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1125104,
+				"desc_hash": 2900806161,
+				"desc": "DEF is increased by <color=#99FFFFFF>56%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>80%</color> of DEF.",
+				"cost": 16000
+			}
+		]
+	}
+}

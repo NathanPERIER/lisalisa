@@ -1,0 +1,839 @@
+{
+	"hoyo_id": 10000064,
+	"promote_id": 64,
+	"skill_depot_id": 6401,
+	"fetter_id": 64600,
+	"weapon": "polearm",
+	"name_hash": 655825874,
+	"desc_hash": 4037633993,
+	"name": "Yun Jin",
+	"desc": "A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": [
+		21,
+		5
+	],
+	"region": "liyue",
+	"vision_hash": [
+		3219124204,
+		1258443353
+	],
+	"astrolabe_hash": [
+		3086360386,
+		3908001795
+	],
+	"allegiance_hash": 1045159985,
+	"vision": "geo",
+	"astrolabe": "Opera Grandis",
+	"allegiance": "Yun-Han Opera Troupe",
+	"default_weapon": "beginners_protector",
+	"base_stats": {
+		"Base HP": 893.55517578125,
+		"Base ATK": 16.02720069885254,
+		"Base DEF": 61.574100494384766,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"prithiva_topaz_sliver": 1,
+				"glaze_lily": 3,
+				"damaged_mask": 3,
+				"mora": 20000
+			},
+			{
+				"prithiva_topaz_fragment": 3,
+				"riftborn_regalia": 2,
+				"glaze_lily": 10,
+				"damaged_mask": 15,
+				"mora": 40000
+			},
+			{
+				"prithiva_topaz_fragment": 6,
+				"riftborn_regalia": 4,
+				"glaze_lily": 20,
+				"stained_mask": 12,
+				"mora": 60000
+			},
+			{
+				"prithiva_topaz_chunk": 3,
+				"riftborn_regalia": 8,
+				"glaze_lily": 30,
+				"stained_mask": 18,
+				"mora": 80000
+			},
+			{
+				"prithiva_topaz_chunk": 6,
+				"riftborn_regalia": 12,
+				"glaze_lily": 45,
+				"ominous_mask": 12,
+				"mora": 100000
+			},
+			{
+				"prithiva_topaz_gemstone": 6,
+				"riftborn_regalia": 20,
+				"glaze_lily": 60,
+				"ominous_mask": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 667.531494140625,
+					"Base DEF": 45.999000549316406,
+					"Base ATK": 11.973420143127441,
+					"Energy Recharge%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1141.8302001953125,
+					"Base DEF": 78.68250274658203,
+					"Base ATK": 20.480850219726562,
+					"Energy Recharge%": 0.06669999659061432
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1774.2283935546875,
+					"Base DEF": 122.260498046875,
+					"Base ATK": 31.82408905029297,
+					"Energy Recharge%": 0.13330000638961792
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2248.527099609375,
+					"Base DEF": 154.94400024414062,
+					"Base ATK": 40.331520080566406,
+					"Energy Recharge%": 0.13330000638961792
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2722.82568359375,
+					"Base DEF": 187.62750244140625,
+					"Base ATK": 48.838951110839844,
+					"Energy Recharge%": 0.20000000298023224
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3197.12451171875,
+					"Base DEF": 220.31100463867188,
+					"Base ATK": 57.346378326416016,
+					"Energy Recharge%": 0.26669999957084656
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 4286587805,
+			"desc_hash": 1810789288,
+			"charge_num": 1,
+			"name": "Normal Attack: Cloud-Grazing Strike",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to five consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_diligence": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_diligence": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_diligence": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_diligence": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_diligence": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_diligence": 4,
+					"ominous_mask": 4,
+					"ashen_heart": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_diligence": 6,
+					"ominous_mask": 6,
+					"ashen_heart": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_diligence": 12,
+					"ominous_mask": 9,
+					"ashen_heart": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_diligence": 16,
+					"ominous_mask": 12,
+					"ashen_heart": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"40.51%",
+						"40.25%",
+						"22.96%+27.52%",
+						"23.99%+28.81%",
+						"67.34%",
+						"121.69%",
+						"25",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"43.8%",
+						"43.52%",
+						"24.83%+29.76%",
+						"25.95%+31.15%",
+						"72.82%",
+						"131.6%",
+						"25",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"47.1%",
+						"46.8%",
+						"26.7%+32%",
+						"27.9%+33.5%",
+						"78.3%",
+						"141.5%",
+						"25",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"51.81%",
+						"51.48%",
+						"29.37%+35.2%",
+						"30.69%+36.85%",
+						"86.13%",
+						"155.65%",
+						"25",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"55.11%",
+						"54.76%",
+						"31.24%+37.44%",
+						"32.64%+39.2%",
+						"91.61%",
+						"165.56%",
+						"25",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"58.88%",
+						"58.5%",
+						"33.38%+40%",
+						"34.87%+41.87%",
+						"97.87%",
+						"176.87%",
+						"25",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"64.06%",
+						"63.65%",
+						"36.31%+43.52%",
+						"37.94%+45.56%",
+						"106.49%",
+						"192.44%",
+						"25",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"69.24%",
+						"68.8%",
+						"39.25%+47.04%",
+						"41.01%+49.24%",
+						"115.1%",
+						"208%",
+						"25",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"74.42%",
+						"73.94%",
+						"42.19%+50.56%",
+						"44.08%+52.93%",
+						"123.71%",
+						"223.57%",
+						"25",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"80.07%",
+						"79.56%",
+						"45.39%+54.4%",
+						"47.43%+56.95%",
+						"133.11%",
+						"240.55%",
+						"25",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"85.72%",
+						"85.18%",
+						"48.59%+58.24%",
+						"50.78%+60.97%",
+						"142.51%",
+						"260.01%",
+						"25",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"91.37%",
+						"90.79%",
+						"51.8%+62.08%",
+						"54.13%+64.99%",
+						"151.9%",
+						"282.89%",
+						"25",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"97.03%",
+						"96.41%",
+						"55%+65.92%",
+						"57.47%+69.01%",
+						"161.3%",
+						"305.77%",
+						"25",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"102.68%",
+						"102.02%",
+						"58.21%+69.76%",
+						"60.82%+73.03%",
+						"170.69%",
+						"328.65%",
+						"25",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"108.33%",
+						"107.64%",
+						"61.41%+73.6%",
+						"64.17%+77.05%",
+						"180.09%",
+						"353.61%",
+						"25",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2178272253,
+			"desc_hash": 1567883432,
+			"charge_num": 1,
+			"name": "Opening Flourish",
+			"desc": "#Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nFlourishes her polearm in a cloud-grasping stance, dealing <color=#FFE699FF>Geo DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nTakes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.\\nWhen the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing <color=#FFE699FF>Geo DMG</color>.\\nBased on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.\\n\\n<i>One glorious moment on-stage, a decade of preparation behind it.</i>",
+			"costs": [
+				{
+					"teachings_of_diligence": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_diligence": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_diligence": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_diligence": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_diligence": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_diligence": 4,
+					"ominous_mask": 4,
+					"ashen_heart": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_diligence": 6,
+					"ominous_mask": 6,
+					"ashen_heart": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_diligence": 12,
+					"ominous_mask": 9,
+					"ashen_heart": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_diligence": 16,
+					"ominous_mask": 12,
+					"ashen_heart": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG",
+					"Charge Level 1 DMG",
+					"Charge Level 2 DMG",
+					"Shield DMG Absorption",
+					"CD"
+				],
+				"values": [
+					[
+						"149.12% DEF",
+						"260.96% DEF",
+						"372.8% DEF",
+						"12% Max HP+1155",
+						"9s"
+					],
+					[
+						"160.3% DEF",
+						"280.53% DEF",
+						"400.76% DEF",
+						"12.9% Max HP+1270",
+						"9s"
+					],
+					[
+						"171.49% DEF",
+						"300.1% DEF",
+						"428.72% DEF",
+						"13.8% Max HP+1396",
+						"9s"
+					],
+					[
+						"186.4% DEF",
+						"326.2% DEF",
+						"466% DEF",
+						"15% Max HP+1531",
+						"9s"
+					],
+					[
+						"197.58% DEF",
+						"345.77% DEF",
+						"493.96% DEF",
+						"15.9% Max HP+1675",
+						"9s"
+					],
+					[
+						"208.77% DEF",
+						"365.34% DEF",
+						"521.92% DEF",
+						"16.8% Max HP+1829",
+						"9s"
+					],
+					[
+						"223.68% DEF",
+						"391.44% DEF",
+						"559.2% DEF",
+						"18% Max HP+1993",
+						"9s"
+					],
+					[
+						"238.59% DEF",
+						"417.54% DEF",
+						"596.48% DEF",
+						"19.2% Max HP+2166",
+						"9s"
+					],
+					[
+						"253.5% DEF",
+						"443.63% DEF",
+						"633.76% DEF",
+						"20.4% Max HP+2349",
+						"9s"
+					],
+					[
+						"268.42% DEF",
+						"469.73% DEF",
+						"671.04% DEF",
+						"21.6% Max HP+2542",
+						"9s"
+					],
+					[
+						"283.33% DEF",
+						"495.82% DEF",
+						"708.32% DEF",
+						"22.8% Max HP+2744",
+						"9s"
+					],
+					[
+						"298.24% DEF",
+						"521.92% DEF",
+						"745.6% DEF",
+						"24% Max HP+2956",
+						"9s"
+					],
+					[
+						"316.88% DEF",
+						"554.54% DEF",
+						"792.2% DEF",
+						"25.5% Max HP+3177",
+						"9s"
+					],
+					[
+						"335.52% DEF",
+						"587.16% DEF",
+						"838.8% DEF",
+						"27% Max HP+3408",
+						"9s"
+					],
+					[
+						"354.16% DEF",
+						"619.78% DEF",
+						"885.4% DEF",
+						"28.5% Max HP+3649",
+						"9s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 3248431565,
+			"desc_hash": 1997720160,
+			"charge_num": 1,
+			"name": "Cliffbreaker's Banner",
+			"desc": "Deals <color=#FFE699FF>AoE Geo DMG</color> and grants all nearby party members a Flying Cloud Flag Formation.\\n\\n<color=#FFD780FF>Flying Cloud Flag Formation</color>\\nWhen Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.\\n\\nThe effects of this skill will be cleared after a set duration or after being triggered a specific number of times.\\nWhen one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.\\n\\n<i>As the drums resound, as swords and halberds weave and clash, the doyenne is transformed into a mighty general.</i>\\n<i>As the instruments on stage strum in unison, lo, see how she vanquishes these demons!</i>",
+			"costs": [
+				{
+					"teachings_of_diligence": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_diligence": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_diligence": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_diligence": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_diligence": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_diligence": 4,
+					"ominous_mask": 4,
+					"ashen_heart": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_diligence": 6,
+					"ominous_mask": 6,
+					"ashen_heart": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_diligence": 12,
+					"ominous_mask": 9,
+					"ashen_heart": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_diligence": 16,
+					"ominous_mask": 12,
+					"ashen_heart": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"DMG Increase",
+					"Duration",
+					"Trigger Quota",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"244%",
+						"32.16% DEF",
+						"12s",
+						"30",
+						"15s",
+						"60"
+					],
+					[
+						"262.3%",
+						"34.57% DEF",
+						"12s",
+						"30",
+						"15s",
+						"60"
+					],
+					[
+						"280.6%",
+						"36.98% DEF",
+						"12s",
+						"30",
+						"15s",
+						"60"
+					],
+					[
+						"305%",
+						"40.2% DEF",
+						"12s",
+						"30",
+						"15s",
+						"60"
+					],
+					[
+						"323.3%",
+						"42.61% DEF",
+						"12s",
+						"30",
+						"15s",
+						"60"
+					],
+					[
+						"341.6%",
+						"45.02% DEF",
+						"12s",
+						"30",
+						"15s",
+						"60"
+					],
+					[
+						"366%",
+						"48.24% DEF",
+						"12s",
+						"30",
+						"15s",
+						"60"
+					],
+					[
+						"390.4%",
+						"51.46% DEF",
+						"12s",
+						"30",
+						"15s",
+						"60"
+					],
+					[
+						"414.8%",
+						"54.67% DEF",
+						"12s",
+						"30",
+						"15s",
+						"60"
+					],
+					[
+						"439.2%",
+						"57.89% DEF",
+						"12s",
+						"30",
+						"15s",
+						"60"
+					],
+					[
+						"463.6%",
+						"61.1% DEF",
+						"12s",
+						"30",
+						"15s",
+						"60"
+					],
+					[
+						"488%",
+						"64.32% DEF",
+						"12s",
+						"30",
+						"15s",
+						"60"
+					],
+					[
+						"518.5%",
+						"68.34% DEF",
+						"12s",
+						"30",
+						"15s",
+						"60"
+					],
+					[
+						"549%",
+						"72.36% DEF",
+						"12s",
+						"30",
+						"15s",
+						"60"
+					],
+					[
+						"579.5%",
+						"76.38% DEF",
+						"12s",
+						"30",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 2061261821,
+			"desc_hash": 1764840187,
+			"ascension": 1,
+			"name": "True to Oneself",
+			"desc": "Using <color=#FFD780FF>Opening Flourish</color> at the precise moment when Yun Jin is attacked will unleash its Level 2 Charged (Hold) form."
+		},
+		{
+			"name_hash": 1468378453,
+			"desc_hash": 3288929659,
+			"ascension": 4,
+			"name": "Breaking Conventions",
+			"desc": "The Normal Attack DMG Bonus granted by <color=#FFD780FF>Flying Cloud Flag Formation</color> is further increased by 2.5%/5%/7.5%/11.5% of Yun Jin's DEF when the party contains characters of 1/2/3/4 Elemental Types, respectively."
+		},
+		{
+			"name_hash": 773398885,
+			"desc_hash": 1415116931,
+			"ascension": null,
+			"name": "Light Nourishment",
+			"desc": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 3266663729,
+			"name": "Thespian Gallop",
+			"desc_hash": 196548151,
+			"desc": "<color=#FFD780FF>Opening Flourish's</color> CD is decreased by 18%."
+		},
+		{
+			"name_hash": 3949157249,
+			"name": "Myriad Mise-En-Sc\u00e8ne",
+			"desc_hash": 1258924591,
+			"desc": "After <color=#FFD780FF>Cliffbreaker's Banner</color> is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s."
+		},
+		{
+			"name_hash": 3536888569,
+			"name": "Seafaring General",
+			"desc_hash": 26925591,
+			"desc": "Increases the Level of <color=#FFD780FF>Cliffbreaker's Banner</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2785617601,
+			"name": "Flower and a Fighter",
+			"desc_hash": 2804375063,
+			"desc": "When Yun Jin triggers the Crystallize Reaction, her DEF is increased by 20% for 12s."
+		},
+		{
+			"name_hash": 1985942201,
+			"name": "Famed Throughout the Land",
+			"desc_hash": 1265824527,
+			"desc": "Increases the Level of <color=#FFD780FF>Opening Flourish</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2696040833,
+			"name": "Decorous Harmony",
+			"desc_hash": 3355249799,
+			"desc": "Characters under the effects of the <color=#FFD780FF>Flying Cloud Flag Formation</color> have their Normal ATK SPD increased by 12%."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 2433262890,
+			"desc_hash": 1261799770,
+			"restricted": false,
+			"name": "Mistcloud Stage",
+			"desc": "Yun Jin's outfit. It was made by skilled tailors from the Feiyun Commerce Guild. Yun Jin fell in love with it at first sight, and it is now her favorite set of casual wear."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108373,
+		"name_hash": 3523665964,
+		"desc_hash": 69204293,
+		"type_hash": 1968595758,
+		"rarity": 2,
+		"name": "Cloud-Shrouded Jade",
+		"desc": "Yun Jin's specialty. This sweet and sticky snack will somehow not affect your throat in any negative way, which is why it's Yun Jin's favorite. The aftertaste is most elegant, not something one would get sick of quickly. Come to think of it... This is quite a decent bit more than she would usually make for herself \u2014 but who are you to question her kindness?",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 323413175,
+		"effect": "Decreases all party members' sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s).",
+		"original_recipe": "lotus_seed_and_bird_egg_soup"
+	}
+}

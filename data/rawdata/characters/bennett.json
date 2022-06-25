@@ -1,0 +1,839 @@
+{
+	"hoyo_id": 10000032,
+	"promote_id": 32,
+	"skill_depot_id": 3201,
+	"fetter_id": 120,
+	"weapon": "sword",
+	"name_hash": 968893378,
+	"desc_hash": 3696214329,
+	"name": "Bennett",
+	"desc": "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_BOY",
+	"birthday": [
+		29,
+		2
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		1740638908,
+		3677050081
+	],
+	"astrolabe_hash": [
+		2225075946,
+		1091946987
+	],
+	"allegiance_hash": 1181755137,
+	"vision": "pyro",
+	"astrolabe": "Rota Calamitas",
+	"allegiance": "Adventurers' Guild",
+	"default_weapon": "dull_blade",
+	"base_stats": {
+		"Base HP": 1039.4417724609375,
+		"Base ATK": 16.02720069885254,
+		"Base DEF": 64.66425323486328,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"agnidus_agate_sliver": 1,
+				"windwheel_aster": 3,
+				"treasure_hoarder_insignia": 3,
+				"mora": 20000
+			},
+			{
+				"agnidus_agate_fragment": 3,
+				"everflame_seed": 2,
+				"windwheel_aster": 10,
+				"treasure_hoarder_insignia": 15,
+				"mora": 40000
+			},
+			{
+				"agnidus_agate_fragment": 6,
+				"everflame_seed": 4,
+				"windwheel_aster": 20,
+				"silver_raven_insignia": 12,
+				"mora": 60000
+			},
+			{
+				"agnidus_agate_chunk": 3,
+				"everflame_seed": 8,
+				"windwheel_aster": 30,
+				"silver_raven_insignia": 18,
+				"mora": 80000
+			},
+			{
+				"agnidus_agate_chunk": 6,
+				"everflame_seed": 12,
+				"windwheel_aster": 45,
+				"golden_raven_insignia": 12,
+				"mora": 100000
+			},
+			{
+				"agnidus_agate_gemstone": 6,
+				"everflame_seed": 20,
+				"windwheel_aster": 60,
+				"golden_raven_insignia": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 776.5161743164062,
+					"Base DEF": 48.307498931884766,
+					"Base ATK": 11.973420143127441,
+					"Energy Recharge%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1328.2513427734375,
+					"Base DEF": 82.6312484741211,
+					"Base ATK": 20.480850219726562,
+					"Energy Recharge%": 0.06669999659061432
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2063.8984375,
+					"Base DEF": 128.39625549316406,
+					"Base ATK": 31.82408905029297,
+					"Energy Recharge%": 0.13330000638961792
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2615.633544921875,
+					"Base DEF": 162.72000122070312,
+					"Base ATK": 40.331520080566406,
+					"Energy Recharge%": 0.13330000638961792
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 3167.36865234375,
+					"Base DEF": 197.0437469482422,
+					"Base ATK": 48.838951110839844,
+					"Energy Recharge%": 0.20000000298023224
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3719.10400390625,
+					"Base DEF": 231.36749267578125,
+					"Base ATK": 57.346378326416016,
+					"Energy Recharge%": 0.26669999957084656
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 422353221,
+			"desc_hash": 280312952,
+			"charge_num": 1,
+			"name": "Normal Attack: Strike of Fortune",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_resistance": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_resistance": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_resistance": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_resistance": 4,
+					"golden_raven_insignia": 4,
+					"dvalins_plume": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_resistance": 6,
+					"golden_raven_insignia": 6,
+					"dvalins_plume": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"golden_raven_insignia": 9,
+					"dvalins_plume": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_resistance": 16,
+					"golden_raven_insignia": 12,
+					"dvalins_plume": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"44.55%",
+						"42.74%",
+						"54.61%",
+						"59.68%",
+						"71.9%",
+						"55.9%+60.72%",
+						"20",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"48.17%",
+						"46.22%",
+						"59.06%",
+						"64.54%",
+						"77.75%",
+						"60.45%+65.66%",
+						"20",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"51.8%",
+						"49.7%",
+						"63.5%",
+						"69.4%",
+						"83.6%",
+						"65%+70.6%",
+						"20",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"56.98%",
+						"54.67%",
+						"69.85%",
+						"76.34%",
+						"91.96%",
+						"71.5%+77.66%",
+						"20",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"60.61%",
+						"58.15%",
+						"74.3%",
+						"81.2%",
+						"97.81%",
+						"76.05%+82.6%",
+						"20",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"64.75%",
+						"62.12%",
+						"79.37%",
+						"86.75%",
+						"104.5%",
+						"81.25%+88.25%",
+						"20",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"70.45%",
+						"67.59%",
+						"86.36%",
+						"94.38%",
+						"113.7%",
+						"88.4%+96.02%",
+						"20",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"76.15%",
+						"73.06%",
+						"93.34%",
+						"102.02%",
+						"122.89%",
+						"95.55%+103.78%",
+						"20",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"81.84%",
+						"78.53%",
+						"100.33%",
+						"109.65%",
+						"132.09%",
+						"102.7%+111.55%",
+						"20",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"88.06%",
+						"84.49%",
+						"107.95%",
+						"117.98%",
+						"142.12%",
+						"110.5%+120.02%",
+						"20",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"94.28%",
+						"90.45%",
+						"115.57%",
+						"126.31%",
+						"152.15%",
+						"118.3%+128.49%",
+						"20",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"100.49%",
+						"96.42%",
+						"123.19%",
+						"134.64%",
+						"162.18%",
+						"126.1%+136.96%",
+						"20",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"106.71%",
+						"102.38%",
+						"130.81%",
+						"142.96%",
+						"172.22%",
+						"133.9%+145.44%",
+						"20",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"112.92%",
+						"108.35%",
+						"138.43%",
+						"151.29%",
+						"182.25%",
+						"141.7%+153.91%",
+						"20",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"119.14%",
+						"114.31%",
+						"146.05%",
+						"159.62%",
+						"192.28%",
+						"149.5%+162.38%",
+						"20",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 1809314813,
+			"desc_hash": 2368393840,
+			"charge_num": 1,
+			"name": "Passion Overload",
+			"desc": "#Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nA single, swift flame strike that deals <color=#FF9999FF>Pyro DMG</color>.\\n\\n<color=#FFD780FF>Hold (Short)</color>\\nCharges up, resulting in different effects when unleashed based on the Charge Level.\\n\u00b7Level 1: Strikes twice, dealing <color=#FF9999FF>Pyro DMG</color> and launching opponents.\\n\u00b7Level 2: Unleashes 3 consecutive attacks that deal impressive <color=#FF9999FF>Pyro DMG</color>, but the last attack triggers an explosion that launches both Bennett and the enemy.\\nBennett takes no damage from being launched.\\n\\n<i>An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.</i>",
+			"costs": [
+				{
+					"teachings_of_resistance": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_resistance": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_resistance": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_resistance": 4,
+					"golden_raven_insignia": 4,
+					"dvalins_plume": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_resistance": 6,
+					"golden_raven_insignia": 6,
+					"dvalins_plume": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"golden_raven_insignia": 9,
+					"dvalins_plume": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_resistance": 16,
+					"golden_raven_insignia": 12,
+					"dvalins_plume": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG",
+					"Charge Level 1 DMG",
+					"Charge Level 2 DMG",
+					"Explosion DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"137.6%",
+						"84%+92%",
+						"88%+96%",
+						"132%",
+						"5/7.5/10s"
+					],
+					[
+						"147.92%",
+						"90.3%+98.9%",
+						"94.6%+103.2%",
+						"141.9%",
+						"5/7.5/10s"
+					],
+					[
+						"158.24%",
+						"96.6%+105.8%",
+						"101.2%+110.4%",
+						"151.8%",
+						"5/7.5/10s"
+					],
+					[
+						"172%",
+						"105%+115%",
+						"110%+120%",
+						"165%",
+						"5/7.5/10s"
+					],
+					[
+						"182.32%",
+						"111.3%+121.9%",
+						"116.6%+127.2%",
+						"174.9%",
+						"5/7.5/10s"
+					],
+					[
+						"192.64%",
+						"117.6%+128.8%",
+						"123.2%+134.4%",
+						"184.8%",
+						"5/7.5/10s"
+					],
+					[
+						"206.4%",
+						"126%+138%",
+						"132%+144%",
+						"198%",
+						"5/7.5/10s"
+					],
+					[
+						"220.16%",
+						"134.4%+147.2%",
+						"140.8%+153.6%",
+						"211.2%",
+						"5/7.5/10s"
+					],
+					[
+						"233.92%",
+						"142.8%+156.4%",
+						"149.6%+163.2%",
+						"224.4%",
+						"5/7.5/10s"
+					],
+					[
+						"247.68%",
+						"151.2%+165.6%",
+						"158.4%+172.8%",
+						"237.6%",
+						"5/7.5/10s"
+					],
+					[
+						"261.44%",
+						"159.6%+174.8%",
+						"167.2%+182.4%",
+						"250.8%",
+						"5/7.5/10s"
+					],
+					[
+						"275.2%",
+						"168%+184%",
+						"176%+192%",
+						"264%",
+						"5/7.5/10s"
+					],
+					[
+						"292.4%",
+						"178.5%+195.5%",
+						"187%+204%",
+						"280.5%",
+						"5/7.5/10s"
+					],
+					[
+						"309.6%",
+						"189%+207%",
+						"198%+216%",
+						"297%",
+						"5/7.5/10s"
+					],
+					[
+						"326.8%",
+						"199.5%+218.5%",
+						"209%+228%",
+						"313.5%",
+						"5/7.5/10s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 3528607669,
+			"desc_hash": 2911356856,
+			"charge_num": 1,
+			"name": "Fantastic Voyage",
+			"desc": "Bennett performs a jumping attack that deals <color=#FF9999FF>Pyro DMG</color>, creating an Inspiration Field.\\n\\n<color=#FFD780FF>Inspiration Field</color>\\n\u00b7If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.\\n\u00b7If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\\n\u00b7Imbues characters within the AoE with <color=#FF9999FF>Pyro</color>.\\n\\n<i>Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"</i>",
+			"costs": [
+				{
+					"teachings_of_resistance": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_resistance": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_resistance": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_resistance": 4,
+					"golden_raven_insignia": 4,
+					"dvalins_plume": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_resistance": 6,
+					"golden_raven_insignia": 6,
+					"dvalins_plume": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"golden_raven_insignia": 9,
+					"dvalins_plume": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_resistance": 16,
+					"golden_raven_insignia": 12,
+					"dvalins_plume": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Continuous Regeneration Per Sec",
+					"ATK Bonus Ratio",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"232.8%",
+						"6% Max HP+577",
+						"56%",
+						"12s",
+						"15s",
+						"60"
+					],
+					[
+						"250.26%",
+						"6.45% Max HP+635",
+						"60.2%",
+						"12s",
+						"15s",
+						"60"
+					],
+					[
+						"267.72%",
+						"6.9% Max HP+697",
+						"64.4%",
+						"12s",
+						"15s",
+						"60"
+					],
+					[
+						"291%",
+						"7.5% Max HP+765",
+						"70%",
+						"12s",
+						"15s",
+						"60"
+					],
+					[
+						"308.46%",
+						"7.95% Max HP+837",
+						"74.2%",
+						"12s",
+						"15s",
+						"60"
+					],
+					[
+						"325.92%",
+						"8.4% Max HP+914",
+						"78.4%",
+						"12s",
+						"15s",
+						"60"
+					],
+					[
+						"349.2%",
+						"9% Max HP+995",
+						"84%",
+						"12s",
+						"15s",
+						"60"
+					],
+					[
+						"372.48%",
+						"9.6% Max HP+1082",
+						"89.6%",
+						"12s",
+						"15s",
+						"60"
+					],
+					[
+						"395.76%",
+						"10.2% Max HP+1174",
+						"95.2%",
+						"12s",
+						"15s",
+						"60"
+					],
+					[
+						"419.04%",
+						"10.8% Max HP+1270",
+						"100.8%",
+						"12s",
+						"15s",
+						"60"
+					],
+					[
+						"442.32%",
+						"11.4% Max HP+1371",
+						"106.4%",
+						"12s",
+						"15s",
+						"60"
+					],
+					[
+						"465.6%",
+						"12% Max HP+1477",
+						"112%",
+						"12s",
+						"15s",
+						"60"
+					],
+					[
+						"494.7%",
+						"12.75% Max HP+1587",
+						"119%",
+						"12s",
+						"15s",
+						"60"
+					],
+					[
+						"523.8%",
+						"13.5% Max HP+1703",
+						"126%",
+						"12s",
+						"15s",
+						"60"
+					],
+					[
+						"552.9%",
+						"14.25% Max HP+1823",
+						"133%",
+						"12s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 1863603757,
+			"desc_hash": 684037875,
+			"ascension": 1,
+			"name": "Rekindle",
+			"desc": "Decreases <color=#FFD780FF>Passion Overload</color>'s CD by 20%."
+		},
+		{
+			"name_hash": 1897523725,
+			"desc_hash": 2550793755,
+			"ascension": 4,
+			"name": "Fearnaught",
+			"desc": "Within the area created by <color=#FFD780FF>Fantastic Voyage</color>, <color=#FFD780FF>Passion Overload</color> takes on the following effects:\\n\u00b7CD is reduced by 50%.\\n\u00b7Bennett will not be launched by the effects of Charge Level 2."
+		},
+		{
+			"name_hash": 1766090197,
+			"desc_hash": 1620966331,
+			"ascension": null,
+			"name": "It Should Be Safe...",
+			"desc": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 804447537,
+			"name": "Grand Expectation",
+			"desc_hash": 2073825087,
+			"desc": "<color=#FFD780FF>Fantastic Voyage</color>'s ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK."
+		},
+		{
+			"name_hash": 2431201553,
+			"name": "Impasse Conqueror",
+			"desc_hash": 471991591,
+			"desc": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%."
+		},
+		{
+			"name_hash": 698148913,
+			"name": "Unstoppable Fervor",
+			"desc_hash": 1713009919,
+			"desc": "Increases the Level of <color=#FFD780FF>Passion Overload</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3306938097,
+			"name": "Unexpected Odyssey",
+			"desc_hash": 3601575975,
+			"desc": "Using a Normal Attack when executing the second attack of <color=#FFD780FF>Passion Overload</color>'s Charge Level 1 allows an additional attack to be performed.\\nThis additional attack does 135% of the second attack's DMG."
+		},
+		{
+			"name_hash": 2443947665,
+			"name": "True Explorer",
+			"desc_hash": 2838302743,
+			"desc": "Increases the Level of <color=#FFD780FF>Fantastic Voyage</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3326774305,
+			"name": "Fire Ventures With Me",
+			"desc_hash": 596615087,
+			"desc": "Sword, Claymore, or Polearm-wielding characters inside <color=#FFD780FF>Fantastic Voyage</color>'s radius gain a 15% <color=#FF9999FF>Pyro DMG Bonus</color> and their weapons are infused with <color=#FF9999FF>Pyro</color>."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 2359403186,
+			"desc_hash": 3111188850,
+			"restricted": false,
+			"name": "Fortune's Favor",
+			"desc": "Bennett's outfit. An old adventurer's uniform that has been patched and sewn up in various places."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108116,
+		"name_hash": 374472204,
+		"desc_hash": 4237119101,
+		"type_hash": 95496718,
+		"rarity": 1,
+		"name": "Teyvat Charred Egg",
+		"desc": "Bennett's specialty. For some reason, every single fried egg is a little burnt around the edges. That said, the burnt crisp does lends a whole new flavor to the dish.",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 3280865279,
+		"effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+		"original_recipe": "teyvat_fried_egg"
+	}
+}

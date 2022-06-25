@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 11502,
+	"promote_id": 11502,
+	"gadget_id": 50011502,
+	"story_id": [
+		191502
+	],
+	"skill_affix": [
+		111502,
+		0
+	],
+	"type": "sword",
+	"name_hash": 4055003299,
+	"desc_hash": 3627658141,
+	"name": "Skyward Blade",
+	"desc": "The sword of a knight that symbolizes the restored honor of Dvalin. The blessings of the Anemo Archon rest on the fuller of the blade, imbuing the sword with the powers of the sky and the wind.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 45.9364013671875,
+		"Energy Recharge%": 0.11999999731779099
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_301",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"boreal_wolfs_milk_tooth": 5,
+				"dead_ley_line_branch": 5,
+				"slime_condensate": 3,
+				"mora": 10000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 5,
+				"dead_ley_line_branch": 18,
+				"slime_condensate": 12,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 9,
+				"dead_ley_line_leaves": 9,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"boreal_wolfs_broken_fang": 5,
+				"dead_ley_line_leaves": 18,
+				"slime_secretions": 14,
+				"mora": 45000
+			},
+			{
+				"boreal_wolfs_broken_fang": 9,
+				"ley_line_sprout": 14,
+				"slime_concentrate": 9,
+				"mora": 55000
+			},
+			{
+				"boreal_wolfs_nostalgia": 6,
+				"ley_line_sprout": 27,
+				"slime_concentrate": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2711925747,
+		"name": "Sky-Piercing Fang",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1115020,
+				"desc_hash": 1717393465,
+				"desc": "CRIT Rate increased by <color=#99FFFFFF>4%</color>. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <color=#99FFFFFF>10%</color>, increases ATK SPD by <color=#99FFFFFF>10%</color>, and Normal and Charged hits deal additional DMG equal to <color=#99FFFFFF>20%</color> of ATK. Skypiercing Might lasts for 12s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1115021,
+				"desc_hash": 2554522929,
+				"desc": "CRIT Rate increased by <color=#99FFFFFF>5%</color>, Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <color=#99FFFFFF>10%</color>, increases ATK SPD by <color=#99FFFFFF>10%</color>, and Normal and Charged hits deal additional DMG equal to <color=#99FFFFFF>25%</color> of ATK. Skypiercing Might lasts for 12s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1115022,
+				"desc_hash": 3221677057,
+				"desc": "CRIT Rate increased by <color=#99FFFFFF>6%</color>. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <color=#99FFFFFF>10%</color>, increases ATK SPD by <color=#99FFFFFF>10%</color>, and Normal and Charged hits deal additional DMG equal to <color=#99FFFFFF>30%</color> of ATK. Skypiercing Might lasts for 12s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1115023,
+				"desc_hash": 694496913,
+				"desc": "CRIT Rate increased by <color=#99FFFFFF>7%</color>. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <color=#99FFFFFF>10%</color>, increases ATK SPD by <color=#99FFFFFF>10%</color>, and Normal and Charged hits deal additional DMG equal to <color=#99FFFFFF>35%</color> of ATK. Skypiercing Might lasts for 12s.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1115024,
+				"desc_hash": 395447553,
+				"desc": "CRIT Rate increased by <color=#99FFFFFF>8%</color>. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <color=#99FFFFFF>10%</color>, increases ATK SPD by <color=#99FFFFFF>10%</color>, and Normal and Charged hits deal additional DMG equal to <color=#99FFFFFF>40%</color> of ATK. Skypiercing Might lasts for 12s.",
+				"cost": 16000
+			}
+		]
+	}
+}

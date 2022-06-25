@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15303,
+	"promote_id": 15303,
+	"gadget_id": 50015303,
+	"story_id": [
+		195303
+	],
+	"skill_affix": [
+		115303,
+		0
+	],
+	"type": "bow",
+	"name_hash": 4267718859,
+	"desc_hash": 851960253,
+	"name": "Recurve Bow",
+	"desc": "It is said that this bow can shoot down eagles in flight, but ultimately how true that is depends on the skill of the archer.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 37.60749816894531,
+		"HP%": 0.10213299840688705
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_104",
+		"HP%": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 2,
+				"chaos_device": 2,
+				"divining_scroll": 1,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 2,
+				"chaos_device": 8,
+				"divining_scroll": 5,
+				"mora": 10000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 4,
+				"chaos_circuit": 4,
+				"sealed_scroll": 4,
+				"mora": 15000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 2,
+				"chaos_circuit": 8,
+				"sealed_scroll": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 4,
+				"chaos_core": 6,
+				"forbidden_curse_scroll": 4,
+				"mora": 25000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 3,
+				"chaos_core": 12,
+				"forbidden_curse_scroll": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3707047091,
+		"name": "Cull the Weak",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1153030,
+				"desc_hash": 2023641585,
+				"desc": "Defeating an opponent restores <color=#99FFFFFF>8%</color> HP.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1153031,
+				"desc_hash": 79083241,
+				"desc": "Defeating an opponent restores <color=#99FFFFFF>10%</color> HP.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1153032,
+				"desc_hash": 2689073929,
+				"desc": "Defeating an opponent restores <color=#99FFFFFF>12%</color> HP.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1153033,
+				"desc_hash": 1358074017,
+				"desc": "Defeating an opponent restores <color=#99FFFFFF>14%</color> HP.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1153034,
+				"desc_hash": 3623505681,
+				"desc": "Defeating an opponent restores <color=#99FFFFFF>16%</color> HP.",
+				"cost": 4000
+			}
+		]
+	}
+}

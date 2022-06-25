@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13501,
+	"promote_id": 13501,
+	"gadget_id": 50013501,
+	"story_id": [
+		193501
+	],
+	"skill_affix": [
+		113501,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 3235324891,
+	"desc_hash": 3487544829,
+	"name": "Staff of Homa",
+	"desc": "A \"firewood staff\" that was once used in ancient and long-lost rituals.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 45.9364013671875,
+		"Crit DMG%": 0.14399999380111694
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_301",
+		"Crit DMG%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"grain_of_aerosiderite": 5,
+				"dead_ley_line_branch": 5,
+				"slime_condensate": 3,
+				"mora": 10000
+			},
+			{
+				"piece_of_aerosiderite": 5,
+				"dead_ley_line_branch": 18,
+				"slime_condensate": 12,
+				"mora": 20000
+			},
+			{
+				"piece_of_aerosiderite": 9,
+				"dead_ley_line_leaves": 9,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"bit_of_aerosiderite": 5,
+				"dead_ley_line_leaves": 18,
+				"slime_secretions": 14,
+				"mora": 45000
+			},
+			{
+				"bit_of_aerosiderite": 9,
+				"ley_line_sprout": 14,
+				"slime_concentrate": 9,
+				"mora": 55000
+			},
+			{
+				"chunk_of_aerosiderite": 6,
+				"ley_line_sprout": 27,
+				"slime_concentrate": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3284643571,
+		"name": "Reckless Cinnabar",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1135010,
+				"desc_hash": 3464064329,
+				"desc": "HP increased by <color=#99FFFFFF>20%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>0.8%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1%</color> of Max HP.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1135011,
+				"desc_hash": 4242489505,
+				"desc": "HP increased by <color=#99FFFFFF>25%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1.2%</color> of Max HP.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1135012,
+				"desc_hash": 407873177,
+				"desc": "HP increased by <color=#99FFFFFF>30%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1.2%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1.4%</color> of Max HP.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1135013,
+				"desc_hash": 1346183937,
+				"desc": "HP increased by <color=#99FFFFFF>35%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1.4%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1.6%</color> of Max HP.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1135014,
+				"desc_hash": 4016813361,
+				"desc": "HP increased by <color=#99FFFFFF>40%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1.6%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1.8%</color> of Max HP.",
+				"cost": 16000
+			}
+		]
+	}
+}

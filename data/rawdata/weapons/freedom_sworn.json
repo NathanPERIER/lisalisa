@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 11503,
+	"promote_id": 11503,
+	"gadget_id": 50011503,
+	"story_id": [
+		191503
+	],
+	"skill_affix": [
+		111503,
+		0
+	],
+	"type": "sword",
+	"name_hash": 2949448555,
+	"desc_hash": 1179976749,
+	"name": "Freedom-Sworn",
+	"desc": "A straight sword, azure as antediluvian song, and as keen as the oaths of freedom taken in the Land of Wind.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 45.9364013671875,
+		"Elemental Mastery": 43.20000076293945
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_301",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 5,
+				"chaos_device": 5,
+				"divining_scroll": 3,
+				"mora": 10000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 5,
+				"chaos_device": 18,
+				"divining_scroll": 12,
+				"mora": 20000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 9,
+				"chaos_circuit": 9,
+				"sealed_scroll": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 5,
+				"chaos_circuit": 18,
+				"sealed_scroll": 14,
+				"mora": 45000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 9,
+				"chaos_core": 14,
+				"forbidden_curse_scroll": 9,
+				"mora": 55000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 6,
+				"chaos_core": 27,
+				"forbidden_curse_scroll": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 4253965307,
+		"name": "Revolutionary Chorale",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1115030,
+				"desc_hash": 1807636393,
+				"desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by <color=#99FFFFFF>10%</color>. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by <color=#99FFFFFF>16%</color> and increases ATK by <color=#99FFFFFF>20%</color>. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1115031,
+				"desc_hash": 2862194921,
+				"desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by <color=#99FFFFFF>12.5%</color>. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by <color=#99FFFFFF>20%</color> and increases ATK by <color=#99FFFFFF>25%</color>. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1115032,
+				"desc_hash": 3922601713,
+				"desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by <color=#99FFFFFF>15%</color>. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by <color=#99FFFFFF>24%</color> and increases ATK by <color=#99FFFFFF>30%</color>. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1115033,
+				"desc_hash": 4133460769,
+				"desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by <color=#99FFFFFF>17.5%</color>. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by <color=#99FFFFFF>28%</color> and increases ATK by <color=#99FFFFFF>35%</color>. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1115034,
+				"desc_hash": 826926905,
+				"desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by <color=#99FFFFFF>20%</color>. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by <color=#99FFFFFF>32%</color> and increases ATK by <color=#99FFFFFF>40%</color>. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"cost": 16000
+			}
+		]
+	}
+}

@@ -1,0 +1,823 @@
+{
+	"hoyo_id": 10000047,
+	"promote_id": 47,
+	"skill_depot_id": 4701,
+	"fetter_id": 136,
+	"weapon": "sword",
+	"name_hash": 88505754,
+	"desc_hash": 174508593,
+	"name": "Kaedehara Kazuha",
+	"desc": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_BOY",
+	"birthday": [
+		29,
+		10
+	],
+	"region": "inazuma",
+	"vision_hash": [
+		2477900860,
+		130168969
+	],
+	"astrolabe_hash": [
+		1782640050,
+		1697359355
+	],
+	"allegiance_hash": 3703064921,
+	"vision": "anemo",
+	"astrolabe": "Acer Palmatum",
+	"allegiance": "The Crux",
+	"default_weapon": "dull_blade",
+	"base_stats": {
+		"Base HP": 1039.1187744140625,
+		"Base ATK": 23.08880043029785,
+		"Base DEF": 62.82149887084961,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"vayuda_turquoise_sliver": 1,
+				"sea_ganoderma": 3,
+				"treasure_hoarder_insignia": 3,
+				"mora": 20000
+			},
+			{
+				"vayuda_turquoise_fragment": 3,
+				"marionette_core": 2,
+				"sea_ganoderma": 10,
+				"treasure_hoarder_insignia": 15,
+				"mora": 40000
+			},
+			{
+				"vayuda_turquoise_fragment": 6,
+				"marionette_core": 4,
+				"sea_ganoderma": 20,
+				"silver_raven_insignia": 12,
+				"mora": 60000
+			},
+			{
+				"vayuda_turquoise_chunk": 3,
+				"marionette_core": 8,
+				"sea_ganoderma": 30,
+				"silver_raven_insignia": 18,
+				"mora": 80000
+			},
+			{
+				"vayuda_turquoise_chunk": 6,
+				"marionette_core": 12,
+				"sea_ganoderma": 45,
+				"golden_raven_insignia": 12,
+				"mora": 100000
+			},
+			{
+				"vayuda_turquoise_gemstone": 6,
+				"marionette_core": 20,
+				"sea_ganoderma": 60,
+				"golden_raven_insignia": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 890.950439453125,
+					"Base DEF": 53.8650016784668,
+					"Base ATK": 19.79511260986328,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1523.994140625,
+					"Base DEF": 92.13749694824219,
+					"Base ATK": 33.86006164550781,
+					"Elemental Mastery": 28.799999237060547
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2368.052490234375,
+					"Base DEF": 143.16749572753906,
+					"Base ATK": 52.61332321166992,
+					"Elemental Mastery": 57.599998474121094
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 3001.09619140625,
+					"Base DEF": 181.44000244140625,
+					"Base ATK": 66.67826843261719,
+					"Elemental Mastery": 57.599998474121094
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 3634.139892578125,
+					"Base DEF": 219.71249389648438,
+					"Base ATK": 80.74321746826172,
+					"Elemental Mastery": 86.4000015258789
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 4267.18359375,
+					"Base DEF": 257.9849853515625,
+					"Base ATK": 94.80816650390625,
+					"Elemental Mastery": 115.19999694824219
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 137786925,
+			"desc_hash": 1020885688,
+			"charge_num": 1,
+			"name": "Normal Attack: Garyuu Bladework",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact. If this Plunging Attack is triggered by Chihayaburu, it will be converted to Plunging Attack: Midare Ranzan.\\n\\n<color=#FFD780FF>Plunging Attack: Midare Ranzan</color>\\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to <color=#80FFD7FF>Anemo DMG</color> and will create a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.",
+			"costs": [
+				{
+					"teachings_of_diligence": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_diligence": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_diligence": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_diligence": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_diligence": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_diligence": 4,
+					"golden_raven_insignia": 4,
+					"gilded_scale": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_diligence": 6,
+					"golden_raven_insignia": 6,
+					"gilded_scale": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_diligence": 12,
+					"golden_raven_insignia": 9,
+					"gilded_scale": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_diligence": 16,
+					"golden_raven_insignia": 12,
+					"gilded_scale": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"44.98%",
+						"45.24%",
+						"25.8%+30.96%",
+						"60.72%",
+						"25.37%\u00d73",
+						"43%+74.65%",
+						"20",
+						"81.83%",
+						"163.63%/204.39%"
+					],
+					[
+						"48.64%",
+						"48.92%",
+						"27.9%+33.48%",
+						"65.66%",
+						"27.43%\u00d73",
+						"46.5%+80.72%",
+						"20",
+						"88.49%",
+						"176.95%/221.02%"
+					],
+					[
+						"52.3%",
+						"52.6%",
+						"30%+36%",
+						"70.6%",
+						"29.5%\u00d73",
+						"50%+86.8%",
+						"20",
+						"95.16%",
+						"190.27%/237.66%"
+					],
+					[
+						"57.53%",
+						"57.86%",
+						"33%+39.6%",
+						"77.66%",
+						"32.45%\u00d73",
+						"55%+95.48%",
+						"20",
+						"104.67%",
+						"209.3%/261.42%"
+					],
+					[
+						"61.19%",
+						"61.54%",
+						"35.1%+42.12%",
+						"82.6%",
+						"34.51%\u00d73",
+						"58.5%+101.56%",
+						"20",
+						"111.33%",
+						"222.62%/278.06%"
+					],
+					[
+						"65.38%",
+						"65.75%",
+						"37.5%+45%",
+						"88.25%",
+						"36.88%\u00d73",
+						"62.5%+108.5%",
+						"20",
+						"118.94%",
+						"237.84%/297.07%"
+					],
+					[
+						"71.13%",
+						"71.54%",
+						"40.8%+48.96%",
+						"96.02%",
+						"40.12%\u00d73",
+						"68%+118.05%",
+						"20",
+						"129.41%",
+						"258.77%/323.21%"
+					],
+					[
+						"76.88%",
+						"77.32%",
+						"44.1%+52.92%",
+						"103.78%",
+						"43.36%\u00d73",
+						"73.5%+127.6%",
+						"20",
+						"139.88%",
+						"279.7%/349.36%"
+					],
+					[
+						"82.63%",
+						"83.11%",
+						"47.4%+56.88%",
+						"111.55%",
+						"46.61%\u00d73",
+						"79%+137.14%",
+						"20",
+						"150.35%",
+						"300.63%/375.5%"
+					],
+					[
+						"88.91%",
+						"89.42%",
+						"51%+61.2%",
+						"120.02%",
+						"50.15%\u00d73",
+						"85%+147.56%",
+						"20",
+						"161.76%",
+						"323.46%/404.02%"
+					],
+					[
+						"96.1%",
+						"96.65%",
+						"55.12%+66.15%",
+						"129.73%",
+						"54.21%\u00d73",
+						"91.87%+159.49%",
+						"20",
+						"173.18%",
+						"346.29%/432.54%"
+					],
+					[
+						"104.56%",
+						"105.16%",
+						"59.98%+71.97%",
+						"141.14%",
+						"58.98%\u00d73",
+						"99.96%+173.53%",
+						"20",
+						"184.6%",
+						"369.12%/461.06%"
+					],
+					[
+						"113.02%",
+						"113.66%",
+						"64.83%+77.79%",
+						"152.56%",
+						"63.75%\u00d73",
+						"108.05%+187.57%",
+						"20",
+						"196.02%",
+						"391.96%/489.57%"
+					],
+					[
+						"121.47%",
+						"122.17%",
+						"69.68%+83.61%",
+						"163.98%",
+						"68.52%\u00d73",
+						"116.13%+201.6%",
+						"20",
+						"207.44%",
+						"414.79%/518.09%"
+					],
+					[
+						"130.7%",
+						"131.45%",
+						"74.97%+89.96%",
+						"176.43%",
+						"73.72%\u00d73",
+						"124.95%+216.91%",
+						"20",
+						"218.86%",
+						"437.62%/546.61%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 3645237197,
+			"desc_hash": 3589501064,
+			"charge_num": 1,
+			"name": "Chihayaburu",
+			"desc": "#Unleashes a secret technique as fierce as the rushing wind that pulls objects and opponents towards Kazuha's current position before launching opponents within the AoE, dealing <color=#80FFD7FF>Anemo DMG</color> and lifting Kazuha into the air on a rushing gust of wind.\\nWithin 10s of remaining airborne after casting Chihayaburu, Kazuha can unleash a powerful Plunging Attack known as Midare Ranzan.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nCan be used in mid-air.\\n\\n<color=#FFD780FF>Hold</color>\\nCharges up before unleashing greater <color=#80FFD7FF>Anemo DMG</color> over a larger AoE than {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Mode.\\n\\n<color=#FFD780FF>Plunging Attack: Midare Ranzan</color>\\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to <color=#80FFD7FF>Anemo DMG</color>. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.\\nMidare Ranzan's DMG is considered Plunging Attack DMG.\\n\\n<i>\"Wind in branches grieves\\nBygone ages, gods of old\\nWithered autumn leaves\"</i>",
+			"costs": [
+				{
+					"teachings_of_diligence": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_diligence": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_diligence": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_diligence": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_diligence": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_diligence": 4,
+					"golden_raven_insignia": 4,
+					"gilded_scale": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_diligence": 6,
+					"golden_raven_insignia": 6,
+					"gilded_scale": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_diligence": 12,
+					"golden_raven_insignia": 9,
+					"gilded_scale": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_diligence": 16,
+					"golden_raven_insignia": 12,
+					"gilded_scale": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG",
+					"#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD",
+					"Hold Skill DMG",
+					"Hold CD"
+				],
+				"values": [
+					[
+						"192%",
+						"6s",
+						"260.8%",
+						"9s"
+					],
+					[
+						"206.4%",
+						"6s",
+						"280.36%",
+						"9s"
+					],
+					[
+						"220.8%",
+						"6s",
+						"299.92%",
+						"9s"
+					],
+					[
+						"240%",
+						"6s",
+						"326%",
+						"9s"
+					],
+					[
+						"254.4%",
+						"6s",
+						"345.56%",
+						"9s"
+					],
+					[
+						"268.8%",
+						"6s",
+						"365.12%",
+						"9s"
+					],
+					[
+						"288%",
+						"6s",
+						"391.2%",
+						"9s"
+					],
+					[
+						"307.2%",
+						"6s",
+						"417.28%",
+						"9s"
+					],
+					[
+						"326.4%",
+						"6s",
+						"443.36%",
+						"9s"
+					],
+					[
+						"345.6%",
+						"6s",
+						"469.44%",
+						"9s"
+					],
+					[
+						"364.8%",
+						"6s",
+						"495.52%",
+						"9s"
+					],
+					[
+						"384%",
+						"6s",
+						"521.6%",
+						"9s"
+					],
+					[
+						"408%",
+						"6s",
+						"554.2%",
+						"9s"
+					],
+					[
+						"432%",
+						"6s",
+						"586.8%",
+						"9s"
+					],
+					[
+						"456%",
+						"6s",
+						"619.4%",
+						"9s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 2015878197,
+			"desc_hash": 1543060392,
+			"charge_num": 1,
+			"name": "Kazuha Slash",
+			"desc": "The signature technique of Kazuha's self-styled bladework \u2014 a single slash that strikes with the force of the first winds of autumn, dealing <color=#80FFD7FF>AoE Anemo DMG</color>.\\nThe blade's passage will leave behind a field named \"Autumn Whirlwind\" that periodically deals <color=#80FFD7FF>AoE Anemo DMG</color> to opponents within its range.\\n\\n<color=#FFD780FF>Elemental Absorption</color>\\nIf Autumn Whirlwind comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>\"I see eternity go by in an instant, the autumns of many years from a single leaf. Thus I shall slice this maple in a flash, and ask a question of the ages.\"</i>",
+			"costs": [
+				{
+					"teachings_of_diligence": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_diligence": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_diligence": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_diligence": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_diligence": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_diligence": 4,
+					"golden_raven_insignia": 4,
+					"gilded_scale": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_diligence": 6,
+					"golden_raven_insignia": 6,
+					"gilded_scale": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_diligence": 12,
+					"golden_raven_insignia": 9,
+					"gilded_scale": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_diligence": 16,
+					"golden_raven_insignia": 12,
+					"gilded_scale": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Slashing DMG",
+					"DoT",
+					"Additional Elemental DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"262.4%",
+						"120%",
+						"36%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"282.08%",
+						"129%",
+						"38.7%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"301.76%",
+						"138%",
+						"41.4%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"328%",
+						"150%",
+						"45%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"347.68%",
+						"159%",
+						"47.7%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"367.36%",
+						"168%",
+						"50.4%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"393.6%",
+						"180%",
+						"54%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"419.84%",
+						"192%",
+						"57.6%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"446.08%",
+						"204%",
+						"61.2%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"472.32%",
+						"216%",
+						"64.8%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"498.56%",
+						"228%",
+						"68.4%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"524.8%",
+						"240%",
+						"72%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"557.6%",
+						"255%",
+						"76.5%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"590.4%",
+						"270%",
+						"81%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"623.2%",
+						"285%",
+						"85.5%",
+						"8s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 1573553381,
+			"desc_hash": 1770302715,
+			"ascension": 1,
+			"name": "Soumon Swordsmanship",
+			"desc": "If <color=#FFD780FF>Chihayaburu</color> comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> when cast, this <color=#FFD780FF>Chihayaburu</color> will absorb that element and if Plunging Attack: Midare Ranzan is used before the effect expires, it will deal an additional 200% ATK of the absorbed elemental type as DMG. This will be considered Plunging Attack DMG.\\nElemental Absorption may only occur once per use of <color=#FFD780FF>Chihayaburu</color>."
+		},
+		{
+			"name_hash": 138639933,
+			"desc_hash": 1440993195,
+			"ascension": 4,
+			"name": "Poetics of Fuubutsu",
+			"desc": "Upon triggering a Swirl reaction, Kaedehara Kazuha will grant all party members a 0.04% Elemental DMG Bonus to the element absorbed by Swirl for every point of Elemental Mastery he has for 8s. Bonuses for different elements obtained through this method can co-exist."
+		},
+		{
+			"name_hash": 2537361669,
+			"desc_hash": 1222696027,
+			"ascension": null,
+			"name": "Cloud Strider",
+			"desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 2040563073,
+			"name": "Scarlet Hills",
+			"desc_hash": 3794647287,
+			"desc": "Decreases <color=#FFD780FF>Chihayaburu</color>'s CD by 10%.\\nUsing <color=#FFD780FF>Kazuha Slash</color> resets the CD of <color=#FFD780FF>Chihayaburu</color>."
+		},
+		{
+			"name_hash": 7765353,
+			"name": "Yamaarashi Tailwind",
+			"desc_hash": 57094423,
+			"desc": "The Autumn Whirlwind field created by <color=#FFD780FF>Kazuha Slash</color> has the following effects:\\n\u00b7 Increases Kaedehara Kazuha's own Elemental Mastery by 200 for its duration.\\n\u00b7 Increases the Elemental Mastery of characters within the field by 200.\\n\\nThe Elemental Mastery-increasing effects of this Constellation do not stack."
+		},
+		{
+			"name_hash": 2202533753,
+			"name": "Maple Monogatari",
+			"desc_hash": 190411063,
+			"desc": "Increases the Level of <color=#FFD780FF>Chihayaburu</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2888381665,
+			"name": "Oozora Genpou",
+			"desc_hash": 2322280143,
+			"desc": "#When Kaedehara Kazuha's Energy is lower than 45, he obtains the following effects:\\n\u00b7{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Pressing}{LAYOUT_PS#Pressing} or Holding <color=#FFD780FF>Chihayaburu</color> regenerates 3 or 4 Energy for Kaedehara Kazuha, respectively.\\n\u00b7When gliding, Kaedehara Kazuha regenerates 2 Energy per second."
+		},
+		{
+			"name_hash": 4207271041,
+			"name": "Wisdom of Bansei",
+			"desc_hash": 4023044479,
+			"desc": "Increases the Level of <color=#FFD780FF>Kazuha Slash</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 234189249,
+			"name": "Crimson Momiji",
+			"desc_hash": 2071805463,
+			"desc": "After using <color=#FFD780FF>Chihayaburu</color> or <color=#FFD780FF>Kazuha Slash</color>, Kaedehara Kazuha gains an <color=#80FFD7FF>Anemo Infusion</color> for 5s. Additionally, each point of Elemental Mastery will increase the DMG dealt by Kaedehara Kazuha's Normal, Charged, and Plunging Attacks by 0.2%."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 3355624658,
+			"desc_hash": 973274738,
+			"restricted": false,
+			"name": "Falling Leaves",
+			"desc": "Kaedehara Kazuha's outfit. The maple leaf patterns are the hallmark of this wandering samurai's clothes."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108301,
+		"name_hash": 381291068,
+		"desc_hash": 1960290973,
+		"type_hash": 2454421326,
+		"rarity": 1,
+		"name": "All-Weather Beauty",
+		"desc": "Kaedehara Kazuha's specialty. Made from fish that have been dried on the ship. Kazuha claims that they were completely ordinary fish. But this flavor... this must surely be the definition of free, all-embracing nature, no?",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 484381503,
+		"effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
+		"original_recipe": "dry_braised_salted_fish"
+	}
+}

@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 11304,
+	"promote_id": 11304,
+	"gadget_id": 50011304,
+	"story_id": [
+		191304
+	],
+	"skill_affix": [
+		111304,
+		0
+	],
+	"type": "sword",
+	"name_hash": 160493219,
+	"desc_hash": 4211009349,
+	"name": "Dark Iron Sword",
+	"desc": "A perfectly ordinary iron sword, just slightly darker than most.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 38.74129867553711,
+		"Elemental Mastery": 30.600000381469727
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"luminous_sands_from_guyun": 2,
+				"hunters_sacrificial_knife": 2,
+				"damaged_mask": 1,
+				"mora": 5000
+			},
+			{
+				"lustrous_stone_from_guyun": 2,
+				"hunters_sacrificial_knife": 8,
+				"damaged_mask": 5,
+				"mora": 10000
+			},
+			{
+				"lustrous_stone_from_guyun": 4,
+				"agents_sacrificial_knife": 4,
+				"stained_mask": 4,
+				"mora": 15000
+			},
+			{
+				"relic_from_guyun": 2,
+				"agents_sacrificial_knife": 8,
+				"stained_mask": 6,
+				"mora": 20000
+			},
+			{
+				"relic_from_guyun": 4,
+				"inspectors_sacrificial_knife": 6,
+				"ominous_mask": 4,
+				"mora": 25000
+			},
+			{
+				"divine_body_from_guyun": 3,
+				"inspectors_sacrificial_knife": 12,
+				"ominous_mask": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 4047629611,
+		"name": "Overloaded",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1113040,
+				"desc_hash": 1124150097,
+				"desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>20%</color> for 12s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1113041,
+				"desc_hash": 3152487993,
+				"desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>25%</color> for 12s.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1113042,
+				"desc_hash": 2656165345,
+				"desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>30%</color> for 12s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1113043,
+				"desc_hash": 575353417,
+				"desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>35%</color> for 12s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1113044,
+				"desc_hash": 3471395985,
+				"desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>40%</color> for 12s.",
+				"cost": 4000
+			}
+		]
+	}
+}

@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13505,
+	"promote_id": 13505,
+	"gadget_id": 50013505,
+	"story_id": [
+		193505
+	],
+	"skill_affix": [
+		113505,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 1997709467,
+	"desc_hash": 1074834109,
+	"name": "Primordial Jade Winged-Spear",
+	"desc": "A jade polearm made by the archons, capable of slaying ancient beasts.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 47.5369987487793,
+		"Crit Rate%": 0.04800000041723251
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_302",
+		"Crit Rate%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"luminous_sands_from_guyun": 5,
+				"hunters_sacrificial_knife": 5,
+				"recruits_insignia": 3,
+				"mora": 10000
+			},
+			{
+				"lustrous_stone_from_guyun": 5,
+				"hunters_sacrificial_knife": 18,
+				"recruits_insignia": 12,
+				"mora": 20000
+			},
+			{
+				"lustrous_stone_from_guyun": 9,
+				"agents_sacrificial_knife": 9,
+				"sergeants_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"relic_from_guyun": 5,
+				"agents_sacrificial_knife": 18,
+				"sergeants_insignia": 14,
+				"mora": 45000
+			},
+			{
+				"relic_from_guyun": 9,
+				"inspectors_sacrificial_knife": 14,
+				"lieutenants_insignia": 9,
+				"mora": 55000
+			},
+			{
+				"divine_body_from_guyun": 6,
+				"inspectors_sacrificial_knife": 27,
+				"lieutenants_insignia": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3835416843,
+		"name": "Eagle Spear of Justice",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1135050,
+				"desc_hash": 1709090265,
+				"desc": "On hit, increases ATK by <color=#99FFFFFF>3.2%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>12%</color>.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1135051,
+				"desc_hash": 3604328689,
+				"desc": "On hit, increases ATK by <color=#99FFFFFF>3.9%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>15%</color>.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1135052,
+				"desc_hash": 3159527857,
+				"desc": "On hit, increases ATK by <color=#99FFFFFF>4.6%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>18%</color>.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1135053,
+				"desc_hash": 794008505,
+				"desc": "On hit, increases ATK by <color=#99FFFFFF>5.3%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>21%</color>.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1135054,
+				"desc_hash": 1722961881,
+				"desc": "On hit, increases ATK by <color=#99FFFFFF>6%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>24%</color>.",
+				"cost": 16000
+			}
+		]
+	}
+}

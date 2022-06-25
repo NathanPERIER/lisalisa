@@ -1,0 +1,839 @@
+{
+	"hoyo_id": 10000035,
+	"promote_id": 35,
+	"skill_depot_id": 3501,
+	"fetter_id": 123,
+	"weapon": "sword",
+	"name_hash": 168956722,
+	"desc_hash": 3128332321,
+	"name": "Qiqi",
+	"desc": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_LOLI",
+	"birthday": [
+		3,
+		3
+	],
+	"region": "liyue",
+	"vision_hash": [
+		1695600284,
+		262460977
+	],
+	"astrolabe_hash": [
+		1580087082,
+		44381363
+	],
+	"allegiance_hash": 802385489,
+	"vision": "cryo",
+	"astrolabe": "Pristina Nola",
+	"allegiance": "Bubu Pharmacy",
+	"default_weapon": "dull_blade",
+	"base_stats": {
+		"Base HP": 962.8532104492188,
+		"Base ATK": 22.3439998626709,
+		"Base DEF": 71.7959976196289,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"shivada_jade_sliver": 1,
+				"violetgrass": 3,
+				"divining_scroll": 3,
+				"mora": 20000
+			},
+			{
+				"shivada_jade_fragment": 3,
+				"hoarfrost_core": 2,
+				"violetgrass": 10,
+				"divining_scroll": 15,
+				"mora": 40000
+			},
+			{
+				"shivada_jade_fragment": 6,
+				"hoarfrost_core": 4,
+				"violetgrass": 20,
+				"sealed_scroll": 12,
+				"mora": 60000
+			},
+			{
+				"shivada_jade_chunk": 3,
+				"hoarfrost_core": 8,
+				"violetgrass": 30,
+				"sealed_scroll": 18,
+				"mora": 80000
+			},
+			{
+				"shivada_jade_chunk": 6,
+				"hoarfrost_core": 12,
+				"violetgrass": 45,
+				"forbidden_curse_scroll": 12,
+				"mora": 100000
+			},
+			{
+				"shivada_jade_gemstone": 6,
+				"hoarfrost_core": 20,
+				"violetgrass": 60,
+				"forbidden_curse_scroll": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 825.5595703125,
+					"Base DEF": 61.560001373291016,
+					"Base ATK": 19.15656089782715,
+					"Healing Bonus%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1412.141357421875,
+					"Base DEF": 105.30000305175781,
+					"Base ATK": 32.767799377441406,
+					"Healing Bonus%": 0.055399999022483826
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2194.25048828125,
+					"Base DEF": 163.6199951171875,
+					"Base ATK": 50.91611862182617,
+					"Healing Bonus%": 0.11079999804496765
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2780.832275390625,
+					"Base DEF": 207.36000061035156,
+					"Base ATK": 64.52735900878906,
+					"Healing Bonus%": 0.11079999804496765
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 3367.4140625,
+					"Base DEF": 251.10000610351562,
+					"Base ATK": 78.13860321044922,
+					"Healing Bonus%": 0.16619999706745148
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3953.995849609375,
+					"Base DEF": 294.8399963378906,
+					"Base ATK": 91.74983978271484,
+					"Healing Bonus%": 0.2214999943971634
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 1361102277,
+			"desc_hash": 989342840,
+			"charge_num": 1,
+			"name": "Normal Attack: Ancient Sword Art",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_prosperity": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_prosperity": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_prosperity": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_prosperity": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_prosperity": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_prosperity": 4,
+					"forbidden_curse_scroll": 4,
+					"tail_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_prosperity": 6,
+					"forbidden_curse_scroll": 6,
+					"tail_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_prosperity": 12,
+					"forbidden_curse_scroll": 9,
+					"tail_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_prosperity": 16,
+					"forbidden_curse_scroll": 12,
+					"tail_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"37.75%",
+						"38.87%",
+						"24.17%+24.17%",
+						"24.68%+24.68%",
+						"63.04%",
+						"64.33%+64.33%",
+						"20",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"40.83%",
+						"42.04%",
+						"26.13%+26.13%",
+						"26.69%+26.69%",
+						"68.17%",
+						"69.56%+69.56%",
+						"20",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"43.9%",
+						"45.2%",
+						"28.1%+28.1%",
+						"28.7%+28.7%",
+						"73.3%",
+						"74.8%+74.8%",
+						"20",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"48.29%",
+						"49.72%",
+						"30.91%+30.91%",
+						"31.57%+31.57%",
+						"80.63%",
+						"82.28%+82.28%",
+						"20",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"51.36%",
+						"52.88%",
+						"32.88%+32.88%",
+						"33.58%+33.58%",
+						"85.76%",
+						"87.52%+87.52%",
+						"20",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"54.87%",
+						"56.5%",
+						"35.12%+35.12%",
+						"35.87%+35.87%",
+						"91.62%",
+						"93.5%+93.5%",
+						"20",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"59.7%",
+						"61.47%",
+						"38.22%+38.22%",
+						"39.03%+39.03%",
+						"99.69%",
+						"101.73%+101.73%",
+						"20",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"64.53%",
+						"66.44%",
+						"41.31%+41.31%",
+						"42.19%+42.19%",
+						"107.75%",
+						"109.96%+109.96%",
+						"20",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"69.36%",
+						"71.42%",
+						"44.4%+44.4%",
+						"45.35%+45.35%",
+						"115.81%",
+						"118.18%+118.18%",
+						"20",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"74.63%",
+						"76.84%",
+						"47.77%+47.77%",
+						"48.79%+48.79%",
+						"124.61%",
+						"127.16%+127.16%",
+						"20",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"79.9%",
+						"82.26%",
+						"51.14%+51.14%",
+						"52.23%+52.23%",
+						"133.41%",
+						"136.14%+136.14%",
+						"20",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"85.17%",
+						"87.69%",
+						"54.51%+54.51%",
+						"55.68%+55.68%",
+						"142.2%",
+						"145.11%+145.11%",
+						"20",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"90.43%",
+						"93.11%",
+						"57.89%+57.89%",
+						"59.12%+59.12%",
+						"151%",
+						"154.09%+154.09%",
+						"20",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"95.7%",
+						"98.54%",
+						"61.26%+61.26%",
+						"62.57%+62.57%",
+						"159.79%",
+						"163.06%+163.06%",
+						"20",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"100.97%",
+						"103.96%",
+						"64.63%+64.63%",
+						"66.01%+66.01%",
+						"168.59%",
+						"172.04%+172.04%",
+						"20",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2328467573,
+			"desc_hash": 293117848,
+			"charge_num": 1,
+			"name": "Adeptus Art: Herald of Frost",
+			"desc": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\\n\\n<color=#FFD780FF>Herald of Frost</color>\\n\u00b7On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\\n\u00b7Periodically regenerates your active character's HP.\\n\u00b7Follows the character around, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in their path.\\n\\n<i>I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.</i>",
+			"costs": [
+				{
+					"teachings_of_prosperity": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_prosperity": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_prosperity": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_prosperity": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_prosperity": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_prosperity": 4,
+					"forbidden_curse_scroll": 4,
+					"tail_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_prosperity": 6,
+					"forbidden_curse_scroll": 6,
+					"tail_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_prosperity": 12,
+					"forbidden_curse_scroll": 9,
+					"tail_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_prosperity": 16,
+					"forbidden_curse_scroll": 12,
+					"tail_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Regeneration on Hit",
+					"Continuous Regeneration",
+					"Herald of Frost DMG",
+					"Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"96%",
+						"10.56% ATK+67",
+						"69.6% ATK+450",
+						"36%",
+						"15s",
+						"30s"
+					],
+					[
+						"103.2%",
+						"11.35% ATK+74",
+						"74.82% ATK+495",
+						"38.7%",
+						"15s",
+						"30s"
+					],
+					[
+						"110.4%",
+						"12.14% ATK+81",
+						"80.04% ATK+544",
+						"41.4%",
+						"15s",
+						"30s"
+					],
+					[
+						"120%",
+						"13.2% ATK+89",
+						"87% ATK+597",
+						"45%",
+						"15s",
+						"30s"
+					],
+					[
+						"127.2%",
+						"13.99% ATK+97",
+						"92.22% ATK+653",
+						"47.7%",
+						"15s",
+						"30s"
+					],
+					[
+						"134.4%",
+						"14.78% ATK+106",
+						"97.44% ATK+713",
+						"50.4%",
+						"15s",
+						"30s"
+					],
+					[
+						"144%",
+						"15.84% ATK+116",
+						"104.4% ATK+777",
+						"54%",
+						"15s",
+						"30s"
+					],
+					[
+						"153.6%",
+						"16.9% ATK+126",
+						"111.36% ATK+844",
+						"57.6%",
+						"15s",
+						"30s"
+					],
+					[
+						"163.2%",
+						"17.95% ATK+137",
+						"118.32% ATK+916",
+						"61.2%",
+						"15s",
+						"30s"
+					],
+					[
+						"172.8%",
+						"19.01% ATK+148",
+						"125.28% ATK+991",
+						"64.8%",
+						"15s",
+						"30s"
+					],
+					[
+						"182.4%",
+						"20.06% ATK+160",
+						"132.24% ATK+1070",
+						"68.4%",
+						"15s",
+						"30s"
+					],
+					[
+						"192%",
+						"21.12% ATK+172",
+						"139.2% ATK+1152",
+						"72%",
+						"15s",
+						"30s"
+					],
+					[
+						"204%",
+						"22.44% ATK+185",
+						"147.9% ATK+1239",
+						"76.5%",
+						"15s",
+						"30s"
+					],
+					[
+						"216%",
+						"23.76% ATK+198",
+						"156.6% ATK+1329",
+						"81%",
+						"15s",
+						"30s"
+					],
+					[
+						"228%",
+						"25.08% ATK+212",
+						"165.3% ATK+1423",
+						"85.5%",
+						"15s",
+						"30s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 2926659693,
+			"desc_hash": 3521541160,
+			"charge_num": 1,
+			"name": "Adeptus Art: Preserver of Fortune",
+			"desc": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\\n\\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\\n<i>\u2014 Qiqi does not remember these words.</i>",
+			"costs": [
+				{
+					"teachings_of_prosperity": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_prosperity": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_prosperity": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_prosperity": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_prosperity": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_prosperity": 4,
+					"forbidden_curse_scroll": 4,
+					"tail_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_prosperity": 6,
+					"forbidden_curse_scroll": 6,
+					"tail_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_prosperity": 12,
+					"forbidden_curse_scroll": 9,
+					"tail_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_prosperity": 16,
+					"forbidden_curse_scroll": 12,
+					"tail_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Healing",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"284.8%",
+						"90% ATK+577",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"306.16%",
+						"96.75% ATK+635",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"327.52%",
+						"103.5% ATK+697",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"356%",
+						"112.5% ATK+765",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"377.36%",
+						"119.25% ATK+837",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"398.72%",
+						"126% ATK+914",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"427.2%",
+						"135% ATK+995",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"455.68%",
+						"144% ATK+1082",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"484.16%",
+						"153% ATK+1174",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"512.64%",
+						"162% ATK+1270",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"541.12%",
+						"171% ATK+1371",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"569.6%",
+						"180% ATK+1477",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"605.2%",
+						"191.25% ATK+1587",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"640.8%",
+						"202.5% ATK+1703",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"676.4%",
+						"213.75% ATK+1823",
+						"15s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 3698199485,
+			"desc_hash": 1229898787,
+			"ascension": 1,
+			"name": "Life-Prolonging Methods",
+			"desc": "When a character under the effects of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s."
+		},
+		{
+			"name_hash": 3159951405,
+			"desc_hash": 1235554483,
+			"ascension": 4,
+			"name": "A Glimpse Into Arcanum",
+			"desc": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s."
+		},
+		{
+			"name_hash": 4097525341,
+			"desc_hash": 1381757851,
+			"ascension": null,
+			"name": "Former Life Memories",
+			"desc": "Displays the location of nearby <color=#FFD780FF>resources unique to Liyue</color> on the mini-map."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 3894833521,
+			"name": "Ascetics of Frost",
+			"desc_hash": 1696126103,
+			"desc": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy."
+		},
+		{
+			"name_hash": 388179873,
+			"name": "Frozen to the Bone",
+			"desc_hash": 606329007,
+			"desc": "Qiqi's Normal and Charge Attack DMG against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%."
+		},
+		{
+			"name_hash": 1454042537,
+			"name": "Ascendant Praise",
+			"desc_hash": 2773207751,
+			"desc": "Increases the Level of <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3785958321,
+			"name": "Divine Suppression",
+			"desc_hash": 1811613895,
+			"desc": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%."
+		},
+		{
+			"name_hash": 243639329,
+			"name": "Crimson Lotus Bloom",
+			"desc_hash": 655434095,
+			"desc": "Increases the Level of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 1456237985,
+			"name": "Rite of Resurrection",
+			"desc_hash": 1392516727,
+			"desc": "Using <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> revives all fallen party members nearby and regenerates 50% of their HP.\\nThis effect can only occur once every 15 mins."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 2620016810,
+			"desc_hash": 4056261530,
+			"restricted": false,
+			"name": "Summerchill Dreams",
+			"desc": "Qiqi's outfit. A herb gatherer's garment that brings her great peace of mind due to the attached talismans."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108140,
+		"name_hash": 2916224140,
+		"desc_hash": 2952714309,
+		"type_hash": 707837358,
+		"rarity": 3,
+		"name": "No Tomorrow",
+		"desc": "Qiqi's specialty. The neat rows of ingredients seem at once exotic and delicious, and Baizhu says that Qiqi has spent a long time creating this dish. Still, once one considers that Qiqi has no sense of taste, just putting chopsticks to the food is going to take some courage.",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 2281030543,
+		"effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)",
+		"original_recipe": "come_and_get_it"
+	}
+}

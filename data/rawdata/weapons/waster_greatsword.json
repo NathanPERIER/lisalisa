@@ -1,0 +1,94 @@
+{
+	"hoyo_id": 12101,
+	"promote_id": 12101,
+	"gadget_id": 50012101,
+	"story_id": [
+		192101
+	],
+	"skill_affix": [
+		0,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 2666951267,
+	"desc_hash": 2490958125,
+	"name": "Waster Greatsword",
+	"desc": "A sturdy sheet of iron that may be powerful enough to break apart mountains if wielded with enough willpower.",
+	"rarity": 1,
+	"base_stats": {
+		"Base ATK": 23.2450008392334
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"boreal_wolfs_milk_tooth": 1,
+				"dead_ley_line_branch": 1,
+				"slime_condensate": 1
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 1,
+				"dead_ley_line_branch": 4,
+				"slime_condensate": 2,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 2,
+				"dead_ley_line_leaves": 2,
+				"slime_secretions": 2,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_broken_fang": 1,
+				"dead_ley_line_leaves": 4,
+				"slime_secretions": 3,
+				"mora": 10000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 11.699999809265137,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 23.299999237060547,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 35.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 46.70000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			}
+		]
+	},
+	"abilities": null
+}

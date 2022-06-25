@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15502,
+	"promote_id": 15502,
+	"gadget_id": 50015502,
+	"story_id": [
+		195502
+	],
+	"skill_affix": [
+		115502,
+		0
+	],
+	"type": "bow",
+	"name_hash": 828711395,
+	"desc_hash": 2543630901,
+	"name": "Amos' Bow",
+	"desc": "An extremely ancient bow that has retained its power despite its original master being long gone. It draws power from everyone and everything in the world, and the further away you are from that which your heart desires, the more powerful it is.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 45.9364013671875,
+		"ATK%": 0.1080000028014183
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_301",
+		"ATK%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 5,
+				"chaos_device": 5,
+				"slime_condensate": 3,
+				"mora": 10000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 5,
+				"chaos_device": 18,
+				"slime_condensate": 12,
+				"mora": 20000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 9,
+				"chaos_circuit": 9,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 5,
+				"chaos_circuit": 18,
+				"slime_secretions": 14,
+				"mora": 45000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 9,
+				"chaos_core": 14,
+				"slime_concentrate": 9,
+				"mora": 55000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 6,
+				"chaos_core": 27,
+				"slime_concentrate": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 653910451,
+		"name": "Strong-Willed",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1155020,
+				"desc_hash": 3340368201,
+				"desc": "Increases Normal and Charged Attack DMG by <color=#99FFFFFF>12%</color>. After a Normal or Charged Attack is fired, DMG dealt increases by a further <color=#99FFFFFF>8%</color> every 0.1s the arrow is in the air for up to 5 times.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1155021,
+				"desc_hash": 1670409121,
+				"desc": "Increases Normal and Charged Attack DMG by <color=#99FFFFFF>15%</color>. After a Normal or Charged Attack is fired, DMG dealt increases by a further <color=#99FFFFFF>10%</color> every 0.1s the arrow is in the air for up to 5 times.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1155022,
+				"desc_hash": 1879506945,
+				"desc": "Increases Normal and Charged Attack DMG by <color=#99FFFFFF>18%</color>. After a Normal or Charged Attack is fired, DMG dealt increases by a further <color=#99FFFFFF>12%</color> every 0.1s the arrow is in the air for up to 5 times.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1155023,
+				"desc_hash": 3261388153,
+				"desc": "Increases Normal and Charged Attack DMG by <color=#99FFFFFF>21%</color>. After a Normal or Charged Attack is fired, DMG dealt increases by a further <color=#99FFFFFF>14%</color> every 0.1s the arrow is in the air for up to 5 times.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1155024,
+				"desc_hash": 591206441,
+				"desc": "Increases Normal and Charged Attack DMG by <color=#99FFFFFF>24%</color>. After a Normal or Charged Attack is fired, DMG dealt increases by a further <color=#99FFFFFF>16%</color> every 0.1s the arrow is in the air for up to 5 times.",
+				"cost": 16000
+			}
+		]
+	}
+}

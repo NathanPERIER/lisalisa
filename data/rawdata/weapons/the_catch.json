@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13415,
+	"promote_id": 13415,
+	"gadget_id": 50013415,
+	"story_id": [
+		193415
+	],
+	"skill_affix": [
+		113415,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 1148024603,
+	"desc_hash": 1942599173,
+	"name": "\"The Catch\"",
+	"desc": "In the distant past, this was the beloved spear of a famed Inazuman bandit.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"Energy Recharge%": 0.10000000149011612
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"mask_of_the_wicked_lieutenant": 3,
+				"chaos_gear": 3,
+				"spectral_husk": 2,
+				"mora": 5000
+			},
+			{
+				"mask_of_the_tigers_bite": 3,
+				"chaos_gear": 12,
+				"spectral_husk": 8,
+				"mora": 15000
+			},
+			{
+				"mask_of_the_tigers_bite": 6,
+				"chaos_axis": 6,
+				"spectral_heart": 6,
+				"mora": 20000
+			},
+			{
+				"mask_of_the_one_horned": 3,
+				"chaos_axis": 12,
+				"spectral_heart": 9,
+				"mora": 30000
+			},
+			{
+				"mask_of_the_one_horned": 6,
+				"chaos_oculus": 9,
+				"spectral_nucleus": 6,
+				"mora": 35000
+			},
+			{
+				"mask_of_the_kijin": 4,
+				"chaos_oculus": 18,
+				"spectral_nucleus": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2723770651,
+		"name": "Shanty",
+		"special_material": "akos_sake_vessel",
+		"values": [
+			{
+				"affix_id": 1134150,
+				"desc_hash": 1255493729,
+				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>16%</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>6%</color>.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1134151,
+				"desc_hash": 66627713,
+				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>20%</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>7.5%</color>.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1134152,
+				"desc_hash": 2163892497,
+				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>24%</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>9%</color>.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1134153,
+				"desc_hash": 76648377,
+				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>28%</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>10.5%</color>.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1134154,
+				"desc_hash": 3574278937,
+				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>32%</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>12%</color>.",
+				"cost": 8000
+			}
+		]
+	}
+}

@@ -1,0 +1,816 @@
+{
+	"hoyo_id": 10000042,
+	"promote_id": 42,
+	"skill_depot_id": 4201,
+	"fetter_id": 129,
+	"weapon": "sword",
+	"name_hash": 1864015138,
+	"desc_hash": 2249961857,
+	"name": "Keqing",
+	"desc": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis's unilateral approach to policymaking in Liyue \u2014 but in truth, gods admire skeptics such as her quite a lot.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": [
+		20,
+		11
+	],
+	"region": "liyue",
+	"vision_hash": [
+		1821644548,
+		373974425
+	],
+	"astrolabe_hash": [
+		3587152074,
+		1744331243
+	],
+	"allegiance_hash": 4010071745,
+	"vision": "electro",
+	"astrolabe": "Trulla Cementarii",
+	"allegiance": "Liyue Qixing",
+	"default_weapon": "dull_blade",
+	"base_stats": {
+		"Base HP": 1020.0524291992188,
+		"Base ATK": 25.136999130249023,
+		"Base DEF": 62.223201751708984,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"vajrada_amethyst_sliver": 1,
+				"cor_lapis": 3,
+				"whopperflower_nectar": 3,
+				"mora": 20000
+			},
+			{
+				"vajrada_amethyst_fragment": 3,
+				"lightning_prism": 2,
+				"cor_lapis": 10,
+				"whopperflower_nectar": 15,
+				"mora": 40000
+			},
+			{
+				"vajrada_amethyst_fragment": 6,
+				"lightning_prism": 4,
+				"cor_lapis": 20,
+				"shimmering_nectar": 12,
+				"mora": 60000
+			},
+			{
+				"vajrada_amethyst_chunk": 3,
+				"lightning_prism": 8,
+				"cor_lapis": 30,
+				"shimmering_nectar": 18,
+				"mora": 80000
+			},
+			{
+				"vajrada_amethyst_chunk": 6,
+				"lightning_prism": 12,
+				"cor_lapis": 45,
+				"energy_nectar": 12,
+				"mora": 100000
+			},
+			{
+				"vajrada_amethyst_gemstone": 6,
+				"lightning_prism": 20,
+				"cor_lapis": 60,
+				"energy_nectar": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 874.6027221679688,
+					"Base DEF": 53.35200119018555,
+					"Base ATK": 21.551130294799805,
+					"Crit DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1496.0308837890625,
+					"Base DEF": 91.26000213623047,
+					"Base ATK": 36.863773345947266,
+					"Crit DMG%": 0.09600000083446503
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2324.601806640625,
+					"Base DEF": 141.8040008544922,
+					"Base ATK": 57.280635833740234,
+					"Crit DMG%": 0.19200000166893005
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2946.030029296875,
+					"Base DEF": 179.71200561523438,
+					"Base ATK": 72.59327697753906,
+					"Crit DMG%": 0.19200000166893005
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 3567.45849609375,
+					"Base DEF": 217.6199951171875,
+					"Base ATK": 87.90592193603516,
+					"Crit DMG%": 0.2879999876022339
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 4188.88671875,
+					"Base DEF": 255.5279998779297,
+					"Base ATK": 103.21856689453125,
+					"Crit DMG%": 0.3840000033378601
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 1732155229,
+			"desc_hash": 3229237400,
+			"charge_num": 1,
+			"name": "Normal Attack: Yunlai Swordsmanship",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_prosperity": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_prosperity": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_prosperity": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_prosperity": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_prosperity": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_prosperity": 4,
+					"energy_nectar": 4,
+					"ring_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_prosperity": 6,
+					"energy_nectar": 6,
+					"ring_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_prosperity": 12,
+					"energy_nectar": 9,
+					"ring_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_prosperity": 16,
+					"energy_nectar": 12,
+					"ring_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"41.02%",
+						"41.02%",
+						"54.44%",
+						"31.48%+34.4%",
+						"66.99%",
+						"76.8%+86%",
+						"25",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"44.36%",
+						"44.36%",
+						"58.87%",
+						"34.04%+37.2%",
+						"72.45%",
+						"83.05%+93%",
+						"25",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"47.7%",
+						"47.7%",
+						"63.3%",
+						"36.6%+40%",
+						"77.9%",
+						"89.3%+100%",
+						"25",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"52.47%",
+						"52.47%",
+						"69.63%",
+						"40.26%+44%",
+						"85.69%",
+						"98.23%+110%",
+						"25",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"55.81%",
+						"55.81%",
+						"74.06%",
+						"42.82%+46.8%",
+						"91.14%",
+						"104.48%+117%",
+						"25",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"59.62%",
+						"59.62%",
+						"79.12%",
+						"45.75%+50%",
+						"97.37%",
+						"111.63%+125%",
+						"25",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"64.87%",
+						"64.87%",
+						"86.09%",
+						"49.78%+54.4%",
+						"105.94%",
+						"121.45%+136%",
+						"25",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"70.12%",
+						"70.12%",
+						"93.05%",
+						"53.8%+58.8%",
+						"114.51%",
+						"131.27%+147%",
+						"25",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"75.37%",
+						"75.37%",
+						"100.01%",
+						"57.83%+63.2%",
+						"123.08%",
+						"141.09%+158%",
+						"25",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"81.09%",
+						"81.09%",
+						"107.61%",
+						"62.22%+68%",
+						"132.43%",
+						"151.81%+170%",
+						"25",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"86.81%",
+						"86.81%",
+						"115.21%",
+						"66.61%+72.8%",
+						"141.78%",
+						"162.53%+182%",
+						"25",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"92.54%",
+						"92.54%",
+						"122.8%",
+						"71%+77.6%",
+						"151.13%",
+						"173.24%+194%",
+						"25",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"98.26%",
+						"98.26%",
+						"130.4%",
+						"75.4%+82.4%",
+						"160.47%",
+						"183.96%+206%",
+						"25",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"103.99%",
+						"103.99%",
+						"137.99%",
+						"79.79%+87.2%",
+						"169.82%",
+						"194.67%+218%",
+						"25",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"109.71%",
+						"109.71%",
+						"145.59%",
+						"84.18%+92%",
+						"179.17%",
+						"205.39%+230%",
+						"25",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2146753981,
+			"desc_hash": 990496552,
+			"charge_num": 1,
+			"name": "Stellar Restoration",
+			"desc": "Hurls a Lightning Stiletto that annihilates her opponents like the swift thunder.\\nWhen the Stiletto hits its target, it deals <color=#FFACFFFF>Electro DMG</color> to opponents in a small AoE, and places a Stiletto Mark on the spot hit.\\n\\n<color=#FFD780FF>Hold</color>\\nHold to adjust the direction in which the Stiletto shall be thrown.\\nStilettos thrown by the Hold attack mode can be suspended in mid-air, allowing Keqing to jump to them when using Stellar Restoration a second time.\\n\\n<color=#FFD780FF>Lightning Stiletto</color>\\n If Keqing uses Stellar Restoration again or uses a Charged Attack while its duration lasts, it will clear the Stiletto Mark and produce different effects:\\n\u00b7If she uses Stellar Restoration again, she will blink to the location of the Mark and unleash one slashing attack that deals <color=#FFACFFFF>AoE Electro DMG</color>. When blinking to a Stiletto that was thrown from a Holding attack, Keqing can leap across obstructing terrain.\\n\u00b7If Keqing uses a Charged Attack, she will ignite a series of thundering cuts at the Mark's location, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\n\\n<i>\"Humans are like moths, endlessly chasing the flame we call gods and adepti. But this light that I have here is my own.\"</i>",
+			"costs": [
+				{
+					"teachings_of_prosperity": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_prosperity": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_prosperity": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_prosperity": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_prosperity": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_prosperity": 4,
+					"energy_nectar": 4,
+					"ring_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_prosperity": 6,
+					"energy_nectar": 6,
+					"ring_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_prosperity": 12,
+					"energy_nectar": 9,
+					"ring_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_prosperity": 16,
+					"energy_nectar": 12,
+					"ring_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Lightning Stiletto DMG",
+					"Slashing DMG",
+					"Thunderclap Slash DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"50.4%",
+						"168%",
+						"84%\u00d72",
+						"7.5s"
+					],
+					[
+						"54.18%",
+						"180.6%",
+						"90.3%\u00d72",
+						"7.5s"
+					],
+					[
+						"57.96%",
+						"193.2%",
+						"96.6%\u00d72",
+						"7.5s"
+					],
+					[
+						"63%",
+						"210%",
+						"105%\u00d72",
+						"7.5s"
+					],
+					[
+						"66.78%",
+						"222.6%",
+						"111.3%\u00d72",
+						"7.5s"
+					],
+					[
+						"70.56%",
+						"235.2%",
+						"117.6%\u00d72",
+						"7.5s"
+					],
+					[
+						"75.6%",
+						"252%",
+						"126%\u00d72",
+						"7.5s"
+					],
+					[
+						"80.64%",
+						"268.8%",
+						"134.4%\u00d72",
+						"7.5s"
+					],
+					[
+						"85.68%",
+						"285.6%",
+						"142.8%\u00d72",
+						"7.5s"
+					],
+					[
+						"90.72%",
+						"302.4%",
+						"151.2%\u00d72",
+						"7.5s"
+					],
+					[
+						"95.76%",
+						"319.2%",
+						"159.6%\u00d72",
+						"7.5s"
+					],
+					[
+						"100.8%",
+						"336%",
+						"168%\u00d72",
+						"7.5s"
+					],
+					[
+						"107.1%",
+						"357%",
+						"178.5%\u00d72",
+						"7.5s"
+					],
+					[
+						"113.4%",
+						"378%",
+						"189%\u00d72",
+						"7.5s"
+					],
+					[
+						"119.7%",
+						"399%",
+						"199.5%\u00d72",
+						"7.5s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 535180037,
+			"desc_hash": 3277139448,
+			"charge_num": 1,
+			"name": "Starward Sword",
+			"desc": "Keqing unleashes the power of lightning, dealing <color=#FFACFFFF>Electro DMG</color> in an AOE.\\nShe then blends into the shadow of her blade, striking a series of thunderclap-blows to nearby opponents simultaneously that deal multiple instances of <color=#FFACFFFF>Electro DMG</color>. The final attack deals massive <color=#FFACFFFF>AoE Electro DMG</color>.\\n\\n<i>The swiftest technique in Keqing's personal arsenal is fast enough to bring stars crashing down.</i>",
+			"costs": [
+				{
+					"teachings_of_prosperity": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_prosperity": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_prosperity": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_prosperity": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_prosperity": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_prosperity": 4,
+					"energy_nectar": 4,
+					"ring_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_prosperity": 6,
+					"energy_nectar": 6,
+					"ring_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_prosperity": 12,
+					"energy_nectar": 9,
+					"ring_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_prosperity": 16,
+					"energy_nectar": 12,
+					"ring_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Consecutive Slash DMG",
+					"Last Attack DMG",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"88%",
+						"24%*8",
+						"188.8%",
+						"12s",
+						"40"
+					],
+					[
+						"94.6%",
+						"25.8%*8",
+						"202.96%",
+						"12s",
+						"40"
+					],
+					[
+						"101.2%",
+						"27.6%*8",
+						"217.12%",
+						"12s",
+						"40"
+					],
+					[
+						"110%",
+						"30%*8",
+						"236%",
+						"12s",
+						"40"
+					],
+					[
+						"116.6%",
+						"31.8%*8",
+						"250.16%",
+						"12s",
+						"40"
+					],
+					[
+						"123.2%",
+						"33.6%*8",
+						"264.32%",
+						"12s",
+						"40"
+					],
+					[
+						"132%",
+						"36%*8",
+						"283.2%",
+						"12s",
+						"40"
+					],
+					[
+						"140.8%",
+						"38.4%*8",
+						"302.08%",
+						"12s",
+						"40"
+					],
+					[
+						"149.6%",
+						"40.8%*8",
+						"320.96%",
+						"12s",
+						"40"
+					],
+					[
+						"158.4%",
+						"43.2%*8",
+						"339.84%",
+						"12s",
+						"40"
+					],
+					[
+						"167.2%",
+						"45.6%*8",
+						"358.72%",
+						"12s",
+						"40"
+					],
+					[
+						"176%",
+						"48%*8",
+						"377.6%",
+						"12s",
+						"40"
+					],
+					[
+						"187%",
+						"51%*8",
+						"401.2%",
+						"12s",
+						"40"
+					],
+					[
+						"198%",
+						"54%*8",
+						"424.8%",
+						"12s",
+						"40"
+					],
+					[
+						"209%",
+						"57%*8",
+						"448.4%",
+						"12s",
+						"40"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 3756056829,
+			"desc_hash": 269863707,
+			"ascension": 1,
+			"name": "Thundering Penance",
+			"desc": "After recasting <color=#FFD780FF>Stellar Restoration</color> while a Lightning Stiletto is present, Keqing's weapon gains an <color=#FFACFFFF>Electro Infusion</color> for 5s."
+		},
+		{
+			"name_hash": 389797077,
+			"desc_hash": 3833281507,
+			"ascension": 4,
+			"name": "Aristocratic Dignity",
+			"desc": "When casting <color=#FFD780FF>Starward Sword</color>, Keqing's CRIT Rate is increased by 15%, and her Energy Recharge is increased by 15%. This effect lasts for 8s."
+		},
+		{
+			"name_hash": 3655777485,
+			"desc_hash": 4104953003,
+			"ascension": null,
+			"name": "Land's Overseer",
+			"desc": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 3733936569,
+			"name": "Thundering Might",
+			"desc_hash": 2584168503,
+			"desc": "Recasting <color=#FFD780FF>Stellar Restoration</color> while a Lightning Stiletto is present causes Keqing to deal 50% of her ATK as <color=#FFACFFFF>AoE Electro DMG</color> at the start point and terminus of her Blink."
+		},
+		{
+			"name_hash": 1003272937,
+			"name": "Keen Extraction",
+			"desc_hash": 2875204959,
+			"desc": "When Keqing's Normal and Charged Attacks hit opponents affected by <color=#FFACFFFF>Electro</color>, they have a 50% chance of producing an Elemental Particle.\\nThis effect can only occur once every 5s."
+		},
+		{
+			"name_hash": 1005679025,
+			"name": "Foreseen Reformation",
+			"desc_hash": 1530917495,
+			"desc": "Increases the Level of <color=#FFD780FF>Starward Sword</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2598965033,
+			"name": "Attunement",
+			"desc_hash": 2256041831,
+			"desc": "For 10s after Keqing triggers an <color=#FFACFFFF>Electro-related Elemental Reaction</color>, her ATK is increased by 25%."
+		},
+		{
+			"name_hash": 1939891865,
+			"name": "Beckoning Stars",
+			"desc_hash": 1494899271,
+			"desc": "Increases the Level of <color=#FFD780FF>Stellar Restoration</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 547902305,
+			"name": "Tenacious Star",
+			"desc_hash": 1142266335,
+			"desc": "When initiating a Normal Attack, a Charged Attack, Elemental Skill or Elemental Burst, Keqing gains a 6% <color=#FFACFFFF>Electro DMG Bonus</color> for 8s.\\nEffects triggered by Normal Attacks, Charged Attacks, Elemental Skills and Elemental Bursts are considered independent entities."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 3714413314,
+			"desc_hash": 1992333442,
+			"restricted": false,
+			"name": "Piercing Thunderbolt",
+			"desc": "Keqing's outfit. A formidable-looking dress made using luxurious materials."
+		},
+		"alt": [
+			{
+				"hoyo_id": 340003,
+				"name_hash": 1613857666,
+				"desc_hash": 1532026282,
+				"restricted": false,
+				"name": "Opulent Splendor",
+				"desc": "Keqing's formal wear. Amidst the beautiful dawn of the Lantern Rite, the threads weaved by days of hard work intertwine into a light yet magnificent appearance."
+			}
+		]
+	},
+	"special_dish": {
+		"hoyo_id": 108145,
+		"name_hash": 820875300,
+		"desc_hash": 2281905661,
+		"type_hash": 3323128950,
+		"rarity": 1,
+		"name": "Survival Grilled Fish",
+		"desc": "Keqing's specialty. This dish was not grilled. Instead, it was fried from within through the delicate application of Electro. A gentle bite reveals fragrant fish under the lightly charred skin, its taste perfectly balanced. So, is this how she survives in the wild? You really can't judge a book by its cover.",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 3893641207,
+		"effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
+		"original_recipe": "grilled_tiger_fish"
+	}
+}

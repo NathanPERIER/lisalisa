@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15508,
+	"promote_id": 15508,
+	"gadget_id": 50015508,
+	"story_id": [
+		195508
+	],
+	"skill_affix": [
+		115508,
+		0
+	],
+	"type": "bow",
+	"name_hash": 4230231107,
+	"desc_hash": 954648749,
+	"name": "Aqua Simulacra",
+	"desc": "This longbow's color is unpredictable. Under the light, it takes on a lustrous, watery blue.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 44.33580017089844,
+		"Crit DMG%": 0.19200000166893005
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_304",
+		"Crit DMG%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"luminous_sands_from_guyun": 5,
+				"gloomy_statuette": 5,
+				"spectral_husk": 3,
+				"mora": 10000
+			},
+			{
+				"lustrous_stone_from_guyun": 5,
+				"gloomy_statuette": 18,
+				"spectral_husk": 12,
+				"mora": 20000
+			},
+			{
+				"lustrous_stone_from_guyun": 9,
+				"dark_statuette": 9,
+				"spectral_heart": 9,
+				"mora": 30000
+			},
+			{
+				"relic_from_guyun": 5,
+				"dark_statuette": 18,
+				"spectral_heart": 14,
+				"mora": 45000
+			},
+			{
+				"relic_from_guyun": 9,
+				"deathly_statuette": 14,
+				"spectral_nucleus": 9,
+				"mora": 55000
+			},
+			{
+				"divine_body_from_guyun": 6,
+				"deathly_statuette": 27,
+				"spectral_nucleus": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 665618219,
+		"name": "The Cleansing Form",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1155080,
+				"desc_hash": 2574022001,
+				"desc": "HP is increased by <color=#99FFFFFF>16%</color>. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by <color=#99FFFFFF>20%</color>. This will take effect whether the character is on-field or not.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1155081,
+				"desc_hash": 2860268457,
+				"desc": "HP is increased by <color=#99FFFFFF>20%</color>. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by <color=#99FFFFFF>25%</color>. This will take effect whether the character is on-field or not.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1155082,
+				"desc_hash": 4062998585,
+				"desc": "HP is increased by <color=#99FFFFFF>24%</color>. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by <color=#99FFFFFF>30%</color>. This will take effect whether the character is on-field or not.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1155083,
+				"desc_hash": 2433578777,
+				"desc": "HP is increased by <color=#99FFFFFF>28%</color>. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by <color=#99FFFFFF>35%</color>. This will take effect whether the character is on-field or not.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1155084,
+				"desc_hash": 4260110017,
+				"desc": "HP is increased by <color=#99FFFFFF>32%</color>. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by <color=#99FFFFFF>40%</color>. This will take effect whether the character is on-field or not.",
+				"cost": 16000
+			}
+		]
+	}
+}

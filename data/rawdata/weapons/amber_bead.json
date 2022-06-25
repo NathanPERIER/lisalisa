@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 14306,
+	"promote_id": 14306,
+	"gadget_id": 50014306,
+	"story_id": [
+		194306
+	],
+	"skill_affix": [
+		114306,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 302691299,
+	"desc_hash": 3867432845,
+	"name": "Amber Bead",
+	"desc": "A catalyst carved out of amber that gains a warm halo under the sun.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 38.74129867553711,
+		"Elemental Mastery": 30.600000381469727
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"grain_of_aerosiderite": 2,
+				"fragile_bone_shard": 2,
+				"whopperflower_nectar": 1,
+				"mora": 5000
+			},
+			{
+				"piece_of_aerosiderite": 2,
+				"fragile_bone_shard": 8,
+				"whopperflower_nectar": 5,
+				"mora": 10000
+			},
+			{
+				"piece_of_aerosiderite": 4,
+				"sturdy_bone_shard": 4,
+				"shimmering_nectar": 4,
+				"mora": 15000
+			},
+			{
+				"bit_of_aerosiderite": 2,
+				"sturdy_bone_shard": 8,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"bit_of_aerosiderite": 4,
+				"fossilized_bone_shard": 6,
+				"energy_nectar": 4,
+				"mora": 25000
+			},
+			{
+				"chunk_of_aerosiderite": 3,
+				"fossilized_bone_shard": 12,
+				"energy_nectar": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1944681203,
+		"name": "Elemental Mastery",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1143060,
+				"desc_hash": 2949139721,
+				"desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>6%</color> for 6s. Max 2 stacks.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1143061,
+				"desc_hash": 902954657,
+				"desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>7.5%</color> for 6s. Max 2 stacks.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1143062,
+				"desc_hash": 4062007553,
+				"desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>9%</color> for 6s. Max 2 stacks.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1143063,
+				"desc_hash": 3669605993,
+				"desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>10.5%</color> for 6s. Max 2 stacks.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1143064,
+				"desc_hash": 243001,
+				"desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>12%</color> for 6s. Max 2 stacks.",
+				"cost": 4000
+			}
+		]
+	}
+}

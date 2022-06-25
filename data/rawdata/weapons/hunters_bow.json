@@ -1,0 +1,94 @@
+{
+	"hoyo_id": 15101,
+	"promote_id": 15101,
+	"gadget_id": 50015101,
+	"story_id": [
+		195101
+	],
+	"skill_affix": [
+		0,
+		0
+	],
+	"type": "bow",
+	"name_hash": 3600623979,
+	"desc_hash": 2408955477,
+	"name": "Hunter's Bow",
+	"desc": "A hunter's music consists of but two sounds: the twang of the bowstring and the whoosh of soaring arrows.",
+	"rarity": 1,
+	"base_stats": {
+		"Base ATK": 23.2450008392334
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"boreal_wolfs_milk_tooth": 1,
+				"dead_ley_line_branch": 1,
+				"treasure_hoarder_insignia": 1
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 1,
+				"dead_ley_line_branch": 4,
+				"treasure_hoarder_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 2,
+				"dead_ley_line_leaves": 2,
+				"silver_raven_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_broken_fang": 1,
+				"dead_ley_line_leaves": 4,
+				"silver_raven_insignia": 3,
+				"mora": 10000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 11.699999809265137,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 23.299999237060547,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 35.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 46.70000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			}
+		]
+	},
+	"abilities": null
+}

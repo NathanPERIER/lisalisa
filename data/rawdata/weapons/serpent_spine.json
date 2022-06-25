@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12409,
+	"promote_id": 12409,
+	"gadget_id": 50012409,
+	"story_id": [
+		192409
+	],
+	"skill_affix": [
+		112409,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 1437658243,
+	"desc_hash": 4199357237,
+	"name": "Serpent Spine",
+	"desc": "A rare weapon whose origin is the ancient ocean. One can hear the sound of the ageless waves as one swings it.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"Crit Rate%": 0.05999999865889549
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"Crit Rate%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"grain_of_aerosiderite": 3,
+				"fragile_bone_shard": 3,
+				"whopperflower_nectar": 2,
+				"mora": 5000
+			},
+			{
+				"piece_of_aerosiderite": 3,
+				"fragile_bone_shard": 12,
+				"whopperflower_nectar": 8,
+				"mora": 15000
+			},
+			{
+				"piece_of_aerosiderite": 6,
+				"sturdy_bone_shard": 6,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"bit_of_aerosiderite": 3,
+				"sturdy_bone_shard": 12,
+				"shimmering_nectar": 9,
+				"mora": 30000
+			},
+			{
+				"bit_of_aerosiderite": 6,
+				"fossilized_bone_shard": 9,
+				"energy_nectar": 6,
+				"mora": 35000
+			},
+			{
+				"chunk_of_aerosiderite": 4,
+				"fossilized_bone_shard": 18,
+				"energy_nectar": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2504503675,
+		"name": "Wavesplitter",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1124090,
+				"desc_hash": 3670994657,
+				"desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>6%</color> more DMG and take <color=#99FFFFFF>3%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1124091,
+				"desc_hash": 38478873,
+				"desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>7%</color> more DMG and take <color=#99FFFFFF>2.7%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1124092,
+				"desc_hash": 663761017,
+				"desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>8%</color> more DMG and take <color=#99FFFFFF>2.4%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1124093,
+				"desc_hash": 432294409,
+				"desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>9%</color> more DMG and take <color=#99FFFFFF>2.2%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1124094,
+				"desc_hash": 3300288489,
+				"desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>10%</color> more DMG and take <color=#99FFFFFF>2%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+				"cost": 8000
+			}
+		]
+	}
+}

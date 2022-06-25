@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12502,
+	"promote_id": 12502,
+	"gadget_id": 50012502,
+	"story_id": [
+		192502
+	],
+	"skill_affix": [
+		112502,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 3995710363,
+	"desc_hash": 401408237,
+	"name": "Wolf's Gravestone",
+	"desc": "A longsword used by the Wolf Knight. Originally just a heavy sheet of iron given to the knight by a blacksmith from the city, it became endowed with legendary power owing to his friendship with the wolves.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 45.9364013671875,
+		"ATK%": 0.1080000028014183
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_301",
+		"ATK%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 5,
+				"chaos_device": 5,
+				"divining_scroll": 3,
+				"mora": 10000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 5,
+				"chaos_device": 18,
+				"divining_scroll": 12,
+				"mora": 20000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 9,
+				"chaos_circuit": 9,
+				"sealed_scroll": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 5,
+				"chaos_circuit": 18,
+				"sealed_scroll": 14,
+				"mora": 45000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 9,
+				"chaos_core": 14,
+				"forbidden_curse_scroll": 9,
+				"mora": 55000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 6,
+				"chaos_core": 27,
+				"forbidden_curse_scroll": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2660534475,
+		"name": "Wolfish Tracker",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1125020,
+				"desc_hash": 375174089,
+				"desc": "Increases ATK by <color=#99FFFFFF>20%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>40%</color> for 12s. Can only occur once every 30s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1125021,
+				"desc_hash": 2580155881,
+				"desc": "Increases ATK by <color=#99FFFFFF>25%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>50%</color> for 12s. Can only occur once every 30s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1125022,
+				"desc_hash": 706750905,
+				"desc": "Increases ATK by <color=#99FFFFFF>30%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>60%</color> for 12s. Can only occur once every 30s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1125023,
+				"desc_hash": 1829653905,
+				"desc": "Increases ATK by <color=#99FFFFFF>35%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>70%</color> for 12s. Can only occur once every 30s.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1125024,
+				"desc_hash": 693041753,
+				"desc": "Increases ATK by <color=#99FFFFFF>40%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>80%</color> for 12s. Can only occur once every 30s.",
+				"cost": 16000
+			}
+		]
+	}
+}

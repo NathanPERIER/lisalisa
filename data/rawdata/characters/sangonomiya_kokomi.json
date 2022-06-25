@@ -1,0 +1,830 @@
+{
+	"hoyo_id": 10000054,
+	"promote_id": 54,
+	"skill_depot_id": 5401,
+	"fetter_id": 140,
+	"weapon": "catalyst",
+	"name_hash": 3914045794,
+	"desc_hash": 505027577,
+	"name": "Sangonomiya Kokomi",
+	"desc": "The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": [
+		22,
+		2
+	],
+	"region": "inazuma",
+	"vision_hash": [
+		1688473500,
+		532522121
+	],
+	"astrolabe_hash": [
+		1752197778,
+		718604491
+	],
+	"allegiance_hash": 683437921,
+	"vision": "hydro",
+	"astrolabe": "Dracaena Somnolenta",
+	"allegiance": "Watatsumi Island",
+	"default_weapon": "apprentices_notes",
+	"base_stats": {
+		"Base HP": 1048.6519775390625,
+		"Base ATK": 18.247600555419922,
+		"Base DEF": 51.1546516418457,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"varunada_lazurite_sliver": 1,
+				"sango_pearl": 3,
+				"spectral_husk": 3,
+				"mora": 20000
+			},
+			{
+				"varunada_lazurite_fragment": 3,
+				"dew_of_repudiation": 2,
+				"sango_pearl": 10,
+				"spectral_husk": 15,
+				"mora": 40000
+			},
+			{
+				"varunada_lazurite_fragment": 6,
+				"dew_of_repudiation": 4,
+				"sango_pearl": 20,
+				"spectral_heart": 12,
+				"mora": 60000
+			},
+			{
+				"varunada_lazurite_chunk": 3,
+				"dew_of_repudiation": 8,
+				"sango_pearl": 30,
+				"spectral_heart": 18,
+				"mora": 80000
+			},
+			{
+				"varunada_lazurite_chunk": 6,
+				"dew_of_repudiation": 12,
+				"sango_pearl": 45,
+				"spectral_nucleus": 12,
+				"mora": 100000
+			},
+			{
+				"varunada_lazurite_gemstone": 6,
+				"dew_of_repudiation": 20,
+				"sango_pearl": 60,
+				"spectral_nucleus": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 899.124267578125,
+					"Base DEF": 43.86149978637695,
+					"Base ATK": 15.644523620605469,
+					"Hydro DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1537.9757080078125,
+					"Base DEF": 75.02625274658203,
+					"Base ATK": 26.7603702545166,
+					"Hydro DMG%": 0.07199999690055847
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2389.777587890625,
+					"Base DEF": 116.5792465209961,
+					"Base ATK": 41.58149719238281,
+					"Hydro DMG%": 0.14399999380111694
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 3028.629150390625,
+					"Base DEF": 147.74400329589844,
+					"Base ATK": 52.69734573364258,
+					"Hydro DMG%": 0.14399999380111694
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 3667.48046875,
+					"Base DEF": 178.90875244140625,
+					"Base ATK": 63.81319046020508,
+					"Hydro DMG%": 0.2160000056028366
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 4306.33203125,
+					"Base DEF": 210.07350158691406,
+					"Base ATK": 74.92903900146484,
+					"Hydro DMG%": 0.2879999876022339
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 3150512989,
+			"desc_hash": 3761647400,
+			"charge_num": 1,
+			"name": "Normal Attack: The Shape of Water",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 3 consecutive attacks that take the form of swimming fish, dealing <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Hydro, Kokomi plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+			"costs": [
+				{
+					"teachings_of_transience": 3,
+					"spectral_husk": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_transience": 2,
+					"spectral_heart": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_transience": 4,
+					"spectral_heart": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_transience": 6,
+					"spectral_heart": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_transience": 9,
+					"spectral_heart": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_transience": 4,
+					"spectral_nucleus": 4,
+					"hellfire_butterfly": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_transience": 6,
+					"spectral_nucleus": 6,
+					"hellfire_butterfly": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_transience": 12,
+					"spectral_nucleus": 9,
+					"hellfire_butterfly": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_transience": 16,
+					"spectral_nucleus": 12,
+					"hellfire_butterfly": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"68.38%",
+						"61.54%",
+						"94.31%",
+						"148.32%",
+						"50",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"73.5%",
+						"66.15%",
+						"101.38%",
+						"159.44%",
+						"50",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"78.63%",
+						"70.77%",
+						"108.45%",
+						"170.57%",
+						"50",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"85.47%",
+						"76.92%",
+						"117.88%",
+						"185.4%",
+						"50",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"90.6%",
+						"81.54%",
+						"124.95%",
+						"196.52%",
+						"50",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"95.73%",
+						"86.15%",
+						"132.03%",
+						"207.65%",
+						"50",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"102.56%",
+						"92.31%",
+						"141.46%",
+						"222.48%",
+						"50",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"109.4%",
+						"98.46%",
+						"150.89%",
+						"237.31%",
+						"50",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"116.24%",
+						"104.62%",
+						"160.32%",
+						"252.14%",
+						"50",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"123.08%",
+						"110.77%",
+						"169.75%",
+						"266.98%",
+						"50",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"129.91%",
+						"116.92%",
+						"179.18%",
+						"281.81%",
+						"50",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"136.75%",
+						"123.08%",
+						"188.61%",
+						"296.64%",
+						"50",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"145.3%",
+						"130.77%",
+						"200.4%",
+						"315.18%",
+						"50",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"153.85%",
+						"138.46%",
+						"212.19%",
+						"333.72%",
+						"50",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"162.39%",
+						"146.15%",
+						"223.98%",
+						"352.26%",
+						"50",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 369441117,
+			"desc_hash": 1340059768,
+			"charge_num": 1,
+			"name": "Kurage's Oath",
+			"desc": "Summons a \"Bake-Kurage\" created from water that can heal her allies.\\nUsing this skill will apply the <color=#80C0FFFF>Wet</color> status to Sangonomiya Kokomi.\\n\\n<color=#FFD780FF>Bake-Kurage</color>\\nDeals <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents and heals nearby active characters at fixed intervals. This healing is based on Kokomi's Max HP.\\n\\n<i>Kokomi needs timely \"refreshment\" in order to maintain optimal work efficiency</i>.",
+			"costs": [
+				{
+					"teachings_of_transience": 3,
+					"spectral_husk": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_transience": 2,
+					"spectral_heart": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_transience": 4,
+					"spectral_heart": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_transience": 6,
+					"spectral_heart": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_transience": 9,
+					"spectral_heart": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_transience": 4,
+					"spectral_nucleus": 4,
+					"hellfire_butterfly": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_transience": 6,
+					"spectral_nucleus": 6,
+					"hellfire_butterfly": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_transience": 12,
+					"spectral_nucleus": 9,
+					"hellfire_butterfly": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_transience": 16,
+					"spectral_nucleus": 12,
+					"hellfire_butterfly": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Regeneration",
+					"Ripple DMG",
+					"Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"4.4% Max HP+423",
+						"109.19%",
+						"12s",
+						"20s"
+					],
+					[
+						"4.73% Max HP+466",
+						"117.38%",
+						"12s",
+						"20s"
+					],
+					[
+						"5.06% Max HP+511",
+						"125.57%",
+						"12s",
+						"20s"
+					],
+					[
+						"5.5% Max HP+561",
+						"136.49%",
+						"12s",
+						"20s"
+					],
+					[
+						"5.83% Max HP+614",
+						"144.68%",
+						"12s",
+						"20s"
+					],
+					[
+						"6.16% Max HP+670",
+						"152.87%",
+						"12s",
+						"20s"
+					],
+					[
+						"6.6% Max HP+730",
+						"163.79%",
+						"12s",
+						"20s"
+					],
+					[
+						"7.04% Max HP+794",
+						"174.7%",
+						"12s",
+						"20s"
+					],
+					[
+						"7.48% Max HP+861",
+						"185.62%",
+						"12s",
+						"20s"
+					],
+					[
+						"7.92% Max HP+932",
+						"196.54%",
+						"12s",
+						"20s"
+					],
+					[
+						"8.36% Max HP+1006",
+						"207.46%",
+						"12s",
+						"20s"
+					],
+					[
+						"8.8% Max HP+1084",
+						"218.38%",
+						"12s",
+						"20s"
+					],
+					[
+						"9.35% Max HP+1165",
+						"232.03%",
+						"12s",
+						"20s"
+					],
+					[
+						"9.9% Max HP+1250",
+						"245.68%",
+						"12s",
+						"20s"
+					],
+					[
+						"10.45% Max HP+1338",
+						"259.33%",
+						"12s",
+						"20s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 2835602565,
+			"desc_hash": 2542344080,
+			"charge_num": 1,
+			"name": "Nereid's Ascension",
+			"desc": "Summons the might of Watatsumi, dealing <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents, before robing Kokomi in a Ceremonial Garment made from the flowing waters of Sangonomiya.\\n\\n<color=#FFD780FF>Ceremonial Garment</color>\\n\u00b7Sangonomiya Kokomi's Normal Attack, Charged Attack and Bake-Kurage DMG are increased based on her Max HP.\\n\u00b7When her Normal and Charged Attacks hit opponents, Kokomi will restore HP for all nearby party members, and the amount restored is based on her Max HP.\\n\u00b7Increases Sangonomiya Kokomi's resistance to interruption and allows her to walk on the water's surface.\\n\\nThese effects will be cleared once Sangonomiya Kokomi leaves the field.\\n\\n<i>Clear light coalesces into robes around Her Excellency, Sangonomiya Kokomi, reflecting her magnificent form.</i>",
+			"costs": [
+				{
+					"teachings_of_transience": 3,
+					"spectral_husk": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_transience": 2,
+					"spectral_heart": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_transience": 4,
+					"spectral_heart": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_transience": 6,
+					"spectral_heart": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_transience": 9,
+					"spectral_heart": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_transience": 4,
+					"spectral_nucleus": 4,
+					"hellfire_butterfly": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_transience": 6,
+					"spectral_nucleus": 6,
+					"hellfire_butterfly": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_transience": 12,
+					"spectral_nucleus": 9,
+					"hellfire_butterfly": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_transience": 16,
+					"spectral_nucleus": 12,
+					"hellfire_butterfly": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Normal Attack DMG Bonus",
+					"Charged Attack DMG Bonus",
+					"Bake-Kurage DMG Bonus",
+					"HP Regeneration Per Hit",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"10.42% Max HP",
+						"4.84% Max HP",
+						"6.78% Max HP",
+						"7.1% Max HP",
+						"0.81% Max HP+77",
+						"10s",
+						"18s",
+						"70"
+					],
+					[
+						"11.2% Max HP",
+						"5.2% Max HP",
+						"7.28% Max HP",
+						"7.63% Max HP",
+						"0.87% Max HP+84",
+						"10s",
+						"18s",
+						"70"
+					],
+					[
+						"11.98% Max HP",
+						"5.57% Max HP",
+						"7.79% Max HP",
+						"8.16% Max HP",
+						"0.93% Max HP+93",
+						"10s",
+						"18s",
+						"70"
+					],
+					[
+						"13.02% Max HP",
+						"6.05% Max HP",
+						"8.47% Max HP",
+						"8.87% Max HP",
+						"1.01% Max HP+102",
+						"10s",
+						"18s",
+						"70"
+					],
+					[
+						"13.8% Max HP",
+						"6.41% Max HP",
+						"8.98% Max HP",
+						"9.4% Max HP",
+						"1.07% Max HP+111",
+						"10s",
+						"18s",
+						"70"
+					],
+					[
+						"14.58% Max HP",
+						"6.78% Max HP",
+						"9.49% Max HP",
+						"9.93% Max HP",
+						"1.13% Max HP+121",
+						"10s",
+						"18s",
+						"70"
+					],
+					[
+						"15.62% Max HP",
+						"7.26% Max HP",
+						"10.16% Max HP",
+						"10.64% Max HP",
+						"1.21% Max HP+132",
+						"10s",
+						"18s",
+						"70"
+					],
+					[
+						"16.67% Max HP",
+						"7.74% Max HP",
+						"10.84% Max HP",
+						"11.35% Max HP",
+						"1.29% Max HP+144",
+						"10s",
+						"18s",
+						"70"
+					],
+					[
+						"17.71% Max HP",
+						"8.23% Max HP",
+						"11.52% Max HP",
+						"12.06% Max HP",
+						"1.37% Max HP+156",
+						"10s",
+						"18s",
+						"70"
+					],
+					[
+						"18.75% Max HP",
+						"8.71% Max HP",
+						"12.2% Max HP",
+						"12.77% Max HP",
+						"1.45% Max HP+169",
+						"10s",
+						"18s",
+						"70"
+					],
+					[
+						"19.79% Max HP",
+						"9.2% Max HP",
+						"12.87% Max HP",
+						"13.48% Max HP",
+						"1.54% Max HP+182",
+						"10s",
+						"18s",
+						"70"
+					],
+					[
+						"20.83% Max HP",
+						"9.68% Max HP",
+						"13.55% Max HP",
+						"14.19% Max HP",
+						"1.62% Max HP+197",
+						"10s",
+						"18s",
+						"70"
+					],
+					[
+						"22.13% Max HP",
+						"10.28% Max HP",
+						"14.4% Max HP",
+						"15.08% Max HP",
+						"1.72% Max HP+211",
+						"10s",
+						"18s",
+						"70"
+					],
+					[
+						"23.44% Max HP",
+						"10.89% Max HP",
+						"15.25% Max HP",
+						"15.97% Max HP",
+						"1.82% Max HP+227",
+						"10s",
+						"18s",
+						"70"
+					],
+					[
+						"24.74% Max HP",
+						"11.5% Max HP",
+						"16.09% Max HP",
+						"16.85% Max HP",
+						"1.92% Max HP+243",
+						"10s",
+						"18s",
+						"70"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 867237797,
+			"desc_hash": 2444155491,
+			"ascension": 1,
+			"name": "Tamanooya's Casket",
+			"desc": "If Sangonomiya Kokomi's own Bake-Kurage is on the field when she uses <color=#FFD780FF>Nereid's Ascension</color>, the Bake-Kurage's duration will be refreshed."
+		},
+		{
+			"name_hash": 165346429,
+			"desc_hash": 460145995,
+			"ascension": 4,
+			"name": "Song of Pearls",
+			"desc": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, the Normal and Charged Attack DMG Bonus Sangonomiya Kokomi gains based on her Max HP will receive a further increase based on 15% of her Healing Bonus."
+		},
+		{
+			"name_hash": 2492336389,
+			"desc_hash": 2540173555,
+			"ascension": null,
+			"name": "Princess of Watatsumi",
+			"desc": "Decreases swimming Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+		},
+		{
+			"name_hash": 1396546717,
+			"desc_hash": 1376470603,
+			"ascension": null,
+			"name": "Flawless Strategy",
+			"desc": "Sangonomiya Kokomi has a 25% Healing Bonus, but a 100% decrease in CRIT Rate."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 693089601,
+			"name": "At Water's Edge",
+			"desc_hash": 448795879,
+			"desc": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, the final Normal Attack in Sangonomiya Kokomi's combo will unleash a swimming fish to deal 30% of her Max HP as <color=#80C0FFFF>Hydro DMG</color>.\\nThis DMG is not considered Normal Attack DMG."
+		},
+		{
+			"name_hash": 3826006561,
+			"name": "The Clouds Like Waves Rippling",
+			"desc_hash": 2419325143,
+			"desc": "Sangonomiya Kokomi gains the following Healing Bonuses with regard to characters with 50% or less HP via the following methods:\\n\u00b7<color=#FFD780FF>Kurage's Oath</color> Bake-Kurage: 4.5% of Kokomi's Max HP.\\n\u00b7<color=#FFD780FF>Nereid's Ascension</color> Normal and Charged Attacks: 0.6% of Kokomi's Max HP."
+		},
+		{
+			"name_hash": 2416690001,
+			"name": "The Moon, A Ship O'er the Seas",
+			"desc_hash": 3060614847,
+			"desc": "Increases the Level of <color=#FFD780FF>Nereid's Ascension</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 1493731113,
+			"name": "The Moon Overlooks the Waters",
+			"desc_hash": 387385127,
+			"desc": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, Sangonomiya Kokomi's Normal Attack SPD is increased by 10%, and Normal Attacks that hit opponents will restore 0.8 Energy for her.\\nThis effect can occur once every 0.2s."
+		},
+		{
+			"name_hash": 2584265937,
+			"name": "All Streams Flow to the Sea",
+			"desc_hash": 421479455,
+			"desc": "Increases the Level of <color=#FFD780FF>Kurage's Oath</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 652576049,
+			"name": "Sango Isshin",
+			"desc_hash": 2604721911,
+			"desc": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, Sangonomiya Kokomi gains a 40% <color=#80C0FFFF>Hydro DMG Bonus</color> for 4s when her Normal and Charged Attacks heal, or would heal, any party member with 80% or more HP."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 2786415650,
+			"desc_hash": 3173668642,
+			"restricted": false,
+			"name": "Sparkling Coralbone",
+			"desc": "Sangonomiya Kokomi's outfit. A noble's dress decorated with little precious objects produced in Watatsumi Island."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108340,
+		"name_hash": 515518900,
+		"desc_hash": 29016861,
+		"type_hash": 1714564278,
+		"rarity": 1,
+		"name": "A Stunning Stratagem",
+		"desc": "Sangonomiya Kokomi's specialty. The egg is wrapped up almost like a package, and the fish tail at the end is both small and very cute. It really makes you wonder what's inside the package, but at the same time, you can't bear to eat such a beautiful-looking thing... You glance at the crystal-clear smile in Kokomi's eyes. Ah, darn it, you've fallen for her trick, haven't you?",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 476498903,
+		"effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
+		"original_recipe": "bird_egg_sushi"
+	}
+}

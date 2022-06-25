@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13301,
+	"promote_id": 13301,
+	"gadget_id": 50013301,
+	"story_id": [
+		193301
+	],
+	"skill_affix": [
+		113301,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 1390797107,
+	"desc_hash": 3496480741,
+	"name": "White Tassel",
+	"desc": "A standard-issue weapon of the Millelith soldiers. It has a sturdy shaft and sharp spearhead. It's a reliable weapon.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 38.74129867553711,
+		"Crit Rate%": 0.050999999046325684
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101",
+		"Crit Rate%": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"luminous_sands_from_guyun": 2,
+				"hunters_sacrificial_knife": 2,
+				"recruits_insignia": 1,
+				"mora": 5000
+			},
+			{
+				"lustrous_stone_from_guyun": 2,
+				"hunters_sacrificial_knife": 8,
+				"recruits_insignia": 5,
+				"mora": 10000
+			},
+			{
+				"lustrous_stone_from_guyun": 4,
+				"agents_sacrificial_knife": 4,
+				"sergeants_insignia": 4,
+				"mora": 15000
+			},
+			{
+				"relic_from_guyun": 2,
+				"agents_sacrificial_knife": 8,
+				"sergeants_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"relic_from_guyun": 4,
+				"inspectors_sacrificial_knife": 6,
+				"lieutenants_insignia": 4,
+				"mora": 25000
+			},
+			{
+				"divine_body_from_guyun": 3,
+				"inspectors_sacrificial_knife": 12,
+				"lieutenants_insignia": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 4054406475,
+		"name": "Sharp",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1133010,
+				"desc_hash": 419764609,
+				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>24%</color>.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1133011,
+				"desc_hash": 2847269313,
+				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>30%</color>.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1133012,
+				"desc_hash": 2856889985,
+				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>36%</color>.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1133013,
+				"desc_hash": 3378916585,
+				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>42%</color>.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1133014,
+				"desc_hash": 2426268353,
+				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>48%</color>.",
+				"cost": 4000
+			}
+		]
+	}
+}

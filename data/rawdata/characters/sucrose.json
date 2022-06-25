@@ -1,0 +1,759 @@
+{
+	"hoyo_id": 10000043,
+	"promote_id": 43,
+	"skill_depot_id": 4301,
+	"fetter_id": 130,
+	"weapon": "catalyst",
+	"name_hash": 1053433018,
+	"desc_hash": 4249311673,
+	"name": "Sucrose",
+	"desc": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": [
+		26,
+		11
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		126875444,
+		519928233
+	],
+	"astrolabe_hash": [
+		4244741386,
+		3571098147
+	],
+	"allegiance_hash": 2186025825,
+	"vision": "anemo",
+	"astrolabe": "Ampulla",
+	"allegiance": "Knights of Favonius",
+	"default_weapon": "apprentices_notes",
+	"base_stats": {
+		"Base HP": 775.0223388671875,
+		"Base ATK": 14.246399879455566,
+		"Base DEF": 58.941749572753906,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"vayuda_turquoise_sliver": 1,
+				"windwheel_aster": 3,
+				"whopperflower_nectar": 3,
+				"mora": 20000
+			},
+			{
+				"vayuda_turquoise_fragment": 3,
+				"hurricane_seed": 2,
+				"windwheel_aster": 10,
+				"whopperflower_nectar": 15,
+				"mora": 40000
+			},
+			{
+				"vayuda_turquoise_fragment": 6,
+				"hurricane_seed": 4,
+				"windwheel_aster": 20,
+				"shimmering_nectar": 12,
+				"mora": 60000
+			},
+			{
+				"vayuda_turquoise_chunk": 3,
+				"hurricane_seed": 8,
+				"windwheel_aster": 30,
+				"shimmering_nectar": 18,
+				"mora": 80000
+			},
+			{
+				"vayuda_turquoise_chunk": 6,
+				"hurricane_seed": 12,
+				"windwheel_aster": 45,
+				"energy_nectar": 12,
+				"mora": 100000
+			},
+			{
+				"vayuda_turquoise_gemstone": 6,
+				"hurricane_seed": 20,
+				"windwheel_aster": 60,
+				"energy_nectar": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 578.9813842773438,
+					"Base DEF": 44.032501220703125,
+					"Base ATK": 10.64303970336914,
+					"Anemo DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 990.3628540039062,
+					"Base DEF": 75.3187484741211,
+					"Base ATK": 18.2052001953125,
+					"Anemo DMG%": 0.05999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1538.87158203125,
+					"Base DEF": 117.03375244140625,
+					"Base ATK": 28.2880802154541,
+					"Anemo DMG%": 0.11999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 1950.2530517578125,
+					"Base DEF": 148.32000732421875,
+					"Base ATK": 35.85023880004883,
+					"Anemo DMG%": 0.11999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2361.634521484375,
+					"Base DEF": 179.6062469482422,
+					"Base ATK": 43.41239929199219,
+					"Anemo DMG%": 0.18000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 2773.01611328125,
+					"Base DEF": 210.8925018310547,
+					"Base ATK": 50.97455978393555,
+					"Anemo DMG%": 0.23999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 3941337549,
+			"desc_hash": 897873448,
+			"charge_num": 1,
+			"name": "Normal Attack: Wind Spirit Creation",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 attacks using Wind Spirits, dealing <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina and deals <color=#80FFD7FF>AoE Anemo DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nCalling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80FFD7FF>AoE Anemo DMG</color> upon impact with the ground.",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"energy_nectar": 4,
+					"spirit_locket_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"energy_nectar": 6,
+					"spirit_locket_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"energy_nectar": 9,
+					"spirit_locket_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"energy_nectar": 12,
+					"spirit_locket_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"33.46%",
+						"30.62%",
+						"38.45%",
+						"47.92%",
+						"120.16%",
+						"50",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"35.97%",
+						"32.91%",
+						"41.33%",
+						"51.51%",
+						"129.17%",
+						"50",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"38.48%",
+						"35.21%",
+						"44.22%",
+						"55.11%",
+						"138.18%",
+						"50",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"41.83%",
+						"38.27%",
+						"48.06%",
+						"59.9%",
+						"150.2%",
+						"50",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"44.34%",
+						"40.57%",
+						"50.94%",
+						"63.49%",
+						"159.21%",
+						"50",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"46.85%",
+						"42.86%",
+						"53.83%",
+						"67.08%",
+						"168.22%",
+						"50",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"50.2%",
+						"45.92%",
+						"57.67%",
+						"71.88%",
+						"180.24%",
+						"50",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"53.54%",
+						"48.99%",
+						"61.52%",
+						"76.67%",
+						"192.26%",
+						"50",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"56.89%",
+						"52.05%",
+						"65.36%",
+						"81.46%",
+						"204.27%",
+						"50",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"60.24%",
+						"55.11%",
+						"69.21%",
+						"86.25%",
+						"216.29%",
+						"50",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"63.58%",
+						"58.17%",
+						"73.05%",
+						"91.04%",
+						"228.3%",
+						"50",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"66.93%",
+						"61.23%",
+						"76.9%",
+						"95.84%",
+						"240.32%",
+						"50",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"71.11%",
+						"65.06%",
+						"81.7%",
+						"101.82%",
+						"255.34%",
+						"50",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"75.29%",
+						"68.89%",
+						"86.51%",
+						"107.81%",
+						"270.36%",
+						"50",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"79.48%",
+						"72.71%",
+						"91.31%",
+						"113.8%",
+						"285.38%",
+						"50",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 159360653,
+			"desc_hash": 3348243704,
+			"charge_num": 1,
+			"name": "Astable Anemohypostasis Creation - 6308",
+			"desc": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<i>This is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications.</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"energy_nectar": 4,
+					"spirit_locket_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"energy_nectar": 6,
+					"spirit_locket_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"energy_nectar": 9,
+					"spirit_locket_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"energy_nectar": 12,
+					"spirit_locket_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"211.2%",
+						"15s"
+					],
+					[
+						"227.04%",
+						"15s"
+					],
+					[
+						"242.88%",
+						"15s"
+					],
+					[
+						"264%",
+						"15s"
+					],
+					[
+						"279.84%",
+						"15s"
+					],
+					[
+						"295.68%",
+						"15s"
+					],
+					[
+						"316.8%",
+						"15s"
+					],
+					[
+						"337.92%",
+						"15s"
+					],
+					[
+						"359.04%",
+						"15s"
+					],
+					[
+						"380.16%",
+						"15s"
+					],
+					[
+						"401.28%",
+						"15s"
+					],
+					[
+						"422.4%",
+						"15s"
+					],
+					[
+						"448.8%",
+						"15s"
+					],
+					[
+						"475.2%",
+						"15s"
+					],
+					[
+						"501.6%",
+						"15s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 234765309,
+			"desc_hash": 2314820896,
+			"charge_num": 1,
+			"name": "Forbidden Creation - Isomer 75 / Type II",
+			"desc": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.\\nWhile it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Elemental Absorption</color>\\nIf the Wind Spirit comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> energy, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"energy_nectar": 4,
+					"spirit_locket_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"energy_nectar": 6,
+					"spirit_locket_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"energy_nectar": 9,
+					"spirit_locket_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"energy_nectar": 12,
+					"spirit_locket_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"DoT",
+					"Additional Elemental DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"148%",
+						"44%",
+						"6s",
+						"20s",
+						"80"
+					],
+					[
+						"159.1%",
+						"47.3%",
+						"6s",
+						"20s",
+						"80"
+					],
+					[
+						"170.2%",
+						"50.6%",
+						"6s",
+						"20s",
+						"80"
+					],
+					[
+						"185%",
+						"55%",
+						"6s",
+						"20s",
+						"80"
+					],
+					[
+						"196.1%",
+						"58.3%",
+						"6s",
+						"20s",
+						"80"
+					],
+					[
+						"207.2%",
+						"61.6%",
+						"6s",
+						"20s",
+						"80"
+					],
+					[
+						"222%",
+						"66%",
+						"6s",
+						"20s",
+						"80"
+					],
+					[
+						"236.8%",
+						"70.4%",
+						"6s",
+						"20s",
+						"80"
+					],
+					[
+						"251.6%",
+						"74.8%",
+						"6s",
+						"20s",
+						"80"
+					],
+					[
+						"266.4%",
+						"79.2%",
+						"6s",
+						"20s",
+						"80"
+					],
+					[
+						"281.2%",
+						"83.6%",
+						"6s",
+						"20s",
+						"80"
+					],
+					[
+						"296%",
+						"88%",
+						"6s",
+						"20s",
+						"80"
+					],
+					[
+						"314.5%",
+						"93.5%",
+						"6s",
+						"20s",
+						"80"
+					],
+					[
+						"333%",
+						"99%",
+						"6s",
+						"20s",
+						"80"
+					],
+					[
+						"351.5%",
+						"104.5%",
+						"6s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 2797937013,
+			"desc_hash": 1686676419,
+			"ascension": 1,
+			"name": "Catalyst Conversion",
+			"desc": "When Sucrose triggers a Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s."
+		},
+		{
+			"name_hash": 3490252853,
+			"desc_hash": 4161226819,
+			"ascension": 4,
+			"name": "Mollis Favonius",
+			"desc": "When <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> or <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> hits an opponent, increases all party members' (excluding Sucrose) Elemental Mastery by an amount equal to 20% of Sucrose's Elemental Mastery for 8s."
+		},
+		{
+			"name_hash": 197407101,
+			"desc_hash": 2984501507,
+			"ascension": null,
+			"name": "Astable Invention",
+			"desc": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% to obtain double the product."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 1387979801,
+			"name": "Clustered Vacuum Field",
+			"desc_hash": 659439671,
+			"desc": "<color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> gains 1 additional charge."
+		},
+		{
+			"name_hash": 412718689,
+			"name": "Beth: Unbound Form",
+			"desc_hash": 393014655,
+			"desc": "The duration of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> is increased by 2s."
+		},
+		{
+			"name_hash": 3504453161,
+			"name": "Flawless Alchemistress",
+			"desc_hash": 3346841599,
+			"desc": "Increases the Level of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2203237409,
+			"name": "Alchemania",
+			"desc_hash": 1019396935,
+			"desc": "Sucrose will reduce the CD of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 1-7s for every 7 Normal or Charged Attack hits she scores against opponents.\\nOne hit may be counted every 0.1s."
+		},
+		{
+			"name_hash": 1605290329,
+			"name": "Caution: Standard Flask",
+			"desc_hash": 901461951,
+			"desc": "Increases the Level of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 344305449,
+			"name": "Chaotic Entropy",
+			"desc_hash": 4078577031,
+			"desc": "If <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 3529210914,
+			"desc_hash": 4118239546,
+			"restricted": false,
+			"name": "Germinating Wind",
+			"desc": "Sucrose's outfit. A Knights of Favonius alchemist's uniform customized for Sucrose."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108146,
+		"name_hash": 664641428,
+		"desc_hash": 756175397,
+		"type_hash": 1319590390,
+		"rarity": 3,
+		"name": "Nutritious Meal (V.593)",
+		"desc": "Sucrose's specialty. It looks like some strange alchemical product at first, but Sucrose insists that it is a healthy and nutritious meal, the result of many experiments and painstaking improvements. Its healthy green color comes from a mix of cream and natural vegetable juices... Wait, vegetable juices?",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 1949802967,
+		"effect": "Revives the selected character and restores 20% of Max HP, then restores an additional 1500 HP.",
+		"original_recipe": "crab_ham_veggie_bake"
+	}
+}

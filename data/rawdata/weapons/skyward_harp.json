@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15501,
+	"promote_id": 15501,
+	"gadget_id": 50015501,
+	"story_id": [
+		195501
+	],
+	"skill_affix": [
+		115501,
+		0
+	],
+	"type": "bow",
+	"name_hash": 3933622347,
+	"desc_hash": 1491045405,
+	"name": "Skyward Harp",
+	"desc": "A greatbow that symbolizes Dvalin's affiliation with the Anemo Archon. The sound of the bow firing is music to the Anemo Archon's ears. It contains the power of the sky and wind within.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 47.5369987487793,
+		"Crit Rate%": 0.04800000041723251
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_302",
+		"Crit Rate%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"boreal_wolfs_milk_tooth": 5,
+				"dead_ley_line_branch": 5,
+				"firm_arrowhead": 3,
+				"mora": 10000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 5,
+				"dead_ley_line_branch": 18,
+				"firm_arrowhead": 12,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 9,
+				"dead_ley_line_leaves": 9,
+				"sharp_arrowhead": 9,
+				"mora": 30000
+			},
+			{
+				"boreal_wolfs_broken_fang": 5,
+				"dead_ley_line_leaves": 18,
+				"sharp_arrowhead": 14,
+				"mora": 45000
+			},
+			{
+				"boreal_wolfs_broken_fang": 9,
+				"ley_line_sprout": 14,
+				"weathered_arrowhead": 9,
+				"mora": 55000
+			},
+			{
+				"boreal_wolfs_nostalgia": 6,
+				"ley_line_sprout": 27,
+				"weathered_arrowhead": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2971867899,
+		"name": "Echoing Ballad",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1155010,
+				"desc_hash": 3850184073,
+				"desc": "Increases CRIT DMG by <color=#99FFFFFF>20%</color>. Hits have a <color=#99FFFFFF>60%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>4</color>s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1155011,
+				"desc_hash": 2742737713,
+				"desc": "Increases CRIT DMG by <color=#99FFFFFF>25%</color>. Hits have a <color=#99FFFFFF>70%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>3.5</color>s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1155012,
+				"desc_hash": 4244549793,
+				"desc": "Increases CRIT DMG by <color=#99FFFFFF>30%</color>. Hits have a <color=#99FFFFFF>80%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>3</color>s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1155013,
+				"desc_hash": 1674512929,
+				"desc": "Increases CRIT DMG by <color=#99FFFFFF>35%</color>. Hits have a <color=#99FFFFFF>90%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>2.5</color>s.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1155014,
+				"desc_hash": 2384978993,
+				"desc": "Increases CRIT DMG by <color=#99FFFFFF>40%</color>. Hits have a <color=#99FFFFFF>100%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>2</color>s.",
+				"cost": 16000
+			}
+		]
+	}
+}

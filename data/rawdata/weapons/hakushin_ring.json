@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 14414,
+	"promote_id": 14414,
+	"gadget_id": 50014414,
+	"story_id": [
+		194414
+	],
+	"skill_affix": [
+		114414,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 2324146259,
+	"desc_hash": 4273575325,
+	"name": "Hakushin Ring",
+	"desc": "A catalyst that carries the memory of the Kitsune Saiguu of ancient times. However, this device is but an impoverished vessel for the full breadth of her thought.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 43.734901428222656,
+		"Energy Recharge%": 0.06666699796915054
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_202",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"coral_branch_of_a_distant_sea": 3,
+				"dismal_prism": 3,
+				"divining_scroll": 2,
+				"mora": 5000
+			},
+			{
+				"jeweled_branch_of_a_distant_sea": 3,
+				"dismal_prism": 12,
+				"divining_scroll": 8,
+				"mora": 15000
+			},
+			{
+				"jeweled_branch_of_a_distant_sea": 6,
+				"crystal_prism": 6,
+				"sealed_scroll": 6,
+				"mora": 20000
+			},
+			{
+				"jade_branch_of_a_distant_sea": 3,
+				"crystal_prism": 12,
+				"sealed_scroll": 9,
+				"mora": 30000
+			},
+			{
+				"jade_branch_of_a_distant_sea": 6,
+				"polarizing_prism": 9,
+				"forbidden_curse_scroll": 6,
+				"mora": 35000
+			},
+			{
+				"golden_branch_of_a_distant_sea": 4,
+				"polarizing_prism": 18,
+				"forbidden_curse_scroll": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 905477059,
+		"name": "Sakura Saiguu",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1144140,
+				"desc_hash": 269996233,
+				"desc": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a <color=#99FFFFFF>10%</color> Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1144141,
+				"desc_hash": 3729857457,
+				"desc": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a <color=#99FFFFFF>12.5%</color> Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1144142,
+				"desc_hash": 1502300617,
+				"desc": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a <color=#99FFFFFF>15%</color> Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1144143,
+				"desc_hash": 1265537273,
+				"desc": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a <color=#99FFFFFF>17.5%</color> Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1144144,
+				"desc_hash": 3270418049,
+				"desc": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a <color=#99FFFFFF>20%</color> Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked.",
+				"cost": 8000
+			}
+		]
+	}
+}

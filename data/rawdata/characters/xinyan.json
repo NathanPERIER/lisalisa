@@ -1,0 +1,871 @@
+{
+	"hoyo_id": 10000044,
+	"promote_id": 44,
+	"skill_depot_id": 4401,
+	"fetter_id": 131,
+	"weapon": "claymore",
+	"name_hash": 4273845410,
+	"desc_hash": 2430683361,
+	"name": "Xinyan",
+	"desc": "Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": [
+		16,
+		10
+	],
+	"region": "liyue",
+	"vision_hash": [
+		3105283268,
+		3656641129
+	],
+	"astrolabe_hash": [
+		4126360330,
+		4100226883
+	],
+	"allegiance_hash": 2939616529,
+	"vision": "pyro",
+	"astrolabe": "Fila Ignium",
+	"allegiance": "\"The Red Strings\"",
+	"default_weapon": "waster_greatsword",
+	"base_stats": {
+		"Base HP": 939.1447143554688,
+		"Base ATK": 20.835359573364258,
+		"Base DEF": 66.9532470703125,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"agnidus_agate_sliver": 1,
+				"violetgrass": 3,
+				"treasure_hoarder_insignia": 3,
+				"mora": 20000
+			},
+			{
+				"agnidus_agate_fragment": 3,
+				"everflame_seed": 2,
+				"violetgrass": 10,
+				"treasure_hoarder_insignia": 15,
+				"mora": 40000
+			},
+			{
+				"agnidus_agate_fragment": 6,
+				"everflame_seed": 4,
+				"violetgrass": 20,
+				"silver_raven_insignia": 12,
+				"mora": 60000
+			},
+			{
+				"agnidus_agate_chunk": 3,
+				"everflame_seed": 8,
+				"violetgrass": 30,
+				"silver_raven_insignia": 18,
+				"mora": 80000
+			},
+			{
+				"agnidus_agate_chunk": 6,
+				"everflame_seed": 12,
+				"violetgrass": 45,
+				"golden_raven_insignia": 12,
+				"mora": 100000
+			},
+			{
+				"agnidus_agate_gemstone": 6,
+				"everflame_seed": 20,
+				"violetgrass": 60,
+				"golden_raven_insignia": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 701.5891723632812,
+					"Base DEF": 50.01750183105469,
+					"Base ATK": 15.565445899963379,
+					"ATK%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1200.0867919921875,
+					"Base DEF": 85.5562515258789,
+					"Base ATK": 26.625104904174805,
+					"ATK%": 0.05999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1864.750244140625,
+					"Base DEF": 132.94125366210938,
+					"Base ATK": 41.37131881713867,
+					"ATK%": 0.11999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2363.247802734375,
+					"Base DEF": 168.47999572753906,
+					"Base ATK": 52.43097686767578,
+					"ATK%": 0.11999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2861.745361328125,
+					"Base DEF": 204.0187530517578,
+					"Base ATK": 63.49063491821289,
+					"ATK%": 0.18000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3360.242919921875,
+					"Base DEF": 239.5574951171875,
+					"Base ATK": 74.55029296875,
+					"ATK%": 0.23999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 327566445,
+			"desc_hash": 1969995312,
+			"charge_num": 1,
+			"name": "Normal Attack: Dance on Fire",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, perform a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_gold": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_gold": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_gold": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_gold": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_gold": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_gold": 4,
+					"golden_raven_insignia": 4,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_gold": 6,
+					"golden_raven_insignia": 6,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_gold": 12,
+					"golden_raven_insignia": 9,
+					"tusk_of_monoceros_caeli": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_gold": 16,
+					"golden_raven_insignia": 12,
+					"tusk_of_monoceros_caeli": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack Spinning DMG",
+					"Charged Attack Final DMG",
+					"Charged Attack Stamina Cost",
+					"Max Duration",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"76.54%",
+						"73.96%",
+						"95.46%",
+						"115.84%",
+						"62.55%",
+						"113.09%",
+						"40/s",
+						"5s",
+						"74.59%",
+						"149.14%/186.29%"
+					],
+					[
+						"82.77%",
+						"79.98%",
+						"103.23%",
+						"125.27%",
+						"67.64%",
+						"122.29%",
+						"40/s",
+						"5s",
+						"80.66%",
+						"161.28%/201.45%"
+					],
+					[
+						"89%",
+						"86%",
+						"111%",
+						"134.7%",
+						"72.73%",
+						"131.5%",
+						"40/s",
+						"5s",
+						"86.73%",
+						"173.42%/216.62%"
+					],
+					[
+						"97.9%",
+						"94.6%",
+						"122.1%",
+						"148.17%",
+						"80%",
+						"144.65%",
+						"40/s",
+						"5s",
+						"95.4%",
+						"190.77%/238.28%"
+					],
+					[
+						"104.13%",
+						"100.62%",
+						"129.87%",
+						"157.6%",
+						"85.09%",
+						"153.86%",
+						"40/s",
+						"5s",
+						"101.47%",
+						"202.91%/253.44%"
+					],
+					[
+						"111.25%",
+						"107.5%",
+						"138.75%",
+						"168.38%",
+						"90.91%",
+						"164.37%",
+						"40/s",
+						"5s",
+						"108.41%",
+						"216.78%/270.77%"
+					],
+					[
+						"121.04%",
+						"116.96%",
+						"150.96%",
+						"183.19%",
+						"98.91%",
+						"178.84%",
+						"40/s",
+						"5s",
+						"117.95%",
+						"235.86%/294.6%"
+					],
+					[
+						"130.83%",
+						"126.42%",
+						"163.17%",
+						"198.01%",
+						"106.91%",
+						"193.31%",
+						"40/s",
+						"5s",
+						"127.49%",
+						"254.93%/318.42%"
+					],
+					[
+						"140.62%",
+						"135.88%",
+						"175.38%",
+						"212.83%",
+						"114.91%",
+						"207.77%",
+						"40/s",
+						"5s",
+						"137.03%",
+						"274.01%/342.25%"
+					],
+					[
+						"151.3%",
+						"146.2%",
+						"188.7%",
+						"228.99%",
+						"123.64%",
+						"223.55%",
+						"40/s",
+						"5s",
+						"147.44%",
+						"294.82%/368.25%"
+					],
+					[
+						"161.98%",
+						"156.52%",
+						"202.02%",
+						"245.15%",
+						"132.36%",
+						"239.33%",
+						"40/s",
+						"5s",
+						"157.85%",
+						"315.63%/394.24%"
+					],
+					[
+						"172.66%",
+						"166.84%",
+						"215.34%",
+						"261.32%",
+						"141.09%",
+						"255.11%",
+						"40/s",
+						"5s",
+						"168.26%",
+						"336.44%/420.23%"
+					],
+					[
+						"183.34%",
+						"177.16%",
+						"228.66%",
+						"277.48%",
+						"149.82%",
+						"270.89%",
+						"40/s",
+						"5s",
+						"178.66%",
+						"357.25%/446.23%"
+					],
+					[
+						"194.02%",
+						"187.48%",
+						"241.98%",
+						"293.65%",
+						"158.55%",
+						"286.67%",
+						"40/s",
+						"5s",
+						"189.07%",
+						"378.06%/472.22%"
+					],
+					[
+						"204.7%",
+						"197.8%",
+						"255.3%",
+						"309.81%",
+						"167.27%",
+						"302.45%",
+						"40/s",
+						"5s",
+						"199.48%",
+						"398.87%/498.21%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 980327173,
+			"desc_hash": 3704294280,
+			"charge_num": 1,
+			"name": "Sweeping Fervor",
+			"desc": "Xinyan brandishes her instrument, dealing <color=#FF9999FF>Pyro DMG</color> on nearby opponents, forming a shield made out of her audience's passion.\\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\\n\u00b7Hitting 0\u20131 opponents grants Shield Level 1: Ad Lib.\\n\u00b7Hitting 2 opponents grants Shield Level 2: Lead-In.\\n\u00b7Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent <color=#FF9999FF>Pyro DMG</color> to nearby opponents.\\n\\nThe shield has the following special properties:\\n\u00b7When unleashed, it infuses Xinyan with <color=#FF9999FF>Pyro</color>.\\n\u00b7It has 250% DMG Absorption effectiveness against <color=#FF9999FF>Pyro DMG</color>.\\n\\n<i>Xinyan insists that these pyrotechnics are the apex of performative art, and that they are physical phenomena that have nothing to do with her Vision.</i>",
+			"costs": [
+				{
+					"teachings_of_gold": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_gold": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_gold": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_gold": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_gold": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_gold": 4,
+					"golden_raven_insignia": 4,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_gold": 6,
+					"golden_raven_insignia": 6,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_gold": 12,
+					"golden_raven_insignia": 9,
+					"tusk_of_monoceros_caeli": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_gold": 16,
+					"golden_raven_insignia": 12,
+					"tusk_of_monoceros_caeli": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Swing DMG",
+					"Shield Level 1 DMG Absorption",
+					"Shield Level 2 DMG Absorption",
+					"Shield Level 3 DMG Absorption",
+					"DoT",
+					"Shield Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"169.6%",
+						"104.04% DEF+500",
+						"122.4% DEF+588",
+						"144% DEF+692",
+						"33.6%",
+						"12s",
+						"18s"
+					],
+					[
+						"182.32%",
+						"111.84% DEF+550",
+						"131.58% DEF+647",
+						"154.8% DEF+762",
+						"36.12%",
+						"12s",
+						"18s"
+					],
+					[
+						"195.04%",
+						"119.65% DEF+604",
+						"140.76% DEF+711",
+						"165.6% DEF+837",
+						"38.64%",
+						"12s",
+						"18s"
+					],
+					[
+						"212%",
+						"130.05% DEF+663",
+						"153% DEF+780",
+						"180% DEF+918",
+						"42%",
+						"12s",
+						"18s"
+					],
+					[
+						"224.72%",
+						"137.85% DEF+725",
+						"162.18% DEF+853",
+						"190.8% DEF+1004",
+						"44.52%",
+						"12s",
+						"18s"
+					],
+					[
+						"237.44%",
+						"145.66% DEF+792",
+						"171.36% DEF+932",
+						"201.6% DEF+1096",
+						"47.04%",
+						"12s",
+						"18s"
+					],
+					[
+						"254.4%",
+						"156.06% DEF+863",
+						"183.6% DEF+1015",
+						"216% DEF+1195",
+						"50.4%",
+						"12s",
+						"18s"
+					],
+					[
+						"271.36%",
+						"166.46% DEF+938",
+						"195.84% DEF+1104",
+						"230.4% DEF+1299",
+						"53.76%",
+						"12s",
+						"18s"
+					],
+					[
+						"288.32%",
+						"176.87% DEF+1017",
+						"208.08% DEF+1197",
+						"244.8% DEF+1408",
+						"57.12%",
+						"12s",
+						"18s"
+					],
+					[
+						"305.28%",
+						"187.27% DEF+1101",
+						"220.32% DEF+1295",
+						"259.2% DEF+1524",
+						"60.48%",
+						"12s",
+						"18s"
+					],
+					[
+						"322.24%",
+						"197.68% DEF+1188",
+						"232.56% DEF+1398",
+						"273.6% DEF+1645",
+						"63.84%",
+						"12s",
+						"18s"
+					],
+					[
+						"339.2%",
+						"208.08% DEF+1280",
+						"244.8% DEF+1506",
+						"288% DEF+1772",
+						"67.2%",
+						"12s",
+						"18s"
+					],
+					[
+						"360.4%",
+						"221.09% DEF+1376",
+						"260.1% DEF+1619",
+						"306% DEF+1905",
+						"71.4%",
+						"12s",
+						"18s"
+					],
+					[
+						"381.6%",
+						"234.09% DEF+1476",
+						"275.4% DEF+1737",
+						"324% DEF+2043",
+						"75.6%",
+						"12s",
+						"18s"
+					],
+					[
+						"402.8%",
+						"247.09% DEF+1581",
+						"290.7% DEF+1860",
+						"342% DEF+2188",
+						"79.8%",
+						"12s",
+						"18s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 405900781,
+			"desc_hash": 1175339880,
+			"charge_num": 1,
+			"name": "Riff Revolution",
+			"desc": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd.\\nThe sheer intensity of the atmosphere will cause explosions that deal <color=#FF9999FF>Pyro DMG</color> to nearby opponents.\\n\\n<i>Xinyan used to end all her performances with this move. She didn't stop because it was dangerous, however, but because she didn't have a more epic finale in case someone shouted \"Encore!\"</i>",
+			"costs": [
+				{
+					"teachings_of_gold": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_gold": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_gold": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_gold": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_gold": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_gold": 4,
+					"golden_raven_insignia": 4,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_gold": 6,
+					"golden_raven_insignia": 6,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_gold": 12,
+					"golden_raven_insignia": 9,
+					"tusk_of_monoceros_caeli": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_gold": 16,
+					"golden_raven_insignia": 12,
+					"tusk_of_monoceros_caeli": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Pyro DoT",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"340.8%",
+						"40%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"366.36%",
+						"43%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"391.92%",
+						"46%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"426%",
+						"50%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"451.56%",
+						"53%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"477.12%",
+						"56%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"511.2%",
+						"60%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"545.28%",
+						"64%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"579.36%",
+						"68%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"613.44%",
+						"72%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"647.52%",
+						"76%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"681.6%",
+						"80%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"724.2%",
+						"85%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"766.8%",
+						"90%",
+						"2s",
+						"15s",
+						"60"
+					],
+					[
+						"809.4%",
+						"95%",
+						"2s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 3137818373,
+			"desc_hash": 1844902995,
+			"ascension": 1,
+			"name": "\"The Show Goes On, Even Without an Audience...\"",
+			"desc": "Decreases the number of opponents <color=#FFD780FF>Sweeping Fervor</color> must hit to trigger each level of shielding.\\n\u00b7Shield Level 2: Lead-In requirement reduced to 1 opponent hit.\\n\u00b7Shield Level 3: Rave requirement reduced to 2 opponents hit or more."
+		},
+		{
+			"name_hash": 2516474765,
+			"desc_hash": 3964569155,
+			"ascension": 4,
+			"name": "\"...Now That's Rock 'N' Roll!\"",
+			"desc": "Characters shielded by <color=#FFD780FF>Sweeping Fervor</color> deal 15% increased Physical DMG."
+		},
+		{
+			"name_hash": 2639347341,
+			"desc_hash": 1386621859,
+			"ascension": null,
+			"name": "A Rad Recipe",
+			"desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 3068951001,
+			"name": "Fatal Acceleration",
+			"desc_hash": 3151757471,
+			"desc": "Upon scoring a CRIT Hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s.\\nCan only occur once every 5s."
+		},
+		{
+			"name_hash": 2247567929,
+			"name": "Impromptu Opening",
+			"desc_hash": 4058915415,
+			"desc": "<color=#FFD780FF>Riff Revolution</color>'s Physical DMG has its CRIT Rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast."
+		},
+		{
+			"name_hash": 3545262929,
+			"name": "Double-Stop",
+			"desc_hash": 4067254263,
+			"desc": "Increases the Level of <color=#FFD780FF>Sweeping Fervor</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3472180281,
+			"name": "Wildfire Rhythm",
+			"desc_hash": 630340871,
+			"desc": "<color=#FFD780FF>Sweeping Fervor</color>'s swing DMG decreases opponent's Physical RES by 15% for 12s."
+		},
+		{
+			"name_hash": 3343552585,
+			"name": "Screamin' for an Encore",
+			"desc_hash": 1190369383,
+			"desc": "Increases the Level of <color=#FFD780FF>Riff Revolution</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2632855681,
+			"name": "Rockin' in a Flaming World",
+			"desc_hash": 1450102367,
+			"desc": "Decreases the Stamina Consumption of Xinyan's Charged Attacks by 30%. Additionally, Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 2768155290,
+			"desc_hash": 678376738,
+			"restricted": false,
+			"name": "Ardent Soul",
+			"desc": "Xinyan's outfit. A rocker's stage costume adorned with spikes."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108174,
+		"name_hash": 2818743172,
+		"desc_hash": 3405202989,
+		"type_hash": 2268352326,
+		"rarity": 2,
+		"name": "Rockin' Riffin' Chicken!",
+		"desc": "Xinyan's specialty. Its demonic appearance hides an absolutely demonic spiciness. Eat it, tear up, eat some more, and don't stop till you drop! Surely only a demon could have invented such a dish!",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 537430127,
+		"effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+		"original_recipe": "jueyun_chili_chicken"
+	}
+}

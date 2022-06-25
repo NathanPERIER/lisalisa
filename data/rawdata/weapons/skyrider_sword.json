@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 11306,
+	"promote_id": 11306,
+	"gadget_id": 50011306,
+	"story_id": [
+		191306
+	],
+	"skill_affix": [
+		111306,
+		0
+	],
+	"type": "sword",
+	"name_hash": 1388004931,
+	"desc_hash": 3086923557,
+	"name": "Skyrider Sword",
+	"desc": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword...",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 37.60749816894531,
+		"Energy Recharge%": 0.11333300173282623
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_104",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"grain_of_aerosiderite": 2,
+				"fragile_bone_shard": 2,
+				"recruits_insignia": 1,
+				"mora": 5000
+			},
+			{
+				"piece_of_aerosiderite": 2,
+				"fragile_bone_shard": 8,
+				"recruits_insignia": 5,
+				"mora": 10000
+			},
+			{
+				"piece_of_aerosiderite": 4,
+				"sturdy_bone_shard": 4,
+				"sergeants_insignia": 4,
+				"mora": 15000
+			},
+			{
+				"bit_of_aerosiderite": 2,
+				"sturdy_bone_shard": 8,
+				"sergeants_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"bit_of_aerosiderite": 4,
+				"fossilized_bone_shard": 6,
+				"lieutenants_insignia": 4,
+				"mora": 25000
+			},
+			{
+				"chunk_of_aerosiderite": 3,
+				"fossilized_bone_shard": 12,
+				"lieutenants_insignia": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 94261931,
+		"name": "Determination",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1113060,
+				"desc_hash": 4238264529,
+				"desc": "Using an Elemental Burst grants a <color=#99FFFFFF>12%</color> increase in ATK and Movement SPD for 15s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1113061,
+				"desc_hash": 4191987009,
+				"desc": "Using an Elemental Burst grants a <color=#99FFFFFF>15%</color> increase in ATK and Movement SPD for 15s.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1113062,
+				"desc_hash": 283262361,
+				"desc": "Using an Elemental Burst grants a <color=#99FFFFFF>18%</color> increase in ATK and Movement SPD for 15s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1113063,
+				"desc_hash": 3076540873,
+				"desc": "Using an Elemental Burst grants a <color=#99FFFFFF>21%</color> increase in ATK and Movement SPD for 15s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1113064,
+				"desc_hash": 86444217,
+				"desc": "Using an Elemental Burst grants a <color=#99FFFFFF>24%</color> increase in ATK and Movement SPD for 15s.",
+				"cost": 4000
+			}
+		]
+	}
+}

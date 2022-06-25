@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 11414,
+	"promote_id": 11414,
+	"gadget_id": 50011414,
+	"story_id": [
+		191414
+	],
+	"skill_affix": [
+		111414,
+		0
+	],
+	"type": "sword",
+	"name_hash": 1990820123,
+	"desc_hash": 1446802077,
+	"name": "Amenoma Kageuchi",
+	"desc": "A blade custom made for a famed samurai who could strike down a tengu warrior, known for their incredible agility, in midair.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 41.067100524902344,
+		"ATK%": 0.11999999731779099
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_204",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"coral_branch_of_a_distant_sea": 3,
+				"chaos_gear": 3,
+				"old_handguard": 2,
+				"mora": 5000
+			},
+			{
+				"jeweled_branch_of_a_distant_sea": 3,
+				"chaos_gear": 12,
+				"old_handguard": 8,
+				"mora": 15000
+			},
+			{
+				"jeweled_branch_of_a_distant_sea": 6,
+				"chaos_axis": 6,
+				"kageuchi_handguard": 6,
+				"mora": 20000
+			},
+			{
+				"jade_branch_of_a_distant_sea": 3,
+				"chaos_axis": 12,
+				"kageuchi_handguard": 9,
+				"mora": 30000
+			},
+			{
+				"jade_branch_of_a_distant_sea": 6,
+				"chaos_oculus": 9,
+				"famed_handguard": 6,
+				"mora": 35000
+			},
+			{
+				"golden_branch_of_a_distant_sea": 4,
+				"chaos_oculus": 18,
+				"famed_handguard": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2700351571,
+		"name": "Iwakura Succession",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1114140,
+				"desc_hash": 984538585,
+				"desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates <color=#99FFFFFF>6</color> Energy for each seed consumed.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1114141,
+				"desc_hash": 4113058249,
+				"desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates <color=#99FFFFFF>7.5</color> Energy for each seed consumed.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1114142,
+				"desc_hash": 3362584929,
+				"desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates <color=#99FFFFFF>9</color> Energy for each seed consumed.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1114143,
+				"desc_hash": 472483073,
+				"desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates <color=#99FFFFFF>10.5</color> Energy for each seed consumed.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1114144,
+				"desc_hash": 3428672009,
+				"desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates <color=#99FFFFFF>12</color> Energy for each seed consumed.",
+				"cost": 8000
+			}
+		]
+	}
+}

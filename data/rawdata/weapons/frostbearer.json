@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 14412,
+	"promote_id": 14412,
+	"gadget_id": 50014412,
+	"story_id": [
+		194412
+	],
+	"skill_affix": [
+		114412,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 2587614459,
+	"desc_hash": 234405637,
+	"name": "Frostbearer",
+	"desc": "A fruit that possesses a strange, frosty will. A faint sense of agony emanates from it.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"ATK%": 0.09000000357627869
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 3,
+				"chaos_device": 3,
+				"whopperflower_nectar": 2,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 3,
+				"chaos_device": 12,
+				"whopperflower_nectar": 8,
+				"mora": 15000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 6,
+				"chaos_circuit": 6,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 3,
+				"chaos_circuit": 12,
+				"shimmering_nectar": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 6,
+				"chaos_core": 9,
+				"energy_nectar": 6,
+				"mora": 35000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 4,
+				"chaos_core": 18,
+				"energy_nectar": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2459894187,
+		"name": "Frost Burial",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1144120,
+				"desc_hash": 3743087417,
+				"desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>60%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>80%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>200%</color> of ATK. Can only occur once every 10s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1144121,
+				"desc_hash": 2638100617,
+				"desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>70%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>95%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>240%</color> of ATK. Can only occur once every 10s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1144122,
+				"desc_hash": 3670272705,
+				"desc": "Hitting an opponent with Normal and Charged Attacks has an <color=#99FFFFFF>80%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>110%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>280%</color> of ATK. Can only occur once every 10s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1144123,
+				"desc_hash": 2227378393,
+				"desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>90%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>125%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>320%</color> of ATK. Can only occur once every 10s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1144124,
+				"desc_hash": 2637568257,
+				"desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>100%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>140%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>360%</color> of ATK. Can only occur once every 10s.",
+				"cost": 8000
+			}
+		]
+	}
+}

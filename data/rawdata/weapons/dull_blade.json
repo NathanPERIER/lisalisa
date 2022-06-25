@@ -1,0 +1,94 @@
+{
+	"hoyo_id": 11101,
+	"promote_id": 11101,
+	"gadget_id": 50011101,
+	"story_id": [
+		191101
+	],
+	"skill_affix": [
+		0,
+		0
+	],
+	"type": "sword",
+	"name_hash": 2410593283,
+	"desc_hash": 3807468957,
+	"name": "Dull Blade",
+	"desc": "Youthful dreams and the thrill of adventure. If this isn't enough, then make it up with valiance.",
+	"rarity": 1,
+	"base_stats": {
+		"Base ATK": 23.2450008392334
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"tile_of_decarabians_tower": 1,
+				"heavy_horn": 1,
+				"firm_arrowhead": 1
+			},
+			{
+				"debris_of_decarabians_city": 1,
+				"heavy_horn": 4,
+				"firm_arrowhead": 2,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 2,
+				"black_bronze_horn": 2,
+				"sharp_arrowhead": 2,
+				"mora": 5000
+			},
+			{
+				"fragment_of_decarabians_epic": 1,
+				"black_bronze_horn": 4,
+				"sharp_arrowhead": 3,
+				"mora": 10000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 11.699999809265137,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 23.299999237060547,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 35.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 46.70000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			}
+		]
+	},
+	"abilities": null
+}
