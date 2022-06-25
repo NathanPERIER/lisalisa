@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15304,
+	"promote_id": 15304,
+	"gadget_id": 50015304,
+	"story_id": [
+		195304
+	],
+	"skill_affix": [
+		115304,
+		0
+	],
+	"type": "bow",
+	"name_hash": 1021898539,
+	"desc_hash": 2260945613,
+	"name": "Slingshot",
+	"desc": "A bow, despite the name. After countless experiments and improvements to the design, the creator of the ultimate slingshot found himself to have made what was actually a bow.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 37.60749816894531,
+		"Crit Rate%": 0.06800000369548798
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_104",
+		"Crit Rate%": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"luminous_sands_from_guyun": 2,
+				"hunters_sacrificial_knife": 2,
+				"damaged_mask": 1,
+				"mora": 5000
+			},
+			{
+				"lustrous_stone_from_guyun": 2,
+				"hunters_sacrificial_knife": 8,
+				"damaged_mask": 5,
+				"mora": 10000
+			},
+			{
+				"lustrous_stone_from_guyun": 4,
+				"agents_sacrificial_knife": 4,
+				"stained_mask": 4,
+				"mora": 15000
+			},
+			{
+				"relic_from_guyun": 2,
+				"agents_sacrificial_knife": 8,
+				"stained_mask": 6,
+				"mora": 20000
+			},
+			{
+				"relic_from_guyun": 4,
+				"inspectors_sacrificial_knife": 6,
+				"ominous_mask": 4,
+				"mora": 25000
+			},
+			{
+				"divine_body_from_guyun": 3,
+				"inspectors_sacrificial_knife": 12,
+				"ominous_mask": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 595085987,
+		"name": "Slingshot",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1153040,
+				"desc_hash": 3429616905,
+				"desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>36%</color>. Otherwise, decreases DMG by 10%.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1153041,
+				"desc_hash": 1915137313,
+				"desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>42%</color>. Otherwise, decreases DMG by 10%.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1153042,
+				"desc_hash": 224169849,
+				"desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>48%</color>. Otherwise, decreases DMG by 10%.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1153043,
+				"desc_hash": 881017425,
+				"desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>54%</color>. Otherwise, decreases DMG by 10%.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1153044,
+				"desc_hash": 1534621105,
+				"desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>60%</color>. Otherwise, decreases DMG by 10%.",
+				"cost": 4000
+			}
+		]
+	}
+}

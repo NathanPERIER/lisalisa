@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13405,
+	"promote_id": 13405,
+	"gadget_id": 50013405,
+	"story_id": [
+		193405
+	],
+	"skill_affix": [
+		113405,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 4049410651,
+	"desc_hash": 885061045,
+	"name": "Deathmatch",
+	"desc": "A sharp crimson polearm that was once a gladiator's priceless treasure. Its awl has been stained by the blood of countless beasts and men.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 41.067100524902344,
+		"Crit Rate%": 0.07999999821186066
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_204",
+		"Crit Rate%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"boreal_wolfs_milk_tooth": 3,
+				"dead_ley_line_branch": 3,
+				"whopperflower_nectar": 2,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 3,
+				"dead_ley_line_branch": 12,
+				"whopperflower_nectar": 8,
+				"mora": 15000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 6,
+				"dead_ley_line_leaves": 6,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_broken_fang": 3,
+				"dead_ley_line_leaves": 12,
+				"shimmering_nectar": 9,
+				"mora": 30000
+			},
+			{
+				"boreal_wolfs_broken_fang": 6,
+				"ley_line_sprout": 9,
+				"energy_nectar": 6,
+				"mora": 35000
+			},
+			{
+				"boreal_wolfs_nostalgia": 4,
+				"ley_line_sprout": 18,
+				"energy_nectar": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2523397235,
+		"name": "Gladiator",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1134050,
+				"desc_hash": 2488158001,
+				"desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>16%</color> and DEF is increased by <color=#99FFFFFF>16%</color>. If there are fewer than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>24%</color>.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1134051,
+				"desc_hash": 1635499705,
+				"desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>20%</color> and DEF is increased by <color=#99FFFFFF>20%</color>. If there are fewer than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>30%</color>.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1134052,
+				"desc_hash": 3325990985,
+				"desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>24%</color> and DEF is increased by <color=#99FFFFFF>24%</color>. If there are fewer than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>36%</color>.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1134053,
+				"desc_hash": 1138390113,
+				"desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>28%</color> and DEF is increased by <color=#99FFFFFF>28%</color>. If there are fewer than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>42%</color>.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1134054,
+				"desc_hash": 4026522113,
+				"desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>32%</color> and DEF is increased by <color=#99FFFFFF>32%</color>. If there are fewer than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>48%</color>.",
+				"cost": 8000
+			}
+		]
+	}
+}

@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 11510,
+	"promote_id": 11510,
+	"gadget_id": 50011510,
+	"story_id": [
+		191510
+	],
+	"skill_affix": [
+		111510,
+		0
+	],
+	"type": "sword",
+	"name_hash": 1600275315,
+	"desc_hash": 1849286797,
+	"name": "Haran Geppaku Futsu",
+	"desc": "A famed work by the Futsu line of smiths. The name \"Haran\" comes from the manner in which it resembles the violent, roiling waves.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 45.9364013671875,
+		"Crit Rate%": 0.07199999690055847
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_301",
+		"Crit Rate%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"narukamis_wisdom": 5,
+				"gloomy_statuette": 5,
+				"old_handguard": 3,
+				"mora": 10000
+			},
+			{
+				"narukamis_joy": 5,
+				"gloomy_statuette": 18,
+				"old_handguard": 12,
+				"mora": 20000
+			},
+			{
+				"narukamis_joy": 9,
+				"dark_statuette": 9,
+				"kageuchi_handguard": 9,
+				"mora": 30000
+			},
+			{
+				"narukamis_affection": 5,
+				"dark_statuette": 18,
+				"kageuchi_handguard": 14,
+				"mora": 45000
+			},
+			{
+				"narukamis_affection": 9,
+				"deathly_statuette": 14,
+				"famed_handguard": 9,
+				"mora": 55000
+			},
+			{
+				"narukamis_valor": 6,
+				"deathly_statuette": 27,
+				"famed_handguard": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2204995987,
+		"name": "Honed Flow",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1115100,
+				"desc_hash": 1905619873,
+				"desc": "Obtain <color=#99FFFFFF>12%</color> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <color=#99FFFFFF>20%</color> for 8s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1115101,
+				"desc_hash": 2845885769,
+				"desc": "Obtain <color=#99FFFFFF>15%</color> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <color=#99FFFFFF>25%</color> for 8s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1115102,
+				"desc_hash": 1429852217,
+				"desc": "Obtain <color=#99FFFFFF>18%</color> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <color=#99FFFFFF>30%</color> for 8s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1115103,
+				"desc_hash": 3540832473,
+				"desc": "Obtain <color=#99FFFFFF>21%</color> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <color=#99FFFFFF>35%</color> for 8s.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1115104,
+				"desc_hash": 3077341265,
+				"desc": "Obtain <color=#99FFFFFF>24%</color> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <color=#99FFFFFF>40%</color> for 8s.",
+				"cost": 16000
+			}
+		]
+	}
+}

@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 11413,
+	"promote_id": 11413,
+	"gadget_id": 50011413,
+	"story_id": [
+		191413
+	],
+	"skill_affix": [
+		111413,
+		0
+	],
+	"type": "sword",
+	"name_hash": 2749853923,
+	"desc_hash": 279012485,
+	"name": "Festering Desire",
+	"desc": "A creepy straight sword that almost seems to yearn for life. It drips with a shriveling venom that could even corrupt a mighty dragon.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"Energy Recharge%": 0.10000000149011612
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 3,
+				"heavy_horn": 3,
+				"recruits_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 3,
+				"heavy_horn": 12,
+				"recruits_insignia": 8,
+				"mora": 15000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 6,
+				"black_bronze_horn": 6,
+				"sergeants_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 3,
+				"black_bronze_horn": 12,
+				"sergeants_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 6,
+				"black_crystal_horn": 9,
+				"lieutenants_insignia": 6,
+				"mora": 35000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 4,
+				"black_crystal_horn": 18,
+				"lieutenants_insignia": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1399609651,
+		"name": "Undying Admiration",
+		"special_material": "festering_dragon_marrow",
+		"values": [
+			{
+				"affix_id": 1114130,
+				"desc_hash": 1015127657,
+				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>16%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>6%</color>.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1114131,
+				"desc_hash": 2757463545,
+				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>20%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>7.5%</color>.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1114132,
+				"desc_hash": 3027339465,
+				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>24%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>9%</color>.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1114133,
+				"desc_hash": 1124392161,
+				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>28%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>10.5%</color>.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1114134,
+				"desc_hash": 3098144017,
+				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>32%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>12%</color>.",
+				"cost": 8000
+			}
+		]
+	}
+}

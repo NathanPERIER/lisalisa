@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15410,
+	"promote_id": 15410,
+	"gadget_id": 50015410,
+	"story_id": [
+		195410
+	],
+	"skill_affix": [
+		115410,
+		0
+	],
+	"type": "bow",
+	"name_hash": 2417717595,
+	"desc_hash": 726318957,
+	"name": "Alley Hunter",
+	"desc": "An intricate, opulent longbow. It once belonged to a gentleman thief who was never caught.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 43.734901428222656,
+		"ATK%": 0.05999999865889549
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_202",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 3,
+				"chaos_device": 3,
+				"slime_condensate": 2,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 3,
+				"chaos_device": 12,
+				"slime_condensate": 8,
+				"mora": 15000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 6,
+				"chaos_circuit": 6,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 3,
+				"chaos_circuit": 12,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 6,
+				"chaos_core": 9,
+				"slime_concentrate": 6,
+				"mora": 35000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 4,
+				"chaos_core": 18,
+				"slime_concentrate": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2308173611,
+		"name": "Oppidan Ambush",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1154100,
+				"desc_hash": 1333678233,
+				"desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by <color=#99FFFFFF>2%</color> every second up to a max of <color=#99FFFFFF>20%</color>. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by <color=#99FFFFFF>4%</color> per second until it reaches 0%.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1154101,
+				"desc_hash": 3490203185,
+				"desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by <color=#99FFFFFF>2.5%</color> every second up to a max of <color=#99FFFFFF>25%</color>. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by <color=#99FFFFFF>5%</color> per second until it reaches 0%.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1154102,
+				"desc_hash": 3969501113,
+				"desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by <color=#99FFFFFF>3%</color> every second up to a max of <color=#99FFFFFF>30%</color>. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by <color=#99FFFFFF>6%</color> per second until it reaches 0%.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1154103,
+				"desc_hash": 1108020297,
+				"desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by <color=#99FFFFFF>3.5%</color> every second up to a max of <color=#99FFFFFF>35%</color>. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by <color=#99FFFFFF>7%</color> per second until it reaches 0%.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1154104,
+				"desc_hash": 3785180097,
+				"desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by <color=#99FFFFFF>4%</color> every second up to a max of <color=#99FFFFFF>40%</color>. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by <color=#99FFFFFF>8%</color> per second until it reaches 0%.",
+				"cost": 8000
+			}
+		]
+	}
+}

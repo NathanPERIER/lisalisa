@@ -1,0 +1,871 @@
+{
+	"hoyo_id": 10000046,
+	"promote_id": 46,
+	"skill_depot_id": 4601,
+	"fetter_id": 132,
+	"weapon": "polearm",
+	"name_hash": 1940919994,
+	"desc_hash": 223073489,
+	"name": "Hu Tao",
+	"desc": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": [
+		15,
+		7
+	],
+	"region": "liyue",
+	"vision_hash": [
+		3112476852,
+		719537873
+	],
+	"astrolabe_hash": [
+		3041688594,
+		3861029139
+	],
+	"allegiance_hash": 3485382673,
+	"vision": "pyro",
+	"astrolabe": "Papilio Charontis",
+	"allegiance": "Wangsheng Funeral Parlor",
+	"default_weapon": "beginners_protector",
+	"base_stats": {
+		"Base HP": 1210.7164306640625,
+		"Base ATK": 8.285900115966797,
+		"Base DEF": 68.2061996459961,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"agnidus_agate_sliver": 1,
+				"silk_flower": 3,
+				"whopperflower_nectar": 3,
+				"mora": 20000
+			},
+			{
+				"agnidus_agate_fragment": 3,
+				"juvenile_jade": 2,
+				"silk_flower": 10,
+				"whopperflower_nectar": 15,
+				"mora": 40000
+			},
+			{
+				"agnidus_agate_fragment": 6,
+				"juvenile_jade": 4,
+				"silk_flower": 20,
+				"shimmering_nectar": 12,
+				"mora": 60000
+			},
+			{
+				"agnidus_agate_chunk": 3,
+				"juvenile_jade": 8,
+				"silk_flower": 30,
+				"shimmering_nectar": 18,
+				"mora": 80000
+			},
+			{
+				"agnidus_agate_chunk": 6,
+				"juvenile_jade": 12,
+				"silk_flower": 45,
+				"energy_nectar": 12,
+				"mora": 100000
+			},
+			{
+				"agnidus_agate_gemstone": 6,
+				"juvenile_jade": 20,
+				"silk_flower": 60,
+				"energy_nectar": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 1038.079833984375,
+					"Base DEF": 58.481998443603516,
+					"Base ATK": 7.103890895843506,
+					"Crit DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1775.662841796875,
+					"Base DEF": 100.03500366210938,
+					"Base ATK": 12.151392936706543,
+					"Crit DMG%": 0.09600000083446503
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2759.10693359375,
+					"Base DEF": 155.43899536132812,
+					"Base ATK": 18.881393432617188,
+					"Crit DMG%": 0.19200000166893005
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 3496.68994140625,
+					"Base DEF": 196.99200439453125,
+					"Base ATK": 23.928895950317383,
+					"Crit DMG%": 0.19200000166893005
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 4234.27294921875,
+					"Base DEF": 238.5449981689453,
+					"Base ATK": 28.976398468017578,
+					"Crit DMG%": 0.2879999876022339
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 4971.85595703125,
+					"Base DEF": 280.0979919433594,
+					"Base ATK": 34.02389907836914,
+					"Crit DMG%": 0.3840000033378601
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 2345944629,
+			"desc_hash": 2233988720,
+			"charge_num": 1,
+			"name": "Normal Attack: Secret Spear of Wangsheng",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to six consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_diligence": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_diligence": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_diligence": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_diligence": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_diligence": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_diligence": 4,
+					"energy_nectar": 4,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_diligence": 6,
+					"energy_nectar": 6,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_diligence": 12,
+					"energy_nectar": 9,
+					"shard_of_a_foul_legacy": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_diligence": 16,
+					"energy_nectar": 12,
+					"shard_of_a_foul_legacy": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"6-Hit DMG",
+					"Charged Attack",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"46.89%",
+						"48.25%",
+						"61.05%",
+						"65.64%",
+						"33.27%+35.2%",
+						"85.96%",
+						"135.96%",
+						"25",
+						"65.42%",
+						"130.81%/163.39%"
+					],
+					[
+						"50.08%",
+						"51.54%",
+						"65.21%",
+						"70.12%",
+						"35.54%+37.6%",
+						"91.82%",
+						"145.23%",
+						"25",
+						"69.88%",
+						"139.73%/174.53%"
+					],
+					[
+						"53.28%",
+						"54.83%",
+						"69.38%",
+						"74.59%",
+						"37.81%+40%",
+						"97.68%",
+						"154.5%",
+						"25",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"57.54%",
+						"59.22%",
+						"74.92%",
+						"80.56%",
+						"40.84%+43.2%",
+						"105.49%",
+						"166.86%",
+						"25",
+						"80.29%",
+						"160.54%/200.52%"
+					],
+					[
+						"60.74%",
+						"62.51%",
+						"79.09%",
+						"85.03%",
+						"43.1%+45.6%",
+						"111.36%",
+						"176.13%",
+						"25",
+						"84.75%",
+						"169.46%/211.66%"
+					],
+					[
+						"64.47%",
+						"66.35%",
+						"83.94%",
+						"90.26%",
+						"45.75%+48.4%",
+						"118.19%",
+						"186.94%",
+						"25",
+						"89.95%",
+						"179.86%/224.66%"
+					],
+					[
+						"69.26%",
+						"71.28%",
+						"90.19%",
+						"96.97%",
+						"49.15%+52%",
+						"126.98%",
+						"200.85%",
+						"25",
+						"96.64%",
+						"193.24%/241.37%"
+					],
+					[
+						"74.06%",
+						"76.22%",
+						"96.43%",
+						"103.68%",
+						"52.56%+55.6%",
+						"135.78%",
+						"214.76%",
+						"25",
+						"103.33%",
+						"206.62%/258.08%"
+					],
+					[
+						"78.85%",
+						"81.15%",
+						"102.67%",
+						"110.4%",
+						"55.96%+59.2%",
+						"144.57%",
+						"228.66%",
+						"25",
+						"110.02%",
+						"220%/274.79%"
+					],
+					[
+						"83.65%",
+						"86.09%",
+						"108.92%",
+						"117.11%",
+						"59.36%+62.8%",
+						"153.36%",
+						"242.56%",
+						"25",
+						"116.71%",
+						"233.38%/291.5%"
+					],
+					[
+						"88.44%",
+						"91.02%",
+						"115.16%",
+						"123.82%",
+						"62.77%+66.4%",
+						"162.15%",
+						"256.47%",
+						"25",
+						"123.4%",
+						"246.76%/308.21%"
+					],
+					[
+						"93.24%",
+						"95.96%",
+						"121.41%",
+						"130.54%",
+						"66.17%+70%",
+						"170.94%",
+						"270.37%",
+						"25",
+						"130.1%",
+						"260.13%/324.92%"
+					],
+					[
+						"98.04%",
+						"100.89%",
+						"127.65%",
+						"137.25%",
+						"69.57%+73.6%",
+						"179.73%",
+						"284.28%",
+						"25",
+						"136.79%",
+						"273.51%/341.63%"
+					],
+					[
+						"102.83%",
+						"105.83%",
+						"133.89%",
+						"143.96%",
+						"72.98%+77.2%",
+						"188.52%",
+						"298.18%",
+						"25",
+						"143.48%",
+						"286.89%/358.34%"
+					],
+					[
+						"107.63%",
+						"110.76%",
+						"140.14%",
+						"150.68%",
+						"76.38%+80.8%",
+						"197.31%",
+						"312.09%",
+						"25",
+						"150.17%",
+						"300.27%/375.05%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 214248165,
+			"desc_hash": 3772368888,
+			"charge_num": 1,
+			"name": "Guide to Afterlife",
+			"desc": "Only an unwavering flame can cleanse the impurities of this world.\\nHu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.\\n\\n<color=#FFD780FF>Paramita Papilio</color>\\n\u00b7Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.\\n\u00b7Converts attack DMG to <color=#FF9999FF>Pyro DMG</color>, which cannot be overridden by any other elemental infusion.\\n\u00b7Charged Attacks apply the Blood Blossom effect to the enemies hit.\\n\u00b7Increases Hu Tao's resistance to interruption.\\n\\n<color=#FFD780FF>Blood Blossom</color>\\nEnemies affected by Blood Blossom will take <color=#FF9999FF>Pyro DMG</color> every 4s. This DMG is considered Elemental Skill DMG.\\nEach enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.\\n\\n<color=#FFD780FF>Paramita Papilio</color> ends when its duration is over, or Hu Tao has left the battlefield or fallen.\\n\\n<i>Hu Tao's Secret Spear technique is based on several rules, the first of which is: \"The spear opens the path to the afterlife, and the butterflies bridge this world and the next.\"</i>",
+			"costs": [
+				{
+					"teachings_of_diligence": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_diligence": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_diligence": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_diligence": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_diligence": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_diligence": 4,
+					"energy_nectar": 4,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_diligence": 6,
+					"energy_nectar": 6,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_diligence": 12,
+					"energy_nectar": 9,
+					"shard_of_a_foul_legacy": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_diligence": 16,
+					"energy_nectar": 12,
+					"shard_of_a_foul_legacy": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Activation Cost",
+					"ATK Increase",
+					"Blood Blossom DMG",
+					"Blood Blossom Duration",
+					"Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"30% Current HP",
+						"3.84% Max HP",
+						"64%",
+						"8s",
+						"9s",
+						"16s"
+					],
+					[
+						"30% Current HP",
+						"4.07% Max HP",
+						"68.8%",
+						"8s",
+						"9s",
+						"16s"
+					],
+					[
+						"30% Current HP",
+						"4.3% Max HP",
+						"73.6%",
+						"8s",
+						"9s",
+						"16s"
+					],
+					[
+						"30% Current HP",
+						"4.6% Max HP",
+						"80%",
+						"8s",
+						"9s",
+						"16s"
+					],
+					[
+						"30% Current HP",
+						"4.83% Max HP",
+						"84.8%",
+						"8s",
+						"9s",
+						"16s"
+					],
+					[
+						"30% Current HP",
+						"5.06% Max HP",
+						"89.6%",
+						"8s",
+						"9s",
+						"16s"
+					],
+					[
+						"30% Current HP",
+						"5.36% Max HP",
+						"96%",
+						"8s",
+						"9s",
+						"16s"
+					],
+					[
+						"30% Current HP",
+						"5.66% Max HP",
+						"102.4%",
+						"8s",
+						"9s",
+						"16s"
+					],
+					[
+						"30% Current HP",
+						"5.96% Max HP",
+						"108.8%",
+						"8s",
+						"9s",
+						"16s"
+					],
+					[
+						"30% Current HP",
+						"6.26% Max HP",
+						"115.2%",
+						"8s",
+						"9s",
+						"16s"
+					],
+					[
+						"30% Current HP",
+						"6.55% Max HP",
+						"121.6%",
+						"8s",
+						"9s",
+						"16s"
+					],
+					[
+						"30% Current HP",
+						"6.85% Max HP",
+						"128%",
+						"8s",
+						"9s",
+						"16s"
+					],
+					[
+						"30% Current HP",
+						"7.15% Max HP",
+						"136%",
+						"8s",
+						"9s",
+						"16s"
+					],
+					[
+						"30% Current HP",
+						"7.45% Max HP",
+						"144%",
+						"8s",
+						"9s",
+						"16s"
+					],
+					[
+						"30% Current HP",
+						"7.75% Max HP",
+						"152%",
+						"8s",
+						"9s",
+						"16s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 1115787101,
+			"desc_hash": 4072387376,
+			"charge_num": 1,
+			"name": "Spirit Soother",
+			"desc": "Commands a blazing spirit to attack, dealing <color=#FF9999FF>Pyro DMG</color> in a large AoE.\\nUpon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times, based on the number of enemies hit.\\nIf Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased.\\n\\n<i>Supernatural activity by those who have already left this world is a source of great anxiety for the Wangsheng Funeral Parlor. In such cases, cremation always lets Hu Tao find peace of mind. The more anxious she feels, the stronger the flame.</i>",
+			"costs": [
+				{
+					"teachings_of_diligence": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_diligence": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_diligence": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_diligence": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_diligence": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_diligence": 4,
+					"energy_nectar": 4,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_diligence": 6,
+					"energy_nectar": 6,
+					"shard_of_a_foul_legacy": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_diligence": 12,
+					"energy_nectar": 9,
+					"shard_of_a_foul_legacy": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_diligence": 16,
+					"energy_nectar": 12,
+					"shard_of_a_foul_legacy": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Low HP Skill DMG",
+					"Skill HP Regeneration",
+					"Low HP Skill Regeneration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"303.27%",
+						"379.09%",
+						"6.26% Max HP",
+						"8.35% Max HP",
+						"15s",
+						"60"
+					],
+					[
+						"321.43%",
+						"401.79%",
+						"6.64% Max HP",
+						"8.85% Max HP",
+						"15s",
+						"60"
+					],
+					[
+						"339.59%",
+						"424.49%",
+						"7.01% Max HP",
+						"9.35% Max HP",
+						"15s",
+						"60"
+					],
+					[
+						"363.2%",
+						"454%",
+						"7.5% Max HP",
+						"10% Max HP",
+						"15s",
+						"60"
+					],
+					[
+						"381.36%",
+						"476.7%",
+						"7.87% Max HP",
+						"10.5% Max HP",
+						"15s",
+						"60"
+					],
+					[
+						"399.52%",
+						"499.4%",
+						"8.25% Max HP",
+						"11% Max HP",
+						"15s",
+						"60"
+					],
+					[
+						"423.13%",
+						"528.91%",
+						"8.74% Max HP",
+						"11.65% Max HP",
+						"15s",
+						"60"
+					],
+					[
+						"446.74%",
+						"558.42%",
+						"9.22% Max HP",
+						"12.3% Max HP",
+						"15s",
+						"60"
+					],
+					[
+						"470.34%",
+						"587.93%",
+						"9.71% Max HP",
+						"12.95% Max HP",
+						"15s",
+						"60"
+					],
+					[
+						"493.95%",
+						"617.44%",
+						"10.2% Max HP",
+						"13.6% Max HP",
+						"15s",
+						"60"
+					],
+					[
+						"517.56%",
+						"646.95%",
+						"10.69% Max HP",
+						"14.25% Max HP",
+						"15s",
+						"60"
+					],
+					[
+						"541.17%",
+						"676.46%",
+						"11.17% Max HP",
+						"14.9% Max HP",
+						"15s",
+						"60"
+					],
+					[
+						"564.78%",
+						"705.97%",
+						"11.66% Max HP",
+						"15.55% Max HP",
+						"15s",
+						"60"
+					],
+					[
+						"588.38%",
+						"735.48%",
+						"12.15% Max HP",
+						"16.2% Max HP",
+						"15s",
+						"60"
+					],
+					[
+						"611.99%",
+						"764.99%",
+						"12.64% Max HP",
+						"16.85% Max HP",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 2050097581,
+			"desc_hash": 1251434283,
+			"ascension": 1,
+			"name": "Flutter By",
+			"desc": "When a <color=#FFD780FF>Paramita Papilio</color> state activated by <color=#FFD780FF>Guide to Afterlife</color> ends, all allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 8s."
+		},
+		{
+			"name_hash": 2294463397,
+			"desc_hash": 3730912435,
+			"ascension": 4,
+			"name": "Sanguine Rouge",
+			"desc": "When Hu Tao's HP is equal to or less than 50%, her <color=#FF9999FF>Pyro DMG Bonus</color> is increased by 33%."
+		},
+		{
+			"name_hash": 1749668397,
+			"desc_hash": 3062891747,
+			"ascension": null,
+			"name": "The More the Merrier",
+			"desc": "When Hu Tao cooks a dish perfectly, she has a 18% chance to receive an additional \"Suspicious\" dish of the same type."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 2081199193,
+			"name": "Crimson Bouquet",
+			"desc_hash": 67778231,
+			"desc": "While in a <color=#FFD780FF>Paramita Papilio</color> state activated by <color=#FFD780FF>Guide to Afterlife</color>, Hu Tao's Charge Attacks do not consume Stamina."
+		},
+		{
+			"name_hash": 1768747369,
+			"name": "Ominous Rainfall",
+			"desc_hash": 3620258903,
+			"desc": "Increases the <color=#FFD780FF>Blood Blossom</color> DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied.\\nAdditionally, <color=#FFD780FF>Spirit Soother</color> will also apply the <color=#FFD780FF>Blood Blossom</color> effect."
+		},
+		{
+			"name_hash": 3111083697,
+			"name": "Lingering Carmine",
+			"desc_hash": 3057870071,
+			"desc": "Increases the Level of <color=#FFD780FF>Guide to Afterlife</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 4276933609,
+			"name": "Garden of Eternal Rest",
+			"desc_hash": 3695286279,
+			"desc": "Upon defeating an enemy affected by a <color=#FFD780FF>Blood Blossom</color> that Hu Tao applied herself, all nearby allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 15s."
+		},
+		{
+			"name_hash": 658527361,
+			"name": "Floral Incense",
+			"desc_hash": 2735458983,
+			"desc": "Increases the Level of <color=#FFD780FF>Spirit Soother</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2361886209,
+			"name": "Butterfly's Embrace",
+			"desc_hash": 3811817239,
+			"desc": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:\\nHu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, all of her Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.\\nThis effect triggers automatically when Hu Tao has 1 HP left.\\nCan only occur once every 60s."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 626284674,
+			"desc_hash": 1186495122,
+			"restricted": false,
+			"name": "Plum Blossom Bouquet",
+			"desc": "Hu Tao's outfit. The daily work clothes of the Wangsheng Funeral Parlor's director."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108200,
+		"name_hash": 1745083764,
+		"desc_hash": 1802123117,
+		"type_hash": 1134559294,
+		"rarity": 2,
+		"name": "Ghostly March",
+		"desc": "Hu Tao's specialty. The round-faced ghouls seem quite cute, squeezed into a pile as they are. But if you were to fall to temptation and try but one of them, you may yet come to regret it for a long while... After all, this plate is full of top-quality, taste-bud-blasting\u2014 Actually, what on earth is this stuff, anyway?",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 1453877799,
+		"effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP.",
+		"original_recipe": "vegetarian_abalone"
+	}
+}

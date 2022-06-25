@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15408,
+	"promote_id": 15408,
+	"gadget_id": 50015408,
+	"story_id": [
+		195408
+	],
+	"skill_affix": [
+		115408,
+		0
+	],
+	"type": "bow",
+	"name_hash": 3447737235,
+	"desc_hash": 1032617965,
+	"name": "Blackcliff Warbow",
+	"desc": "A bow made of blackcliff that features extremely sturdy bow limbs. It requires an archer with a strong bow arm to use.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 43.734901428222656,
+		"Crit DMG%": 0.07999999821186066
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_202",
+		"Crit DMG%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"luminous_sands_from_guyun": 3,
+				"hunters_sacrificial_knife": 3,
+				"whopperflower_nectar": 2,
+				"mora": 5000
+			},
+			{
+				"lustrous_stone_from_guyun": 3,
+				"hunters_sacrificial_knife": 12,
+				"whopperflower_nectar": 8,
+				"mora": 15000
+			},
+			{
+				"lustrous_stone_from_guyun": 6,
+				"agents_sacrificial_knife": 6,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"relic_from_guyun": 3,
+				"agents_sacrificial_knife": 12,
+				"shimmering_nectar": 9,
+				"mora": 30000
+			},
+			{
+				"relic_from_guyun": 6,
+				"inspectors_sacrificial_knife": 9,
+				"energy_nectar": 6,
+				"mora": 35000
+			},
+			{
+				"divine_body_from_guyun": 4,
+				"inspectors_sacrificial_knife": 18,
+				"energy_nectar": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1421912251,
+		"name": "Press the Advantage",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1154080,
+				"desc_hash": 543707433,
+				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>12%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1154081,
+				"desc_hash": 2100079113,
+				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>15%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1154082,
+				"desc_hash": 1193712033,
+				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>18%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1154083,
+				"desc_hash": 1886181673,
+				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>21%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1154084,
+				"desc_hash": 4141833753,
+				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>24%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"cost": 8000
+			}
+		]
+	}
+}

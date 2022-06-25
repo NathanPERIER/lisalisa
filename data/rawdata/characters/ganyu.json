@@ -1,0 +1,839 @@
+{
+	"hoyo_id": 10000037,
+	"promote_id": 37,
+	"skill_depot_id": 3701,
+	"fetter_id": 125,
+	"weapon": "bow",
+	"name_hash": 2679781122,
+	"desc_hash": 313187777,
+	"name": "Ganyu",
+	"desc": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": [
+		2,
+		12
+	],
+	"region": "liyue",
+	"vision_hash": [
+		862088588,
+		22897537
+	],
+	"astrolabe_hash": [
+		3362074034,
+		1513569691
+	],
+	"allegiance_hash": 3866698241,
+	"vision": "cryo",
+	"astrolabe": "Sinae Unicornis",
+	"allegiance": "Yuehai Pavilion",
+	"default_weapon": "hunters_bow",
+	"base_stats": {
+		"Base HP": 762.656005859375,
+		"Base ATK": 26.06800079345703,
+		"Base DEF": 49.06060028076172,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"shivada_jade_sliver": 1,
+				"qingxin": 3,
+				"whopperflower_nectar": 3,
+				"mora": 20000
+			},
+			{
+				"shivada_jade_fragment": 3,
+				"hoarfrost_core": 2,
+				"qingxin": 10,
+				"whopperflower_nectar": 15,
+				"mora": 40000
+			},
+			{
+				"shivada_jade_fragment": 6,
+				"hoarfrost_core": 4,
+				"qingxin": 20,
+				"shimmering_nectar": 12,
+				"mora": 60000
+			},
+			{
+				"shivada_jade_chunk": 3,
+				"hoarfrost_core": 8,
+				"qingxin": 30,
+				"shimmering_nectar": 18,
+				"mora": 80000
+			},
+			{
+				"shivada_jade_chunk": 6,
+				"hoarfrost_core": 12,
+				"qingxin": 45,
+				"energy_nectar": 12,
+				"mora": 100000
+			},
+			{
+				"shivada_jade_gemstone": 6,
+				"hoarfrost_core": 20,
+				"qingxin": 60,
+				"energy_nectar": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 653.9085693359375,
+					"Base DEF": 42.066001892089844,
+					"Base ATK": 22.349319458007812,
+					"Crit DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1118.52783203125,
+					"Base DEF": 71.95500183105469,
+					"Base ATK": 38.22909927368164,
+					"Crit DMG%": 0.09600000083446503
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1738.0201416015625,
+					"Base DEF": 111.80699920654297,
+					"Base ATK": 59.40214157104492,
+					"Crit DMG%": 0.19200000166893005
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2202.639404296875,
+					"Base DEF": 141.6959991455078,
+					"Base ATK": 75.28192138671875,
+					"Crit DMG%": 0.19200000166893005
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2667.258544921875,
+					"Base DEF": 171.5850067138672,
+					"Base ATK": 91.16169738769531,
+					"Crit DMG%": 0.2879999876022339
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3131.8779296875,
+					"Base DEF": 201.4739990234375,
+					"Base ATK": 107.0414810180664,
+					"Crit DMG%": 0.3840000033378601
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 798389461,
+			"desc_hash": 3036547760,
+			"charge_num": 1,
+			"name": "Normal Attack: Liutian Archery",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 6 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\\n\u00b7Charge Level 1: Fires off an icy arrow that deals <color=#99FFFFFF>Cryo DMG</color>.\\n\u00b7Charge Level 2: Fires off a Frostflake Arrow that deals <color=#99FFFFFF>Cryo DMG</color>. The Frostflake Arrow blooms after hitting its target, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_diligence": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_diligence": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_diligence": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_diligence": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_diligence": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_diligence": 4,
+					"energy_nectar": 4,
+					"shadow_of_the_warrior": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_diligence": 6,
+					"energy_nectar": 6,
+					"shadow_of_the_warrior": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_diligence": 12,
+					"energy_nectar": 9,
+					"shadow_of_the_warrior": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_diligence": 16,
+					"energy_nectar": 12,
+					"shadow_of_the_warrior": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"6-Hit DMG",
+					"Aimed Shot",
+					"Aimed Shot Charge Level 1",
+					"Frostflake Arrow DMG",
+					"Frostflake Arrow Bloom DMG",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"31.73%",
+						"35.6%",
+						"45.49%",
+						"45.49%",
+						"48.25%",
+						"57.62%",
+						"43.86%",
+						"124%",
+						"128%",
+						"217.6%",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"34.32%",
+						"38.5%",
+						"49.2%",
+						"49.2%",
+						"52.17%",
+						"62.31%",
+						"47.43%",
+						"133.3%",
+						"137.6%",
+						"233.92%",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"36.9%",
+						"41.4%",
+						"52.9%",
+						"52.9%",
+						"56.1%",
+						"67%",
+						"51%",
+						"142.6%",
+						"147.2%",
+						"250.24%",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"40.59%",
+						"45.54%",
+						"58.19%",
+						"58.19%",
+						"61.71%",
+						"73.7%",
+						"56.1%",
+						"155%",
+						"160%",
+						"272%",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"43.17%",
+						"48.44%",
+						"61.89%",
+						"61.89%",
+						"65.64%",
+						"78.39%",
+						"59.67%",
+						"164.3%",
+						"169.6%",
+						"288.32%",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"46.13%",
+						"51.75%",
+						"66.12%",
+						"66.12%",
+						"70.13%",
+						"83.75%",
+						"63.75%",
+						"173.6%",
+						"179.2%",
+						"304.64%",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"50.18%",
+						"56.3%",
+						"71.94%",
+						"71.94%",
+						"76.3%",
+						"91.12%",
+						"69.36%",
+						"186%",
+						"192%",
+						"326.4%",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"54.24%",
+						"60.86%",
+						"77.76%",
+						"77.76%",
+						"82.47%",
+						"98.49%",
+						"74.97%",
+						"198.4%",
+						"204.8%",
+						"348.16%",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"58.3%",
+						"65.41%",
+						"83.58%",
+						"83.58%",
+						"88.64%",
+						"105.86%",
+						"80.58%",
+						"210.8%",
+						"217.6%",
+						"369.92%",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"62.73%",
+						"70.38%",
+						"89.93%",
+						"89.93%",
+						"95.37%",
+						"113.9%",
+						"86.7%",
+						"223.2%",
+						"230.4%",
+						"391.68%",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"67.8%",
+						"76.07%",
+						"97.2%",
+						"97.2%",
+						"103.08%",
+						"123.11%",
+						"92.82%",
+						"235.6%",
+						"243.2%",
+						"413.44%",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"73.77%",
+						"82.77%",
+						"105.76%",
+						"105.76%",
+						"112.16%",
+						"133.95%",
+						"98.94%",
+						"248%",
+						"256%",
+						"435.2%",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"79.74%",
+						"89.46%",
+						"114.31%",
+						"114.31%",
+						"121.23%",
+						"144.78%",
+						"105.06%",
+						"263.5%",
+						"272%",
+						"462.4%",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"85.7%",
+						"96.16%",
+						"122.87%",
+						"122.87%",
+						"130.3%",
+						"155.61%",
+						"111.18%",
+						"279%",
+						"288%",
+						"489.6%",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"92.21%",
+						"103.46%",
+						"132.2%",
+						"132.2%",
+						"140.19%",
+						"167.43%",
+						"117.3%",
+						"294.5%",
+						"304%",
+						"516.8%",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 1812426093,
+			"desc_hash": 2539067016,
+			"charge_num": 1,
+			"name": "Trail of the Qilin",
+			"desc": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<color=#FFD780FF>Ice Lotus</color>\\n\u00b7Continuously taunts surrounding opponents, attracting them to attack it.\\n\u00b7Endurance scales based on Ganyu's Max HP.\\n\u00b7Blooms profusely when destroyed or once its duration ends, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<i>\"You saw me, you say? You must be mistaken. I was working overtime then.\"</i>",
+			"costs": [
+				{
+					"teachings_of_diligence": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_diligence": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_diligence": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_diligence": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_diligence": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_diligence": 4,
+					"energy_nectar": 4,
+					"shadow_of_the_warrior": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_diligence": 6,
+					"energy_nectar": 6,
+					"shadow_of_the_warrior": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_diligence": 12,
+					"energy_nectar": 9,
+					"shadow_of_the_warrior": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_diligence": 16,
+					"energy_nectar": 12,
+					"shadow_of_the_warrior": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Inherited HP",
+					"Skill DMG",
+					"Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"120%",
+						"132%",
+						"6s",
+						"10s"
+					],
+					[
+						"129%",
+						"141.9%",
+						"6s",
+						"10s"
+					],
+					[
+						"138%",
+						"151.8%",
+						"6s",
+						"10s"
+					],
+					[
+						"150%",
+						"165%",
+						"6s",
+						"10s"
+					],
+					[
+						"159%",
+						"174.9%",
+						"6s",
+						"10s"
+					],
+					[
+						"168%",
+						"184.8%",
+						"6s",
+						"10s"
+					],
+					[
+						"180%",
+						"198%",
+						"6s",
+						"10s"
+					],
+					[
+						"192%",
+						"211.2%",
+						"6s",
+						"10s"
+					],
+					[
+						"204%",
+						"224.4%",
+						"6s",
+						"10s"
+					],
+					[
+						"216%",
+						"237.6%",
+						"6s",
+						"10s"
+					],
+					[
+						"228%",
+						"250.8%",
+						"6s",
+						"10s"
+					],
+					[
+						"240%",
+						"264%",
+						"6s",
+						"10s"
+					],
+					[
+						"255%",
+						"280.5%",
+						"6s",
+						"10s"
+					],
+					[
+						"270%",
+						"297%",
+						"6s",
+						"10s"
+					],
+					[
+						"285%",
+						"313.5%",
+						"6s",
+						"10s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 683098317,
+			"desc_hash": 1897366776,
+			"charge_num": 1,
+			"name": "Celestial Shower",
+			"desc": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.\\nDuring its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<i>Ganyu can bring down sweet rains as a matter of course. But against demons and heretics, they become bitter, freezing snow.</i>",
+			"costs": [
+				{
+					"teachings_of_diligence": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_diligence": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_diligence": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_diligence": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_diligence": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_diligence": 4,
+					"energy_nectar": 4,
+					"shadow_of_the_warrior": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_diligence": 6,
+					"energy_nectar": 6,
+					"shadow_of_the_warrior": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_diligence": 12,
+					"energy_nectar": 9,
+					"shadow_of_the_warrior": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_diligence": 16,
+					"energy_nectar": 12,
+					"shadow_of_the_warrior": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Ice Shard DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"70.27%",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"75.54%",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"80.81%",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"87.84%",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"93.11%",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"98.38%",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"105.41%",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"112.44%",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"119.46%",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"126.49%",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"133.52%",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"140.54%",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"149.33%",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"158.11%",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"166.9%",
+						"15s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 3611339165,
+			"desc_hash": 931735291,
+			"ascension": 1,
+			"name": "Undivided Heart",
+			"desc": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s."
+		},
+		{
+			"name_hash": 760610189,
+			"desc_hash": 218500755,
+			"ascension": 4,
+			"name": "Harmony Between Heaven and Earth",
+			"desc": "<color=#FFD780FF>Celestial Shower</color> grants a 20% <color=#99FFFFFF>Cryo DMG Bonus</color> to active party members in the AoE."
+		},
+		{
+			"name_hash": 4278043437,
+			"desc_hash": 2590341483,
+			"ascension": null,
+			"name": "Preserved for the Hunt",
+			"desc": "Refunds 15% of the ore used when crafting Bow-type weapons."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 2361723385,
+			"name": "Dew-Drinker",
+			"desc_hash": 975174791,
+			"desc": "Charge Level 2 Frostflake Arrows or Frostflake Arrow Blooms decrease opponents' <color=#99FFFFFF>Cryo RES</color> by 15% for 6s upon hit.\\nA hit also regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hits the target."
+		},
+		{
+			"name_hash": 1383329801,
+			"name": "The Auspicious",
+			"desc_hash": 3346118319,
+			"desc": "<color=#FFD780FF>Trail of the Qilin</color> gains 1 additional charge."
+		},
+		{
+			"name_hash": 3222345473,
+			"name": "Cloud-Strider",
+			"desc_hash": 2569532143,
+			"desc": "Increases the Level of <color=#FFD780FF>Celestial Shower</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3290499593,
+			"name": "Westward Sojourn",
+			"desc_hash": 1565817023,
+			"desc": "Opponents standing within the AoE of <color=#FFD780FF>Celestial Shower</color> take increased DMG. This effect strengthens over time.\\nIncreased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%.\\nThe effect lingers for 3s after the opponent leaves the AoE."
+		},
+		{
+			"name_hash": 1752707929,
+			"name": "The Merciful",
+			"desc_hash": 1288501871,
+			"desc": "Increases the Level of <color=#FFD780FF>Trail of the Qilin</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 37217545,
+			"name": "The Clement",
+			"desc_hash": 3563825719,
+			"desc": "Using <color=#FFD780FF>Trail of the Qilin</color> causes the next Frostflake Arrow shot within 30s to not require charging."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 4131676042,
+			"desc_hash": 1209631242,
+			"restricted": false,
+			"name": "Frostdew Trail",
+			"desc": "Ganyu's outfit. Elegant clothes blessed by the mighty and illuminated adepti."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108213,
+		"name_hash": 3368241084,
+		"desc_hash": 4011841317,
+		"type_hash": 3714429102,
+		"rarity": 3,
+		"name": "Prosperous Peace",
+		"desc": "Ganyu's specialty. The image of a resting qilin is by itself enough to calm a person down. Ganyu has put her well-wishes for all that is lovely in this world into this dish \u2014 and she's saved some of her favorite Qingxin Flowers just for you, too.",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 1372380415,
+		"effect": "Restores 40% of Max HP and an additional 2,350 HP to the selected character.",
+		"original_recipe": "universal_peace"
+	}
+}

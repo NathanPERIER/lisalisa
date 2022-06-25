@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13406,
+	"promote_id": 13406,
+	"gadget_id": 50013406,
+	"story_id": [
+		193406
+	],
+	"skill_affix": [
+		113406,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 716252627,
+	"desc_hash": 366604621,
+	"name": "Lithic Spear",
+	"desc": "A spear forged from the rocks of the Guyun Stone Forest. Its hardness knows no equal.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 43.734901428222656,
+		"ATK%": 0.05999999865889549
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_202",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"grain_of_aerosiderite": 3,
+				"fragile_bone_shard": 3,
+				"firm_arrowhead": 2,
+				"mora": 5000
+			},
+			{
+				"piece_of_aerosiderite": 3,
+				"fragile_bone_shard": 12,
+				"firm_arrowhead": 8,
+				"mora": 15000
+			},
+			{
+				"piece_of_aerosiderite": 6,
+				"sturdy_bone_shard": 6,
+				"sharp_arrowhead": 6,
+				"mora": 20000
+			},
+			{
+				"bit_of_aerosiderite": 3,
+				"sturdy_bone_shard": 12,
+				"sharp_arrowhead": 9,
+				"mora": 30000
+			},
+			{
+				"bit_of_aerosiderite": 6,
+				"fossilized_bone_shard": 9,
+				"weathered_arrowhead": 6,
+				"mora": 35000
+			},
+			{
+				"chunk_of_aerosiderite": 4,
+				"fossilized_bone_shard": 18,
+				"weathered_arrowhead": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2295392083,
+		"name": "Lithic Axiom: Unity",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1134060,
+				"desc_hash": 958977537,
+				"desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>7%</color> ATK increase and a <color=#99FFFFFF>3%</color> CRIT Rate increase. This effect stacks up to 4 times.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1134061,
+				"desc_hash": 2223743225,
+				"desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>8%</color> ATK increase and a <color=#99FFFFFF>4%</color> CRIT Rate increase. This effect stacks up to 4 times.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1134062,
+				"desc_hash": 7064641,
+				"desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>9%</color> ATK increase and a <color=#99FFFFFF>5%</color> CRIT Rate increase. This effect stacks up to 4 times.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1134063,
+				"desc_hash": 1737027817,
+				"desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>10%</color> ATK increase and a <color=#99FFFFFF>6%</color> CRIT Rate increase. This effect stacks up to 4 times.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1134064,
+				"desc_hash": 4195168345,
+				"desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>11%</color> ATK increase and a <color=#99FFFFFF>7%</color> CRIT Rate increase. This effect stacks up to 4 times.",
+				"cost": 8000
+			}
+		]
+	}
+}

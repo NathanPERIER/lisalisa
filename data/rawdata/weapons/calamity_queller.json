@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13507,
+	"promote_id": 13507,
+	"gadget_id": 50013507,
+	"story_id": [
+		193507
+	],
+	"skill_affix": [
+		113507,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 688991243,
+	"desc_hash": 4156676173,
+	"name": "Calamity Queller",
+	"desc": "A keenly honed weapon forged from some strange crystal. Its faint blue light seems to whisper of countless matters now past.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 49.137699127197266,
+		"ATK%": 0.035999998450279236
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_303",
+		"ATK%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"mist_veiled_lead_elixir": 5,
+				"mist_grass_pollen": 5,
+				"whopperflower_nectar": 3,
+				"mora": 10000
+			},
+			{
+				"mist_veiled_mercury_elixir": 5,
+				"mist_grass_pollen": 18,
+				"whopperflower_nectar": 12,
+				"mora": 20000
+			},
+			{
+				"mist_veiled_mercury_elixir": 9,
+				"mist_grass": 9,
+				"shimmering_nectar": 9,
+				"mora": 30000
+			},
+			{
+				"mist_veiled_gold_elixir": 5,
+				"mist_grass": 18,
+				"shimmering_nectar": 14,
+				"mora": 45000
+			},
+			{
+				"mist_veiled_gold_elixir": 9,
+				"mist_grass_wick": 14,
+				"energy_nectar": 9,
+				"mora": 55000
+			},
+			{
+				"mist_veiled_primo_elixir": 6,
+				"mist_grass_wick": 27,
+				"energy_nectar": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 131958747,
+		"name": "Extinguishing Precept",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1135070,
+				"desc_hash": 3432697505,
+				"desc": "Gain <color=#99FFFFFF>12%</color> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <color=#99FFFFFF>3.2%</color> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1135071,
+				"desc_hash": 3619812593,
+				"desc": "Gain <color=#99FFFFFF>15%</color> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <color=#99FFFFFF>4%</color> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1135072,
+				"desc_hash": 4237092561,
+				"desc": "Gain <color=#99FFFFFF>18%</color> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <color=#99FFFFFF>4.8%</color> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1135073,
+				"desc_hash": 3817202369,
+				"desc": "Gain <color=#99FFFFFF>21%</color> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <color=#99FFFFFF>5.6%</color> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1135074,
+				"desc_hash": 642703121,
+				"desc": "Gain <color=#99FFFFFF>24%</color> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <color=#99FFFFFF>6.4%</color> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+				"cost": 16000
+			}
+		]
+	}
+}

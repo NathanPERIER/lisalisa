@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13414,
+	"promote_id": 13414,
+	"gadget_id": 50013414,
+	"story_id": [
+		193414
+	],
+	"skill_affix": [
+		113414,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 2491797315,
+	"desc_hash": 4129402597,
+	"name": "Kitain Cross Spear",
+	"desc": "A special lance that was once used by a famed warrior who guarded the Tatarigami on Yashiori Island.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 43.734901428222656,
+		"Elemental Mastery": 24.0
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_202",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"mask_of_the_wicked_lieutenant": 3,
+				"chaos_gear": 3,
+				"treasure_hoarder_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"mask_of_the_tigers_bite": 3,
+				"chaos_gear": 12,
+				"treasure_hoarder_insignia": 8,
+				"mora": 15000
+			},
+			{
+				"mask_of_the_tigers_bite": 6,
+				"chaos_axis": 6,
+				"silver_raven_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"mask_of_the_one_horned": 3,
+				"chaos_axis": 12,
+				"silver_raven_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"mask_of_the_one_horned": 6,
+				"chaos_oculus": 9,
+				"golden_raven_insignia": 6,
+				"mora": 35000
+			},
+			{
+				"mask_of_the_kijin": 4,
+				"chaos_oculus": 18,
+				"golden_raven_insignia": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1395788379,
+		"name": "Samurai Conduct",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1134140,
+				"desc_hash": 736733185,
+				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>6%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>3</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1134141,
+				"desc_hash": 2577898849,
+				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>7.5%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>3.5</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1134142,
+				"desc_hash": 2790286897,
+				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>9%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>4</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1134143,
+				"desc_hash": 2098223657,
+				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>10.5%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>4.5</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1134144,
+				"desc_hash": 2490589633,
+				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>12%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>5</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"cost": 8000
+			}
+		]
+	}
+}

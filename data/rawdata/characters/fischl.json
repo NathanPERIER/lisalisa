@@ -1,0 +1,775 @@
+{
+	"hoyo_id": 10000031,
+	"promote_id": 31,
+	"skill_depot_id": 3101,
+	"fetter_id": 119,
+	"weapon": "bow",
+	"name_hash": 3277782506,
+	"desc_hash": 1695621873,
+	"name": "Fischl",
+	"desc": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": [
+		27,
+		5
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		122554396,
+		936354993
+	],
+	"astrolabe_hash": [
+		2198842266,
+		2276514827
+	],
+	"allegiance_hash": 2368787601,
+	"vision": "electro",
+	"astrolabe": "Corvus",
+	"allegiance": "Adventurers' Guild",
+	"default_weapon": "hunters_bow",
+	"base_stats": {
+		"Base HP": 770.46337890625,
+		"Base ATK": 20.47920036315918,
+		"Base DEF": 49.78575134277344,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"vajrada_amethyst_sliver": 1,
+				"small_lamp_grass": 3,
+				"firm_arrowhead": 3,
+				"mora": 20000
+			},
+			{
+				"vajrada_amethyst_fragment": 3,
+				"lightning_prism": 2,
+				"small_lamp_grass": 10,
+				"firm_arrowhead": 15,
+				"mora": 40000
+			},
+			{
+				"vajrada_amethyst_fragment": 6,
+				"lightning_prism": 4,
+				"small_lamp_grass": 20,
+				"sharp_arrowhead": 12,
+				"mora": 60000
+			},
+			{
+				"vajrada_amethyst_chunk": 3,
+				"lightning_prism": 8,
+				"small_lamp_grass": 30,
+				"sharp_arrowhead": 18,
+				"mora": 80000
+			},
+			{
+				"vajrada_amethyst_chunk": 6,
+				"lightning_prism": 12,
+				"small_lamp_grass": 45,
+				"weathered_arrowhead": 12,
+				"mora": 100000
+			},
+			{
+				"vajrada_amethyst_gemstone": 6,
+				"lightning_prism": 20,
+				"small_lamp_grass": 60,
+				"weathered_arrowhead": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 575.5756225585938,
+					"Base DEF": 37.192501068115234,
+					"Base ATK": 15.299369812011719,
+					"ATK%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 984.5372314453125,
+					"Base DEF": 63.618751525878906,
+					"Base ATK": 26.16997528076172,
+					"ATK%": 0.05999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1529.8193359375,
+					"Base DEF": 98.85375213623047,
+					"Base ATK": 40.66411590576172,
+					"ATK%": 0.11999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 1938.781005859375,
+					"Base DEF": 125.27999877929688,
+					"Base ATK": 51.53472137451172,
+					"ATK%": 0.11999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2347.74267578125,
+					"Base DEF": 151.7062530517578,
+					"Base ATK": 62.40532684326172,
+					"ATK%": 0.18000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 2756.7041015625,
+					"Base DEF": 178.13250732421875,
+					"Base ATK": 73.27593231201172,
+					"ATK%": 0.23999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 3733168437,
+			"desc_hash": 3636661160,
+			"charge_num": 1,
+			"name": "Normal Attack: Bolts of Downfall",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachs\u00fcchtig Blitz shall deal immense <color=#FFACFFFF>Electro DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"firm_arrowhead": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"sharp_arrowhead": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"sharp_arrowhead": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"sharp_arrowhead": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"sharp_arrowhead": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"weathered_arrowhead": 4,
+					"spirit_locket_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"weathered_arrowhead": 6,
+					"spirit_locket_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"weathered_arrowhead": 9,
+					"spirit_locket_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"weathered_arrowhead": 12,
+					"spirit_locket_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Aimed Shot",
+					"Fully-Charged Aimed Shot",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"44.12%",
+						"46.78%",
+						"58.14%",
+						"57.71%",
+						"72.07%",
+						"43.86%",
+						"124%",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"47.71%",
+						"50.59%",
+						"62.87%",
+						"62.4%",
+						"77.93%",
+						"47.43%",
+						"133.3%",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"51.3%",
+						"54.4%",
+						"67.6%",
+						"67.1%",
+						"83.8%",
+						"51%",
+						"142.6%",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"56.43%",
+						"59.84%",
+						"74.36%",
+						"73.81%",
+						"92.18%",
+						"56.1%",
+						"155%",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"60.02%",
+						"63.65%",
+						"79.09%",
+						"78.51%",
+						"98.05%",
+						"59.67%",
+						"164.3%",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"64.13%",
+						"68%",
+						"84.5%",
+						"83.88%",
+						"104.75%",
+						"63.75%",
+						"173.6%",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"69.77%",
+						"73.98%",
+						"91.94%",
+						"91.26%",
+						"113.97%",
+						"69.36%",
+						"186%",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"75.41%",
+						"79.97%",
+						"99.37%",
+						"98.64%",
+						"123.19%",
+						"74.97%",
+						"198.4%",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"81.05%",
+						"85.95%",
+						"106.81%",
+						"106.02%",
+						"132.4%",
+						"80.58%",
+						"210.8%",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"87.21%",
+						"92.48%",
+						"114.92%",
+						"114.07%",
+						"142.46%",
+						"86.7%",
+						"223.2%",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"93.37%",
+						"99.01%",
+						"123.03%",
+						"122.12%",
+						"152.52%",
+						"92.82%",
+						"235.6%",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"99.52%",
+						"105.54%",
+						"131.14%",
+						"130.17%",
+						"162.57%",
+						"98.94%",
+						"248%",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"105.68%",
+						"112.06%",
+						"139.26%",
+						"138.23%",
+						"172.63%",
+						"105.06%",
+						"263.5%",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"111.83%",
+						"118.59%",
+						"147.37%",
+						"146.28%",
+						"182.68%",
+						"111.18%",
+						"279%",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"117.99%",
+						"125.12%",
+						"155.48%",
+						"154.33%",
+						"192.74%",
+						"117.3%",
+						"294.5%",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2390005205,
+			"desc_hash": 4282764920,
+			"charge_num": 1,
+			"name": "Nightrider",
+			"desc": "#Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing <color=#FFACFFFF>Electro DMG</color> in a small AoE.\\nFor the ability's duration, Oz will continuously attack nearby opponents with <color=#FFACFFFF>Freikugel</color>.\\n\\nHold to adjust the location Oz will be summoned to.\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} again any time during the ability's duration to once again summon him to Fischl's side.\\n\\n<i>\"My time is most precious, and I shall not waste it on the likes of you... Go, Oz, fall upon them, and bring down upon them your Rachs\u00fcchtig Blitz, that which tears open the long night.\"</i>\\n<i>\u2014Flowers for Princess Fischl (IV): Farewell Frau Welt</i>",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"firm_arrowhead": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"sharp_arrowhead": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"sharp_arrowhead": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"sharp_arrowhead": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"sharp_arrowhead": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"weathered_arrowhead": 4,
+					"spirit_locket_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"weathered_arrowhead": 6,
+					"spirit_locket_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"weathered_arrowhead": 9,
+					"spirit_locket_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"weathered_arrowhead": 12,
+					"spirit_locket_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Oz's ATK DMG",
+					"Summoning DMG",
+					"Oz's Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"88.8%",
+						"115.44%",
+						"10s",
+						"25s"
+					],
+					[
+						"95.46%",
+						"124.1%",
+						"10s",
+						"25s"
+					],
+					[
+						"102.12%",
+						"132.76%",
+						"10s",
+						"25s"
+					],
+					[
+						"111%",
+						"144.3%",
+						"10s",
+						"25s"
+					],
+					[
+						"117.66%",
+						"152.96%",
+						"10s",
+						"25s"
+					],
+					[
+						"124.32%",
+						"161.62%",
+						"10s",
+						"25s"
+					],
+					[
+						"133.2%",
+						"173.16%",
+						"10s",
+						"25s"
+					],
+					[
+						"142.08%",
+						"184.7%",
+						"10s",
+						"25s"
+					],
+					[
+						"150.96%",
+						"196.25%",
+						"10s",
+						"25s"
+					],
+					[
+						"159.84%",
+						"207.79%",
+						"10s",
+						"25s"
+					],
+					[
+						"168.72%",
+						"219.34%",
+						"10s",
+						"25s"
+					],
+					[
+						"177.6%",
+						"230.88%",
+						"10s",
+						"25s"
+					],
+					[
+						"188.7%",
+						"245.31%",
+						"10s",
+						"25s"
+					],
+					[
+						"199.8%",
+						"259.74%",
+						"10s",
+						"25s"
+					],
+					[
+						"210.9%",
+						"274.17%",
+						"10s",
+						"25s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 1386345573,
+			"desc_hash": 3443626520,
+			"charge_num": 1,
+			"name": "Midnight Phantasmagoria",
+			"desc": "Summons Oz to spread his twin wings of twilight and defend Fischl.\\nHas the following properties during the ability's duration:\\n\u00b7Fischl takes on Oz's form, greatly increasing her Movement Speed.\\n\u00b7Strikes nearby opponents with lightning, dealing <color=#FFACFFFF>Electro DMG</color> to opponents she comes into contact with. Each opponent can only be struck once.\\n\u00b7Once this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.\\n\\n<i>\"...In the hordes of beasts that follow the cursed blood, only Prince Nachtraben, who bore witness to the extinction of a thousand worlds, knows her true greatness. Thus the night wings he spreads are his eternal promise to protect Her Royal Highness.\"</i>\\n<i>\u2014Flowers for Princess Fischl (I): End Time Zersetzung</i>",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"firm_arrowhead": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"sharp_arrowhead": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"sharp_arrowhead": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"sharp_arrowhead": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"sharp_arrowhead": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"weathered_arrowhead": 4,
+					"spirit_locket_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"weathered_arrowhead": 6,
+					"spirit_locket_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"weathered_arrowhead": 9,
+					"spirit_locket_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"weathered_arrowhead": 12,
+					"spirit_locket_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Falling Thunder DMG",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"208%",
+						"15s",
+						"60"
+					],
+					[
+						"223.6%",
+						"15s",
+						"60"
+					],
+					[
+						"239.2%",
+						"15s",
+						"60"
+					],
+					[
+						"260%",
+						"15s",
+						"60"
+					],
+					[
+						"275.6%",
+						"15s",
+						"60"
+					],
+					[
+						"291.2%",
+						"15s",
+						"60"
+					],
+					[
+						"312%",
+						"15s",
+						"60"
+					],
+					[
+						"332.8%",
+						"15s",
+						"60"
+					],
+					[
+						"353.6%",
+						"15s",
+						"60"
+					],
+					[
+						"374.4%",
+						"15s",
+						"60"
+					],
+					[
+						"395.2%",
+						"15s",
+						"60"
+					],
+					[
+						"416%",
+						"15s",
+						"60"
+					],
+					[
+						"442%",
+						"15s",
+						"60"
+					],
+					[
+						"468%",
+						"15s",
+						"60"
+					],
+					[
+						"494%",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 3295781565,
+			"desc_hash": 1468026939,
+			"ascension": 1,
+			"name": "Stellar Predator",
+			"desc": "When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down Thundering Retribution, dealing <color=#FFACFFFF>AoE Electro DMG</color> equal to 152.7% of the arrow's DMG."
+		},
+		{
+			"name_hash": 1677689517,
+			"desc_hash": 921704627,
+			"ascension": 4,
+			"name": "Undone Be Thy Sinful Hex",
+			"desc": "If your current active character triggers an <color=#FFACFFFF>Electro-related Elemental Reaction</color> when Oz is on the field, the opponent shall be stricken with Thundering Retribution, dealing <color=#FFACFFFF>Electro DMG</color> equal to 80% of Fischl's ATK."
+		},
+		{
+			"name_hash": 993478661,
+			"desc_hash": 2825787947,
+			"ascension": null,
+			"name": "Mein Hausgarten",
+			"desc": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 5726609,
+			"name": "Gaze of the Deep",
+			"desc_hash": 379923407,
+			"desc": "Even when Oz is not present in combat, he can still watch over Fischl through his raven eyes. When Fischl performs a Normal Attack against an opponent, Oz fires a joint attack, dealing DMG equal to 22% of Fischl's ATK."
+		},
+		{
+			"name_hash": 899523649,
+			"name": "Devourer of All Sins",
+			"desc_hash": 3682583391,
+			"desc": "When <color=#FFD780FF>Nightrider</color> is used, it deals an additional 200% ATK as DMG, and its AoE is increased by 50%."
+		},
+		{
+			"name_hash": 1999125225,
+			"name": "Wings of Nightmare",
+			"desc_hash": 1088869759,
+			"desc": "Increases the Level of <color=#FFD780FF>Nightrider</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 469910073,
+			"name": "Her Pilgrimage of Bleak",
+			"desc_hash": 733548871,
+			"desc": "When <color=#FFD780FF>Midnight Phantasmagoria</color> is used, it deals 222% of ATK as <color=#FFACFFFF>Electro DMG</color> to surrounding opponents.\\nWhen the skill duration ends, Fischl regenerates 20% of her HP."
+		},
+		{
+			"name_hash": 3322353681,
+			"name": "Against the Fleeing Light",
+			"desc_hash": 2975315583,
+			"desc": "Increases the Level of <color=#FFD780FF>Midnight Phantasmagoria</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2314026161,
+			"name": "Evernight Raven",
+			"desc_hash": 3112929279,
+			"desc": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs joint attacks with your active character when present, dealing 30% of Fischl's ATK as <color=#FFACFFFF>Electro DMG</color>."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 2969091354,
+			"desc_hash": 4134576130,
+			"restricted": false,
+			"name": "Dunkelnacht Sakrament",
+			"desc": "Fischl's outfit. The Prinzessin der Verurteilung's customary vestments during her sojourn upon this realm."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108117,
+		"name_hash": 1418885420,
+		"desc_hash": 2737017765,
+		"type_hash": 1820223350,
+		"rarity": 3,
+		"name": "Die Heilige Sinfonie",
+		"desc": "Fischl's specialty. The exquisite presentation doth seem to communicate some incomprehensible enigma. When partaking, if one were to gaze upon Fischl, one might see her expectant gaze peek through the gaps of her fingers, which she is using to cover half her face... Is this also part of the mystery?",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 359864311,
+		"effect": "Increases all party members' Physical DMG by 55% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+		"original_recipe": "cold_cut_platter"
+	}
+}

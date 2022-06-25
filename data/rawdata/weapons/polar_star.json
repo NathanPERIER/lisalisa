@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15507,
+	"promote_id": 15507,
+	"gadget_id": 50015507,
+	"story_id": [
+		195507
+	],
+	"skill_affix": [
+		115507,
+		0
+	],
+	"type": "bow",
+	"name_hash": 1901973075,
+	"desc_hash": 2563714373,
+	"name": "Polar Star",
+	"desc": "A pristine bow that is as sharp as the glaciers of the far north.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 45.9364013671875,
+		"Crit Rate%": 0.07199999690055847
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_301",
+		"Crit Rate%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"mask_of_the_wicked_lieutenant": 5,
+				"concealed_claw": 5,
+				"spectral_husk": 3,
+				"mora": 10000
+			},
+			{
+				"mask_of_the_tigers_bite": 5,
+				"concealed_claw": 18,
+				"spectral_husk": 12,
+				"mora": 20000
+			},
+			{
+				"mask_of_the_tigers_bite": 9,
+				"concealed_unguis": 9,
+				"spectral_heart": 9,
+				"mora": 30000
+			},
+			{
+				"mask_of_the_one_horned": 5,
+				"concealed_unguis": 18,
+				"spectral_heart": 14,
+				"mora": 45000
+			},
+			{
+				"mask_of_the_one_horned": 9,
+				"concealed_talon": 14,
+				"spectral_nucleus": 9,
+				"mora": 55000
+			},
+			{
+				"mask_of_the_kijin": 6,
+				"concealed_talon": 27,
+				"spectral_nucleus": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 303627203,
+		"name": "Daylight's Augury",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1155070,
+				"desc_hash": 2605535553,
+				"desc": "Elemental Skill and Elemental Burst DMG increased by <color=#99FFFFFF>12%</color>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by <color=#99FFFFFF>10/20/30/48%</color>. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1155071,
+				"desc_hash": 3585964169,
+				"desc": "Elemental Skill and Elemental Burst DMG increased by <color=#99FFFFFF>15%</color>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by <color=#99FFFFFF>12.5/25/37.5/60%</color>. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1155072,
+				"desc_hash": 2433978561,
+				"desc": "Elemental Skill and Elemental Burst DMG increased by <color=#99FFFFFF>18%</color>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by <color=#99FFFFFF>15/30/45/72%</color>. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1155073,
+				"desc_hash": 4087271041,
+				"desc": "Elemental Skill and Elemental Burst DMG increased by <color=#99FFFFFF>21%</color>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by <color=#99FFFFFF>17.5/35/52.5/84%</color>. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1155074,
+				"desc_hash": 2134754385,
+				"desc": "Elemental Skill and Elemental Burst DMG increased by <color=#99FFFFFF>24%</color>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by <color=#99FFFFFF>20/40/60/96%</color>. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+				"cost": 16000
+			}
+		]
+	}
+}

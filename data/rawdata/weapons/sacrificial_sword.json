@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 11403,
+	"promote_id": 11403,
+	"gadget_id": 50011403,
+	"story_id": [
+		191403
+	],
+	"skill_affix": [
+		111403,
+		0
+	],
+	"type": "sword",
+	"name_hash": 1990641987,
+	"desc_hash": 4131542477,
+	"name": "Sacrificial Sword",
+	"desc": "A ceremonial sword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 41.067100524902344,
+		"Energy Recharge%": 0.1333329975605011
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_204",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 3,
+				"chaos_device": 3,
+				"divining_scroll": 2,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 3,
+				"chaos_device": 12,
+				"divining_scroll": 8,
+				"mora": 15000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 6,
+				"chaos_circuit": 6,
+				"sealed_scroll": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 3,
+				"chaos_circuit": 12,
+				"sealed_scroll": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 6,
+				"chaos_core": 9,
+				"forbidden_curse_scroll": 6,
+				"mora": 35000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 4,
+				"chaos_core": 18,
+				"forbidden_curse_scroll": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2041231043,
+		"name": "Composed",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1114030,
+				"desc_hash": 1838208513,
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>40%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>30</color>s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1114031,
+				"desc_hash": 3695199497,
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>50%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>26</color>s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1114032,
+				"desc_hash": 327206377,
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>60%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>22s</color>.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1114033,
+				"desc_hash": 434906769,
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>70%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>19</color>s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1114034,
+				"desc_hash": 825324697,
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>80%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>16s</color>.",
+				"cost": 8000
+			}
+		]
+	}
+}

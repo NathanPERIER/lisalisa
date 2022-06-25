@@ -1,0 +1,839 @@
+{
+	"hoyo_id": 10000016,
+	"promote_id": 16,
+	"skill_depot_id": 1601,
+	"fetter_id": 108,
+	"weapon": "claymore",
+	"name_hash": 3608180322,
+	"desc_hash": 2413312897,
+	"name": "Diluc",
+	"desc": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_MALE",
+	"birthday": [
+		30,
+		4
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		627825788,
+		1443384873
+	],
+	"astrolabe_hash": [
+		2314116250,
+		2509127315
+	],
+	"allegiance_hash": 3404250905,
+	"vision": "pyro",
+	"astrolabe": "Noctua",
+	"allegiance": "Dawn Winery",
+	"default_weapon": "waster_greatsword",
+	"base_stats": {
+		"Base HP": 1010.5192260742188,
+		"Base ATK": 26.06800079345703,
+		"Base DEF": 61.0265998840332,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"agnidus_agate_sliver": 1,
+				"small_lamp_grass": 3,
+				"recruits_insignia": 3,
+				"mora": 20000
+			},
+			{
+				"agnidus_agate_fragment": 3,
+				"everflame_seed": 2,
+				"small_lamp_grass": 10,
+				"recruits_insignia": 15,
+				"mora": 40000
+			},
+			{
+				"agnidus_agate_fragment": 6,
+				"everflame_seed": 4,
+				"small_lamp_grass": 20,
+				"sergeants_insignia": 12,
+				"mora": 60000
+			},
+			{
+				"agnidus_agate_chunk": 3,
+				"everflame_seed": 8,
+				"small_lamp_grass": 30,
+				"sergeants_insignia": 18,
+				"mora": 80000
+			},
+			{
+				"agnidus_agate_chunk": 6,
+				"everflame_seed": 12,
+				"small_lamp_grass": 45,
+				"lieutenants_insignia": 12,
+				"mora": 100000
+			},
+			{
+				"agnidus_agate_gemstone": 6,
+				"everflame_seed": 20,
+				"small_lamp_grass": 60,
+				"lieutenants_insignia": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 866.4288330078125,
+					"Base DEF": 52.32600021362305,
+					"Base ATK": 22.349319458007812,
+					"Crit Rate%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1482.04931640625,
+					"Base DEF": 89.50499725341797,
+					"Base ATK": 38.22909927368164,
+					"Crit Rate%": 0.04800000041723251
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2302.876708984375,
+					"Base DEF": 139.07699584960938,
+					"Base ATK": 59.40214157104492,
+					"Crit Rate%": 0.09600000083446503
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2918.4970703125,
+					"Base DEF": 176.25599670410156,
+					"Base ATK": 75.28192138671875,
+					"Crit Rate%": 0.09600000083446503
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 3534.11767578125,
+					"Base DEF": 213.43499755859375,
+					"Base ATK": 91.16169738769531,
+					"Crit Rate%": 0.14399999380111694
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 4149.73828125,
+					"Base DEF": 250.61399841308594,
+					"Base ATK": 107.0414810180664,
+					"Crit Rate%": 0.19200000166893005
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 2878874285,
+			"desc_hash": 2306677240,
+			"charge_num": 1,
+			"name": "Normal Attack: Tempered Sword",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous slashes.\\nAt the end of the sequence, perform a more powerful slash.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_resistance": 3,
+					"recruits_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"sergeants_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_resistance": 4,
+					"sergeants_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_resistance": 6,
+					"sergeants_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"sergeants_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_resistance": 4,
+					"lieutenants_insignia": 4,
+					"dvalins_plume": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_resistance": 6,
+					"lieutenants_insignia": 6,
+					"dvalins_plume": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"lieutenants_insignia": 9,
+					"dvalins_plume": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_resistance": 16,
+					"lieutenants_insignia": 12,
+					"dvalins_plume": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack Spinning DMG",
+					"Charged Attack Final DMG",
+					"Charged Attack Stamina Cost",
+					"Max Duration",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"89.7%",
+						"87.63%",
+						"98.81%",
+						"133.99%",
+						"68.8%",
+						"124.7%",
+						"40/s",
+						"5s",
+						"89.51%",
+						"178.97%/223.55%"
+					],
+					[
+						"97%",
+						"94.77%",
+						"106.86%",
+						"144.89%",
+						"74.4%",
+						"134.85%",
+						"40/s",
+						"5s",
+						"96.79%",
+						"193.54%/241.74%"
+					],
+					[
+						"104.3%",
+						"101.9%",
+						"114.9%",
+						"155.8%",
+						"80%",
+						"145%",
+						"40/s",
+						"5s",
+						"104.08%",
+						"208.11%/259.94%"
+					],
+					[
+						"114.73%",
+						"112.09%",
+						"126.39%",
+						"171.38%",
+						"88%",
+						"159.5%",
+						"40/s",
+						"5s",
+						"114.48%",
+						"228.92%/285.93%"
+					],
+					[
+						"122.03%",
+						"119.22%",
+						"134.43%",
+						"182.29%",
+						"93.6%",
+						"169.65%",
+						"40/s",
+						"5s",
+						"121.77%",
+						"243.49%/304.13%"
+					],
+					[
+						"130.38%",
+						"127.37%",
+						"143.62%",
+						"194.75%",
+						"100%",
+						"181.25%",
+						"40/s",
+						"5s",
+						"130.1%",
+						"260.13%/324.92%"
+					],
+					[
+						"141.85%",
+						"138.58%",
+						"156.26%",
+						"211.89%",
+						"108.8%",
+						"197.2%",
+						"40/s",
+						"5s",
+						"141.54%",
+						"283.03%/353.52%"
+					],
+					[
+						"153.32%",
+						"149.79%",
+						"168.9%",
+						"229.03%",
+						"117.6%",
+						"213.15%",
+						"40/s",
+						"5s",
+						"152.99%",
+						"305.92%/382.11%"
+					],
+					[
+						"164.79%",
+						"161%",
+						"181.54%",
+						"246.16%",
+						"126.4%",
+						"229.1%",
+						"40/s",
+						"5s",
+						"164.44%",
+						"328.81%/410.7%"
+					],
+					[
+						"177.31%",
+						"173.23%",
+						"195.33%",
+						"264.86%",
+						"136%",
+						"246.5%",
+						"40/s",
+						"5s",
+						"176.93%",
+						"353.78%/441.89%"
+					],
+					[
+						"191.65%",
+						"187.24%",
+						"211.13%",
+						"286.28%",
+						"147%",
+						"266.44%",
+						"40/s",
+						"5s",
+						"189.42%",
+						"378.76%/473.09%"
+					],
+					[
+						"208.52%",
+						"203.72%",
+						"229.71%",
+						"311.48%",
+						"159.94%",
+						"289.88%",
+						"40/s",
+						"5s",
+						"201.91%",
+						"403.73%/504.28%"
+					],
+					[
+						"225.38%",
+						"220.2%",
+						"248.29%",
+						"336.67%",
+						"172.87%",
+						"313.33%",
+						"40/s",
+						"5s",
+						"214.4%",
+						"428.7%/535.47%"
+					],
+					[
+						"242.25%",
+						"236.67%",
+						"266.87%",
+						"361.86%",
+						"185.81%",
+						"336.78%",
+						"40/s",
+						"5s",
+						"226.89%",
+						"453.68%/566.66%"
+					],
+					[
+						"260.65%",
+						"254.65%",
+						"287.14%",
+						"389.34%",
+						"199.92%",
+						"362.35%",
+						"40/s",
+						"5s",
+						"239.37%",
+						"478.65%/597.86%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2979035429,
+			"desc_hash": 1648914688,
+			"charge_num": 1,
+			"name": "Searing Onslaught",
+			"desc": "Performs a forward slash that deals <color=#FF9999FF>Pyro DMG</color>.\\n\\nThis skill can be consecutively used 3 times. Enters CD if not cast again within a short period.\\n\\n<i>The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.</i>",
+			"costs": [
+				{
+					"teachings_of_resistance": 3,
+					"recruits_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"sergeants_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_resistance": 4,
+					"sergeants_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_resistance": 6,
+					"sergeants_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"sergeants_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_resistance": 4,
+					"lieutenants_insignia": 4,
+					"dvalins_plume": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_resistance": 6,
+					"lieutenants_insignia": 6,
+					"dvalins_plume": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"lieutenants_insignia": 9,
+					"dvalins_plume": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_resistance": 16,
+					"lieutenants_insignia": 12,
+					"dvalins_plume": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"94.4%",
+						"97.6%",
+						"128.8%",
+						"10s"
+					],
+					[
+						"101.48%",
+						"104.92%",
+						"138.46%",
+						"10s"
+					],
+					[
+						"108.56%",
+						"112.24%",
+						"148.12%",
+						"10s"
+					],
+					[
+						"118%",
+						"122%",
+						"161%",
+						"10s"
+					],
+					[
+						"125.08%",
+						"129.32%",
+						"170.66%",
+						"10s"
+					],
+					[
+						"132.16%",
+						"136.64%",
+						"180.32%",
+						"10s"
+					],
+					[
+						"141.6%",
+						"146.4%",
+						"193.2%",
+						"10s"
+					],
+					[
+						"151.04%",
+						"156.16%",
+						"206.08%",
+						"10s"
+					],
+					[
+						"160.48%",
+						"165.92%",
+						"218.96%",
+						"10s"
+					],
+					[
+						"169.92%",
+						"175.68%",
+						"231.84%",
+						"10s"
+					],
+					[
+						"179.36%",
+						"185.44%",
+						"244.72%",
+						"10s"
+					],
+					[
+						"188.8%",
+						"195.2%",
+						"257.6%",
+						"10s"
+					],
+					[
+						"200.6%",
+						"207.4%",
+						"273.7%",
+						"10s"
+					],
+					[
+						"212.4%",
+						"219.6%",
+						"289.8%",
+						"10s"
+					],
+					[
+						"224.2%",
+						"231.8%",
+						"305.9%",
+						"10s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 2772119557,
+			"desc_hash": 2932734984,
+			"charge_num": 1,
+			"name": "Dawn",
+			"desc": "Releases intense flames to knock back nearby opponents, dealing <color=#FF9999FF>Pyro DMG</color>. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive <color=#FF9999FF>Pyro DMG</color> to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of <color=#FF9999FF>AoE Pyro DMG</color>.\\nThe searing flames that run down his blade cause it to be infused with <color=#FF9999FF>Pyro</color>.\\n\\n<i>The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.</i>",
+			"costs": [
+				{
+					"teachings_of_resistance": 3,
+					"recruits_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"sergeants_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_resistance": 4,
+					"sergeants_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_resistance": 6,
+					"sergeants_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"sergeants_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_resistance": 4,
+					"lieutenants_insignia": 4,
+					"dvalins_plume": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_resistance": 6,
+					"lieutenants_insignia": 6,
+					"dvalins_plume": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"lieutenants_insignia": 9,
+					"dvalins_plume": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_resistance": 16,
+					"lieutenants_insignia": 12,
+					"dvalins_plume": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Slashing DMG",
+					"DoT",
+					"Explosion DMG",
+					"CD",
+					"Infusion Duration",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"204%",
+						"60%",
+						"204%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"219.3%",
+						"64.5%",
+						"219.3%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"234.6%",
+						"69%",
+						"234.6%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"255%",
+						"75%",
+						"255%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"270.3%",
+						"79.5%",
+						"270.3%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"285.6%",
+						"84%",
+						"285.6%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"306%",
+						"90%",
+						"306%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"326.4%",
+						"96%",
+						"326.4%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"346.8%",
+						"102%",
+						"346.8%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"367.2%",
+						"108%",
+						"367.2%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"387.6%",
+						"114%",
+						"387.6%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"408%",
+						"120%",
+						"408%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"433.5%",
+						"127.5%",
+						"433.5%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"459%",
+						"135%",
+						"459%",
+						"12s",
+						"8s",
+						"40"
+					],
+					[
+						"484.5%",
+						"142.5%",
+						"484.5%",
+						"12s",
+						"8s",
+						"40"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 2844158725,
+			"desc_hash": 1808773251,
+			"ascension": 1,
+			"name": "Relentless",
+			"desc": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s."
+		},
+		{
+			"name_hash": 2904319165,
+			"desc_hash": 2686849171,
+			"ascension": 4,
+			"name": "Blessing of Phoenix",
+			"desc": "The <color=#FF9999FF>Pyro Infusion</color> provided by <color=#FFD780FF>Dawn</color> lasts for 4s longer. Additionally, Diluc gains 20% <color=#FF9999FF>Pyro DMG Bonus</color> during the duration of this effect."
+		},
+		{
+			"name_hash": 4168878421,
+			"desc_hash": 1726568035,
+			"ascension": null,
+			"name": "Tradition of the Dawn Knight",
+			"desc": "Refunds 15% of the ore used when crafting Claymore-type weapons."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 1050836105,
+			"name": "Conviction",
+			"desc_hash": 4178291015,
+			"desc": "Diluc deals 15% more DMG to opponents whose HP is above 50%."
+		},
+		{
+			"name_hash": 610672953,
+			"name": "Searing Ember",
+			"desc_hash": 3591206935,
+			"desc": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\\nThis effect can stack up to 3 times and can only occur once every 1.5s."
+		},
+		{
+			"name_hash": 4084228505,
+			"name": "Fire and Steel",
+			"desc_hash": 4123556519,
+			"desc": "Increases the Level of <color=#FFD780FF>Searing Onslaught</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 1732979729,
+			"name": "Flowing Flame",
+			"desc_hash": 3027261279,
+			"desc": "Casting <color=#FFD780FF>Searing Onslaught</color> in rhythm greatly increases damage dealt.\\n2s after casting <color=#FFD780FF>Searing Onslaught</color>, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s."
+		},
+		{
+			"name_hash": 2293832361,
+			"name": "Phoenix, Harbinger of Dawn",
+			"desc_hash": 1232419951,
+			"desc": "Increases the Level of <color=#FFD780FF>Dawn</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 4215692089,
+			"name": "Flaming Sword, Nemesis of the Dark",
+			"desc_hash": 2507810183,
+			"desc": "After casting <color=#FFD780FF>Searing Onslaught</color>, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 674973162,
+			"desc_hash": 2401924570,
+			"restricted": false,
+			"name": "Darknight Blaze",
+			"desc": "Diluc's outfit. A smart and tasteful suit fit for a nobleman."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108058,
+		"name_hash": 2313991356,
+		"desc_hash": 3575859421,
+		"type_hash": 429060806,
+		"rarity": 3,
+		"name": "\"Once Upon a Time in Mondstadt\"",
+		"desc": "Diluc's specialty. Feast your eyes and then your stomach upon this delicacy as the soft ribs melt in your mouth. Who knew Diluc was able to cook this well?",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 913695087,
+		"effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)",
+		"original_recipe": "pile_em_up"
+	}
+}

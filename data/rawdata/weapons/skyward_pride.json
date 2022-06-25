@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12501,
+	"promote_id": 12501,
+	"gadget_id": 50012501,
+	"story_id": [
+		192501
+	],
+	"skill_affix": [
+		112501,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 1089950259,
+	"desc_hash": 2724154045,
+	"name": "Skyward Pride",
+	"desc": "A claymore that symbolizes the pride of Dvalin soaring through the skies. When swung, it emits a deep hum as the full force of Dvalin's command of the sky and the wind is unleashed.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 47.5369987487793,
+		"Energy Recharge%": 0.07999999821186066
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_302",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"boreal_wolfs_milk_tooth": 5,
+				"dead_ley_line_branch": 5,
+				"slime_condensate": 3,
+				"mora": 10000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 5,
+				"dead_ley_line_branch": 18,
+				"slime_condensate": 12,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 9,
+				"dead_ley_line_leaves": 9,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"boreal_wolfs_broken_fang": 5,
+				"dead_ley_line_leaves": 18,
+				"slime_secretions": 14,
+				"mora": 45000
+			},
+			{
+				"boreal_wolfs_broken_fang": 9,
+				"ley_line_sprout": 14,
+				"slime_concentrate": 9,
+				"mora": 55000
+			},
+			{
+				"boreal_wolfs_nostalgia": 6,
+				"ley_line_sprout": 27,
+				"slime_concentrate": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3265578323,
+		"name": "Sky-ripping Dragon Spine",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1125010,
+				"desc_hash": 1198694153,
+				"desc": "Increases all DMG by <color=#99FFFFFF>8%</color>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <color=#99FFFFFF>80%</color> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1125011,
+				"desc_hash": 1998377849,
+				"desc": "Increases all DMG by <color=#99FFFFFF>10%</color>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <color=#99FFFFFF>100%</color> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1125012,
+				"desc_hash": 110338705,
+				"desc": "Increases all DMG by <color=#99FFFFFF>12%</color>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <color=#99FFFFFF>120%</color> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1125013,
+				"desc_hash": 4133048689,
+				"desc": "Increases all DMG by <color=#99FFFFFF>14%</color>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <color=#99FFFFFF>140%</color> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1125014,
+				"desc_hash": 2372241065,
+				"desc": "Increases all DMG by <color=#99FFFFFF>16%</color>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <color=#99FFFFFF>160%</color> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
+				"cost": 16000
+			}
+		]
+	}
+}

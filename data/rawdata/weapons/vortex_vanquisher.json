@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13504,
+	"promote_id": 13504,
+	"gadget_id": 50013504,
+	"story_id": [
+		193504
+	],
+	"skill_affix": [
+		113504,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 197755235,
+	"desc_hash": 786121517,
+	"name": "Vortex Vanquisher",
+	"desc": "This sharp polearm can seemingly pierce through anything. When swung, one can almost see the rift it tears in the air.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 45.9364013671875,
+		"ATK%": 0.1080000028014183
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_301",
+		"ATK%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"grain_of_aerosiderite": 5,
+				"fragile_bone_shard": 5,
+				"treasure_hoarder_insignia": 3,
+				"mora": 10000
+			},
+			{
+				"piece_of_aerosiderite": 5,
+				"fragile_bone_shard": 18,
+				"treasure_hoarder_insignia": 12,
+				"mora": 20000
+			},
+			{
+				"piece_of_aerosiderite": 9,
+				"sturdy_bone_shard": 9,
+				"silver_raven_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"bit_of_aerosiderite": 5,
+				"sturdy_bone_shard": 18,
+				"silver_raven_insignia": 14,
+				"mora": 45000
+			},
+			{
+				"bit_of_aerosiderite": 9,
+				"fossilized_bone_shard": 14,
+				"golden_raven_insignia": 9,
+				"mora": 55000
+			},
+			{
+				"chunk_of_aerosiderite": 6,
+				"fossilized_bone_shard": 27,
+				"golden_raven_insignia": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3573862115,
+		"name": "Golden Majesty",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1135040,
+				"desc_hash": 1102212161,
+				"desc": "Increases Shield Strength by <color=#99FFFFFF>20%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>4%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1135041,
+				"desc_hash": 1235986465,
+				"desc": "Increases Shield Strength by <color=#99FFFFFF>25%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>5%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1135042,
+				"desc_hash": 3214747377,
+				"desc": "Increases Shield Strength by <color=#99FFFFFF>30%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>6%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1135043,
+				"desc_hash": 1155728617,
+				"desc": "Increases Shield Strength by <color=#99FFFFFF>35%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>7%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1135044,
+				"desc_hash": 714303001,
+				"desc": "Increases Shield Strength by <color=#99FFFFFF>40%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>8%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+				"cost": 16000
+			}
+		]
+	}
+}

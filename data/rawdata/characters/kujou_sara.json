@@ -1,0 +1,791 @@
+{
+	"hoyo_id": 10000056,
+	"promote_id": 56,
+	"skill_depot_id": 5601,
+	"fetter_id": 141,
+	"weapon": "bow",
+	"name_hash": 1483922610,
+	"desc_hash": 148777793,
+	"name": "Kujou Sara",
+	"desc": "A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_LADY",
+	"birthday": [
+		14,
+		7
+	],
+	"region": "inazuma",
+	"vision_hash": [
+		608089036,
+		4018363097
+	],
+	"astrolabe_hash": [
+		912981282,
+		3463988355
+	],
+	"allegiance_hash": 639139097,
+	"vision": "electro",
+	"astrolabe": "Flabellum",
+	"allegiance": "Tenryou Commission",
+	"default_weapon": "hunters_bow",
+	"base_stats": {
+		"Base HP": 802.3760986328125,
+		"Base ATK": 16.383359909057617,
+		"Base DEF": 52.64699935913086,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"vajrada_amethyst_sliver": 1,
+				"dendrobium": 3,
+				"damaged_mask": 3,
+				"mora": 20000
+			},
+			{
+				"vajrada_amethyst_fragment": 3,
+				"storm_beads": 2,
+				"dendrobium": 10,
+				"damaged_mask": 15,
+				"mora": 40000
+			},
+			{
+				"vajrada_amethyst_fragment": 6,
+				"storm_beads": 4,
+				"dendrobium": 20,
+				"stained_mask": 12,
+				"mora": 60000
+			},
+			{
+				"vajrada_amethyst_chunk": 3,
+				"storm_beads": 8,
+				"dendrobium": 30,
+				"stained_mask": 18,
+				"mora": 80000
+			},
+			{
+				"vajrada_amethyst_chunk": 6,
+				"storm_beads": 12,
+				"dendrobium": 45,
+				"ominous_mask": 12,
+				"mora": 100000
+			},
+			{
+				"vajrada_amethyst_gemstone": 6,
+				"storm_beads": 20,
+				"dendrobium": 60,
+				"ominous_mask": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 599.416015625,
+					"Base DEF": 39.33000183105469,
+					"Base ATK": 12.239496231079102,
+					"ATK%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1025.31689453125,
+					"Base DEF": 67.2750015258789,
+					"Base ATK": 20.93597984313965,
+					"ATK%": 0.05999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1593.1846923828125,
+					"Base DEF": 104.53500366210938,
+					"Base ATK": 32.53129196166992,
+					"ATK%": 0.11999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2019.0855712890625,
+					"Base DEF": 132.47999572753906,
+					"Base ATK": 41.22777557373047,
+					"ATK%": 0.11999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2444.986328125,
+					"Base DEF": 160.4250030517578,
+					"Base ATK": 49.924259185791016,
+					"ATK%": 0.18000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 2870.88720703125,
+					"Base DEF": 188.3699951171875,
+					"Base ATK": 58.62074279785156,
+					"ATK%": 0.23999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 1547762373,
+			"desc_hash": 4139104344,
+			"charge_num": 1,
+			"name": "Normal Attack: Tengu Bowmanship",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal <color=#FFACFFFF>Electro DMG</color>.\\nWhen in the Crowfeather Cover state, a fully-charged arrow will leave a Crowfeather behind after it hits.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_elegance": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_elegance": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_elegance": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_elegance": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_elegance": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_elegance": 4,
+					"ominous_mask": 4,
+					"ashen_heart": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_elegance": 6,
+					"ominous_mask": 6,
+					"ashen_heart": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_elegance": 12,
+					"ominous_mask": 9,
+					"ashen_heart": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_elegance": 16,
+					"ominous_mask": 12,
+					"ashen_heart": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Aimed Shot",
+					"Fully-Charged Aimed Shot",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"36.89%",
+						"38.7%",
+						"48.5%",
+						"50.4%",
+						"58.05%",
+						"43.86%",
+						"124%",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"39.9%",
+						"41.85%",
+						"52.45%",
+						"54.5%",
+						"62.77%",
+						"47.43%",
+						"133.3%",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"42.9%",
+						"45%",
+						"56.4%",
+						"58.6%",
+						"67.5%",
+						"51%",
+						"142.6%",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"47.19%",
+						"49.5%",
+						"62.04%",
+						"64.46%",
+						"74.25%",
+						"56.1%",
+						"155%",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"50.19%",
+						"52.65%",
+						"65.99%",
+						"68.56%",
+						"78.97%",
+						"59.67%",
+						"164.3%",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"53.62%",
+						"56.25%",
+						"70.5%",
+						"73.25%",
+						"84.38%",
+						"63.75%",
+						"173.6%",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"58.34%",
+						"61.2%",
+						"76.7%",
+						"79.7%",
+						"91.8%",
+						"69.36%",
+						"186%",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"63.06%",
+						"66.15%",
+						"82.91%",
+						"86.14%",
+						"99.23%",
+						"74.97%",
+						"198.4%",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"67.78%",
+						"71.1%",
+						"89.11%",
+						"92.59%",
+						"106.65%",
+						"80.58%",
+						"210.8%",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"72.93%",
+						"76.5%",
+						"95.88%",
+						"99.62%",
+						"114.75%",
+						"86.7%",
+						"223.2%",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"78.08%",
+						"81.9%",
+						"102.65%",
+						"106.65%",
+						"122.85%",
+						"92.82%",
+						"235.6%",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"83.23%",
+						"87.3%",
+						"109.42%",
+						"113.68%",
+						"130.95%",
+						"98.94%",
+						"248%",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"88.37%",
+						"92.7%",
+						"116.18%",
+						"120.72%",
+						"139.05%",
+						"105.06%",
+						"263.5%",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"93.52%",
+						"98.1%",
+						"122.95%",
+						"127.75%",
+						"147.15%",
+						"111.18%",
+						"279%",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"98.67%",
+						"103.5%",
+						"129.72%",
+						"134.78%",
+						"155.25%",
+						"117.3%",
+						"294.5%",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2752568269,
+			"desc_hash": 4167203120,
+			"charge_num": 1,
+			"name": "Tengu Stormcall",
+			"desc": "Retreats rapidly with the speed of a tengu, summoning the protection of the Crowfeather.\\nGains Crowfeather Cover for 18s, and when Kujou Sara fires a fully-charged Aimed Shot, Crowfeather Cover will be consumed, and will leave a Crowfeather at the target location.\\nCrowfeathers will trigger Tengu Juurai: Ambush after a short time, dealing <color=#FFACFFFF>Electro DMG</color> and granting the active character within its AoE an ATK Bonus based on Kujou Sara's Base ATK.\\n\\nThe ATK Bonuses from different Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.\\n\\n<i>The tengu race have never lacked for exceptional talents who have received an Electro Vision. It's just that they often habitually chant praises to the Electro Archon while manipulating Electro. The chants go something like this</i>\\n<i>\"Show forth your might, O praiseworthy Narukami, and grant this supplicant your thunderous might! Sowaka!\"</i>",
+			"costs": [
+				{
+					"teachings_of_elegance": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_elegance": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_elegance": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_elegance": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_elegance": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_elegance": 4,
+					"ominous_mask": 4,
+					"ashen_heart": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_elegance": 6,
+					"ominous_mask": 6,
+					"ashen_heart": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_elegance": 12,
+					"ominous_mask": 9,
+					"ashen_heart": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_elegance": 16,
+					"ominous_mask": 12,
+					"ashen_heart": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Tengu Juurai: Ambush DMG",
+					"ATK Bonus Ratio",
+					"ATK Bonus Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"125.76%",
+						"42.96%",
+						"6s",
+						"10s"
+					],
+					[
+						"135.19%",
+						"46.18%",
+						"6s",
+						"10s"
+					],
+					[
+						"144.62%",
+						"49.4%",
+						"6s",
+						"10s"
+					],
+					[
+						"157.2%",
+						"53.7%",
+						"6s",
+						"10s"
+					],
+					[
+						"166.63%",
+						"56.92%",
+						"6s",
+						"10s"
+					],
+					[
+						"176.06%",
+						"60.14%",
+						"6s",
+						"10s"
+					],
+					[
+						"188.64%",
+						"64.44%",
+						"6s",
+						"10s"
+					],
+					[
+						"201.22%",
+						"68.74%",
+						"6s",
+						"10s"
+					],
+					[
+						"213.79%",
+						"73.03%",
+						"6s",
+						"10s"
+					],
+					[
+						"226.37%",
+						"77.33%",
+						"6s",
+						"10s"
+					],
+					[
+						"238.94%",
+						"81.62%",
+						"6s",
+						"10s"
+					],
+					[
+						"251.52%",
+						"85.92%",
+						"6s",
+						"10s"
+					],
+					[
+						"267.24%",
+						"91.29%",
+						"6s",
+						"10s"
+					],
+					[
+						"282.96%",
+						"96.66%",
+						"6s",
+						"10s"
+					],
+					[
+						"298.68%",
+						"102.03%",
+						"6s",
+						"10s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 2275338309,
+			"desc_hash": 1189895712,
+			"charge_num": 1,
+			"name": "Subjugation: Koukou Sendou",
+			"desc": "Casts down Tengu Juurai: Titanbreaker, dealing <color=#FFACFFFF>AoE Electro DMG</color>. Afterwards, Tengu Juurai: Titanbreaker spreads out into 4 consecutive bouts of Tengu Juurai: Stormcluster, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\nTengu Juurai: Titanbreaker and Tengu Juurai: Stormcluster can provide the active character within their AoE with the same ATK Bonus as given by the Elemental Skill, Tengu Stormcall.\\n\\nThe ATK Bonus provided by various kinds of Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.\\n\\n<i>Sara departed from her people, the tengu, and also temporarily lost her faith in the Tenryou Commission. But once the clouds over her heart cleared, she found her own lightning anew.</i>",
+			"costs": [
+				{
+					"teachings_of_elegance": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_elegance": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_elegance": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_elegance": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_elegance": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_elegance": 4,
+					"ominous_mask": 4,
+					"ashen_heart": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_elegance": 6,
+					"ominous_mask": 6,
+					"ashen_heart": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_elegance": 12,
+					"ominous_mask": 9,
+					"ashen_heart": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_elegance": 16,
+					"ominous_mask": 12,
+					"ashen_heart": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Tengu Juurai: Titanbreaker DMG",
+					"Tengu Juurai: Stormcluster DMG",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"409.6%",
+						"34.12%",
+						"20s",
+						"80"
+					],
+					[
+						"440.32%",
+						"36.68%",
+						"20s",
+						"80"
+					],
+					[
+						"471.04%",
+						"39.24%",
+						"20s",
+						"80"
+					],
+					[
+						"512%",
+						"42.65%",
+						"20s",
+						"80"
+					],
+					[
+						"542.72%",
+						"45.21%",
+						"20s",
+						"80"
+					],
+					[
+						"573.44%",
+						"47.77%",
+						"20s",
+						"80"
+					],
+					[
+						"614.4%",
+						"51.18%",
+						"20s",
+						"80"
+					],
+					[
+						"655.36%",
+						"54.59%",
+						"20s",
+						"80"
+					],
+					[
+						"696.32%",
+						"58%",
+						"20s",
+						"80"
+					],
+					[
+						"737.28%",
+						"61.42%",
+						"20s",
+						"80"
+					],
+					[
+						"778.24%",
+						"64.83%",
+						"20s",
+						"80"
+					],
+					[
+						"819.2%",
+						"68.24%",
+						"20s",
+						"80"
+					],
+					[
+						"870.4%",
+						"72.5%",
+						"20s",
+						"80"
+					],
+					[
+						"921.6%",
+						"76.77%",
+						"20s",
+						"80"
+					],
+					[
+						"972.8%",
+						"81.04%",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 3514401477,
+			"desc_hash": 701827235,
+			"ascension": 1,
+			"name": "Immovable Will",
+			"desc": "While in the Crowfeather Cover state provided by <color=#FFD780FF>Tengu Stormcall</color>, Aimed Shot charge times are decreased by 60%."
+		},
+		{
+			"name_hash": 2365582789,
+			"desc_hash": 138769971,
+			"ascension": 4,
+			"name": "Decorum",
+			"desc": "When Tengu Juurai: Ambush hits opponents, Kujou Sara will restore 1.2 Energy to all party members for every 100% Energy Recharge she has. This effect can be triggered once every 3s."
+		},
+		{
+			"name_hash": 3504701645,
+			"desc_hash": 3436263651,
+			"ascension": null,
+			"name": "Land Survey",
+			"desc": "When dispatched on an expedition in Inazuma, time consumed is reduced by 25%."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 2730852953,
+			"name": "Crow's Eye",
+			"desc_hash": 2966673567,
+			"desc": "When Tengu Juurai grant characters ATK Bonuses or hits opponents, the CD of <color=#FFD780FF>Tengu Stormcall</color> is decreased by 1s.\\nThis effect can be triggered once every 3s."
+		},
+		{
+			"name_hash": 828426713,
+			"name": "Dark Wings",
+			"desc_hash": 3371927015,
+			"desc": "Unleashing <color=#FFD780FF>Tengu Stormcall</color> will leave a weaker Crowfeather at Kujou Sara's original position that will deal 30% of its original DMG."
+		},
+		{
+			"name_hash": 847916265,
+			"name": "The War Within",
+			"desc_hash": 1002234751,
+			"desc": "Increases the Level of <color=#FFD780FF>Subjugation: Koukou Sendou</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 4283074321,
+			"name": "Conclusive Proof",
+			"desc_hash": 3556395063,
+			"desc": "The number of Tengu Juurai: Stormcluster released by <color=#FFD780FF>Subjugation: Koukou Sendou</color> is increased to 6."
+		},
+		{
+			"name_hash": 747301089,
+			"name": "Spellsinger",
+			"desc_hash": 3457909759,
+			"desc": "Increases the Level of <color=#FFD780FF>Tengu Stormcall</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 165492609,
+			"name": "Sin of Pride",
+			"desc_hash": 3985105143,
+			"desc": "The <color=#FFACFFFF>Electro DMG</color> of characters who have had their ATK increased by Tengu Juurai has its Crit DMG increased by 60%."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 382710810,
+			"desc_hash": 1024066610,
+			"restricted": false,
+			"name": "Solemn Purity",
+			"desc": "Kujou Sara's outfit. Prim and proper, it is a garment worthy of an Archon's devout servant."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108341,
+		"name_hash": 2726763788,
+		"desc_hash": 4184764517,
+		"type_hash": 1747322766,
+		"rarity": 1,
+		"name": "Faith Eternal",
+		"desc": "Kujou Sara's specialty. Forget calling it a dish, this is really more like a snack. The sweet, fluffy flavor really doesn't seem to suit Sara's own preferences. Wait a moment. That symbol on the snack \u2014 does this have to do with a certain other person's tastes instead?",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 4259577263,
+		"effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+		"original_recipe": "egg_roll"
+	}
+}

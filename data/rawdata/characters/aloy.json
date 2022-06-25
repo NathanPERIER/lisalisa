@@ -1,0 +1,823 @@
+{
+	"hoyo_id": 10000062,
+	"promote_id": 62,
+	"skill_depot_id": 6201,
+	"fetter_id": 142,
+	"weapon": "bow",
+	"name_hash": 3689108098,
+	"desc_hash": 2468599457,
+	"name": "Aloy",
+	"desc": "Formerly an outcast, now a hunter of unparalleled skill. Ready to do the right thing at any time.",
+	"rarity": 5,
+	"special": true,
+	"body": "BODY_GIRL",
+	"birthday": [
+		4,
+		4
+	],
+	"region": "ranger",
+	"vision_hash": [
+		1480674860,
+		378832241
+	],
+	"astrolabe_hash": [
+		1620998442,
+		2748691939
+	],
+	"allegiance_hash": 2988346225,
+	"vision": "cryo",
+	"astrolabe": "Nora Fortis",
+	"allegiance": "Wandering Heroine",
+	"default_weapon": "hunters_bow",
+	"base_stats": {
+		"Base HP": 848.4547729492188,
+		"Base ATK": 18.210359573364258,
+		"Base DEF": 52.65039825439453,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"shivada_jade_sliver": 1,
+				"crystal_marrow": 3,
+				"spectral_husk": 3,
+				"mora": 20000
+			},
+			{
+				"shivada_jade_fragment": 3,
+				"crystalline_bloom": 2,
+				"crystal_marrow": 10,
+				"spectral_husk": 15,
+				"mora": 40000
+			},
+			{
+				"shivada_jade_fragment": 6,
+				"crystalline_bloom": 4,
+				"crystal_marrow": 20,
+				"spectral_heart": 12,
+				"mora": 60000
+			},
+			{
+				"shivada_jade_chunk": 3,
+				"crystalline_bloom": 8,
+				"crystal_marrow": 30,
+				"spectral_heart": 18,
+				"mora": 80000
+			},
+			{
+				"shivada_jade_chunk": 6,
+				"crystalline_bloom": 12,
+				"crystal_marrow": 45,
+				"spectral_nucleus": 12,
+				"mora": 100000
+			},
+			{
+				"shivada_jade_gemstone": 6,
+				"crystalline_bloom": 20,
+				"crystal_marrow": 60,
+				"spectral_nucleus": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 727.4732666015625,
+					"Base DEF": 45.14400100708008,
+					"Base ATK": 15.612595558166504,
+					"Cryo DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1244.3621826171875,
+					"Base DEF": 77.22000122070312,
+					"Base ATK": 26.70575714111328,
+					"Cryo DMG%": 0.07199999690055847
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1933.54736328125,
+					"Base DEF": 119.98799896240234,
+					"Base ATK": 41.496639251708984,
+					"Cryo DMG%": 0.14399999380111694
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2450.436279296875,
+					"Base DEF": 152.06399536132812,
+					"Base ATK": 52.58979797363281,
+					"Cryo DMG%": 0.14399999380111694
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2967.3251953125,
+					"Base DEF": 184.13999938964844,
+					"Base ATK": 63.682960510253906,
+					"Cryo DMG%": 0.2160000056028366
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3484.214111328125,
+					"Base DEF": 216.21600341796875,
+					"Base ATK": 74.776123046875,
+					"Cryo DMG%": 0.2879999876022339
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 2994648485,
+			"desc_hash": 3151277984,
+			"charge_num": 1,
+			"name": "Normal Attack: Rapid Fire",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"spectral_husk": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"spectral_heart": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"spectral_heart": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"spectral_heart": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"spectral_heart": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"spectral_nucleus": 4,
+					"molten_moment": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"spectral_nucleus": 6,
+					"molten_moment": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"spectral_nucleus": 9,
+					"molten_moment": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"spectral_nucleus": 12,
+					"molten_moment": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Aimed Shot",
+					"Fully-Charged Aimed Shot",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"21.12%+23.76%",
+						"43.12%",
+						"52.8%",
+						"65.65%",
+						"43.86%",
+						"124%",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"22.56%+25.38%",
+						"46.06%",
+						"56.4%",
+						"70.12%",
+						"47.43%",
+						"133.3%",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"24%+27%",
+						"49%",
+						"60%",
+						"74.6%",
+						"51%",
+						"142.6%",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"25.92%+29.16%",
+						"52.92%",
+						"64.8%",
+						"80.57%",
+						"56.1%",
+						"155%",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"27.36%+30.78%",
+						"55.86%",
+						"68.4%",
+						"85.04%",
+						"59.67%",
+						"164.3%",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"29.04%+32.67%",
+						"59.29%",
+						"72.6%",
+						"90.27%",
+						"63.75%",
+						"173.6%",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"31.2%+35.1%",
+						"63.7%",
+						"78%",
+						"96.98%",
+						"69.36%",
+						"186%",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"33.36%+37.53%",
+						"68.11%",
+						"83.4%",
+						"103.69%",
+						"74.97%",
+						"198.4%",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"35.52%+39.96%",
+						"72.52%",
+						"88.8%",
+						"110.41%",
+						"80.58%",
+						"210.8%",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"37.68%+42.39%",
+						"76.93%",
+						"94.2%",
+						"117.12%",
+						"86.7%",
+						"223.2%",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"39.84%+44.82%",
+						"81.34%",
+						"99.6%",
+						"123.84%",
+						"92.82%",
+						"235.6%",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"42%+47.25%",
+						"85.75%",
+						"105%",
+						"130.55%",
+						"98.94%",
+						"248%",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"44.16%+49.68%",
+						"90.16%",
+						"110.4%",
+						"137.26%",
+						"105.06%",
+						"263.5%",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"46.32%+52.11%",
+						"94.57%",
+						"115.8%",
+						"143.98%",
+						"111.18%",
+						"279%",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"48.48%+54.54%",
+						"98.98%",
+						"121.2%",
+						"150.69%",
+						"117.3%",
+						"294.5%",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 1871687965,
+			"desc_hash": 647988592,
+			"charge_num": 1,
+			"name": "Frozen Wilds",
+			"desc": "Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing <color=#99FFFFFF>Cryo DMG</color>. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing <color=#99FFFFFF>Cryo DMG</color>.\\nWhen a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.\\nAloy can gain up to 1 Coil stack every 0.1s.\\n\\n<color=#FFD780FF>Coil</color>\\n\u00b7Each stack increases Aloy's Normal Attack DMG.\\n\u00b7When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to <color=#99FFFFFF>Cryo DMG</color>.\\n\\nWhile in the Rushing Ice state, Aloy cannot obtain new Coil stacks.\\nCoil effects will be cleared 30s after Aloy leaves the field.\\n\\n<i>You think that's cold? Guess you've never been to The Cut.</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"spectral_husk": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"spectral_heart": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"spectral_heart": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"spectral_heart": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"spectral_heart": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"spectral_nucleus": 4,
+					"molten_moment": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"spectral_nucleus": 6,
+					"molten_moment": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"spectral_nucleus": 9,
+					"molten_moment": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"spectral_nucleus": 12,
+					"molten_moment": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Freeze Bomb DMG",
+					"Chillwater Bomblets",
+					"ATK Decrease",
+					"ATK Decrease Duration",
+					"Coil Normal Attack DMG Bonus",
+					"Rushing Ice Normal Attack DMG Bonus",
+					"Rushing Ice Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"177.6%",
+						"40%",
+						"12%",
+						"6s",
+						"5.84%/11.69%/17.53%",
+						"29.23%",
+						"10s",
+						"20s"
+					],
+					[
+						"190.92%",
+						"43%",
+						"12%",
+						"6s",
+						"6.19%/12.39%/18.58%",
+						"30.97%",
+						"10s",
+						"20s"
+					],
+					[
+						"204.24%",
+						"46%",
+						"12%",
+						"6s",
+						"6.54%/13.09%/19.63%",
+						"32.73%",
+						"10s",
+						"20s"
+					],
+					[
+						"222%",
+						"50%",
+						"13%",
+						"6s",
+						"7%/14%/21%",
+						"35%",
+						"10s",
+						"20s"
+					],
+					[
+						"235.32%",
+						"53%",
+						"13%",
+						"6s",
+						"7.35%/14.7%/22.05%",
+						"36.75%",
+						"10s",
+						"20s"
+					],
+					[
+						"248.64%",
+						"56%",
+						"13%",
+						"6s",
+						"7.7%/15.4%/23.1%",
+						"38.5%",
+						"10s",
+						"20s"
+					],
+					[
+						"266.4%",
+						"60%",
+						"14%",
+						"6s",
+						"8.16%/16.31%/24.47%",
+						"40.78%",
+						"10s",
+						"20s"
+					],
+					[
+						"284.16%",
+						"64%",
+						"14%",
+						"6s",
+						"8.61%/17.22%/25.83%",
+						"43.05%",
+						"10s",
+						"20s"
+					],
+					[
+						"301.92%",
+						"68%",
+						"14%",
+						"6s",
+						"9.06%/18.13%/27.2%",
+						"45.32%",
+						"10s",
+						"20s"
+					],
+					[
+						"319.68%",
+						"72%",
+						"15%",
+						"6s",
+						"9.52%/19.04%/28.56%",
+						"47.6%",
+						"10s",
+						"20s"
+					],
+					[
+						"337.44%",
+						"76%",
+						"15%",
+						"6s",
+						"9.97%/19.95%/29.93%",
+						"49.88%",
+						"10s",
+						"20s"
+					],
+					[
+						"355.2%",
+						"80%",
+						"15%",
+						"6s",
+						"10.43%/20.86%/31.29%",
+						"52.15%",
+						"10s",
+						"20s"
+					],
+					[
+						"377.4%",
+						"85%",
+						"15%",
+						"6s",
+						"10.89%/21.77%/32.66%",
+						"54.43%",
+						"10s",
+						"20s"
+					],
+					[
+						"399.6%",
+						"90%",
+						"15%",
+						"6s",
+						"11.34%/22.68%/34.02%",
+						"56.7%",
+						"10s",
+						"20s"
+					],
+					[
+						"421.8%",
+						"95%",
+						"15%",
+						"6s",
+						"11.79%/23.59%/35.39%",
+						"58.97%",
+						"10s",
+						"20s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 902219717,
+			"desc_hash": 3360208896,
+			"charge_num": 1,
+			"name": "Prophecies of Dawn",
+			"desc": "Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<i>Whether \"Zero Dawn\" referred to hope or extinction no longer matters. Aloy has already saved her world, and the fate of this one is still being forged by its own heroes.</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"spectral_husk": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"spectral_heart": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"spectral_heart": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"spectral_heart": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"spectral_heart": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"spectral_nucleus": 4,
+					"molten_moment": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"spectral_nucleus": 6,
+					"molten_moment": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"spectral_nucleus": 9,
+					"molten_moment": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"spectral_nucleus": 12,
+					"molten_moment": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"359.2%",
+						"12s",
+						"40"
+					],
+					[
+						"386.14%",
+						"12s",
+						"40"
+					],
+					[
+						"413.08%",
+						"12s",
+						"40"
+					],
+					[
+						"449%",
+						"12s",
+						"40"
+					],
+					[
+						"475.94%",
+						"12s",
+						"40"
+					],
+					[
+						"502.88%",
+						"12s",
+						"40"
+					],
+					[
+						"538.8%",
+						"12s",
+						"40"
+					],
+					[
+						"574.72%",
+						"12s",
+						"40"
+					],
+					[
+						"610.64%",
+						"12s",
+						"40"
+					],
+					[
+						"646.56%",
+						"12s",
+						"40"
+					],
+					[
+						"682.48%",
+						"12s",
+						"40"
+					],
+					[
+						"718.4%",
+						"12s",
+						"40"
+					],
+					[
+						"763.3%",
+						"12s",
+						"40"
+					],
+					[
+						"808.2%",
+						"12s",
+						"40"
+					],
+					[
+						"853.1%",
+						"12s",
+						"40"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 523305877,
+			"desc_hash": 3940970907,
+			"ascension": 1,
+			"name": "Combat Override",
+			"desc": "When Aloy receives the Coil effect from <color=#FFD780FF>Frozen Wilds</color>, her ATK is increased by 16%, while nearby party members' ATK is increased by 8%. This effect lasts 10s."
+		},
+		{
+			"name_hash": 433318997,
+			"desc_hash": 4257487235,
+			"ascension": 4,
+			"name": "Strong Strike",
+			"desc": "When Aloy is in the Rushing Ice state conferred by <color=#FFD780FF>Frozen Wilds</color>, her <color=#99FFFFFF>Cryo DMG Bonus</color> increases by 3.5% every 1s. A maximum <color=#99FFFFFF>Cryo DMG Bonus</color> increase of 35% can be gained in this way."
+		},
+		{
+			"name_hash": 3414124565,
+			"desc_hash": 3074893395,
+			"ascension": null,
+			"name": "Easy Does It",
+			"desc": "When Aloy is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 1426348289,
+			"name": "Star of Another World",
+			"desc_hash": 4200726279,
+			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+		},
+		{
+			"name_hash": 3468411401,
+			"name": "Star of Another World",
+			"desc_hash": 1371842791,
+			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+		},
+		{
+			"name_hash": 2621661209,
+			"name": "Star of Another World",
+			"desc_hash": 873529775,
+			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+		},
+		{
+			"name_hash": 890048705,
+			"name": "Star of Another World",
+			"desc_hash": 2073552343,
+			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+		},
+		{
+			"name_hash": 2013072401,
+			"name": "Star of Another World",
+			"desc_hash": 554591055,
+			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+		},
+		{
+			"name_hash": 3578739209,
+			"name": "Star of Another World",
+			"desc_hash": 1335613687,
+			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 3429415730,
+			"desc_hash": 271842858,
+			"restricted": false,
+			"name": "Machine Hunter",
+			"desc": "Aloy's outfit. A hunter's garb suited to life in the wilds."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108339,
+		"name_hash": 3676492396,
+		"desc_hash": 3194488261,
+		"type_hash": 3204836070,
+		"rarity": 1,
+		"name": "Satiety Gel",
+		"desc": "Aloy's specialty. The cross-section looks perfect, its shape is regular, and it gives off a cool air. At first, Aloy seemed a bit apprehensive as to whether you'd enjoy this rather unique dessert, but she was relieved when you wolfed it all down in one go...",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 3996763535,
+		"effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
+		"original_recipe": "mint_jelly"
+	}
+}

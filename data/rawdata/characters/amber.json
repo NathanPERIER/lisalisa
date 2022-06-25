@@ -1,0 +1,800 @@
+{
+	"hoyo_id": 10000021,
+	"promote_id": 21,
+	"skill_depot_id": 2101,
+	"fetter_id": 110,
+	"weapon": "bow",
+	"name_hash": 1966438658,
+	"desc_hash": 3898061993,
+	"name": "Amber",
+	"desc": "Always energetic and full of life, Amber's the best \u2014 albeit only \u2014 Outrider of the Knights of Favonius.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": [
+		10,
+		8
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		230082676,
+		2189787097
+	],
+	"astrolabe_hash": [
+		1404729682,
+		124975747
+	],
+	"allegiance_hash": 2695093385,
+	"vision": "pyro",
+	"astrolabe": "Lepus",
+	"allegiance": "Knights of Favonius",
+	"default_weapon": "hunters_bow",
+	"base_stats": {
+		"Base HP": 793.2581787109375,
+		"Base ATK": 18.698400497436523,
+		"Base DEF": 50.358001708984375,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"agnidus_agate_sliver": 1,
+				"small_lamp_grass": 3,
+				"firm_arrowhead": 3,
+				"mora": 20000
+			},
+			{
+				"agnidus_agate_fragment": 3,
+				"everflame_seed": 2,
+				"small_lamp_grass": 10,
+				"firm_arrowhead": 15,
+				"mora": 40000
+			},
+			{
+				"agnidus_agate_fragment": 6,
+				"everflame_seed": 4,
+				"small_lamp_grass": 20,
+				"sharp_arrowhead": 12,
+				"mora": 60000
+			},
+			{
+				"agnidus_agate_chunk": 3,
+				"everflame_seed": 8,
+				"small_lamp_grass": 30,
+				"sharp_arrowhead": 18,
+				"mora": 80000
+			},
+			{
+				"agnidus_agate_chunk": 6,
+				"everflame_seed": 12,
+				"small_lamp_grass": 45,
+				"weathered_arrowhead": 12,
+				"mora": 100000
+			},
+			{
+				"agnidus_agate_gemstone": 6,
+				"everflame_seed": 20,
+				"small_lamp_grass": 60,
+				"weathered_arrowhead": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 592.6044921875,
+					"Base DEF": 37.619998931884766,
+					"Base ATK": 13.968990325927734,
+					"ATK%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1013.66552734375,
+					"Base DEF": 64.3499984741211,
+					"Base ATK": 23.894325256347656,
+					"ATK%": 0.05999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1575.080322265625,
+					"Base DEF": 99.98999786376953,
+					"Base ATK": 37.12810516357422,
+					"ATK%": 0.11999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 1996.141357421875,
+					"Base DEF": 126.72000122070312,
+					"Base ATK": 47.05344009399414,
+					"ATK%": 0.11999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2417.202392578125,
+					"Base DEF": 153.4499969482422,
+					"Base ATK": 56.97877502441406,
+					"ATK%": 0.18000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 2838.263427734375,
+					"Base DEF": 180.17999267578125,
+					"Base ATK": 66.90411376953125,
+					"ATK%": 0.23999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 1422444957,
+			"desc_hash": 440387256,
+			"charge_num": 1,
+			"name": "Normal Attack: Sharpshooter",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal <color=#FF9999FF>Pyro DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"firm_arrowhead": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"sharp_arrowhead": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"sharp_arrowhead": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sharp_arrowhead": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"sharp_arrowhead": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"weathered_arrowhead": 4,
+					"dvalins_sigh": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"weathered_arrowhead": 6,
+					"dvalins_sigh": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"weathered_arrowhead": 9,
+					"dvalins_sigh": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"weathered_arrowhead": 12,
+					"dvalins_sigh": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Aimed Shot",
+					"Fully-Charged Aimed Shot",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"36.12%",
+						"36.12%",
+						"46.44%",
+						"47.3%",
+						"59.34%",
+						"43.86%",
+						"124%",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"39.06%",
+						"39.06%",
+						"50.22%",
+						"51.15%",
+						"64.17%",
+						"47.43%",
+						"133.3%",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"42%",
+						"42%",
+						"54%",
+						"55%",
+						"69%",
+						"51%",
+						"142.6%",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"46.2%",
+						"46.2%",
+						"59.4%",
+						"60.5%",
+						"75.9%",
+						"56.1%",
+						"155%",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"49.14%",
+						"49.14%",
+						"63.18%",
+						"64.35%",
+						"80.73%",
+						"59.67%",
+						"164.3%",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"52.5%",
+						"52.5%",
+						"67.5%",
+						"68.75%",
+						"86.25%",
+						"63.75%",
+						"173.6%",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"57.12%",
+						"57.12%",
+						"73.44%",
+						"74.8%",
+						"93.84%",
+						"69.36%",
+						"186%",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"61.74%",
+						"61.74%",
+						"79.38%",
+						"80.85%",
+						"101.43%",
+						"74.97%",
+						"198.4%",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"66.36%",
+						"66.36%",
+						"85.32%",
+						"86.9%",
+						"109.02%",
+						"80.58%",
+						"210.8%",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"71.4%",
+						"71.4%",
+						"91.8%",
+						"93.5%",
+						"117.3%",
+						"86.7%",
+						"223.2%",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"76.44%",
+						"76.44%",
+						"98.28%",
+						"100.1%",
+						"125.58%",
+						"92.82%",
+						"235.6%",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"81.48%",
+						"81.48%",
+						"104.76%",
+						"106.7%",
+						"133.86%",
+						"98.94%",
+						"248%",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"86.52%",
+						"86.52%",
+						"111.24%",
+						"113.3%",
+						"142.14%",
+						"105.06%",
+						"263.5%",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"91.56%",
+						"91.56%",
+						"117.72%",
+						"119.9%",
+						"150.42%",
+						"111.18%",
+						"279%",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"96.6%",
+						"96.6%",
+						"124.2%",
+						"126.5%",
+						"158.7%",
+						"117.3%",
+						"294.5%",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 3667697773,
+			"desc_hash": 1744735952,
+			"charge_num": 1,
+			"name": "Explosive Puppet",
+			"desc": "The ever-reliable Baron Bunny takes the stage.\\n\\n<color=#FFD780FF>Baron Bunny</color>\\n\u00b7Continuously taunts the enemy, drawing their fire.\\n\u00b7Baron Bunny's HP scales with Amber's Max HP.\\n\u00b7When destroyed or when its timer expires, Baron Bunny explodes, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nAdjusts the throwing direction of Baron Bunny.\\nThe longer the button is held, the further the throw.\\n\\n<i>Baron Bunny hails from a storied lineage, but Amber has stopped keeping count since Baron Bunny the 893rd.</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"firm_arrowhead": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"sharp_arrowhead": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"sharp_arrowhead": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sharp_arrowhead": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"sharp_arrowhead": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"weathered_arrowhead": 4,
+					"dvalins_sigh": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"weathered_arrowhead": 6,
+					"dvalins_sigh": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"weathered_arrowhead": 9,
+					"dvalins_sigh": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"weathered_arrowhead": 12,
+					"dvalins_sigh": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Inherited HP",
+					"Explosion DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"41.36%",
+						"123.2%",
+						"15s"
+					],
+					[
+						"44.46%",
+						"132.44%",
+						"15s"
+					],
+					[
+						"47.56%",
+						"141.68%",
+						"15s"
+					],
+					[
+						"51.7%",
+						"154%",
+						"15s"
+					],
+					[
+						"54.8%",
+						"163.24%",
+						"15s"
+					],
+					[
+						"57.9%",
+						"172.48%",
+						"15s"
+					],
+					[
+						"62.04%",
+						"184.8%",
+						"15s"
+					],
+					[
+						"66.18%",
+						"197.12%",
+						"15s"
+					],
+					[
+						"70.31%",
+						"209.44%",
+						"15s"
+					],
+					[
+						"74.45%",
+						"221.76%",
+						"15s"
+					],
+					[
+						"78.58%",
+						"234.08%",
+						"15s"
+					],
+					[
+						"82.72%",
+						"246.4%",
+						"15s"
+					],
+					[
+						"87.89%",
+						"261.8%",
+						"15s"
+					],
+					[
+						"93.06%",
+						"277.2%",
+						"15s"
+					],
+					[
+						"98.23%",
+						"292.6%",
+						"15s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 4246808797,
+			"desc_hash": 1744785232,
+			"charge_num": 1,
+			"name": "Fiery Rain",
+			"desc": "Fires off a shower of arrows, dealing continuous <color=#FF9999FF>AoE Pyro DMG</color>.\\n\\n<i>Amber's passion truly burns hot.</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"firm_arrowhead": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"sharp_arrowhead": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"sharp_arrowhead": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sharp_arrowhead": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"sharp_arrowhead": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"weathered_arrowhead": 4,
+					"dvalins_sigh": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"weathered_arrowhead": 6,
+					"dvalins_sigh": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"weathered_arrowhead": 9,
+					"dvalins_sigh": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"weathered_arrowhead": 12,
+					"dvalins_sigh": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Fiery Rain DMG Per Wave",
+					"Total Fiery Rain DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"28.08%",
+						"505.44%",
+						"2s",
+						"12s",
+						"40"
+					],
+					[
+						"30.19%",
+						"543.35%",
+						"2s",
+						"12s",
+						"40"
+					],
+					[
+						"32.29%",
+						"581.26%",
+						"2s",
+						"12s",
+						"40"
+					],
+					[
+						"35.1%",
+						"631.8%",
+						"2s",
+						"12s",
+						"40"
+					],
+					[
+						"37.21%",
+						"669.71%",
+						"2s",
+						"12s",
+						"40"
+					],
+					[
+						"39.31%",
+						"707.62%",
+						"2s",
+						"12s",
+						"40"
+					],
+					[
+						"42.12%",
+						"758.16%",
+						"2s",
+						"12s",
+						"40"
+					],
+					[
+						"44.93%",
+						"808.7%",
+						"2s",
+						"12s",
+						"40"
+					],
+					[
+						"47.74%",
+						"859.25%",
+						"2s",
+						"12s",
+						"40"
+					],
+					[
+						"50.54%",
+						"909.79%",
+						"2s",
+						"12s",
+						"40"
+					],
+					[
+						"53.35%",
+						"960.34%",
+						"2s",
+						"12s",
+						"40"
+					],
+					[
+						"56.16%",
+						"1010.88%",
+						"2s",
+						"12s",
+						"40"
+					],
+					[
+						"59.67%",
+						"1074.06%",
+						"2s",
+						"12s",
+						"40"
+					],
+					[
+						"63.18%",
+						"1137.24%",
+						"2s",
+						"12s",
+						"40"
+					],
+					[
+						"66.69%",
+						"1200.42%",
+						"2s",
+						"12s",
+						"40"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 644206373,
+			"desc_hash": 2816835699,
+			"ascension": 1,
+			"name": "Every Arrow Finds Its Target",
+			"desc": "Increases the CRIT Rate of <color=#FFD780FF>Fiery Rain</color> by 10% and widens its AoE by 30%."
+		},
+		{
+			"name_hash": 3924875829,
+			"desc_hash": 3525842155,
+			"ascension": 4,
+			"name": "Precise Shot",
+			"desc": "Aimed Shot hits on weak points increase ATK by 15% for 10s."
+		},
+		{
+			"name_hash": 318191261,
+			"desc_hash": 1991866363,
+			"ascension": null,
+			"name": "Gliding Champion",
+			"desc": "Decreases gliding Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 1803598873,
+			"name": "One Arrow to Rule Them All",
+			"desc_hash": 2709231575,
+			"desc": "Fires 2 arrows per <color=#FFD780FF>Aimed Shot</color>. The second arrow deals 20% of the first arrow's DMG."
+		},
+		{
+			"name_hash": 2183507145,
+			"name": "Bunny Triggered",
+			"desc_hash": 967025055,
+			"desc": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.\\nExplosion via manual detonation deals 200% additional DMG."
+		},
+		{
+			"name_hash": 1196596641,
+			"name": "It Burns!",
+			"desc_hash": 2432552951,
+			"desc": "Increases the Level of <color=#FFD780FF>Fiery Rain</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2969048825,
+			"name": "It's Not Just Any Doll...",
+			"desc_hash": 3308085223,
+			"desc": "Decreases <color=#FFD780FF>Explosive Puppet</color>'s CD by 20%. Adds 1 additional charge."
+		},
+		{
+			"name_hash": 1752633193,
+			"name": "It's Baron Bunny!",
+			"desc_hash": 3697934583,
+			"desc": "Increases the Level of <color=#FFD780FF>Explosive Puppet</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 1429105737,
+			"name": "Wildfire",
+			"desc_hash": 2414194279,
+			"desc": "<color=#FFD780FF>Fiery Rain</color> increases all party members' Movement SPD by 15% and ATK by 15% for 10s."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 690774682,
+			"desc_hash": 2978334658,
+			"restricted": false,
+			"name": "5-Star Outrider",
+			"desc": "Amber's outfit. An Outrider's uniform made for maximum mobility."
+		},
+		"alt": [
+			{
+				"hoyo_id": 340007,
+				"name_hash": 4237698530,
+				"desc_hash": 2955174482,
+				"restricted": true,
+				"name": "100% Outrider",
+				"desc": "Amber's outfit. This is a more formal \u2014 but no less cool \u2014 version of the Outrider's uniform!"
+			}
+		]
+	},
+	"special_dish": {
+		"hoyo_id": 108010,
+		"name_hash": 1465836308,
+		"desc_hash": 490868933,
+		"type_hash": 1184068054,
+		"rarity": 1,
+		"name": "Outrider's Champion Steak!",
+		"desc": "Amber's specialty. One side is obviously uncooked. The other side gives off a subtle scent of something burnt. Close your eyes and have a big mouthful, just to keep Amber happy if nothing else.",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 1232289807,
+		"effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+		"original_recipe": "steak"
+	}
+}

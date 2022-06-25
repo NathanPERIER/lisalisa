@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15404,
+	"promote_id": 15404,
+	"gadget_id": 50015404,
+	"story_id": [
+		195404
+	],
+	"skill_affix": [
+		115404,
+		0
+	],
+	"type": "bow",
+	"name_hash": 2832648187,
+	"desc_hash": 1025771861,
+	"name": "Royal Bow",
+	"desc": "An old longbow that belonged to the erstwhile aristocratic rulers of Mondstadt. Countless generations later, the bowstring is still tight and can still fire arrows with great force.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"ATK%": 0.09000000357627869
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 3,
+				"chaos_device": 3,
+				"divining_scroll": 2,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 3,
+				"chaos_device": 12,
+				"divining_scroll": 8,
+				"mora": 15000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 6,
+				"chaos_circuit": 6,
+				"sealed_scroll": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 3,
+				"chaos_circuit": 12,
+				"sealed_scroll": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 6,
+				"chaos_core": 9,
+				"forbidden_curse_scroll": 6,
+				"mora": 35000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 4,
+				"chaos_core": 18,
+				"forbidden_curse_scroll": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2136205043,
+		"name": "Focus",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1154040,
+				"desc_hash": 200129153,
+				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>8%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1154041,
+				"desc_hash": 2460772961,
+				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>10%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1154042,
+				"desc_hash": 828207073,
+				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>12%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1154043,
+				"desc_hash": 3884130657,
+				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>14%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1154044,
+				"desc_hash": 354025529,
+				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>16%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"cost": 8000
+			}
+		]
+	}
+}

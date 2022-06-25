@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15405,
+	"promote_id": 15405,
+	"gadget_id": 50015405,
+	"story_id": [
+		195405
+	],
+	"skill_affix": [
+		115405,
+		0
+	],
+	"type": "bow",
+	"name_hash": 3169209451,
+	"desc_hash": 3931321797,
+	"name": "Rust",
+	"desc": "A completely rusted iron greatbow. The average person would lack the strength to even lift it, let alone fire it.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"ATK%": 0.09000000357627869
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"luminous_sands_from_guyun": 3,
+				"hunters_sacrificial_knife": 3,
+				"damaged_mask": 2,
+				"mora": 5000
+			},
+			{
+				"lustrous_stone_from_guyun": 3,
+				"hunters_sacrificial_knife": 12,
+				"damaged_mask": 8,
+				"mora": 15000
+			},
+			{
+				"lustrous_stone_from_guyun": 6,
+				"agents_sacrificial_knife": 6,
+				"stained_mask": 6,
+				"mora": 20000
+			},
+			{
+				"relic_from_guyun": 3,
+				"agents_sacrificial_knife": 12,
+				"stained_mask": 9,
+				"mora": 30000
+			},
+			{
+				"relic_from_guyun": 6,
+				"inspectors_sacrificial_knife": 9,
+				"ominous_mask": 6,
+				"mora": 35000
+			},
+			{
+				"divine_body_from_guyun": 4,
+				"inspectors_sacrificial_knife": 18,
+				"ominous_mask": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3717831651,
+		"name": "Rapid Firing",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1154050,
+				"desc_hash": 3268538449,
+				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>40%</color> but decreases Charged Attack DMG by 10%.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1154051,
+				"desc_hash": 3179243025,
+				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>50%</color> but decreases Charged Attack DMG by 10%.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1154052,
+				"desc_hash": 657870729,
+				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>60%</color> but decreases Charged Attack DMG by 10%.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1154053,
+				"desc_hash": 705040913,
+				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>70%</color> but decreases Charged Attack DMG by 10%.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1154054,
+				"desc_hash": 1454583665,
+				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>80%</color> but decreases Charged Attack DMG by 10%.",
+				"cost": 8000
+			}
+		]
+	}
+}

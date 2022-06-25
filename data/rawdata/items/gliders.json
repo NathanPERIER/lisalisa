@@ -1,0 +1,74 @@
+{
+	"wings_of_first_flight": {
+		"hoyo_id": 140001,
+		"name_hash": 1227437700,
+		"desc_hash": 2963284368,
+		"name": "Wings of First Flight",
+		"desc": "A stylized wind glider that bears the passionate longing of an Outrider.",
+		"rarity": 4
+	},
+	"wings_of_companionship": {
+		"hoyo_id": 140002,
+		"name_hash": 3679998556,
+		"desc_hash": 2439760640,
+		"name": "Wings of Companionship",
+		"desc": "A stylized wind glider upon which is inscribed the wish to soar together.",
+		"rarity": 4
+	},
+	"wings_of_descension": {
+		"hoyo_id": 140003,
+		"name_hash": 1307041812,
+		"desc_hash": 251460624,
+		"name": "Wings of Descension",
+		"desc": "Effective only on the following platform:\\n\"PlayStation Network\"\\nA stylized wind glider that can be used to cross the celestial heights.",
+		"rarity": 4
+	},
+	"wings_of_azure_wind": {
+		"hoyo_id": 140004,
+		"name_hash": 3265724196,
+		"desc_hash": 95448472,
+		"name": "Wings of Azure Wind",
+		"desc": "A stylized wind glider gifted to you as a mark of Mondstadt's acknowledgment and recognition.",
+		"rarity": 4
+	},
+	"wings_of_golden_flight": {
+		"hoyo_id": 140005,
+		"name_hash": 1800191236,
+		"desc_hash": 397410296,
+		"name": "Wings of Golden Flight",
+		"desc": "A stylized wind glider gifted to you as a mark of Liyue's acknowledgment and recognition.",
+		"rarity": 4
+	},
+	"wings_of_concealing_snow": {
+		"hoyo_id": 140006,
+		"name_hash": 790364508,
+		"desc_hash": 2419069352,
+		"name": "Wings of Concealing Snow",
+		"desc": "A stylized wind glider left behind by a bird of prey that once soared among these mountains.",
+		"rarity": 4
+	},
+	"wings_of_feasting": {
+		"hoyo_id": 140007,
+		"name_hash": 972574812,
+		"desc_hash": 3582594568,
+		"name": "Wings of Feasting",
+		"desc": "A pair of wings that memorialize great banquets or ordinary dinners. All the enjoyment of a feast for the price of a simple meal.",
+		"rarity": 4
+	},
+	"wings_of_the_stormstrider": {
+		"hoyo_id": 140008,
+		"name_hash": 1047777100,
+		"desc_hash": 533901256,
+		"name": "Wings of the Stormstrider",
+		"desc": "A stylized wind glider gifted to you as a mark of Inazuma's acknowledgment and recognition.",
+		"rarity": 4
+	},
+	"wings_of_shimmering_galaxy": {
+		"hoyo_id": 140009,
+		"name_hash": 14389020,
+		"desc_hash": 3075333936,
+		"name": "Wings of Shimmering Galaxy",
+		"desc": "A stylized wind glider and a gift that celebrates a symphony that resounds across the stars.",
+		"rarity": 4
+	}
+}

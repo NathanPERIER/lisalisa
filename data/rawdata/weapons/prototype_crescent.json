@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15406,
+	"promote_id": 15406,
+	"gadget_id": 50015406,
+	"story_id": [
+		195406
+	],
+	"skill_affix": [
+		115406,
+		0
+	],
+	"type": "bow",
+	"name_hash": 3625393819,
+	"desc_hash": 2174225037,
+	"name": "Prototype Crescent",
+	"desc": "A prototype longbow discovered in the Blackcliff Forge. The arrow fired from this bow glimmers like a ray of moonlight.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"ATK%": 0.09000000357627869
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"mist_veiled_lead_elixir": 3,
+				"mist_grass_pollen": 3,
+				"treasure_hoarder_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"mist_veiled_mercury_elixir": 3,
+				"mist_grass_pollen": 12,
+				"treasure_hoarder_insignia": 8,
+				"mora": 15000
+			},
+			{
+				"mist_veiled_mercury_elixir": 6,
+				"mist_grass": 6,
+				"silver_raven_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"mist_veiled_gold_elixir": 3,
+				"mist_grass": 12,
+				"silver_raven_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"mist_veiled_gold_elixir": 6,
+				"mist_grass_wick": 9,
+				"golden_raven_insignia": 6,
+				"mora": 35000
+			},
+			{
+				"mist_veiled_primo_elixir": 4,
+				"mist_grass_wick": 18,
+				"golden_raven_insignia": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1166144531,
+		"name": "Unreturning",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1154060,
+				"desc_hash": 1361434521,
+				"desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>36%</color> for 10s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1154061,
+				"desc_hash": 3442169441,
+				"desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>45%</color> for 10s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1154062,
+				"desc_hash": 3341545649,
+				"desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>54%</color> for 10s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1154063,
+				"desc_hash": 3524996897,
+				"desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>63%</color> for 10s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1154064,
+				"desc_hash": 2700504721,
+				"desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>72%</color> for 10s.",
+				"cost": 8000
+			}
+		]
+	}
+}

@@ -1,0 +1,807 @@
+{
+	"hoyo_id": 10000049,
+	"promote_id": 49,
+	"skill_depot_id": 4901,
+	"fetter_id": 137,
+	"weapon": "bow",
+	"name_hash": 2504399314,
+	"desc_hash": 1813152017,
+	"name": "Yoimiya",
+	"desc": "Owner of Naganohara Fireworks. Known as the \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": [
+		21,
+		6
+	],
+	"region": "inazuma",
+	"vision_hash": [
+		1646245548,
+		2034415441
+	],
+	"astrolabe_hash": [
+		1841952946,
+		896433771
+	],
+	"allegiance_hash": 235578769,
+	"vision": "pyro",
+	"astrolabe": "Carassius Auratus",
+	"allegiance": "Naganohara Fireworks",
+	"default_weapon": "hunters_bow",
+	"base_stats": {
+		"Base HP": 791.255615234375,
+		"Base ATK": 25.136999130249023,
+		"Base DEF": 47.86399841308594,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"agnidus_agate_sliver": 1,
+				"naku_weed": 3,
+				"divining_scroll": 3,
+				"mora": 20000
+			},
+			{
+				"agnidus_agate_fragment": 3,
+				"smoldering_pearl": 2,
+				"naku_weed": 10,
+				"divining_scroll": 15,
+				"mora": 40000
+			},
+			{
+				"agnidus_agate_fragment": 6,
+				"smoldering_pearl": 4,
+				"naku_weed": 20,
+				"sealed_scroll": 12,
+				"mora": 60000
+			},
+			{
+				"agnidus_agate_chunk": 3,
+				"smoldering_pearl": 8,
+				"naku_weed": 30,
+				"sealed_scroll": 18,
+				"mora": 80000
+			},
+			{
+				"agnidus_agate_chunk": 6,
+				"smoldering_pearl": 12,
+				"naku_weed": 45,
+				"forbidden_curse_scroll": 12,
+				"mora": 100000
+			},
+			{
+				"agnidus_agate_gemstone": 6,
+				"smoldering_pearl": 20,
+				"naku_weed": 60,
+				"forbidden_curse_scroll": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 678.4301147460938,
+					"Base DEF": 41.040000915527344,
+					"Base ATK": 21.551130294799805,
+					"Crit Rate%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1160.4725341796875,
+					"Base DEF": 70.19999694824219,
+					"Base ATK": 36.863773345947266,
+					"Crit Rate%": 0.04800000041723251
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1803.1959228515625,
+					"Base DEF": 109.08000183105469,
+					"Base ATK": 57.280635833740234,
+					"Crit Rate%": 0.09600000083446503
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2285.23828125,
+					"Base DEF": 138.24000549316406,
+					"Base ATK": 72.59327697753906,
+					"Crit Rate%": 0.09600000083446503
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2767.28076171875,
+					"Base DEF": 167.39999389648438,
+					"Base ATK": 87.90592193603516,
+					"Crit Rate%": 0.14399999380111694
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3249.3232421875,
+					"Base DEF": 196.55999755859375,
+					"Base ATK": 103.21856689453125,
+					"Crit Rate%": 0.19200000166893005
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 1887244733,
+			"desc_hash": 672946912,
+			"charge_num": 1,
+			"name": "Normal Attack: Firework Flare-Up",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 5 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:\\n\u00b7Charge Level 1: Fires off a flaming arrow that deals <color=#FF9999FF>Pyro DMG</color>.\\n\u00b7Charge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing <color=#FF9999FF>Pyro DMG</color> on hit.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_transience": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_transience": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_transience": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_transience": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_transience": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_transience": 4,
+					"forbidden_curse_scroll": 4,
+					"dragon_lords_crown": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_transience": 6,
+					"forbidden_curse_scroll": 6,
+					"dragon_lords_crown": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_transience": 12,
+					"forbidden_curse_scroll": 9,
+					"dragon_lords_crown": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_transience": 16,
+					"forbidden_curse_scroll": 12,
+					"dragon_lords_crown": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Aimed Shot",
+					"Fully-Charged Aimed Shot",
+					"Kindling Arrow DMG",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"35.64%\u00d72",
+						"68.38%",
+						"88.89%",
+						"46.42%\u00d72",
+						"105.86%",
+						"43.86%",
+						"124%",
+						"16.4%",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"38.07%\u00d72",
+						"73.04%",
+						"94.95%",
+						"49.58%\u00d72",
+						"113.08%",
+						"47.43%",
+						"133.3%",
+						"17.63%",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"40.5%\u00d72",
+						"77.7%",
+						"101.01%",
+						"52.75%\u00d72",
+						"120.3%",
+						"51%",
+						"142.6%",
+						"18.86%",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"43.74%\u00d72",
+						"83.92%",
+						"109.09%",
+						"56.97%\u00d72",
+						"129.92%",
+						"56.1%",
+						"155%",
+						"20.5%",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"46.17%\u00d72",
+						"88.58%",
+						"115.15%",
+						"60.14%\u00d72",
+						"137.14%",
+						"59.67%",
+						"164.3%",
+						"21.73%",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"49%\u00d72",
+						"94.02%",
+						"122.22%",
+						"63.83%\u00d72",
+						"145.56%",
+						"63.75%",
+						"173.6%",
+						"22.96%",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"52.65%\u00d72",
+						"101.01%",
+						"131.31%",
+						"68.58%\u00d72",
+						"156.39%",
+						"69.36%",
+						"186%",
+						"24.6%",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"56.3%\u00d72",
+						"108%",
+						"140.4%",
+						"73.32%\u00d72",
+						"167.22%",
+						"74.97%",
+						"198.4%",
+						"26.24%",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"59.94%\u00d72",
+						"115%",
+						"149.49%",
+						"78.07%\u00d72",
+						"178.04%",
+						"80.58%",
+						"210.8%",
+						"27.88%",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"63.59%\u00d72",
+						"121.99%",
+						"158.59%",
+						"82.82%\u00d72",
+						"188.87%",
+						"86.7%",
+						"223.2%",
+						"29.52%",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"67.23%\u00d72",
+						"128.98%",
+						"167.68%",
+						"87.56%\u00d72",
+						"199.7%",
+						"92.82%",
+						"235.6%",
+						"31.16%",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"70.88%\u00d72",
+						"135.98%",
+						"176.77%",
+						"92.31%\u00d72",
+						"210.52%",
+						"98.94%",
+						"248%",
+						"32.8%",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"74.52%\u00d72",
+						"142.97%",
+						"185.86%",
+						"97.06%\u00d72",
+						"221.35%",
+						"105.06%",
+						"263.5%",
+						"34.85%",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"78.17%\u00d72",
+						"149.96%",
+						"194.95%",
+						"101.81%\u00d72",
+						"232.18%",
+						"111.18%",
+						"279%",
+						"36.9%",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"81.81%\u00d72",
+						"156.95%",
+						"204.04%",
+						"106.55%\u00d72",
+						"243.01%",
+						"117.3%",
+						"294.5%",
+						"38.95%",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 3119836125,
+			"desc_hash": 3354049592,
+			"charge_num": 1,
+			"name": "Niwabi Fire-Dance",
+			"desc": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.\\n\\n<color=#FFD780FF>Niwabi Enshou</color>\\nDuring this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to <color=#FF9999FF>Pyro DMG</color>. During this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2.\\n\\nThis effect will deactivate when Yoimiya leaves the field.\\n\\n<i>\"Niwabi\" is a form of incense firework created by Yoimiya herself. Its ability to be lit without any prior training or preparation has made it a real hit. After many fire-related incidents, the Tenryou Commission ordered the use of \"Niwabi\" banned, but small, bright sparks can often still be seen springing up at night. If seen from above, they look almost like little twinkling stars.</i>",
+			"costs": [
+				{
+					"teachings_of_transience": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_transience": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_transience": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_transience": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_transience": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_transience": 4,
+					"forbidden_curse_scroll": 4,
+					"dragon_lords_crown": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_transience": 6,
+					"forbidden_curse_scroll": 6,
+					"dragon_lords_crown": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_transience": 12,
+					"forbidden_curse_scroll": 9,
+					"dragon_lords_crown": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_transience": 16,
+					"forbidden_curse_scroll": 12,
+					"dragon_lords_crown": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Blazing Arrow DMG",
+					"Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"137.91% Normal Attack DMG",
+						"10s",
+						"18s"
+					],
+					[
+						"140.18% Normal Attack DMG",
+						"10s",
+						"18s"
+					],
+					[
+						"142.45% Normal Attack DMG",
+						"10s",
+						"18s"
+					],
+					[
+						"145.4% Normal Attack DMG",
+						"10s",
+						"18s"
+					],
+					[
+						"147.67% Normal Attack DMG",
+						"10s",
+						"18s"
+					],
+					[
+						"149.94% Normal Attack DMG",
+						"10s",
+						"18s"
+					],
+					[
+						"152.89% Normal Attack DMG",
+						"10s",
+						"18s"
+					],
+					[
+						"155.84% Normal Attack DMG",
+						"10s",
+						"18s"
+					],
+					[
+						"158.79% Normal Attack DMG",
+						"10s",
+						"18s"
+					],
+					[
+						"161.74% Normal Attack DMG",
+						"10s",
+						"18s"
+					],
+					[
+						"164.7% Normal Attack DMG",
+						"10s",
+						"18s"
+					],
+					[
+						"167.65% Normal Attack DMG",
+						"10s",
+						"18s"
+					],
+					[
+						"170.6% Normal Attack DMG",
+						"10s",
+						"18s"
+					],
+					[
+						"173.55% Normal Attack DMG",
+						"10s",
+						"18s"
+					],
+					[
+						"176.5% Normal Attack DMG",
+						"10s",
+						"18s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 4251575685,
+			"desc_hash": 1220046344,
+			"charge_num": 1,
+			"name": "Ryuukin Saxifrage",
+			"desc": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal <color=#FF9999FF>AoE Pyro DMG</color> and mark one of the hit opponents with Aurous Blaze.\\n\\n<color=#FFD780FF>Aurous Blaze</color>\\nAll Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\nWhen an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.\\n\\nOne Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated.\\n\\n<i>Fireworks are man-made starlight, comets fired into the sky. Though they last for but an instant, the memory of their brilliance shall surely live on.</i>",
+			"costs": [
+				{
+					"teachings_of_transience": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_transience": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_transience": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_transience": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_transience": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_transience": 4,
+					"forbidden_curse_scroll": 4,
+					"dragon_lords_crown": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_transience": 6,
+					"forbidden_curse_scroll": 6,
+					"dragon_lords_crown": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_transience": 12,
+					"forbidden_curse_scroll": 9,
+					"dragon_lords_crown": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_transience": 16,
+					"forbidden_curse_scroll": 12,
+					"dragon_lords_crown": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Aurous Blaze Explosion DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"127.2%",
+						"122%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"136.74%",
+						"131.15%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"146.28%",
+						"140.3%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"159%",
+						"152.5%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"168.54%",
+						"161.65%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"178.08%",
+						"170.8%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"190.8%",
+						"183%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"203.52%",
+						"195.2%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"216.24%",
+						"207.4%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"228.96%",
+						"219.6%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"241.68%",
+						"231.8%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"254.4%",
+						"244%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"270.3%",
+						"259.25%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"286.2%",
+						"274.5%",
+						"10s",
+						"15s",
+						"60"
+					],
+					[
+						"302.1%",
+						"289.75%",
+						"10s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 539964053,
+			"desc_hash": 3580171643,
+			"ascension": 1,
+			"name": "Tricks of the Trouble-Maker",
+			"desc": "During <color=#FFD780FF>Niwabi Fire-Dance</color>, shots from Yoimiya's Normal Attack will increase her <color=#FF9999FF>Pyro DMG Bonus</color> by 2% on hit. This effect lasts for 3s and can have a maximum of 10 stacks."
+		},
+		{
+			"name_hash": 1567653061,
+			"desc_hash": 2717127555,
+			"ascension": 4,
+			"name": "Summer Night's Dawn",
+			"desc": "Using <color=#FFD780FF>Ryuukin Saxifrage</color> causes nearby party members (not including Yoimiya) to gain a 10% ATK increase for 15s. Additionally, a further ATK Bonus will be added on based on the number of \"Tricks of the Trouble-Maker\" stacks Yoimiya possesses when using <color=#FFD780FF>Ryuukin Saxifrage</color>. Each stack increases this ATK Bonus by 1%."
+		},
+		{
+			"name_hash": 964826125,
+			"desc_hash": 953360891,
+			"ascension": null,
+			"name": "Blazing Match",
+			"desc": "When Yoimiya crafts Decoration, Ornament, and Landscape-type Furnishings, she has a 100% chance to refund a portion of the materials used."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 106208137,
+			"name": "Agate Ryuukin",
+			"desc_hash": 3438911311,
+			"desc": "The Aurous Blaze created by <color=#FFD780FF>Ryuukin Saxifrage</color> lasts for an extra 4s.\\nAdditionally, when an opponent affected by Aurous Blaze is defeated within its duration, Yoimiya's ATK is increased by 20% for 20s."
+		},
+		{
+			"name_hash": 3836801473,
+			"name": "A Procession of Bonfires",
+			"desc_hash": 2102275567,
+			"desc": "When Yoimiya's <color=#FF9999FF>Pyro DMG</color> scores a CRIT Hit, Yoimiya will gain a 25% <color=#FF9999FF>Pyro DMG Bonus</color> for 6s.\\nThis effect can be triggered even when Yoimiya is not the active character."
+		},
+		{
+			"name_hash": 3467544337,
+			"name": "Trickster's Flare",
+			"desc_hash": 3229313215,
+			"desc": "Increases the Level of <color=#FFD780FF>Niwabi Fire-Dance</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2352994657,
+			"name": "Pyrotechnic Professional",
+			"desc_hash": 2299629615,
+			"desc": "When Yoimiya's own Aurous Blaze triggers an explosion, <color=#FFD780FF>Niwabi Fire-Dance</color>'s CD is decreased by 1.2s."
+		},
+		{
+			"name_hash": 3785597649,
+			"name": "A Summer Festival's Eve",
+			"desc_hash": 1007404639,
+			"desc": "Increases the Level of <color=#FFD780FF>Ryuukin Saxifrage</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3248653433,
+			"name": "Naganohara Meteor Swarm",
+			"desc_hash": 1202044591,
+			"desc": "During <color=#FFD780FF>Niwabi Fire-Dance</color>, Yoimiya's Normal Attacks have a 50% chance of firing an extra Blazing Arrow that deals 60% of its original DMG. This DMG is considered Normal Attack DMG."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 2353136394,
+			"desc_hash": 984351202,
+			"restricted": false,
+			"name": "Goldfish Firecracker",
+			"desc": "Yoimiya's outfit. A patchwork of memories from festivals over the years."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108302,
+		"name_hash": 959580548,
+		"desc_hash": 2126645701,
+		"type_hash": 2817243478,
+		"rarity": 3,
+		"name": "Summer Festival Fish",
+		"desc": "Yoimiya's specialty. Watching the fireworks, your hands full of the snacks Yoimiya's given you, her carefree, child-like laughter in your ear as the pyrotechnics burst overhead... Amid this unique symphony of sounds, the plump goldfish in your hand almost looks like it might start swimming at any moment...",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 1873524711,
+		"effect": "Restores 40% of Max HP and an additional 2,350 HP to the selected character.",
+		"original_recipe": "tricolor_dango"
+	}
+}

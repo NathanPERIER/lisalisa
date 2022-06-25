@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12405,
+	"promote_id": 12405,
+	"gadget_id": 50012405,
+	"story_id": [
+		192405
+	],
+	"skill_affix": [
+		112405,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 3684723963,
+	"desc_hash": 2688397213,
+	"name": "Rainslasher",
+	"desc": "A fluorescent greatsword with no sharp edge that crushes enemies with brute force and raw power.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"Elemental Mastery": 36.0
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"mist_veiled_lead_elixir": 3,
+				"mist_grass_pollen": 3,
+				"divining_scroll": 2,
+				"mora": 5000
+			},
+			{
+				"mist_veiled_mercury_elixir": 3,
+				"mist_grass_pollen": 12,
+				"divining_scroll": 8,
+				"mora": 15000
+			},
+			{
+				"mist_veiled_mercury_elixir": 6,
+				"mist_grass": 6,
+				"sealed_scroll": 6,
+				"mora": 20000
+			},
+			{
+				"mist_veiled_gold_elixir": 3,
+				"mist_grass": 12,
+				"sealed_scroll": 9,
+				"mora": 30000
+			},
+			{
+				"mist_veiled_gold_elixir": 6,
+				"mist_grass_wick": 9,
+				"forbidden_curse_scroll": 6,
+				"mora": 35000
+			},
+			{
+				"mist_veiled_primo_elixir": 4,
+				"mist_grass_wick": 18,
+				"forbidden_curse_scroll": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3070186411,
+		"name": "Bane of Storm and Tide",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1124050,
+				"desc_hash": 1692191241,
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>20%</color>.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1124051,
+				"desc_hash": 3691086665,
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>24%</color>.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1124052,
+				"desc_hash": 3957483593,
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>28%</color>.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1124053,
+				"desc_hash": 605182377,
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>32%</color>.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1124054,
+				"desc_hash": 3866769929,
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>36%</color>.",
+				"cost": 8000
+			}
+		]
+	}
+}

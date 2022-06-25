@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13303,
+	"promote_id": 13303,
+	"gadget_id": 50013303,
+	"story_id": [
+		193303
+	],
+	"skill_affix": [
+		113303,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 4103766499,
+	"desc_hash": 2692633181,
+	"name": "Black Tassel",
+	"desc": "An exceptionally powerful polearm that also offers a simple but elegant solution to the issue of the easily stained white tassel.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 37.60749816894531,
+		"HP%": 0.10213299840688705
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_104",
+		"HP%": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"grain_of_aerosiderite": 2,
+				"fragile_bone_shard": 2,
+				"firm_arrowhead": 1,
+				"mora": 5000
+			},
+			{
+				"piece_of_aerosiderite": 2,
+				"fragile_bone_shard": 8,
+				"firm_arrowhead": 5,
+				"mora": 10000
+			},
+			{
+				"piece_of_aerosiderite": 4,
+				"sturdy_bone_shard": 4,
+				"sharp_arrowhead": 4,
+				"mora": 15000
+			},
+			{
+				"bit_of_aerosiderite": 2,
+				"sturdy_bone_shard": 8,
+				"sharp_arrowhead": 6,
+				"mora": 20000
+			},
+			{
+				"bit_of_aerosiderite": 4,
+				"fossilized_bone_shard": 6,
+				"weathered_arrowhead": 4,
+				"mora": 25000
+			},
+			{
+				"chunk_of_aerosiderite": 3,
+				"fossilized_bone_shard": 12,
+				"weathered_arrowhead": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 651784635,
+		"name": "Bane of the Soft",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1133030,
+				"desc_hash": 1419204745,
+				"desc": "Increases DMG against slimes by <color=#99FFFFFF>40%</color>.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1133031,
+				"desc_hash": 3187246905,
+				"desc": "Increases DMG against slimes by <color=#99FFFFFF>50%</color>.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1133032,
+				"desc_hash": 1250775489,
+				"desc": "Increases DMG against slimes by <color=#99FFFFFF>60%</color>.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1133033,
+				"desc_hash": 2335392873,
+				"desc": "Increases DMG against slimes by <color=#99FFFFFF>70%</color>.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1133034,
+				"desc_hash": 3410883329,
+				"desc": "Increases DMG against slimes by <color=#99FFFFFF>80%</color>.",
+				"cost": 4000
+			}
+		]
+	}
+}

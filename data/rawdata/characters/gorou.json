@@ -1,0 +1,807 @@
+{
+	"hoyo_id": 10000055,
+	"promote_id": 55,
+	"skill_depot_id": 5501,
+	"fetter_id": 55600,
+	"weapon": "bow",
+	"name_hash": 3400133546,
+	"desc_hash": 2692321673,
+	"name": "Gorou",
+	"desc": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_BOY",
+	"birthday": [
+		18,
+		5
+	],
+	"region": "inazuma",
+	"vision_hash": [
+		1016213980,
+		2297824401
+	],
+	"astrolabe_hash": [
+		1574145170,
+		3906648139
+	],
+	"allegiance_hash": 3031398817,
+	"vision": "geo",
+	"astrolabe": "Canis Bellatoris",
+	"allegiance": "Watatsumi Island",
+	"default_weapon": "hunters_bow",
+	"base_stats": {
+		"Base HP": 802.3760986328125,
+		"Base ATK": 15.31488037109375,
+		"Base DEF": 54.36375045776367,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"prithiva_topaz_sliver": 1,
+				"sango_pearl": 3,
+				"spectral_husk": 3,
+				"mora": 20000
+			},
+			{
+				"prithiva_topaz_fragment": 3,
+				"perpetual_heart": 2,
+				"sango_pearl": 10,
+				"spectral_husk": 15,
+				"mora": 40000
+			},
+			{
+				"prithiva_topaz_fragment": 6,
+				"perpetual_heart": 4,
+				"sango_pearl": 20,
+				"spectral_heart": 12,
+				"mora": 60000
+			},
+			{
+				"prithiva_topaz_chunk": 3,
+				"perpetual_heart": 8,
+				"sango_pearl": 30,
+				"spectral_heart": 18,
+				"mora": 80000
+			},
+			{
+				"prithiva_topaz_chunk": 6,
+				"perpetual_heart": 12,
+				"sango_pearl": 45,
+				"spectral_nucleus": 12,
+				"mora": 100000
+			},
+			{
+				"prithiva_topaz_gemstone": 6,
+				"perpetual_heart": 20,
+				"sango_pearl": 60,
+				"spectral_nucleus": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 599.416015625,
+					"Base DEF": 40.61249923706055,
+					"Base ATK": 11.441267967224121,
+					"Geo DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1025.31689453125,
+					"Base DEF": 69.46875,
+					"Base ATK": 19.570589065551758,
+					"Geo DMG%": 0.05999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1593.1846923828125,
+					"Base DEF": 107.9437484741211,
+					"Base ATK": 30.409685134887695,
+					"Geo DMG%": 0.11999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2019.0855712890625,
+					"Base DEF": 136.8000030517578,
+					"Base ATK": 38.53900909423828,
+					"Geo DMG%": 0.11999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2444.986328125,
+					"Base DEF": 165.65625,
+					"Base ATK": 46.668331146240234,
+					"Geo DMG%": 0.18000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 2870.88720703125,
+					"Base DEF": 194.5124969482422,
+					"Base ATK": 54.79765319824219,
+					"Geo DMG%": 0.23999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 527760517,
+			"desc_hash": 2178965904,
+			"charge_num": 1,
+			"name": "Normal Attack: Ripping Fang Fletching",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal <color=#FFE699FF>Geo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_light": 3,
+					"spectral_husk": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_light": 2,
+					"spectral_heart": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_light": 4,
+					"spectral_heart": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_light": 6,
+					"spectral_heart": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_light": 9,
+					"spectral_heart": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_light": 4,
+					"spectral_nucleus": 4,
+					"molten_moment": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_light": 6,
+					"spectral_nucleus": 6,
+					"molten_moment": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_light": 12,
+					"spectral_nucleus": 9,
+					"molten_moment": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_light": 16,
+					"spectral_nucleus": 12,
+					"molten_moment": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Aimed Shot",
+					"Fully-Charged Aimed Shot",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"37.75%",
+						"37.15%",
+						"49.45%",
+						"59%",
+						"43.86%",
+						"124%",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"40.83%",
+						"40.18%",
+						"53.47%",
+						"63.8%",
+						"47.43%",
+						"133.3%",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"43.9%",
+						"43.2%",
+						"57.5%",
+						"68.6%",
+						"51%",
+						"142.6%",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"48.29%",
+						"47.52%",
+						"63.25%",
+						"75.46%",
+						"56.1%",
+						"155%",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"51.36%",
+						"50.54%",
+						"67.27%",
+						"80.26%",
+						"59.67%",
+						"164.3%",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"54.87%",
+						"54%",
+						"71.88%",
+						"85.75%",
+						"63.75%",
+						"173.6%",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"59.7%",
+						"58.75%",
+						"78.2%",
+						"93.3%",
+						"69.36%",
+						"186%",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"64.53%",
+						"63.5%",
+						"84.53%",
+						"100.84%",
+						"74.97%",
+						"198.4%",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"69.36%",
+						"68.26%",
+						"90.85%",
+						"108.39%",
+						"80.58%",
+						"210.8%",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"74.63%",
+						"73.44%",
+						"97.75%",
+						"116.62%",
+						"86.7%",
+						"223.2%",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"79.9%",
+						"78.62%",
+						"104.65%",
+						"124.85%",
+						"92.82%",
+						"235.6%",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"85.17%",
+						"83.81%",
+						"111.55%",
+						"133.08%",
+						"98.94%",
+						"248%",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"90.43%",
+						"88.99%",
+						"118.45%",
+						"141.32%",
+						"105.06%",
+						"263.5%",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"95.7%",
+						"94.18%",
+						"125.35%",
+						"149.55%",
+						"111.18%",
+						"279%",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"100.97%",
+						"99.36%",
+						"132.25%",
+						"157.78%",
+						"117.3%",
+						"294.5%",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2527853093,
+			"desc_hash": 1410062040,
+			"charge_num": 1,
+			"name": "Inuzaka All-Round Defense",
+			"desc": "Deals <color=#FFE699FF>AoE Geo DMG</color> and sets up a General's War Banner.\\n\\n<color=#FFD780FF>General's War Banner</color>\\nProvides up to 3 buffs to active characters within the skill's AoE based on the number of <color=#FFE699FF>Geo</color> characters in the party at the time of casting:\\n\u00b7 1 Geo character: Adds \"Standing Firm\" - DEF Bonus.\\n\u00b7 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption.\\n\u00b7 3 Geo characters: Adds \"Crunch\" - <color=#FFE699FF>Geo DMG Bonus</color>.\\n\\nGorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s.\\n\\n<color=#FFD780FF>Hold</color>\\nAdjust the location of the skill.\\n\\n<i>\"Take up this formation and we'll be safe \u2014 I guarantee it!\" As a general and a leader of troops, the last thing Gorou wants is to see is those who follow him getting hurt.</i>",
+			"costs": [
+				{
+					"teachings_of_light": 3,
+					"spectral_husk": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_light": 2,
+					"spectral_heart": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_light": 4,
+					"spectral_heart": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_light": 6,
+					"spectral_heart": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_light": 9,
+					"spectral_heart": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_light": 4,
+					"spectral_nucleus": 4,
+					"molten_moment": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_light": 6,
+					"spectral_nucleus": 6,
+					"molten_moment": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_light": 12,
+					"spectral_nucleus": 9,
+					"molten_moment": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_light": 16,
+					"spectral_nucleus": 12,
+					"molten_moment": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"DEF Increase",
+					"Geo DMG Bonus",
+					"Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"107.2%",
+						"206",
+						"15%",
+						"10s",
+						"10s"
+					],
+					[
+						"115.24%",
+						"221",
+						"15%",
+						"10s",
+						"10s"
+					],
+					[
+						"123.28%",
+						"237",
+						"15%",
+						"10s",
+						"10s"
+					],
+					[
+						"134%",
+						"257",
+						"15%",
+						"10s",
+						"10s"
+					],
+					[
+						"142.04%",
+						"273",
+						"15%",
+						"10s",
+						"10s"
+					],
+					[
+						"150.08%",
+						"288",
+						"15%",
+						"10s",
+						"10s"
+					],
+					[
+						"160.8%",
+						"309",
+						"15%",
+						"10s",
+						"10s"
+					],
+					[
+						"171.52%",
+						"329",
+						"15%",
+						"10s",
+						"10s"
+					],
+					[
+						"182.24%",
+						"350",
+						"15%",
+						"10s",
+						"10s"
+					],
+					[
+						"192.96%",
+						"371",
+						"15%",
+						"10s",
+						"10s"
+					],
+					[
+						"203.68%",
+						"391",
+						"15%",
+						"10s",
+						"10s"
+					],
+					[
+						"214.4%",
+						"412",
+						"15%",
+						"10s",
+						"10s"
+					],
+					[
+						"227.8%",
+						"438",
+						"15%",
+						"10s",
+						"10s"
+					],
+					[
+						"241.2%",
+						"463",
+						"15%",
+						"10s",
+						"10s"
+					],
+					[
+						"254.6%",
+						"489",
+						"15%",
+						"10s",
+						"10s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 406282597,
+			"desc_hash": 1236862952,
+			"charge_num": 1,
+			"name": "Juuga: Forward Unto Victory",
+			"desc": "Displaying his valor as a general, Gorou deals <color=#FFE699FF>AoE Geo DMG</color> and creates a field known as General's Glory to embolden his comrades.\\n\\n<color=#FFD780FF>General's Glory</color>\\nThis field has the following properties:\\n\u00b7 Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of <color=#FFE699FF>Geo</color> characters in the party. Also moves together with your active character.\\n\u00b7 Generates 1 Crystal Collapse every 1.5s that deals <color=#FFE699FF>AoE Geo DMG</color> to 1 opponent within the skill's AoE.\\n\u00b7 Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).\\n\\nIf a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.\\n If Gorou falls, the effects of General's Glory will be cleared.\\n\\n<i>\"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition.</i>",
+			"costs": [
+				{
+					"teachings_of_light": 3,
+					"spectral_husk": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_light": 2,
+					"spectral_heart": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_light": 4,
+					"spectral_heart": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_light": 6,
+					"spectral_heart": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_light": 9,
+					"spectral_heart": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_light": 4,
+					"spectral_nucleus": 4,
+					"molten_moment": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_light": 6,
+					"spectral_nucleus": 6,
+					"molten_moment": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_light": 12,
+					"spectral_nucleus": 9,
+					"molten_moment": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_light": 16,
+					"spectral_nucleus": 12,
+					"molten_moment": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Crystal Collapse DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"98.22% DEF",
+						"61.3% DEF",
+						"9s",
+						"20s",
+						"80"
+					],
+					[
+						"105.58% DEF",
+						"65.9% DEF",
+						"9s",
+						"20s",
+						"80"
+					],
+					[
+						"112.95% DEF",
+						"70.49% DEF",
+						"9s",
+						"20s",
+						"80"
+					],
+					[
+						"122.77% DEF",
+						"76.63% DEF",
+						"9s",
+						"20s",
+						"80"
+					],
+					[
+						"130.14% DEF",
+						"81.22% DEF",
+						"9s",
+						"20s",
+						"80"
+					],
+					[
+						"137.5% DEF",
+						"85.82% DEF",
+						"9s",
+						"20s",
+						"80"
+					],
+					[
+						"147.32% DEF",
+						"91.95% DEF",
+						"9s",
+						"20s",
+						"80"
+					],
+					[
+						"157.15% DEF",
+						"98.08% DEF",
+						"9s",
+						"20s",
+						"80"
+					],
+					[
+						"166.97% DEF",
+						"104.21% DEF",
+						"9s",
+						"20s",
+						"80"
+					],
+					[
+						"176.79% DEF",
+						"110.34% DEF",
+						"9s",
+						"20s",
+						"80"
+					],
+					[
+						"186.61% DEF",
+						"116.47% DEF",
+						"9s",
+						"20s",
+						"80"
+					],
+					[
+						"196.43% DEF",
+						"122.6% DEF",
+						"9s",
+						"20s",
+						"80"
+					],
+					[
+						"208.71% DEF",
+						"130.26% DEF",
+						"9s",
+						"20s",
+						"80"
+					],
+					[
+						"220.99% DEF",
+						"137.93% DEF",
+						"9s",
+						"20s",
+						"80"
+					],
+					[
+						"233.26% DEF",
+						"145.59% DEF",
+						"9s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 574868277,
+			"desc_hash": 1439744475,
+			"ascension": 1,
+			"name": "Heedless of the Wind and Weather",
+			"desc": "After using <color=#FFD780FF>Juuga: Forward Unto Victory</color>, all nearby party members' DEF is increased by 25% for 12s."
+		},
+		{
+			"name_hash": 787754445,
+			"desc_hash": 175486939,
+			"ascension": 4,
+			"name": "A Favor Repaid",
+			"desc": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:\\n\u00b7 <color=#FFD780FF>Inuzaka All-Round Defense</color>: Skill DMG increased by 156% of DEF\\n\u00b7 <color=#FFD780FF>Juuga: Forward Unto Victory</color>: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF"
+		},
+		{
+			"name_hash": 705002701,
+			"desc_hash": 291298051,
+			"ascension": null,
+			"name": "Seeker of Shinies",
+			"desc": "Displays the location of nearby <color=#FFD780FF>resources unique to Inazuma</color> on the mini-map."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 674796161,
+			"name": "Rushing Hound: Swift as the Wind",
+			"desc_hash": 438942695,
+			"desc": "When characters (other than Gorou) within the AoE of Gorou's <color=#FFD780FF>General's War Banner</color> or <color=#FFD780FF>General's Glory</color> deal Geo DMG to opponents, the CD of Gorou's <color=#FFD780FF>Inuzaka All-Round Defense</color> is decreased by 2s.\\nThis effect can occur once every 10s."
+		},
+		{
+			"name_hash": 879885745,
+			"name": "Sitting Hound: Steady as a Clock",
+			"desc_hash": 2750519095,
+			"desc": "While <color=#FFD780FF>General's Glory</color> is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction. \\nThis effect can occur once every 0.1s. Max extension is 3s."
+		},
+		{
+			"name_hash": 1718191057,
+			"name": "Mauling Hound: Fierce as Fire",
+			"desc_hash": 3711276975,
+			"desc": "Increases the Level of <color=#FFD780FF>Inuzaka All-Round Defense</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3990139889,
+			"name": "Lapping Hound: Warm as Water",
+			"desc_hash": 2595428727,
+			"desc": "When <color=#FFD780FF>General's Glory</color> is in the \"Impregnable\" or \"Crunch\" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s."
+		},
+		{
+			"name_hash": 1205827537,
+			"name": "Striking Hound: Thunderous Force",
+			"desc_hash": 1584361191,
+			"desc": "Increases the Level of <color=#FFD780FF>Juuga: Forward Unto Victory</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3335516265,
+			"name": "Valiant Hound: Mountainous Fealty",
+			"desc_hash": 622715863,
+			"desc": "For 12s after using <color=#FFD780FF>Inuzaka All-Round Defense</color> or <color=#FFD780FF>Juuga: Forward Unto Victory</color>, increases the CRIT DMG of all nearby party members' <color=#FFE699FF>Geo DMG</color> based on the buff level of the skill's field at the time of use:\\n\u00b7 \"Standing Firm\": +10%\\n\u00b7 \"Impregnable\": +20%\\n\u00b7 \"Crunch\": +40%\\n\\nThis effect cannot stack and will take reference from the last instance of the effect that is triggered."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 3561880386,
+			"desc_hash": 990939858,
+			"restricted": false,
+			"name": "Panoply of a Hundred Hunts",
+			"desc": "Gorou's outfit. This light armor is designed to allow the marksman-general Gorou to handle his bow with ease. The armoring at the shoulder and elbow is also designed with this in mind."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108365,
+		"name_hash": 2886035148,
+		"desc_hash": 2318065973,
+		"type_hash": 1174767742,
+		"rarity": 3,
+		"name": "Victorious Legend",
+		"desc": "Gorou's specialty. The side dishes have been piled high to form a sight as moving as Gorou's own motivations. As you finish the noodles and soup all in one go and pat your stomach in satisfaction, you look up and see Gorou... smiling radiantly as his tail wags from side to side (the latter probably unbeknownst to him!).",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 3628521775,
+		"effect": "Restores 40% of Max HP and an additional 2,350 HP to the selected character.",
+		"original_recipe": "tonkotsu_ramen"
+	}
+}

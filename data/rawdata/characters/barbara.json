@@ -1,0 +1,784 @@
+{
+	"hoyo_id": 10000014,
+	"promote_id": 14,
+	"skill_depot_id": 1401,
+	"fetter_id": 106,
+	"weapon": "catalyst",
+	"name_hash": 3775299170,
+	"desc_hash": 1566920073,
+	"name": "Barbara",
+	"desc": "Every citizen of Mondstadt adores Barbara. She learned the word \"idol\" from a magazine.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": [
+		5,
+		7
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		4022324356,
+		1166340161
+	],
+	"astrolabe_hash": [
+		2960169546,
+		3271630931
+	],
+	"allegiance_hash": 1304312049,
+	"vision": "hydro",
+	"astrolabe": "Crater",
+	"allegiance": "Church of Favonius",
+	"default_weapon": "apprentices_notes",
+	"base_stats": {
+		"Base HP": 820.6118774414062,
+		"Base ATK": 13.355999946594238,
+		"Base DEF": 56.080501556396484,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"varunada_lazurite_sliver": 1,
+				"philanemo_mushroom": 3,
+				"divining_scroll": 3,
+				"mora": 20000
+			},
+			{
+				"varunada_lazurite_fragment": 3,
+				"cleansing_heart": 2,
+				"philanemo_mushroom": 10,
+				"divining_scroll": 15,
+				"mora": 40000
+			},
+			{
+				"varunada_lazurite_fragment": 6,
+				"cleansing_heart": 4,
+				"philanemo_mushroom": 20,
+				"sealed_scroll": 12,
+				"mora": 60000
+			},
+			{
+				"varunada_lazurite_chunk": 3,
+				"cleansing_heart": 8,
+				"philanemo_mushroom": 30,
+				"sealed_scroll": 18,
+				"mora": 80000
+			},
+			{
+				"varunada_lazurite_chunk": 6,
+				"cleansing_heart": 12,
+				"philanemo_mushroom": 45,
+				"forbidden_curse_scroll": 12,
+				"mora": 100000
+			},
+			{
+				"varunada_lazurite_gemstone": 6,
+				"cleansing_heart": 20,
+				"philanemo_mushroom": 60,
+				"forbidden_curse_scroll": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 613.0391235351562,
+					"Base DEF": 41.89500045776367,
+					"Base ATK": 9.977849960327148,
+					"HP%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1048.6195068359375,
+					"Base DEF": 71.6624984741211,
+					"Base ATK": 17.06737518310547,
+					"HP%": 0.05999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1629.3934326171875,
+					"Base DEF": 111.35250091552734,
+					"Base ATK": 26.52007484436035,
+					"HP%": 0.11999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2064.973876953125,
+					"Base DEF": 141.1199951171875,
+					"Base ATK": 33.60960006713867,
+					"HP%": 0.11999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2500.55419921875,
+					"Base DEF": 170.8874969482422,
+					"Base ATK": 40.69912338256836,
+					"HP%": 0.18000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 2936.134765625,
+					"Base DEF": 200.65499877929688,
+					"Base ATK": 47.78865051269531,
+					"HP%": 0.23999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 1555695317,
+			"desc_hash": 3743135664,
+			"charge_num": 1,
+			"name": "Normal Attack: Whisper of Water",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 water splash attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"forbidden_curse_scroll": 4,
+					"ring_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"forbidden_curse_scroll": 6,
+					"ring_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"forbidden_curse_scroll": 9,
+					"ring_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"forbidden_curse_scroll": 12,
+					"ring_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"37.84%",
+						"35.52%",
+						"41.04%",
+						"55.2%",
+						"166.24%",
+						"50",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"40.68%",
+						"38.18%",
+						"44.12%",
+						"59.34%",
+						"178.71%",
+						"50",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"43.52%",
+						"40.85%",
+						"47.2%",
+						"63.48%",
+						"191.18%",
+						"50",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"47.3%",
+						"44.4%",
+						"51.3%",
+						"69%",
+						"207.8%",
+						"50",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"50.14%",
+						"47.06%",
+						"54.38%",
+						"73.14%",
+						"220.27%",
+						"50",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"52.98%",
+						"49.73%",
+						"57.46%",
+						"77.28%",
+						"232.74%",
+						"50",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"56.76%",
+						"53.28%",
+						"61.56%",
+						"82.8%",
+						"249.36%",
+						"50",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"60.54%",
+						"56.83%",
+						"65.66%",
+						"88.32%",
+						"265.98%",
+						"50",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"64.33%",
+						"60.38%",
+						"69.77%",
+						"93.84%",
+						"282.61%",
+						"50",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"68.11%",
+						"63.94%",
+						"73.87%",
+						"99.36%",
+						"299.23%",
+						"50",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"72.05%",
+						"67.63%",
+						"78.14%",
+						"105.1%",
+						"316.52%",
+						"50",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"77.19%",
+						"72.46%",
+						"83.72%",
+						"112.61%",
+						"339.13%",
+						"50",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"82.34%",
+						"77.29%",
+						"89.3%",
+						"120.12%",
+						"361.74%",
+						"50",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"87.49%",
+						"82.12%",
+						"94.88%",
+						"127.62%",
+						"384.35%",
+						"50",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"92.63%",
+						"86.95%",
+						"100.47%",
+						"135.13%",
+						"406.96%",
+						"50",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 645814357,
+			"desc_hash": 403491544,
+			"charge_num": 1,
+			"name": "Let the Show Begin\u266a",
+			"desc": "Summons water droplets resembling musical notes that form a Melody Loop, dealing <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents and applying the <color=#80C0FFFF>Wet</color> status to them.\\n\\n<color=#FFD780FF>Melody Loop</color>\\n\u00b7On hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.\\n\u00b7On hit, Barbara's Charged Attack generates 4 times the amount of healing.\\n\u00b7Periodically regenerates your own active character's HP.\\n\u00b7Applies the <color=#80C0FFFF>Wet</color> status to the character and to opponents who come in contact with them.\\n\\n<i>Barbara's music is the magic that heals her companions.</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"forbidden_curse_scroll": 4,
+					"ring_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"forbidden_curse_scroll": 6,
+					"ring_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"forbidden_curse_scroll": 9,
+					"ring_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"forbidden_curse_scroll": 12,
+					"ring_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"HP Regeneration Per Hit",
+					"Continuous Regeneration",
+					"Droplet DMG",
+					"Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"0.75% Max HP+72",
+						"4% Max HP+385",
+						"58.4%",
+						"15s",
+						"32s"
+					],
+					[
+						"0.81% Max HP+79",
+						"4.3% Max HP+423",
+						"62.78%",
+						"15s",
+						"32s"
+					],
+					[
+						"0.86% Max HP+87",
+						"4.6% Max HP+465",
+						"67.16%",
+						"15s",
+						"32s"
+					],
+					[
+						"0.94% Max HP+95",
+						"5% Max HP+510",
+						"73%",
+						"15s",
+						"32s"
+					],
+					[
+						"0.99% Max HP+104",
+						"5.3% Max HP+558",
+						"77.38%",
+						"15s",
+						"32s"
+					],
+					[
+						"1.05% Max HP+114",
+						"5.6% Max HP+609",
+						"81.76%",
+						"15s",
+						"32s"
+					],
+					[
+						"1.13% Max HP+124",
+						"6% Max HP+664",
+						"87.6%",
+						"15s",
+						"32s"
+					],
+					[
+						"1.2% Max HP+135",
+						"6.4% Max HP+722",
+						"93.44%",
+						"15s",
+						"32s"
+					],
+					[
+						"1.27% Max HP+146",
+						"6.8% Max HP+783",
+						"99.28%",
+						"15s",
+						"32s"
+					],
+					[
+						"1.35% Max HP+158",
+						"7.2% Max HP+847",
+						"105.12%",
+						"15s",
+						"32s"
+					],
+					[
+						"1.43% Max HP+171",
+						"7.6% Max HP+914",
+						"110.96%",
+						"15s",
+						"32s"
+					],
+					[
+						"1.5% Max HP+184",
+						"8% Max HP+985",
+						"116.8%",
+						"15s",
+						"32s"
+					],
+					[
+						"1.59% Max HP+198",
+						"8.5% Max HP+1059",
+						"124.1%",
+						"15s",
+						"32s"
+					],
+					[
+						"1.69% Max HP+213",
+						"9% Max HP+1136",
+						"131.4%",
+						"15s",
+						"32s"
+					],
+					[
+						"1.78% Max HP+228",
+						"9.5% Max HP+1216",
+						"138.7%",
+						"15s",
+						"32s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 3238780589,
+			"desc_hash": 3483681304,
+			"charge_num": 1,
+			"name": "Shining Miracle\u266a",
+			"desc": "Heals your own party members and nearby teammates for a large amount of HP that scales with Barbara's Max HP.\\n\\n<i>Barbara's desire to heal strengthens her will to fight and sing.</i>",
+			"costs": [
+				{
+					"teachings_of_freedom": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_freedom": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_freedom": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_freedom": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_freedom": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_freedom": 4,
+					"forbidden_curse_scroll": 4,
+					"ring_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_freedom": 6,
+					"forbidden_curse_scroll": 6,
+					"ring_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_freedom": 12,
+					"forbidden_curse_scroll": 9,
+					"ring_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_freedom": 16,
+					"forbidden_curse_scroll": 12,
+					"ring_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Regeneration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"17.6% Max HP+1694",
+						"20s",
+						"80"
+					],
+					[
+						"18.92% Max HP+1863",
+						"20s",
+						"80"
+					],
+					[
+						"20.24% Max HP+2047",
+						"20s",
+						"80"
+					],
+					[
+						"22% Max HP+2245",
+						"20s",
+						"80"
+					],
+					[
+						"23.32% Max HP+2456",
+						"20s",
+						"80"
+					],
+					[
+						"24.64% Max HP+2682",
+						"20s",
+						"80"
+					],
+					[
+						"26.4% Max HP+2922",
+						"20s",
+						"80"
+					],
+					[
+						"28.16% Max HP+3176",
+						"20s",
+						"80"
+					],
+					[
+						"29.92% Max HP+3445",
+						"20s",
+						"80"
+					],
+					[
+						"31.68% Max HP+3727",
+						"20s",
+						"80"
+					],
+					[
+						"33.44% Max HP+4024",
+						"20s",
+						"80"
+					],
+					[
+						"35.2% Max HP+4334",
+						"20s",
+						"80"
+					],
+					[
+						"37.4% Max HP+4659",
+						"20s",
+						"80"
+					],
+					[
+						"39.6% Max HP+4998",
+						"20s",
+						"80"
+					],
+					[
+						"41.8% Max HP+5351",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 2589212997,
+			"desc_hash": 4114751091,
+			"ascension": 1,
+			"name": "Glorious Season",
+			"desc": "The Stamina Consumption of characters within <color=#FFD780FF>Let the Show Begin\u266a</color>'s Melody Loop is reduced by 12%."
+		},
+		{
+			"name_hash": 868478693,
+			"desc_hash": 3220600547,
+			"ascension": 4,
+			"name": "Encore",
+			"desc": "When your active character gains an Elemental Orb/Particle, the duration of the Melody Loop of <color=#FFD780FF>Let the Show Begin\u266a</color> is extended by 1s.\\nThe maximum extension is 5s."
+		},
+		{
+			"name_hash": 3475904157,
+			"desc_hash": 1532071283,
+			"ascension": null,
+			"name": "With My Whole Heart\u266a",
+			"desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 696499609,
+			"name": "Gleeful Songs",
+			"desc_hash": 1541078791,
+			"desc": "Barbara regenerates 1 Energy every 10s."
+		},
+		{
+			"name_hash": 3458095841,
+			"name": "Vitality Burst",
+			"desc_hash": 3401415943,
+			"desc": "Decreases the CD of <color=#FFD780FF>Let the Show Begin\u266a</color> by 15%.\\nDuring the ability's duration, your active character gains a 15% <color=#80C0FFFF>Hydro DMG Bonus</color>."
+		},
+		{
+			"name_hash": 929991257,
+			"name": "Star of Tomorrow",
+			"desc_hash": 3525415831,
+			"desc": "Increases the Level of <color=#FFD780FF>Shining Miracle\u266a</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2093148473,
+			"name": "Attentiveness be My Power",
+			"desc_hash": 1120190279,
+			"desc": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.\\nA maximum of 5 energy can be regenerated in this manner with any one Charged Attack."
+		},
+		{
+			"name_hash": 3139814905,
+			"name": "The Purest Companionship",
+			"desc_hash": 1422637159,
+			"desc": "Increases the Level of <color=#FFD780FF>Let the Show Begin\u266a</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2183173281,
+			"name": "Dedicating Everything to You",
+			"desc_hash": 3744328127,
+			"desc": "When Barbara is in the party but not on the field, and one of your own party members falls:\\n\u00b7Automatically revives the fallen character.\\n\u00b7Fully restores the revived character's HP to 100%.\\nThis effect can only occur once every 15 mins."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 2895548298,
+			"desc_hash": 3092975850,
+			"restricted": false,
+			"name": "Innocent Longing",
+			"desc": "Barbara's outfit. A Deaconess's uniform from the Church of Favonius with a unique Barbara streak running through it."
+		},
+		"alt": [
+			{
+				"hoyo_id": 340000,
+				"name_hash": 4121525482,
+				"desc_hash": 2644173682,
+				"restricted": false,
+				"name": "Summertime Sparkle",
+				"desc": "Barbara's beach attire. This pretty skirt brims with summer vitality and carries with it a cool ocean breeze."
+			}
+		]
+	},
+	"special_dish": {
+		"hoyo_id": 108040,
+		"name_hash": 333709212,
+		"desc_hash": 1307830461,
+		"type_hash": 4038101870,
+		"rarity": 2,
+		"name": "Spicy Stew",
+		"desc": "Barbara's specialty. Carrots cut into cute little stars make this dish... Wait, AHH, where did this spiciness come from!?",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 3351025639,
+		"effect": "Decreases all party members' sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s).",
+		"original_recipe": "cream_stew"
+	}
+}

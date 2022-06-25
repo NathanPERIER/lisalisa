@@ -1,0 +1,903 @@
+{
+	"hoyo_id": 10000053,
+	"promote_id": 53,
+	"skill_depot_id": 5301,
+	"fetter_id": 138,
+	"weapon": "claymore",
+	"name_hash": 2388785242,
+	"desc_hash": 3029516969,
+	"name": "Sayu",
+	"desc": "A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_LOLI",
+	"birthday": [
+		19,
+		10
+	],
+	"region": "inazuma",
+	"vision_hash": [
+		2648184060,
+		206259425
+	],
+	"astrolabe_hash": [
+		3872411226,
+		1031389603
+	],
+	"allegiance_hash": 3474733945,
+	"vision": "anemo",
+	"astrolabe": "Nyctereutes Minor",
+	"allegiance": "Shuumatsuban",
+	"default_weapon": "waster_greatsword",
+	"base_stats": {
+		"Base HP": 993.8521728515625,
+		"Base ATK": 20.47920036315918,
+		"Base DEF": 62.43247604370117,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"vayuda_turquoise_sliver": 1,
+				"crystal_marrow": 3,
+				"whopperflower_nectar": 3,
+				"mora": 20000
+			},
+			{
+				"vayuda_turquoise_fragment": 3,
+				"marionette_core": 2,
+				"crystal_marrow": 10,
+				"whopperflower_nectar": 15,
+				"mora": 40000
+			},
+			{
+				"vayuda_turquoise_fragment": 6,
+				"marionette_core": 4,
+				"crystal_marrow": 20,
+				"shimmering_nectar": 12,
+				"mora": 60000
+			},
+			{
+				"vayuda_turquoise_chunk": 3,
+				"marionette_core": 8,
+				"crystal_marrow": 30,
+				"shimmering_nectar": 18,
+				"mora": 80000
+			},
+			{
+				"vayuda_turquoise_chunk": 6,
+				"marionette_core": 12,
+				"crystal_marrow": 45,
+				"energy_nectar": 12,
+				"mora": 100000
+			},
+			{
+				"vayuda_turquoise_gemstone": 6,
+				"marionette_core": 20,
+				"crystal_marrow": 60,
+				"energy_nectar": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 742.45849609375,
+					"Base DEF": 46.64025115966797,
+					"Base ATK": 15.299369812011719,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1269.9947509765625,
+					"Base DEF": 79.77937316894531,
+					"Base ATK": 26.16997528076172,
+					"Elemental Mastery": 24.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1973.37646484375,
+					"Base DEF": 123.96487426757812,
+					"Base ATK": 40.66411590576172,
+					"Elemental Mastery": 48.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2500.912841796875,
+					"Base DEF": 157.10400390625,
+					"Base ATK": 51.53472137451172,
+					"Elemental Mastery": 48.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 3028.448974609375,
+					"Base DEF": 190.2431182861328,
+					"Base ATK": 62.40532684326172,
+					"Elemental Mastery": 72.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3555.9853515625,
+					"Base DEF": 223.3822479248047,
+					"Base ATK": 73.27593231201172,
+					"Elemental Mastery": 96.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 1631640581,
+			"desc_hash": 1904361664,
+			"charge_num": 1,
+			"name": "Normal Attack: Shuumatsuban Ninja Blade",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, perform a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_light": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_light": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_light": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_light": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_light": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_light": 4,
+					"energy_nectar": 4,
+					"gilded_scale": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_light": 6,
+					"energy_nectar": 6,
+					"gilded_scale": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_light": 12,
+					"energy_nectar": 9,
+					"gilded_scale": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_light": 16,
+					"energy_nectar": 12,
+					"gilded_scale": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack Spinning DMG",
+					"Charged Attack Final DMG",
+					"Charged Attack Stamina Cost",
+					"Max Duration",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"72.24%",
+						"71.38%",
+						"43.43%+43.43%",
+						"98.13%",
+						"62.55%",
+						"113.09%",
+						"40/s",
+						"5s",
+						"74.59%",
+						"149.14%/186.29%"
+					],
+					[
+						"78.12%",
+						"77.19%",
+						"46.97%+46.97%",
+						"106.11%",
+						"67.64%",
+						"122.29%",
+						"40/s",
+						"5s",
+						"80.66%",
+						"161.28%/201.45%"
+					],
+					[
+						"84%",
+						"83%",
+						"50.5%+50.5%",
+						"114.1%",
+						"72.73%",
+						"131.5%",
+						"40/s",
+						"5s",
+						"86.73%",
+						"173.42%/216.62%"
+					],
+					[
+						"92.4%",
+						"91.3%",
+						"55.55%+55.55%",
+						"125.51%",
+						"80%",
+						"144.65%",
+						"40/s",
+						"5s",
+						"95.4%",
+						"190.77%/238.28%"
+					],
+					[
+						"98.28%",
+						"97.11%",
+						"59.08%+59.08%",
+						"133.5%",
+						"85.09%",
+						"153.86%",
+						"40/s",
+						"5s",
+						"101.47%",
+						"202.91%/253.44%"
+					],
+					[
+						"105%",
+						"103.75%",
+						"63.13%+63.13%",
+						"142.62%",
+						"90.91%",
+						"164.37%",
+						"40/s",
+						"5s",
+						"108.41%",
+						"216.78%/270.77%"
+					],
+					[
+						"114.24%",
+						"112.88%",
+						"68.68%+68.68%",
+						"155.18%",
+						"98.91%",
+						"178.84%",
+						"40/s",
+						"5s",
+						"117.95%",
+						"235.86%/294.6%"
+					],
+					[
+						"123.48%",
+						"122.01%",
+						"74.23%+74.23%",
+						"167.73%",
+						"106.91%",
+						"193.31%",
+						"40/s",
+						"5s",
+						"127.49%",
+						"254.93%/318.42%"
+					],
+					[
+						"132.72%",
+						"131.14%",
+						"79.79%+79.79%",
+						"180.28%",
+						"114.91%",
+						"207.77%",
+						"40/s",
+						"5s",
+						"137.03%",
+						"274.01%/342.25%"
+					],
+					[
+						"142.8%",
+						"141.1%",
+						"85.85%+85.85%",
+						"193.97%",
+						"123.64%",
+						"223.55%",
+						"40/s",
+						"5s",
+						"147.44%",
+						"294.82%/368.25%"
+					],
+					[
+						"154.35%",
+						"152.51%",
+						"92.79%+92.79%",
+						"209.66%",
+						"133.64%",
+						"241.63%",
+						"40/s",
+						"5s",
+						"157.85%",
+						"315.63%/394.24%"
+					],
+					[
+						"167.93%",
+						"165.93%",
+						"100.96%+100.96%",
+						"228.11%",
+						"145.4%",
+						"262.89%",
+						"40/s",
+						"5s",
+						"168.26%",
+						"336.44%/420.23%"
+					],
+					[
+						"181.52%",
+						"179.35%",
+						"109.13%+109.13%",
+						"246.56%",
+						"157.16%",
+						"284.16%",
+						"40/s",
+						"5s",
+						"178.66%",
+						"357.25%/446.23%"
+					],
+					[
+						"195.1%",
+						"192.78%",
+						"117.29%+117.29%",
+						"265.01%",
+						"168.92%",
+						"305.42%",
+						"40/s",
+						"5s",
+						"189.07%",
+						"378.06%/472.22%"
+					],
+					[
+						"209.92%",
+						"207.42%",
+						"126.2%+126.2%",
+						"285.14%",
+						"181.75%",
+						"328.62%",
+						"40/s",
+						"5s",
+						"199.48%",
+						"398.87%/498.21%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 866970125,
+			"desc_hash": 2361803880,
+			"charge_num": 1,
+			"name": "Yoohoo Art: Fuuin Dash",
+			"desc": "#The special technique of the Yoohoo Ninja Arts!\\nSayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing <color=#80FFD7FF>Anemo DMG</color>. When the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing <color=#80FFD7FF>AoE Anemo DMG</color>.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nEnters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.\\n\\n<color=#FFD780FF>Hold</color>\\nRolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state.\\nDuring this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick.\\nThe Hold version of this skill can trigger Elemental Absorption.\\n\\nThis skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.\\n\\n<color=#FFD780FF>Elemental Absorption</color>\\nIf Sayu comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> while in her Windwheel state, she will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use of this skill.\\n\\n<i>Sayu can pull this skill off with her eyes closed. This technique was originally created for escaping, but now that she's got a Vision, might as well make her foes eat dirt while she's at it.</i>",
+			"costs": [
+				{
+					"teachings_of_light": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_light": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_light": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_light": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_light": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_light": 4,
+					"energy_nectar": 4,
+					"gilded_scale": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_light": 6,
+					"energy_nectar": 6,
+					"gilded_scale": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_light": 12,
+					"energy_nectar": 9,
+					"gilded_scale": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_light": 16,
+					"energy_nectar": 12,
+					"gilded_scale": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Fuufuu Windwheel DMG",
+					"#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG",
+					"Fuufuu Whirlwind Kick Hold DMG",
+					"Fuufuu Windwheel Elemental DMG",
+					"Fuufuu Whirlwind Kick Elemental DMG",
+					"Max Duration (Hold)",
+					"CD"
+				],
+				"values": [
+					[
+						"36%",
+						"158.4%",
+						"217.6%",
+						"16.8%",
+						"76.16%",
+						"10s",
+						"6 to 11s"
+					],
+					[
+						"38.7%",
+						"170.28%",
+						"233.92%",
+						"18.06%",
+						"81.87%",
+						"10s",
+						"6 to 11s"
+					],
+					[
+						"41.4%",
+						"182.16%",
+						"250.24%",
+						"19.32%",
+						"87.58%",
+						"10s",
+						"6 to 11s"
+					],
+					[
+						"45%",
+						"198%",
+						"272%",
+						"21%",
+						"95.2%",
+						"10s",
+						"6 to 11s"
+					],
+					[
+						"47.7%",
+						"209.88%",
+						"288.32%",
+						"22.26%",
+						"100.91%",
+						"10s",
+						"6 to 11s"
+					],
+					[
+						"50.4%",
+						"221.76%",
+						"304.64%",
+						"23.52%",
+						"106.62%",
+						"10s",
+						"6 to 11s"
+					],
+					[
+						"54%",
+						"237.6%",
+						"326.4%",
+						"25.2%",
+						"114.24%",
+						"10s",
+						"6 to 11s"
+					],
+					[
+						"57.6%",
+						"253.44%",
+						"348.16%",
+						"26.88%",
+						"121.86%",
+						"10s",
+						"6 to 11s"
+					],
+					[
+						"61.2%",
+						"269.28%",
+						"369.92%",
+						"28.56%",
+						"129.47%",
+						"10s",
+						"6 to 11s"
+					],
+					[
+						"64.8%",
+						"285.12%",
+						"391.68%",
+						"30.24%",
+						"137.09%",
+						"10s",
+						"6 to 11s"
+					],
+					[
+						"68.4%",
+						"300.96%",
+						"413.44%",
+						"31.92%",
+						"144.7%",
+						"10s",
+						"6 to 11s"
+					],
+					[
+						"72%",
+						"316.8%",
+						"435.2%",
+						"33.6%",
+						"152.32%",
+						"10s",
+						"6 to 11s"
+					],
+					[
+						"76.5%",
+						"336.6%",
+						"462.4%",
+						"35.7%",
+						"161.84%",
+						"10s",
+						"6 to 11s"
+					],
+					[
+						"81%",
+						"356.4%",
+						"489.6%",
+						"37.8%",
+						"171.36%",
+						"10s",
+						"6 to 11s"
+					],
+					[
+						"85.5%",
+						"376.2%",
+						"516.8%",
+						"39.9%",
+						"180.88%",
+						"10s",
+						"6 to 11s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 3632447629,
+			"desc_hash": 2950233224,
+			"charge_num": 1,
+			"name": "Yoohoo Art: Mujina Flurry",
+			"desc": "The other super special technique of the Yoohoo Ninja Arts! It summons a pair of helping hands for Sayu.\\nDeals <color=#80FFD7FF>Anemo DMG</color> to nearby opponents and heals all nearby party members. The amount of HP restored is based on Sayu's ATK. This skill then summons a Muji-Muji Daruma.\\n\\n<color=#FFD780FF>Muji-Muji Daruma</color>\\nAt specific intervals, the Daruma will take one of several actions based on the situation around it:\\n\u00b7If the HP of nearby characters is above 70%, it will attack a nearby opponent, dealing <color=#80FFD7FF>Anemo DMG</color>.\\n\u00b7If there are active characters with 70% or less HP nearby, it will heal the active character with the lowest percentage HP left. If there are no opponents nearby, it will heal active characters nearby even if they have 70% HP or more.\\n\\n<i>People who don't know the first thing about ninjutsu love to watch Sayu show off this skill, and some have tried to learn it from her. But Sayu just wants to sleep and not be disturbed.</i>",
+			"costs": [
+				{
+					"teachings_of_light": 3,
+					"whopperflower_nectar": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_light": 2,
+					"shimmering_nectar": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_light": 4,
+					"shimmering_nectar": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_light": 6,
+					"shimmering_nectar": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_light": 9,
+					"shimmering_nectar": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_light": 4,
+					"energy_nectar": 4,
+					"gilded_scale": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_light": 6,
+					"energy_nectar": 6,
+					"gilded_scale": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_light": 12,
+					"energy_nectar": 9,
+					"gilded_scale": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_light": 16,
+					"energy_nectar": 12,
+					"gilded_scale": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill Activation DMG",
+					"Skill Activation Healing",
+					"Muji-Muji Daruma DMG",
+					"Muji-Muji Daruma Healing",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"116.8%",
+						"92.16% ATK+577",
+						"52%",
+						"79.87% ATK+500",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"125.56%",
+						"99.07% ATK+635",
+						"55.9%",
+						"85.86% ATK+550",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"134.32%",
+						"105.98% ATK+697",
+						"59.8%",
+						"91.85% ATK+604",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"146%",
+						"115.2% ATK+765",
+						"65%",
+						"99.84% ATK+663",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"154.76%",
+						"122.11% ATK+837",
+						"68.9%",
+						"105.83% ATK+725",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"163.52%",
+						"129.02% ATK+914",
+						"72.8%",
+						"111.82% ATK+792",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"175.2%",
+						"138.24% ATK+995",
+						"78%",
+						"119.81% ATK+863",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"186.88%",
+						"147.46% ATK+1082",
+						"83.2%",
+						"127.8% ATK+938",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"198.56%",
+						"156.67% ATK+1174",
+						"88.4%",
+						"135.78% ATK+1017",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"210.24%",
+						"165.89% ATK+1270",
+						"93.6%",
+						"143.77% ATK+1100",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"221.92%",
+						"175.1% ATK+1371",
+						"98.8%",
+						"151.76% ATK+1188",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"233.6%",
+						"184.32% ATK+1477",
+						"104%",
+						"159.74% ATK+1280",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"248.2%",
+						"195.84% ATK+1587",
+						"110.5%",
+						"169.73% ATK+1376",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"262.8%",
+						"207.36% ATK+1703",
+						"117%",
+						"179.71% ATK+1476",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"277.4%",
+						"218.88% ATK+1823",
+						"123.5%",
+						"189.7% ATK+1580",
+						"12s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 1284587621,
+			"desc_hash": 1766003643,
+			"ascension": 1,
+			"name": "Someone More Capable",
+			"desc": "When Sayu triggers a Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.\\nThis effect can be triggered once every 2s."
+		},
+		{
+			"name_hash": 3662642061,
+			"desc_hash": 3244306483,
+			"ascension": 4,
+			"name": "No Work Today!",
+			"desc": "The Muji-Muji Daruma created by <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> gains the following effects:\\n\u00b7When healing a character, it will also heal characters near that healed character for 20% the amount of HP.\\n\u00b7Increases the AoE of its attack against opponents."
+		},
+		{
+			"name_hash": 1990554101,
+			"desc_hash": 356439491,
+			"ascension": null,
+			"name": "Yoohoo Art: Silencer's Secret",
+			"desc": "When Sayu is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 1959569841,
+			"name": "Multi-Task no Jutsu",
+			"desc_hash": 443786623,
+			"desc": "The Muji-Muji Daruma created by <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> will ignore HP limits and can simultaneously attack nearby opponents and heal characters."
+		},
+		{
+			"name_hash": 2759348737,
+			"name": "Egress Prep",
+			"desc_hash": 2039052767,
+			"desc": "#<color=#FFD780FF>Yoohoo Art: Fuuin Dash</color> gains the following effects:\\n\u00b7DMG of Fuufuu Whirlwind Kick in {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Mode increased by 3.3%.\\n\u00b7Every 0.5s in the Fuufuu Windwheel state will increase the DMG of this Fuufuu Whirlwind Kick by 3.3%. The maximum DMG increase possible through this method is 66%."
+		},
+		{
+			"name_hash": 1035025377,
+			"name": "Eh, the Bunshin Can Handle It",
+			"desc_hash": 2151111671,
+			"desc": "Increases the Level of <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3582154129,
+			"name": "Skiving: New and Improved",
+			"desc_hash": 2015470223,
+			"desc": "Sayu recovers 1.2 Energy when she triggers a Swirl reaction.\\nThis effect occurs once every 2s."
+		},
+		{
+			"name_hash": 4066463977,
+			"name": "Speed Comes First",
+			"desc_hash": 3761904935,
+			"desc": "Increases the Level of <color=#FFD780FF>Yoohoo Art: Fuuin Dash</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3913839841,
+			"name": "Sleep O'Clock",
+			"desc_hash": 3551240383,
+			"desc": "The Muji-Muji Daruma created by Sayu's <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> will now also benefit from her Elemental Mastery. Each point of Sayu's Elemental Mastery will produce the following effects:\\n\u00b7Increases the damage dealt by the Muji-Muji Daruma's attacks by 0.2% ATK. A maximum of 400% ATK can be gained via this method.\\n\u00b7Increases the HP restored by the Muji-Muji Daruma by 3. A maximum of 6,000 additional HP can be restored in this manner."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 4048306346,
+			"desc_hash": 2144597778,
+			"restricted": false,
+			"name": "Mini Mujina",
+			"desc": "Sayu's outfit. Marvelous attire designed after the mysterious animal known as the Mujina."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108303,
+		"name_hash": 1727683780,
+		"desc_hash": 2721621093,
+		"type_hash": 1855233894,
+		"rarity": 2,
+		"name": "Dizziness-Be-Gone no Jutsu Version 2.0",
+		"desc": "Sayu's specialty. The Onigiri has been kneaded by Sayu into a cutesy shape \u2014 but remember, it's a mujina, not a tanuki, got it? And now that you mention it, this must be how Sayu can sleep for a whole day after eating, right?",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 4206948279,
+		"effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s.",
+		"original_recipe": "onigiri"
+	}
+}

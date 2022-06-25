@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15403,
+	"promote_id": 15403,
+	"gadget_id": 50015403,
+	"story_id": [
+		195403
+	],
+	"skill_affix": [
+		115403,
+		0
+	],
+	"type": "bow",
+	"name_hash": 2400012995,
+	"desc_hash": 59873837,
+	"name": "Sacrificial Bow",
+	"desc": "A ceremonial hunting bow that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 43.734901428222656,
+		"Energy Recharge%": 0.06666699796915054
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_202",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"boreal_wolfs_milk_tooth": 3,
+				"dead_ley_line_branch": 3,
+				"slime_condensate": 2,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 3,
+				"dead_ley_line_branch": 12,
+				"slime_condensate": 8,
+				"mora": 15000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 6,
+				"dead_ley_line_leaves": 6,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_broken_fang": 3,
+				"dead_ley_line_leaves": 12,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"boreal_wolfs_broken_fang": 6,
+				"ley_line_sprout": 9,
+				"slime_concentrate": 6,
+				"mora": 35000
+			},
+			{
+				"boreal_wolfs_nostalgia": 4,
+				"ley_line_sprout": 18,
+				"slime_concentrate": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 4136879547,
+		"name": "Composed",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1154030,
+				"desc_hash": 191449169,
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>40%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>30</color>s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1154031,
+				"desc_hash": 1528626153,
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>50%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>26</color>s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1154032,
+				"desc_hash": 486075657,
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>60%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>22s</color>.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1154033,
+				"desc_hash": 2142767705,
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>70%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>19</color>s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1154034,
+				"desc_hash": 741199593,
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>80%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>16s</color>.",
+				"cost": 8000
+			}
+		]
+	}
+}

@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 14509,
+	"promote_id": 14509,
+	"gadget_id": 50014509,
+	"story_id": [
+		194509
+	],
+	"skill_affix": [
+		114509,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 310247243,
+	"desc_hash": 712713253,
+	"name": "Kagura's Verity",
+	"desc": "The bells used when performing the Kagura Dance, blessed by the Guuji herself. The scent of the Sacred Sakura tree lingers on it.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 45.9364013671875,
+		"Crit DMG%": 0.14399999380111694
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_301",
+		"Crit DMG%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"mask_of_the_wicked_lieutenant": 5,
+				"concealed_claw": 5,
+				"spectral_husk": 3,
+				"mora": 10000
+			},
+			{
+				"mask_of_the_tigers_bite": 5,
+				"concealed_claw": 18,
+				"spectral_husk": 12,
+				"mora": 20000
+			},
+			{
+				"mask_of_the_tigers_bite": 9,
+				"concealed_unguis": 9,
+				"spectral_heart": 9,
+				"mora": 30000
+			},
+			{
+				"mask_of_the_one_horned": 5,
+				"concealed_unguis": 18,
+				"spectral_heart": 14,
+				"mora": 45000
+			},
+			{
+				"mask_of_the_one_horned": 9,
+				"concealed_talon": 14,
+				"spectral_nucleus": 9,
+				"mora": 55000
+			},
+			{
+				"mask_of_the_kijin": 6,
+				"concealed_talon": 27,
+				"spectral_nucleus": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3901432715,
+		"name": "Kagura Dance of the Sacred Sakura",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1145090,
+				"desc_hash": 581756417,
+				"desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>12%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>12%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1145091,
+				"desc_hash": 4186939041,
+				"desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>15%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>15%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1145092,
+				"desc_hash": 265099305,
+				"desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>18%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>18%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1145093,
+				"desc_hash": 1239317409,
+				"desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>21%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>21%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1145094,
+				"desc_hash": 931121153,
+				"desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>24%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>24%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+				"cost": 16000
+			}
+		]
+	}
+}

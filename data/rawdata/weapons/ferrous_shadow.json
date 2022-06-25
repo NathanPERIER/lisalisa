@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12301,
+	"promote_id": 12301,
+	"gadget_id": 50012301,
+	"story_id": [
+		192301
+	],
+	"skill_affix": [
+		112301,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 1479961579,
+	"desc_hash": 1887050717,
+	"name": "Ferrous Shadow",
+	"desc": "A replica of the famed sword of Arundolyn, the Lion of Light. Feel the power of a legendary hero as you hold this sword in your hand! Imagine yourself as the great warrior himself! Note: Daydreaming not recommended in live combat.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 38.74129867553711,
+		"HP%": 0.07660000026226044
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101",
+		"HP%": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"tile_of_decarabians_tower": 2,
+				"heavy_horn": 2,
+				"whopperflower_nectar": 1,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 2,
+				"heavy_horn": 8,
+				"whopperflower_nectar": 5,
+				"mora": 10000
+			},
+			{
+				"debris_of_decarabians_city": 4,
+				"black_bronze_horn": 4,
+				"shimmering_nectar": 4,
+				"mora": 15000
+			},
+			{
+				"fragment_of_decarabians_epic": 2,
+				"black_bronze_horn": 8,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"fragment_of_decarabians_epic": 4,
+				"black_crystal_horn": 6,
+				"energy_nectar": 4,
+				"mora": 25000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 3,
+				"black_crystal_horn": 12,
+				"energy_nectar": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 99463579,
+		"name": "Unbending",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1123010,
+				"desc_hash": 2855766121,
+				"desc": "When HP falls below <color=#99FFFFFF>70%</color>, increases Charged Attack DMG by <color=#99FFFFFF>30%</color> and Charged Attacks become harder to interrupt.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1123011,
+				"desc_hash": 2312372713,
+				"desc": "When HP falls below <color=#99FFFFFF>75%</color>, increases Charged Attack DMG by <color=#99FFFFFF>35%</color> and Charged Attacks become harder to interrupt.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1123012,
+				"desc_hash": 423698633,
+				"desc": "When HP falls below <color=#99FFFFFF>80%</color>, increases Charged Attack DMG by <color=#99FFFFFF>40%</color> and Charged Attacks become harder to interrupt.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1123013,
+				"desc_hash": 3298730305,
+				"desc": "When HP falls below <color=#99FFFFFF>85%</color>, increases Charged Attack DMG by <color=#99FFFFFF>45%</color> and Charged Attacks become harder to interrupt.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1123014,
+				"desc_hash": 3417004121,
+				"desc": "When HP falls below <color=#99FFFFFF>90%</color>, increases Charged Attack DMG by <color=#99FFFFFF>50%</color> and Charged Attacks become harder to interrupt.",
+				"cost": 4000
+			}
+		]
+	}
+}

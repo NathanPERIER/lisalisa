@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12503,
+	"promote_id": 12503,
+	"gadget_id": 50012503,
+	"story_id": [
+		192503
+	],
+	"skill_affix": [
+		112503,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 1075647299,
+	"desc_hash": 3478455989,
+	"name": "Song of Broken Pines",
+	"desc": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 49.137699127197266,
+		"Physical DMG%": 0.04500000178813934
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_303",
+		"Physical DMG%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"tile_of_decarabians_tower": 5,
+				"heavy_horn": 5,
+				"damaged_mask": 3,
+				"mora": 10000
+			},
+			{
+				"debris_of_decarabians_city": 5,
+				"heavy_horn": 18,
+				"damaged_mask": 12,
+				"mora": 20000
+			},
+			{
+				"debris_of_decarabians_city": 9,
+				"black_bronze_horn": 9,
+				"stained_mask": 9,
+				"mora": 30000
+			},
+			{
+				"fragment_of_decarabians_epic": 5,
+				"black_bronze_horn": 18,
+				"stained_mask": 14,
+				"mora": 45000
+			},
+			{
+				"fragment_of_decarabians_epic": 9,
+				"black_crystal_horn": 14,
+				"ominous_mask": 9,
+				"mora": 55000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 6,
+				"black_crystal_horn": 27,
+				"ominous_mask": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 7925115,
+		"name": "Rebel's Banner-Hymn",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1125030,
+				"desc_hash": 3115311665,
+				"desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <color=#99FFFFFF>16%</color>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <color=#99FFFFFF>12%</color> and increases ATK by <color=#99FFFFFF>20%</color>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1125031,
+				"desc_hash": 504603569,
+				"desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <color=#99FFFFFF>20%</color>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <color=#99FFFFFF>15%</color> and increases ATK by <color=#99FFFFFF>25%</color>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1125032,
+				"desc_hash": 269545409,
+				"desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <color=#99FFFFFF>24%</color>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <color=#99FFFFFF>18%</color> and increases ATK by <color=#99FFFFFF>30%</color>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1125033,
+				"desc_hash": 2443211145,
+				"desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <color=#99FFFFFF>28%</color>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <color=#99FFFFFF>21%</color> and increases ATK by <color=#99FFFFFF>35%</color>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1125034,
+				"desc_hash": 3899169753,
+				"desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <color=#99FFFFFF>32%</color>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <color=#99FFFFFF>24%</color> and increases ATK by <color=#99FFFFFF>40%</color>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"cost": 16000
+			}
+		]
+	}
+}

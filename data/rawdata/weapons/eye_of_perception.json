@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 14409,
+	"promote_id": 14409,
+	"gadget_id": 50014409,
+	"story_id": [
+		194409
+	],
+	"skill_affix": [
+		114409,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 3156385731,
+	"desc_hash": 2055966237,
+	"name": "Eye of Perception",
+	"desc": "A dim black glaze pearl that is said to have the power to read the purity of one's heart.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 41.067100524902344,
+		"ATK%": 0.11999999731779099
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_204",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"mist_veiled_lead_elixir": 3,
+				"mist_grass_pollen": 3,
+				"damaged_mask": 2,
+				"mora": 5000
+			},
+			{
+				"mist_veiled_mercury_elixir": 3,
+				"mist_grass_pollen": 12,
+				"damaged_mask": 8,
+				"mora": 15000
+			},
+			{
+				"mist_veiled_mercury_elixir": 6,
+				"mist_grass": 6,
+				"stained_mask": 6,
+				"mora": 20000
+			},
+			{
+				"mist_veiled_gold_elixir": 3,
+				"mist_grass": 12,
+				"stained_mask": 9,
+				"mora": 30000
+			},
+			{
+				"mist_veiled_gold_elixir": 6,
+				"mist_grass_wick": 9,
+				"ominous_mask": 6,
+				"mora": 35000
+			},
+			{
+				"mist_veiled_primo_elixir": 4,
+				"mist_grass_wick": 18,
+				"ominous_mask": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2057934371,
+		"name": "Echo",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1144090,
+				"desc_hash": 1031538761,
+				"desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>240%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>12</color>s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1144091,
+				"desc_hash": 1715885393,
+				"desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>270%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>11</color>s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1144092,
+				"desc_hash": 1431811881,
+				"desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>300%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>10</color>s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1144093,
+				"desc_hash": 1120470593,
+				"desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>330%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>9</color>s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1144094,
+				"desc_hash": 2496973505,
+				"desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>360%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>8</color>s.",
+				"cost": 8000
+			}
+		]
+	}
+}

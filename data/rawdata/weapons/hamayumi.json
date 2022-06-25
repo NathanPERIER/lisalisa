@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15414,
+	"promote_id": 15414,
+	"gadget_id": 50015414,
+	"story_id": [
+		195414
+	],
+	"skill_affix": [
+		115414,
+		0
+	],
+	"type": "bow",
+	"name_hash": 4186179883,
+	"desc_hash": 852893197,
+	"name": "Hamayumi",
+	"desc": "A certain shrine maiden once owned this warbow. It was made with surpassing skill, and is both intricate and sturdy.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 41.067100524902344,
+		"ATK%": 0.11999999731779099
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_204",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"narukamis_wisdom": 3,
+				"dismal_prism": 3,
+				"firm_arrowhead": 2,
+				"mora": 5000
+			},
+			{
+				"narukamis_joy": 3,
+				"dismal_prism": 12,
+				"firm_arrowhead": 8,
+				"mora": 15000
+			},
+			{
+				"narukamis_joy": 6,
+				"crystal_prism": 6,
+				"sharp_arrowhead": 6,
+				"mora": 20000
+			},
+			{
+				"narukamis_affection": 3,
+				"crystal_prism": 12,
+				"sharp_arrowhead": 9,
+				"mora": 30000
+			},
+			{
+				"narukamis_affection": 6,
+				"polarizing_prism": 9,
+				"weathered_arrowhead": 6,
+				"mora": 35000
+			},
+			{
+				"narukamis_valor": 4,
+				"polarizing_prism": 18,
+				"weathered_arrowhead": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3099408603,
+		"name": "Full Draw",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1154140,
+				"desc_hash": 1005674993,
+				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>16%</color> and Charged Attack DMG by <color=#99FFFFFF>12%</color>. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1154141,
+				"desc_hash": 1500615753,
+				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>20%</color> and Charged Attack DMG by <color=#99FFFFFF>15%</color>. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1154142,
+				"desc_hash": 3258541705,
+				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>24%</color> and Charged Attack DMG by <color=#99FFFFFF>18%</color>. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1154143,
+				"desc_hash": 3854525521,
+				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>28%</color> and Charged Attack DMG by <color=#99FFFFFF>21%</color>. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1154144,
+				"desc_hash": 2650909905,
+				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>32%</color> and Charged Attack DMG by <color=#99FFFFFF>24%</color>. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+				"cost": 8000
+			}
+		]
+	}
+}

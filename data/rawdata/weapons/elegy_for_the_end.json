@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15503,
+	"promote_id": 15503,
+	"gadget_id": 50015503,
+	"story_id": [
+		195503
+	],
+	"skill_affix": [
+		115503,
+		0
+	],
+	"type": "bow",
+	"name_hash": 3112679155,
+	"desc_hash": 1305978565,
+	"name": "Elegy for the End",
+	"desc": "A bow as lovely as any bard's lyre, its arrows pierce the heart like a lamenting sigh.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 45.9364013671875,
+		"Energy Recharge%": 0.11999999731779099
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_301",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"boreal_wolfs_milk_tooth": 5,
+				"heavy_horn": 5,
+				"recruits_insignia": 3,
+				"mora": 10000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 5,
+				"heavy_horn": 18,
+				"recruits_insignia": 12,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 9,
+				"black_bronze_horn": 9,
+				"sergeants_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"boreal_wolfs_broken_fang": 5,
+				"black_bronze_horn": 18,
+				"sergeants_insignia": 14,
+				"mora": 45000
+			},
+			{
+				"boreal_wolfs_broken_fang": 9,
+				"black_crystal_horn": 14,
+				"lieutenants_insignia": 9,
+				"mora": 55000
+			},
+			{
+				"boreal_wolfs_nostalgia": 6,
+				"black_crystal_horn": 27,
+				"lieutenants_insignia": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3170253363,
+		"name": "The Parting Refrain",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1155030,
+				"desc_hash": 3647072697,
+				"desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by <color=#99FFFFFF>60</color>. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by <color=#99FFFFFF>100</color> and increases ATK by <color=#99FFFFFF>20%</color>. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1155031,
+				"desc_hash": 1876022129,
+				"desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by <color=#99FFFFFF>75</color>. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by <color=#99FFFFFF>125</color> and increases ATK by <color=#99FFFFFF>25%</color>. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1155032,
+				"desc_hash": 888324649,
+				"desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by <color=#99FFFFFF>90</color>. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by <color=#99FFFFFF>150</color> and increases ATK by <color=#99FFFFFF>30%</color>. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1155033,
+				"desc_hash": 346681641,
+				"desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by <color=#99FFFFFF>105</color>. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by <color=#99FFFFFF>175</color> and increases ATK by <color=#99FFFFFF>35%</color>. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1155034,
+				"desc_hash": 3387352401,
+				"desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by <color=#99FFFFFF>120</color>. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by <color=#99FFFFFF>200</color> and increases ATK by <color=#99FFFFFF>40%</color>. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+				"cost": 16000
+			}
+		]
+	}
+}

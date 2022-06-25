@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12408,
+	"promote_id": 12408,
+	"gadget_id": 50012408,
+	"story_id": [
+		192408
+	],
+	"skill_affix": [
+		112408,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 20848859,
+	"desc_hash": 4287559013,
+	"name": "Blackcliff Slasher",
+	"desc": "An extremely sturdy greatsword from the Blackcliff Forge. It has a dark crimson color from the blade to pommel.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"Crit DMG%": 0.11999999731779099
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"Crit DMG%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"mist_veiled_lead_elixir": 3,
+				"mist_grass_pollen": 3,
+				"recruits_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"mist_veiled_mercury_elixir": 3,
+				"mist_grass_pollen": 12,
+				"recruits_insignia": 8,
+				"mora": 15000
+			},
+			{
+				"mist_veiled_mercury_elixir": 6,
+				"mist_grass": 6,
+				"sergeants_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"mist_veiled_gold_elixir": 3,
+				"mist_grass": 12,
+				"sergeants_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"mist_veiled_gold_elixir": 6,
+				"mist_grass_wick": 9,
+				"lieutenants_insignia": 6,
+				"mora": 35000
+			},
+			{
+				"mist_veiled_primo_elixir": 4,
+				"mist_grass_wick": 18,
+				"lieutenants_insignia": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2584262195,
+		"name": "Press the Advantage",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1124080,
+				"desc_hash": 286622321,
+				"desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>12%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1124081,
+				"desc_hash": 626084945,
+				"desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>15%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1124082,
+				"desc_hash": 2580781905,
+				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>18%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1124083,
+				"desc_hash": 3771057593,
+				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>21%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1124084,
+				"desc_hash": 2662618537,
+				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>24%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"cost": 8000
+			}
+		]
+	}
+}

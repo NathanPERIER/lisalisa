@@ -1,0 +1,871 @@
+{
+	"hoyo_id": 10000034,
+	"promote_id": 34,
+	"skill_depot_id": 3401,
+	"fetter_id": 122,
+	"weapon": "claymore",
+	"name_hash": 1921418842,
+	"desc_hash": 1136975897,
+	"name": "Noelle",
+	"desc": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": [
+		21,
+		3
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		3929787020,
+		3710640289
+	],
+	"astrolabe_hash": [
+		808906466,
+		1057268155
+	],
+	"allegiance_hash": 3006274177,
+	"vision": "geo",
+	"astrolabe": "Parma Cordis",
+	"allegiance": "Knights of Favonius",
+	"default_weapon": "waster_greatsword",
+	"base_stats": {
+		"Base HP": 1012.0880126953125,
+		"Base ATK": 16.02720069885254,
+		"Base DEF": 66.9532470703125,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"prithiva_topaz_sliver": 1,
+				"valberry": 3,
+				"damaged_mask": 3,
+				"mora": 20000
+			},
+			{
+				"prithiva_topaz_fragment": 3,
+				"basalt_pillar": 2,
+				"valberry": 10,
+				"damaged_mask": 15,
+				"mora": 40000
+			},
+			{
+				"prithiva_topaz_fragment": 6,
+				"basalt_pillar": 4,
+				"valberry": 20,
+				"stained_mask": 12,
+				"mora": 60000
+			},
+			{
+				"prithiva_topaz_chunk": 3,
+				"basalt_pillar": 8,
+				"valberry": 30,
+				"stained_mask": 18,
+				"mora": 80000
+			},
+			{
+				"prithiva_topaz_chunk": 6,
+				"basalt_pillar": 12,
+				"valberry": 45,
+				"ominous_mask": 12,
+				"mora": 100000
+			},
+			{
+				"prithiva_topaz_gemstone": 6,
+				"basalt_pillar": 20,
+				"valberry": 60,
+				"ominous_mask": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 756.08154296875,
+					"Base DEF": 50.01750183105469,
+					"Base ATK": 11.973420143127441,
+					"DEF%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1293.29736328125,
+					"Base DEF": 85.5562515258789,
+					"Base ATK": 20.480850219726562,
+					"DEF%": 0.07500000298023224
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2009.585205078125,
+					"Base DEF": 132.94125366210938,
+					"Base ATK": 31.82408905029297,
+					"DEF%": 0.15000000596046448
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2546.801025390625,
+					"Base DEF": 168.47999572753906,
+					"Base ATK": 40.331520080566406,
+					"DEF%": 0.15000000596046448
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 3084.016845703125,
+					"Base DEF": 204.0187530517578,
+					"Base ATK": 48.838951110839844,
+					"DEF%": 0.22499999403953552
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3621.232666015625,
+					"Base DEF": 239.5574951171875,
+					"Base ATK": 57.346378326416016,
+					"DEF%": 0.30000001192092896
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 1521716213,
+			"desc_hash": 3131531104,
+			"charge_num": 1,
+			"name": "Normal Attack: Favonius Bladework - Maid",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, perform a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_resistance": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_resistance": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_resistance": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_resistance": 4,
+					"ominous_mask": 4,
+					"dvalins_claw": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_resistance": 6,
+					"ominous_mask": 6,
+					"dvalins_claw": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"ominous_mask": 9,
+					"dvalins_claw": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_resistance": 16,
+					"ominous_mask": 12,
+					"dvalins_claw": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack Spinning DMG",
+					"Charged Attack Final DMG",
+					"Charged Attack Stamina Cost",
+					"Max Duration",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"79.12%",
+						"73.36%",
+						"86.26%",
+						"113.43%",
+						"50.74%",
+						"90.47%",
+						"40/s",
+						"5s",
+						"74.59%",
+						"149.14%/186.29%"
+					],
+					[
+						"85.56%",
+						"79.33%",
+						"93.28%",
+						"122.67%",
+						"54.87%",
+						"97.84%",
+						"40/s",
+						"5s",
+						"80.66%",
+						"161.28%/201.45%"
+					],
+					[
+						"92%",
+						"85.3%",
+						"100.3%",
+						"131.9%",
+						"59%",
+						"105.2%",
+						"40/s",
+						"5s",
+						"86.73%",
+						"173.42%/216.62%"
+					],
+					[
+						"101.2%",
+						"93.83%",
+						"110.33%",
+						"145.09%",
+						"64.9%",
+						"115.72%",
+						"40/s",
+						"5s",
+						"95.4%",
+						"190.77%/238.28%"
+					],
+					[
+						"107.64%",
+						"99.8%",
+						"117.35%",
+						"154.32%",
+						"69.03%",
+						"123.08%",
+						"40/s",
+						"5s",
+						"101.47%",
+						"202.91%/253.44%"
+					],
+					[
+						"115%",
+						"106.62%",
+						"125.37%",
+						"164.87%",
+						"73.75%",
+						"131.5%",
+						"40/s",
+						"5s",
+						"108.41%",
+						"216.78%/270.77%"
+					],
+					[
+						"125.12%",
+						"116.01%",
+						"136.41%",
+						"179.38%",
+						"80.24%",
+						"143.07%",
+						"40/s",
+						"5s",
+						"117.95%",
+						"235.86%/294.6%"
+					],
+					[
+						"135.24%",
+						"125.39%",
+						"147.44%",
+						"193.89%",
+						"86.73%",
+						"154.64%",
+						"40/s",
+						"5s",
+						"127.49%",
+						"254.93%/318.42%"
+					],
+					[
+						"145.36%",
+						"134.77%",
+						"158.47%",
+						"208.4%",
+						"93.22%",
+						"166.22%",
+						"40/s",
+						"5s",
+						"137.03%",
+						"274.01%/342.25%"
+					],
+					[
+						"156.4%",
+						"145.01%",
+						"170.51%",
+						"224.23%",
+						"100.3%",
+						"178.84%",
+						"40/s",
+						"5s",
+						"147.44%",
+						"294.82%/368.25%"
+					],
+					[
+						"167.44%",
+						"155.25%",
+						"182.55%",
+						"240.06%",
+						"107.38%",
+						"191.46%",
+						"40/s",
+						"5s",
+						"157.85%",
+						"315.63%/394.24%"
+					],
+					[
+						"178.48%",
+						"165.48%",
+						"194.58%",
+						"255.89%",
+						"114.46%",
+						"204.09%",
+						"40/s",
+						"5s",
+						"168.26%",
+						"336.44%/420.23%"
+					],
+					[
+						"189.52%",
+						"175.72%",
+						"206.62%",
+						"271.71%",
+						"121.54%",
+						"216.71%",
+						"40/s",
+						"5s",
+						"178.66%",
+						"357.25%/446.23%"
+					],
+					[
+						"200.56%",
+						"185.95%",
+						"218.65%",
+						"287.54%",
+						"128.62%",
+						"229.34%",
+						"40/s",
+						"5s",
+						"189.07%",
+						"378.06%/472.22%"
+					],
+					[
+						"211.6%",
+						"196.19%",
+						"230.69%",
+						"303.37%",
+						"135.7%",
+						"241.96%",
+						"40/s",
+						"5s",
+						"199.48%",
+						"398.87%/498.21%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 737506901,
+			"desc_hash": 204798264,
+			"charge_num": 1,
+			"name": "Breastplate",
+			"desc": "Summons protective stone armor, dealing <color=#FFE699FF>Geo DMG</color> to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.\\nThe shield has the following properties:\\n\u00b7When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\\n\u00b7Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.\\n\\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF.\\n\\n<i>Noelle is both a dutiful maid and a valiant knight.</i>",
+			"costs": [
+				{
+					"teachings_of_resistance": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_resistance": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_resistance": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_resistance": 4,
+					"ominous_mask": 4,
+					"dvalins_claw": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_resistance": 6,
+					"ominous_mask": 6,
+					"dvalins_claw": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"ominous_mask": 9,
+					"dvalins_claw": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_resistance": 16,
+					"ominous_mask": 12,
+					"dvalins_claw": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"DMG Absorption",
+					"Healing",
+					"Healing Triggering Chance",
+					"Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"120% DEF",
+						"160% DEF+769",
+						"21.28% DEF+102",
+						"50%",
+						"12s",
+						"24s"
+					],
+					[
+						"129% DEF",
+						"172% DEF+846",
+						"22.88% DEF+112",
+						"51%",
+						"12s",
+						"24s"
+					],
+					[
+						"138% DEF",
+						"184% DEF+930",
+						"24.47% DEF+124",
+						"52%",
+						"12s",
+						"24s"
+					],
+					[
+						"150% DEF",
+						"200% DEF+1020",
+						"26.6% DEF+136",
+						"53%",
+						"12s",
+						"24s"
+					],
+					[
+						"159% DEF",
+						"212% DEF+1116",
+						"28.2% DEF+148",
+						"54%",
+						"12s",
+						"24s"
+					],
+					[
+						"168% DEF",
+						"224% DEF+1218",
+						"29.79% DEF+162",
+						"55%",
+						"12s",
+						"24s"
+					],
+					[
+						"180% DEF",
+						"240% DEF+1327",
+						"31.92% DEF+177",
+						"56%",
+						"12s",
+						"24s"
+					],
+					[
+						"192% DEF",
+						"256% DEF+1443",
+						"34.05% DEF+192",
+						"57%",
+						"12s",
+						"24s"
+					],
+					[
+						"204% DEF",
+						"272% DEF+1565",
+						"36.18% DEF+208",
+						"58%",
+						"12s",
+						"24s"
+					],
+					[
+						"216% DEF",
+						"288% DEF+1693",
+						"38.3% DEF+225",
+						"59%",
+						"12s",
+						"24s"
+					],
+					[
+						"228% DEF",
+						"304% DEF+1828",
+						"40.43% DEF+243",
+						"59%",
+						"12s",
+						"24s"
+					],
+					[
+						"240% DEF",
+						"320% DEF+1969",
+						"42.56% DEF+262",
+						"60%",
+						"12s",
+						"24s"
+					],
+					[
+						"255% DEF",
+						"340% DEF+2117",
+						"45.22% DEF+282",
+						"60%",
+						"12s",
+						"24s"
+					],
+					[
+						"270% DEF",
+						"360% DEF+2271",
+						"47.88% DEF+303",
+						"60%",
+						"12s",
+						"24s"
+					],
+					[
+						"285% DEF",
+						"380% DEF+2431",
+						"50.54% DEF+324",
+						"60%",
+						"12s",
+						"24s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 1615963973,
+			"desc_hash": 313107928,
+			"charge_num": 1,
+			"name": "Sweeping Time",
+			"desc": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing <color=#FFE699FF>Geo DMG</color>.\\nAfterwards, Noelle gains the following effects:\\n\u00b7Larger attack AoE.\\n\u00b7Converts attack DMG to <color=#FFE699FF>Geo DMG</color> that cannot be overridden by any other elemental infusion.\\n\u00b7Increased ATK that scales based on her DEF.\\n\\n<i>Sometimes, it's not just dust that needs sweeping...</i>",
+			"costs": [
+				{
+					"teachings_of_resistance": 3,
+					"damaged_mask": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_resistance": 2,
+					"stained_mask": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_resistance": 4,
+					"stained_mask": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_resistance": 6,
+					"stained_mask": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_resistance": 9,
+					"stained_mask": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_resistance": 4,
+					"ominous_mask": 4,
+					"dvalins_claw": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_resistance": 6,
+					"ominous_mask": 6,
+					"dvalins_claw": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_resistance": 12,
+					"ominous_mask": 9,
+					"dvalins_claw": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_resistance": 16,
+					"ominous_mask": 12,
+					"dvalins_claw": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Burst DMG",
+					"Skill DMG",
+					"ATK Bonus",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"67.2%",
+						"92.8%",
+						"40% DEF",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"72.24%",
+						"99.76%",
+						"43% DEF",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"77.28%",
+						"106.72%",
+						"46% DEF",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"84%",
+						"116%",
+						"50% DEF",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"89.04%",
+						"122.96%",
+						"53% DEF",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"94.08%",
+						"129.92%",
+						"56% DEF",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"100.8%",
+						"139.2%",
+						"60% DEF",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"107.52%",
+						"148.48%",
+						"64% DEF",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"114.24%",
+						"157.76%",
+						"68% DEF",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"120.96%",
+						"167.04%",
+						"72% DEF",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"127.68%",
+						"176.32%",
+						"76% DEF",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"134.4%",
+						"185.6%",
+						"80% DEF",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"142.8%",
+						"197.2%",
+						"85% DEF",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"151.2%",
+						"208.8%",
+						"90% DEF",
+						"15s",
+						"15s",
+						"60"
+					],
+					[
+						"159.6%",
+						"220.4%",
+						"95% DEF",
+						"15s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 4119686205,
+			"desc_hash": 59436107,
+			"ascension": 1,
+			"name": "Devotion",
+			"desc": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF.\\nThe shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG.\\nThis effect can only occur once every 60s."
+		},
+		{
+			"name_hash": 10500405,
+			"desc_hash": 3560753459,
+			"ascension": 4,
+			"name": "Nice and Clean",
+			"desc": "Noelle will decrease the CD of <color=#FFD780FF>Breastplate</color> by 1s for every 4 Normal or Charged Attack hits she scores on opponents.\\nOne hit may be counted every 0.1s."
+		},
+		{
+			"name_hash": 1771533717,
+			"desc_hash": 4099575347,
+			"ascension": null,
+			"name": "Maid's Knighthood",
+			"desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 3743570273,
+			"name": "I Got Your Back",
+			"desc_hash": 2305612271,
+			"desc": "While <color=#FFD780FF>Sweeping Time</color> and <color=#FFD780FF>Breastplate</color> are both in effect, the chance of Breastplate's healing effects activating is increased to 100%."
+		},
+		{
+			"name_hash": 680992073,
+			"name": "Combat Maid",
+			"desc_hash": 2663640239,
+			"desc": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%."
+		},
+		{
+			"name_hash": 4141797449,
+			"name": "Invulnerable Maid",
+			"desc_hash": 2912207711,
+			"desc": "Increases the Level of <color=#FFD780FF>Breastplate</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 50520097,
+			"name": "To Be Cleaned",
+			"desc_hash": 4101456727,
+			"desc": "When <color=#FFD780FF>Breastplate</color>'s duration expires or it is destroyed by DMG, it will deal 400% ATK of <color=#FFE699FF>Geo DMG</color> to surrounding opponents."
+		},
+		{
+			"name_hash": 976069081,
+			"name": "Favonius Sweeper Master",
+			"desc_hash": 2820351255,
+			"desc": "Increases the Level of <color=#FFD780FF>Sweeping Time</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 79084353,
+			"name": "Must Be Spotless",
+			"desc_hash": 2091165375,
+			"desc": "<color=#FFD780FF>Sweeping Time</color> increases Noelle's ATK by an additional 50% of her DEF.\\nAdditionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 1660794338,
+			"desc_hash": 102807738,
+			"restricted": false,
+			"name": "Armored Rose",
+			"desc": "Noelle's outfit. Heavy clothing made of durable velvet and metal plates."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108118,
+		"name_hash": 360698356,
+		"desc_hash": 4013730165,
+		"type_hash": 977616398,
+		"rarity": 2,
+		"name": "Lighter-Than-Air Pancake",
+		"desc": "Noelle's specialty. These thick pastries are the special afternoon snacks of the Knights of Favonius. They give people the sense that they have fallen upon a layer of fluffy clouds, and seeing Noelle's smile makes the feeling all the sweeter!",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 2247415791,
+		"effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP.",
+		"original_recipe": "tea_break_pancake"
+	}
+}

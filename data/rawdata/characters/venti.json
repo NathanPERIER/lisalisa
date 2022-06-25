@@ -1,0 +1,823 @@
+{
+	"hoyo_id": 10000022,
+	"promote_id": 22,
+	"skill_depot_id": 2201,
+	"fetter_id": 111,
+	"weapon": "bow",
+	"name_hash": 2466140362,
+	"desc_hash": 4137166409,
+	"name": "Venti",
+	"desc": "One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_BOY",
+	"birthday": [
+		16,
+		6
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		2075460644,
+		898621369
+	],
+	"astrolabe_hash": [
+		2226738162,
+		1329004531
+	],
+	"allegiance_hash": 2379846137,
+	"vision": "anemo",
+	"astrolabe": "Carmen Dei",
+	"allegiance": "Mondstadt",
+	"default_weapon": "hunters_bow",
+	"base_stats": {
+		"Base HP": 819.855224609375,
+		"Base ATK": 20.48200035095215,
+		"Base DEF": 52.052101135253906,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"vayuda_turquoise_sliver": 1,
+				"cecilia": 3,
+				"slime_condensate": 3,
+				"mora": 20000
+			},
+			{
+				"vayuda_turquoise_fragment": 3,
+				"hurricane_seed": 2,
+				"cecilia": 10,
+				"slime_condensate": 15,
+				"mora": 40000
+			},
+			{
+				"vayuda_turquoise_fragment": 6,
+				"hurricane_seed": 4,
+				"cecilia": 20,
+				"slime_secretions": 12,
+				"mora": 60000
+			},
+			{
+				"vayuda_turquoise_chunk": 3,
+				"hurricane_seed": 8,
+				"cecilia": 30,
+				"slime_secretions": 18,
+				"mora": 80000
+			},
+			{
+				"vayuda_turquoise_chunk": 6,
+				"hurricane_seed": 12,
+				"cecilia": 45,
+				"slime_concentrate": 12,
+				"mora": 100000
+			},
+			{
+				"vayuda_turquoise_gemstone": 6,
+				"hurricane_seed": 20,
+				"cecilia": 60,
+				"slime_concentrate": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 702.9517211914062,
+					"Base DEF": 44.63100051879883,
+					"Base ATK": 17.5601806640625,
+					"Energy Recharge%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1202.4173583984375,
+					"Base DEF": 76.34249877929688,
+					"Base ATK": 30.03714942932129,
+					"Energy Recharge%": 0.07999999821186066
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1868.37158203125,
+					"Base DEF": 118.62449645996094,
+					"Base ATK": 46.67311096191406,
+					"Energy Recharge%": 0.1599999964237213
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2367.83740234375,
+					"Base DEF": 150.33599853515625,
+					"Base ATK": 59.150081634521484,
+					"Energy Recharge%": 0.1599999964237213
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2867.302978515625,
+					"Base DEF": 182.04750061035156,
+					"Base ATK": 71.6270523071289,
+					"Energy Recharge%": 0.23999999463558197
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3366.768798828125,
+					"Base DEF": 213.75900268554688,
+					"Base ATK": 84.10401916503906,
+					"Energy Recharge%": 0.3199999928474426
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 4043029317,
+			"desc_hash": 4144150840,
+			"charge_num": 1,
+			"name": "Normal Attack: Divine Marksmanship",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 6 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"slime_condensate": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"slime_secretions": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"slime_secretions": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"slime_secretions": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"slime_secretions": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"slime_concentrate": 4,
+					"tail_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"slime_concentrate": 6,
+					"tail_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"slime_concentrate": 9,
+					"tail_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"slime_concentrate": 12,
+					"tail_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"6-Hit DMG",
+					"Aimed Shot",
+					"Fully-Charged Aimed Shot",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"20.38%+20.38%",
+						"44.38%",
+						"52.37%",
+						"26.06%+26.06%",
+						"50.65%",
+						"70.95%",
+						"43.86%",
+						"124%",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"22.04%+22.04%",
+						"47.99%",
+						"56.64%",
+						"28.18%+28.18%",
+						"54.78%",
+						"76.73%",
+						"47.43%",
+						"133.3%",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"23.7%+23.7%",
+						"51.6%",
+						"60.9%",
+						"30.3%+30.3%",
+						"58.9%",
+						"82.5%",
+						"51%",
+						"142.6%",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"26.07%+26.07%",
+						"56.76%",
+						"66.99%",
+						"33.33%+33.33%",
+						"64.79%",
+						"90.75%",
+						"56.1%",
+						"155%",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"27.73%+27.73%",
+						"60.37%",
+						"71.25%",
+						"35.45%+35.45%",
+						"68.91%",
+						"96.53%",
+						"59.67%",
+						"164.3%",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"29.62%+29.62%",
+						"64.5%",
+						"76.13%",
+						"37.87%+37.87%",
+						"73.62%",
+						"103.12%",
+						"63.75%",
+						"173.6%",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"32.23%+32.23%",
+						"70.18%",
+						"82.82%",
+						"41.21%+41.21%",
+						"80.1%",
+						"112.2%",
+						"69.36%",
+						"186%",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"34.84%+34.84%",
+						"75.85%",
+						"89.52%",
+						"44.54%+44.54%",
+						"86.58%",
+						"121.27%",
+						"74.97%",
+						"198.4%",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"37.45%+37.45%",
+						"81.53%",
+						"96.22%",
+						"47.87%+47.87%",
+						"93.06%",
+						"130.35%",
+						"80.58%",
+						"210.8%",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"40.29%+40.29%",
+						"87.72%",
+						"103.53%",
+						"51.51%+51.51%",
+						"100.13%",
+						"140.25%",
+						"86.7%",
+						"223.2%",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"43.55%+43.55%",
+						"94.81%",
+						"111.9%",
+						"55.68%+55.68%",
+						"108.23%",
+						"151.59%",
+						"93.71%",
+						"236.1%",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"47.38%+47.38%",
+						"103.16%",
+						"121.75%",
+						"60.58%+60.58%",
+						"117.75%",
+						"164.93%",
+						"101.96%",
+						"252.96%",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"51.21%+51.21%",
+						"111.5%",
+						"131.6%",
+						"65.48%+65.48%",
+						"127.28%",
+						"178.27%",
+						"110.21%",
+						"269.82%",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"55.05%+55.05%",
+						"119.85%",
+						"141.45%",
+						"70.37%+70.37%",
+						"136.8%",
+						"191.61%",
+						"118.45%",
+						"286.69%",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"59.23%+59.23%",
+						"128.95%",
+						"152.19%",
+						"75.72%+75.72%",
+						"147.19%",
+						"206.17%",
+						"127.45%",
+						"303.55%",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2470093149,
+			"desc_hash": 2480880816,
+			"charge_num": 1,
+			"name": "Skyward Sonnet",
+			"desc": "#O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nSummons a Wind Domain at the opponent's location, dealing <color=#80FFD7FF>AoE Anemo DMG</color> and launching opponents into the air.\\n\\n<color=#FFD780FF>Hold</color>\\nSummons an even larger Wind Domain with Venti as the epicenter, dealing <color=#80FFD7FF>AoE Anemo DMG</color> and launching affected opponents into the air.\\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\\n\\nOpponents hit by Skyward Sonnet will fall to the ground slowly.\\n\\n<i>In the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.</i>",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"slime_condensate": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"slime_secretions": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"slime_secretions": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"slime_secretions": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"slime_secretions": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"slime_concentrate": 4,
+					"tail_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"slime_concentrate": 6,
+					"tail_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"slime_concentrate": 9,
+					"tail_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"slime_concentrate": 12,
+					"tail_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG",
+					"#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD",
+					"Hold DMG",
+					"CD (hold)"
+				],
+				"values": [
+					[
+						"276%",
+						"6s",
+						"380%",
+						"15s"
+					],
+					[
+						"296.7%",
+						"6s",
+						"408.5%",
+						"15s"
+					],
+					[
+						"317.4%",
+						"6s",
+						"437%",
+						"15s"
+					],
+					[
+						"345%",
+						"6s",
+						"475%",
+						"15s"
+					],
+					[
+						"365.7%",
+						"6s",
+						"503.5%",
+						"15s"
+					],
+					[
+						"386.4%",
+						"6s",
+						"532%",
+						"15s"
+					],
+					[
+						"414%",
+						"6s",
+						"570%",
+						"15s"
+					],
+					[
+						"441.6%",
+						"6s",
+						"608%",
+						"15s"
+					],
+					[
+						"469.2%",
+						"6s",
+						"646%",
+						"15s"
+					],
+					[
+						"496.8%",
+						"6s",
+						"684%",
+						"15s"
+					],
+					[
+						"524.4%",
+						"6s",
+						"722%",
+						"15s"
+					],
+					[
+						"552%",
+						"6s",
+						"760%",
+						"15s"
+					],
+					[
+						"586.5%",
+						"6s",
+						"807.5%",
+						"15s"
+					],
+					[
+						"621%",
+						"6s",
+						"855%",
+						"15s"
+					],
+					[
+						"655.5%",
+						"6s",
+						"902.5%",
+						"15s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 1181756941,
+			"desc_hash": 2599674792,
+			"charge_num": 1,
+			"name": "Wind's Grand Ode",
+			"desc": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in opponents and deals continuous <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Elemental Absorption</color>\\nIf the Stormeye comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>Many hymns written in praise of the Anemo Archon have been lost to time. This one sings of his mastery over the wind.</i>",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"slime_condensate": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"slime_secretions": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"slime_secretions": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"slime_secretions": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"slime_secretions": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"slime_concentrate": 4,
+					"tail_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"slime_concentrate": 6,
+					"tail_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"slime_concentrate": 9,
+					"tail_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"slime_concentrate": 12,
+					"tail_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"DoT",
+					"Additional Elemental DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"37.6%",
+						"18.8%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"40.42%",
+						"20.21%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"43.24%",
+						"21.62%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"47%",
+						"23.5%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"49.82%",
+						"24.91%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"52.64%",
+						"26.32%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"56.4%",
+						"28.2%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"60.16%",
+						"30.08%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"63.92%",
+						"31.96%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"67.68%",
+						"33.84%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"71.44%",
+						"35.72%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"75.2%",
+						"37.6%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"79.9%",
+						"39.95%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"84.6%",
+						"42.3%",
+						"8s",
+						"15s",
+						"60"
+					],
+					[
+						"89.3%",
+						"44.65%",
+						"8s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 1562102965,
+			"desc_hash": 3352373235,
+			"ascension": 1,
+			"name": "Embrace of Winds",
+			"desc": "Holding <color=#FFD780FF>Skyward Sonnet</color> creates an upcurrent that lasts for 20s."
+		},
+		{
+			"name_hash": 2149736101,
+			"desc_hash": 697661523,
+			"ascension": 4,
+			"name": "Stormeye",
+			"desc": "Regenerates 15 Energy for Venti after the effects of <color=#FFD780FF>Wind's Grand Ode</color> end.\\nIf an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element in the party."
+		},
+		{
+			"name_hash": 1704267989,
+			"desc_hash": 1111860827,
+			"ascension": null,
+			"name": "Windrider",
+			"desc": "Decreases gliding Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 2201097153,
+			"name": "Splitting Gales",
+			"desc_hash": 665988159,
+			"desc": "Fires 2 additional arrows per <color=#FFD780FF>Aimed Shot</color>, each dealing 33% of the original arrow's DMG."
+		},
+		{
+			"name_hash": 509053297,
+			"name": "Breeze of Reminiscence",
+			"desc_hash": 577887399,
+			"desc": "<color=#FFD780FF>Skyward Sonnet</color> decreases opponents' <color=#80FFD7FF>Anemo RES</color> and Physical RES by 12% for 10s.\\nOpponents launched by <color=#FFD780FF>Skyward Sonnet</color> suffer an additional 12% <color=#80FFD7FF>Anemo RES</color> and Physical RES decrease while airborne."
+		},
+		{
+			"name_hash": 1436400889,
+			"name": "Ode to Thousand Winds",
+			"desc_hash": 1214899311,
+			"desc": "Increases the Level of <color=#FFD780FF>Wind's Grand Ode</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2667025441,
+			"name": "Hurricane of Freedom",
+			"desc_hash": 3475049103,
+			"desc": "When Venti picks up an Elemental Orb or Particle, he receives a 25% <color=#80FFD7FF>Anemo DMG Bonus</color> for 10s."
+		},
+		{
+			"name_hash": 3652037273,
+			"name": "Concerto dal Cielo",
+			"desc_hash": 3697781887,
+			"desc": "Increases the Level of <color=#FFD780FF>Skyward Sonnet</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 544150889,
+			"name": "Storm of Defiance",
+			"desc_hash": 1651730135,
+			"desc": "Targets who take DMG from <color=#FFD780FF>Wind's Grand Ode</color> have their <color=#80FFD7FF>Anemo RES</color> decreased by 20%.\\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 3806453578,
+			"desc_hash": 3977341762,
+			"restricted": false,
+			"name": "Breezy Ode",
+			"desc": "Venti's outfit. The clothes of a carefree bard."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108113,
+		"name_hash": 141676252,
+		"desc_hash": 2037512669,
+		"type_hash": 2872622022,
+		"rarity": 3,
+		"name": "A Buoyant Breeze",
+		"desc": "Venti's specialty. Other than the Cecilia flowers used for decoration, the ingredients are no different from normal. But if you taste it carefully, you can taste the flavor of \"a wind that brings hope and tiny twists of fate.\" Perhaps... this is exactly what he wants.",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 2325759343,
+		"effect": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 1800s. In Co-Op Mode, this effect only applies to your own character(s).",
+		"original_recipe": "barbatos_ratatouille"
+	}
+}

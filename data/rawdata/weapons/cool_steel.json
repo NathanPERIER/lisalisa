@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 11301,
+	"promote_id": 11301,
+	"gadget_id": 50011301,
+	"story_id": [
+		191301
+	],
+	"skill_affix": [
+		111301,
+		0
+	],
+	"type": "sword",
+	"name_hash": 479076483,
+	"desc_hash": 1214777829,
+	"name": "Cool Steel",
+	"desc": "A reliable steel-forged weapon that serves as a testament to the great adventures of its old master.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 38.74129867553711,
+		"ATK%": 0.07660000026226044
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101",
+		"ATK%": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"tile_of_decarabians_tower": 2,
+				"heavy_horn": 2,
+				"firm_arrowhead": 1,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 2,
+				"heavy_horn": 8,
+				"firm_arrowhead": 5,
+				"mora": 10000
+			},
+			{
+				"debris_of_decarabians_city": 4,
+				"black_bronze_horn": 4,
+				"sharp_arrowhead": 4,
+				"mora": 15000
+			},
+			{
+				"fragment_of_decarabians_epic": 2,
+				"black_bronze_horn": 8,
+				"sharp_arrowhead": 6,
+				"mora": 20000
+			},
+			{
+				"fragment_of_decarabians_epic": 4,
+				"black_crystal_horn": 6,
+				"weathered_arrowhead": 4,
+				"mora": 25000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 3,
+				"black_crystal_horn": 12,
+				"weathered_arrowhead": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 523615731,
+		"name": "Bane of Water and Ice",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1113010,
+				"desc_hash": 4047259305,
+				"desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>12%</color>.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1113011,
+				"desc_hash": 4252592161,
+				"desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>15%</color>.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1113012,
+				"desc_hash": 1779029265,
+				"desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>18%</color>.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1113013,
+				"desc_hash": 3979717609,
+				"desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>21%</color>.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1113014,
+				"desc_hash": 3264134801,
+				"desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>24%</color>.",
+				"cost": 4000
+			}
+		]
+	}
+}

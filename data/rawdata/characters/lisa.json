@@ -1,0 +1,823 @@
+{
+	"hoyo_id": 10000006,
+	"promote_id": 4,
+	"skill_depot_id": 601,
+	"fetter_id": 104,
+	"weapon": "catalyst",
+	"name_hash": 3344622722,
+	"desc_hash": 1387136209,
+	"name": "Lisa",
+	"desc": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Academia to be their most distinguished graduate in the past two centuries.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_LADY",
+	"birthday": [
+		9,
+		6
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		2480172868,
+		1481798217
+	],
+	"astrolabe_hash": [
+		34090282,
+		3201017387
+	],
+	"allegiance_hash": 1809237489,
+	"vision": "electro",
+	"astrolabe": "Tempus Fugit",
+	"allegiance": "Knights of Favonius",
+	"default_weapon": "apprentices_notes",
+	"base_stats": {
+		"Base HP": 802.3760986328125,
+		"Base ATK": 19.410720825195312,
+		"Base DEF": 48.069000244140625,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"vajrada_amethyst_sliver": 1,
+				"valberry": 3,
+				"slime_condensate": 3,
+				"mora": 20000
+			},
+			{
+				"vajrada_amethyst_fragment": 3,
+				"lightning_prism": 2,
+				"valberry": 10,
+				"slime_condensate": 15,
+				"mora": 40000
+			},
+			{
+				"vajrada_amethyst_fragment": 6,
+				"lightning_prism": 4,
+				"valberry": 20,
+				"slime_secretions": 12,
+				"mora": 60000
+			},
+			{
+				"vajrada_amethyst_chunk": 3,
+				"lightning_prism": 8,
+				"valberry": 30,
+				"slime_secretions": 18,
+				"mora": 80000
+			},
+			{
+				"vajrada_amethyst_chunk": 6,
+				"lightning_prism": 12,
+				"valberry": 45,
+				"slime_concentrate": 12,
+				"mora": 100000
+			},
+			{
+				"vajrada_amethyst_gemstone": 6,
+				"lightning_prism": 20,
+				"valberry": 60,
+				"slime_concentrate": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 599.416015625,
+					"Base DEF": 35.90999984741211,
+					"Base ATK": 14.501141548156738,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1025.31689453125,
+					"Base DEF": 61.42499923706055,
+					"Base ATK": 24.804584503173828,
+					"Elemental Mastery": 24.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1593.1846923828125,
+					"Base DEF": 95.44499969482422,
+					"Base ATK": 38.54250717163086,
+					"Elemental Mastery": 48.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2019.0855712890625,
+					"Base DEF": 120.95999908447266,
+					"Base ATK": 48.845951080322266,
+					"Elemental Mastery": 48.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2444.986328125,
+					"Base DEF": 146.47500610351562,
+					"Base ATK": 59.14939498901367,
+					"Elemental Mastery": 72.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 2870.88720703125,
+					"Base DEF": 171.99000549316406,
+					"Base ATK": 69.45283508300781,
+					"Elemental Mastery": 96.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 2499144501,
+			"desc_hash": 3362612400,
+			"charge_num": 1,
+			"name": "Normal Attack: Lightning Touch",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 lightning attacks that deal <color=#FFACFFFF>Electro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal <color=#FFACFFFF>AoE Electro DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FFACFFFF>AoE Electro DMG</color> upon impact with the ground.",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"slime_condensate": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"slime_secretions": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"slime_secretions": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"slime_secretions": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"slime_secretions": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"slime_concentrate": 4,
+					"dvalins_claw": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"slime_concentrate": 6,
+					"dvalins_claw": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"slime_concentrate": 9,
+					"dvalins_claw": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"slime_concentrate": 12,
+					"dvalins_claw": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"39.6%",
+						"35.92%",
+						"42.8%",
+						"54.96%",
+						"177.12%",
+						"50",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"42.57%",
+						"38.61%",
+						"46.01%",
+						"59.08%",
+						"190.4%",
+						"50",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"45.54%",
+						"41.31%",
+						"49.22%",
+						"63.2%",
+						"203.69%",
+						"50",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"49.5%",
+						"44.9%",
+						"53.5%",
+						"68.7%",
+						"221.4%",
+						"50",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"52.47%",
+						"47.59%",
+						"56.71%",
+						"72.82%",
+						"234.68%",
+						"50",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"55.44%",
+						"50.29%",
+						"59.92%",
+						"76.94%",
+						"247.97%",
+						"50",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"59.4%",
+						"53.88%",
+						"64.2%",
+						"82.44%",
+						"265.68%",
+						"50",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"63.36%",
+						"57.47%",
+						"68.48%",
+						"87.94%",
+						"283.39%",
+						"50",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"67.32%",
+						"61.06%",
+						"72.76%",
+						"93.43%",
+						"301.1%",
+						"50",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"71.28%",
+						"64.66%",
+						"77.04%",
+						"98.93%",
+						"318.82%",
+						"50",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"75.4%",
+						"68.39%",
+						"81.49%",
+						"104.64%",
+						"337.24%",
+						"50",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"80.78%",
+						"73.28%",
+						"87.31%",
+						"112.12%",
+						"361.32%",
+						"50",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"86.17%",
+						"78.16%",
+						"93.13%",
+						"119.59%",
+						"385.41%",
+						"50",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"91.56%",
+						"83.05%",
+						"98.95%",
+						"127.07%",
+						"409.5%",
+						"50",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"96.94%",
+						"87.93%",
+						"104.77%",
+						"134.54%",
+						"433.59%",
+						"50",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 3342928733,
+			"desc_hash": 2036101496,
+			"charge_num": 1,
+			"name": "Violet Arc",
+			"desc": "#Channels the power of lightning to sweep bothersome matters away.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nReleases a homing Lightning Orb.\\nOn hit, it deals <color=#FFACFFFF>Electro DMG</color> and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.\\n\\n<color=#FFD780FF>Hold</color>\\nAfter an extended casting time, calls down lightning from the heavens, dealing massive <color=#FFACFFFF>Electro DMG</color> to all nearby opponents.\\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.\\n\\n<i>Electro Purple is the raiment of the Witch of Purple Rose.</i>",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"slime_condensate": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"slime_secretions": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"slime_secretions": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"slime_secretions": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"slime_secretions": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"slime_concentrate": 4,
+					"dvalins_claw": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"slime_concentrate": 6,
+					"dvalins_claw": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"slime_concentrate": 9,
+					"dvalins_claw": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"slime_concentrate": 12,
+					"dvalins_claw": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG",
+					"#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD",
+					"Non-Conductive Hold DMG",
+					"Stack 1 Conductive Hold DMG",
+					"Stack 2 Conductive Hold DMG",
+					"Stack 3 Conductive Hold DMG",
+					"Holding CD"
+				],
+				"values": [
+					[
+						"80%",
+						"1s",
+						"320%",
+						"368%",
+						"424%",
+						"487.2%",
+						"16s"
+					],
+					[
+						"86%",
+						"1s",
+						"344%",
+						"395.6%",
+						"455.8%",
+						"523.74%",
+						"16s"
+					],
+					[
+						"92%",
+						"1s",
+						"368%",
+						"423.2%",
+						"487.6%",
+						"560.28%",
+						"16s"
+					],
+					[
+						"100%",
+						"1s",
+						"400%",
+						"460%",
+						"530%",
+						"609%",
+						"16s"
+					],
+					[
+						"106%",
+						"1s",
+						"424%",
+						"487.6%",
+						"561.8%",
+						"645.54%",
+						"16s"
+					],
+					[
+						"112%",
+						"1s",
+						"448%",
+						"515.2%",
+						"593.6%",
+						"682.08%",
+						"16s"
+					],
+					[
+						"120%",
+						"1s",
+						"480%",
+						"552%",
+						"636%",
+						"730.8%",
+						"16s"
+					],
+					[
+						"128%",
+						"1s",
+						"512%",
+						"588.8%",
+						"678.4%",
+						"779.52%",
+						"16s"
+					],
+					[
+						"136%",
+						"1s",
+						"544%",
+						"625.6%",
+						"720.8%",
+						"828.24%",
+						"16s"
+					],
+					[
+						"144%",
+						"1s",
+						"576%",
+						"662.4%",
+						"763.2%",
+						"876.96%",
+						"16s"
+					],
+					[
+						"152%",
+						"1s",
+						"608%",
+						"699.2%",
+						"805.6%",
+						"925.68%",
+						"16s"
+					],
+					[
+						"160%",
+						"1s",
+						"640%",
+						"736%",
+						"848%",
+						"974.4%",
+						"16s"
+					],
+					[
+						"170%",
+						"1s",
+						"680%",
+						"782%",
+						"901%",
+						"1035.3%",
+						"16s"
+					],
+					[
+						"180%",
+						"1s",
+						"720%",
+						"828%",
+						"954%",
+						"1096.2%",
+						"16s"
+					],
+					[
+						"190%",
+						"1s",
+						"760%",
+						"874%",
+						"1007%",
+						"1157.1%",
+						"16s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 3387608453,
+			"desc_hash": 2561961032,
+			"charge_num": 1,
+			"name": "Lightning Rose",
+			"desc": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing <color=#FFACFFFF>Electro DMG</color>.\\nThe Lightning Rose will continuously emit lightning to knock back opponents and deal <color=#FFACFFFF>Electro DMG</color> throughout the ability's duration.\\n\\n<i>This rose is beautiful, but beware its mortal thorns.</i>",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"slime_condensate": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"slime_secretions": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"slime_secretions": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"slime_secretions": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"slime_secretions": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"slime_concentrate": 4,
+					"dvalins_claw": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"slime_concentrate": 6,
+					"dvalins_claw": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"slime_concentrate": 9,
+					"dvalins_claw": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"slime_concentrate": 12,
+					"dvalins_claw": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Discharge DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"36.56%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"39.3%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"42.04%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"45.7%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"48.44%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"51.18%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"54.84%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"58.5%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"62.15%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"65.81%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"69.46%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"73.12%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"77.69%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"82.26%",
+						"15s",
+						"20s",
+						"80"
+					],
+					[
+						"86.83%",
+						"15s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 3611282821,
+			"desc_hash": 1118493307,
+			"ascension": 1,
+			"name": "Induced Aftershock",
+			"desc": "Hits by Charged Attacks apply <color=#FFD780FF>Violet Arc</color>'s Conductive status to opponents."
+		},
+		{
+			"name_hash": 1069142525,
+			"desc_hash": 3499444667,
+			"ascension": 4,
+			"name": "Static Electricity Field",
+			"desc": "Opponents hit by <color=#FFD780FF>Lightning Rose</color> have their DEF decreased by 15% for 10s."
+		},
+		{
+			"name_hash": 200498901,
+			"desc_hash": 3877764179,
+			"ascension": null,
+			"name": "General Pharmaceutics",
+			"desc": "When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 12874089,
+			"name": "Infinite Circuit",
+			"desc_hash": 1939598815,
+			"desc": "Lisa regenerates 2 Energy for every opponent hit while holding <color=#FFD780FF>Violet Arc</color>.\\nA maximum of 10 Energy can be regenerated in this manner at any one time."
+		},
+		{
+			"name_hash": 1523216321,
+			"name": "Electromagnetic Field",
+			"desc_hash": 607155167,
+			"desc": "Holding <color=#FFD780FF>Violet Arc</color> has the following effects:\\n\u00b7Increases DEF by 25%.\\n\u00b7Increases Lisa's resistance to interruption."
+		},
+		{
+			"name_hash": 3707731441,
+			"name": "Resonant Thunder",
+			"desc_hash": 3643569183,
+			"desc": "Increases the Level of <color=#FFD780FF>Lightning Rose</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 1540277121,
+			"name": "Plasma Eruption",
+			"desc_hash": 4061309583,
+			"desc": "Increases the number of lightning bolts released by <color=#FFD780FF>Lightning Rose</color> by 1-3."
+		},
+		{
+			"name_hash": 2256541273,
+			"name": "Electrocute",
+			"desc_hash": 1025564511,
+			"desc": "Increases the Level of <color=#FFD780FF>Violet Arc</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2935728161,
+			"name": "Pulsating Witch",
+			"desc_hash": 2237370327,
+			"desc": "When Lisa takes the field, she applies 3 stacks of <color=#FFD780FF>Violet Arc</color>'s Conductive status onto nearby opponents.\\nThis effect can only occur once every 5s."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 672166154,
+			"desc_hash": 3946345210,
+			"restricted": false,
+			"name": "Purple Rose",
+			"desc": "Lisa's outfit. A slim-fit dress adorned with roses that displays a young lady's elegance."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108018,
+		"name_hash": 1049618132,
+		"desc_hash": 1198713557,
+		"type_hash": 4130587542,
+		"rarity": 2,
+		"name": "Mysterious Bolognese",
+		"desc": "Lisa's specialty. With an inexplicable aura, this bolognese is so exotic that you can never have enough. Did she actually enchant it with some kind of magic?",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 3768382527,
+		"effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s.",
+		"original_recipe": "flaming_red_bolognese"
+	}
+}

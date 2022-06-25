@@ -1,0 +1,759 @@
+{
+	"hoyo_id": 10000015,
+	"promote_id": 15,
+	"skill_depot_id": 1501,
+	"fetter_id": 107,
+	"weapon": "sword",
+	"name_hash": 4119663210,
+	"desc_hash": 783578577,
+	"name": "Kaeya",
+	"desc": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_MALE",
+	"birthday": [
+		30,
+		11
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		4220569804,
+		2469020049
+	],
+	"astrolabe_hash": [
+		1247404986,
+		2979025659
+	],
+	"allegiance_hash": 2536425521,
+	"vision": "cryo",
+	"astrolabe": "Pavo Ocellus",
+	"allegiance": "Knights of Favonius",
+	"default_weapon": "dull_blade",
+	"base_stats": {
+		"Base HP": 975.6163940429688,
+		"Base ATK": 18.698400497436523,
+		"Base DEF": 66.38099670410156,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"shivada_jade_sliver": 1,
+				"calla_lily": 3,
+				"treasure_hoarder_insignia": 3,
+				"mora": 20000
+			},
+			{
+				"shivada_jade_fragment": 3,
+				"hoarfrost_core": 2,
+				"calla_lily": 10,
+				"treasure_hoarder_insignia": 15,
+				"mora": 40000
+			},
+			{
+				"shivada_jade_fragment": 6,
+				"hoarfrost_core": 4,
+				"calla_lily": 20,
+				"silver_raven_insignia": 12,
+				"mora": 60000
+			},
+			{
+				"shivada_jade_chunk": 3,
+				"hoarfrost_core": 8,
+				"calla_lily": 30,
+				"silver_raven_insignia": 18,
+				"mora": 80000
+			},
+			{
+				"shivada_jade_chunk": 6,
+				"hoarfrost_core": 12,
+				"calla_lily": 45,
+				"golden_raven_insignia": 12,
+				"mora": 100000
+			},
+			{
+				"shivada_jade_gemstone": 6,
+				"hoarfrost_core": 20,
+				"calla_lily": 60,
+				"golden_raven_insignia": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 728.8353881835938,
+					"Base DEF": 49.59000015258789,
+					"Base ATK": 13.968990325927734,
+					"Energy Recharge%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1246.692138671875,
+					"Base DEF": 84.82499694824219,
+					"Base ATK": 23.894325256347656,
+					"Energy Recharge%": 0.06669999659061432
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1937.167724609375,
+					"Base DEF": 131.80499267578125,
+					"Base ATK": 37.12810516357422,
+					"Energy Recharge%": 0.13330000638961792
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2455.0244140625,
+					"Base DEF": 167.0399932861328,
+					"Base ATK": 47.05344009399414,
+					"Energy Recharge%": 0.13330000638961792
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2972.881103515625,
+					"Base DEF": 202.27499389648438,
+					"Base ATK": 56.97877502441406,
+					"Energy Recharge%": 0.20000000298023224
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3490.73779296875,
+					"Base DEF": 237.50999450683594,
+					"Base ATK": 66.90411376953125,
+					"Energy Recharge%": 0.26669999957084656
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 3795823997,
+			"desc_hash": 3473499832,
+			"charge_num": 1,
+			"name": "Normal Attack: Ceremonial Bladework",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"golden_raven_insignia": 4,
+					"spirit_locket_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"golden_raven_insignia": 6,
+					"spirit_locket_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"golden_raven_insignia": 9,
+					"spirit_locket_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"golden_raven_insignia": 12,
+					"spirit_locket_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"53.75%",
+						"51.69%",
+						"65.27%",
+						"70.86%",
+						"88.24%",
+						"55.04%+73.1%",
+						"20",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"58.13%",
+						"55.89%",
+						"70.59%",
+						"76.63%",
+						"95.42%",
+						"59.52%+79.05%",
+						"20",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"62.5%",
+						"60.1%",
+						"75.9%",
+						"82.4%",
+						"102.6%",
+						"64%+85%",
+						"20",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"68.75%",
+						"66.11%",
+						"83.49%",
+						"90.64%",
+						"112.86%",
+						"70.4%+93.5%",
+						"20",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"73.12%",
+						"70.32%",
+						"88.8%",
+						"96.41%",
+						"120.04%",
+						"74.88%+99.45%",
+						"20",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"78.12%",
+						"75.13%",
+						"94.88%",
+						"103%",
+						"128.25%",
+						"80%+106.25%",
+						"20",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"85%",
+						"81.74%",
+						"103.22%",
+						"112.06%",
+						"139.54%",
+						"87.04%+115.6%",
+						"20",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"91.87%",
+						"88.35%",
+						"111.57%",
+						"121.13%",
+						"150.82%",
+						"94.08%+124.95%",
+						"20",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"98.75%",
+						"94.96%",
+						"119.92%",
+						"130.19%",
+						"162.11%",
+						"101.12%+134.3%",
+						"20",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"106.25%",
+						"102.17%",
+						"129.03%",
+						"140.08%",
+						"174.42%",
+						"108.8%+144.5%",
+						"20",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"114.84%",
+						"110.43%",
+						"139.47%",
+						"151.41%",
+						"188.53%",
+						"117.6%+156.19%",
+						"20",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"124.95%",
+						"120.15%",
+						"151.74%",
+						"164.73%",
+						"205.12%",
+						"127.95%+169.93%",
+						"20",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"135.06%",
+						"129.87%",
+						"164.01%",
+						"178.06%",
+						"221.71%",
+						"138.3%+183.68%",
+						"20",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"145.16%",
+						"139.59%",
+						"176.29%",
+						"191.38%",
+						"238.3%",
+						"148.65%+197.42%",
+						"20",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"156.19%",
+						"150.19%",
+						"189.67%",
+						"205.92%",
+						"256.4%",
+						"159.94%+212.42%",
+						"20",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 1067425573,
+			"desc_hash": 1929962560,
+			"charge_num": 1,
+			"name": "Frostgnaw",
+			"desc": "Unleashes a frigid blast, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in front of Kaeya.\\n\\n<i>Kaeya seems affable, but his nature is that of unyielding ice.</i>",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"golden_raven_insignia": 4,
+					"spirit_locket_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"golden_raven_insignia": 6,
+					"spirit_locket_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"golden_raven_insignia": 9,
+					"spirit_locket_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"golden_raven_insignia": 12,
+					"spirit_locket_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"191.2%",
+						"6s"
+					],
+					[
+						"205.54%",
+						"6s"
+					],
+					[
+						"219.88%",
+						"6s"
+					],
+					[
+						"239%",
+						"6s"
+					],
+					[
+						"253.34%",
+						"6s"
+					],
+					[
+						"267.68%",
+						"6s"
+					],
+					[
+						"286.8%",
+						"6s"
+					],
+					[
+						"305.92%",
+						"6s"
+					],
+					[
+						"325.04%",
+						"6s"
+					],
+					[
+						"344.16%",
+						"6s"
+					],
+					[
+						"363.28%",
+						"6s"
+					],
+					[
+						"382.4%",
+						"6s"
+					],
+					[
+						"406.3%",
+						"6s"
+					],
+					[
+						"430.2%",
+						"6s"
+					],
+					[
+						"454.1%",
+						"6s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 2486277181,
+			"desc_hash": 2120666136,
+			"charge_num": 1,
+			"name": "Glacial Waltz",
+			"desc": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him.\\nThese icicles will follow the character around and deal <color=#99FFFFFF>Cryo DMG</color> to opponents in their path for the ability's duration.\\n\\n<i>A winsome smile, genial words, and the merciless hoarfrost that lies beneath... These are all Kaeya's weapons.</i>",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"golden_raven_insignia": 4,
+					"spirit_locket_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"golden_raven_insignia": 6,
+					"spirit_locket_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"golden_raven_insignia": 9,
+					"spirit_locket_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"golden_raven_insignia": 12,
+					"spirit_locket_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"CD",
+					"Duration",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"77.6%",
+						"15s",
+						"8s",
+						"60"
+					],
+					[
+						"83.42%",
+						"15s",
+						"8s",
+						"60"
+					],
+					[
+						"89.24%",
+						"15s",
+						"8s",
+						"60"
+					],
+					[
+						"97%",
+						"15s",
+						"8s",
+						"60"
+					],
+					[
+						"102.82%",
+						"15s",
+						"8s",
+						"60"
+					],
+					[
+						"108.64%",
+						"15s",
+						"8s",
+						"60"
+					],
+					[
+						"116.4%",
+						"15s",
+						"8s",
+						"60"
+					],
+					[
+						"124.16%",
+						"15s",
+						"8s",
+						"60"
+					],
+					[
+						"131.92%",
+						"15s",
+						"8s",
+						"60"
+					],
+					[
+						"139.68%",
+						"15s",
+						"8s",
+						"60"
+					],
+					[
+						"147.44%",
+						"15s",
+						"8s",
+						"60"
+					],
+					[
+						"155.2%",
+						"15s",
+						"8s",
+						"60"
+					],
+					[
+						"164.9%",
+						"15s",
+						"8s",
+						"60"
+					],
+					[
+						"174.6%",
+						"15s",
+						"8s",
+						"60"
+					],
+					[
+						"184.3%",
+						"15s",
+						"8s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 73889597,
+			"desc_hash": 2556398915,
+			"ascension": 1,
+			"name": "Cold-Blooded Strike",
+			"desc": "Every hit with <color=#FFD780FF>Frostgnaw</color> regenerates HP for Kaeya equal to 15% of his ATK."
+		},
+		{
+			"name_hash": 2837976013,
+			"desc_hash": 1886880811,
+			"ascension": 4,
+			"name": "Glacial Heart",
+			"desc": "Opponents <color=#99FFFFFF>Frozen</color> by <color=#FFD780FF>Frostgnaw</color> will drop additional Elemental Particles.\\nFrostgnaw may only produce a maximum of 2 additional Elemental Particles per use."
+		},
+		{
+			"name_hash": 433695005,
+			"desc_hash": 1546033427,
+			"ascension": null,
+			"name": "Hidden Strength",
+			"desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 1478938545,
+			"name": "Excellent Blood",
+			"desc_hash": 2364565991,
+			"desc": "The CRIT Rate of Kaeya's Normal and Charge Attacks against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%."
+		},
+		{
+			"name_hash": 1425365945,
+			"name": "Never-Ending Performance",
+			"desc_hash": 2342848423,
+			"desc": "Every time <color=#FFD780FF>Glacial Waltz</color> defeats an opponent during its duration, its duration is increased by 2.5s, up to a maximum of 15s."
+		},
+		{
+			"name_hash": 1397996209,
+			"name": "Dance of Frost",
+			"desc_hash": 4020405287,
+			"desc": "Increases the Level of <color=#FFD780FF>Frostgnaw</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 1595754497,
+			"name": "Frozen Kiss",
+			"desc_hash": 3513562087,
+			"desc": "Triggers automatically when Kaeya's HP falls below 20%:\\nCreates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.\\nThis shield absorbs <color=#99FFFFFF>Cryo DMG</color> with 250% efficiency.\\nCan only occur once every 60s."
+		},
+		{
+			"name_hash": 1102683585,
+			"name": "Frostbiting Embrace",
+			"desc_hash": 3968399879,
+			"desc": "Increases the Level of <color=#FFD780FF>Glacial Waltz</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 2310553705,
+			"name": "Glacial Whirlwind",
+			"desc_hash": 3726105031,
+			"desc": "<color=#FFD780FF>Glacial Waltz</color> will generate 1 additional icicle, and will regenerate 15 Energy when cast."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 4036813530,
+			"desc_hash": 1523967378,
+			"restricted": false,
+			"name": "Icy Featherflight",
+			"desc": "Kaeya's outfit. Fashionable clothes festooned with a fur collar."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108014,
+		"name_hash": 2274681260,
+		"desc_hash": 1756793317,
+		"type_hash": 2201658030,
+		"rarity": 1,
+		"name": "Fruity Skewers",
+		"desc": "Kaeya's specialty. A chewy skewer with a rich sweet aftertaste. Wait... Is this really the smell of fruit?",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 3603275271,
+		"effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
+		"original_recipe": "chicken_mushroom_skewer"
+	}
+}

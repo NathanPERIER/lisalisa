@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12304,
+	"promote_id": 12304,
+	"gadget_id": 50012304,
+	"story_id": [
+		192304
+	],
+	"skill_affix": [
+		112304,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 1516554699,
+	"desc_hash": 3918253109,
+	"name": "Quartz",
+	"desc": "A simple but heavy greatsword made of polished black quartz with a golden gilt. It has an air of elegance and dignity about it.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 38.74129867553711,
+		"Elemental Mastery": 30.600000381469727
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"luminous_sands_from_guyun": 2,
+				"hunters_sacrificial_knife": 2,
+				"divining_scroll": 1,
+				"mora": 5000
+			},
+			{
+				"lustrous_stone_from_guyun": 2,
+				"hunters_sacrificial_knife": 8,
+				"divining_scroll": 5,
+				"mora": 10000
+			},
+			{
+				"lustrous_stone_from_guyun": 4,
+				"agents_sacrificial_knife": 4,
+				"sealed_scroll": 4,
+				"mora": 15000
+			},
+			{
+				"relic_from_guyun": 2,
+				"agents_sacrificial_knife": 8,
+				"sealed_scroll": 6,
+				"mora": 20000
+			},
+			{
+				"relic_from_guyun": 4,
+				"inspectors_sacrificial_knife": 6,
+				"forbidden_curse_scroll": 4,
+				"mora": 25000
+			},
+			{
+				"divine_body_from_guyun": 3,
+				"inspectors_sacrificial_knife": 12,
+				"forbidden_curse_scroll": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3668843043,
+		"name": "Residual Heat",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1123040,
+				"desc_hash": 2572260937,
+				"desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>20%</color> for 12s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1123041,
+				"desc_hash": 4266352641,
+				"desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>25%</color> for 12s.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1123042,
+				"desc_hash": 3920017241,
+				"desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>30%</color> for 12s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1123043,
+				"desc_hash": 3822113393,
+				"desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>35%</color> for 12s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1123044,
+				"desc_hash": 1018753001,
+				"desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>40%</color> for 12s.",
+				"cost": 4000
+			}
+		]
+	}
+}

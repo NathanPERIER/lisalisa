@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 14415,
+	"promote_id": 14415,
+	"gadget_id": 50014415,
+	"story_id": [
+		194415
+	],
+	"skill_affix": [
+		114415,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 2539208459,
+	"desc_hash": 4267791309,
+	"name": "Oathsworn Eye",
+	"desc": "A national treasure of Byakuyakoku stored in the Dainichi Mikoshi. With the coming of the Serpent God, this item was used to notarize great oaths and wishes.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 43.734901428222656,
+		"ATK%": 0.05999999865889549
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_202",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"coral_branch_of_a_distant_sea": 3,
+				"concealed_claw": 3,
+				"spectral_husk": 2,
+				"mora": 5000
+			},
+			{
+				"jeweled_branch_of_a_distant_sea": 3,
+				"concealed_claw": 12,
+				"spectral_husk": 8,
+				"mora": 15000
+			},
+			{
+				"jeweled_branch_of_a_distant_sea": 6,
+				"concealed_unguis": 6,
+				"spectral_heart": 6,
+				"mora": 20000
+			},
+			{
+				"jade_branch_of_a_distant_sea": 3,
+				"concealed_unguis": 12,
+				"spectral_heart": 9,
+				"mora": 30000
+			},
+			{
+				"jade_branch_of_a_distant_sea": 6,
+				"concealed_talon": 9,
+				"spectral_nucleus": 6,
+				"mora": 35000
+			},
+			{
+				"golden_branch_of_a_distant_sea": 4,
+				"concealed_talon": 18,
+				"spectral_nucleus": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2254346691,
+		"name": "People of the Faltering Light",
+		"special_material": "ointment_of_sight",
+		"values": [
+			{
+				"affix_id": 1144150,
+				"desc_hash": 3361934785,
+				"desc": "Increases Energy Recharge by <color=#99FFFFFF>24%</color> for 10s after using an Elemental Skill.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1144151,
+				"desc_hash": 443566497,
+				"desc": "Increases Energy Recharge by <color=#99FFFFFF>30%</color> for 10s after using an Elemental Skill.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1144152,
+				"desc_hash": 1117653353,
+				"desc": "Increases Energy Recharge by <color=#99FFFFFF>36%</color> for 10s after using an Elemental Skill.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1144153,
+				"desc_hash": 3163783449,
+				"desc": "Increases Energy Recharge by <color=#99FFFFFF>42%</color> for 10s after using an Elemental Skill.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1144154,
+				"desc_hash": 2865937601,
+				"desc": "Increases Energy Recharge by <color=#99FFFFFF>48%</color> for 10s after using an Elemental Skill.",
+				"cost": 8000
+			}
+		]
+	}
+}

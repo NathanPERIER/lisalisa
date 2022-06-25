@@ -1,0 +1,871 @@
+{
+	"hoyo_id": 10000066,
+	"promote_id": 66,
+	"skill_depot_id": 6601,
+	"fetter_id": 66600,
+	"weapon": "sword",
+	"name_hash": 1588620330,
+	"desc_hash": 2887592185,
+	"name": "Kamisato Ayato",
+	"desc": "The young but highly accomplished head of the Yashiro Commission's Kamisato Clan. Cultured and polite, he is a man of many ways and means.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_MALE",
+	"birthday": [
+		26,
+		3
+	],
+	"region": "inazuma",
+	"vision_hash": [
+		756679372,
+		2932212113
+	],
+	"astrolabe_hash": [
+		3121506370,
+		2987063907
+	],
+	"allegiance_hash": 3868131161,
+	"vision": "hydro",
+	"astrolabe": "Cypressus Custos",
+	"allegiance": "Yashiro Commission",
+	"default_weapon": "dull_blade",
+	"base_stats": {
+		"Base HP": 1067.7183837890625,
+		"Base ATK": 23.274999618530273,
+		"Base DEF": 59.83000183105469,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"varunada_lazurite_sliver": 1,
+				"sakura_bloom": 3,
+				"old_handguard": 3,
+				"mora": 20000
+			},
+			{
+				"varunada_lazurite_fragment": 3,
+				"dew_of_repudiation": 2,
+				"sakura_bloom": 10,
+				"old_handguard": 15,
+				"mora": 40000
+			},
+			{
+				"varunada_lazurite_fragment": 6,
+				"dew_of_repudiation": 4,
+				"sakura_bloom": 20,
+				"kageuchi_handguard": 12,
+				"mora": 60000
+			},
+			{
+				"varunada_lazurite_chunk": 3,
+				"dew_of_repudiation": 8,
+				"sakura_bloom": 30,
+				"kageuchi_handguard": 18,
+				"mora": 80000
+			},
+			{
+				"varunada_lazurite_chunk": 6,
+				"dew_of_repudiation": 12,
+				"sakura_bloom": 45,
+				"famed_handguard": 12,
+				"mora": 100000
+			},
+			{
+				"varunada_lazurite_gemstone": 6,
+				"dew_of_repudiation": 20,
+				"sakura_bloom": 60,
+				"famed_handguard": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 915.4719848632812,
+					"Base DEF": 51.29999923706055,
+					"Base ATK": 19.954750061035156,
+					"Crit DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1565.93896484375,
+					"Base DEF": 87.75,
+					"Base ATK": 34.13312530517578,
+					"Crit DMG%": 0.09600000083446503
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2433.228271484375,
+					"Base DEF": 136.35000610351562,
+					"Base ATK": 53.03762435913086,
+					"Crit DMG%": 0.19200000166893005
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 3083.695068359375,
+					"Base DEF": 172.8000030517578,
+					"Base ATK": 67.21600341796875,
+					"Crit DMG%": 0.19200000166893005
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 3734.162109375,
+					"Base DEF": 209.25,
+					"Base ATK": 81.39437866210938,
+					"Crit DMG%": 0.2879999876022339
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 4384.62890625,
+					"Base DEF": 245.6999969482422,
+					"Base ATK": 95.57274627685547,
+					"Crit DMG%": 0.3840000033378601
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 3116393605,
+			"desc_hash": 3145153016,
+			"charge_num": 1,
+			"name": "Normal Attack: Kamisato Art - Marobashi",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to dash forward and perform an iai.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_elegance": 3,
+					"old_handguard": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_elegance": 2,
+					"kageuchi_handguard": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_elegance": 4,
+					"kageuchi_handguard": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_elegance": 6,
+					"kageuchi_handguard": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_elegance": 9,
+					"kageuchi_handguard": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_elegance": 4,
+					"famed_handguard": 4,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_elegance": 6,
+					"famed_handguard": 6,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_elegance": 12,
+					"famed_handguard": 9,
+					"mudra_of_the_malefic_general": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_elegance": 16,
+					"famed_handguard": 12,
+					"mudra_of_the_malefic_general": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"44.96%",
+						"47.16%",
+						"58.61%",
+						"29.45%\u00d72",
+						"75.6%",
+						"129.53%",
+						"20",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"48.62%",
+						"51%",
+						"63.38%",
+						"31.85%\u00d72",
+						"81.76%",
+						"140.07%",
+						"20",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"52.28%",
+						"54.83%",
+						"68.15%",
+						"34.24%\u00d72",
+						"87.91%",
+						"150.62%",
+						"20",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"57.51%",
+						"60.32%",
+						"74.97%",
+						"37.67%\u00d72",
+						"96.7%",
+						"165.68%",
+						"20",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"61.17%",
+						"64.16%",
+						"79.74%",
+						"40.06%\u00d72",
+						"102.86%",
+						"176.22%",
+						"20",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"65.35%",
+						"68.54%",
+						"85.19%",
+						"42.8%\u00d72",
+						"109.89%",
+						"188.27%",
+						"20",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"71.1%",
+						"74.57%",
+						"92.69%",
+						"46.57%\u00d72",
+						"119.56%",
+						"204.84%",
+						"20",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"76.85%",
+						"80.61%",
+						"100.19%",
+						"50.34%\u00d72",
+						"129.23%",
+						"221.41%",
+						"20",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"82.6%",
+						"86.64%",
+						"107.68%",
+						"54.1%\u00d72",
+						"138.9%",
+						"237.97%",
+						"20",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"88.88%",
+						"93.22%",
+						"115.86%",
+						"58.21%\u00d72",
+						"149.45%",
+						"256.05%",
+						"20",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"95.15%",
+						"99.8%",
+						"124.04%",
+						"62.32%\u00d72",
+						"160%",
+						"274.12%",
+						"20",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"101.43%",
+						"106.38%",
+						"132.22%",
+						"66.43%\u00d72",
+						"170.55%",
+						"292.19%",
+						"20",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"107.7%",
+						"112.96%",
+						"140.4%",
+						"70.54%\u00d72",
+						"181.1%",
+						"310.27%",
+						"20",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"113.97%",
+						"119.54%",
+						"148.58%",
+						"74.65%\u00d72",
+						"191.65%",
+						"328.34%",
+						"20",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"120.25%",
+						"126.12%",
+						"156.75%",
+						"78.76%\u00d72",
+						"202.2%",
+						"346.42%",
+						"20",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 856237685,
+			"desc_hash": 64942672,
+			"charge_num": 1,
+			"name": "Kamisato Art: Kyouka",
+			"desc": "Kamisato Ayato shifts positions and enters the Takimeguri Kanka state.\\nAfter this shift, he will leave a watery illusion at his original location. After it is formed, the watery illusion will explode if opponents are nearby or after its duration ends, dealing <color=#80C0FFFF>AoE Hydro DMG</color>.\\n\\n<color=#FFD780FF>Takimeguri Kanka</color>\\nIn this state, Kamisato Ayato uses his Shunsuiken to engage in blindingly fast attacks, causing DMG from his Normal Attacks to be converted into <color=#80C0FFFF>AoE Hydro DMG</color>. This cannot be overridden.\\nIt also has the following properties:\\n\u00b7After a Shunsuiken attack hits an opponent, it will grant Ayato the Namisen effect, increasing the DMG dealt by Shunsuiken based on Ayato's current Max HP. The initial maximum number of Namisen stacks is 4, and 1 stack can be gained through Shunsuiken every 0.1s. This effect will be dispelled when Takimeguri Kanka ends.\\n\u00b7Kamisato Ayato's resistance to interruption is increased.\\n\u00b7Unable to use Charged or Plunging Attacks.\\n\\nTakimeguri Kanka will be cleared when Ayato leaves the field. Using Kamisato Art: Kyouka again while in the Takimeguri Kanka state will reset and replace the pre-existing state.\\n\\n<i>\"When, I wonder, did you come under the illusion that you were winning?\"</i>\\n<i>\u2014 Ayato is like this in both matter of martial prowess and political intrigue, but to preserve the dignity of his fellow Commissioners, he does not say such things to them. As such, only Thoma, Itto, and Ayaka have ever heard this line.</i>",
+			"costs": [
+				{
+					"teachings_of_elegance": 3,
+					"old_handguard": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_elegance": 2,
+					"kageuchi_handguard": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_elegance": 4,
+					"kageuchi_handguard": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_elegance": 6,
+					"kageuchi_handguard": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_elegance": 9,
+					"kageuchi_handguard": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_elegance": 4,
+					"famed_handguard": 4,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_elegance": 6,
+					"famed_handguard": 6,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_elegance": 12,
+					"famed_handguard": 9,
+					"mudra_of_the_malefic_general": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_elegance": 16,
+					"famed_handguard": 12,
+					"mudra_of_the_malefic_general": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Shunsuiken 1-Hit DMG",
+					"Shunsuiken 2-Hit DMG",
+					"Shunsuiken 3-Hit DMG",
+					"Takimeguri Kanka Duration",
+					"Namisen DMG Bonus",
+					"Water Illusion DMG",
+					"Water Illusion Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"52.89%",
+						"58.91%",
+						"64.93%",
+						"6s",
+						"0.56%Max HP/Stack",
+						"101.48%",
+						"6s",
+						"12s"
+					],
+					[
+						"57.2%",
+						"63.7%",
+						"70.21%",
+						"6s",
+						"0.61%Max HP/Stack",
+						"109.74%",
+						"6s",
+						"12s"
+					],
+					[
+						"61.5%",
+						"68.5%",
+						"75.5%",
+						"6s",
+						"0.65%Max HP/Stack",
+						"118%",
+						"6s",
+						"12s"
+					],
+					[
+						"67.65%",
+						"75.35%",
+						"83.05%",
+						"6s",
+						"0.72%Max HP/Stack",
+						"129.8%",
+						"6s",
+						"12s"
+					],
+					[
+						"71.96%",
+						"80.15%",
+						"88.34%",
+						"6s",
+						"0.76%Max HP/Stack",
+						"138.06%",
+						"6s",
+						"12s"
+					],
+					[
+						"76.88%",
+						"85.62%",
+						"94.38%",
+						"6s",
+						"0.82%Max HP/Stack",
+						"147.5%",
+						"6s",
+						"12s"
+					],
+					[
+						"83.64%",
+						"93.16%",
+						"102.68%",
+						"6s",
+						"0.89%Max HP/Stack",
+						"160.48%",
+						"6s",
+						"12s"
+					],
+					[
+						"90.4%",
+						"100.7%",
+						"110.99%",
+						"6s",
+						"0.96%Max HP/Stack",
+						"173.46%",
+						"6s",
+						"12s"
+					],
+					[
+						"97.17%",
+						"108.23%",
+						"119.29%",
+						"6s",
+						"1.03%Max HP/Stack",
+						"186.44%",
+						"6s",
+						"12s"
+					],
+					[
+						"104.55%",
+						"116.45%",
+						"128.35%",
+						"6s",
+						"1.11%Max HP/Stack",
+						"200.6%",
+						"6s",
+						"12s"
+					],
+					[
+						"111.93%",
+						"124.67%",
+						"137.41%",
+						"6s",
+						"1.19%Max HP/Stack",
+						"214.76%",
+						"6s",
+						"12s"
+					],
+					[
+						"119.31%",
+						"132.89%",
+						"146.47%",
+						"6s",
+						"1.27%Max HP/Stack",
+						"228.92%",
+						"6s",
+						"12s"
+					],
+					[
+						"126.69%",
+						"141.11%",
+						"155.53%",
+						"6s",
+						"1.34%Max HP/Stack",
+						"243.08%",
+						"6s",
+						"12s"
+					],
+					[
+						"134.07%",
+						"149.33%",
+						"164.59%",
+						"6s",
+						"1.42%Max HP/Stack",
+						"257.24%",
+						"6s",
+						"12s"
+					],
+					[
+						"141.45%",
+						"157.55%",
+						"173.65%",
+						"6s",
+						"1.5%Max HP/Stack",
+						"271.4%",
+						"6s",
+						"12s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 2907386981,
+			"desc_hash": 993012864,
+			"charge_num": 1,
+			"name": "Kamisato Art: Suiyuu",
+			"desc": "Unveils a garden of purity that silences the cacophony within.\\nWhile this space exists, Bloomwater Blades will constantly rain down and attack opponents within its AoE, dealing <color=#80C0FFFF>Hydro DMG</color> and increasing the Normal Attack DMG of characters within.\\n\\n<i>\"I can see them, you know. The ripples of your beating heart within this realm of still waters.\"</i>",
+			"costs": [
+				{
+					"teachings_of_elegance": 3,
+					"old_handguard": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_elegance": 2,
+					"kageuchi_handguard": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_elegance": 4,
+					"kageuchi_handguard": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_elegance": 6,
+					"kageuchi_handguard": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_elegance": 9,
+					"kageuchi_handguard": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_elegance": 4,
+					"famed_handguard": 4,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_elegance": 6,
+					"famed_handguard": 6,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_elegance": 12,
+					"famed_handguard": 9,
+					"mudra_of_the_malefic_general": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_elegance": 16,
+					"famed_handguard": 12,
+					"mudra_of_the_malefic_general": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Bloomwater Blade DMG",
+					"Normal Attack DMG Bonus",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"66.46%",
+						"11%",
+						"18s",
+						"20s",
+						"80"
+					],
+					[
+						"71.44%",
+						"12%",
+						"18s",
+						"20s",
+						"80"
+					],
+					[
+						"76.42%",
+						"13%",
+						"18s",
+						"20s",
+						"80"
+					],
+					[
+						"83.07%",
+						"14%",
+						"18s",
+						"20s",
+						"80"
+					],
+					[
+						"88.05%",
+						"15%",
+						"18s",
+						"20s",
+						"80"
+					],
+					[
+						"93.04%",
+						"16%",
+						"18s",
+						"20s",
+						"80"
+					],
+					[
+						"99.68%",
+						"17%",
+						"18s",
+						"20s",
+						"80"
+					],
+					[
+						"106.33%",
+						"18%",
+						"18s",
+						"20s",
+						"80"
+					],
+					[
+						"112.98%",
+						"19%",
+						"18s",
+						"20s",
+						"80"
+					],
+					[
+						"119.62%",
+						"20%",
+						"18s",
+						"20s",
+						"80"
+					],
+					[
+						"126.27%",
+						"20%",
+						"18s",
+						"20s",
+						"80"
+					],
+					[
+						"132.91%",
+						"20%",
+						"18s",
+						"20s",
+						"80"
+					],
+					[
+						"141.22%",
+						"20%",
+						"18s",
+						"20s",
+						"80"
+					],
+					[
+						"149.53%",
+						"20%",
+						"18s",
+						"20s",
+						"80"
+					],
+					[
+						"157.83%",
+						"20%",
+						"18s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 3736274925,
+			"desc_hash": 2546406659,
+			"ascension": 1,
+			"name": "Kamisato Art: Mine Wo Matoishi Kiyotaki",
+			"desc": "<color=#FFD780FF>Kamisato Art: Kyouka</color> has the following properties:\\n\u00b7After it is used, Kamisato Ayato will gain 2 Namisen stacks.\\n\u00b7When the water illusion explodes, Ayato will gain a Namisen effect equal to the maximum number of stacks possible."
+		},
+		{
+			"name_hash": 8289349,
+			"desc_hash": 1701064667,
+			"ascension": 4,
+			"name": "Kamisato Art: Michiyuku Hagetsu",
+			"desc": "If Kamisato Ayato is not on the field and his Energy is less than 40, he will regenerate 2 Energy for himself every second."
+		},
+		{
+			"name_hash": 1590740317,
+			"desc_hash": 720429075,
+			"ascension": null,
+			"name": "Kamisato Art: Daily Cooking",
+			"desc": "When Ayato cooks a dish perfectly, he has a 18% chance to receive an additional \"Suspicious\" dish of the same type."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 2715418569,
+			"name": "Kyouka Fuushi",
+			"desc_hash": 501879071,
+			"desc": "<color=#FFD780FF>Shunsuiken</color> DMG is increased by 40% against opponents with 50% HP or less."
+		},
+		{
+			"name_hash": 4259062785,
+			"name": "World Source",
+			"desc_hash": 3191408815,
+			"desc": "<color=#FFD780FF>Namisen</color>'s maximum stack count is increased to 5. When Kamisato Ayato has at least 3 Namisen stacks, his Max HP is increased by 50%."
+		},
+		{
+			"name_hash": 2402833929,
+			"name": "To Admire the Flowers",
+			"desc_hash": 893583671,
+			"desc": "Increases the Level of <color=#FFD780FF>Kamisato Art: Kyouka</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 517644137,
+			"name": "Endless Flow",
+			"desc_hash": 1916995439,
+			"desc": "After using <color=#FFD780FF>Kamisato Art: Suiyuu</color>, all nearby party members will have 15% increased Normal Attack SPD for 15s."
+		},
+		{
+			"name_hash": 993707681,
+			"name": "Bansui Ichiro",
+			"desc_hash": 2541322175,
+			"desc": "Increases the Level of <color=#FFD780FF>Kamisato Art: Suiyuu</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 1168376425,
+			"name": "Boundless Origin",
+			"desc_hash": 2267009151,
+			"desc": "After using <color=#FFD780FF>Kamisato Art: Kyouka</color>, Ayato's next Shunsuiken attack will create 2 extra Shunsuiken strikes when they hit opponents, each one dealing 450% of Ayato's ATK as DMG.\\nBoth these Shunsuiken attacks will not be affected by Namisen."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 3109032026,
+			"desc_hash": 3093997674,
+			"restricted": false,
+			"name": "Silk Splendor",
+			"desc": "Kamisato Ayato's outfit. The kimono itself is made using uncommon fabrics, and its patterning recalls a mountain spring, giving off a feeling of calm and stability that matches its wearer."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108387,
+		"name_hash": 2728975572,
+		"desc_hash": 515529053,
+		"type_hash": 823300398,
+		"rarity": 3,
+		"name": "Quiet Elegance",
+		"desc": "Kamisato Ayato's specialty. The arrangement is exquisite and elegant, much like the manner in which Ayato handles all his affairs. Any more, and it would have been excessive. Any less, and it would have proved a sight squandered. As you sample the dish, you find that its flavor is identical to that of Uyuu Restaurant's \u2014 amazing. But as you reach your chopsticks for that crystalline camellia, Ayato stops you... \"That was something I made during sword practice. It's just a decoration.\"",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 3457329991,
+		"effect": "Increases all party members' Shield Strength by 35% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+		"original_recipe": "sakura_tempura"
+	}
+}

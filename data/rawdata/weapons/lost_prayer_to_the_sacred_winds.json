@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 14502,
+	"promote_id": 14502,
+	"gadget_id": 50014502,
+	"story_id": [
+		194502
+	],
+	"skill_affix": [
+		114502,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 1455107995,
+	"desc_hash": 2188385645,
+	"name": "Lost Prayer to the Sacred Winds",
+	"desc": "An educational tome written by anonymous early inhabitants who worshiped the wind. It has been blessed by the wind for its faithfulness and influence over the millennia.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 45.9364013671875,
+		"Crit Rate%": 0.07199999690055847
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_301",
+		"Crit Rate%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 5,
+				"chaos_device": 5,
+				"slime_condensate": 3,
+				"mora": 10000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 5,
+				"chaos_device": 18,
+				"slime_condensate": 12,
+				"mora": 20000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 9,
+				"chaos_circuit": 9,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 5,
+				"chaos_circuit": 18,
+				"slime_secretions": 14,
+				"mora": 45000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 9,
+				"chaos_core": 14,
+				"slime_concentrate": 9,
+				"mora": 55000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 6,
+				"chaos_core": 27,
+				"slime_concentrate": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 483942315,
+		"name": "Boundless Blessing",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1145020,
+				"desc_hash": 3973186969,
+				"desc": "Increases Movement SPD by 10%. When in battle, gain an <color=#99FFFFFF>8%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1145021,
+				"desc_hash": 2446228769,
+				"desc": "Increases Movement SPD by 10%. When in battle, earn a <color=#99FFFFFF>10%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1145022,
+				"desc_hash": 1833471105,
+				"desc": "Increases Movement SPD by 10%. When in battle, gain a <color=#99FFFFFF>12%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1145023,
+				"desc_hash": 1045127345,
+				"desc": "Increases Movement SPD by 10%. When in battle, gain a <color=#99FFFFFF>14%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1145024,
+				"desc_hash": 3828463225,
+				"desc": "Increases Movement SPD by 10%. When in battle, gain a <color=#99FFFFFF>16%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+				"cost": 16000
+			}
+		]
+	}
+}

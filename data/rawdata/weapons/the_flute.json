@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 11402,
+	"promote_id": 11402,
+	"gadget_id": 50011402,
+	"story_id": [
+		191402
+	],
+	"skill_affix": [
+		111402,
+		0
+	],
+	"type": "sword",
+	"name_hash": 3587621259,
+	"desc_hash": 2174961477,
+	"name": "The Flute",
+	"desc": "Beneath its rusty exterior is a lavishly decorated thin blade. It swings as swiftly as the wind.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"ATK%": 0.09000000357627869
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"boreal_wolfs_milk_tooth": 3,
+				"dead_ley_line_branch": 3,
+				"slime_condensate": 2,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 3,
+				"dead_ley_line_branch": 12,
+				"slime_condensate": 8,
+				"mora": 15000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 6,
+				"dead_ley_line_leaves": 6,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_broken_fang": 3,
+				"dead_ley_line_leaves": 12,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"boreal_wolfs_broken_fang": 6,
+				"ley_line_sprout": 9,
+				"slime_concentrate": 6,
+				"mora": 35000
+			},
+			{
+				"boreal_wolfs_nostalgia": 4,
+				"ley_line_sprout": 18,
+				"slime_concentrate": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3057490131,
+		"name": "Chord",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1114020,
+				"desc_hash": 3475654257,
+				"desc": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <color=#99FFFFFF>100%</color> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1114021,
+				"desc_hash": 3917796225,
+				"desc": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <color=#99FFFFFF>125%</color> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1114022,
+				"desc_hash": 2774146129,
+				"desc": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <color=#99FFFFFF>150%</color> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1114023,
+				"desc_hash": 1603229217,
+				"desc": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <color=#99FFFFFF>175%</color> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1114024,
+				"desc_hash": 3801618697,
+				"desc": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <color=#99FFFFFF>200%</color> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+				"cost": 8000
+			}
+		]
+	}
+}

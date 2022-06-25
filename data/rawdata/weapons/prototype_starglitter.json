@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 13402,
+	"promote_id": 13402,
+	"gadget_id": 50013402,
+	"story_id": [
+		193402
+	],
+	"skill_affix": [
+		113402,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 1154009435,
+	"desc_hash": 2616355533,
+	"name": "Prototype Starglitter",
+	"desc": "A hooked spear discovered hidden away in the Blackcliff Forge. The glimmers along the sharp edge are like stars in the night.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"Energy Recharge%": 0.10000000149011612
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"grain_of_aerosiderite": 3,
+				"fragile_bone_shard": 3,
+				"damaged_mask": 2,
+				"mora": 5000
+			},
+			{
+				"piece_of_aerosiderite": 3,
+				"fragile_bone_shard": 12,
+				"damaged_mask": 8,
+				"mora": 15000
+			},
+			{
+				"piece_of_aerosiderite": 6,
+				"sturdy_bone_shard": 6,
+				"stained_mask": 6,
+				"mora": 20000
+			},
+			{
+				"bit_of_aerosiderite": 3,
+				"sturdy_bone_shard": 12,
+				"stained_mask": 9,
+				"mora": 30000
+			},
+			{
+				"bit_of_aerosiderite": 6,
+				"fossilized_bone_shard": 9,
+				"ominous_mask": 6,
+				"mora": 35000
+			},
+			{
+				"chunk_of_aerosiderite": 4,
+				"fossilized_bone_shard": 18,
+				"ominous_mask": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 734556419,
+		"name": "Magic Affinity",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1134020,
+				"desc_hash": 3806082625,
+				"desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>8%</color> for 12s. Max 2 stacks.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1134021,
+				"desc_hash": 173699449,
+				"desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>10%</color> for 12s. Max 2 stacks.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1134022,
+				"desc_hash": 470481049,
+				"desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>12%</color> for 12s. Max 2 stacks.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1134023,
+				"desc_hash": 2527665809,
+				"desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>14%</color> for 12s. Max 2 stacks.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1134024,
+				"desc_hash": 1658920241,
+				"desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>16%</color> for 12s. Max 2 stacks.",
+				"cost": 8000
+			}
+		]
+	}
+}

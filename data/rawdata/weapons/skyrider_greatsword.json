@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12306,
+	"promote_id": 12306,
+	"gadget_id": 50012306,
+	"story_id": [
+		192306
+	],
+	"skill_affix": [
+		112306,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 2614170427,
+	"desc_hash": 599093453,
+	"name": "Skyrider Greatsword",
+	"desc": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword... for the second time.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 38.74129867553711,
+		"Physical DMG%": 0.09560000151395798
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101",
+		"Physical DMG%": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"grain_of_aerosiderite": 2,
+				"fragile_bone_shard": 2,
+				"treasure_hoarder_insignia": 1,
+				"mora": 5000
+			},
+			{
+				"piece_of_aerosiderite": 2,
+				"fragile_bone_shard": 8,
+				"treasure_hoarder_insignia": 5,
+				"mora": 10000
+			},
+			{
+				"piece_of_aerosiderite": 4,
+				"sturdy_bone_shard": 4,
+				"silver_raven_insignia": 4,
+				"mora": 15000
+			},
+			{
+				"bit_of_aerosiderite": 2,
+				"sturdy_bone_shard": 8,
+				"silver_raven_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"bit_of_aerosiderite": 4,
+				"fossilized_bone_shard": 6,
+				"golden_raven_insignia": 4,
+				"mora": 25000
+			},
+			{
+				"chunk_of_aerosiderite": 3,
+				"fossilized_bone_shard": 12,
+				"golden_raven_insignia": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3197152099,
+		"name": "Courage",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1123060,
+				"desc_hash": 1429134689,
+				"desc": "On hit, Normal or Charged Attacks increase ATK by <color=#99FFFFFF>6%</color> for 6s. Max 4 stacks. Can occur once every 0.5s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1123061,
+				"desc_hash": 2570007249,
+				"desc": "On hit, Normal or Charged Attacks increase ATK by <color=#99FFFFFF>7%</color> for 6s. Max 4 stacks. Can occur once every 0.5s.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1123062,
+				"desc_hash": 417154673,
+				"desc": "On hit, Normal or Charged Attacks increase ATK by <color=#99FFFFFF>8%</color> for 6s. Max 4 stacks. Can occur once every 0.5s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1123063,
+				"desc_hash": 2775093177,
+				"desc": "On hit, Normal or Charged Attacks increase ATK by <color=#99FFFFFF>9%</color> for 6s. Max 4 stacks. Can occur once every 0.5s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1123064,
+				"desc_hash": 513636433,
+				"desc": "On hit, Normal or Charged Attacks increase ATK by <color=#99FFFFFF>10%</color> for 6s. Max 4 stacks. Can occur once every 0.5s.",
+				"cost": 4000
+			}
+		]
+	}
+}

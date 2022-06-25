@@ -1,0 +1,163 @@
+{
+	"hoyo_id": 13304,
+	"promote_id": 13304,
+	"gadget_id": 50013304,
+	"story_id": [
+		193304
+	],
+	"skill_affix": [
+		113304,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 500612819,
+	"desc_hash": 3767447885,
+	"name": "The Flagstaff",
+	"desc": "Reserve",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 9.899999618530273
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"grain_of_aerosiderite": 2,
+				"fragile_bone_shard": 2,
+				"whopperflower_nectar": 1,
+				"mora": 5000
+			},
+			{
+				"piece_of_aerosiderite": 2,
+				"fragile_bone_shard": 8,
+				"whopperflower_nectar": 5,
+				"mora": 10000
+			},
+			{
+				"piece_of_aerosiderite": 4,
+				"sturdy_bone_shard": 4,
+				"shimmering_nectar": 4,
+				"mora": 15000
+			},
+			{
+				"bit_of_aerosiderite": 2,
+				"sturdy_bone_shard": 8,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"bit_of_aerosiderite": 4,
+				"fossilized_bone_shard": 6,
+				"energy_nectar": 4,
+				"mora": 25000
+			},
+			{
+				"chunk_of_aerosiderite": 3,
+				"fossilized_bone_shard": 12,
+				"energy_nectar": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2951249275,
+		"name": "TBD",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1133040,
+				"desc_hash": 3846743545,
+				"desc": "Defeating an opponent restores <color=#99FFFFFF>8%</color> HP.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1133041,
+				"desc_hash": 2732932377,
+				"desc": "Defeating an opponent restores <color=#99FFFFFF>10%</color> HP.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1133042,
+				"desc_hash": 2876316489,
+				"desc": "Defeating an opponent restores <color=#99FFFFFF>12%</color> HP.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1133043,
+				"desc_hash": 2119574529,
+				"desc": "Defeating an opponent restores <color=#99FFFFFF>14%</color> HP.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1133044,
+				"desc_hash": 1106651273,
+				"desc": "Defeating an opponent restores <color=#99FFFFFF>16%</color> HP.",
+				"cost": 4000
+			}
+		]
+	}
+}

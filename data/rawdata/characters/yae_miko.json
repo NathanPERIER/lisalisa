@@ -1,0 +1,791 @@
+{
+	"hoyo_id": 10000058,
+	"promote_id": 58,
+	"skill_depot_id": 5801,
+	"fetter_id": 58600,
+	"weapon": "catalyst",
+	"name_hash": 2713453234,
+	"desc_hash": 1170085417,
+	"name": "Yae Miko",
+	"desc": "Lady Guuji of the Grand Narukami Shrine. Also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_LADY",
+	"birthday": [
+		27,
+		6
+	],
+	"region": "inazuma",
+	"vision_hash": [
+		2143937940,
+		2330511321
+	],
+	"astrolabe_hash": [
+		2170266186,
+		3203852891
+	],
+	"allegiance_hash": 2162789625,
+	"vision": "electro",
+	"astrolabe": "Divina Vulpes",
+	"allegiance": "Grand Narukami Shrine",
+	"default_weapon": "apprentices_notes",
+	"base_stats": {
+		"Base HP": 807.4620361328125,
+		"Base ATK": 26.440399169921875,
+		"Base DEF": 44.274200439453125,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"vajrada_amethyst_sliver": 1,
+				"sea_ganoderma": 3,
+				"old_handguard": 3,
+				"mora": 20000
+			},
+			{
+				"vajrada_amethyst_fragment": 3,
+				"dragonheirs_false_fin": 2,
+				"sea_ganoderma": 10,
+				"old_handguard": 15,
+				"mora": 40000
+			},
+			{
+				"vajrada_amethyst_fragment": 6,
+				"dragonheirs_false_fin": 4,
+				"sea_ganoderma": 20,
+				"kageuchi_handguard": 12,
+				"mora": 60000
+			},
+			{
+				"vajrada_amethyst_chunk": 3,
+				"dragonheirs_false_fin": 8,
+				"sea_ganoderma": 30,
+				"kageuchi_handguard": 18,
+				"mora": 80000
+			},
+			{
+				"vajrada_amethyst_chunk": 6,
+				"dragonheirs_false_fin": 12,
+				"sea_ganoderma": 45,
+				"famed_handguard": 12,
+				"mora": 100000
+			},
+			{
+				"vajrada_amethyst_gemstone": 6,
+				"dragonheirs_false_fin": 20,
+				"sea_ganoderma": 60,
+				"famed_handguard": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 692.32568359375,
+					"Base DEF": 37.96200180053711,
+					"Base ATK": 22.668596267700195,
+					"Crit Rate%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1184.2413330078125,
+					"Base DEF": 64.93499755859375,
+					"Base ATK": 38.775230407714844,
+					"Crit Rate%": 0.04800000041723251
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1840.1287841796875,
+					"Base DEF": 100.89900207519531,
+					"Base ATK": 60.2507438659668,
+					"Crit Rate%": 0.09600000083446503
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2332.04443359375,
+					"Base DEF": 127.87200164794922,
+					"Base ATK": 76.35737609863281,
+					"Crit Rate%": 0.09600000083446503
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2823.9599609375,
+					"Base DEF": 154.84500122070312,
+					"Base ATK": 92.4640121459961,
+					"Crit Rate%": 0.14399999380111694
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3315.875732421875,
+					"Base DEF": 181.8179931640625,
+					"Base ATK": 108.57064056396484,
+					"Crit Rate%": 0.19200000166893005
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 3966360853,
+			"desc_hash": 976224872,
+			"charge_num": 1,
+			"name": "Normal Attack: Spiritfox Sin-Eater",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nSummons forth kitsune spirits, initiating a maximum of 3 attacks that deal <color=#FFACFFFF>Electro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal <color=#FFACFFFF>AoE Electro DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges towards the ground from mid-air, damaging all opponents in her path with thunderous might. Deals <color=#FFACFFFF>AoE Electro DMG</color> upon impact with the ground.",
+			"costs": [
+				{
+					"teachings_of_light": 3,
+					"old_handguard": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_light": 2,
+					"kageuchi_handguard": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_light": 4,
+					"kageuchi_handguard": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_light": 6,
+					"kageuchi_handguard": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_light": 9,
+					"kageuchi_handguard": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_light": 4,
+					"famed_handguard": 4,
+					"the_meaning_of_aeons": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_light": 6,
+					"famed_handguard": 6,
+					"the_meaning_of_aeons": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_light": 12,
+					"famed_handguard": 9,
+					"the_meaning_of_aeons": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_light": 16,
+					"famed_handguard": 12,
+					"the_meaning_of_aeons": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"39.66%",
+						"38.52%",
+						"56.89%",
+						"142.89%",
+						"50",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"42.63%",
+						"41.41%",
+						"61.16%",
+						"153.61%",
+						"50",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"45.61%",
+						"44.3%",
+						"65.42%",
+						"164.33%",
+						"50",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"49.57%",
+						"48.15%",
+						"71.11%",
+						"178.62%",
+						"50",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"52.55%",
+						"51.04%",
+						"75.38%",
+						"189.34%",
+						"50",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"55.52%",
+						"53.93%",
+						"79.64%",
+						"200.05%",
+						"50",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"59.49%",
+						"57.78%",
+						"85.33%",
+						"214.34%",
+						"50",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"63.45%",
+						"61.63%",
+						"91.02%",
+						"228.63%",
+						"50",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"67.42%",
+						"65.48%",
+						"96.71%",
+						"242.92%",
+						"50",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"71.39%",
+						"69.33%",
+						"102.4%",
+						"257.21%",
+						"50",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"75.35%",
+						"73.19%",
+						"108.09%",
+						"271.5%",
+						"50",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"79.32%",
+						"77.04%",
+						"113.78%",
+						"285.79%",
+						"50",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"84.27%",
+						"81.85%",
+						"120.89%",
+						"303.65%",
+						"50",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"89.23%",
+						"86.67%",
+						"128%",
+						"321.51%",
+						"50",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"94.19%",
+						"91.48%",
+						"135.11%",
+						"339.38%",
+						"50",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 823035501,
+			"desc_hash": 1814358328,
+			"charge_num": 3,
+			"name": "Yakan Evocation: Sesshou Sakura",
+			"desc": "To Yae, such dull tasks as can be accomplished by driving spirits out need not be done personally.\\nMoves swiftly, leaving a Sesshou Sakura behind.\\n\\n<color=#FFD780FF>Sesshou Sakura</color>\\nHas the following properties:\\n\u00b7 Periodically strikes one nearby opponent with lightning, dealing <color=#FFACFFFF>Electro DMG</color>\\n\u00b7 When there are other Sesshou Sakura nearby, their level will increase, boosting the DMG dealt by these lightning strikes.\\n\\nThis skill has three charges.\\nA maximum of 3 Sesshou Sakura can exist simultaneously. The initial level of each Sesshou Sakura is 1, and the initial highest level each sakura can reach is 3. If a new Sesshou Sakura is created too close to an existing one, the existing one will be destroyed.\\n\\n<i>\"The kitsune spirits sealed in the branches are all yakan who stooped to preying upon humans. The yakan are two grades lower than us Sky Kitsune, and so, I hardly see the problem with... asking that they do my bidding. Now, this doesn't mean that you humans should go learning from our grading systems, no indeed \u2014 and as for which of us, kitsune or human, is higher up in the pecking order... Heh, wouldn't you like to know?\"</i>",
+			"costs": [
+				{
+					"teachings_of_light": 3,
+					"old_handguard": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_light": 2,
+					"kageuchi_handguard": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_light": 4,
+					"kageuchi_handguard": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_light": 6,
+					"kageuchi_handguard": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_light": 9,
+					"kageuchi_handguard": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_light": 4,
+					"famed_handguard": 4,
+					"the_meaning_of_aeons": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_light": 6,
+					"famed_handguard": 6,
+					"the_meaning_of_aeons": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_light": 12,
+					"famed_handguard": 9,
+					"the_meaning_of_aeons": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_light": 16,
+					"famed_handguard": 12,
+					"the_meaning_of_aeons": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Sesshou Sakura DMG: Level 1",
+					"Sesshou Sakura DMG: Level 2",
+					"Sesshou Sakura DMG: Level 3",
+					"Sesshou Sakura DMG: Level 4",
+					"Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"60.67%",
+						"75.84%",
+						"94.8%",
+						"118.5%",
+						"14s",
+						"4s"
+					],
+					[
+						"65.22%",
+						"81.53%",
+						"101.91%",
+						"127.39%",
+						"14s",
+						"4s"
+					],
+					[
+						"69.77%",
+						"87.22%",
+						"109.02%",
+						"136.28%",
+						"14s",
+						"4s"
+					],
+					[
+						"75.84%",
+						"94.8%",
+						"118.5%",
+						"148.13%",
+						"14s",
+						"4s"
+					],
+					[
+						"80.39%",
+						"100.49%",
+						"125.61%",
+						"157.01%",
+						"14s",
+						"4s"
+					],
+					[
+						"84.94%",
+						"106.18%",
+						"132.72%",
+						"165.9%",
+						"14s",
+						"4s"
+					],
+					[
+						"91.01%",
+						"113.76%",
+						"142.2%",
+						"177.75%",
+						"14s",
+						"4s"
+					],
+					[
+						"97.08%",
+						"121.34%",
+						"151.68%",
+						"189.6%",
+						"14s",
+						"4s"
+					],
+					[
+						"103.14%",
+						"128.93%",
+						"161.16%",
+						"201.45%",
+						"14s",
+						"4s"
+					],
+					[
+						"109.21%",
+						"136.51%",
+						"170.64%",
+						"213.3%",
+						"14s",
+						"4s"
+					],
+					[
+						"115.28%",
+						"144.1%",
+						"180.12%",
+						"225.15%",
+						"14s",
+						"4s"
+					],
+					[
+						"121.34%",
+						"151.68%",
+						"189.6%",
+						"237%",
+						"14s",
+						"4s"
+					],
+					[
+						"128.93%",
+						"161.16%",
+						"201.45%",
+						"251.81%",
+						"14s",
+						"4s"
+					],
+					[
+						"136.51%",
+						"170.64%",
+						"213.3%",
+						"266.62%",
+						"14s",
+						"4s"
+					],
+					[
+						"144.1%",
+						"180.12%",
+						"225.15%",
+						"281.44%",
+						"14s",
+						"4s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 3675029365,
+			"desc_hash": 1743360824,
+			"charge_num": 1,
+			"name": "Great Secret Art: Tenko Kenshin",
+			"desc": "Legends of \"kitsunetsuki,\" or the manifestation of a kitsune's might, are common in Inazuma's folktales. One that particularly captures the imagination is that of the Sky Kitsune, said to cause lightning to fall down upon the foes of the Grand Narukami Shrine. Summons a lightning strike, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\nWhen she uses this skill, Yae Miko will unseal nearby Sesshou Sakura, destroying their outer forms and transforming them into Tenko Thunderbolts that descend from the skies, dealing <color=#FFACFFFF>AoE Electro DMG</color>. Each Sesshou Sakura destroyed in this way will create one Tenko Thunderbolt.\\n\\n<i>Only at times like these will Yae reveal her Sky Kitsune form and wield lightning itself. None have seen the Lady Guuji's tails and lived to tell the story... so remember, as far as you are concerned, Lady Yae does not have a tail.</i>",
+			"costs": [
+				{
+					"teachings_of_light": 3,
+					"old_handguard": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_light": 2,
+					"kageuchi_handguard": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_light": 4,
+					"kageuchi_handguard": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_light": 6,
+					"kageuchi_handguard": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_light": 9,
+					"kageuchi_handguard": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_light": 4,
+					"famed_handguard": 4,
+					"the_meaning_of_aeons": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_light": 6,
+					"famed_handguard": 6,
+					"the_meaning_of_aeons": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_light": 12,
+					"famed_handguard": 9,
+					"the_meaning_of_aeons": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_light": 16,
+					"famed_handguard": 12,
+					"the_meaning_of_aeons": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Tenko Thunderbolt DMG",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"260%",
+						"333.82%",
+						"22s",
+						"90"
+					],
+					[
+						"279.5%",
+						"358.85%",
+						"22s",
+						"90"
+					],
+					[
+						"299%",
+						"383.89%",
+						"22s",
+						"90"
+					],
+					[
+						"325%",
+						"417.27%",
+						"22s",
+						"90"
+					],
+					[
+						"344.5%",
+						"442.31%",
+						"22s",
+						"90"
+					],
+					[
+						"364%",
+						"467.34%",
+						"22s",
+						"90"
+					],
+					[
+						"390%",
+						"500.72%",
+						"22s",
+						"90"
+					],
+					[
+						"416%",
+						"534.11%",
+						"22s",
+						"90"
+					],
+					[
+						"442%",
+						"567.49%",
+						"22s",
+						"90"
+					],
+					[
+						"468%",
+						"600.87%",
+						"22s",
+						"90"
+					],
+					[
+						"494%",
+						"634.25%",
+						"22s",
+						"90"
+					],
+					[
+						"520%",
+						"667.63%",
+						"22s",
+						"90"
+					],
+					[
+						"552.5%",
+						"709.36%",
+						"22s",
+						"90"
+					],
+					[
+						"585%",
+						"751.09%",
+						"22s",
+						"90"
+					],
+					[
+						"617.5%",
+						"792.81%",
+						"22s",
+						"90"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 4293081189,
+			"desc_hash": 3689732219,
+			"ascension": 1,
+			"name": "The Shrine's Sacred Shade",
+			"desc": "When casting <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color>, each Sesshou Sakura destroyed resets the cooldown for 1 charge of <color=#FFD780FF>Yakan Evocation: Sesshou Sakura</color>."
+		},
+		{
+			"name_hash": 1210172149,
+			"desc_hash": 886862779,
+			"ascension": 4,
+			"name": "Enlightened Blessing",
+			"desc": "Every point of Elemental Mastery Yae Miko possesses will increase <color=#FFD780FF>Sesshou Sakura</color> DMG by 0.15%."
+		},
+		{
+			"name_hash": 294064029,
+			"desc_hash": 1058193419,
+			"ascension": null,
+			"name": "Meditations of a Yako",
+			"desc": "Has a 25% chance to get 1 regional Character Talent Material (base material excluded) when crafting. The rarity is that of the base material."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 2281393129,
+			"name": "Yakan Offering",
+			"desc_hash": 3672936767,
+			"desc": "Each time <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color> activates a Tenko Thunderbolt, Yae Miko will restore 8 Elemental Energy for herself."
+		},
+		{
+			"name_hash": 2254983737,
+			"name": "Fox's Mooncall",
+			"desc_hash": 1386782575,
+			"desc": "<color=#FFD780FF>Sesshou Sakura</color> start at Level 2 when created, their max level is increased to 4, and their attack range is increased by 60%."
+		},
+		{
+			"name_hash": 516586793,
+			"name": "The Seven Glamours",
+			"desc_hash": 509551311,
+			"desc": "Increases the Level of <color=#FFD780FF>Yakan Evocation: Sesshou Sakura</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 1524489289,
+			"name": "Sakura Channeling",
+			"desc_hash": 580900487,
+			"desc": "When <color=#FFD780FF>Sesshou Sakura</color> lightning hits opponents, the <color=#FFACFFFF>Electro DMG Bonus</color> of all nearby party members is increased by 20% for 5s."
+		},
+		{
+			"name_hash": 3181299049,
+			"name": "Mischievous Teasing",
+			"desc_hash": 2441345199,
+			"desc": "Increases the Level of <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 913339777,
+			"name": "Forbidden Art: Daisesshou",
+			"desc_hash": 2127512239,
+			"desc": "<color=#FFD780FF>The Sesshou Sakura's</color> attacks will ignore 60% of the opponents' DEF."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 1295363218,
+			"desc_hash": 3314678434,
+			"restricted": false,
+			"name": "Miko's Instruction",
+			"desc": "Yae Miko's outfit. A shrine maiden uniform that declares her lofty position as the Guuji of the Grand Narukami Shrine to all. May the lovely sight of her in that dress remain forever, just as the Sacred Sakura emblazoned upon her pure white skirt, which will never wilt away."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108380,
+		"name_hash": 1480952796,
+		"desc_hash": 2497849205,
+		"type_hash": 4215019350,
+		"rarity": 2,
+		"name": "Fukuuchi Udon",
+		"desc": "Yae Miko's specialty. The Fried Tofu in here is specially made by the solemn Lady Kitsune. It is said that if you eat it all at one go with sincerity in your heart, you will have the protection of the Great Kitsune \u2014 misfortune shall flee and fortune abound!",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 665054167,
+		"effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP.",
+		"original_recipe": "udon_noodles"
+	}
+}

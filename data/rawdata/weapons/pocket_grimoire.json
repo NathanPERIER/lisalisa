@@ -1,0 +1,95 @@
+{
+	"hoyo_id": 14201,
+	"promote_id": 14201,
+	"gadget_id": 50014201,
+	"story_id": [
+		194201
+	],
+	"skill_affix": [
+		0,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 2705029563,
+	"desc_hash": 728247149,
+	"name": "Pocket Grimoire",
+	"desc": "A carefully compiled notebook featuring the essentials needed to pass a magic exam.",
+	"rarity": 2,
+	"base_stats": {
+		"Base ATK": 32.93000030517578
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"tile_of_decarabians_tower": 1,
+				"heavy_horn": 1,
+				"damaged_mask": 1,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 1,
+				"heavy_horn": 5,
+				"damaged_mask": 4,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 3,
+				"black_bronze_horn": 3,
+				"stained_mask": 3,
+				"mora": 10000
+			},
+			{
+				"fragment_of_decarabians_epic": 1,
+				"black_bronze_horn": 5,
+				"stained_mask": 4,
+				"mora": 15000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 11.699999809265137,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 23.299999237060547,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 35.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 46.70000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			}
+		]
+	},
+	"abilities": null
+}

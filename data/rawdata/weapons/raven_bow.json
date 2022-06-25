@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15301,
+	"promote_id": 15301,
+	"gadget_id": 50015301,
+	"story_id": [
+		195301
+	],
+	"skill_affix": [
+		115301,
+		0
+	],
+	"type": "bow",
+	"name_hash": 3975746731,
+	"desc_hash": 367902357,
+	"name": "Raven Bow",
+	"desc": "Ravens are known to be the ferrymen of the dead. This bow's limb is decorated with raven feathers, which forebode the imminent death of its target.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 39.875099182128906,
+		"Elemental Mastery": 20.399999618530273
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_102",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"tile_of_decarabians_tower": 2,
+				"heavy_horn": 2,
+				"firm_arrowhead": 1,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 2,
+				"heavy_horn": 8,
+				"firm_arrowhead": 5,
+				"mora": 10000
+			},
+			{
+				"debris_of_decarabians_city": 4,
+				"black_bronze_horn": 4,
+				"sharp_arrowhead": 4,
+				"mora": 15000
+			},
+			{
+				"fragment_of_decarabians_epic": 2,
+				"black_bronze_horn": 8,
+				"sharp_arrowhead": 6,
+				"mora": 20000
+			},
+			{
+				"fragment_of_decarabians_epic": 4,
+				"black_crystal_horn": 6,
+				"weathered_arrowhead": 4,
+				"mora": 25000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 3,
+				"black_crystal_horn": 12,
+				"weathered_arrowhead": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1958685971,
+		"name": "Bane of Flame and Water",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1153010,
+				"desc_hash": 4021611305,
+				"desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>12%</color>.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1153011,
+				"desc_hash": 4029571225,
+				"desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>15%</color>.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1153012,
+				"desc_hash": 2539460561,
+				"desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>18%</color>.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1153013,
+				"desc_hash": 1584444065,
+				"desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>21%</color>.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1153014,
+				"desc_hash": 3786618233,
+				"desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>24%</color>.",
+				"cost": 4000
+			}
+		]
+	}
+}

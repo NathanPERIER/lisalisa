@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 14301,
+	"promote_id": 14301,
+	"gadget_id": 50014301,
+	"story_id": [
+		194301
+	],
+	"skill_affix": [
+		114301,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 2279290283,
+	"desc_hash": 1128957,
+	"name": "Magic Guide",
+	"desc": "Version 12. A reprint featuring corrections to Version 11 and brand-new additions based on recent developments.",
+	"rarity": 3,
+	"base_stats": {
+		"Base ATK": 37.60749816894531,
+		"Elemental Mastery": 40.79999923706055
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_104",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_101"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"tile_of_decarabians_tower": 2,
+				"heavy_horn": 2,
+				"slime_condensate": 1,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 2,
+				"heavy_horn": 8,
+				"slime_condensate": 5,
+				"mora": 10000
+			},
+			{
+				"debris_of_decarabians_city": 4,
+				"black_bronze_horn": 4,
+				"slime_secretions": 4,
+				"mora": 15000
+			},
+			{
+				"fragment_of_decarabians_epic": 2,
+				"black_bronze_horn": 8,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"fragment_of_decarabians_epic": 4,
+				"black_crystal_horn": 6,
+				"slime_concentrate": 4,
+				"mora": 25000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 3,
+				"black_crystal_horn": 12,
+				"slime_concentrate": 8,
+				"mora": 30000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 19.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 38.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 58.400001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 97.30000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 116.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2612787867,
+		"name": "Bane of Storm and Tide",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1143010,
+				"desc_hash": 1270011833,
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>12%</color>.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1143011,
+				"desc_hash": 34396009,
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>15%</color>.",
+				"cost": 500
+			},
+			{
+				"affix_id": 1143012,
+				"desc_hash": 4226431209,
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>18%</color>.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1143013,
+				"desc_hash": 1865334985,
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>21%</color>.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1143014,
+				"desc_hash": 3466198865,
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>24%</color>.",
+				"cost": 4000
+			}
+		]
+	}
+}

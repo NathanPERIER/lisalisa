@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15401,
+	"promote_id": 15401,
+	"gadget_id": 50015401,
+	"story_id": [
+		195401
+	],
+	"skill_affix": [
+		115401,
+		0
+	],
+	"type": "bow",
+	"name_hash": 1240067179,
+	"desc_hash": 2697551509,
+	"name": "Favonius Warbow",
+	"desc": "A standard-issue recurve bow of the Knights of Favonius. Only the best archers can unleash its full potential.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 41.067100524902344,
+		"Energy Recharge%": 0.1333329975605011
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_204",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"fetters_of_the_dandelion_gladiator": 3,
+				"chaos_device": 3,
+				"whopperflower_nectar": 2,
+				"mora": 5000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 3,
+				"chaos_device": 12,
+				"whopperflower_nectar": 8,
+				"mora": 15000
+			},
+			{
+				"chains_of_the_dandelion_gladiator": 6,
+				"chaos_circuit": 6,
+				"shimmering_nectar": 6,
+				"mora": 20000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 3,
+				"chaos_circuit": 12,
+				"shimmering_nectar": 9,
+				"mora": 30000
+			},
+			{
+				"shackles_of_the_dandelion_gladiator": 6,
+				"chaos_core": 9,
+				"energy_nectar": 6,
+				"mora": 35000
+			},
+			{
+				"dream_of_the_dandelion_gladiator": 4,
+				"chaos_core": 18,
+				"energy_nectar": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3964029091,
+		"name": "Windfall",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1154010,
+				"desc_hash": 4176757297,
+				"desc": "CRIT Hits have a <color=#99FFFFFF>60%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>12</color>s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1154011,
+				"desc_hash": 2919406737,
+				"desc": "CRIT Hits have a <color=#99FFFFFF>70%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>10.5</color>s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1154012,
+				"desc_hash": 4292321513,
+				"desc": "CRIT Hits have a <color=#99FFFFFF>80%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>9</color>s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1154013,
+				"desc_hash": 741994297,
+				"desc": "CRIT Hits have a <color=#99FFFFFF>90%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>7.5</color>s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1154014,
+				"desc_hash": 1905637081,
+				"desc": "CRIT Hits have a <color=#99FFFFFF>100%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>6</color>s.",
+				"cost": 8000
+			}
+		]
+	}
+}

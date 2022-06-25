@@ -1,0 +1,720 @@
+{
+	"hoyo_id": 10000027,
+	"promote_id": 27,
+	"skill_depot_id": 2701,
+	"fetter_id": 116,
+	"weapon": "catalyst",
+	"name_hash": 4127888970,
+	"desc_hash": 2174640361,
+	"name": "Ningguang",
+	"desc": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_LADY",
+	"birthday": [
+		26,
+		8
+	],
+	"region": "liyue",
+	"vision_hash": [
+		1662907292,
+		735278345
+	],
+	"astrolabe_hash": [
+		20629626,
+		876868723
+	],
+	"allegiance_hash": 218189361,
+	"vision": "geo",
+	"astrolabe": "Opus Aequilibrium",
+	"allegiance": "Liyue Qixing",
+	"default_weapon": "apprentices_notes",
+	"base_stats": {
+		"Base HP": 820.6118774414062,
+		"Base ATK": 17.808000564575195,
+		"Base DEF": 48.069000244140625,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"prithiva_topaz_sliver": 1,
+				"glaze_lily": 3,
+				"recruits_insignia": 3,
+				"mora": 20000
+			},
+			{
+				"prithiva_topaz_fragment": 3,
+				"basalt_pillar": 2,
+				"glaze_lily": 10,
+				"recruits_insignia": 15,
+				"mora": 40000
+			},
+			{
+				"prithiva_topaz_fragment": 6,
+				"basalt_pillar": 4,
+				"glaze_lily": 20,
+				"sergeants_insignia": 12,
+				"mora": 60000
+			},
+			{
+				"prithiva_topaz_chunk": 3,
+				"basalt_pillar": 8,
+				"glaze_lily": 30,
+				"sergeants_insignia": 18,
+				"mora": 80000
+			},
+			{
+				"prithiva_topaz_chunk": 6,
+				"basalt_pillar": 12,
+				"glaze_lily": 45,
+				"lieutenants_insignia": 12,
+				"mora": 100000
+			},
+			{
+				"prithiva_topaz_gemstone": 6,
+				"basalt_pillar": 20,
+				"glaze_lily": 60,
+				"lieutenants_insignia": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 613.0391235351562,
+					"Base DEF": 35.90999984741211,
+					"Base ATK": 13.303799629211426,
+					"Geo DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1048.6195068359375,
+					"Base DEF": 61.42499923706055,
+					"Base ATK": 22.756500244140625,
+					"Geo DMG%": 0.05999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1629.3934326171875,
+					"Base DEF": 95.44499969482422,
+					"Base ATK": 35.36009979248047,
+					"Geo DMG%": 0.11999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2064.973876953125,
+					"Base DEF": 120.95999908447266,
+					"Base ATK": 44.812801361083984,
+					"Geo DMG%": 0.11999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2500.55419921875,
+					"Base DEF": 146.47500610351562,
+					"Base ATK": 54.265499114990234,
+					"Geo DMG%": 0.18000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 2936.134765625,
+					"Base DEF": 171.99000549316406,
+					"Base ATK": 63.71820068359375,
+					"Geo DMG%": 0.23999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 2745030989,
+			"desc_hash": 3500884936,
+			"charge_num": 1,
+			"name": "Normal Attack: Sparkling Scatter",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nShoots gems that deal <color=#FFE699FF>Geo DMG</color>.\\nUpon hit, this grants Ningguang 1 Star Jade.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of stamina to fire off a giant gem that deals <color=#FFE699FF>Geo DMG</color>.\\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FFE699FF>AoE Geo DMG</color> upon impact with the ground.",
+			"costs": [
+				{
+					"teachings_of_prosperity": 3,
+					"recruits_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_prosperity": 2,
+					"sergeants_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_prosperity": 4,
+					"sergeants_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_prosperity": 6,
+					"sergeants_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_prosperity": 9,
+					"sergeants_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_prosperity": 4,
+					"lieutenants_insignia": 4,
+					"spirit_locket_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_prosperity": 6,
+					"lieutenants_insignia": 6,
+					"spirit_locket_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_prosperity": 12,
+					"lieutenants_insignia": 9,
+					"spirit_locket_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_prosperity": 16,
+					"lieutenants_insignia": 12,
+					"spirit_locket_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Normal Attack DMG",
+					"Charged Attack DMG",
+					"DMG per Star Jade",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"28%",
+						"174.08%",
+						"49.6%",
+						"50",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"30.1%",
+						"187.14%",
+						"53.32%",
+						"50",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"32.2%",
+						"200.19%",
+						"57.04%",
+						"50",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"35%",
+						"217.6%",
+						"62%",
+						"50",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"37.1%",
+						"230.66%",
+						"65.72%",
+						"50",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"39.2%",
+						"243.71%",
+						"69.44%",
+						"50",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"42%",
+						"261.12%",
+						"74.4%",
+						"50",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"44.8%",
+						"278.53%",
+						"79.36%",
+						"50",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"47.6%",
+						"295.94%",
+						"84.32%",
+						"50",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"50.4%",
+						"313.34%",
+						"89.28%",
+						"50",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"53.31%",
+						"331.45%",
+						"94.44%",
+						"50",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"57.12%",
+						"355.12%",
+						"101.18%",
+						"50",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"60.93%",
+						"378.8%",
+						"107.93%",
+						"50",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"64.74%",
+						"402.47%",
+						"114.68%",
+						"50",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"68.54%",
+						"426.15%",
+						"121.42%",
+						"50",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2863733197,
+			"desc_hash": 226285648,
+			"charge_num": 1,
+			"name": "Jade Screen",
+			"desc": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing <color=#FFE699FF>AoE Geo DMG</color>.\\n\\n<color=#FFD780FF>Jade Screen</color>\\n\u00b7Blocks opponents' projectiles.\\n\u00b7Endurance scales based on Ningguang's Max HP.\\n\\nJade Screen is considered a <color=#FFE699FF>Geo Construct</color> and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\\n\\n<i>The canvas of stars is written upon this jade screen.</i>",
+			"costs": [
+				{
+					"teachings_of_prosperity": 3,
+					"recruits_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_prosperity": 2,
+					"sergeants_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_prosperity": 4,
+					"sergeants_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_prosperity": 6,
+					"sergeants_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_prosperity": 9,
+					"sergeants_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_prosperity": 4,
+					"lieutenants_insignia": 4,
+					"spirit_locket_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_prosperity": 6,
+					"lieutenants_insignia": 6,
+					"spirit_locket_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_prosperity": 12,
+					"lieutenants_insignia": 9,
+					"spirit_locket_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_prosperity": 16,
+					"lieutenants_insignia": 12,
+					"spirit_locket_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Inherited HP",
+					"Skill DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"50.1%",
+						"230.4%",
+						"12s"
+					],
+					[
+						"53.1%",
+						"247.68%",
+						"12s"
+					],
+					[
+						"56.1%",
+						"264.96%",
+						"12s"
+					],
+					[
+						"60%",
+						"288%",
+						"12s"
+					],
+					[
+						"63%",
+						"305.28%",
+						"12s"
+					],
+					[
+						"66%",
+						"322.56%",
+						"12s"
+					],
+					[
+						"69.9%",
+						"345.6%",
+						"12s"
+					],
+					[
+						"73.8%",
+						"368.64%",
+						"12s"
+					],
+					[
+						"77.7%",
+						"391.68%",
+						"12s"
+					],
+					[
+						"81.6%",
+						"414.72%",
+						"12s"
+					],
+					[
+						"85.5%",
+						"437.76%",
+						"12s"
+					],
+					[
+						"89.4%",
+						"460.8%",
+						"12s"
+					],
+					[
+						"93.3%",
+						"489.6%",
+						"12s"
+					],
+					[
+						"97.2%",
+						"518.4%",
+						"12s"
+					],
+					[
+						"101.1%",
+						"547.2%",
+						"12s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 3719617877,
+			"desc_hash": 4121543128,
+			"charge_num": 1,
+			"name": "Starshatter",
+			"desc": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive <color=#FFE699FF>Geo DMG</color>.\\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.\\n\\n<i>Stars shatter. Silence falls.</i>",
+			"costs": [
+				{
+					"teachings_of_prosperity": 3,
+					"recruits_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_prosperity": 2,
+					"sergeants_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_prosperity": 4,
+					"sergeants_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_prosperity": 6,
+					"sergeants_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_prosperity": 9,
+					"sergeants_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_prosperity": 4,
+					"lieutenants_insignia": 4,
+					"spirit_locket_of_boreas": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_prosperity": 6,
+					"lieutenants_insignia": 6,
+					"spirit_locket_of_boreas": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_prosperity": 12,
+					"lieutenants_insignia": 9,
+					"spirit_locket_of_boreas": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_prosperity": 16,
+					"lieutenants_insignia": 12,
+					"spirit_locket_of_boreas": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"DMG Per Gem",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"86.96%",
+						"12s",
+						"40"
+					],
+					[
+						"93.48%",
+						"12s",
+						"40"
+					],
+					[
+						"100%",
+						"12s",
+						"40"
+					],
+					[
+						"108.7%",
+						"12s",
+						"40"
+					],
+					[
+						"115.22%",
+						"12s",
+						"40"
+					],
+					[
+						"121.74%",
+						"12s",
+						"40"
+					],
+					[
+						"130.44%",
+						"12s",
+						"40"
+					],
+					[
+						"139.14%",
+						"12s",
+						"40"
+					],
+					[
+						"147.83%",
+						"12s",
+						"40"
+					],
+					[
+						"156.53%",
+						"12s",
+						"40"
+					],
+					[
+						"165.22%",
+						"12s",
+						"40"
+					],
+					[
+						"173.92%",
+						"12s",
+						"40"
+					],
+					[
+						"184.79%",
+						"12s",
+						"40"
+					],
+					[
+						"195.66%",
+						"12s",
+						"40"
+					],
+					[
+						"206.53%",
+						"12s",
+						"40"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 2007496293,
+			"desc_hash": 936555731,
+			"ascension": 1,
+			"name": "Backup Plan",
+			"desc": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina."
+		},
+		{
+			"name_hash": 2498988029,
+			"desc_hash": 3667556291,
+			"ascension": 4,
+			"name": "Strategic Reserve",
+			"desc": "A character that passes through the <color=#FFD780FF>Jade Screen</color> will gain a 12% <color=#FFE699FF>Geo DMG Bonus</color> for 10s."
+		},
+		{
+			"name_hash": 3990426357,
+			"desc_hash": 3051868187,
+			"ascension": null,
+			"name": "Trove of Marvelous Treasures",
+			"desc": "Displays the location of nearby <color=#FFD780FF>ore veins used in forging</color> on the mini-map."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 2798083633,
+			"name": "Piercing Fragments",
+			"desc_hash": 3095075175,
+			"desc": "When a Normal Attack hits, it deals AoE DMG."
+		},
+		{
+			"name_hash": 3383823929,
+			"name": "Shock Effect",
+			"desc_hash": 215899111,
+			"desc": "When <color=#FFD780FF>Jade Screen</color> is shattered, its CD will reset.\\nCan occur once every 6s."
+		},
+		{
+			"name_hash": 2150334649,
+			"name": "Majesty Be the Array of Stars",
+			"desc_hash": 3390871,
+			"desc": "Increases the Level of <color=#FFD780FF>Starshatter</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 900430793,
+			"name": "Exquisite be the Jade, Outshining All Beneath",
+			"desc_hash": 3712986823,
+			"desc": "<color=#FFD780FF>Jade Screen</color> increases nearby characters' Elemental RES by 10%."
+		},
+		{
+			"name_hash": 276636521,
+			"name": "Invincible Be the Jade Screen",
+			"desc_hash": 1513475887,
+			"desc": "Increases the Level of <color=#FFD780FF>Jade Screen</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 637125593,
+			"name": "Grandeur Be the Seven Stars",
+			"desc_hash": 1654510391,
+			"desc": "When <color=#FFD780FF>Starshatter</color> is used, Ningguang gains 7 Star Jades."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 116451794,
+			"desc_hash": 3980318498,
+			"restricted": false,
+			"name": "Gold Leaf and Pearly Jade",
+			"desc": "Ningguang's outfit. Intricate embroidery is the hallmark of this graceful dress."
+		},
+		"alt": [
+			{
+				"hoyo_id": 340002,
+				"name_hash": 2572106930,
+				"desc_hash": 720597146,
+				"restricted": false,
+				"name": "Orchid's Evening Gown",
+				"desc": "Ningguang's formal wear. The long cyan skirt traces her elegant curves, and the butterfly wings at her ankles lend the outfit a touch of light grace."
+			}
+		]
+	},
+	"special_dish": {
+		"hoyo_id": 108139,
+		"name_hash": 4230919132,
+		"desc_hash": 4182865141,
+		"type_hash": 2992055350,
+		"rarity": 1,
+		"name": "Qiankun Mora Meat",
+		"desc": "Ningguang's specialty. The pastry is perfectly soft and waxy, as is the consistency of the meat, and the honey-like meat juices ooze out as you squeeze it. Wherever did the high and mighty Tianquan Lady Ningguang learn to make this dish?",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 2579625423,
+		"effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+		"original_recipe": "mora_meat"
+	}
+}

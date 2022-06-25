@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 15402,
+	"promote_id": 15402,
+	"gadget_id": 50015402,
+	"story_id": [
+		195402
+	],
+	"skill_affix": [
+		115402,
+		0
+	],
+	"type": "bow",
+	"name_hash": 2556914683,
+	"desc_hash": 1284213621,
+	"name": "The Stringless",
+	"desc": "A bow that once served as an extraordinary instrument. It is no longer capable of getting people up and dancing.",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"Elemental Mastery": 36.0
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"tile_of_decarabians_tower": 3,
+				"heavy_horn": 3,
+				"firm_arrowhead": 2,
+				"mora": 5000
+			},
+			{
+				"debris_of_decarabians_city": 3,
+				"heavy_horn": 12,
+				"firm_arrowhead": 8,
+				"mora": 15000
+			},
+			{
+				"debris_of_decarabians_city": 6,
+				"black_bronze_horn": 6,
+				"sharp_arrowhead": 6,
+				"mora": 20000
+			},
+			{
+				"fragment_of_decarabians_epic": 3,
+				"black_bronze_horn": 12,
+				"sharp_arrowhead": 9,
+				"mora": 30000
+			},
+			{
+				"fragment_of_decarabians_epic": 6,
+				"black_crystal_horn": 9,
+				"weathered_arrowhead": 6,
+				"mora": 35000
+			},
+			{
+				"scattered_piece_of_decarabians_dream": 4,
+				"black_crystal_horn": 18,
+				"weathered_arrowhead": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1839966563,
+		"name": "Arrowless Song",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1154020,
+				"desc_hash": 4139255441,
+				"desc": "Increases Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>24%</color>.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1154021,
+				"desc_hash": 2177504897,
+				"desc": "Increases Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>30%</color>.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1154022,
+				"desc_hash": 4107628401,
+				"desc": "Increases Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>36%</color>.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1154023,
+				"desc_hash": 442434801,
+				"desc": "Increases Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>42%</color>.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1154024,
+				"desc_hash": 3103561353,
+				"desc": "Increases Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>48%</color>.",
+				"cost": 8000
+			}
+		]
+	}
+}

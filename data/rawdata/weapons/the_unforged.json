@@ -1,0 +1,165 @@
+{
+	"hoyo_id": 12504,
+	"promote_id": 12504,
+	"gadget_id": 50012504,
+	"story_id": [
+		192504
+	],
+	"skill_affix": [
+		112504,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 2792766467,
+	"desc_hash": 3341255373,
+	"name": "The Unforged",
+	"desc": "Capable of driving away evil spirits and wicked people alike, this edgeless claymore seems to possess divine might.",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 45.9364013671875,
+		"ATK%": 0.1080000028014183
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_301",
+		"ATK%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"mist_veiled_lead_elixir": 5,
+				"mist_grass_pollen": 5,
+				"treasure_hoarder_insignia": 3,
+				"mora": 10000
+			},
+			{
+				"mist_veiled_mercury_elixir": 5,
+				"mist_grass_pollen": 18,
+				"treasure_hoarder_insignia": 12,
+				"mora": 20000
+			},
+			{
+				"mist_veiled_mercury_elixir": 9,
+				"mist_grass": 9,
+				"silver_raven_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"mist_veiled_gold_elixir": 5,
+				"mist_grass": 18,
+				"silver_raven_insignia": 14,
+				"mora": 45000
+			},
+			{
+				"mist_veiled_gold_elixir": 9,
+				"mist_grass_wick": 14,
+				"golden_raven_insignia": 9,
+				"mora": 55000
+			},
+			{
+				"mist_veiled_primo_elixir": 6,
+				"mist_grass_wick": 27,
+				"golden_raven_insignia": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1405856115,
+		"name": "Golden Majesty",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1125040,
+				"desc_hash": 973881321,
+				"desc": "Increases Shield Strength by <color=#99FFFFFF>20%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>4%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1125041,
+				"desc_hash": 1081483713,
+				"desc": "Increases Shield Strength by <color=#99FFFFFF>25%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>5%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1125042,
+				"desc_hash": 1261646089,
+				"desc": "Increases Shield Strength by <color=#99FFFFFF>30%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>6%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1125043,
+				"desc_hash": 2340517825,
+				"desc": "Increases Shield Strength by <color=#99FFFFFF>35%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>7%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1125044,
+				"desc_hash": 3674872049,
+				"desc": "Increases Shield Strength by <color=#99FFFFFF>40%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>8%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+				"cost": 16000
+			}
+		]
+	}
+}

@@ -1,0 +1,791 @@
+{
+	"hoyo_id": 10000038,
+	"promote_id": 38,
+	"skill_depot_id": 3801,
+	"fetter_id": 126,
+	"weapon": "sword",
+	"name_hash": 4108620722,
+	"desc_hash": 3544652497,
+	"name": "Albedo",
+	"desc": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_BOY",
+	"birthday": [
+		13,
+		9
+	],
+	"region": "mondstadt",
+	"vision_hash": [
+		825986772,
+		3828063489
+	],
+	"astrolabe_hash": [
+		4143774770,
+		126964283
+	],
+	"allegiance_hash": 371846193,
+	"vision": "geo",
+	"astrolabe": "Princeps Cretaceus",
+	"allegiance": "Knights of Favonius",
+	"default_weapon": "dull_blade",
+	"base_stats": {
+		"Base HP": 1029.5855712890625,
+		"Base ATK": 19.551000595092773,
+		"Base DEF": 68.2061996459961,
+		"Crit Rate%": 0.05000000074505806,
+		"Crit DMG%": 0.5
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"prithiva_topaz_sliver": 1,
+				"cecilia": 3,
+				"divining_scroll": 3,
+				"mora": 20000
+			},
+			{
+				"prithiva_topaz_fragment": 3,
+				"basalt_pillar": 2,
+				"cecilia": 10,
+				"divining_scroll": 15,
+				"mora": 40000
+			},
+			{
+				"prithiva_topaz_fragment": 6,
+				"basalt_pillar": 4,
+				"cecilia": 20,
+				"sealed_scroll": 12,
+				"mora": 60000
+			},
+			{
+				"prithiva_topaz_chunk": 3,
+				"basalt_pillar": 8,
+				"cecilia": 30,
+				"sealed_scroll": 18,
+				"mora": 80000
+			},
+			{
+				"prithiva_topaz_chunk": 6,
+				"basalt_pillar": 12,
+				"cecilia": 45,
+				"forbidden_curse_scroll": 12,
+				"mora": 100000
+			},
+			{
+				"prithiva_topaz_gemstone": 6,
+				"basalt_pillar": 20,
+				"cecilia": 60,
+				"forbidden_curse_scroll": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 882.7765502929688,
+					"Base DEF": 58.481998443603516,
+					"Base ATK": 16.76198959350586,
+					"Geo DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1510.0125732421875,
+					"Base DEF": 100.03500366210938,
+					"Base ATK": 28.671825408935547,
+					"Geo DMG%": 0.07199999690055847
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2346.3271484375,
+					"Base DEF": 155.43899536132812,
+					"Base ATK": 44.551605224609375,
+					"Geo DMG%": 0.14399999380111694
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2973.563232421875,
+					"Base DEF": 196.99200439453125,
+					"Base ATK": 56.46144104003906,
+					"Geo DMG%": 0.14399999380111694
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 3600.799072265625,
+					"Base DEF": 238.5449981689453,
+					"Base ATK": 68.37127685546875,
+					"Geo DMG%": 0.2160000056028366
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 4228.03515625,
+					"Base DEF": 280.0979919433594,
+					"Base ATK": 80.28111267089844,
+					"Geo DMG%": 0.2879999876022339
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 1763139317,
+			"desc_hash": 3484591568,
+			"charge_num": 1,
+			"name": "Normal Attack: Favonius Bladework - Weiss",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"forbidden_curse_scroll": 4,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"forbidden_curse_scroll": 6,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"forbidden_curse_scroll": 9,
+					"tusk_of_monoceros_caeli": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"forbidden_curse_scroll": 12,
+					"tusk_of_monoceros_caeli": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"36.74%",
+						"36.74%",
+						"47.45%",
+						"49.75%",
+						"62.07%",
+						"47.3%+60.2%",
+						"20",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"39.73%",
+						"39.73%",
+						"51.32%",
+						"53.8%",
+						"67.13%",
+						"51.15%+65.1%",
+						"20",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"42.72%",
+						"42.72%",
+						"55.18%",
+						"57.85%",
+						"72.18%",
+						"55%+70%",
+						"20",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"46.99%",
+						"46.99%",
+						"60.7%",
+						"63.63%",
+						"79.4%",
+						"60.5%+77%",
+						"20",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"49.98%",
+						"49.98%",
+						"64.56%",
+						"67.68%",
+						"84.45%",
+						"64.35%+81.9%",
+						"20",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"53.4%",
+						"53.4%",
+						"68.98%",
+						"72.31%",
+						"90.22%",
+						"68.75%+87.5%",
+						"20",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"58.1%",
+						"58.1%",
+						"75.04%",
+						"78.68%",
+						"98.16%",
+						"74.8%+95.2%",
+						"20",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"62.8%",
+						"62.8%",
+						"81.11%",
+						"85.04%",
+						"106.1%",
+						"80.85%+102.9%",
+						"20",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"67.5%",
+						"67.5%",
+						"87.18%",
+						"91.4%",
+						"114.04%",
+						"86.9%+110.6%",
+						"20",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"72.62%",
+						"72.62%",
+						"93.81%",
+						"98.34%",
+						"122.7%",
+						"93.5%+119%",
+						"20",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"78.5%",
+						"78.5%",
+						"101.39%",
+						"106.3%",
+						"132.63%",
+						"101.06%+128.62%",
+						"20",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"85.41%",
+						"85.41%",
+						"110.32%",
+						"115.65%",
+						"144.3%",
+						"109.96%+139.94%",
+						"20",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"92.31%",
+						"92.31%",
+						"119.24%",
+						"125.01%",
+						"155.97%",
+						"118.85%+151.26%",
+						"20",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"99.22%",
+						"99.22%",
+						"128.16%",
+						"134.36%",
+						"167.64%",
+						"127.74%+162.58%",
+						"20",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"106.76%",
+						"106.76%",
+						"137.89%",
+						"144.57%",
+						"180.38%",
+						"137.44%+174.93%",
+						"20",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 4277075117,
+			"desc_hash": 706635616,
+			"charge_num": 1,
+			"name": "Abiogenesis: Solar Isotoma",
+			"desc": "Albedo creates a Solar Isotoma using alchemy, which deals <color=#FFE699FF>AoE Geo DMG</color> on appearance.\\n\\n<color=#FFD780FF>Solar Isotoma</color>\\nhas the following properties:\\n\u00b7When opponents within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal <color=#FFE699FF>AoE Geo DMG</color>. DMG dealt scales off Albedo's DEF. \\n\u00b7Transient Blossoms can only be generated once every 2s.\\n\u00b7When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.\\n\u00b7Solar Isotoma is considered a <color=#FFE699FF>Geo construct</color>. Only one Solar Isotoma created by Albedo himself can exist at a time. \\n\\n<color=#FFD780FF>Hold</color> to designate the location of the skill.\\n\\n<i>This Geo bloom has an unusual property mirrored in the aim of alchemy. To rise from the earth, soar into the sky, and become the sun.</i>",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"forbidden_curse_scroll": 4,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"forbidden_curse_scroll": 6,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"forbidden_curse_scroll": 9,
+					"tusk_of_monoceros_caeli": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"forbidden_curse_scroll": 12,
+					"tusk_of_monoceros_caeli": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Transient Blossom DMG",
+					"Duration",
+					"Skill CD"
+				],
+				"values": [
+					[
+						"130.4%",
+						"133.6% DEF",
+						"30s",
+						"4s"
+					],
+					[
+						"140.18%",
+						"143.62% DEF",
+						"30s",
+						"4s"
+					],
+					[
+						"149.96%",
+						"153.64% DEF",
+						"30s",
+						"4s"
+					],
+					[
+						"163%",
+						"167% DEF",
+						"30s",
+						"4s"
+					],
+					[
+						"172.78%",
+						"177.02% DEF",
+						"30s",
+						"4s"
+					],
+					[
+						"182.56%",
+						"187.04% DEF",
+						"30s",
+						"4s"
+					],
+					[
+						"195.6%",
+						"200.4% DEF",
+						"30s",
+						"4s"
+					],
+					[
+						"208.64%",
+						"213.76% DEF",
+						"30s",
+						"4s"
+					],
+					[
+						"221.68%",
+						"227.12% DEF",
+						"30s",
+						"4s"
+					],
+					[
+						"234.72%",
+						"240.48% DEF",
+						"30s",
+						"4s"
+					],
+					[
+						"247.76%",
+						"253.84% DEF",
+						"30s",
+						"4s"
+					],
+					[
+						"260.8%",
+						"267.2% DEF",
+						"30s",
+						"4s"
+					],
+					[
+						"277.1%",
+						"283.9% DEF",
+						"30s",
+						"4s"
+					],
+					[
+						"293.4%",
+						"300.6% DEF",
+						"30s",
+						"4s"
+					],
+					[
+						"309.7%",
+						"317.3% DEF",
+						"30s",
+						"4s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 1170150789,
+			"desc_hash": 4198905856,
+			"charge_num": 1,
+			"name": "Rite of Progeniture: Tectonic Tide",
+			"desc": "Under Albedo's command, Geo crystals surge and burst forth, dealing <color=#FFE699FF>AoE Geo DMG</color> in front of him.\\nIf a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing <color=#FFE699FF>AoE Geo DMG</color>.\\n\\nTectonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.\\n\\n<i>Under the Kreideprinz's command, the tectonic tide of creation seethes into life.</i>",
+			"costs": [
+				{
+					"teachings_of_ballad": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ballad": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ballad": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ballad": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ballad": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ballad": 4,
+					"forbidden_curse_scroll": 4,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ballad": 6,
+					"forbidden_curse_scroll": 6,
+					"tusk_of_monoceros_caeli": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ballad": 12,
+					"forbidden_curse_scroll": 9,
+					"tusk_of_monoceros_caeli": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ballad": 16,
+					"forbidden_curse_scroll": 12,
+					"tusk_of_monoceros_caeli": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Elemental Burst DMG",
+					"Fatal Blossom DMG",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"367.2%",
+						"72% each",
+						"12s",
+						"40"
+					],
+					[
+						"394.74%",
+						"77.4% each",
+						"12s",
+						"40"
+					],
+					[
+						"422.28%",
+						"82.8% each",
+						"12s",
+						"40"
+					],
+					[
+						"459%",
+						"90% each",
+						"12s",
+						"40"
+					],
+					[
+						"486.54%",
+						"95.4% each",
+						"12s",
+						"40"
+					],
+					[
+						"514.08%",
+						"100.8% each",
+						"12s",
+						"40"
+					],
+					[
+						"550.8%",
+						"108% each",
+						"12s",
+						"40"
+					],
+					[
+						"587.52%",
+						"115.2% each",
+						"12s",
+						"40"
+					],
+					[
+						"624.24%",
+						"122.4% each",
+						"12s",
+						"40"
+					],
+					[
+						"660.96%",
+						"129.6% each",
+						"12s",
+						"40"
+					],
+					[
+						"697.68%",
+						"136.8% each",
+						"12s",
+						"40"
+					],
+					[
+						"734.4%",
+						"144% each",
+						"12s",
+						"40"
+					],
+					[
+						"780.3%",
+						"153% each",
+						"12s",
+						"40"
+					],
+					[
+						"826.2%",
+						"162% each",
+						"12s",
+						"40"
+					],
+					[
+						"872.1%",
+						"171% each",
+						"12s",
+						"40"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 1581011589,
+			"desc_hash": 654921947,
+			"ascension": 1,
+			"name": "Calcite Might",
+			"desc": "Transient Blossoms generated by <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> deal 25% more DMG to opponents whose HP is below 50%."
+		},
+		{
+			"name_hash": 442320245,
+			"desc_hash": 1378375771,
+			"ascension": 4,
+			"name": "Homuncular Nature",
+			"desc": "Using <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> increases the Elemental Mastery of nearby party members by 125 for 10s."
+		},
+		{
+			"name_hash": 2878058053,
+			"desc_hash": 810427107,
+			"ascension": null,
+			"name": "Flash of Genius",
+			"desc": "When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 4171208737,
+			"name": "Flower of Eden",
+			"desc_hash": 3462874567,
+			"desc": "Transient Blossoms generated by Albedo's <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> regenerate 1.2 Energy for Albedo."
+		},
+		{
+			"name_hash": 151370681,
+			"name": "Opening of Phanerozoic",
+			"desc_hash": 2243530431,
+			"desc": "Transient Blossoms generated by <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> grant Albedo Fatal Reckoning for 30s:\\n\u00b7Unleashing <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> consumes all stacks of Fatal Reckoning. Each stack of Fatal Reckoning consumed increases the DMG dealt by Fatal Blossoms and Rite of Progeniture: Tectonic Tide's burst DMG by 30% of Albedo's DEF.\\n\u00b7This effect stacks up to 4 times."
+		},
+		{
+			"name_hash": 625211161,
+			"name": "Grace of Helios",
+			"desc_hash": 4113451831,
+			"desc": "Increases the Level of <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 1728244745,
+			"name": "Descent of Divinity",
+			"desc_hash": 1431711711,
+			"desc": "Active party members within the Solar Isotoma field have their Plunging Attack DMG increased by 30%."
+		},
+		{
+			"name_hash": 3896567129,
+			"name": "Tide of Hadean",
+			"desc_hash": 3779396687,
+			"desc": "Increases the Level of <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> by 3.\\nMaximum upgrade level is 15."
+		},
+		{
+			"name_hash": 3605875457,
+			"name": "Dust of Purification",
+			"desc_hash": 2084479351,
+			"desc": "Active party members within the Solar Isotoma field who are protected by a shield created by Crystallize have their DMG increased by 17%."
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 3397577098,
+			"desc_hash": 310650770,
+			"restricted": false,
+			"name": "Newmoon Starlight",
+			"desc": "Albedo's outfit. The Knights of Favonius alchemist's uniform that Albedo often wears when conducting his experiments."
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108214,
+		"name_hash": 4181440108,
+		"desc_hash": 3532958013,
+		"type_hash": 2663264390,
+		"rarity": 3,
+		"name": "Woodland Dream",
+		"desc": "Albedo's specialty. The fruits and vegetables are laid out like grass, and they stand tall like trees. In this miniature world-in-a-plate, you circle the mottled city wall, follow brown alleys, and enter the light orange castle. A sweet, tender taste then bursts forth like a blooming flower. You open your eyes. There is a smile in the white-haired prince's eyes.",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 2115740167,
+		"effect": "Increases all party members' Shield Strength by 35% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+		"original_recipe": "sunshine_sprat"
+	}
+}
