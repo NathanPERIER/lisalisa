@@ -28,5 +28,7 @@ class TrackUpdateDict(dict) :
 	def __setitem__(self, key, value) :
 		str_key = str(key)
 		if str_key in self :
-			logger.warning("Override value for entry %s (%s -> %s)", str_key, str(self[str_key]), str(value))
+			old_val = self[str_key]
+			if old_val != value :
+				logger.warning("Override value for entry %s (%s -> %s)", str_key, str(old_val), str(value))
 		super().__setitem__(str_key, value)
