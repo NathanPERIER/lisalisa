@@ -9,6 +9,7 @@ from characters.info import readInfo
 from characters.skins import readSkins
 from characters.ascensions import readAscensions
 from characters.skills import readSkillsConstellations
+from characters.travelers import readTravelerSkills
 from characters.curves import curves
 from items.recipes import readSpecialDish
 
@@ -45,12 +46,6 @@ def readCharacters() -> "dict[str,Character]" :
 		data = __g_readCharacterBase(char)
 		characters[data.hoyo_id] = data
 
-	for char_id, char in list(characters.items()) :
-		if char.name == 'Traveler' :
-			pass # TODO
-		else :
-			readSkillsConstellations(char)
-
 	readInfo(characters)
 
 	readSkins(characters)
@@ -59,10 +54,14 @@ def readCharacters() -> "dict[str,Character]" :
 
 	res = {}
 	for char in characters.values() :
-		identifier = idFromName(char.name)
-		res[identifier] = char
-		mhy_chars[char.hoyo_id] = identifier
-
+		if char.name == 'Traveler' :
+			res.update(readTravelerSkills(char))
+		else :
+			readSkillsConstellations(char)
+			identifier = idFromName(char.name)
+			res[identifier] = char
+			mhy_chars[char.hoyo_id] = identifier
+		
 	return res
 
 
