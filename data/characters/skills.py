@@ -26,17 +26,16 @@ def readSkillsConstellations(char: Character) :
         return
     depot = depot_search[0]
     # Talents 
-    skills = {
-        'normal_attack': __g_readSkill(depot['skills'][0]),
-        'elemental_skill': __g_readSkill(depot['skills'][1]),
-        'elemental_burst': __g_readSkill(depot['energySkill']),
+    char.talents = {
+        'normal_attack': readSkill(depot['skills'][0]),
+        'elemental_skill': readSkill(depot['skills'][1]),
+        'elemental_burst': readSkill(depot['energySkill']),
         'alternate_sprint': None
     }
     if depot['skills'][2] != 0 :
-        skills['alternate_sprint'] = __g_readSkill(depot['skills'][2], True)
+        char.talents['alternate_sprint'] = readSkill(depot['skills'][2], True)
     if depot['skills'][3] != 0 :
         logger.info('Fourth skill slot (id: %d) used by character %s (%d)', depot['skills'][3], char['name'], char['hoyo_id'])
-    char.talents = skills
     # Passives
     char.passives = [
         __g_readSimpleSkill(talent['proudSkillGroupId'], talent['needAvatarPromoteLevel'] if 'needAvatarPromoteLevel' in talent else None)
@@ -83,7 +82,7 @@ def __g_readSimpleSkill(psg_id: int, ascension: int = None) :
 
 
 # Read a talent from the object that stores all the skills
-def __g_readSkill(skill_id: int, is_sprint = False) -> dict :
+def readSkill(skill_id: int, is_sprint = False) -> dict :
     skill_search = [x for x in skills if x['id'] == skill_id]
     if len(skill_search) != 1 :
         logger.error('No skill found with id %d', skill_id)
