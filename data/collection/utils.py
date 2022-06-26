@@ -20,3 +20,13 @@ def idFromName(name) :
 
 def indexById(l: list, id_field: str = 'id') -> "dict[int,any]" :
     return {x[id_field]: x for x in l}
+
+def groupByField(ld: "list[dict[str,any]]", field: str) -> "dict[str,list[dict[str,any]]]" :
+	res: "dict[str,list[dict[str,any]]]" = {}
+	for d in ld :
+		val = d[field]
+		if val not in res :
+			res[val] = [d]
+		else :
+			res[val].append(d)
+	return res
