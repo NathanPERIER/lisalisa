@@ -509,6 +509,76 @@
 		"desc": "A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
 		"type": "Local Specialty (Liyue)"
 	},
+	"crimson_agate": {
+		"hoyo_id": 107010,
+		"name_hash": 3351602148,
+		"desc_hash": 794477253,
+		"type_hash": 2861844382,
+		"rarity": 1,
+		"name": "Crimson Agate",
+		"desc": "A type of crystal formed from the combination of concentrated life force with an energy unique to Dragonspine. Makes for an ideal nutrient for growing Frostbearing Trees.",
+		"type": "Adventure Item"
+	},
+	"electro_sigil": {
+		"hoyo_id": 304,
+		"name_hash": 1061303060,
+		"desc_hash": 3458734077,
+		"type_hash": 923152598,
+		"rarity": 3,
+		"name": "Electro Sigil",
+		"desc": "A sigil that serves as a sign of the acknowledgment given by the thundering islands of Inazuma.\\nOffer them to the Sacred Sakura of the Grand Narukami Shrine to raise your Sacred Sakura's Favor level.",
+		"type": "City States Sigil"
+	},
+	"lumenspar": {
+		"hoyo_id": 107016,
+		"name_hash": 286070780,
+		"desc_hash": 255282597,
+		"type_hash": 2099674822,
+		"rarity": 1,
+		"name": "Lumenspar",
+		"desc": "A sky-blue crystal that glitters so brightly that it brings forth echoes of the heavens above, which cannot be seen from underground...\\nIf you hold it up to your ear, you can almost hear a soft sigh coming from within.\\nThis might sound strange, but this crystal also gives off a faint warmth.",
+		"type": "Adventure Item"
+	},
+	"lumenstone_ore": {
+		"hoyo_id": 101644,
+		"name_hash": 2133972676,
+		"desc_hash": 2876520989,
+		"type_hash": 3233343662,
+		"rarity": 3,
+		"name": "Lumenstone Ore",
+		"desc": "The raw ore from which Lumenstone may be found. If processed properly, it can be used to strengthen the Lumenstone Adjuvant you have. Why not hit Jinwu up and ask her?",
+		"type": "Adventure Item"
+	},
+	"anemoculus": {
+		"hoyo_id": 107001,
+		"name_hash": 4071443412,
+		"desc_hash": 4079477317,
+		"type_hash": 2361679966,
+		"rarity": 1,
+		"name": "Anemoculus",
+		"desc": "A substance that has accumulated intense Anemo energy. Offer it to the Statue and help reinstate the power it has lost over the years.",
+		"type": "Adventure Item"
+	},
+	"geoculus": {
+		"hoyo_id": 107003,
+		"name_hash": 3020361284,
+		"desc_hash": 693877725,
+		"type_hash": 1004484630,
+		"rarity": 1,
+		"name": "Geoculus",
+		"desc": "A substance that has accumulated intense Geo energy. Offer it to the Statue and help reinstate the power it has lost over the years.",
+		"type": "Adventure Item"
+	},
+	"electroculus": {
+		"hoyo_id": 107014,
+		"name_hash": 2425465436,
+		"desc_hash": 599020085,
+		"type_hash": 3553447150,
+		"rarity": 1,
+		"name": "Electroculus",
+		"desc": "A substance that has accumulated intense Electro energy. Offer it to the Statue and help reinstate the power it has lost over the years.",
+		"type": "Adventure Item"
+	},
 	"festering_dragon_marrow": {
 		"hoyo_id": 200103,
 		"name_hash": 950978516,

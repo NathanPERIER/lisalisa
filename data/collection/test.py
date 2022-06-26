@@ -4,6 +4,14 @@ from utils import saveJson
 from constants import DEST_DIR
 from characters import readCharacters, getCharacterCurves
 from weapons import readWeapons, getWeaponCurves
+from common.cities import readCities
+from exp.adventure_rank import readAdventureRankExp
+from exp.character      import readCharacterExp
+from exp.friendship     import readFriendshipExp
+from exp.offerings      import readOfferingsExp
+from exp.reputation     import readReputationExp
+from exp.statues        import readStatuesExp
+from exp.weapon         import readWeaponExp
 from items.gliders import readGliders
 from items.recipes import readRecipes
 from items import getAutoTranslated
@@ -22,6 +30,38 @@ def main() :
 	recipes = readRecipes()
 	dest_file = os.path.join(DEST_DIR, 'items/recipes.json')
 	saveJson(recipes, dest_file)
+
+	cities = readCities()
+	dest_file = os.path.join(DEST_DIR, 'cities.json')
+	saveJson(cities, dest_file)
+
+	ar_exp = readAdventureRankExp()
+	dest_file = os.path.join(DEST_DIR, 'exp/adventure_rank.json')
+	saveJson(ar_exp, dest_file)
+
+	char_exp = readCharacterExp()
+	dest_file = os.path.join(DEST_DIR, 'exp/character.json')
+	saveJson(char_exp, dest_file)
+
+	friendship_exp = readFriendshipExp()
+	dest_file = os.path.join(DEST_DIR, 'exp/friendship.json')
+	saveJson(friendship_exp, dest_file)
+
+	offerings_exp = readOfferingsExp()
+	dest_file = os.path.join(DEST_DIR, 'exp/offerings.json')
+	saveJson(offerings_exp, dest_file)
+
+	reputation_exp = readReputationExp()
+	dest_file = os.path.join(DEST_DIR, 'exp/reputation.json')
+	saveJson(reputation_exp, dest_file)
+
+	statues_exp = readStatuesExp()
+	dest_file = os.path.join(DEST_DIR, 'exp/statues.json')
+	saveJson(statues_exp, dest_file)
+
+	weapon_exp = readWeaponExp()
+	dest_file = os.path.join(DEST_DIR, 'exp/weapon.json')
+	saveJson(weapon_exp, dest_file)
 
 	weapons = readWeapons()
 	for weapon_id, weapon in weapons.items() :
