@@ -1,0 +1,17 @@
+{
+	"mondstadt": {
+		"hoyo_id": 1,
+		"name_hash": 2257767341,
+		"name": "Mondstadt"
+	},
+	"liyue": {
+		"hoyo_id": 2,
+		"name_hash": 805974487,
+		"name": "Liyue"
+	},
+	"inazuma": {
+		"hoyo_id": 3,
+		"name_hash": 1325371030,
+		"name": "Inazuma"
+	}
+}
