@@ -42,16 +42,16 @@ def __g_readInfo(inf: dict, characters: "dict[str,Character]") :
         inf['avatarVisionBeforTextMapHash'],
         inf['avatarVisionAfterTextMapHash']
     ]
-    data.vision = lang[str(data.vision_hash[0])].lower()
+    data.vision = lang(data.vision_hash[0]).lower()
     data.astrolabe_hash = [
         inf['avatarConstellationBeforTextMapHash'],
         inf['avatarConstellationAfterTextMapHash']
     ]
-    data.astrolabe = lang[str(data.astrolabe_hash[1])]
+    data.astrolabe = lang(data.astrolabe_hash[1])
     if data.astrolabe == '' :
-        data.astrolabe = lang[str(data.astrolabe_hash[0])]
+        data.astrolabe = lang(data.astrolabe_hash[0])
     data.allegiance_hash = inf['avatarNativeTextMapHash']
-    data.allegiance = lang[str(data.allegiance_hash)]
+    data.allegiance = lang(data.allegiance_hash)
     # Translation of `avatarDetailTextMapHash` should be the same as character desc
     # TODO test + warning
     data.region = AssocType[inf['avatarAssocType']]

@@ -66,6 +66,6 @@ def __g_readAbilityEntry(entry: dict) -> dict :
 		'name_hash': entry['nameTextMapHash'],
 		'desc_hash': entry['descTextMapHash']
 	}
-	ability['name'] = lang[str(ability['name_hash'])]
-	ability['desc'] = lang[str(ability['desc_hash'])]
+	ability['name'] = lang(ability['name_hash'])
+	ability['desc'] = lang(ability['desc_hash'])
 	return ability

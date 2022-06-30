@@ -21,8 +21,8 @@ def readGliders() :
 			'name_hash': glider['nameTextMapHash'],
 			'desc_hash': glider['descTextMapHash']
 		}
-		data['name'] = lang[str(data['name_hash'])]
-		data['desc'] = lang[str(data['desc_hash'])]
+		data['name'] = lang(data['name_hash'])
+		data['desc'] = lang(data['desc_hash'])
 		if glider['flycloakId'] != data['hoyo_id'] :
 			logger.info("Glider with id %d has a different material id %s", glider['flycloakId'], data['hoyo_id'])
 		

@@ -29,8 +29,8 @@ def __g_readSkin(skin: dict, characters: "dict[str,Character]") :
         'desc_hash': skin['descTextMapHash'],
         'restricted': skin['hide'] if 'hide' in skin else False
     }
-    data['name'] = lang[str(data['name_hash'])]
-    data['desc'] = lang[str(data['desc_hash'])]
+    data['name'] = lang(data['name_hash'])
+    data['desc'] = lang(data['desc_hash'])
     char_id = skin[CHARACTER_FIELD_NAME]
     char = characters[char_id]
     if 'isDefault' in skin and skin['isDefault'] :
