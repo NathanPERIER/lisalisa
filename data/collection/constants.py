@@ -42,10 +42,11 @@ ITEM_GLIDERS_JSON = os.path.join(EXCEL_DIR, 'AvatarFlycloakExcelConfigData.json'
 ITEM_REWARDS_JSON = os.path.join(EXCEL_DIR, 'RewardExcelConfigData.json')
 
 # Domains
-DOMAIN_DATA_JSON   = os.path.join(EXCEL_DIR, 'DungeonExcelConfigData.json')
-DOMAIN_DAILY_JSON  = os.path.join(EXCEL_DIR, 'DailyDungeonConfigData.json')
-DOMAIN_ENTRY_JSON  = os.path.join(EXCEL_DIR, 'DungeonEntryExcelConfigData.json')
-DOMAIN_POINTS_JSON = os.path.join(BIN_DIR,   'Scene/Point/scene3_point.json')
+DOMAIN_DATA_JSON    = os.path.join(EXCEL_DIR, 'DungeonExcelConfigData.json')
+DOMAIN_DAILY_JSON   = os.path.join(EXCEL_DIR, 'DailyDungeonConfigData.json')
+DOMAIN_ENTRY_JSON   = os.path.join(EXCEL_DIR, 'DungeonEntryExcelConfigData.json')
+DOMAIN_EFFECTS_JSON = os.path.join(EXCEL_DIR, 'DungeonLevelEntityConfigData.json')
+DOMAIN_POINTS_JSON  = os.path.join(BIN_DIR,   'Scene/Point/scene3_point.json')
 
 # Exp
 EXP_FRIENDSHIP_JSON     = os.path.join(EXCEL_DIR, 'AvatarFettersLevelExcelConfigData.json')

@@ -1,7 +1,7 @@
 
 from asyncio.log import logger
 from utils import loadJson, indexById, groupByField
-from constants import DOMAIN_DATA_JSON, DOMAIN_DAILY_JSON, DOMAIN_ENTRY_JSON, DOMAIN_POINTS_JSON
+from constants import DOMAIN_DATA_JSON, DOMAIN_DAILY_JSON, DOMAIN_ENTRY_JSON, DOMAIN_EFFECTS_JSON, DOMAIN_POINTS_JSON
 from translate.textmap import lang, hashForValue
 from translate.mhy import mhy_cities
 
@@ -26,6 +26,7 @@ DUNGEON_NAME_VAL_FIELD = 'PFMFPKFDNEK'
 domains = indexById(loadJson(DOMAIN_DATA_JSON))
 dailies = loadJson(DOMAIN_DAILY_JSON)
 entries = loadJson(DOMAIN_ENTRY_JSON)
+effects = indexById(loadJson(DOMAIN_EFFECTS_JSON))
 points  = loadJson(DOMAIN_POINTS_JSON)['points']
 
 
@@ -36,7 +37,8 @@ def readDomains() : # TODO rewards !!!
 	for ui_type, group in subd_grouped.items() :
 		dungeon_type = group[0]['type'].value # Let's suppose they're all the same
 		dungeon_entry = __g_findDungeonEntry(ui_type, dungeon_type)
-		res.append(__g_formatDungeon(group, dungeon_entry))
+		if dungeon_entry is not None :
+			res.append(__g_formatDungeon(group, dungeon_entry))
 	return res
 
 
@@ -120,10 +122,16 @@ def __g_readSubDungeon(subd: dict) -> "dict[str,any]" :
 	}
 	res['name'] = lang(res['name_hash'])
 	m = level_reg.fullmatch(res['name'])
+	# Get the sub-domain name and level (I, II, III, IV)
 	if m is None :
 		logger.error("Name of sub-dungeon %d does not match the expected format (%s)", 
 						res['hoyo_id'], res['name'])
 	else :
 		res['sub_name'] = m.group(1)
 		res['level'] = SMALL_ROMAN[m.group(2)]
+	# Get the effect(s) applied to players in this sub-domain
+	res['effects_hash'] = [
+		effects[int(e)]['descTextMapHash'] for e in subd['levelConfigMap']
+	]
+	res['effects'] = [lang(effect_hash) for effect_hash in res['effects_hash']]
 	return res
