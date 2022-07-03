@@ -1,0 +1,30 @@
+[
+	{
+		"level": [1, 20],
+		"maxTalent": 1
+	},
+	{
+		"level": [20, 40],
+		"maxTalent": 1
+	},
+	{
+		"level": [40, 50],
+		"maxTalent": 2
+	},
+	{
+		"level": [50, 60],
+		"maxTalent": 4
+	},
+	{
+		"level": [60, 70],
+		"maxTalent": 6
+	},
+	{
+		"level": [70, 80],
+		"maxTalent": 8
+	},
+	{
+		"level": [80, 90],
+		"maxTalent": 10
+	}
+]
