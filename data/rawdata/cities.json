@@ -2,16 +2,87 @@
 	"mondstadt": {
 		"hoyo_id": 1,
 		"name_hash": 2257767341,
-		"name": "Mondstadt"
+		"name": "Mondstadt",
+		"reputation": [
+			400,
+			420,
+			440,
+			460,
+			480,
+			500,
+			520
+		],
+		"statues": {
+			"item": "anemoculus",
+			"counts": [
+				1,
+				2,
+				4,
+				6,
+				7,
+				8,
+				10,
+				12,
+				15
+			]
+		}
 	},
 	"liyue": {
 		"hoyo_id": 2,
 		"name_hash": 805974487,
-		"name": "Liyue"
+		"name": "Liyue",
+		"reputation": [
+			400,
+			420,
+			440,
+			460,
+			480,
+			500,
+			520
+		],
+		"statues": {
+			"item": "geoculus",
+			"counts": [
+				2,
+				4,
+				8,
+				12,
+				14,
+				16,
+				20,
+				24,
+				30
+			]
+		}
 	},
 	"inazuma": {
 		"hoyo_id": 3,
 		"name_hash": 1325371030,
-		"name": "Inazuma"
+		"name": "Inazuma",
+		"reputation": [
+			450,
+			500,
+			550,
+			600,
+			650,
+			700,
+			750,
+			800,
+			850
+		],
+		"statues": {
+			"item": "electroculus",
+			"counts": [
+				10,
+				12,
+				15,
+				18,
+				20,
+				22,
+				25,
+				28,
+				30
+			]
+		}
 	}
 }
