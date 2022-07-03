@@ -46,8 +46,8 @@ def __g_readRecipe(recipe: dict) -> dict :
 		'cook_method': CookingMethod[recipe['cookMethod']],
 		'proficiency': recipe['maxProficiency']
 	}
-	res['name'] = lang[str(res['name_hash'])]
-	res['desc'] = lang[str(res['desc_hash'])]
+	res['name'] = lang(res['name_hash'])
+	res['desc'] = lang(res['desc_hash'])
 	ingredients = {
 		x['id']: x['count']
 		for x in recipe['inputVec']
@@ -84,7 +84,7 @@ def __g_readDish(dish: "dict[str,int]") -> dict :
 	item = readItem(data)
 	item['count'] = dish['count']
 	item['effect_hash'] = data['effectDescTextMapHash']
-	item['effect'] = lang[str(item['effect_hash'])]
+	item['effect'] = lang(item['effect_hash'])
 	identifier = idFromName(item['name'])
 	mhy_items[item['hoyo_id']] = identifier
 	return item

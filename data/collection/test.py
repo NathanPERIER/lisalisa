@@ -14,6 +14,7 @@ from exp.statues        import readStatuesExp
 from exp.weapon         import readWeaponExp
 from items.gliders import readGliders
 from items.recipes import readRecipes
+from items.domains import readDomains
 from items import getAutoTranslated
 
 import os
@@ -34,6 +35,12 @@ def main() :
 	cities = readCities()
 	dest_file = os.path.join(DEST_DIR, 'cities.json')
 	saveJson(cities, dest_file)
+
+	domains = readDomains()
+	dest_file = os.path.join(DEST_DIR, 'domains.json')
+	saveJson(domains, dest_file)
+
+	exit(0)
 
 	ar_exp = readAdventureRankExp()
 	dest_file = os.path.join(DEST_DIR, 'exp/adventure_rank.json')

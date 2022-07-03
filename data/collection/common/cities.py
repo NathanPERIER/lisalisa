@@ -17,7 +17,7 @@ def readCities() -> "dict[str,dict]" :
 			'hoyo_id': data['cityId'],
 			'name_hash': data['cityNameTextMapHash']
 		}
-		city['name'] = lang[str(city['name_hash'])]
+		city['name'] = lang(city['name_hash'])
 		identifier = idFromName(city['name'])
 		mhy_cities[city['hoyo_id']] = identifier
 		res[identifier] = city

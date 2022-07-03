@@ -54,8 +54,8 @@ def __g_readWeaponBase(weapon: dict) -> Weapon :
 	data.type = WeaponType[weapon['weaponType']]
 	data.name_hash = weapon['nameTextMapHash']
 	data.desc_hash = weapon['descTextMapHash']
-	data.name = lang[str(data.name_hash)]
-	data.desc = lang[str(data.desc_hash)]
+	data.name = lang(data.name_hash)
+	data.desc = lang(data.desc_hash)
 	data.rarity = weapon['rankLevel']
 
 	if data.name == '' :

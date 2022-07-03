@@ -86,8 +86,8 @@ def __g_readCharacterBase(char: dict) -> Character :
 
 	data.name_hash = char['nameTextMapHash']
 	data.desc_hash = char['descTextMapHash']
-	data.name = lang[str(data.name_hash)]
-	data.desc = lang[str(data.desc_hash)]
+	data.name = lang(data.name_hash)
+	data.desc = lang(data.desc_hash)
 	# Same as `infoDescTextMapHash` it seems (?)
 	logger.info(data.name)
 

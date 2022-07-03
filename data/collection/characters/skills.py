@@ -56,9 +56,9 @@ def __g_readConstellations(const_ids: "list[int]") -> list :
         cst = constellations[cst_id]
         res.append({
             'name_hash': cst['nameTextMapHash'],
-            'name': lang[str(cst['nameTextMapHash'])],
+            'name': lang(cst['nameTextMapHash']),
             'desc_hash': cst['descTextMapHash'],
-            'desc': lang[str(cst['descTextMapHash'])]
+            'desc': lang(cst['descTextMapHash'])
         })
     return res
 
@@ -76,8 +76,8 @@ def __g_readSimpleSkill(psg_id: int, ascension: int = None) :
         'desc_hash': skill['descTextMapHash'],
         'ascension': ascension
     }
-    res['name'] = lang[str(res['name_hash'])]
-    res['desc'] = lang[str(res['desc_hash'])]
+    res['name'] = lang(res['name_hash'])
+    res['desc'] = lang(res['desc_hash'])
     return res
 
 
@@ -96,8 +96,8 @@ def readSkill(skill_id: int, is_sprint = False) -> dict :
         # 'cost': skill['costElemVal']
         # 'cooldown': skill['cdTime']
     }
-    res['name'] = lang[str(res['name_hash'])]
-    res['desc'] = lang[str(res['desc_hash'])]
+    res['name'] = lang(res['name_hash'])
+    res['desc'] = lang(res['desc_hash'])
     # A talent is associated with a "proud skill group" that contains one entry
     # per level this talent can have, with the stats of this talent
     expected_num = 1 if is_sprint else 15
@@ -147,7 +147,7 @@ def __g_readProudSkill(psk: dict) -> "tuple[dict,int,dict]" :
 def __g_readStats(desc: "list[int]", values: "list[float]") -> dict :
     res = {}
     for d in desc :
-        dsc = lang[str(d)]
+        dsc = lang(d)
         if len(dsc) > 0 :
             __g_readParam(dsc, values, res)
     return res

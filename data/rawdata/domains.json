@@ -1,0 +1,2882 @@
+[
+	{
+		"hoyo_id": 11,
+		"scene_id": 3,
+		"entry_id": 131,
+		"name_hash": 4125572339,
+		"desc_hash": 2189301337,
+		"name": "Taishan Mansion",
+		"desc": "Once, people who sought the path of the adepti had to pass the trials of heaven and earth. Taishan Mansion served as the trial of \"earth.\" Now that the adepti have long departed from this realm, Taishan Mansion has also turned into a common treasure trove.",
+		"type": "talent",
+		"req_ar": 27,
+		"sub_domains": [
+			[
+				{
+					"hoyo_id": 5254,
+					"scene_id": 40100,
+					"reward_id": 21220,
+					"name_hash": 3865809464,
+					"name": "Domain of Mastery: Altar of Flames I",
+					"type": "talent",
+					"city": "liyue",
+					"days": [
+						"monday",
+						"thursday",
+						"sunday"
+					],
+					"sub_name": "Altar of Flames",
+					"level": 1,
+					"effects_hash": [
+						1363988730
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed."
+					],
+					"reco_types": [
+						"Water",
+						"Ice",
+						"Electric"
+					],
+					"reco_level": 38,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1575,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_prosperity"
+					],
+					"ui_type": "UI_DungeonPic_Fire"
+				},
+				{
+					"hoyo_id": 5255,
+					"scene_id": 40101,
+					"reward_id": 21221,
+					"name_hash": 3880233904,
+					"name": "Domain of Mastery: Altar of Flames II",
+					"type": "talent",
+					"city": "liyue",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Altar of Flames",
+					"level": 2,
+					"effects_hash": [
+						1363988730
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed."
+					],
+					"reco_types": [
+						"Water",
+						"Ice",
+						"Electric"
+					],
+					"reco_level": 54,
+					"req_ar": 28,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1800,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_prosperity",
+						"guide_to_prosperity"
+					],
+					"ui_type": "UI_DungeonPic_Fire"
+				},
+				{
+					"hoyo_id": 5256,
+					"scene_id": 40102,
+					"reward_id": 21222,
+					"name_hash": 2079021144,
+					"name": "Domain of Mastery: Altar of Flames III",
+					"type": "talent",
+					"city": "liyue",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Altar of Flames",
+					"level": 3,
+					"effects_hash": [
+						1363988730
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed."
+					],
+					"reco_types": [
+						"Water",
+						"Ice",
+						"Electric"
+					],
+					"reco_level": 71,
+					"req_ar": 36,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2050,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_prosperity",
+						"guide_to_prosperity"
+					],
+					"ui_type": "UI_DungeonPic_Fire"
+				},
+				{
+					"hoyo_id": 5257,
+					"scene_id": 40105,
+					"reward_id": 21223,
+					"name_hash": 1277540640,
+					"name": "Domain of Mastery: Altar of Flames IV",
+					"type": "talent",
+					"city": "liyue",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Altar of Flames",
+					"level": 4,
+					"effects_hash": [
+						1363988730
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed."
+					],
+					"reco_types": [
+						"Water",
+						"Ice",
+						"Electric"
+					],
+					"reco_level": 88,
+					"req_ar": 45,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2375,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_prosperity",
+						"guide_to_prosperity",
+						"philosophies_of_prosperity"
+					],
+					"ui_type": "UI_DungeonPic_Fire"
+				}
+			],
+			[
+				{
+					"hoyo_id": 5258,
+					"scene_id": 40100,
+					"reward_id": 21240,
+					"name_hash": 1941535944,
+					"name": "Domain of Mastery: Heart of the Flames I",
+					"type": "talent",
+					"city": "liyue",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Heart of the Flames",
+					"level": 1,
+					"effects_hash": [
+						1363988730
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed."
+					],
+					"reco_types": [
+						"Water",
+						"Ice",
+						"Electric"
+					],
+					"reco_level": 38,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1575,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_diligence"
+					],
+					"ui_type": "UI_DungeonPic_Fire"
+				},
+				{
+					"hoyo_id": 5259,
+					"scene_id": 40101,
+					"reward_id": 21241,
+					"name_hash": 521274928,
+					"name": "Domain of Mastery: Heart of the Flames II",
+					"type": "talent",
+					"city": "liyue",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Heart of the Flames",
+					"level": 2,
+					"effects_hash": [
+						1363988730
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed."
+					],
+					"reco_types": [
+						"Water",
+						"Ice",
+						"Electric"
+					],
+					"reco_level": 54,
+					"req_ar": 28,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1800,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_diligence",
+						"guide_to_diligence"
+					],
+					"ui_type": "UI_DungeonPic_Fire"
+				},
+				{
+					"hoyo_id": 5260,
+					"scene_id": 40102,
+					"reward_id": 21242,
+					"name_hash": 4156691752,
+					"name": "Domain of Mastery: Heart of the Flames III",
+					"type": "talent",
+					"city": "liyue",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Heart of the Flames",
+					"level": 3,
+					"effects_hash": [
+						1363988730
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed."
+					],
+					"reco_types": [
+						"Water",
+						"Ice",
+						"Electric"
+					],
+					"reco_level": 71,
+					"req_ar": 36,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2050,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_diligence",
+						"guide_to_diligence"
+					],
+					"ui_type": "UI_DungeonPic_Fire"
+				},
+				{
+					"hoyo_id": 5261,
+					"scene_id": 40105,
+					"reward_id": 21243,
+					"name_hash": 3112952152,
+					"name": "Domain of Mastery: Heart of the Flames IV",
+					"type": "talent",
+					"city": "liyue",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Heart of the Flames",
+					"level": 4,
+					"effects_hash": [
+						1363988730
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed."
+					],
+					"reco_types": [
+						"Water",
+						"Ice",
+						"Electric"
+					],
+					"reco_level": 88,
+					"req_ar": 45,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2375,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_diligence",
+						"guide_to_diligence",
+						"philosophies_of_diligence"
+					],
+					"ui_type": "UI_DungeonPic_Fire"
+				}
+			],
+			[
+				{
+					"hoyo_id": 5262,
+					"scene_id": 40100,
+					"reward_id": 21260,
+					"name_hash": 210248768,
+					"name": "Domain of Mastery: Circle of Embers I",
+					"type": "talent",
+					"city": "liyue",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Circle of Embers",
+					"level": 1,
+					"effects_hash": [
+						1363988730
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed."
+					],
+					"reco_types": [
+						"Water",
+						"Ice",
+						"Electric"
+					],
+					"reco_level": 38,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1575,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_gold"
+					],
+					"ui_type": "UI_DungeonPic_Fire"
+				},
+				{
+					"hoyo_id": 5263,
+					"scene_id": 40101,
+					"reward_id": 21261,
+					"name_hash": 1723244808,
+					"name": "Domain of Mastery: Circle of Embers II",
+					"type": "talent",
+					"city": "liyue",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Circle of Embers",
+					"level": 2,
+					"effects_hash": [
+						1363988730
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed."
+					],
+					"reco_types": [
+						"Water",
+						"Ice",
+						"Electric"
+					],
+					"reco_level": 54,
+					"req_ar": 28,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1800,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_gold",
+						"guide_to_gold"
+					],
+					"ui_type": "UI_DungeonPic_Fire"
+				},
+				{
+					"hoyo_id": 5264,
+					"scene_id": 40102,
+					"reward_id": 21262,
+					"name_hash": 62023824,
+					"name": "Domain of Mastery: Circle of Embers III",
+					"type": "talent",
+					"city": "liyue",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Circle of Embers",
+					"level": 3,
+					"effects_hash": [
+						1363988730
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed."
+					],
+					"reco_types": [
+						"Water",
+						"Ice",
+						"Electric"
+					],
+					"reco_level": 71,
+					"req_ar": 36,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2050,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_gold",
+						"guide_to_gold"
+					],
+					"ui_type": "UI_DungeonPic_Fire"
+				},
+				{
+					"hoyo_id": 5265,
+					"scene_id": 40105,
+					"reward_id": 21263,
+					"name_hash": 3840571792,
+					"name": "Domain of Mastery: Circle of Embers IV",
+					"type": "talent",
+					"city": "liyue",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Circle of Embers",
+					"level": 4,
+					"effects_hash": [
+						1363988730
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed."
+					],
+					"reco_types": [
+						"Water",
+						"Ice",
+						"Electric"
+					],
+					"reco_level": 88,
+					"req_ar": 45,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2375,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_gold",
+						"guide_to_gold",
+						"philosophies_of_gold"
+					],
+					"ui_type": "UI_DungeonPic_Fire"
+				}
+			]
+		]
+	},
+	{
+		"hoyo_id": 3,
+		"scene_id": 3,
+		"entry_id": 135,
+		"name_hash": 1528015723,
+		"desc_hash": 1293176289,
+		"name": "Hidden Palace of Lianshan Formula",
+		"desc": "The operation of the Lianshan Formula created endless thunderstorms within the bowels of the mountain. It is said that the rumbling sounds of thunder that one hears outside the domain's gates call out to curious souls.",
+		"type": "weapon",
+		"req_ar": 16,
+		"sub_domains": [
+			[
+				{
+					"hoyo_id": 5214,
+					"scene_id": 40400,
+					"reward_id": 21320,
+					"name_hash": 69726792,
+					"name": "Domain of Forgery: Thundercloud Altar I",
+					"type": "weapon",
+					"city": "liyue",
+					"days": [
+						"monday",
+						"thursday",
+						"sunday"
+					],
+					"sub_name": "Thundercloud Altar",
+					"level": 1,
+					"effects_hash": [
+						1015211514
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed."
+					],
+					"reco_types": [
+						"Fire",
+						"Ice"
+					],
+					"reco_level": 15,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1125,
+						"companionship_exp": 10
+					},
+					"special_items": [
+						"luminous_sands_from_guyun"
+					],
+					"ui_type": "UI_DungeonPic_Thunder"
+				},
+				{
+					"hoyo_id": 5215,
+					"scene_id": 40401,
+					"reward_id": 21321,
+					"name_hash": 1011695904,
+					"name": "Domain of Forgery: Thundercloud Altar II",
+					"type": "weapon",
+					"city": "liyue",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Thundercloud Altar",
+					"level": 2,
+					"effects_hash": [
+						1015211514
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed."
+					],
+					"reco_types": [
+						"Fire",
+						"Ice"
+					],
+					"reco_level": 36,
+					"req_ar": 21,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1550,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"luminous_sands_from_guyun",
+						"lustrous_stone_from_guyun"
+					],
+					"ui_type": "UI_DungeonPic_Thunder"
+				},
+				{
+					"hoyo_id": 5216,
+					"scene_id": 40402,
+					"reward_id": 21322,
+					"name_hash": 3312408336,
+					"name": "Domain of Forgery: Thundercloud Altar III",
+					"type": "weapon",
+					"city": "liyue",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Thundercloud Altar",
+					"level": 3,
+					"effects_hash": [
+						3785968906
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed. Lightning bolts will periodically fall from above, dealing Electro DMG and completely draining the hit character's Energy. Lightning bolts may leave ball lightning."
+					],
+					"reco_types": [
+						"Fire",
+						"Ice"
+					],
+					"reco_level": 59,
+					"req_ar": 30,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1850,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"luminous_sands_from_guyun",
+						"lustrous_stone_from_guyun",
+						"relic_from_guyun"
+					],
+					"ui_type": "UI_DungeonPic_Thunder"
+				},
+				{
+					"hoyo_id": 5217,
+					"scene_id": 40403,
+					"reward_id": 21323,
+					"name_hash": 1642332928,
+					"name": "Domain of Forgery: Thundercloud Altar IV",
+					"type": "weapon",
+					"city": "liyue",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Thundercloud Altar",
+					"level": 4,
+					"effects_hash": [
+						3785968906
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed. Lightning bolts will periodically fall from above, dealing Electro DMG and completely draining the hit character's Energy. Lightning bolts may leave ball lightning."
+					],
+					"reco_types": [
+						"Fire",
+						"Ice"
+					],
+					"reco_level": 80,
+					"req_ar": 40,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2200,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"luminous_sands_from_guyun",
+						"lustrous_stone_from_guyun",
+						"relic_from_guyun",
+						"divine_body_from_guyun"
+					],
+					"ui_type": "UI_DungeonPic_Thunder"
+				}
+			],
+			[
+				{
+					"hoyo_id": 5218,
+					"scene_id": 40400,
+					"reward_id": 21340,
+					"name_hash": 2306535304,
+					"name": "Domain of Forgery: Thundering Ruins I",
+					"type": "weapon",
+					"city": "liyue",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Thundering Ruins",
+					"level": 1,
+					"effects_hash": [
+						1015211514
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed."
+					],
+					"reco_types": [
+						"Fire",
+						"Ice"
+					],
+					"reco_level": 15,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1125,
+						"companionship_exp": 10
+					},
+					"special_items": [
+						"mist_veiled_lead_elixir"
+					],
+					"ui_type": "UI_DungeonPic_Thunder"
+				},
+				{
+					"hoyo_id": 5219,
+					"scene_id": 40401,
+					"reward_id": 21341,
+					"name_hash": 2797023392,
+					"name": "Domain of Forgery: Thundering Ruins II",
+					"type": "weapon",
+					"city": "liyue",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Thundering Ruins",
+					"level": 2,
+					"effects_hash": [
+						1015211514
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed."
+					],
+					"reco_types": [
+						"Fire",
+						"Ice"
+					],
+					"reco_level": 36,
+					"req_ar": 21,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1550,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"mist_veiled_lead_elixir",
+						"mist_veiled_mercury_elixir"
+					],
+					"ui_type": "UI_DungeonPic_Thunder"
+				},
+				{
+					"hoyo_id": 5220,
+					"scene_id": 40402,
+					"reward_id": 21342,
+					"name_hash": 3205919512,
+					"name": "Domain of Forgery: Thundering Ruins III",
+					"type": "weapon",
+					"city": "liyue",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Thundering Ruins",
+					"level": 3,
+					"effects_hash": [
+						3785968906
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed. Lightning bolts will periodically fall from above, dealing Electro DMG and completely draining the hit character's Energy. Lightning bolts may leave ball lightning."
+					],
+					"reco_types": [
+						"Fire",
+						"Ice"
+					],
+					"reco_level": 59,
+					"req_ar": 30,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1850,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"mist_veiled_lead_elixir",
+						"mist_veiled_mercury_elixir",
+						"mist_veiled_gold_elixir"
+					],
+					"ui_type": "UI_DungeonPic_Thunder"
+				},
+				{
+					"hoyo_id": 5221,
+					"scene_id": 40403,
+					"reward_id": 21343,
+					"name_hash": 807039656,
+					"name": "Domain of Forgery: Thundering Ruins IV",
+					"type": "weapon",
+					"city": "liyue",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Thundering Ruins",
+					"level": 4,
+					"effects_hash": [
+						3785968906
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed. Lightning bolts will periodically fall from above, dealing Electro DMG and completely draining the hit character's Energy. Lightning bolts may leave ball lightning."
+					],
+					"reco_types": [
+						"Fire",
+						"Ice"
+					],
+					"reco_level": 80,
+					"req_ar": 40,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2200,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"mist_veiled_lead_elixir",
+						"mist_veiled_mercury_elixir",
+						"mist_veiled_gold_elixir",
+						"mist_veiled_primo_elixir"
+					],
+					"ui_type": "UI_DungeonPic_Thunder"
+				}
+			],
+			[
+				{
+					"hoyo_id": 5222,
+					"scene_id": 40400,
+					"reward_id": 21360,
+					"name_hash": 1661934640,
+					"name": "Domain of Forgery: Trial Grounds of Thunder I",
+					"type": "weapon",
+					"city": "liyue",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Trial Grounds of Thunder",
+					"level": 1,
+					"effects_hash": [
+						1015211514
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed."
+					],
+					"reco_types": [
+						"Fire",
+						"Ice"
+					],
+					"reco_level": 15,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1125,
+						"companionship_exp": 10
+					},
+					"special_items": [
+						"grain_of_aerosiderite"
+					],
+					"ui_type": "UI_DungeonPic_Thunder"
+				},
+				{
+					"hoyo_id": 5223,
+					"scene_id": 40401,
+					"reward_id": 21361,
+					"name_hash": 2994974536,
+					"name": "Domain of Forgery: Trial Grounds of Thunder II",
+					"type": "weapon",
+					"city": "liyue",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Trial Grounds of Thunder",
+					"level": 2,
+					"effects_hash": [
+						1015211514
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed."
+					],
+					"reco_types": [
+						"Fire",
+						"Ice"
+					],
+					"reco_level": 36,
+					"req_ar": 21,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1550,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"grain_of_aerosiderite",
+						"piece_of_aerosiderite"
+					],
+					"ui_type": "UI_DungeonPic_Thunder"
+				},
+				{
+					"hoyo_id": 5224,
+					"scene_id": 40402,
+					"reward_id": 21362,
+					"name_hash": 3771611952,
+					"name": "Domain of Forgery: Trial Grounds of Thunder III",
+					"type": "weapon",
+					"city": "liyue",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Trial Grounds of Thunder",
+					"level": 3,
+					"effects_hash": [
+						3785968906
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed. Lightning bolts will periodically fall from above, dealing Electro DMG and completely draining the hit character's Energy. Lightning bolts may leave ball lightning."
+					],
+					"reco_types": [
+						"Fire",
+						"Ice"
+					],
+					"reco_level": 59,
+					"req_ar": 30,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1850,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"grain_of_aerosiderite",
+						"piece_of_aerosiderite",
+						"bit_of_aerosiderite"
+					],
+					"ui_type": "UI_DungeonPic_Thunder"
+				},
+				{
+					"hoyo_id": 5225,
+					"scene_id": 40403,
+					"reward_id": 21363,
+					"name_hash": 3253569800,
+					"name": "Domain of Forgery: Trial Grounds of Thunder IV",
+					"type": "weapon",
+					"city": "liyue",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Trial Grounds of Thunder",
+					"level": 4,
+					"effects_hash": [
+						3785968906
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed. Lightning bolts will periodically fall from above, dealing Electro DMG and completely draining the hit character's Energy. Lightning bolts may leave ball lightning."
+					],
+					"reco_types": [
+						"Fire",
+						"Ice"
+					],
+					"reco_level": 80,
+					"req_ar": 40,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2200,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"grain_of_aerosiderite",
+						"piece_of_aerosiderite",
+						"bit_of_aerosiderite",
+						"chunk_of_aerosiderite"
+					],
+					"ui_type": "UI_DungeonPic_Thunder"
+				}
+			]
+		]
+	},
+	{
+		"hoyo_id": 10,
+		"scene_id": 3,
+		"entry_id": 44,
+		"name_hash": 101348795,
+		"desc_hash": 2905358345,
+		"name": "Forsaken Rift",
+		"desc": "It is said that in ancient times, people would venture into the valley to seek out the ancient tree on the altar. They would whisper their secrets into the tree hollow, relieving themselves of the burden of keeping the secrets to themselves. The Forsaken Rift is filled with such long-forgotten secrets.",
+		"type": "talent",
+		"req_ar": 27,
+		"sub_domains": [
+			[
+				{
+					"hoyo_id": 4210,
+					"scene_id": 40200,
+					"reward_id": 20220,
+					"name_hash": 900738856,
+					"name": "Domain of Mastery: Frosted Altar I",
+					"type": "talent",
+					"city": "mondstadt",
+					"days": [
+						"monday",
+						"thursday",
+						"sunday"
+					],
+					"sub_name": "Frosted Altar",
+					"level": 1,
+					"effects_hash": [
+						282939290
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption until the inflicted Cryo element is removed."
+					],
+					"reco_types": [
+						"Electric",
+						"Fire"
+					],
+					"reco_level": 38,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1575,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_freedom"
+					],
+					"ui_type": "UI_DungeonPic_Ice"
+				},
+				{
+					"hoyo_id": 4211,
+					"scene_id": 40201,
+					"reward_id": 20221,
+					"name_hash": 3030704560,
+					"name": "Domain of Mastery: Frosted Altar II",
+					"type": "talent",
+					"city": "mondstadt",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Frosted Altar",
+					"level": 2,
+					"effects_hash": [
+						282939290
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption until the inflicted Cryo element is removed."
+					],
+					"reco_types": [
+						"Electric",
+						"Fire"
+					],
+					"reco_level": 54,
+					"req_ar": 28,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1800,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_freedom",
+						"guide_to_freedom"
+					],
+					"ui_type": "UI_DungeonPic_Ice"
+				},
+				{
+					"hoyo_id": 4212,
+					"scene_id": 40202,
+					"reward_id": 20222,
+					"name_hash": 3463347400,
+					"name": "Domain of Mastery: Frosted Altar III",
+					"type": "talent",
+					"city": "mondstadt",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Frosted Altar",
+					"level": 3,
+					"effects_hash": [
+						2739839178
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption until the inflicted Cryo element is removed. Icicles will periodically fall from above, dealing Cryo DMG."
+					],
+					"reco_types": [
+						"Electric",
+						"Fire"
+					],
+					"reco_level": 71,
+					"req_ar": 36,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2050,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_freedom",
+						"guide_to_freedom"
+					],
+					"ui_type": "UI_DungeonPic_Ice"
+				},
+				{
+					"hoyo_id": 4213,
+					"scene_id": 40203,
+					"reward_id": 20223,
+					"name_hash": 2996957920,
+					"name": "Domain of Mastery: Frosted Altar IV",
+					"type": "talent",
+					"city": "mondstadt",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Frosted Altar",
+					"level": 4,
+					"effects_hash": [
+						2739839178
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption until the inflicted Cryo element is removed. Icicles will periodically fall from above, dealing Cryo DMG."
+					],
+					"reco_types": [
+						"Electric",
+						"Fire"
+					],
+					"reco_level": 88,
+					"req_ar": 45,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2375,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_freedom",
+						"guide_to_freedom",
+						"philosophies_of_freedom"
+					],
+					"ui_type": "UI_DungeonPic_Ice"
+				}
+			],
+			[
+				{
+					"hoyo_id": 4220,
+					"scene_id": 40200,
+					"reward_id": 20240,
+					"name_hash": 2869869656,
+					"name": "Domain of Mastery: Frozen Abyss I",
+					"type": "talent",
+					"city": "mondstadt",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Frozen Abyss",
+					"level": 1,
+					"effects_hash": [
+						282939290
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption until the inflicted Cryo element is removed."
+					],
+					"reco_types": [
+						"Electric",
+						"Fire"
+					],
+					"reco_level": 38,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1575,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_resistance"
+					],
+					"ui_type": "UI_DungeonPic_Ice"
+				},
+				{
+					"hoyo_id": 4221,
+					"scene_id": 40201,
+					"reward_id": 20241,
+					"name_hash": 4195085352,
+					"name": "Domain of Mastery: Frozen Abyss II",
+					"type": "talent",
+					"city": "mondstadt",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Frozen Abyss",
+					"level": 2,
+					"effects_hash": [
+						282939290
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption until the inflicted Cryo element is removed."
+					],
+					"reco_types": [
+						"Electric",
+						"Fire"
+					],
+					"reco_level": 54,
+					"req_ar": 28,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1800,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_resistance",
+						"guide_to_resistance"
+					],
+					"ui_type": "UI_DungeonPic_Ice"
+				},
+				{
+					"hoyo_id": 4222,
+					"scene_id": 40202,
+					"reward_id": 20242,
+					"name_hash": 1639764256,
+					"name": "Domain of Mastery: Frozen Abyss III",
+					"type": "talent",
+					"city": "mondstadt",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Frozen Abyss",
+					"level": 3,
+					"effects_hash": [
+						2739839178
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption until the inflicted Cryo element is removed. Icicles will periodically fall from above, dealing Cryo DMG."
+					],
+					"reco_types": [
+						"Electric",
+						"Fire"
+					],
+					"reco_level": 71,
+					"req_ar": 36,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2050,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_resistance",
+						"guide_to_resistance"
+					],
+					"ui_type": "UI_DungeonPic_Ice"
+				},
+				{
+					"hoyo_id": 4223,
+					"scene_id": 40203,
+					"reward_id": 20243,
+					"name_hash": 2969853976,
+					"name": "Domain of Mastery: Frozen Abyss IV",
+					"type": "talent",
+					"city": "mondstadt",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Frozen Abyss",
+					"level": 4,
+					"effects_hash": [
+						2739839178
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption until the inflicted Cryo element is removed. Icicles will periodically fall from above, dealing Cryo DMG."
+					],
+					"reco_types": [
+						"Electric",
+						"Fire"
+					],
+					"reco_level": 88,
+					"req_ar": 45,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2375,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_resistance",
+						"guide_to_resistance",
+						"philosophies_of_resistance"
+					],
+					"ui_type": "UI_DungeonPic_Ice"
+				}
+			],
+			[
+				{
+					"hoyo_id": 4230,
+					"scene_id": 40200,
+					"reward_id": 20260,
+					"name_hash": 4253749544,
+					"name": "Domain of Mastery: Realm of Slumber I",
+					"type": "talent",
+					"city": "mondstadt",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Realm of Slumber",
+					"level": 1,
+					"effects_hash": [
+						282939290
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption until the inflicted Cryo element is removed."
+					],
+					"reco_types": [
+						"Electric",
+						"Fire"
+					],
+					"reco_level": 38,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1575,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_ballad"
+					],
+					"ui_type": "UI_DungeonPic_Ice"
+				},
+				{
+					"hoyo_id": 4231,
+					"scene_id": 40201,
+					"reward_id": 20261,
+					"name_hash": 3895049776,
+					"name": "Domain of Mastery: Realm of Slumber II",
+					"type": "talent",
+					"city": "mondstadt",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Realm of Slumber",
+					"level": 2,
+					"effects_hash": [
+						282939290
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption until the inflicted Cryo element is removed."
+					],
+					"reco_types": [
+						"Electric",
+						"Fire"
+					],
+					"reco_level": 54,
+					"req_ar": 28,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1800,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_ballad",
+						"guide_to_ballad"
+					],
+					"ui_type": "UI_DungeonPic_Ice"
+				},
+				{
+					"hoyo_id": 4232,
+					"scene_id": 40202,
+					"reward_id": 20262,
+					"name_hash": 2484922872,
+					"name": "Domain of Mastery: Realm of Slumber III",
+					"type": "talent",
+					"city": "mondstadt",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Realm of Slumber",
+					"level": 3,
+					"effects_hash": [
+						2739839178
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption until the inflicted Cryo element is removed. Icicles will periodically fall from above, dealing Cryo DMG."
+					],
+					"reco_types": [
+						"Electric",
+						"Fire"
+					],
+					"reco_level": 71,
+					"req_ar": 36,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2050,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_ballad",
+						"guide_to_ballad"
+					],
+					"ui_type": "UI_DungeonPic_Ice"
+				},
+				{
+					"hoyo_id": 4233,
+					"scene_id": 40203,
+					"reward_id": 20263,
+					"name_hash": 1578875816,
+					"name": "Domain of Mastery: Realm of Slumber IV",
+					"type": "talent",
+					"city": "mondstadt",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Realm of Slumber",
+					"level": 4,
+					"effects_hash": [
+						2739839178
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption until the inflicted Cryo element is removed. Icicles will periodically fall from above, dealing Cryo DMG."
+					],
+					"reco_types": [
+						"Electric",
+						"Fire"
+					],
+					"reco_level": 88,
+					"req_ar": 45,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2375,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_ballad",
+						"guide_to_ballad",
+						"philosophies_of_ballad"
+					],
+					"ui_type": "UI_DungeonPic_Ice"
+				}
+			]
+		]
+	},
+	{
+		"hoyo_id": 2,
+		"scene_id": 3,
+		"entry_id": 50,
+		"name_hash": 256212147,
+		"desc_hash": 3914992809,
+		"name": "Cecilia Garden",
+		"desc": "The Cecilia flowers that only grow on high cliffs once bloomed in the greenhouses here. The ancient civilization that once enjoyed the scent of the Cecilia was lost, and so too was the sea of white flowers.",
+		"type": "weapon",
+		"req_ar": 16,
+		"sub_domains": [
+			[
+				{
+					"hoyo_id": 4310,
+					"scene_id": 40300,
+					"reward_id": 20320,
+					"name_hash": 3767780192,
+					"name": "Domain of Forgery: City of Reflections I",
+					"type": "weapon",
+					"city": "mondstadt",
+					"days": [
+						"monday",
+						"thursday",
+						"sunday"
+					],
+					"sub_name": "City of Reflections",
+					"level": 1,
+					"effects_hash": [
+						3115449794
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed."
+					],
+					"reco_types": [
+						"Ice",
+						"Fire",
+						"Electric"
+					],
+					"reco_level": 15,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1125,
+						"companionship_exp": 10
+					},
+					"special_items": [
+						"tile_of_decarabians_tower"
+					],
+					"ui_type": "UI_DungeonPic_Water"
+				},
+				{
+					"hoyo_id": 4311,
+					"scene_id": 40301,
+					"reward_id": 20321,
+					"name_hash": 654377176,
+					"name": "Domain of Forgery: City of Reflections II",
+					"type": "weapon",
+					"city": "mondstadt",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "City of Reflections",
+					"level": 2,
+					"effects_hash": [
+						3115449794
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed."
+					],
+					"reco_types": [
+						"Ice",
+						"Fire",
+						"Electric"
+					],
+					"reco_level": 36,
+					"req_ar": 21,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1550,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"tile_of_decarabians_tower",
+						"debris_of_decarabians_city"
+					],
+					"ui_type": "UI_DungeonPic_Water"
+				},
+				{
+					"hoyo_id": 4312,
+					"scene_id": 40302,
+					"reward_id": 20322,
+					"name_hash": 3128392216,
+					"name": "Domain of Forgery: City of Reflections III",
+					"type": "weapon",
+					"city": "mondstadt",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "City of Reflections",
+					"level": 3,
+					"effects_hash": [
+						3115449794
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed."
+					],
+					"reco_types": [
+						"Ice",
+						"Fire",
+						"Electric"
+					],
+					"reco_level": 59,
+					"req_ar": 30,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1850,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"tile_of_decarabians_tower",
+						"debris_of_decarabians_city",
+						"fragment_of_decarabians_epic"
+					],
+					"ui_type": "UI_DungeonPic_Water"
+				},
+				{
+					"hoyo_id": 4313,
+					"scene_id": 40303,
+					"reward_id": 20323,
+					"name_hash": 278054048,
+					"name": "Domain of Forgery: City of Reflections IV",
+					"type": "weapon",
+					"city": "mondstadt",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "City of Reflections",
+					"level": 4,
+					"effects_hash": [
+						3115449794
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed."
+					],
+					"reco_types": [
+						"Ice",
+						"Fire",
+						"Electric"
+					],
+					"reco_level": 80,
+					"req_ar": 40,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2200,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"tile_of_decarabians_tower",
+						"debris_of_decarabians_city",
+						"fragment_of_decarabians_epic",
+						"scattered_piece_of_decarabians_dream"
+					],
+					"ui_type": "UI_DungeonPic_Water"
+				}
+			],
+			[
+				{
+					"hoyo_id": 4320,
+					"scene_id": 40300,
+					"reward_id": 20340,
+					"name_hash": 493181496,
+					"name": "Domain of Forgery: Submerged Valley I",
+					"type": "weapon",
+					"city": "mondstadt",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Submerged Valley",
+					"level": 1,
+					"effects_hash": [
+						3115449794
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed."
+					],
+					"reco_types": [
+						"Ice",
+						"Fire",
+						"Electric"
+					],
+					"reco_level": 15,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1125,
+						"companionship_exp": 10
+					},
+					"special_items": [
+						"boreal_wolfs_milk_tooth"
+					],
+					"ui_type": "UI_DungeonPic_Water"
+				},
+				{
+					"hoyo_id": 4321,
+					"scene_id": 40301,
+					"reward_id": 20341,
+					"name_hash": 3729505792,
+					"name": "Domain of Forgery: Submerged Valley II",
+					"type": "weapon",
+					"city": "mondstadt",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Submerged Valley",
+					"level": 2,
+					"effects_hash": [
+						3115449794
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed."
+					],
+					"reco_types": [
+						"Ice",
+						"Fire",
+						"Electric"
+					],
+					"reco_level": 36,
+					"req_ar": 21,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1550,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"boreal_wolfs_milk_tooth",
+						"boreal_wolfs_cracked_tooth"
+					],
+					"ui_type": "UI_DungeonPic_Water"
+				},
+				{
+					"hoyo_id": 4322,
+					"scene_id": 40302,
+					"reward_id": 20342,
+					"name_hash": 912527800,
+					"name": "Domain of Forgery: Submerged Valley III",
+					"type": "weapon",
+					"city": "mondstadt",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Submerged Valley",
+					"level": 3,
+					"effects_hash": [
+						3115449794
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed."
+					],
+					"reco_types": [
+						"Ice",
+						"Fire",
+						"Electric"
+					],
+					"reco_level": 59,
+					"req_ar": 30,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1850,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"boreal_wolfs_milk_tooth",
+						"boreal_wolfs_cracked_tooth",
+						"boreal_wolfs_broken_fang"
+					],
+					"ui_type": "UI_DungeonPic_Water"
+				},
+				{
+					"hoyo_id": 4323,
+					"scene_id": 40303,
+					"reward_id": 20343,
+					"name_hash": 1878512080,
+					"name": "Domain of Forgery: Submerged Valley IV",
+					"type": "weapon",
+					"city": "mondstadt",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Submerged Valley",
+					"level": 4,
+					"effects_hash": [
+						3115449794
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed."
+					],
+					"reco_types": [
+						"Ice",
+						"Fire",
+						"Electric"
+					],
+					"reco_level": 80,
+					"req_ar": 40,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2200,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"boreal_wolfs_milk_tooth",
+						"boreal_wolfs_cracked_tooth",
+						"boreal_wolfs_broken_fang",
+						"boreal_wolfs_nostalgia"
+					],
+					"ui_type": "UI_DungeonPic_Water"
+				}
+			],
+			[
+				{
+					"hoyo_id": 4330,
+					"scene_id": 40300,
+					"reward_id": 20360,
+					"name_hash": 3887018080,
+					"name": "Domain of Forgery: Ruins of Thirsting Capital I",
+					"type": "weapon",
+					"city": "mondstadt",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Ruins of Thirsting Capital",
+					"level": 1,
+					"effects_hash": [
+						3115449794
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed."
+					],
+					"reco_types": [
+						"Ice",
+						"Fire",
+						"Electric"
+					],
+					"reco_level": 15,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1125,
+						"companionship_exp": 10
+					},
+					"special_items": [
+						"fetters_of_the_dandelion_gladiator"
+					],
+					"ui_type": "UI_DungeonPic_Water"
+				},
+				{
+					"hoyo_id": 4331,
+					"scene_id": 40301,
+					"reward_id": 20361,
+					"name_hash": 317562400,
+					"name": "Domain of Forgery: Ruins of Thirsting Capital II",
+					"type": "weapon",
+					"city": "mondstadt",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Ruins of Thirsting Capital",
+					"level": 2,
+					"effects_hash": [
+						3115449794
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed."
+					],
+					"reco_types": [
+						"Ice",
+						"Fire",
+						"Electric"
+					],
+					"reco_level": 36,
+					"req_ar": 21,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1550,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"fetters_of_the_dandelion_gladiator",
+						"chains_of_the_dandelion_gladiator"
+					],
+					"ui_type": "UI_DungeonPic_Water"
+				},
+				{
+					"hoyo_id": 4332,
+					"scene_id": 40302,
+					"reward_id": 20362,
+					"name_hash": 1476111544,
+					"name": "Domain of Forgery: Ruins of Thirsting Capital III",
+					"type": "weapon",
+					"city": "mondstadt",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Ruins of Thirsting Capital",
+					"level": 3,
+					"effects_hash": [
+						3115449794
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed."
+					],
+					"reco_types": [
+						"Ice",
+						"Fire",
+						"Electric"
+					],
+					"reco_level": 59,
+					"req_ar": 30,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1850,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"fetters_of_the_dandelion_gladiator",
+						"chains_of_the_dandelion_gladiator",
+						"shackles_of_the_dandelion_gladiator"
+					],
+					"ui_type": "UI_DungeonPic_Water"
+				},
+				{
+					"hoyo_id": 4333,
+					"scene_id": 40303,
+					"reward_id": 20363,
+					"name_hash": 2681612976,
+					"name": "Domain of Forgery: Ruins of Thirsting Capital IV",
+					"type": "weapon",
+					"city": "mondstadt",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Ruins of Thirsting Capital",
+					"level": 4,
+					"effects_hash": [
+						3115449794
+					],
+					"effects": [
+						"Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed."
+					],
+					"reco_types": [
+						"Ice",
+						"Fire",
+						"Electric"
+					],
+					"reco_level": 80,
+					"req_ar": 40,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2200,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"fetters_of_the_dandelion_gladiator",
+						"chains_of_the_dandelion_gladiator",
+						"shackles_of_the_dandelion_gladiator",
+						"dream_of_the_dandelion_gladiator"
+					],
+					"ui_type": "UI_DungeonPic_Water"
+				}
+			]
+		]
+	},
+	{
+		"hoyo_id": 15,
+		"scene_id": 3,
+		"entry_id": 310,
+		"name_hash": 4049350667,
+		"desc_hash": 1335742113,
+		"name": "Violet Court",
+		"desc": "Sometime in the ancient past, the mountains rose higher than the skies, and the earth was larger than heaven's dome. But one day, the mirror shattered, and the oceans arose. In these legends, this caused the court of the primeval sakura to become sundered from the other islands.",
+		"type": "talent",
+		"req_ar": 30,
+		"sub_domains": [
+			[
+				{
+					"hoyo_id": 4400,
+					"scene_id": 40950,
+					"reward_id": 22220,
+					"name_hash": 1913699448,
+					"name": "Domain of Mastery: Reign of Violet I",
+					"type": "talent",
+					"city": "inazuma",
+					"days": [
+						"monday",
+						"thursday",
+						"sunday"
+					],
+					"sub_name": "Reign of Violet",
+					"level": 1,
+					"effects_hash": [
+						2565591002
+					],
+					"effects": [
+						"Inside the challenge is Electro Crystalfruit, and Nascent Electro Pearls will emerge at intervals. After obtaining Nascent Electro Pearls, a character's Normal Attack, Charged Attack, Plunging Attack, Elemental Skill and Elemental Burst will unleash Falling Thunder upon hitting enemies, dealing Electro DMG."
+					],
+					"reco_types": [
+						"Electric"
+					],
+					"reco_level": 38,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1575,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_transience"
+					],
+					"ui_type": "UI_DungeonPic_Thunder_Dq"
+				},
+				{
+					"hoyo_id": 4401,
+					"scene_id": 40951,
+					"reward_id": 22221,
+					"name_hash": 2212828720,
+					"name": "Domain of Mastery: Reign of Violet II",
+					"type": "talent",
+					"city": "inazuma",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Reign of Violet",
+					"level": 2,
+					"effects_hash": [
+						2565591002
+					],
+					"effects": [
+						"Inside the challenge is Electro Crystalfruit, and Nascent Electro Pearls will emerge at intervals. After obtaining Nascent Electro Pearls, a character's Normal Attack, Charged Attack, Plunging Attack, Elemental Skill and Elemental Burst will unleash Falling Thunder upon hitting enemies, dealing Electro DMG."
+					],
+					"reco_types": [
+						"Electric"
+					],
+					"reco_level": 54,
+					"req_ar": 28,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1800,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_transience",
+						"guide_to_transience"
+					],
+					"ui_type": "UI_DungeonPic_Thunder_Dq"
+				},
+				{
+					"hoyo_id": 4402,
+					"scene_id": 40952,
+					"reward_id": 22222,
+					"name_hash": 1513559576,
+					"name": "Domain of Mastery: Reign of Violet III",
+					"type": "talent",
+					"city": "inazuma",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Reign of Violet",
+					"level": 3,
+					"effects_hash": [
+						2565591002
+					],
+					"effects": [
+						"Inside the challenge is Electro Crystalfruit, and Nascent Electro Pearls will emerge at intervals. After obtaining Nascent Electro Pearls, a character's Normal Attack, Charged Attack, Plunging Attack, Elemental Skill and Elemental Burst will unleash Falling Thunder upon hitting enemies, dealing Electro DMG."
+					],
+					"reco_types": [
+						"Electric"
+					],
+					"reco_level": 71,
+					"req_ar": 36,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2050,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_transience",
+						"guide_to_transience"
+					],
+					"ui_type": "UI_DungeonPic_Thunder_Dq"
+				},
+				{
+					"hoyo_id": 4403,
+					"scene_id": 40953,
+					"reward_id": 22223,
+					"name_hash": 3320846232,
+					"name": "Domain of Mastery: Reign of Violet IV",
+					"type": "talent",
+					"city": "inazuma",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Reign of Violet",
+					"level": 4,
+					"effects_hash": [
+						2565591002
+					],
+					"effects": [
+						"Inside the challenge is Electro Crystalfruit, and Nascent Electro Pearls will emerge at intervals. After obtaining Nascent Electro Pearls, a character's Normal Attack, Charged Attack, Plunging Attack, Elemental Skill and Elemental Burst will unleash Falling Thunder upon hitting enemies, dealing Electro DMG."
+					],
+					"reco_types": [
+						"Electric"
+					],
+					"reco_level": 88,
+					"req_ar": 45,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2375,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_transience",
+						"guide_to_transience",
+						"philosophies_of_transience"
+					],
+					"ui_type": "UI_DungeonPic_Thunder_Dq"
+				}
+			],
+			[
+				{
+					"hoyo_id": 4410,
+					"scene_id": 40950,
+					"reward_id": 22240,
+					"name_hash": 3881062216,
+					"name": "Domain of Mastery: Thundering Valley I",
+					"type": "talent",
+					"city": "inazuma",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Thundering Valley",
+					"level": 1,
+					"effects_hash": [
+						2565591002
+					],
+					"effects": [
+						"Inside the challenge is Electro Crystalfruit, and Nascent Electro Pearls will emerge at intervals. After obtaining Nascent Electro Pearls, a character's Normal Attack, Charged Attack, Plunging Attack, Elemental Skill and Elemental Burst will unleash Falling Thunder upon hitting enemies, dealing Electro DMG."
+					],
+					"reco_types": [
+						"Electric"
+					],
+					"reco_level": 38,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1575,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_elegance"
+					],
+					"ui_type": "UI_DungeonPic_Thunder_Dq"
+				},
+				{
+					"hoyo_id": 4411,
+					"scene_id": 40951,
+					"reward_id": 22241,
+					"name_hash": 946368720,
+					"name": "Domain of Mastery: Thundering Valley II",
+					"type": "talent",
+					"city": "inazuma",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Thundering Valley",
+					"level": 2,
+					"effects_hash": [
+						2565591002
+					],
+					"effects": [
+						"Inside the challenge is Electro Crystalfruit, and Nascent Electro Pearls will emerge at intervals. After obtaining Nascent Electro Pearls, a character's Normal Attack, Charged Attack, Plunging Attack, Elemental Skill and Elemental Burst will unleash Falling Thunder upon hitting enemies, dealing Electro DMG."
+					],
+					"reco_types": [
+						"Electric"
+					],
+					"reco_level": 54,
+					"req_ar": 28,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1800,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_elegance",
+						"guide_to_elegance"
+					],
+					"ui_type": "UI_DungeonPic_Thunder_Dq"
+				},
+				{
+					"hoyo_id": 4412,
+					"scene_id": 40952,
+					"reward_id": 22242,
+					"name_hash": 1698302000,
+					"name": "Domain of Mastery: Thundering Valley III",
+					"type": "talent",
+					"city": "inazuma",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Thundering Valley",
+					"level": 3,
+					"effects_hash": [
+						2565591002
+					],
+					"effects": [
+						"Inside the challenge is Electro Crystalfruit, and Nascent Electro Pearls will emerge at intervals. After obtaining Nascent Electro Pearls, a character's Normal Attack, Charged Attack, Plunging Attack, Elemental Skill and Elemental Burst will unleash Falling Thunder upon hitting enemies, dealing Electro DMG."
+					],
+					"reco_types": [
+						"Electric"
+					],
+					"reco_level": 71,
+					"req_ar": 36,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2050,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_elegance",
+						"guide_to_elegance"
+					],
+					"ui_type": "UI_DungeonPic_Thunder_Dq"
+				},
+				{
+					"hoyo_id": 4413,
+					"scene_id": 40953,
+					"reward_id": 22243,
+					"name_hash": 3225743440,
+					"name": "Domain of Mastery: Thundering Valley IV",
+					"type": "talent",
+					"city": "inazuma",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Thundering Valley",
+					"level": 4,
+					"effects_hash": [
+						2565591002
+					],
+					"effects": [
+						"Inside the challenge is Electro Crystalfruit, and Nascent Electro Pearls will emerge at intervals. After obtaining Nascent Electro Pearls, a character's Normal Attack, Charged Attack, Plunging Attack, Elemental Skill and Elemental Burst will unleash Falling Thunder upon hitting enemies, dealing Electro DMG."
+					],
+					"reco_types": [
+						"Electric"
+					],
+					"reco_level": 88,
+					"req_ar": 45,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2375,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_elegance",
+						"guide_to_elegance",
+						"philosophies_of_elegance"
+					],
+					"ui_type": "UI_DungeonPic_Thunder_Dq"
+				}
+			],
+			[
+				{
+					"hoyo_id": 4420,
+					"scene_id": 40950,
+					"reward_id": 22260,
+					"name_hash": 1150962416,
+					"name": "Domain of Mastery: Vine-Infested Ruins I",
+					"type": "talent",
+					"city": "inazuma",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Vine-Infested Ruins",
+					"level": 1,
+					"effects_hash": [
+						2565591002
+					],
+					"effects": [
+						"Inside the challenge is Electro Crystalfruit, and Nascent Electro Pearls will emerge at intervals. After obtaining Nascent Electro Pearls, a character's Normal Attack, Charged Attack, Plunging Attack, Elemental Skill and Elemental Burst will unleash Falling Thunder upon hitting enemies, dealing Electro DMG."
+					],
+					"reco_types": [
+						"Electric"
+					],
+					"reco_level": 38,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1575,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_light"
+					],
+					"ui_type": "UI_DungeonPic_Thunder_Dq"
+				},
+				{
+					"hoyo_id": 4421,
+					"scene_id": 40951,
+					"reward_id": 22261,
+					"name_hash": 3819620392,
+					"name": "Domain of Mastery: Vine-Infested Ruins II",
+					"type": "talent",
+					"city": "inazuma",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Vine-Infested Ruins",
+					"level": 2,
+					"effects_hash": [
+						2565591002
+					],
+					"effects": [
+						"Inside the challenge is Electro Crystalfruit, and Nascent Electro Pearls will emerge at intervals. After obtaining Nascent Electro Pearls, a character's Normal Attack, Charged Attack, Plunging Attack, Elemental Skill and Elemental Burst will unleash Falling Thunder upon hitting enemies, dealing Electro DMG."
+					],
+					"reco_types": [
+						"Electric"
+					],
+					"reco_level": 54,
+					"req_ar": 28,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1800,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_light",
+						"guide_to_light"
+					],
+					"ui_type": "UI_DungeonPic_Thunder_Dq"
+				},
+				{
+					"hoyo_id": 4422,
+					"scene_id": 40952,
+					"reward_id": 22262,
+					"name_hash": 3398685208,
+					"name": "Domain of Mastery: Vine-Infested Ruins III",
+					"type": "talent",
+					"city": "inazuma",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Vine-Infested Ruins",
+					"level": 3,
+					"effects_hash": [
+						2565591002
+					],
+					"effects": [
+						"Inside the challenge is Electro Crystalfruit, and Nascent Electro Pearls will emerge at intervals. After obtaining Nascent Electro Pearls, a character's Normal Attack, Charged Attack, Plunging Attack, Elemental Skill and Elemental Burst will unleash Falling Thunder upon hitting enemies, dealing Electro DMG."
+					],
+					"reco_types": [
+						"Electric"
+					],
+					"reco_level": 71,
+					"req_ar": 36,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2050,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_light",
+						"guide_to_light"
+					],
+					"ui_type": "UI_DungeonPic_Thunder_Dq"
+				},
+				{
+					"hoyo_id": 4423,
+					"scene_id": 40953,
+					"reward_id": 22263,
+					"name_hash": 1265004376,
+					"name": "Domain of Mastery: Vine-Infested Ruins IV",
+					"type": "talent",
+					"city": "inazuma",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Vine-Infested Ruins",
+					"level": 4,
+					"effects_hash": [
+						2565591002
+					],
+					"effects": [
+						"Inside the challenge is Electro Crystalfruit, and Nascent Electro Pearls will emerge at intervals. After obtaining Nascent Electro Pearls, a character's Normal Attack, Charged Attack, Plunging Attack, Elemental Skill and Elemental Burst will unleash Falling Thunder upon hitting enemies, dealing Electro DMG."
+					],
+					"reco_types": [
+						"Electric"
+					],
+					"reco_level": 88,
+					"req_ar": 45,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2375,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_light",
+						"guide_to_light",
+						"philosophies_of_light"
+					],
+					"ui_type": "UI_DungeonPic_Thunder_Dq"
+				}
+			]
+		]
+	},
+	{
+		"hoyo_id": 14,
+		"scene_id": 3,
+		"entry_id": 368,
+		"name_hash": 436597739,
+		"desc_hash": 3563711113,
+		"name": "Court of Flowing Sand",
+		"desc": "They say that in antediluvian times now lost to history, there was once a foolish ruler who dreamed of building a high garden in honor of the white sacred tree over the primordial sands. Now, dead silence fills the kingdom built on sand, but the obsessions of the past remain.",
+		"type": "weapon",
+		"req_ar": 30,
+		"sub_domains": [
+			[
+				{
+					"hoyo_id": 4340,
+					"scene_id": 40900,
+					"reward_id": 22320,
+					"name_hash": 1868835064,
+					"name": "Domain of Forgery: Sunken Sands I",
+					"type": "weapon",
+					"city": "inazuma",
+					"days": [
+						"monday",
+						"thursday",
+						"sunday"
+					],
+					"sub_name": "Sunken Sands",
+					"level": 1,
+					"effects_hash": [
+						1720857730
+					],
+					"effects": [
+						"When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby."
+					],
+					"reco_types": [
+						"Rock",
+						"Ice"
+					],
+					"reco_level": 15,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1125,
+						"companionship_exp": 10
+					},
+					"special_items": [
+						"coral_branch_of_a_distant_sea"
+					],
+					"ui_type": "UI_DungeonPic_Rock"
+				},
+				{
+					"hoyo_id": 4341,
+					"scene_id": 40901,
+					"reward_id": 22321,
+					"name_hash": 88638504,
+					"name": "Domain of Forgery: Sunken Sands II",
+					"type": "weapon",
+					"city": "inazuma",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Sunken Sands",
+					"level": 2,
+					"effects_hash": [
+						1720857730
+					],
+					"effects": [
+						"When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby."
+					],
+					"reco_types": [
+						"Rock",
+						"Ice"
+					],
+					"reco_level": 36,
+					"req_ar": 21,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1550,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"coral_branch_of_a_distant_sea",
+						"jeweled_branch_of_a_distant_sea"
+					],
+					"ui_type": "UI_DungeonPic_Rock"
+				},
+				{
+					"hoyo_id": 4342,
+					"scene_id": 40902,
+					"reward_id": 22322,
+					"name_hash": 408089176,
+					"name": "Domain of Forgery: Sunken Sands III",
+					"type": "weapon",
+					"city": "inazuma",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Sunken Sands",
+					"level": 3,
+					"effects_hash": [
+						1720857730
+					],
+					"effects": [
+						"When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby."
+					],
+					"reco_types": [
+						"Rock",
+						"Ice"
+					],
+					"reco_level": 59,
+					"req_ar": 30,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1850,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"coral_branch_of_a_distant_sea",
+						"jeweled_branch_of_a_distant_sea",
+						"jade_branch_of_a_distant_sea"
+					],
+					"ui_type": "UI_DungeonPic_Rock"
+				},
+				{
+					"hoyo_id": 4343,
+					"scene_id": 40903,
+					"reward_id": 22323,
+					"name_hash": 1186863400,
+					"name": "Domain of Forgery: Sunken Sands IV",
+					"type": "weapon",
+					"city": "inazuma",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Sunken Sands",
+					"level": 4,
+					"effects_hash": [
+						1720857730
+					],
+					"effects": [
+						"When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby."
+					],
+					"reco_types": [
+						"Rock",
+						"Ice"
+					],
+					"reco_level": 80,
+					"req_ar": 40,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2200,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"coral_branch_of_a_distant_sea",
+						"jeweled_branch_of_a_distant_sea",
+						"jade_branch_of_a_distant_sea",
+						"golden_branch_of_a_distant_sea"
+					],
+					"ui_type": "UI_DungeonPic_Rock"
+				}
+			],
+			[
+				{
+					"hoyo_id": 4350,
+					"scene_id": 40900,
+					"reward_id": 22340,
+					"name_hash": 592766536,
+					"name": "Domain of Forgery: Altar of Sands I",
+					"type": "weapon",
+					"city": "inazuma",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Altar of Sands",
+					"level": 1,
+					"effects_hash": [
+						1720857730
+					],
+					"effects": [
+						"When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby."
+					],
+					"reco_types": [
+						"Rock",
+						"Ice"
+					],
+					"reco_level": 15,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1125,
+						"companionship_exp": 10
+					},
+					"special_items": [
+						"narukamis_wisdom"
+					],
+					"ui_type": "UI_DungeonPic_Rock"
+				},
+				{
+					"hoyo_id": 4351,
+					"scene_id": 40901,
+					"reward_id": 22341,
+					"name_hash": 1997058816,
+					"name": "Domain of Forgery: Altar of Sands II",
+					"type": "weapon",
+					"city": "inazuma",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Altar of Sands",
+					"level": 2,
+					"effects_hash": [
+						1720857730
+					],
+					"effects": [
+						"When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby."
+					],
+					"reco_types": [
+						"Rock",
+						"Ice"
+					],
+					"reco_level": 36,
+					"req_ar": 21,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1550,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"narukamis_wisdom",
+						"narukamis_joy"
+					],
+					"ui_type": "UI_DungeonPic_Rock"
+				},
+				{
+					"hoyo_id": 4352,
+					"scene_id": 40902,
+					"reward_id": 22342,
+					"name_hash": 4248826096,
+					"name": "Domain of Forgery: Altar of Sands III",
+					"type": "weapon",
+					"city": "inazuma",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Altar of Sands",
+					"level": 3,
+					"effects_hash": [
+						1720857730
+					],
+					"effects": [
+						"When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby."
+					],
+					"reco_types": [
+						"Rock",
+						"Ice"
+					],
+					"reco_level": 59,
+					"req_ar": 30,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1850,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"narukamis_wisdom",
+						"narukamis_joy",
+						"narukamis_affection"
+					],
+					"ui_type": "UI_DungeonPic_Rock"
+				},
+				{
+					"hoyo_id": 4353,
+					"scene_id": 40903,
+					"reward_id": 22343,
+					"name_hash": 2462712448,
+					"name": "Domain of Forgery: Altar of Sands IV",
+					"type": "weapon",
+					"city": "inazuma",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Altar of Sands",
+					"level": 4,
+					"effects_hash": [
+						1720857730
+					],
+					"effects": [
+						"When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby."
+					],
+					"reco_types": [
+						"Rock",
+						"Ice"
+					],
+					"reco_level": 80,
+					"req_ar": 40,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2200,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"narukamis_wisdom",
+						"narukamis_joy",
+						"narukamis_affection",
+						"narukamis_valor"
+					],
+					"ui_type": "UI_DungeonPic_Rock"
+				}
+			],
+			[
+				{
+					"hoyo_id": 4360,
+					"scene_id": 40900,
+					"reward_id": 22360,
+					"name_hash": 228549616,
+					"name": "Domain of Forgery: Sand Burial I",
+					"type": "weapon",
+					"city": "inazuma",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Sand Burial",
+					"level": 1,
+					"effects_hash": [
+						1720857730
+					],
+					"effects": [
+						"When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby."
+					],
+					"reco_types": [
+						"Rock",
+						"Ice"
+					],
+					"reco_level": 15,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1125,
+						"companionship_exp": 10
+					},
+					"special_items": [
+						"mask_of_the_wicked_lieutenant"
+					],
+					"ui_type": "UI_DungeonPic_Rock"
+				},
+				{
+					"hoyo_id": 4361,
+					"scene_id": 40901,
+					"reward_id": 22361,
+					"name_hash": 1260135840,
+					"name": "Domain of Forgery: Sand Burial II",
+					"type": "weapon",
+					"city": "inazuma",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Sand Burial",
+					"level": 2,
+					"effects_hash": [
+						1720857730
+					],
+					"effects": [
+						"When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby."
+					],
+					"reco_types": [
+						"Rock",
+						"Ice"
+					],
+					"reco_level": 36,
+					"req_ar": 21,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1550,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"mask_of_the_wicked_lieutenant",
+						"mask_of_the_tigers_bite"
+					],
+					"ui_type": "UI_DungeonPic_Rock"
+				},
+				{
+					"hoyo_id": 4362,
+					"scene_id": 40902,
+					"reward_id": 22362,
+					"name_hash": 1914193840,
+					"name": "Domain of Forgery: Sand Burial III",
+					"type": "weapon",
+					"city": "inazuma",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Sand Burial",
+					"level": 3,
+					"effects_hash": [
+						1720857730
+					],
+					"effects": [
+						"When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby."
+					],
+					"reco_types": [
+						"Rock",
+						"Ice"
+					],
+					"reco_level": 59,
+					"req_ar": 30,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1850,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"mask_of_the_wicked_lieutenant",
+						"mask_of_the_tigers_bite",
+						"mask_of_the_one_horned"
+					],
+					"ui_type": "UI_DungeonPic_Rock"
+				},
+				{
+					"hoyo_id": 4363,
+					"scene_id": 40903,
+					"reward_id": 22363,
+					"name_hash": 1770088400,
+					"name": "Domain of Forgery: Sand Burial IV",
+					"type": "weapon",
+					"city": "inazuma",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Sand Burial",
+					"level": 4,
+					"effects_hash": [
+						1720857730
+					],
+					"effects": [
+						"When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby."
+					],
+					"reco_types": [
+						"Rock",
+						"Ice"
+					],
+					"reco_level": 80,
+					"req_ar": 40,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2200,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"mask_of_the_wicked_lieutenant",
+						"mask_of_the_tigers_bite",
+						"mask_of_the_one_horned",
+						"mask_of_the_kijin"
+					],
+					"ui_type": "UI_DungeonPic_Rock"
+				}
+			]
+		]
+	}
+]

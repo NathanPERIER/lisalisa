@@ -7,6 +7,7 @@ THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 DATA_DIR = os.path.dirname(THIS_DIR)
 REPO_DIR = os.path.dirname(DATA_DIR)
 DEST_DIR = os.path.join(DATA_DIR, 'rawdata')
+BIN_DIR  = os.path.join(REPO_DIR, 'GenshinData/BinOutput')
 EXCEL_DIR = os.path.join(REPO_DIR, 'GenshinData/ExcelBinOutput')
 
 
@@ -36,13 +37,17 @@ ARTIFACT_CURVES_JSON = os.path.join(EXCEL_DIR, 'ReliquaryLevelExcelConfigData.js
 ARTIFACT_SETS_JSON   = os.path.join(EXCEL_DIR, 'ReliquarySetExcelConfigData.json')
 
 # Items
-ITEM_LIST_JSON    = os.path.join(EXCEL_DIR, 'MaterialExcelConfigData.json')
-ITEM_GLIDERS_JSON = os.path.join(EXCEL_DIR, 'AvatarFlycloakExcelConfigData.json')
-ITEM_REWARDS_JSON = os.path.join(EXCEL_DIR, 'RewardExcelConfigData.json')
+ITEM_LIST_JSON         = os.path.join(EXCEL_DIR, 'MaterialExcelConfigData.json')
+ITEM_GLIDERS_JSON      = os.path.join(EXCEL_DIR, 'AvatarFlycloakExcelConfigData.json')
+ITEM_REWARDS_JSON      = os.path.join(EXCEL_DIR, 'RewardExcelConfigData.json')
+ITEM_REWARDS_PREV_JSON = os.path.join(EXCEL_DIR, 'RewardPreviewExcelConfigData.json')
 
 # Domains
-DOMAIN_DATA_JSON  = os.path.join(EXCEL_DIR, 'DungeonExcelConfigData.json')
-DOMAIN_DAILY_JSON = os.path.join(EXCEL_DIR, 'DailyDungeonConfigData.json')
+DOMAIN_DATA_JSON    = os.path.join(EXCEL_DIR, 'DungeonExcelConfigData.json')
+DOMAIN_DAILY_JSON   = os.path.join(EXCEL_DIR, 'DailyDungeonConfigData.json')
+DOMAIN_ENTRY_JSON   = os.path.join(EXCEL_DIR, 'DungeonEntryExcelConfigData.json')
+DOMAIN_EFFECTS_JSON = os.path.join(EXCEL_DIR, 'DungeonLevelEntityConfigData.json')
+DOMAIN_POINTS_JSON  = os.path.join(BIN_DIR,   'Scene/Point/scene3_point.json')
 
 # Exp
 EXP_FRIENDSHIP_JSON     = os.path.join(EXCEL_DIR, 'AvatarFettersLevelExcelConfigData.json')
@@ -54,7 +59,8 @@ EXP_CHARACTER_JSON      = os.path.join(EXCEL_DIR, 'AvatarLevelExcelConfigData.js
 EXP_WEAPON_JSON         = os.path.join(EXCEL_DIR, 'WeaponLevelExcelConfigData.json')
 
 # Translation
-LANG_JSON_TEMPLATE = os.path.join(REPO_DIR, 'GenshinData/TextMap/TextMap{lang}.json')
+LANG_JSON_TEMPLATE = os.path.join(REPO_DIR,  'GenshinData/TextMap/TextMap{lang}.json')
+MANUAL_LANG_JSON   = os.path.join(EXCEL_DIR, 'ManualTextMapConfigData.json')
 
 # Misc
 COOKING_RECIPES_JSON = os.path.join(EXCEL_DIR, 'CookRecipeExcelConfigData.json')
@@ -66,6 +72,7 @@ WORLD_CITIES_JSON    = os.path.join(EXCEL_DIR, 'CityConfigData.json')
 ITEM_MORA_ID = 'mora'
 
 
+# TODO move to common
 class PropType(Enum) :
     FIGHT_PROP_BASE_HP         = 'Base HP'
     FIGHT_PROP_BASE_ATTACK     = 'Base ATK'
