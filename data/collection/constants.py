@@ -37,9 +37,10 @@ ARTIFACT_CURVES_JSON = os.path.join(EXCEL_DIR, 'ReliquaryLevelExcelConfigData.js
 ARTIFACT_SETS_JSON   = os.path.join(EXCEL_DIR, 'ReliquarySetExcelConfigData.json')
 
 # Items
-ITEM_LIST_JSON    = os.path.join(EXCEL_DIR, 'MaterialExcelConfigData.json')
-ITEM_GLIDERS_JSON = os.path.join(EXCEL_DIR, 'AvatarFlycloakExcelConfigData.json')
-ITEM_REWARDS_JSON = os.path.join(EXCEL_DIR, 'RewardExcelConfigData.json')
+ITEM_LIST_JSON         = os.path.join(EXCEL_DIR, 'MaterialExcelConfigData.json')
+ITEM_GLIDERS_JSON      = os.path.join(EXCEL_DIR, 'AvatarFlycloakExcelConfigData.json')
+ITEM_REWARDS_JSON      = os.path.join(EXCEL_DIR, 'RewardExcelConfigData.json')
+ITEM_REWARDS_PREV_JSON = os.path.join(EXCEL_DIR, 'RewardPreviewExcelConfigData.json')
 
 # Domains
 DOMAIN_DATA_JSON    = os.path.join(EXCEL_DIR, 'DungeonExcelConfigData.json')
