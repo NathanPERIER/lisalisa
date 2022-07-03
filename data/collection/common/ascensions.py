@@ -1,6 +1,7 @@
 
-from constants import ITEM_MORA_ID, PropType
+from constants import ITEM_MORA_ID
 from translate.mhy import mhy_items
+from common.props import PropType
 
 import logging
 
