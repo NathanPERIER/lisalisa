@@ -3,6 +3,10 @@ import copy
 from json import JSONEncoder
 from enum import Enum
 
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 class DataObject :
 
@@ -11,6 +15,12 @@ class DataObject :
 	
 	def clone(self) :
 		return copy.deepcopy(self)
+	
+	def __getitem__(self, key: str) :
+		if key in self.__dict__ :
+			return self.__dict__[key]
+		logger.error("Property %s doesn't exist in object of type %d", key, type(self).__name__)
+		return None	
 
 
 class DOEncoder(JSONEncoder) :
