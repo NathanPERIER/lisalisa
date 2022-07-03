@@ -1,5 +1,4 @@
 
-from asyncio.log import logger
 from utils import loadJson, indexById, groupByField
 from constants import DOMAIN_DATA_JSON, DOMAIN_DAILY_JSON, DOMAIN_ENTRY_JSON, DOMAIN_EFFECTS_JSON, DOMAIN_POINTS_JSON
 from translate.textmap import lang, hashForValue
@@ -7,7 +6,10 @@ from translate.mhy import mhy_cities
 from common.dataobj.domain import Domain, SubDomain
 
 import re
+import logging
 from enum import Enum
+
+logger = logging.getLogger(__name__)
 
 class DailyDungeonType(Enum) :
 	DUNGEON_SUB_TALENT = 'talent'
