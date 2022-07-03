@@ -4,6 +4,7 @@ from constants import DOMAIN_DATA_JSON, DOMAIN_DAILY_JSON, DOMAIN_ENTRY_JSON, DO
 from translate.textmap import lang, hashForValue
 from translate.mhy import mhy_cities
 from common.dataobj.domain import Domain, SubDomain
+from common.rewards import getRewards
 
 import re
 import logging
@@ -33,7 +34,7 @@ effects = indexById(loadJson(DOMAIN_EFFECTS_JSON))
 points  = loadJson(DOMAIN_POINTS_JSON)['points']
 
 
-def readDomains() -> "list[Domain]" : # TODO rewards !!!
+def readDomains() -> "list[Domain]" :
 	res = []
 	subd = __g_readDailySubDungeons()
 	subd_grouped: "dict[str,list[SubDomain]]" = groupByField(subd, 'ui_type')
@@ -134,6 +135,15 @@ def __g_readSubDungeon(subd: dict) -> SubDomain :
 		effects[int(e)]['descTextMapHash'] for e in subd['levelConfigMap']
 	]
 	res.effects = [lang(effect_hash) for effect_hash in res.effects_hash]
+	# Retrieve the preview rewards
+	rewards = getRewards(res.reward_id, True)
+	for item_id, str_count in rewards.items() :
+		# Basically the special items (talent lvl up, weapon enhancement) have a count that is
+		# either the representation of a float or an empty string
+		if len(str_count) == 0 or '.' in str_count :
+			res.special_items.append(item_id)
+		else :
+			res.rewards[item_id] = int(str_count)
 	# This will help grouping sub-domains together
 	res.ui_type = subd['entryPicPath']
 	return res

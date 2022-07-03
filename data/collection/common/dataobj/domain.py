@@ -38,5 +38,8 @@ class SubDomain(DataObject) :
 		self.reco_types: "list[str]" = []
 		self.reco_level: int = 0
 		self.req_ar: int = 0
+		# Rewards
+		self.rewards: "dict[str,any]" = {}
+		self.special_items: "list[str]" = []
 		# Metadata used to group sub-domains together
 		self.ui_type: str = None
