@@ -1,4 +1,5 @@
 
+from xmlrpc.client import boolean
 from common.dataobj import DOEncoder
 
 import re
@@ -30,3 +31,10 @@ def groupByField(ld: "list[dict[str,any]]", field: str) -> "dict[str,list[dict[s
 		else :
 			res[val].append(d)
 	return res
+
+
+def fieldsEqual(data: "list[dict[str,any]]", field: str) -> boolean :
+	if len(data) <= 1 :
+		return True
+	val = data[0][field]
+	return all(x[field] == val for x in data)
