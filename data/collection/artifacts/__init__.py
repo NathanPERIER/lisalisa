@@ -6,6 +6,7 @@ from translate.mhy import mhy_art_sets
 from artifacts.pieces import readArtifactPiece as __g_readArtifactPiece
 from artifacts.sets   import readArtifactSet   as __g_readArtifactSet
 from artifacts.curves import curves, getSetAffixes as __g_getSetAffixes
+from common.dataobj.artifact import ArtifactSet, ArtifactRaritySet
 
 import logging
 
@@ -29,47 +30,38 @@ def getArtifactCurves() -> list :
     return curves
 
 
-def readArtifactSets() :
+def readArtifactSets() -> "dict[str,ArtifactSet]" :
     res = {}
     grouped = groupByField(codex, 'suitId')
     for set_id, data in grouped.items() :
         art_set = __g_readArtifactSet(set_id)
-        art_set['pieces'] = []
         for rarity_set in data :
             __g_readRaritySet(art_set, rarity_set)
-        art_set['pieces'].sort(key = lambda x: x['rarity'])
-        if not fieldsEqual(art_set['pieces'], 'name') :
-            logger.warning("Artifact set %d has different names at different rarities", art_set['hoyo_id'])
-        art_set['name'] = art_set['pieces'][0]['name']
-        identifier = idFromName(art_set['name'])
+        art_set.pieces.sort(key = lambda x: x.rarity)
+        if not fieldsEqual(art_set.pieces, 'name') :
+            logger.warning("Artifact set %d has different names at different rarities", art_set.hoyo_id)
+        art_set.name = art_set.pieces[0].name
+        identifier = idFromName(art_set.name)
         res[identifier] = art_set
-        mhy_art_sets[art_set['hoyo_id']] = identifier
+        mhy_art_sets[art_set.hoyo_id] = identifier
     return res
         
 
-def __g_readRaritySet(art_set, r_set) :
-    rarity = r_set['level']
-    pieces = []
+def __g_readRaritySet(art_set: ArtifactSet, r_set: "dict[str,any]") :
+    res = ArtifactRaritySet()
+    res.rarity = r_set['level']
     for field in PIECE_FIELDS :
         if field in r_set :
             piece_id = r_set[field]
-            pieces.append(__g_readArtifactPiece(piece_id))
+            res.pieces.append(__g_readArtifactPiece(piece_id))
     # Set name
-    disp = display[art_set['hoyo_id']][rarity]
-    display_id = disp['id']
-    name_hash = disp['nameTextMapHash']
-    name = lang(name_hash)
+    disp = display[art_set.hoyo_id][res.rarity]
+    res.display_id = disp['id']
+    res.name_hash = disp['nameTextMapHash']
+    res.name = lang(res.name_hash)
     # Affixes
-    if not fieldsEqual(pieces, 'prop_id') :
-        logger.warning("Pieces of set %d at rarity %d have different prop IDs", art_set['hoyo_id'], rarity)
-    prop_id = pieces[0]['prop_id']
-    affixes = __g_getSetAffixes(prop_id)
-    art_set['pieces'].append({
-        'display_id': display_id,
-        'name_hash': name_hash,
-        'name': name,
-        'rarity': rarity,
-        'pieces': pieces,
-        'substats': affixes
-    })
-
+    if not fieldsEqual(res.pieces, 'prop_id') :
+        logger.warning("Pieces of set %d at rarity %d have different prop IDs", art_set.hoyo_id, res.rarity)
+    prop_id = res.pieces[0]['prop_id']
+    res.substats = __g_getSetAffixes(prop_id)
+    art_set.pieces.append(res)
