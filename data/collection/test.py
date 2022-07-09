@@ -4,6 +4,7 @@ from utils import saveJson
 from constants import DEST_DIR
 from characters import readCharacters, getCharacterCurves
 from weapons import readWeapons, getWeaponCurves
+from artifacts import readArtifactSets, getArtifactCurves
 from world.cities  import readCities
 from world.domains import readDomains
 from exp.adventure_rank import readAdventureRankExp
@@ -57,6 +58,14 @@ def main() :
 	weapon_exp = readWeaponExp()
 	dest_file = os.path.join(DEST_DIR, 'exp/weapon.json')
 	saveJson(weapon_exp, dest_file)
+
+	art_sets = readArtifactSets()
+	dest_file = os.path.join(DEST_DIR, 'artifacts.json')
+	saveJson(art_sets, dest_file)
+
+	art_curves = getArtifactCurves()
+	dest_file = os.path.join(DEST_DIR, 'curves/artifacts.json')
+	saveJson(art_curves, dest_file)
 
 	weapons = readWeapons()
 	for weapon_id, weapon in weapons.items() :
