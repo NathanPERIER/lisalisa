@@ -1,7 +1,16 @@
 
 from utils import loadJson, groupByField
-from constants import ARTIFACT_CURVES_JSON
+from constants import ARTIFACT_AFFIXES_JSON, ARTIFACT_CURVES_JSON
 from common.props import PropType
+
+
+def __g_formatAffixes(affixes: "list[dict[str,any]]") -> "dict[int,dict[str,list[dict[str,any]]]]" :
+    res = {}
+    for depot_id, data in groupByField(affixes, 'depotId').items() :
+        res[depot_id] = groupByField(data, 'propType')
+    return res
+
+affixes = __g_formatAffixes(loadJson(ARTIFACT_AFFIXES_JSON))
 
 
 def __g_makeArtifactCurves(data: "list[dict]") :
@@ -31,3 +40,12 @@ def __g_makeArtifactRarityCurves(data: "list[dict[str,any]]") :
 
 
 curves = __g_makeArtifactCurves(loadJson(ARTIFACT_CURVES_JSON))
+
+
+def getSetAffixes(depot_id: int) :
+    return {
+        PropType[prop]: [
+            x['propValue'] for x in values
+        ]
+        for prop, values in affixes[depot_id]
+    }
