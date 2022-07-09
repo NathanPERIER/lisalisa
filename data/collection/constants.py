@@ -31,9 +31,11 @@ WEAPON_ABILITY_JSON    = os.path.join(EXCEL_DIR, 'EquipAffixExcelConfigData.json
 
 
 # Artifacts
-ARTIFACT_DATA_JSON   = os.path.join(EXCEL_DIR, 'ReliquaryExcelConfigData.json')
-ARTIFACT_CURVES_JSON = os.path.join(EXCEL_DIR, 'ReliquaryLevelExcelConfigData.json')
-ARTIFACT_SETS_JSON   = os.path.join(EXCEL_DIR, 'ReliquarySetExcelConfigData.json')
+ARTIFACT_DATA_JSON    = os.path.join(EXCEL_DIR, 'ReliquaryExcelConfigData.json')
+ARTIFACT_SETS_JSON    = os.path.join(EXCEL_DIR, 'ReliquarySetExcelConfigData.json')
+ARTIFACT_EQUIP_JSON   = os.path.join(EXCEL_DIR, 'EquipAffixExcelConfigData.json')
+ARTIFACT_DISPLAY_JSON = os.path.join(EXCEL_DIR, 'DisplayItemExcelConfig.json')
+ARTIFACT_CURVES_JSON  = os.path.join(EXCEL_DIR, 'ReliquaryLevelExcelConfigData.json')
 
 # Items
 ITEM_LIST_JSON         = os.path.join(EXCEL_DIR, 'MaterialExcelConfigData.json')
