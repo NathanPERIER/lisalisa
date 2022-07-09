@@ -44,8 +44,8 @@ curves = __g_makeArtifactCurves(loadJson(ARTIFACT_CURVES_JSON))
 
 def getSetAffixes(depot_id: int) :
     return {
-        PropType[prop]: [
+        PropType[prop].value: [
             x['propValue'] for x in values
         ]
-        for prop, values in affixes[depot_id]
+        for prop, values in affixes[depot_id].items()
     }
