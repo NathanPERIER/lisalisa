@@ -65,6 +65,16 @@
 		"props": [
 			{
 				"values": {
+					"Base ATK": 0.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
 					"Base ATK": 31.100000381469727,
 					"Crit Rate%": 0.0,
 					"Crit DMG%": 0.0,
