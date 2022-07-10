@@ -27,10 +27,15 @@ def __g_makeArtifactRarityCurves(data: "list[dict[str,any]]") :
     res = []
     for pt in data :
         exp = pt['exp']
-        props = {
+        props: "dict[str,float]" = {
             PropType[x['propType']].value: x['value']
             for x in pt['addProps']
             if 'propType' in x and 'value' in x
+        }
+        # Fix percentages not actually being percentages
+        props = {
+            prop: value * 100 if prop.endswith('%') else value
+            for prop, value in props.items()
         }
         res.append({
             'exp': exp,
@@ -43,9 +48,11 @@ curves = __g_makeArtifactCurves(loadJson(ARTIFACT_CURVES_JSON))
 
 
 def getSetAffixes(depot_id: int) :
-    return {
-        PropType[prop].value: [
-            x['propValue'] for x in values
-        ]
-        for prop, values in affixes[depot_id].items()
-    }
+    res = {}
+    for prop, affx in affixes[depot_id].items() :
+        values = [x['propValue'] for x in affx]
+        prop_name: str = PropType[prop].value
+        if prop_name.endswith('%') :
+            values = [x * 100 for x in values]
+        res[prop_name] = values
+    return res
