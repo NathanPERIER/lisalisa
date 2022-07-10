@@ -1,0 +1,10 @@
+{
+	"talent.level.min": 1,
+	"ascension.level.min": 0,
+	"world.level.min": 0,
+	"constellations.num.min": 0,
+	"constellations.num.max": 6,
+	"refinement.level.min": 1,
+	"banner.pity.min": 0,
+	"banner.pity.max": 89
+}

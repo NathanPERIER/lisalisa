@@ -1,0 +1,30 @@
+[
+	{
+		"range": [1, 14],
+		"ascension": 0
+	},
+	{
+		"range": [15, 24],
+		"ascension": 1
+	},
+	{
+		"range": [25, 29],
+		"ascension": 2
+	},
+	{
+		"range": [30, 34],
+		"ascension": 3
+	},
+	{
+		"range": [35, 39],
+		"ascension": 4
+	},
+	{
+		"range": [40, 49],
+		"ascension": 5
+	},
+	{
+		"range": [50, 60],
+		"ascension": 6
+	}
+]

@@ -1,6 +1,5 @@
 
 import os
-from enum import Enum
 
 # Directories
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
@@ -32,9 +31,13 @@ WEAPON_ABILITY_JSON    = os.path.join(EXCEL_DIR, 'EquipAffixExcelConfigData.json
 
 
 # Artifacts
-ARTIFACT_DATA_JSON   = os.path.join(EXCEL_DIR, 'ReliquaryExcelConfigData.json')
-ARTIFACT_CURVES_JSON = os.path.join(EXCEL_DIR, 'ReliquaryLevelExcelConfigData.json')
-ARTIFACT_SETS_JSON   = os.path.join(EXCEL_DIR, 'ReliquarySetExcelConfigData.json')
+ARTIFACT_PIECES_JSON  = os.path.join(EXCEL_DIR, 'ReliquaryExcelConfigData.json')
+ARTIFACT_SETS_JSON    = os.path.join(EXCEL_DIR, 'ReliquarySetExcelConfigData.json')
+ARTIFACT_EQUIP_JSON   = os.path.join(EXCEL_DIR, 'EquipAffixExcelConfigData.json')
+ARTIFACT_DISPLAY_JSON = os.path.join(EXCEL_DIR, 'DisplayItemExcelConfigData.json')
+ARTIFACT_CODEX_JSON   = os.path.join(EXCEL_DIR, 'ReliquaryCodexExcelConfigData.json')
+ARTIFACT_AFFIXES_JSON = os.path.join(EXCEL_DIR, 'ReliquaryAffixExcelConfigData.json')
+ARTIFACT_CURVES_JSON  = os.path.join(EXCEL_DIR, 'ReliquaryLevelExcelConfigData.json')
 
 # Items
 ITEM_LIST_JSON         = os.path.join(EXCEL_DIR, 'MaterialExcelConfigData.json')
@@ -71,24 +74,3 @@ WORLD_CITIES_JSON    = os.path.join(EXCEL_DIR, 'CityConfigData.json')
 
 ITEM_MORA_ID = 'mora'
 
-
-# TODO move to common
-class PropType(Enum) :
-    FIGHT_PROP_BASE_HP         = 'Base HP'
-    FIGHT_PROP_BASE_ATTACK     = 'Base ATK'
-    FIGHT_PROP_BASE_DEFENSE    = 'Base DEF'
-    FIGHT_PROP_HP_PERCENT      = 'HP%'
-    FIGHT_PROP_ATTACK_PERCENT  = 'ATK%'
-    FIGHT_PROP_DEFENSE_PERCENT = 'DEF%'
-    FIGHT_PROP_CRITICAL_HURT   = 'Crit DMG%'
-    FIGHT_PROP_CRITICAL        = 'Crit Rate%'
-    FIGHT_PROP_CHARGE_EFFICIENCY = 'Energy Recharge%'
-    FIGHT_PROP_ELEMENT_MASTERY   = 'Elemental Mastery'
-    FIGHT_PROP_PHYSICAL_ADD_HURT = 'Physical DMG%'
-    FIGHT_PROP_HEAL_ADD          = 'Healing Bonus%'
-    FIGHT_PROP_FIRE_ADD_HURT  = 'Pyro DMG%'
-    FIGHT_PROP_WATER_ADD_HURT = 'Hydro DMG%'
-    FIGHT_PROP_ICE_ADD_HURT   = 'Cryo DMG%'
-    FIGHT_PROP_ELEC_ADD_HURT  = 'Electro DMG%'
-    FIGHT_PROP_WIND_ADD_HURT  = 'Anemo DMG%'
-    FIGHT_PROP_ROCK_ADD_HURT  = 'Geo DMG%'

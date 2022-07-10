@@ -17,7 +17,7 @@
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 39.875099182128906,
-		"DEF%": 0.06373299658298492
+		"DEF%": 6.373299658298492
 	},
 	"curves": {
 		"Base ATK": "GROW_CURVE_ATTACK_102",
@@ -63,6 +63,16 @@
 			}
 		],
 		"props": [
+			{
+				"values": {
+					"Base ATK": 0.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 20
+			},
 			{
 				"values": {
 					"Base ATK": 19.5,

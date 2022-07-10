@@ -33,8 +33,8 @@
 		"Base HP": 810.322021484375,
 		"Base ATK": 22.3439998626709,
 		"Base DEF": 50.855499267578125,
-		"Crit Rate%": 0.05000000074505806,
-		"Crit DMG%": 0.5
+		"Crit Rate%": 5.000000074505806,
+		"Crit DMG%": 50.0
 	},
 	"curves": {
 		"Base HP": "GROW_CURVE_HP_S5",
@@ -88,6 +88,15 @@
 		"props": [
 			{
 				"values": {
+					"Base HP": 0.0,
+					"Base DEF": 0.0,
+					"Base ATK": 0.0,
+					"Energy Recharge%": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
 					"Base HP": 694.77783203125,
 					"Base DEF": 43.60499954223633,
 					"Base ATK": 19.15656089782715,
@@ -100,7 +109,7 @@
 					"Base HP": 1188.435791015625,
 					"Base DEF": 74.5875015258789,
 					"Base ATK": 32.767799377441406,
-					"Energy Recharge%": 0.07999999821186066
+					"Energy Recharge%": 7.999999821186066
 				},
 				"until": 50
 			},
@@ -109,7 +118,7 @@
 					"Base HP": 1846.6463623046875,
 					"Base DEF": 115.89749908447266,
 					"Base ATK": 50.91611862182617,
-					"Energy Recharge%": 0.1599999964237213
+					"Energy Recharge%": 15.999999642372131
 				},
 				"until": 60
 			},
@@ -118,7 +127,7 @@
 					"Base HP": 2340.30419921875,
 					"Base DEF": 146.8800048828125,
 					"Base ATK": 64.52735900878906,
-					"Energy Recharge%": 0.1599999964237213
+					"Energy Recharge%": 15.999999642372131
 				},
 				"until": 70
 			},
@@ -127,7 +136,7 @@
 					"Base HP": 2833.962158203125,
 					"Base DEF": 177.8625030517578,
 					"Base ATK": 78.13860321044922,
-					"Energy Recharge%": 0.23999999463558197
+					"Energy Recharge%": 23.999999463558197
 				},
 				"until": 80
 			},
@@ -136,7 +145,7 @@
 					"Base HP": 3327.6201171875,
 					"Base DEF": 208.84500122070312,
 					"Base ATK": 91.74983978271484,
-					"Energy Recharge%": 0.3199999928474426
+					"Energy Recharge%": 31.999999284744263
 				},
 				"until": 90
 			}

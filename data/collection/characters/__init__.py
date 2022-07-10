@@ -1,10 +1,11 @@
 
 from utils import idFromName, loadJson
-from constants import CHAR_DATA_JSON, PropType
+from constants import CHAR_DATA_JSON
 from weapons import WeaponType
 from translate.textmap import lang
 from translate.mhy import mhy_chars, mhy_weapons
 from common.dataobj.character import Character
+from common.props import PropType
 from characters.info import readInfo
 from characters.skins import readSkins
 from characters.ascensions import readAscensions
@@ -101,8 +102,9 @@ def __g_readCharacterBase(char: dict) -> Character :
 		PropType.FIGHT_PROP_BASE_HP.value:       char['hpBase'],
 		PropType.FIGHT_PROP_BASE_ATTACK.value:   char['attackBase'],
 		PropType.FIGHT_PROP_BASE_DEFENSE.value:  char['defenseBase'],
-		PropType.FIGHT_PROP_CRITICAL.value:      char['critical'],
-		PropType.FIGHT_PROP_CRITICAL_HURT.value: char['criticalHurt']
+		# Stats in percentages have to be corrected
+		PropType.FIGHT_PROP_CRITICAL.value:      char['critical']     * 100,
+		PropType.FIGHT_PROP_CRITICAL_HURT.value: char['criticalHurt'] * 100
 	}
 	data.curves = {
 		PropType[x['type']].value: x['growCurve']

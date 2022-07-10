@@ -33,8 +33,8 @@
 		"Base HP": 802.3760986328125,
 		"Base ATK": 19.410720825195312,
 		"Base DEF": 48.069000244140625,
-		"Crit Rate%": 0.05000000074505806,
-		"Crit DMG%": 0.5
+		"Crit Rate%": 5.000000074505806,
+		"Crit DMG%": 50.0
 	},
 	"curves": {
 		"Base HP": "GROW_CURVE_HP_S4",
@@ -86,6 +86,15 @@
 			}
 		],
 		"props": [
+			{
+				"values": {
+					"Base HP": 0.0,
+					"Base DEF": 0.0,
+					"Base ATK": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 20
+			},
 			{
 				"values": {
 					"Base HP": 599.416015625,

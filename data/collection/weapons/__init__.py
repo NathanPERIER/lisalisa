@@ -1,9 +1,10 @@
 
 from utils import loadJson, idFromName
-from constants import WEAPON_DATA_JSON, PropType
+from constants import WEAPON_DATA_JSON
 from translate.textmap import lang
 from translate.mhy import mhy_weapons, mhy_items
 from common.dataobj.weapon import Weapon
+from common.props import PropType
 from weapons.ascensions import readAscensions
 from weapons.abilities import readAbilities
 from weapons.curves import curves
@@ -69,10 +70,12 @@ def __g_readWeaponBase(weapon: dict) -> Weapon :
 
 	for prop in weapon['weaponProp'] :
 		if 'propType' in prop and 'initValue' in prop and 'type' in prop :
-			prop_type = PropType[prop['propType']].value
+			prop_type: str = PropType[prop['propType']].value
 			base_val = prop['initValue']
 			curve = prop['type']
-			data.base_stats[prop_type] = base_val
+			# Correct the stats whose values are percentages
+			corrected_val = base_val * 100 if prop_type.endswith('%') else base_val
+			data.base_stats[prop_type] = corrected_val
 			data.curves[prop_type] = curve
 
 	# print(weapon['weaponBaseExp'])
