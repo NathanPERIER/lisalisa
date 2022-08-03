@@ -1,6 +1,7 @@
 
 from common.dataobj import DataObject
 from common.dataobj.item import Dish
+from common.ascensions.dataobj import Ascensions
 
 
 class CharTalentStats(DataObject) :
@@ -87,7 +88,7 @@ class Character(DataObject) :
 		self.base_stats = {}
 		self.curves = {}
 		# Ascensions
-		self.ascensions: dict = None # TODO data object
+		self.ascensions: Ascensions = None
 		# Talents, passives, constellations
 		self.talents:        CharTalents = CharTalents()
 		self.passives:       "list[CharPassive]" = None

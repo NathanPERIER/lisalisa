@@ -1,4 +1,5 @@
 from common.dataobj import DataObject
+from common.ascensions.dataobj import Ascensions
 
 class Weapon(DataObject) :
 	def __init__(self) :
@@ -21,6 +22,6 @@ class Weapon(DataObject) :
 		self.base_stats = {}
 		self.curves = {}
 		# Ascensions
-		self.ascensions: dict = None
+		self.ascensions: Ascensions = None
 		# Abilities + refinement
 		self.abilities: list = None 
