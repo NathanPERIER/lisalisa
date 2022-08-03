@@ -1,7 +1,7 @@
 
 from utils import loadJson
 from constants import CHAR_SKILL_DEPOT_JSON, CHAR_SKILLS_JSON, CHAR_TALENTS_JSON, CHAR_PROUD_SKILL_JSON
-from common.dataobj.character import Character
+from common.dataobj.character import CharConstellation, CharPassive, CharTalentStats, CharTalent, Character
 from common.ascensions import formatCosts
 from translate.textmap import lang
 
@@ -26,16 +26,13 @@ def readSkillsConstellations(char: Character) :
         return
     depot = depot_search[0]
     # Talents 
-    char.talents = {
-        'normal_attack': readSkill(depot['skills'][0]),
-        'elemental_skill': readSkill(depot['skills'][1]),
-        'elemental_burst': readSkill(depot['energySkill']),
-        'alternate_sprint': None
-    }
+    char.talents.normal_attack   = readSkill(depot['skills'][0])
+    char.talents.elemental_skill = readSkill(depot['skills'][1])
+    char.talents.elemental_burst = readSkill(depot['energySkill'])
     if depot['skills'][2] != 0 :
-        char.talents['alternate_sprint'] = readSkill(depot['skills'][2], True)
+        char.talents.alternate_sprint = readSkill(depot['skills'][2], True)
     if depot['skills'][3] != 0 :
-        logger.info('Fourth skill slot (id: %d) used by character %s (%d)', depot['skills'][3], char['name'], char['hoyo_id'])
+        logger.info('Fourth skill slot (id: %d) used by character %s (%d)', depot['skills'][3], char.name, char.hoyo_id)
     # Passives
     char.passives = [
         __g_readSimpleSkill(talent['proudSkillGroupId'], talent['needAvatarPromoteLevel'] if 'needAvatarPromoteLevel' in talent else None)
@@ -48,20 +45,20 @@ def readSkillsConstellations(char: Character) :
 
 
 # Read the constellations of a character from the object that stores all the constellations
-def __g_readConstellations(const_ids: "list[int]") -> list :
+def __g_readConstellations(const_ids: "list[int]") -> "list[CharConstellation]" :
     res = []
     constellations = {c['talentId']: c for c in talents if c['talentId'] in const_ids}
     if len(constellations) != 6 :
         logger.warning('Expected 6 constellations, found %d', len(constellations))
     for cst_id in const_ids :
         cst = constellations[cst_id]
-        res.append({
-            'name_hash': cst['nameTextMapHash'],
-            'name': lang(cst['nameTextMapHash']),
-            'desc_hash': cst['descTextMapHash'],
-            'desc': lang(cst['descTextMapHash']),
-            'icon': cst['icon']
-        })
+        cst_res = CharConstellation()
+        cst_res.name_hash = cst['nameTextMapHash']
+        cst_res.desc_hash = cst['descTextMapHash']
+        cst_res.icon = cst['icon']
+        cst_res.name = lang(cst_res.name_hash)
+        cst_res.desc = lang(cst_res.desc_hash)
+        res.append(cst_res)
     return res
 
 
@@ -73,67 +70,63 @@ def __g_readSimpleSkill(psg_id: int, ascension: int = None) :
         logger.error('No skill found with group id %d', psg_id)
         return None
     skill = skill_search[0]
-    res = {
-        'name_hash': skill['nameTextMapHash'],
-        'desc_hash': skill['descTextMapHash'],
-        'icon': skill['icon'],
-        'ascension': ascension
-    }
-    if res['name_hash'] not in lang :
+    res = CharPassive()
+    res.name_hash = skill['nameTextMapHash']
+    res.desc_hash = skill['descTextMapHash']
+    res.icon = skill['icon']
+    res.ascension = ascension
+    if res.name_hash not in lang :
         return None
-    res['name'] = lang(res['name_hash'])
-    res['desc'] = lang(res['desc_hash'])
+    res.name = lang(res.name_hash)
+    res.desc = lang(res.desc_hash)
     return res
 
 
 # Read a talent from the object that stores all the skills
-def readSkill(skill_id: int, is_sprint = False) -> dict :
+def readSkill(skill_id: int, is_sprint = False) -> CharTalent :
     skill_search = [x for x in skills if x['id'] == skill_id]
     if len(skill_search) != 1 :
         logger.error('No skill found with id %d', skill_id)
         return None
     skill = skill_search[0]
     # triggerID ?
-    res = {
-        'name_hash': skill['nameTextMapHash'],
-        'desc_hash': skill['descTextMapHash'],
-        'charge_num': skill['maxChargeNum'],
-        'icon': skill['skillIcon']
-        # 'cost': skill['costElemVal']
-        # 'cooldown': skill['cdTime']
-    }
-    res['name'] = lang(res['name_hash'])
-    res['desc'] = lang(res['desc_hash'])
+    res = CharTalent()
+    res.name_hash = skill['nameTextMapHash']
+    res.desc_hash = skill['descTextMapHash']
+    res.charge_num = skill['maxChargeNum']
+    res.icon = skill['skillIcon']
+    # cost = skill['costElemVal']
+    # cooldown = skill['cdTime']
+    res.name = lang(res.name_hash)
+    res.desc = lang(res.desc_hash)
     # A talent is associated with a "proud skill group" that contains one entry
     # per level this talent can have, with the stats of this talent
     expected_num = 1 if is_sprint else 15
-    res['costs'], res['stats'] = __g_readProudSkillGroup(skill['proudSkillGroupId'], expected_num)
+    res.costs, res.stats = __g_readProudSkillGroup(skill['proudSkillGroupId'], expected_num)
     return res
     
 
 # Reads the entries of a proud skill group to get the stats + ascension costs of a talent at each level
-def __g_readProudSkillGroup(psg_id: int, expected_num: int) -> "tuple[list,dict]" :
+def __g_readProudSkillGroup(psg_id: int, expected_num: int) -> "tuple[list[dict[str,int]],CharTalentStats]" :
     group = [psk for psk in proud_skills if psk['proudSkillGroupId'] == psg_id]
     group.sort(key = lambda psk: psk['level'])
     if len(group) != expected_num :
         logger.warning('Expected %d proud skills in group %d, found %d', expected_num, psg_id, len(group))
     costs = []
-    stats = {
-        'names': None,
-        'values': []
-    }
+    stats = CharTalentStats()
+    stats.values = []
     for psk in group :
         cost, mora_cost, stat = __g_readProudSkill(psk)
         costs.append(formatCosts(cost, mora_cost))
-        if stats['names'] is None :
-            stats['names'] = list(stat.keys())
-        stats['values'].append(list(stat.values()))
+        if stats.names is None :
+            stats.names = list(stat.keys())
+        stats.values.append(list(stat.values()))
     return costs[1:10], stats
         
 
 # Reads an individual entry (i.e. level) in the proud skill group
 # This entry will be called a "proud skill"
-def __g_readProudSkill(psk: dict) -> "tuple[dict,int,dict]" :
+def __g_readProudSkill(psk: dict) -> "tuple[dict[str,int],int,dict[str,str]]" :
     cost = {
         c['id']: c['count']
         for c in psk['costItems']
@@ -150,7 +143,7 @@ def __g_readProudSkill(psk: dict) -> "tuple[dict,int,dict]" :
 
 
 # Reads the stats for a proud skill
-def __g_readStats(desc: "list[int]", values: "list[float]") -> dict :
+def __g_readStats(desc: "list[int]", values: "list[float]") -> "dict[str,str]" :
     res = {}
     for d in desc :
         if d in lang :

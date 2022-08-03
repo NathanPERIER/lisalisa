@@ -1,5 +1,61 @@
 
 from common.dataobj import DataObject
+from common.dataobj.item import Dish
+
+
+class CharTalentStats(DataObject) :
+	def __init__(self) :
+		self.names: "list[str]" = None
+		self.values: "list[list[str]]" = None
+
+
+class CharTalent(DataObject) :
+	def __init__(self) :
+		self.name_hash: int = 0
+		self.desc_hash: int = 0
+		self.name: str = None
+		self.desc: str = None
+		self.icon: str = None
+		self.charge_num: int = 0
+		self.costs: "list[dict[str,int]]" = None
+		self.stats: CharTalentStats = None
+
+
+class CharTalents(DataObject) :
+	def __init__(self) :
+		self.normal_attack:    CharTalent = None
+		self.elemental_skill:  CharTalent = None
+		self.elemental_burst:  CharTalent = None
+		self.alternate_sprint: CharTalent = None
+
+
+class CharPassive(DataObject) :
+	def __init__(self) :
+		self.name_hash: int = 0
+		self.desc_hash: int = 0
+		self.name: str = None
+		self.desc: str = None
+		self.icon: str = None
+		self.ascension: int = 0
+
+
+class CharConstellation(DataObject) :
+	def __init__(self) :
+		self.name_hash: int = 0
+		self.desc_hash: int = 0
+		self.name: str = None
+		self.desc: str = None
+		self.icon: str = None
+
+
+class CharSpecialDish(Dish) :
+	def __init__(self):
+		self.original_recipe: str = None
+	def fromDish(dish: Dish) -> "CharSpecialDish" :
+		res = CharSpecialDish()
+		res.__dict__.update(dish.__dict__)
+		return res
+
 
 class Character(DataObject) :
 	def __init__(self) :
@@ -31,15 +87,16 @@ class Character(DataObject) :
 		self.base_stats = {}
 		self.curves = {}
 		# Ascensions
-		self.ascensions: dict = None
+		self.ascensions: dict = None # TODO data object
 		# Talents, passives, constellations
-		self.talents:        dict = None
-		self.passives:       dict = None
-		self.constellations: dict = None
+		self.talents:        CharTalents = CharTalents()
+		self.passives:       "list[CharPassive]" = None
+		self.constellations: "list[CharConstellation]" = None
 		# Skins
-		self.skins = {
+		self.skins = { # TODO data object
 			'default': None,
 			'alt': []
 		}
 		# Special dish
-		self.special_dish: dict = None
+		self.special_dish: CharSpecialDish = None
+

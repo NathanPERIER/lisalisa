@@ -3,6 +3,8 @@ from utils import loadJson, idFromName
 from constants import COOKING_RECIPES_JSON, SPECIAL_DISHES_JSON
 from translate.textmap import lang
 from translate.mhy import mhy_items, mhy_recipes
+from common.dataobj.item import Dish
+from common.dataobj.character import CharSpecialDish
 from common.ascensions import formatCosts
 from items import items, readItem
 
@@ -60,7 +62,7 @@ def __g_readRecipe(recipe: dict) -> dict :
 
 # Reads the special dish of a character if there is one
 # (dish with an additional property : original recipe)
-def readSpecialDish(char_hoyo_id: int) -> dict :
+def readSpecialDish(char_hoyo_id: int) -> CharSpecialDish :
 	search_dish = [
 		x for x in special_dishes
 		if x['avatarId'] == char_hoyo_id and x['bonusType'] == 'COOK_BONUS_REPLACE'
@@ -70,21 +72,24 @@ def readSpecialDish(char_hoyo_id: int) -> dict :
 	if len(search_dish) > 1 :
 		logger.warning("Character %d has %d special dish entries (expected one)", char_hoyo_id, len(search_dish))
 	dish = search_dish[0]
-	res = __g_readDish({'id': dish['paramVec'][0], 'count': 1})
+	res = CharSpecialDish.fromDish(
+		__g_readDish({'id': dish['paramVec'][0], 'count': 1})
+	)
 	if dish['paramVec'][1] != 0 :
 		logger.info("Second value of paramVec of character %d special dish is non-zero value %d",
 						char_hoyo_id, dish['paramVec'][1])
-	res['original_recipe'] = mhy_recipes[dish['recipeId']]
+	res.original_recipe = mhy_recipes[dish['recipeId']]
 	return res
 
 
 # Reads a dish (special item with additional properties)
-def __g_readDish(dish: "dict[str,int]") -> dict :
+def __g_readDish(dish: "dict[str,int]") -> Dish :
 	data = items[dish['id']]
 	item = readItem(data)
-	item['count'] = dish['count']
-	item['effect_hash'] = data['effectDescTextMapHash']
-	item['effect'] = lang(item['effect_hash'])
-	identifier = idFromName(item['name'])
-	mhy_items[item['hoyo_id']] = identifier
+	res = Dish.fromItem(item)
+	res.count = dish['count']
+	res.effect_hash = data['effectDescTextMapHash']
+	res.effect = lang(res.effect_hash)
+	identifier = idFromName(res.name)
+	mhy_items[res.hoyo_id] = identifier
 	return item

@@ -3,6 +3,7 @@ from utils import loadJson, indexById, idFromName
 from constants import ITEM_LIST_JSON
 from translate.textmap import lang
 from translate.mhy import mhy_items
+from common.dataobj.item import Item
 
 import logging
 
@@ -30,17 +31,16 @@ def __g_supplyThroughItems(str_id: str) -> str :
 mhy_items.setSupplyStrategy(__g_supplyThroughItems)
 
 
-def readItem(item: dict) -> dict :
-	res = {
-		'hoyo_id': item['id'],
-		'name_hash': item['nameTextMapHash'],
-		'desc_hash': item['descTextMapHash'],
-		'type_hash': item['typeDescTextMapHash'],
-		'rarity': item['rankLevel'] if 'rankLevel' in item else 1
-	}
-	res['name'] = lang(res['name_hash'])
-	res['desc'] = lang(res['desc_hash'])
-	res['type'] = lang(res['type_hash'])
+def readItem(item: dict) -> Item :
+	res = Item()
+	res.hoyo_id = item['id']
+	res.name_hash = item['nameTextMapHash']
+	res.desc_hash = item['descTextMapHash']
+	res.type_hash = item['typeDescTextMapHash']
+	res.rarity = item['rankLevel'] if 'rankLevel' in item else 1
+	res.name = lang(res.name_hash)
+	res.desc = lang(res.desc_hash)
+	res.type = lang(res.type_hash)
 	sp_desc_hash = item['specialDescTextMapHash']
 	if sp_desc_hash in lang :
 		sp_desc = lang(sp_desc_hash)
