@@ -47,8 +47,9 @@ def __g_readInfo(inf: dict, characters: "dict[str,Character]") :
         inf['avatarConstellationBeforTextMapHash'],
         inf['avatarConstellationAfterTextMapHash']
     ]
-    data.astrolabe = lang(data.astrolabe_hash[1])
-    if data.astrolabe == '' :
+    if data.astrolabe_hash[1] in lang :
+        data.astrolabe = lang(data.astrolabe_hash[1])
+    else :
         data.astrolabe = lang(data.astrolabe_hash[0])
     data.allegiance_hash = inf['avatarNativeTextMapHash']
     data.allegiance = lang(data.allegiance_hash)

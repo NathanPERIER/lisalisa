@@ -42,6 +42,7 @@ def readSkillsConstellations(char: Character) :
         for talent in depot['inherentProudSkillOpens']
         if 'proudSkillGroupId' in talent
     ]
+    char.passives = [x for x in char.passives if x is not None]
     # Constellations
     char.constellations = __g_readConstellations(depot['talents'])
 
@@ -58,7 +59,8 @@ def __g_readConstellations(const_ids: "list[int]") -> list :
             'name_hash': cst['nameTextMapHash'],
             'name': lang(cst['nameTextMapHash']),
             'desc_hash': cst['descTextMapHash'],
-            'desc': lang(cst['descTextMapHash'])
+            'desc': lang(cst['descTextMapHash']),
+            'icon': cst['icon']
         })
     return res
 
@@ -74,8 +76,11 @@ def __g_readSimpleSkill(psg_id: int, ascension: int = None) :
     res = {
         'name_hash': skill['nameTextMapHash'],
         'desc_hash': skill['descTextMapHash'],
+        'icon': skill['icon'],
         'ascension': ascension
     }
+    if res['name_hash'] not in lang :
+        return None
     res['name'] = lang(res['name_hash'])
     res['desc'] = lang(res['desc_hash'])
     return res
@@ -92,7 +97,8 @@ def readSkill(skill_id: int, is_sprint = False) -> dict :
     res = {
         'name_hash': skill['nameTextMapHash'],
         'desc_hash': skill['descTextMapHash'],
-        'charge_num': skill['maxChargeNum']
+        'charge_num': skill['maxChargeNum'],
+        'icon': skill['skillIcon']
         # 'cost': skill['costElemVal']
         # 'cooldown': skill['cdTime']
     }
@@ -147,9 +153,8 @@ def __g_readProudSkill(psk: dict) -> "tuple[dict,int,dict]" :
 def __g_readStats(desc: "list[int]", values: "list[float]") -> dict :
     res = {}
     for d in desc :
-        dsc = lang(d)
-        if len(dsc) > 0 :
-            __g_readParam(dsc, values, res)
+        if d in lang :
+            __g_readParam(lang(d), values, res)
     return res
 
 

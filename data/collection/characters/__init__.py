@@ -90,6 +90,7 @@ def __g_readCharacterBase(char: dict) -> Character :
 	data.name = lang(data.name_hash)
 	data.desc = lang(data.desc_hash)
 	# Same as `infoDescTextMapHash` it seems (?)
+	data.icon = char['iconName']
 	logger.info(data.name)
 
 	# <=> 'avatarIdentityType' not in data

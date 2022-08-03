@@ -52,17 +52,26 @@ def __g_readWeaponBase(weapon: dict) -> Weapon :
 	data.story_id    = weapon['storyId'] if 'storyId' in weapon else None,
 	data.skill_affix = weapon['skillAffix']
 
+	data.rarity = weapon['rankLevel']
+
+	if data.rarity > 1 and data.promote_id == 11101 :
+		logger.info("< %s > (ignored)", data.name)
+		return None
+
 	data.type = WeaponType[weapon['weaponType']]
 	data.name_hash = weapon['nameTextMapHash']
 	data.desc_hash = weapon['descTextMapHash']
+
+	if data.name_hash not in lang :
+		logger.info("< %s > (ignored)", data.name)
+		return None
+
 	data.name = lang(data.name_hash)
 	data.desc = lang(data.desc_hash)
-	data.rarity = weapon['rankLevel']
+	data.icon = weapon['icon']
+	data.icon_awaken = weapon['awakenIcon']
 
 	if data.name == '' :
-		return None
-	
-	if data.rarity > 1 and data.promote_id == 11101 :
 		logger.info("< %s > (ignored)", data.name)
 		return None
 	

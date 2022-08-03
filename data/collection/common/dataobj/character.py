@@ -14,6 +14,7 @@ class Character(DataObject) :
 		self.desc_hash: int = 0
 		self.name: str = None
 		self.desc: str = None
+		self.icon: str = None
 		self.rarity: int = 0
 		self.special: bool = False
 		self.body: str = None

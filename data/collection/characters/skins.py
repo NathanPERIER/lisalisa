@@ -9,8 +9,9 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-# Changes between versions, is annoying
-CHARACTER_FIELD_NAME = 'FMAJGGBGKKN'
+# Change between versions, is annoying
+CHARACTER_FIELD_NAME = 'PDBPABLOMMA'
+ICON_FIELD_NAME = 'MKPEEANCLCO'
 
 skins = loadJson(CHAR_SKINS_JSON)
 
@@ -31,6 +32,7 @@ def __g_readSkin(skin: dict, characters: "dict[str,Character]") :
     }
     data['name'] = lang(data['name_hash'])
     data['desc'] = lang(data['desc_hash'])
+    data['icon'] = skin[ICON_FIELD_NAME]
     char_id = skin[CHARACTER_FIELD_NAME]
     char = characters[char_id]
     if 'isDefault' in skin and skin['isDefault'] :
