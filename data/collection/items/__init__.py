@@ -42,15 +42,15 @@ def readItem(item: dict) -> dict :
 	res['desc'] = lang(res['desc_hash'])
 	res['type'] = lang(res['type_hash'])
 	sp_desc_hash = item['specialDescTextMapHash']
-	sp_desc = lang(sp_desc_hash)
-	if sp_desc != '' :
+	if sp_desc_hash in lang :
+		sp_desc = lang(sp_desc_hash)
 		print(f"SP: {sp_desc}")
 	effect_desc_hash = item['effectDescTextMapHash']
-	effect_desc = lang(effect_desc_hash)
-	if effect_desc != '' :
+	if effect_desc_hash in lang :
+		effect_desc = lang(effect_desc_hash)
 		print(f"EFF: {effect_desc}")
 	interaction_hash = item['interactionTitleTextMapHash']
-	interaction = lang(interaction_hash)
-	if interaction != '' :
+	if interaction_hash in lang :
+		interaction = lang(interaction_hash)
 		print(f"INTERACT: {interaction}")
 	return res
