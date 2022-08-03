@@ -14,6 +14,8 @@
 	"desc_hash": 3230364157,
 	"name": "Bloodtainted Greatsword",
 	"desc": "A steel sword that is said to have been coated with dragon blood, rendering it invulnerable to damage. This effect is not extended to its wielder, however.",
+	"icon": "UI_EquipIcon_Claymore_Siegfry",
+	"icon_awaken": "UI_EquipIcon_Claymore_Siegfry_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 37.60749816894531,

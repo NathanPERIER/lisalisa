@@ -14,6 +14,8 @@
 	"desc_hash": 904885541,
 	"name": "Iron Sting",
 	"desc": "An exotic long-bladed rapier that somehow found its way into Liyue via foreign traders. It is light, agile, and sharp.",
+	"icon": "UI_EquipIcon_Sword_Exotic",
+	"icon_awaken": "UI_EquipIcon_Sword_Exotic_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

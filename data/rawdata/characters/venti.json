@@ -8,6 +8,7 @@
 	"desc_hash": 4137166409,
 	"name": "Venti",
 	"desc": "One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
+	"icon": "UI_AvatarIcon_Venti",
 	"rarity": 5,
 	"special": false,
 	"body": "BODY_BOY",
@@ -156,6 +157,7 @@
 			"name_hash": 4043029317,
 			"desc_hash": 4144150840,
 			"charge_num": 1,
+			"icon": "Skill_A_02",
 			"name": "Normal Attack: Divine Marksmanship",
 			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 6 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
 			"costs": [
@@ -411,6 +413,7 @@
 			"name_hash": 2470093149,
 			"desc_hash": 2480880816,
 			"charge_num": 1,
+			"icon": "Skill_S_Venti_01",
 			"name": "Skyward Sonnet",
 			"desc": "#O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nSummons a Wind Domain at the opponent's location, dealing <color=#80FFD7FF>AoE Anemo DMG</color> and launching opponents into the air.\\n\\n<color=#FFD780FF>Hold</color>\\nSummons an even larger Wind Domain with Venti as the epicenter, dealing <color=#80FFD7FF>AoE Anemo DMG</color> and launching affected opponents into the air.\\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\\n\\nOpponents hit by Skyward Sonnet will fall to the ground slowly.\\n\\n<i>In the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.</i>",
 			"costs": [
@@ -570,6 +573,7 @@
 			"name_hash": 1181756941,
 			"desc_hash": 2599674792,
 			"charge_num": 1,
+			"icon": "Skill_E_Venti_01",
 			"name": "Wind's Grand Ode",
 			"desc": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in opponents and deals continuous <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Elemental Absorption</color>\\nIf the Stormeye comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>Many hymns written in praise of the Anemo Archon have been lost to time. This one sings of his mastery over the wind.</i>",
 			"costs": [
@@ -747,6 +751,7 @@
 		{
 			"name_hash": 1562102965,
 			"desc_hash": 3352373235,
+			"icon": "UI_Talent_S_Venti_05",
 			"ascension": 1,
 			"name": "Embrace of Winds",
 			"desc": "Holding <color=#FFD780FF>Skyward Sonnet</color> creates an upcurrent that lasts for 20s."
@@ -754,6 +759,7 @@
 		{
 			"name_hash": 2149736101,
 			"desc_hash": 697661523,
+			"icon": "UI_Talent_S_Venti_06",
 			"ascension": 4,
 			"name": "Stormeye",
 			"desc": "Regenerates 15 Energy for Venti after the effects of <color=#FFD780FF>Wind's Grand Ode</color> end.\\nIf an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element in the party."
@@ -761,6 +767,7 @@
 		{
 			"name_hash": 1704267989,
 			"desc_hash": 1111860827,
+			"icon": "UI_Talent_Explosion_Glide",
 			"ascension": null,
 			"name": "Windrider",
 			"desc": "Decreases gliding Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
@@ -771,37 +778,43 @@
 			"name_hash": 2201097153,
 			"name": "Splitting Gales",
 			"desc_hash": 665988159,
-			"desc": "Fires 2 additional arrows per <color=#FFD780FF>Aimed Shot</color>, each dealing 33% of the original arrow's DMG."
+			"desc": "Fires 2 additional arrows per <color=#FFD780FF>Aimed Shot</color>, each dealing 33% of the original arrow's DMG.",
+			"icon": "UI_Talent_S_Venti_01"
 		},
 		{
 			"name_hash": 509053297,
 			"name": "Breeze of Reminiscence",
 			"desc_hash": 577887399,
-			"desc": "<color=#FFD780FF>Skyward Sonnet</color> decreases opponents' <color=#80FFD7FF>Anemo RES</color> and Physical RES by 12% for 10s.\\nOpponents launched by <color=#FFD780FF>Skyward Sonnet</color> suffer an additional 12% <color=#80FFD7FF>Anemo RES</color> and Physical RES decrease while airborne."
+			"desc": "<color=#FFD780FF>Skyward Sonnet</color> decreases opponents' <color=#80FFD7FF>Anemo RES</color> and Physical RES by 12% for 10s.\\nOpponents launched by <color=#FFD780FF>Skyward Sonnet</color> suffer an additional 12% <color=#80FFD7FF>Anemo RES</color> and Physical RES decrease while airborne.",
+			"icon": "UI_Talent_S_Venti_02"
 		},
 		{
 			"name_hash": 1436400889,
 			"name": "Ode to Thousand Winds",
 			"desc_hash": 1214899311,
-			"desc": "Increases the Level of <color=#FFD780FF>Wind's Grand Ode</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Wind's Grand Ode</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Venti_02"
 		},
 		{
 			"name_hash": 2667025441,
 			"name": "Hurricane of Freedom",
 			"desc_hash": 3475049103,
-			"desc": "When Venti picks up an Elemental Orb or Particle, he receives a 25% <color=#80FFD7FF>Anemo DMG Bonus</color> for 10s."
+			"desc": "When Venti picks up an Elemental Orb or Particle, he receives a 25% <color=#80FFD7FF>Anemo DMG Bonus</color> for 10s.",
+			"icon": "UI_Talent_S_Venti_03"
 		},
 		{
 			"name_hash": 3652037273,
 			"name": "Concerto dal Cielo",
 			"desc_hash": 3697781887,
-			"desc": "Increases the Level of <color=#FFD780FF>Skyward Sonnet</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Skyward Sonnet</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Venti_01"
 		},
 		{
 			"name_hash": 544150889,
 			"name": "Storm of Defiance",
 			"desc_hash": 1651730135,
-			"desc": "Targets who take DMG from <color=#FFD780FF>Wind's Grand Ode</color> have their <color=#80FFD7FF>Anemo RES</color> decreased by 20%.\\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
+			"desc": "Targets who take DMG from <color=#FFD780FF>Wind's Grand Ode</color> have their <color=#80FFD7FF>Anemo RES</color> decreased by 20%.\\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
+			"icon": "UI_Talent_S_Venti_04"
 		}
 	],
 	"skins": {
@@ -811,7 +824,8 @@
 			"desc_hash": 3977341762,
 			"restricted": false,
 			"name": "Breezy Ode",
-			"desc": "Venti's outfit. The clothes of a carefree bard."
+			"desc": "Venti's outfit. The clothes of a carefree bard.",
+			"icon": ""
 		},
 		"alt": []
 	},

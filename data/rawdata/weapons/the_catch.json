@@ -14,6 +14,8 @@
 	"desc_hash": 1942599173,
 	"name": "\"The Catch\"",
 	"desc": "In the distant past, this was the beloved spear of a famed Inazuman bandit.",
+	"icon": "UI_EquipIcon_Pole_Mori",
+	"icon_awaken": "UI_EquipIcon_Pole_Mori_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

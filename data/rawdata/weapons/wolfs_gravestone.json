@@ -14,6 +14,8 @@
 	"desc_hash": 401408237,
 	"name": "Wolf's Gravestone",
 	"desc": "A longsword used by the Wolf Knight. Originally just a heavy sheet of iron given to the knight by a blacksmith from the city, it became endowed with legendary power owing to his friendship with the wolves.",
+	"icon": "UI_EquipIcon_Claymore_Wolfmound",
+	"icon_awaken": "UI_EquipIcon_Claymore_Wolfmound_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 45.9364013671875,

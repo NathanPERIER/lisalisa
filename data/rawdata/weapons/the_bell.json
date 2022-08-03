@@ -14,6 +14,8 @@
 	"desc_hash": 2055764669,
 	"name": "The Bell",
 	"desc": "A heavy greatsword. A clock is embedded within it, though its internal mechanisms have long been damaged.",
+	"icon": "UI_EquipIcon_Claymore_Troupe",
+	"icon_awaken": "UI_EquipIcon_Claymore_Troupe_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

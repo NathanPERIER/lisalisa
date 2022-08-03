@@ -14,6 +14,8 @@
 	"desc_hash": 59873837,
 	"name": "Sacrificial Bow",
 	"desc": "A ceremonial hunting bow that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+	"icon": "UI_EquipIcon_Bow_Fossil",
+	"icon_awaken": "UI_EquipIcon_Bow_Fossil_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,

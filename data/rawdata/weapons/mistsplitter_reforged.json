@@ -14,6 +14,8 @@
 	"desc_hash": 1497683685,
 	"name": "Mistsplitter Reforged",
 	"desc": "A sword that blazes with a fierce violet light. The name \"Reforged\" comes from it having been broken once before.",
+	"icon": "UI_EquipIcon_Sword_Narukami",
+	"icon_awaken": "UI_EquipIcon_Sword_Narukami_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 47.5369987487793,

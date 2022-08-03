@@ -14,6 +14,8 @@
 	"desc_hash": 3980674549,
 	"name": "Solar Pearl",
 	"desc": "A dull, golden pearl made of an unknown substance that harbors the light of the sun and the moon and pulses with a warm strength.",
+	"icon": "UI_EquipIcon_Catalyst_Resurrection",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Resurrection_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

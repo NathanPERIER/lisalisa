@@ -14,6 +14,8 @@
 	"desc_hash": 356356197,
 	"name": "Prototype Archaic",
 	"desc": "An ancient greatsword discovered in the Blackcliff Forge. It swings with such an immense force that one feels it could cut straight through reality itself.",
+	"icon": "UI_EquipIcon_Claymore_Proto",
+	"icon_awaken": "UI_EquipIcon_Claymore_Proto_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,

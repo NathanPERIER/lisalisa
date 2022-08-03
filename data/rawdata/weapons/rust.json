@@ -14,6 +14,8 @@
 	"desc_hash": 3931321797,
 	"name": "Rust",
 	"desc": "A completely rusted iron greatbow. The average person would lack the strength to even lift it, let alone fire it.",
+	"icon": "UI_EquipIcon_Bow_Recluse",
+	"icon_awaken": "UI_EquipIcon_Bow_Recluse_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

@@ -8,6 +8,7 @@
 	"desc_hash": 313187777,
 	"name": "Ganyu",
 	"desc": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+	"icon": "UI_AvatarIcon_Ganyu",
 	"rarity": 5,
 	"special": false,
 	"body": "BODY_GIRL",
@@ -156,6 +157,7 @@
 			"name_hash": 798389461,
 			"desc_hash": 3036547760,
 			"charge_num": 1,
+			"icon": "Skill_A_02",
 			"name": "Normal Attack: Liutian Archery",
 			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 6 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\\n\u00b7Charge Level 1: Fires off an icy arrow that deals <color=#99FFFFFF>Cryo DMG</color>.\\n\u00b7Charge Level 2: Fires off a Frostflake Arrow that deals <color=#99FFFFFF>Cryo DMG</color>. The Frostflake Arrow blooms after hitting its target, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
 			"costs": [
@@ -443,6 +445,7 @@
 			"name_hash": 1812426093,
 			"desc_hash": 2539067016,
 			"charge_num": 1,
+			"icon": "Skill_S_Ganyu_01",
 			"name": "Trail of the Qilin",
 			"desc": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<color=#FFD780FF>Ice Lotus</color>\\n\u00b7Continuously taunts surrounding opponents, attracting them to attack it.\\n\u00b7Endurance scales based on Ganyu's Max HP.\\n\u00b7Blooms profusely when destroyed or once its duration ends, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<i>\"You saw me, you say? You must be mistaken. I was working overtime then.\"</i>",
 			"costs": [
@@ -602,6 +605,7 @@
 			"name_hash": 683098317,
 			"desc_hash": 1897366776,
 			"charge_num": 1,
+			"icon": "Skill_E_Ganyu_01",
 			"name": "Celestial Shower",
 			"desc": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.\\nDuring its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<i>Ganyu can bring down sweet rains as a matter of course. But against demons and heretics, they become bitter, freezing snow.</i>",
 			"costs": [
@@ -763,6 +767,7 @@
 		{
 			"name_hash": 3611339165,
 			"desc_hash": 931735291,
+			"icon": "UI_Talent_S_Ganyu_05",
 			"ascension": 1,
 			"name": "Undivided Heart",
 			"desc": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s."
@@ -770,6 +775,7 @@
 		{
 			"name_hash": 760610189,
 			"desc_hash": 218500755,
+			"icon": "UI_Talent_S_Ganyu_06",
 			"ascension": 4,
 			"name": "Harmony Between Heaven and Earth",
 			"desc": "<color=#FFD780FF>Celestial Shower</color> grants a 20% <color=#99FFFFFF>Cryo DMG Bonus</color> to active party members in the AoE."
@@ -777,6 +783,7 @@
 		{
 			"name_hash": 4278043437,
 			"desc_hash": 2590341483,
+			"icon": "UI_Talent_Forge_Bow",
 			"ascension": null,
 			"name": "Preserved for the Hunt",
 			"desc": "Refunds 15% of the ore used when crafting Bow-type weapons."
@@ -787,37 +794,43 @@
 			"name_hash": 2361723385,
 			"name": "Dew-Drinker",
 			"desc_hash": 975174791,
-			"desc": "Charge Level 2 Frostflake Arrows or Frostflake Arrow Blooms decrease opponents' <color=#99FFFFFF>Cryo RES</color> by 15% for 6s upon hit.\\nA hit also regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hits the target."
+			"desc": "Charge Level 2 Frostflake Arrows or Frostflake Arrow Blooms decrease opponents' <color=#99FFFFFF>Cryo RES</color> by 15% for 6s upon hit.\\nA hit also regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hits the target.",
+			"icon": "UI_Talent_S_Ganyu_01"
 		},
 		{
 			"name_hash": 1383329801,
 			"name": "The Auspicious",
 			"desc_hash": 3346118319,
-			"desc": "<color=#FFD780FF>Trail of the Qilin</color> gains 1 additional charge."
+			"desc": "<color=#FFD780FF>Trail of the Qilin</color> gains 1 additional charge.",
+			"icon": "UI_Talent_S_Ganyu_02"
 		},
 		{
 			"name_hash": 3222345473,
 			"name": "Cloud-Strider",
 			"desc_hash": 2569532143,
-			"desc": "Increases the Level of <color=#FFD780FF>Celestial Shower</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Celestial Shower</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Ganyu_01"
 		},
 		{
 			"name_hash": 3290499593,
 			"name": "Westward Sojourn",
 			"desc_hash": 1565817023,
-			"desc": "Opponents standing within the AoE of <color=#FFD780FF>Celestial Shower</color> take increased DMG. This effect strengthens over time.\\nIncreased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%.\\nThe effect lingers for 3s after the opponent leaves the AoE."
+			"desc": "Opponents standing within the AoE of <color=#FFD780FF>Celestial Shower</color> take increased DMG. This effect strengthens over time.\\nIncreased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%.\\nThe effect lingers for 3s after the opponent leaves the AoE.",
+			"icon": "UI_Talent_S_Ganyu_03"
 		},
 		{
 			"name_hash": 1752707929,
 			"name": "The Merciful",
 			"desc_hash": 1288501871,
-			"desc": "Increases the Level of <color=#FFD780FF>Trail of the Qilin</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Trail of the Qilin</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Ganyu_02"
 		},
 		{
 			"name_hash": 37217545,
 			"name": "The Clement",
 			"desc_hash": 3563825719,
-			"desc": "Using <color=#FFD780FF>Trail of the Qilin</color> causes the next Frostflake Arrow shot within 30s to not require charging."
+			"desc": "Using <color=#FFD780FF>Trail of the Qilin</color> causes the next Frostflake Arrow shot within 30s to not require charging.",
+			"icon": "UI_Talent_S_Ganyu_04"
 		}
 	],
 	"skins": {
@@ -827,7 +840,8 @@
 			"desc_hash": 1209631242,
 			"restricted": false,
 			"name": "Frostdew Trail",
-			"desc": "Ganyu's outfit. Elegant clothes blessed by the mighty and illuminated adepti."
+			"desc": "Ganyu's outfit. Elegant clothes blessed by the mighty and illuminated adepti.",
+			"icon": ""
 		},
 		"alt": []
 	},

@@ -14,6 +14,8 @@
 	"desc_hash": 626666981,
 	"name": "Prototype Rancour",
 	"desc": "An ancient longsword discovered in the Blackcliff Forge that cuts through rocks like a hot knife through butter.",
+	"icon": "UI_EquipIcon_Sword_Proto",
+	"icon_awaken": "UI_EquipIcon_Sword_Proto_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,

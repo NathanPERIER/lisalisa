@@ -14,6 +14,8 @@
 	"desc_hash": 4131542477,
 	"name": "Sacrificial Sword",
 	"desc": "A ceremonial sword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+	"icon": "UI_EquipIcon_Sword_Fossil",
+	"icon_awaken": "UI_EquipIcon_Sword_Fossil_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 41.067100524902344,

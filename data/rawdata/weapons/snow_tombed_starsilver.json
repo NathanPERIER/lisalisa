@@ -14,6 +14,8 @@
 	"desc_hash": 2688837757,
 	"name": "Snow-Tombed Starsilver",
 	"desc": "An ancient greatsword that was stored between frescoes. Forged from Starsilver, it has the power to cleave through ice and snow.",
+	"icon": "UI_EquipIcon_Claymore_Dragonfell",
+	"icon_awaken": "UI_EquipIcon_Claymore_Dragonfell_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,

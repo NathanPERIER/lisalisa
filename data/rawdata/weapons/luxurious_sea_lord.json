@@ -14,6 +14,8 @@
 	"desc_hash": 3519261853,
 	"name": "Luxurious Sea-Lord",
 	"desc": "The great king of the ocean. Having been air-dried, it makes for a fine weapon as well as emergency sustenance.",
+	"icon": "UI_EquipIcon_Claymore_MillenniaTuna",
+	"icon_awaken": "UI_EquipIcon_Claymore_MillenniaTuna_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 41.067100524902344,

@@ -14,6 +14,8 @@
 	"desc_hash": 234405637,
 	"name": "Frostbearer",
 	"desc": "A fruit that possesses a strange, frosty will. A faint sense of agony emanates from it.",
+	"icon": "UI_EquipIcon_Catalyst_Everfrost",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Everfrost_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

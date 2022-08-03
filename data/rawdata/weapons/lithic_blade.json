@@ -14,6 +14,8 @@
 	"desc_hash": 3110406349,
 	"name": "Lithic Blade",
 	"desc": "A greatsword carved and chiseled from the very bedrock of Liyue.",
+	"icon": "UI_EquipIcon_Claymore_Lapis",
+	"icon_awaken": "UI_EquipIcon_Claymore_Lapis_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

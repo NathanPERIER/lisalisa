@@ -14,6 +14,8 @@
 	"desc_hash": 1207804933,
 	"name": "Prototype Amber",
 	"desc": "A dully gilded catalyst secretly guarded in the Blackcliff Forge. It seems to glow with the very light from the sky.",
+	"icon": "UI_EquipIcon_Catalyst_Proto",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Proto_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

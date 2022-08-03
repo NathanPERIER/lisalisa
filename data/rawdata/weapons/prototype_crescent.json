@@ -14,6 +14,8 @@
 	"desc_hash": 2174225037,
 	"name": "Prototype Crescent",
 	"desc": "A prototype longbow discovered in the Blackcliff Forge. The arrow fired from this bow glimmers like a ray of moonlight.",
+	"icon": "UI_EquipIcon_Bow_Proto",
+	"icon_awaken": "UI_EquipIcon_Bow_Proto_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

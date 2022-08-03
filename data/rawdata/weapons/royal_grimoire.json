@@ -14,6 +14,8 @@
 	"desc_hash": 2717009405,
 	"name": "Royal Grimoire",
 	"desc": "A book that once belonged to a court mage of Mondstadt who served the nobility. It contains faithful and comprehensive historical accounts as well as magic spells.",
+	"icon": "UI_EquipIcon_Catalyst_Theocrat",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Theocrat_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,

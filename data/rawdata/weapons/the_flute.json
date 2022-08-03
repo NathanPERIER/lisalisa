@@ -14,6 +14,8 @@
 	"desc_hash": 2174961477,
 	"name": "The Flute",
 	"desc": "Beneath its rusty exterior is a lavishly decorated thin blade. It swings as swiftly as the wind.",
+	"icon": "UI_EquipIcon_Sword_Troupe",
+	"icon_awaken": "UI_EquipIcon_Sword_Troupe_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

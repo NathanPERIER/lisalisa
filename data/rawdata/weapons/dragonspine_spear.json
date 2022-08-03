@@ -14,6 +14,8 @@
 	"desc_hash": 3283185533,
 	"name": "Dragonspine Spear",
 	"desc": "A spear created from the fang of a dragon. It is oddly warm to the touch.",
+	"icon": "UI_EquipIcon_Pole_Everfrost",
+	"icon_awaken": "UI_EquipIcon_Pole_Everfrost_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 41.067100524902344,

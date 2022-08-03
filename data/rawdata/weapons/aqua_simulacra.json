@@ -14,6 +14,8 @@
 	"desc_hash": 954648749,
 	"name": "Aqua Simulacra",
 	"desc": "This longbow's color is unpredictable. Under the light, it takes on a lustrous, watery blue.",
+	"icon": "UI_EquipIcon_Bow_Kirin",
+	"icon_awaken": "UI_EquipIcon_Bow_Kirin_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 44.33580017089844,

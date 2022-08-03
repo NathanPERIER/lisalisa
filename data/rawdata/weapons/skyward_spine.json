@@ -14,6 +14,8 @@
 	"desc_hash": 2400004301,
 	"name": "Skyward Spine",
 	"desc": "A polearm that symbolizes Dvalin's firm resolve. The upright shaft of this weapon points towards the heavens, clad in the might of sky and wind.",
+	"icon": "UI_EquipIcon_Pole_Dvalin",
+	"icon_awaken": "UI_EquipIcon_Pole_Dvalin_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 47.5369987487793,

@@ -14,6 +14,8 @@
 	"desc_hash": 4199357237,
 	"name": "Serpent Spine",
 	"desc": "A rare weapon whose origin is the ancient ocean. One can hear the sound of the ageless waves as one swings it.",
+	"icon": "UI_EquipIcon_Claymore_Kione",
+	"icon_awaken": "UI_EquipIcon_Claymore_Kione_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

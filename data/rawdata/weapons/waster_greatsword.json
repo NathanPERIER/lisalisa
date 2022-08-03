@@ -14,6 +14,8 @@
 	"desc_hash": 2490958125,
 	"name": "Waster Greatsword",
 	"desc": "A sturdy sheet of iron that may be powerful enough to break apart mountains if wielded with enough willpower.",
+	"icon": "UI_EquipIcon_Claymore_Aniki",
+	"icon_awaken": "UI_EquipIcon_Claymore_Aniki_Awaken",
 	"rarity": 1,
 	"base_stats": {
 		"Base ATK": 23.2450008392334

@@ -14,6 +14,8 @@
 	"desc_hash": 3487544829,
 	"name": "Staff of Homa",
 	"desc": "A \"firewood staff\" that was once used in ancient and long-lost rituals.",
+	"icon": "UI_EquipIcon_Pole_Homa",
+	"icon_awaken": "UI_EquipIcon_Pole_Homa_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 45.9364013671875,

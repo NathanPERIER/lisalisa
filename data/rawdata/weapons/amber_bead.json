@@ -14,6 +14,8 @@
 	"desc_hash": 3867432845,
 	"name": "Amber Bead",
 	"desc": "A catalyst carved out of amber that gains a warm halo under the sun.",
+	"icon": "UI_EquipIcon_Catalyst_Amber",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Amber_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 38.74129867553711,

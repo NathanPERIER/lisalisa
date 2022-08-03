@@ -14,6 +14,8 @@
 	"desc_hash": 1683286045,
 	"name": "Whiteblind",
 	"desc": "An exotic sword with one section of the blade left blunt. It made its way into Liyue via the hands of foreign traders. Incredibly powerful in the hands of someone who knows how to use it.",
+	"icon": "UI_EquipIcon_Claymore_Exotic",
+	"icon_awaken": "UI_EquipIcon_Claymore_Exotic_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

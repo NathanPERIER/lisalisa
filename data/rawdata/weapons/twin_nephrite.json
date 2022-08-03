@@ -14,6 +14,8 @@
 	"desc_hash": 2737744437,
 	"name": "Twin Nephrite",
 	"desc": "A jade pendant formed by piecing together two jade stones.",
+	"icon": "UI_EquipIcon_Catalyst_Phoney",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Phoney_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 39.875099182128906,

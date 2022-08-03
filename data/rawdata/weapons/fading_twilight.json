@@ -14,6 +14,8 @@
 	"desc_hash": 3884152605,
 	"name": "Fading Twilight",
 	"desc": "A precious bow made of platinum, inlaid with an orb that shimmers with the light of eventide.",
+	"icon": "UI_EquipIcon_Bow_Fallensun",
+	"icon_awaken": "UI_EquipIcon_Bow_Fallensun_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,

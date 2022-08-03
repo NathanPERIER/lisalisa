@@ -14,6 +14,8 @@
 	"desc_hash": 2449465901,
 	"name": "Katsuragikiri Nagamasa",
 	"desc": "A blade that was once made in Tatarasuna. Heavy and tough.",
+	"icon": "UI_EquipIcon_Claymore_Bakufu",
+	"icon_awaken": "UI_EquipIcon_Claymore_Bakufu_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

@@ -14,6 +14,8 @@
 	"desc_hash": 169605981,
 	"name": "Old Merc's Pal",
 	"desc": "A battle-tested greatsword that has seen better days and worse.",
+	"icon": "UI_EquipIcon_Claymore_Oyaji",
+	"icon_awaken": "UI_EquipIcon_Claymore_Oyaji_Awaken",
 	"rarity": 2,
 	"base_stats": {
 		"Base ATK": 32.93000030517578

@@ -14,6 +14,8 @@
 	"desc_hash": 3985911901,
 	"name": "Sacrificial Greatsword",
 	"desc": "A ceremonial greatsword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+	"icon": "UI_EquipIcon_Claymore_Fossil",
+	"icon_awaken": "UI_EquipIcon_Claymore_Fossil_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,

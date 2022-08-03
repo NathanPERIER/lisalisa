@@ -14,6 +14,8 @@
 	"desc_hash": 1025771861,
 	"name": "Royal Bow",
 	"desc": "An old longbow that belonged to the erstwhile aristocratic rulers of Mondstadt. Countless generations later, the bowstring is still tight and can still fire arrows with great force.",
+	"icon": "UI_EquipIcon_Bow_Theocrat",
+	"icon_awaken": "UI_EquipIcon_Bow_Theocrat_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

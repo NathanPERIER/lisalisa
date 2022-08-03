@@ -14,6 +14,8 @@
 	"desc_hash": 1253880813,
 	"name": "The Black Sword",
 	"desc": "A pitch-black longsword that thirsts for violence and conflict. It is said that this weapon can cause its user to become drunk on the red wine of slaughter.",
+	"icon": "UI_EquipIcon_Sword_Bloodstained",
+	"icon_awaken": "UI_EquipIcon_Sword_Bloodstained_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

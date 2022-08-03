@@ -14,6 +14,8 @@
 	"desc_hash": 3478455989,
 	"name": "Song of Broken Pines",
 	"desc": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
+	"icon": "UI_EquipIcon_Claymore_Widsith",
+	"icon_awaken": "UI_EquipIcon_Claymore_Widsith_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 49.137699127197266,

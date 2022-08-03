@@ -14,6 +14,8 @@
 	"desc_hash": 3555971517,
 	"name": "Blackcliff Agate",
 	"desc": "A mysterious catalyst made of a material known as \"blackcliff.\" It has an ominous crimson glow that seems to pulse in synchronization with the tremors from deep within the earth.",
+	"icon": "UI_EquipIcon_Catalyst_Blackrock",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Blackrock_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

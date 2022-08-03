@@ -14,6 +14,8 @@
 	"desc_hash": 894007269,
 	"name": "Sharpshooter's Oath",
 	"desc": "This superior bow once belonged to a master archer. However, it gives off a strong scent, thus making it unsuitable for hunting.",
+	"icon": "UI_EquipIcon_Bow_Arjuna",
+	"icon_awaken": "UI_EquipIcon_Bow_Arjuna_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 38.74129867553711,

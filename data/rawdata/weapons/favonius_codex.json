@@ -14,6 +14,8 @@
 	"desc_hash": 311411373,
 	"name": "Favonius Codex",
 	"desc": "A secret tome that belonged to the scholars of the Knights of Favonius. It describes the logic and power of elements and matter.",
+	"icon": "UI_EquipIcon_Catalyst_Zephyrus",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Zephyrus_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

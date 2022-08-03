@@ -14,6 +14,8 @@
 	"desc_hash": 4129402597,
 	"name": "Kitain Cross Spear",
 	"desc": "A special lance that was once used by a famed warrior who guarded the Tatarigami on Yashiori Island.",
+	"icon": "UI_EquipIcon_Pole_Bakufu",
+	"icon_awaken": "UI_EquipIcon_Pole_Bakufu_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,

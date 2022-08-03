@@ -14,6 +14,8 @@
 	"desc_hash": 4211009349,
 	"name": "Dark Iron Sword",
 	"desc": "A perfectly ordinary iron sword, just slightly darker than most.",
+	"icon": "UI_EquipIcon_Sword_Darker",
+	"icon_awaken": "UI_EquipIcon_Sword_Darker_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 38.74129867553711,

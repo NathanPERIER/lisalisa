@@ -14,6 +14,8 @@
 	"desc_hash": 4267791309,
 	"name": "Oathsworn Eye",
 	"desc": "A national treasure of Byakuyakoku stored in the Dainichi Mikoshi. With the coming of the Serpent God, this item was used to notarize great oaths and wishes.",
+	"icon": "UI_EquipIcon_Catalyst_Jyanome",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Jyanome_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,

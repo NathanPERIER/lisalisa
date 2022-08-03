@@ -14,6 +14,8 @@
 	"desc_hash": 2969158189,
 	"name": "Traveler's Handy Sword",
 	"desc": "A handy steel sword which contains scissors, a magnifying glass, tinder, and other useful items in its sheath.",
+	"icon": "UI_EquipIcon_Sword_Traveler",
+	"icon_awaken": "UI_EquipIcon_Sword_Traveler_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 39.875099182128906,

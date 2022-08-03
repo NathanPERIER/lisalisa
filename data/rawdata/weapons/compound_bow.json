@@ -14,6 +14,8 @@
 	"desc_hash": 1166197037,
 	"name": "Compound Bow",
 	"desc": "An exotic metallic bow from a distant land. Though extremely difficult to maintain, it is easy to nock and fires with tremendous force.",
+	"icon": "UI_EquipIcon_Bow_Exotic",
+	"icon_awaken": "UI_EquipIcon_Bow_Exotic_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 41.067100524902344,

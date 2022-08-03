@@ -14,6 +14,8 @@
 	"desc_hash": 750378765,
 	"name": "Lion's Roar",
 	"desc": "A sharp blade with extravagant carvings that somehow does not compromise on durability and sharpness. It roars like a lion as it cuts through the air.",
+	"icon": "UI_EquipIcon_Sword_Rockkiller",
+	"icon_awaken": "UI_EquipIcon_Sword_Rockkiller_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

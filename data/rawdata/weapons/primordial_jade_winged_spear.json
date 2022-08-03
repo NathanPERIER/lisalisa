@@ -14,6 +14,8 @@
 	"desc_hash": 1074834109,
 	"name": "Primordial Jade Winged-Spear",
 	"desc": "A jade polearm made by the archons, capable of slaying ancient beasts.",
+	"icon": "UI_EquipIcon_Pole_Morax",
+	"icon_awaken": "UI_EquipIcon_Pole_Morax_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 47.5369987487793,

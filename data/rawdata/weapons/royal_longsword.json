@@ -14,6 +14,8 @@
 	"desc_hash": 1115870133,
 	"name": "Royal Longsword",
 	"desc": "An old longsword that belonged to the erstwhile rulers of Mondstadt. Exquisitely crafted, the carvings and embellishments testify to the stature of its owner.",
+	"icon": "UI_EquipIcon_Sword_Theocrat",
+	"icon_awaken": "UI_EquipIcon_Sword_Theocrat_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

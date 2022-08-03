@@ -14,6 +14,8 @@
 	"desc_hash": 2692633181,
 	"name": "Black Tassel",
 	"desc": "An exceptionally powerful polearm that also offers a simple but elegant solution to the issue of the easily stained white tassel.",
+	"icon": "UI_EquipIcon_Pole_Noire",
+	"icon_awaken": "UI_EquipIcon_Pole_Noire_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 37.60749816894531,

@@ -14,6 +14,8 @@
 	"desc_hash": 3496480741,
 	"name": "White Tassel",
 	"desc": "A standard-issue weapon of the Millelith soldiers. It has a sturdy shaft and sharp spearhead. It's a reliable weapon.",
+	"icon": "UI_EquipIcon_Pole_Ruby",
+	"icon_awaken": "UI_EquipIcon_Pole_Ruby_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 38.74129867553711,

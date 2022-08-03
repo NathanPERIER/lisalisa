@@ -14,6 +14,8 @@
 	"desc_hash": 2074162709,
 	"name": "Blackcliff Pole",
 	"desc": "A weapon made of blackcliff and aerosiderite. There is a dark crimson glow on its cold black sheen.",
+	"icon": "UI_EquipIcon_Pole_Blackrock",
+	"icon_awaken": "UI_EquipIcon_Pole_Blackrock_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

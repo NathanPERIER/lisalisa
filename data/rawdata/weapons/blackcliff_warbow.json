@@ -14,6 +14,8 @@
 	"desc_hash": 1032617965,
 	"name": "Blackcliff Warbow",
 	"desc": "A bow made of blackcliff that features extremely sturdy bow limbs. It requires an archer with a strong bow arm to use.",
+	"icon": "UI_EquipIcon_Bow_Blackrock",
+	"icon_awaken": "UI_EquipIcon_Bow_Blackrock_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,

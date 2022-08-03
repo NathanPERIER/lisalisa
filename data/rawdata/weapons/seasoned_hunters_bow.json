@@ -14,6 +14,8 @@
 	"desc_hash": 905810789,
 	"name": "Seasoned Hunter's Bow",
 	"desc": "A bow that has been well-polished by time and meticulously cared for by its owner. It feels almost like an extension of the archer's arm.",
+	"icon": "UI_EquipIcon_Bow_Old",
+	"icon_awaken": "UI_EquipIcon_Bow_Old_Awaken",
 	"rarity": 2,
 	"base_stats": {
 		"Base ATK": 32.93000030517578

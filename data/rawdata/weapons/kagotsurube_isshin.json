@@ -1,21 +1,21 @@
 {
-	"hoyo_id": 15415,
-	"promote_id": 15415,
-	"gadget_id": 50015415,
+	"hoyo_id": 11416,
+	"promote_id": 11416,
+	"gadget_id": 50011416,
 	"story_id": [
-		195415
+		191416
 	],
 	"skill_affix": [
-		115415,
+		111416,
 		0
 	],
-	"type": "bow",
-	"name_hash": 540938627,
-	"desc_hash": 602632589,
-	"name": "Predator",
-	"desc": "A uniquely-designed bow. This should not belong in this world.",
-	"icon": "UI_EquipIcon_Bow_Predator",
-	"icon_awaken": "UI_EquipIcon_Bow_Predator_Awaken",
+	"type": "sword",
+	"name_hash": 1012170803,
+	"desc_hash": 2752898277,
+	"name": "Kagotsurube Isshin",
+	"desc": "This famed blade was born in a nation to the far north. But in the name of \"Isshin,\" it was stained with many a dark deed on its home-bound journey.",
+	"icon": "UI_EquipIcon_Sword_Youtou",
+	"icon_awaken": "UI_EquipIcon_Sword_Youtou_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
@@ -28,39 +28,39 @@
 	"ascensions": {
 		"costs": [
 			{
-				"narukamis_wisdom": 3,
-				"dismal_prism": 3,
-				"firm_arrowhead": 2,
+				"mask_of_the_wicked_lieutenant": 3,
+				"gloomy_statuette": 3,
+				"spectral_husk": 2,
 				"mora": 5000
 			},
 			{
-				"narukamis_joy": 3,
-				"dismal_prism": 12,
-				"firm_arrowhead": 8,
+				"mask_of_the_tigers_bite": 3,
+				"gloomy_statuette": 12,
+				"spectral_husk": 8,
 				"mora": 15000
 			},
 			{
-				"narukamis_joy": 6,
-				"crystal_prism": 6,
-				"sharp_arrowhead": 6,
+				"mask_of_the_tigers_bite": 6,
+				"dark_statuette": 6,
+				"spectral_heart": 6,
 				"mora": 20000
 			},
 			{
-				"narukamis_affection": 3,
-				"crystal_prism": 12,
-				"sharp_arrowhead": 9,
+				"mask_of_the_one_horned": 3,
+				"dark_statuette": 12,
+				"spectral_heart": 9,
 				"mora": 30000
 			},
 			{
-				"narukamis_affection": 6,
-				"polarizing_prism": 9,
-				"weathered_arrowhead": 6,
+				"mask_of_the_one_horned": 6,
+				"deathly_statuette": 9,
+				"spectral_nucleus": 6,
 				"mora": 35000
 			},
 			{
-				"narukamis_valor": 4,
-				"polarizing_prism": 18,
-				"weathered_arrowhead": 12,
+				"mask_of_the_kijin": 4,
+				"deathly_statuette": 18,
+				"spectral_nucleus": 12,
 				"mora": 45000
 			}
 		],
@@ -138,14 +138,14 @@
 		]
 	},
 	"abilities": {
-		"name_hash": 3063488107,
-		"name": "Strong Strike",
+		"name_hash": 607067963,
+		"name": "Isshin Art Clarity",
 		"special_material": null,
 		"values": [
 			{
-				"affix_id": 1154150,
-				"desc_hash": 3524881273,
-				"desc": "<color=#99FFFFFF>Effective only on the following platform: </color>\\n<color=#99FFFFFF>\"PlayStation Network\"</color>\\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
+				"affix_id": 1114160,
+				"desc_hash": 3133487137,
+				"desc": "When a Normal, Charged, or Plunging Attack hits an opponent, it will whip up a Hewing Gale, dealing AoE DMG equal to 180% of ATK and increasing ATK by 15% for 8s. This effect can be triggered once every 8s.",
 				"cost": 0
 			}
 		]

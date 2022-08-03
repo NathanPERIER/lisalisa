@@ -14,6 +14,8 @@
 	"desc_hash": 4081562589,
 	"name": "Thrilling Tales of Dragon Slayers",
 	"desc": "A fictional story of a band of five heroes who go off on a dragon hunt. It is poorly written and structurally incoherent. Its value lies in the many lessons that can be learned from failure.",
+	"icon": "UI_EquipIcon_Catalyst_Pulpfic",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Pulpfic_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 38.74129867553711,

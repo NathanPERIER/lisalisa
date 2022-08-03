@@ -14,6 +14,8 @@
 	"desc_hash": 2188385645,
 	"name": "Lost Prayer to the Sacred Winds",
 	"desc": "An educational tome written by anonymous early inhabitants who worshiped the wind. It has been blessed by the wind for its faithfulness and influence over the millennia.",
+	"icon": "UI_EquipIcon_Catalyst_Fourwinds",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Fourwinds_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 45.9364013671875,

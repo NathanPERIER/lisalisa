@@ -8,6 +8,7 @@
 	"desc_hash": 2789047073,
 	"name": "Xiao",
 	"desc": "A yaksha adeptus who defends Liyue. Also heralded as the \"Conqueror of Demons\" and \"Vigilant Yaksha.\"",
+	"icon": "UI_AvatarIcon_Xiao",
 	"rarity": 5,
 	"special": false,
 	"body": "BODY_BOY",
@@ -156,6 +157,7 @@
 			"name_hash": 232048445,
 			"desc_hash": 81972888,
 			"charge_num": 1,
+			"icon": "Skill_A_03",
 			"name": "Normal Attack: Whirlwind Thrust",
 			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 6 consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to perform an upward thrust.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\\nXiao does not take DMG from performing Plunging Attacks.",
 			"costs": [
@@ -411,6 +413,7 @@
 			"name_hash": 45357229,
 			"desc_hash": 1423350968,
 			"charge_num": 2,
+			"icon": "Skill_S_Xiao_01",
 			"name": "Lemniscatic Wind Cycling",
 			"desc": "Xiao lunges forward, dealing <color=#80FFD7FF>Anemo DMG</color> to opponents in his path.\\nCan be used in mid-air.\\nStarts with 2 charges.\\n\\n<i>According to the legends of another land, the world will someday be crushed by two great wind wheels. Xiao's mastery over polearms is transcendent, ripping his foes apart like those legendary wind wheels.</i>",
 			"costs": [
@@ -538,6 +541,7 @@
 			"name_hash": 2396025797,
 			"desc_hash": 3694684504,
 			"charge_num": 1,
+			"icon": "Skill_E_Xiao_01",
 			"name": "Bane of All Evil",
 			"desc": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\\n\\n<color=#FFD780FF>Yaksha's Mask</color>\\n\u00b7Greatly increases Xiao's jumping ability.\\n\u00b7Increases his attack AoE and attack DMG.\\n\u00b7Converts attack DMG into <color=#80FFD7FF>Anemo DMG</color>, which cannot be overridden by any other elemental infusion.\\n\\nIn this state, Xiao will continuously lose HP.\\nThe effects of this skill end when Xiao leaves the field.\\n\\n<i>Donning the Mask of the Yaksha, Xiao takes the terrifying, demon-conquering form of the Vigilant Yaksha. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\"</i>",
 			"costs": [
@@ -715,6 +719,7 @@
 		{
 			"name_hash": 1374919229,
 			"desc_hash": 3596785467,
+			"icon": "UI_Talent_S_Xiao_05",
 			"ascension": 1,
 			"name": "Conqueror of Evil: Tamer of Demons",
 			"desc": "While under the effects of <color=#FFD780FF>Bane of All Evil</color>, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists.\\nThe maximum DMG Bonus is 25%."
@@ -722,6 +727,7 @@
 		{
 			"name_hash": 2600189189,
 			"desc_hash": 1170290667,
+			"icon": "UI_Talent_S_Xiao_06",
 			"ascension": 4,
 			"name": "Dissolution Eon: Heaven Fall",
 			"desc": "Using <color=#FFD780FF>Lemniscatic Wind Cycling</color> increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%.\\nThis effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration."
@@ -729,6 +735,7 @@
 		{
 			"name_hash": 1046467645,
 			"desc_hash": 1894256979,
+			"icon": "UI_Talent_Explosion_Climb",
 			"ascension": null,
 			"name": "Transcension: Gravity Defier",
 			"desc": "Decreases climbing Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
@@ -739,37 +746,43 @@
 			"name_hash": 3656758641,
 			"name": "Dissolution Eon: Destroyer of Worlds",
 			"desc_hash": 2211607487,
-			"desc": "Increases <color=#FFD780FF>Lemniscatic Wind Cycling</color>'s charges by 1."
+			"desc": "Increases <color=#FFD780FF>Lemniscatic Wind Cycling</color>'s charges by 1.",
+			"icon": "UI_Talent_S_Xiao_01"
 		},
 		{
 			"name_hash": 1959296641,
 			"name": "Annihilation Eon: Blossom of Kaleidos",
 			"desc_hash": 2430102759,
-			"desc": "When in the party and not on the field, Xiao's Energy Recharge is increased by 25%."
+			"desc": "When in the party and not on the field, Xiao's Energy Recharge is increased by 25%.",
+			"icon": "UI_Talent_S_Xiao_02"
 		},
 		{
 			"name_hash": 2385509657,
 			"name": "Conqueror of Evil: Wrath Deity",
 			"desc_hash": 627668303,
-			"desc": "Increases the Level of <color=#FFD780FF>Lemniscatic Wind Cycling</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Lemniscatic Wind Cycling</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Xiao_01"
 		},
 		{
 			"name_hash": 3724086753,
 			"name": "Transcension: Extinction of Suffering",
 			"desc_hash": 2599764583,
-			"desc": "When Xiao's HP falls below 50%, he gains a 100% DEF Bonus."
+			"desc": "When Xiao's HP falls below 50%, he gains a 100% DEF Bonus.",
+			"icon": "UI_Talent_S_Xiao_03"
 		},
 		{
 			"name_hash": 4032000625,
 			"name": "Evolution Eon: Origin of Ignorance",
 			"desc_hash": 934068495,
-			"desc": "Increases the Level of <color=#FFD780FF>Bane of All Evil</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Bane of All Evil</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Xiao_02"
 		},
 		{
 			"name_hash": 998328113,
 			"name": "Conqueror of Evil: Guardian Yaksha",
 			"desc_hash": 2528103471,
-			"desc": "While under the effects of <color=#FFD780FF>Bane of All Evil</color>, hitting at least 2 opponents with Xiao's Plunging Attack will immediately grant him 1 charge of <color=#FFD780FF>Lemniscatic Wind Cycling</color>, and for the next 1s, he may use Lemniscatic Wind Cycling while ignoring its CD."
+			"desc": "While under the effects of <color=#FFD780FF>Bane of All Evil</color>, hitting at least 2 opponents with Xiao's Plunging Attack will immediately grant him 1 charge of <color=#FFD780FF>Lemniscatic Wind Cycling</color>, and for the next 1s, he may use Lemniscatic Wind Cycling while ignoring its CD.",
+			"icon": "UI_Talent_S_Xiao_04"
 		}
 	],
 	"skins": {
@@ -779,7 +792,8 @@
 			"desc_hash": 3291997178,
 			"restricted": false,
 			"name": "Endurer of Eons",
-			"desc": "Xiao's outfit. Classical battle-wear fit for a thousand years of evil-conquering."
+			"desc": "Xiao's outfit. Classical battle-wear fit for a thousand years of evil-conquering.",
+			"icon": ""
 		},
 		"alt": []
 	},

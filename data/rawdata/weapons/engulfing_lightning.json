@@ -14,6 +14,8 @@
 	"desc_hash": 859215189,
 	"name": "Engulfing Lightning",
 	"desc": "A naginata used to \"cut grass.\" Any army that stands before this weapon will probably be likewise cut down...",
+	"icon": "UI_EquipIcon_Pole_Narukami",
+	"icon_awaken": "UI_EquipIcon_Pole_Narukami_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 45.9364013671875,

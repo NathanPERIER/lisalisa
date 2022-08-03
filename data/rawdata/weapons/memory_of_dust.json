@@ -14,6 +14,8 @@
 	"desc_hash": 1610195525,
 	"name": "Memory of Dust",
 	"desc": "A stone dumbbell containing distant memories. Its endless transformations reveal the power within.",
+	"icon": "UI_EquipIcon_Catalyst_Kunwu",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Kunwu_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 45.9364013671875,

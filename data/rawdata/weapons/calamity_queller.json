@@ -14,6 +14,8 @@
 	"desc_hash": 4156676173,
 	"name": "Calamity Queller",
 	"desc": "A keenly honed weapon forged from some strange crystal. Its faint blue light seems to whisper of countless matters now past.",
+	"icon": "UI_EquipIcon_Pole_Santika",
+	"icon_awaken": "UI_EquipIcon_Pole_Santika_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 49.137699127197266,

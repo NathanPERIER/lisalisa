@@ -14,6 +14,8 @@
 	"desc_hash": 1284213621,
 	"name": "The Stringless",
 	"desc": "A bow that once served as an extraordinary instrument. It is no longer capable of getting people up and dancing.",
+	"icon": "UI_EquipIcon_Bow_Troupe",
+	"icon_awaken": "UI_EquipIcon_Bow_Troupe_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

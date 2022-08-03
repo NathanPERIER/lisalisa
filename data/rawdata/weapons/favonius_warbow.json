@@ -14,6 +14,8 @@
 	"desc_hash": 2697551509,
 	"name": "Favonius Warbow",
 	"desc": "A standard-issue recurve bow of the Knights of Favonius. Only the best archers can unleash its full potential.",
+	"icon": "UI_EquipIcon_Bow_Zephyrus",
+	"icon_awaken": "UI_EquipIcon_Bow_Zephyrus_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 41.067100524902344,

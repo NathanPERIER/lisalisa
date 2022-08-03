@@ -14,6 +14,8 @@
 	"desc_hash": 2798582285,
 	"name": "Fillet Blade",
 	"desc": "A sharp filleting knife. The blade is long, thin, and incredibly sharp.",
+	"icon": "UI_EquipIcon_Sword_Sashimi",
+	"icon_awaken": "UI_EquipIcon_Sword_Sashimi_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 38.74129867553711,

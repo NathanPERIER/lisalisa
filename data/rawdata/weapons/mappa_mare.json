@@ -14,6 +14,8 @@
 	"desc_hash": 727794477,
 	"name": "Mappa Mare",
 	"desc": "A nautical chart featuring nearby currents and climates that somehow found its way into Liyue via foreign traders.",
+	"icon": "UI_EquipIcon_Catalyst_Exotic",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Exotic_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,

@@ -14,6 +14,8 @@
 	"desc_hash": 219606109,
 	"name": "Royal Spear",
 	"desc": "This polearm was once cherished by a member of the old nobility that governed Mondstadt long ago. Although it has never seen the light of day, it is still incomparably sharp.",
+	"icon": "UI_EquipIcon_Pole_Theocrat",
+	"icon_awaken": "UI_EquipIcon_Pole_Theocrat_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,

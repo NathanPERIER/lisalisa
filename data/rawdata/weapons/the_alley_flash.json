@@ -14,6 +14,8 @@
 	"desc_hash": 3674581941,
 	"name": "The Alley Flash",
 	"desc": "A straight sword as black as the night. It once belonged to a thief who roamed the benighted streets.",
+	"icon": "UI_EquipIcon_Sword_Outlaw",
+	"icon_awaken": "UI_EquipIcon_Sword_Outlaw_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 45.06869888305664,

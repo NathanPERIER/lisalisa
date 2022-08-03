@@ -14,6 +14,8 @@
 	"desc_hash": 2243594437,
 	"name": "White Iron Greatsword",
 	"desc": "A claymore made from white iron. Lightweight without compromising on power. Effective even when wielded by one of average strength, it is extremely deadly in the hands of a physically stronger wielder.",
+	"icon": "UI_EquipIcon_Claymore_Tin",
+	"icon_awaken": "UI_EquipIcon_Claymore_Tin_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 38.74129867553711,

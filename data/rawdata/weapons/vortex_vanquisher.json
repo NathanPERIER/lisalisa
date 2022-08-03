@@ -14,6 +14,8 @@
 	"desc_hash": 786121517,
 	"name": "Vortex Vanquisher",
 	"desc": "This sharp polearm can seemingly pierce through anything. When swung, one can almost see the rift it tears in the air.",
+	"icon": "UI_EquipIcon_Pole_Kunwu",
+	"icon_awaken": "UI_EquipIcon_Pole_Kunwu_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 45.9364013671875,

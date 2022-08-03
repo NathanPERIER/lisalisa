@@ -14,6 +14,8 @@
 	"desc_hash": 2844428397,
 	"name": "Wine and Song",
 	"desc": "A songbook from the bygone aristocratic era, whose composer has become forgotten. It chronicles the tale of a certain heroic outlaw.",
+	"icon": "UI_EquipIcon_Catalyst_Outlaw",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Outlaw_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,

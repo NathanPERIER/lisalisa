@@ -1779,6 +1779,16 @@
 		"desc": "An idol made in the likeness of some unknown person.\\nEven though this carving has seen many years pass, it still has not been damaged in any way. It seems that its previous owner must have cherished it like some holy icon.",
 		"type": "Character Level-Up Material"
 	},
+	"spectral_husk": {
+		"hoyo_id": 112053,
+		"name_hash": 2130054892,
+		"desc_hash": 417533509,
+		"type_hash": 688136726,
+		"rarity": 1,
+		"name": "Spectral Husk",
+		"desc": "An energy core that allows the Specters to float. It contains a small amount of elemental energy.\\nMost of the rest has already dispersed.",
+		"type": "Character Level-Up Material"
+	},
 	"dark_statuette": {
 		"hoyo_id": 112018,
 		"name_hash": 3743954164,
@@ -1789,6 +1799,16 @@
 		"desc": "An idol made in the likeness of some unknown, one-eyed person.\\nYou can feel a strange warmth emanating from within as you hold onto it, like the shoulder of a dear friend. Perhaps this icon can indeed give people who understand its significance the courage to carry on.",
 		"type": "Character Level-Up Material"
 	},
+	"spectral_heart": {
+		"hoyo_id": 112054,
+		"name_hash": 4256517428,
+		"desc_hash": 3530247109,
+		"type_hash": 181106614,
+		"rarity": 2,
+		"name": "Spectral Heart",
+		"desc": "An energy core that allows the Specters to float.\\nThese elemental life-forms have strange behavioral patterns and will periodically surge in number before disappearing.",
+		"type": "Character Level-Up Material"
+	},
 	"deathly_statuette": {
 		"hoyo_id": 112019,
 		"name_hash": 341144756,
@@ -1797,6 +1817,16 @@
 		"rarity": 4,
 		"name": "Deathly Statuette",
 		"desc": "A one-eyed carving that emanates an ominous energy, with no indication of what it's made of.\\nAs you gaze upon this idol, you can almost hear a strange, comforting whisper...\\n\"See, my child. All that lies under the throne of heaven shall be destroyed by upheaval. The eternal peace of the pitch-dark void shall embrace us all.\"",
+		"type": "Character Level-Up Material"
+	},
+	"spectral_nucleus": {
+		"hoyo_id": 112055,
+		"name_hash": 3049633276,
+		"desc_hash": 1209406221,
+		"type_hash": 2868189750,
+		"rarity": 3,
+		"name": "Spectral Nucleus",
+		"desc": "A complete energy core that can sometimes be found after defeating Specters.\\nThere is a debate among those who just have to divide the world into winners and losers: what floats better \u2014 a Specter or an Anemo Slime?",
 		"type": "Character Level-Up Material"
 	},
 	"concealed_claw": {
@@ -1827,36 +1857,6 @@
 		"rarity": 4,
 		"name": "Concealed Talon",
 		"desc": "A sharp nail left behind by one of the Riftwolves.\\nAll the marvels in the world must pale before \"Cretaceus,\" the greatest work of them all.",
-		"type": "Character Level-Up Material"
-	},
-	"spectral_husk": {
-		"hoyo_id": 112053,
-		"name_hash": 2130054892,
-		"desc_hash": 417533509,
-		"type_hash": 688136726,
-		"rarity": 1,
-		"name": "Spectral Husk",
-		"desc": "An energy core that allows the Specters to float. It contains a small amount of elemental energy.\\nMost of the rest has already dispersed.",
-		"type": "Character Level-Up Material"
-	},
-	"spectral_heart": {
-		"hoyo_id": 112054,
-		"name_hash": 4256517428,
-		"desc_hash": 3530247109,
-		"type_hash": 181106614,
-		"rarity": 2,
-		"name": "Spectral Heart",
-		"desc": "An energy core that allows the Specters to float.\\nThese elemental life-forms have strange behavioral patterns and will periodically surge in number before disappearing.",
-		"type": "Character Level-Up Material"
-	},
-	"spectral_nucleus": {
-		"hoyo_id": 112055,
-		"name_hash": 3049633276,
-		"desc_hash": 1209406221,
-		"type_hash": 2868189750,
-		"rarity": 3,
-		"name": "Spectral Nucleus",
-		"desc": "A complete energy core that can sometimes be found after defeating Specters.\\nThere is a debate among those who just have to divide the world into winners and losers: what floats better \u2014 a Specter or an Anemo Slime?",
 		"type": "Character Level-Up Material"
 	},
 	"dismal_prism": {

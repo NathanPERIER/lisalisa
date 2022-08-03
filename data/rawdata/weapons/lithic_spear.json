@@ -14,6 +14,8 @@
 	"desc_hash": 366604621,
 	"name": "Lithic Spear",
 	"desc": "A spear forged from the rocks of the Guyun Stone Forest. Its hardness knows no equal.",
+	"icon": "UI_EquipIcon_Pole_Lapis",
+	"icon_awaken": "UI_EquipIcon_Pole_Lapis_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,

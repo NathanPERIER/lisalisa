@@ -14,6 +14,8 @@
 	"desc_hash": 3807468957,
 	"name": "Dull Blade",
 	"desc": "Youthful dreams and the thrill of adventure. If this isn't enough, then make it up with valiance.",
+	"icon": "UI_EquipIcon_Sword_Blunt",
+	"icon_awaken": "UI_EquipIcon_Sword_Blunt_Awaken",
 	"rarity": 1,
 	"base_stats": {
 		"Base ATK": 23.2450008392334

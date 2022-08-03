@@ -14,6 +14,8 @@
 	"desc_hash": 3079323733,
 	"name": "The Widsith",
 	"desc": "A heavy notebook filled with musical scores. Though suffering from moth damage and heavy wear-and-tear, there is still much power to be found among the hand-written words within.",
+	"icon": "UI_EquipIcon_Catalyst_Troupe",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Troupe_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

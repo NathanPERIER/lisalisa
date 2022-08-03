@@ -14,6 +14,8 @@
 	"desc_hash": 929689749,
 	"name": "Skyward Atlas",
 	"desc": "A cloud atlas symbolizing Dvalin and his former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.",
+	"icon": "UI_EquipIcon_Catalyst_Dvalin",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Dvalin_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 47.5369987487793,

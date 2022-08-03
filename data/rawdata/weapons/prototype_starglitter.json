@@ -14,6 +14,8 @@
 	"desc_hash": 2616355533,
 	"name": "Prototype Starglitter",
 	"desc": "A hooked spear discovered hidden away in the Blackcliff Forge. The glimmers along the sharp edge are like stars in the night.",
+	"icon": "UI_EquipIcon_Pole_Proto",
+	"icon_awaken": "UI_EquipIcon_Pole_Proto_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

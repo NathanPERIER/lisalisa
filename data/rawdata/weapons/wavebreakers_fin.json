@@ -14,6 +14,8 @@
 	"desc_hash": 1730885565,
 	"name": "Wavebreaker's Fin",
 	"desc": "A naginata forged from luminescent material deep in the ocean depths. It was once the possession of the tengu race.",
+	"icon": "UI_EquipIcon_Pole_Maria",
+	"icon_awaken": "UI_EquipIcon_Pole_Maria_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 45.06869888305664,

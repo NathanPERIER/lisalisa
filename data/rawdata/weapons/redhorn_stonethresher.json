@@ -14,6 +14,8 @@
 	"desc_hash": 1789248637,
 	"name": "Redhorn Stonethresher",
 	"desc": "According to its previous owner, this weapon is the \"Mighty Redhorn Stoic Stonethreshing Gilded Goldcrushing Lion Lord\" that can send any monster packing with its tail between its legs.",
+	"icon": "UI_EquipIcon_Claymore_Itadorimaru",
+	"icon_awaken": "UI_EquipIcon_Claymore_Itadorimaru_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 44.33580017089844,

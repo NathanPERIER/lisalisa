@@ -14,6 +14,8 @@
 	"desc_hash": 2797040229,
 	"name": "Debate Club",
 	"desc": "A handy club made of fine steel. The most persuasive line of reasoning in any debater's arsenal.",
+	"icon": "UI_EquipIcon_Claymore_Reasoning",
+	"icon_awaken": "UI_EquipIcon_Claymore_Reasoning_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 38.74129867553711,

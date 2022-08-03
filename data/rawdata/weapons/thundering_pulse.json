@@ -14,6 +14,8 @@
 	"desc_hash": 2907094261,
 	"name": "Thundering Pulse",
 	"desc": "A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.",
+	"icon": "UI_EquipIcon_Bow_Narukami",
+	"icon_awaken": "UI_EquipIcon_Bow_Narukami_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 45.9364013671875,

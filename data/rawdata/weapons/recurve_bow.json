@@ -14,6 +14,8 @@
 	"desc_hash": 851960253,
 	"name": "Recurve Bow",
 	"desc": "It is said that this bow can shoot down eagles in flight, but ultimately how true that is depends on the skill of the archer.",
+	"icon": "UI_EquipIcon_Bow_Curve",
+	"icon_awaken": "UI_EquipIcon_Bow_Curve_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 37.60749816894531,

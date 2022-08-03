@@ -14,6 +14,8 @@
 	"desc_hash": 291327109,
 	"name": "Aquila Favonia",
 	"desc": "The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil \u2014 just like the last heroine who wielded it.",
+	"icon": "UI_EquipIcon_Sword_Falcon",
+	"icon_awaken": "UI_EquipIcon_Sword_Falcon_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 47.5369987487793,

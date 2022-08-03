@@ -14,6 +14,8 @@
 	"desc_hash": 3767447885,
 	"name": "The Flagstaff",
 	"desc": "Reserve",
+	"icon": "UI_EquipIcon_Pole_Flagpole",
+	"icon_awaken": "UI_EquipIcon_Pole_Flagpole_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 9.899999618530273

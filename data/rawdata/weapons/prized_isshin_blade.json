@@ -1,25 +1,25 @@
 {
-	"hoyo_id": 15415,
-	"promote_id": 15415,
-	"gadget_id": 50015415,
+	"hoyo_id": 11421,
+	"promote_id": 11421,
+	"gadget_id": 50011421,
 	"story_id": [
-		195415
+		null
 	],
 	"skill_affix": [
-		115415,
+		111421,
 		0
 	],
-	"type": "bow",
-	"name_hash": 540938627,
-	"desc_hash": 602632589,
-	"name": "Predator",
-	"desc": "A uniquely-designed bow. This should not belong in this world.",
-	"icon": "UI_EquipIcon_Bow_Predator",
-	"icon_awaken": "UI_EquipIcon_Bow_Predator_Awaken",
+	"type": "sword",
+	"name_hash": 3464027035,
+	"desc_hash": 2488602445,
+	"name": "Prized Isshin Blade",
+	"desc": "An ominous purple aura clings to this bizarre blade. Its wicked aura and hostility have both decreased greatly.",
+	"icon": "UI_EquipIcon_Sword_YoutouEnchanted",
+	"icon_awaken": "UI_EquipIcon_Sword_YoutouEnchanted",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
-		"ATK%": 9.000000357627869
+		"ATK%": 4.500000178813934
 	},
 	"curves": {
 		"Base ATK": "GROW_CURVE_ATTACK_201",
@@ -28,39 +28,21 @@
 	"ascensions": {
 		"costs": [
 			{
-				"narukamis_wisdom": 3,
-				"dismal_prism": 3,
-				"firm_arrowhead": 2,
 				"mora": 5000
 			},
 			{
-				"narukamis_joy": 3,
-				"dismal_prism": 12,
-				"firm_arrowhead": 8,
 				"mora": 15000
 			},
 			{
-				"narukamis_joy": 6,
-				"crystal_prism": 6,
-				"sharp_arrowhead": 6,
 				"mora": 20000
 			},
 			{
-				"narukamis_affection": 3,
-				"crystal_prism": 12,
-				"sharp_arrowhead": 9,
 				"mora": 30000
 			},
 			{
-				"narukamis_affection": 6,
-				"polarizing_prism": 9,
-				"weathered_arrowhead": 6,
 				"mora": 35000
 			},
 			{
-				"narukamis_valor": 4,
-				"polarizing_prism": 18,
-				"weathered_arrowhead": 12,
 				"mora": 45000
 			}
 		],
@@ -138,14 +120,14 @@
 		]
 	},
 	"abilities": {
-		"name_hash": 3063488107,
-		"name": "Strong Strike",
+		"name_hash": 3159145923,
+		"name": "Wandering Striker",
 		"special_material": null,
 		"values": [
 			{
-				"affix_id": 1154150,
-				"desc_hash": 3524881273,
-				"desc": "<color=#99FFFFFF>Effective only on the following platform: </color>\\n<color=#99FFFFFF>\"PlayStation Network\"</color>\\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
+				"affix_id": 1114210,
+				"desc_hash": 1142583433,
+				"desc": "When a Normal, Charged, or Plunging Attack hits an opponent, it will release an Accursed Spirit, dealing AoE DMG equal to 180% of ATK and restoring 100% of ATK as HP. This effect can be triggered once every 8s. The DMG done by this weapon's wielder is decreased by 50%.",
 				"cost": 0
 			}
 		]

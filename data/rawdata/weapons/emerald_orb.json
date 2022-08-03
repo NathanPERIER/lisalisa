@@ -14,6 +14,8 @@
 	"desc_hash": 4004013141,
 	"name": "Emerald Orb",
 	"desc": "A catalyst carved out of the hard jade from Jueyun Karst north of Liyue. Small, light, and durable, it is known more colloquially as the \"jade ball.\"",
+	"icon": "UI_EquipIcon_Catalyst_Jade",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Jade_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 39.875099182128906,

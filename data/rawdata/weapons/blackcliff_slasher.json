@@ -14,6 +14,8 @@
 	"desc_hash": 4287559013,
 	"name": "Blackcliff Slasher",
 	"desc": "An extremely sturdy greatsword from the Blackcliff Forge. It has a dark crimson color from the blade to pommel.",
+	"icon": "UI_EquipIcon_Claymore_Blackrock",
+	"icon_awaken": "UI_EquipIcon_Claymore_Blackrock_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

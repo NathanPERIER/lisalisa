@@ -14,6 +14,8 @@
 	"desc_hash": 1849286797,
 	"name": "Haran Geppaku Futsu",
 	"desc": "A famed work by the Futsu line of smiths. The name \"Haran\" comes from the manner in which it resembles the violent, roiling waves.",
+	"icon": "UI_EquipIcon_Sword_Amenoma",
+	"icon_awaken": "UI_EquipIcon_Sword_Amenoma_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 45.9364013671875,

@@ -1,0 +1,830 @@
+{
+	"hoyo_id": 10000059,
+	"promote_id": 59,
+	"skill_depot_id": 5901,
+	"fetter_id": 59600,
+	"weapon": "catalyst",
+	"name_hash": 646032090,
+	"desc_hash": 3971624201,
+	"name": "Shikanoin Heizou",
+	"desc": "A young prodigy detective from the Tenryou Commission. His senses are sharp and his thoughts are clear.",
+	"icon": "UI_AvatarIcon_Heizo",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_BOY",
+	"birthday": [
+		24,
+		7
+	],
+	"region": "inazuma",
+	"vision_hash": [
+		1778251796,
+		1395432457
+	],
+	"astrolabe_hash": [
+		536290178,
+		843597763
+	],
+	"allegiance_hash": 193374057,
+	"vision": "anemo",
+	"astrolabe": "Cervus Minor",
+	"allegiance": "Tenryou Commission",
+	"default_weapon": "apprentices_notes",
+	"base_stats": {
+		"Base HP": 893.55517578125,
+		"Base ATK": 18.876480102539062,
+		"Base DEF": 57.33945083618164,
+		"Crit Rate%": 5.000000074505806,
+		"Crit DMG%": 50.0
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"vayuda_turquoise_sliver": 1,
+				"onikabuto": 3,
+				"treasure_hoarder_insignia": 3,
+				"mora": 20000
+			},
+			{
+				"vayuda_turquoise_fragment": 3,
+				"runic_fang": 2,
+				"onikabuto": 10,
+				"treasure_hoarder_insignia": 15,
+				"mora": 40000
+			},
+			{
+				"vayuda_turquoise_fragment": 6,
+				"runic_fang": 4,
+				"onikabuto": 20,
+				"silver_raven_insignia": 12,
+				"mora": 60000
+			},
+			{
+				"vayuda_turquoise_chunk": 3,
+				"runic_fang": 8,
+				"onikabuto": 30,
+				"silver_raven_insignia": 18,
+				"mora": 80000
+			},
+			{
+				"vayuda_turquoise_chunk": 6,
+				"runic_fang": 12,
+				"onikabuto": 45,
+				"golden_raven_insignia": 12,
+				"mora": 100000
+			},
+			{
+				"vayuda_turquoise_gemstone": 6,
+				"runic_fang": 20,
+				"onikabuto": 60,
+				"golden_raven_insignia": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 0.0,
+					"Base DEF": 0.0,
+					"Base ATK": 0.0,
+					"Anemo DMG%": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base HP": 667.531494140625,
+					"Base DEF": 42.83549880981445,
+					"Base ATK": 14.102027893066406,
+					"Anemo DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1141.8302001953125,
+					"Base DEF": 73.27124786376953,
+					"Base ATK": 24.121889114379883,
+					"Anemo DMG%": 5.999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1774.2283935546875,
+					"Base DEF": 113.85224914550781,
+					"Base ATK": 37.48170471191406,
+					"Anemo DMG%": 11.999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2248.527099609375,
+					"Base DEF": 144.28799438476562,
+					"Base ATK": 47.50156784057617,
+					"Anemo DMG%": 11.999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2722.82568359375,
+					"Base DEF": 174.7237548828125,
+					"Base ATK": 57.52143096923828,
+					"Anemo DMG%": 18.000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3197.12451171875,
+					"Base DEF": 205.1595001220703,
+					"Base ATK": 67.54129028320312,
+					"Anemo DMG%": 23.999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 2195671413,
+			"desc_hash": 1669209888,
+			"charge_num": 1,
+			"icon": "Skill_A_Catalyst_MD",
+			"name": "Normal Attack: Fudou Style Martial Arts",
+			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 5 fisticuffs empowered by a mighty wind, dealing <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina and performs a sweeping kick that deals <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nCalling upon the surging wind, Heizou plunges towards the ground from mid-air, damaging all opponents in his path. Deals <color=#80FFD7FF>AoE Anemo DMG</color> upon impact with the ground.",
+			"costs": [
+				{
+					"teachings_of_transience": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_transience": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_transience": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_transience": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_transience": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_transience": 4,
+					"golden_raven_insignia": 4,
+					"the_meaning_of_aeons": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_transience": 6,
+					"golden_raven_insignia": 6,
+					"the_meaning_of_aeons": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_transience": 12,
+					"golden_raven_insignia": 9,
+					"the_meaning_of_aeons": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_transience": 16,
+					"golden_raven_insignia": 12,
+					"the_meaning_of_aeons": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"37.47%",
+						"36.85%",
+						"51.06%",
+						"14.78%+16.26%+19.22%",
+						"61.45%",
+						"73%",
+						"25",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"40.28%",
+						"39.62%",
+						"54.89%",
+						"15.89%+17.48%+20.66%",
+						"66.06%",
+						"78.47%",
+						"25",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"43.09%",
+						"42.38%",
+						"58.72%",
+						"17%+18.7%+22.1%",
+						"70.67%",
+						"83.95%",
+						"25",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"46.84%",
+						"46.06%",
+						"63.82%",
+						"18.48%+20.33%+24.02%",
+						"76.81%",
+						"91.25%",
+						"25",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"49.65%",
+						"48.83%",
+						"67.65%",
+						"19.59%+21.55%+25.46%",
+						"81.42%",
+						"96.72%",
+						"25",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"52.46%",
+						"51.59%",
+						"71.48%",
+						"20.7%+22.77%+26.9%",
+						"86.03%",
+						"102.2%",
+						"25",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"56.21%",
+						"55.28%",
+						"76.59%",
+						"22.17%+24.39%+28.83%",
+						"92.17%",
+						"109.5%",
+						"25",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"59.96%",
+						"58.96%",
+						"81.7%",
+						"23.65%+26.02%+30.75%",
+						"98.32%",
+						"116.8%",
+						"25",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"63.71%",
+						"62.65%",
+						"86.8%",
+						"25.13%+27.64%+32.67%",
+						"104.46%",
+						"124.1%",
+						"25",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"67.45%",
+						"66.33%",
+						"91.91%",
+						"26.61%+29.27%+34.59%",
+						"110.61%",
+						"131.4%",
+						"25",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"71.2%",
+						"70.02%",
+						"97.01%",
+						"28.09%+30.9%+36.51%",
+						"116.75%",
+						"138.7%",
+						"25",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"74.95%",
+						"73.7%",
+						"102.12%",
+						"29.56%+32.52%+38.44%",
+						"122.9%",
+						"146%",
+						"25",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"79.63%",
+						"78.31%",
+						"108.5%",
+						"31.41%+34.55%+40.84%",
+						"130.58%",
+						"155.12%",
+						"25",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"84.32%",
+						"82.92%",
+						"114.88%",
+						"33.26%+36.59%+43.24%",
+						"138.26%",
+						"164.25%",
+						"25",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"89%",
+						"87.52%",
+						"121.27%",
+						"35.11%+38.62%+45.64%",
+						"145.94%",
+						"173.37%",
+						"25",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 3012298293,
+			"desc_hash": 2688600376,
+			"charge_num": 1,
+			"icon": "Skill_S_Heizo_01",
+			"name": "Heartstopper Strike",
+			"desc": "<color=#FFD780FF>Tap</color>\\nWields the swift winds to launch a Heartstopper Strike that deals <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nCharges energy to unleash an even stronger blow. He will obtain the Declension effect while charging, which will increase the power of the Heartstopper Strike. When the skill button is released or the skill finishes charging, he will strike forward, dealing <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Declension</color>\\nIncreases the power of the next Heartstopper Strike. Max 4 stacks.\\nWhen you possess 4 Declension stacks, the Conviction effect will be produced, which will cause the next Hearstopper Strike to be even stronger and have a larger AoE.\\n\\n<i>This seemingly ordinary strike contains Heizou's desire for criminals to honestly confess and repent.</i>",
+			"costs": [
+				{
+					"teachings_of_transience": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_transience": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_transience": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_transience": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_transience": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_transience": 4,
+					"golden_raven_insignia": 4,
+					"the_meaning_of_aeons": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_transience": 6,
+					"golden_raven_insignia": 6,
+					"the_meaning_of_aeons": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_transience": 12,
+					"golden_raven_insignia": 9,
+					"the_meaning_of_aeons": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_transience": 16,
+					"golden_raven_insignia": 12,
+					"the_meaning_of_aeons": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Declension DMG Bonus",
+					"Conviction DMG Bonus",
+					"Declension Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"227.52%",
+						"56.88%/stack",
+						"113.76%",
+						"60s",
+						"10s"
+					],
+					[
+						"244.58%",
+						"61.15%/stack",
+						"122.29%",
+						"60s",
+						"10s"
+					],
+					[
+						"261.65%",
+						"65.41%/stack",
+						"130.82%",
+						"60s",
+						"10s"
+					],
+					[
+						"284.4%",
+						"71.1%/stack",
+						"142.2%",
+						"60s",
+						"10s"
+					],
+					[
+						"301.46%",
+						"75.37%/stack",
+						"150.73%",
+						"60s",
+						"10s"
+					],
+					[
+						"318.53%",
+						"79.63%/stack",
+						"159.26%",
+						"60s",
+						"10s"
+					],
+					[
+						"341.28%",
+						"85.32%/stack",
+						"170.64%",
+						"60s",
+						"10s"
+					],
+					[
+						"364.03%",
+						"91.01%/stack",
+						"182.02%",
+						"60s",
+						"10s"
+					],
+					[
+						"386.78%",
+						"96.7%/stack",
+						"193.39%",
+						"60s",
+						"10s"
+					],
+					[
+						"409.54%",
+						"102.38%/stack",
+						"204.77%",
+						"60s",
+						"10s"
+					],
+					[
+						"432.29%",
+						"108.07%/stack",
+						"216.14%",
+						"60s",
+						"10s"
+					],
+					[
+						"455.04%",
+						"113.76%/stack",
+						"227.52%",
+						"60s",
+						"10s"
+					],
+					[
+						"483.48%",
+						"120.87%/stack",
+						"241.74%",
+						"60s",
+						"10s"
+					],
+					[
+						"511.92%",
+						"127.98%/stack",
+						"255.96%",
+						"60s",
+						"10s"
+					],
+					[
+						"540.36%",
+						"135.09%/stack",
+						"270.18%",
+						"60s",
+						"10s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 3584687669,
+			"desc_hash": 2838062416,
+			"charge_num": 1,
+			"icon": "Skill_E_Heizo_01",
+			"name": "Windmuster Kick",
+			"desc": "Leaps into the air and uses the Fudou Style Vacuum Slugger and kicks his opponent. The Vacuum Slugger will explode upon hit and create an Arresting Windtunnel that pulls in nearby objects and opponents, dealing <color=#80FFD7FF>AoE Anemo DMG</color>.\\nWhen Vacuum Slugger hits opponents affected by <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, these opponents will be afflicted with Windmuster Iris. This Windmuster Iris will explode after a moment and dissipate, dealing AoE DMG of the corresponding aforementioned elemental type.\\nVacuum Slugger can afflict a maximum of 4 opponents with the Windmuster Iris. A single opponent cannot be under the effect of Windmuster Irises of different elements at the same time.\\n\\n<i>A unique technique that gathers Anemo in one place before unleashing it all in one kick. Is always there in a pinch to land on some criminal's fleeing back.</i>",
+			"costs": [
+				{
+					"teachings_of_transience": 3,
+					"treasure_hoarder_insignia": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_transience": 2,
+					"silver_raven_insignia": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_transience": 4,
+					"silver_raven_insignia": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_transience": 6,
+					"silver_raven_insignia": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_transience": 9,
+					"silver_raven_insignia": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_transience": 4,
+					"golden_raven_insignia": 4,
+					"the_meaning_of_aeons": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_transience": 6,
+					"golden_raven_insignia": 6,
+					"the_meaning_of_aeons": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_transience": 12,
+					"golden_raven_insignia": 9,
+					"the_meaning_of_aeons": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_transience": 16,
+					"golden_raven_insignia": 12,
+					"the_meaning_of_aeons": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Fudou Style Vacuum Slugger DMG",
+					"Windmuster Iris DMG",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"314.69%",
+						"21.46%",
+						"12s",
+						"40"
+					],
+					[
+						"338.29%",
+						"23.07%",
+						"12s",
+						"40"
+					],
+					[
+						"361.89%",
+						"24.67%",
+						"12s",
+						"40"
+					],
+					[
+						"393.36%",
+						"26.82%",
+						"12s",
+						"40"
+					],
+					[
+						"416.96%",
+						"28.43%",
+						"12s",
+						"40"
+					],
+					[
+						"440.56%",
+						"30.04%",
+						"12s",
+						"40"
+					],
+					[
+						"472.03%",
+						"32.18%",
+						"12s",
+						"40"
+					],
+					[
+						"503.5%",
+						"34.33%",
+						"12s",
+						"40"
+					],
+					[
+						"534.97%",
+						"36.48%",
+						"12s",
+						"40"
+					],
+					[
+						"566.44%",
+						"38.62%",
+						"12s",
+						"40"
+					],
+					[
+						"597.91%",
+						"40.77%",
+						"12s",
+						"40"
+					],
+					[
+						"629.38%",
+						"42.91%",
+						"12s",
+						"40"
+					],
+					[
+						"668.71%",
+						"45.59%",
+						"12s",
+						"40"
+					],
+					[
+						"708.05%",
+						"48.28%",
+						"12s",
+						"40"
+					],
+					[
+						"747.38%",
+						"50.96%",
+						"12s",
+						"40"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 1259547077,
+			"desc_hash": 1686165531,
+			"icon": "UI_Talent_S_Heizo_05",
+			"ascension": 1,
+			"name": "Paradoxical Practice",
+			"desc": "When Shikanoin Heizou activates a Swirl reaction while on the field, he will gain 1 Declension stack for <color=#FFD780FF>Heartstopper Strike</color>. This effect can be triggered once every 0.1s."
+		},
+		{
+			"name_hash": 834687325,
+			"desc_hash": 2886727987,
+			"icon": "UI_Talent_S_Heizo_06",
+			"ascension": 4,
+			"name": "Penetrative Reasoning",
+			"desc": "After Shikanoin Heizou's <color=#FFD780FF>Heartstopper Strike</color> hits an opponent, increases all party members' (excluding Shikanoin Heizou) Elemental Mastery by 80 for 10s."
+		},
+		{
+			"name_hash": 2266183085,
+			"desc_hash": 3003364227,
+			"icon": "UI_Talent_Explosion_Sprint",
+			"ascension": null,
+			"name": "Pre-Existing Guilt",
+			"desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 1159663785,
+			"name": "Named Juvenile Casebook",
+			"desc_hash": 2455515991,
+			"desc": "For 5s after Shikanoin Heizou takes the field, his Normal Attack SPD is increased by 15%. He also gains 1 Declension stack for <color=#FFD780FF>Heartstopper Strike</color>. This effect can be triggered once every 10s.",
+			"icon": "UI_Talent_S_Heizo_01"
+		},
+		{
+			"name_hash": 286623921,
+			"name": "Investigative Collection",
+			"desc_hash": 3972074095,
+			"desc": "The pull effect of the Arresting Windtunnel created by <color=#FFD780FF>Windmuster Kick</color> is enhanced, and its duration is increased to 1s.",
+			"icon": "UI_Talent_S_Heizo_02"
+		},
+		{
+			"name_hash": 2470569577,
+			"name": "Esoteric Puzzle Book",
+			"desc_hash": 2770450111,
+			"desc": "Increases the Level of <color=#FFD780FF>Heartstopper Strike</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Heizo_01"
+		},
+		{
+			"name_hash": 501887121,
+			"name": "Tome of Lies",
+			"desc_hash": 1412115951,
+			"desc": "The first Windmuster Iris explosion in each <color=#FFD780FF>Windmuster Kick</color> will regenerate 9 Elemental Energy for Shikanoin Heizou. Every subsequent explosion in that Windmuster Kick will each regenerate an additional 1.5 Energy for Heizou.\\nOne <color=#FFD780FF>Windmuster Kick</color> can regenerate a total of 13.5 Energy for Heizou in this manner.",
+			"icon": "UI_Talent_S_Heizo_03"
+		},
+		{
+			"name_hash": 298040329,
+			"name": "Secret Archive",
+			"desc_hash": 4071192391,
+			"desc": "Increases the Level of <color=#FFD780FF>Windmuster Kick</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Heizo_02"
+		},
+		{
+			"name_hash": 2921909753,
+			"name": "Curious Casefiles",
+			"desc_hash": 757878495,
+			"desc": "Each Declension stack will increase the CRIT Rate of the <color=#FFD780FF>Heartstopper Strike</color> unleashed by 4%. When Heizou possesses Conviction, this Heartstopper Strike's CRIT DMG is increased by 32%.",
+			"icon": "UI_Talent_S_Heizo_04"
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 4029103562,
+			"desc_hash": 3182680786,
+			"restricted": false,
+			"name": "Spirited Valor",
+			"desc": "Shikanoin Heizou's outfit style. Having taken his outer coat off and tucked it around his waist, the Tenryou Commission detective cuts quite the dashing figure.",
+			"icon": ""
+		},
+		"alt": []
+	},
+	"special_dish": {
+		"hoyo_id": 108390,
+		"name_hash": 462354764,
+		"desc_hash": 1315831437,
+		"type_hash": 3391951718,
+		"rarity": 2,
+		"name": "The Only Truth",
+		"desc": "Shikanoin Heizou's specialty. On the tender, moist scrambled eggs lies a juicy katsu fried to golden perfection, its aroma most enticing indeed... Having been tempted to gobble the dish down, you are somehow seized by the urge to let out all that is hidden in your heart \u2014 this is not some sort of secret weapon of Heizou... is it?",
+		"type": "Food",
+		"count": 1,
+		"effect_hash": 1077221567,
+		"effect": "Increases all party members' ATK by 114 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+		"original_recipe": "katsu_sandwich"
+	}
+}

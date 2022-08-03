@@ -14,6 +14,8 @@
 	"desc_hash": 1128957,
 	"name": "Magic Guide",
 	"desc": "Version 12. A reprint featuring corrections to Version 11 and brand-new additions based on recent developments.",
+	"icon": "UI_EquipIcon_Catalyst_Intro",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Intro_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 37.60749816894531,

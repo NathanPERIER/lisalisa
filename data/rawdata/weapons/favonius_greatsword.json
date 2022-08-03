@@ -14,6 +14,8 @@
 	"desc_hash": 4068970301,
 	"name": "Favonius Greatsword",
 	"desc": "A heavy ceremonial sword of the Knights of Favonius. It channels elemental power easily and is highly destructive.",
+	"icon": "UI_EquipIcon_Claymore_Zephyrus",
+	"icon_awaken": "UI_EquipIcon_Claymore_Zephyrus_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 41.067100524902344,

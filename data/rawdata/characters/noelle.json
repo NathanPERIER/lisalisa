@@ -8,6 +8,7 @@
 	"desc_hash": 1136975897,
 	"name": "Noelle",
 	"desc": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
+	"icon": "UI_AvatarIcon_Noel",
 	"rarity": 4,
 	"special": false,
 	"body": "BODY_GIRL",
@@ -156,6 +157,7 @@
 			"name_hash": 1521716213,
 			"desc_hash": 3131531104,
 			"charge_num": 1,
+			"icon": "Skill_A_04",
 			"name": "Normal Attack: Favonius Bladework - Maid",
 			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, perform a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
 			"costs": [
@@ -411,6 +413,7 @@
 			"name_hash": 737506901,
 			"desc_hash": 204798264,
 			"charge_num": 1,
+			"icon": "Skill_S_Noel_01",
 			"name": "Breastplate",
 			"desc": "Summons protective stone armor, dealing <color=#FFE699FF>Geo DMG</color> to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.\\nThe shield has the following properties:\\n\u00b7When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\\n\u00b7Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.\\n\\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF.\\n\\n<i>Noelle is both a dutiful maid and a valiant knight.</i>",
 			"costs": [
@@ -602,6 +605,7 @@
 			"name_hash": 1615963973,
 			"desc_hash": 313107928,
 			"charge_num": 1,
+			"icon": "Skill_E_Noel_01",
 			"name": "Sweeping Time",
 			"desc": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing <color=#FFE699FF>Geo DMG</color>.\\nAfterwards, Noelle gains the following effects:\\n\u00b7Larger attack AoE.\\n\u00b7Converts attack DMG to <color=#FFE699FF>Geo DMG</color> that cannot be overridden by any other elemental infusion.\\n\u00b7Increased ATK that scales based on her DEF.\\n\\n<i>Sometimes, it's not just dust that needs sweeping...</i>",
 			"costs": [
@@ -795,6 +799,7 @@
 		{
 			"name_hash": 4119686205,
 			"desc_hash": 59436107,
+			"icon": "UI_Talent_S_Noel_05",
 			"ascension": 1,
 			"name": "Devotion",
 			"desc": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF.\\nThe shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG.\\nThis effect can only occur once every 60s."
@@ -802,6 +807,7 @@
 		{
 			"name_hash": 10500405,
 			"desc_hash": 3560753459,
+			"icon": "UI_Talent_S_Noel_06",
 			"ascension": 4,
 			"name": "Nice and Clean",
 			"desc": "Noelle will decrease the CD of <color=#FFD780FF>Breastplate</color> by 1s for every 4 Normal or Charged Attack hits she scores on opponents.\\nOne hit may be counted every 0.1s."
@@ -809,6 +815,7 @@
 		{
 			"name_hash": 1771533717,
 			"desc_hash": 4099575347,
+			"icon": "UI_Talent_Cook_Defense",
 			"ascension": null,
 			"name": "Maid's Knighthood",
 			"desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product."
@@ -819,37 +826,43 @@
 			"name_hash": 3743570273,
 			"name": "I Got Your Back",
 			"desc_hash": 2305612271,
-			"desc": "While <color=#FFD780FF>Sweeping Time</color> and <color=#FFD780FF>Breastplate</color> are both in effect, the chance of Breastplate's healing effects activating is increased to 100%."
+			"desc": "While <color=#FFD780FF>Sweeping Time</color> and <color=#FFD780FF>Breastplate</color> are both in effect, the chance of Breastplate's healing effects activating is increased to 100%.",
+			"icon": "UI_Talent_S_Noel_01"
 		},
 		{
 			"name_hash": 680992073,
 			"name": "Combat Maid",
 			"desc_hash": 2663640239,
-			"desc": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%."
+			"desc": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%.",
+			"icon": "UI_Talent_S_Noel_02"
 		},
 		{
 			"name_hash": 4141797449,
 			"name": "Invulnerable Maid",
 			"desc_hash": 2912207711,
-			"desc": "Increases the Level of <color=#FFD780FF>Breastplate</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Breastplate</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Noel_01"
 		},
 		{
 			"name_hash": 50520097,
 			"name": "To Be Cleaned",
 			"desc_hash": 4101456727,
-			"desc": "When <color=#FFD780FF>Breastplate</color>'s duration expires or it is destroyed by DMG, it will deal 400% ATK of <color=#FFE699FF>Geo DMG</color> to surrounding opponents."
+			"desc": "When <color=#FFD780FF>Breastplate</color>'s duration expires or it is destroyed by DMG, it will deal 400% ATK of <color=#FFE699FF>Geo DMG</color> to surrounding opponents.",
+			"icon": "UI_Talent_S_Noel_03"
 		},
 		{
 			"name_hash": 976069081,
 			"name": "Favonius Sweeper Master",
 			"desc_hash": 2820351255,
-			"desc": "Increases the Level of <color=#FFD780FF>Sweeping Time</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Sweeping Time</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Noel_02"
 		},
 		{
 			"name_hash": 79084353,
 			"name": "Must Be Spotless",
 			"desc_hash": 2091165375,
-			"desc": "<color=#FFD780FF>Sweeping Time</color> increases Noelle's ATK by an additional 50% of her DEF.\\nAdditionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s."
+			"desc": "<color=#FFD780FF>Sweeping Time</color> increases Noelle's ATK by an additional 50% of her DEF.\\nAdditionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s.",
+			"icon": "UI_Talent_S_Noel_04"
 		}
 	],
 	"skins": {
@@ -859,7 +872,8 @@
 			"desc_hash": 102807738,
 			"restricted": false,
 			"name": "Armored Rose",
-			"desc": "Noelle's outfit. Heavy clothing made of durable velvet and metal plates."
+			"desc": "Noelle's outfit. Heavy clothing made of durable velvet and metal plates.",
+			"icon": ""
 		},
 		"alt": []
 	},

@@ -14,6 +14,8 @@
 	"desc_hash": 4218316925,
 	"name": "Halberd",
 	"desc": "A polearm with an axe blade mounted on top that can deal quite a lot of damage. It's favored by the Millelith officers.",
+	"icon": "UI_EquipIcon_Pole_Halberd",
+	"icon_awaken": "UI_EquipIcon_Pole_Halberd_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 39.875099182128906,

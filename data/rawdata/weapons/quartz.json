@@ -14,6 +14,8 @@
 	"desc_hash": 3918253109,
 	"name": "Quartz",
 	"desc": "A simple but heavy greatsword made of polished black quartz with a golden gilt. It has an air of elegance and dignity about it.",
+	"icon": "UI_EquipIcon_Claymore_Quartz",
+	"icon_awaken": "UI_EquipIcon_Claymore_Quartz_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 38.74129867553711,

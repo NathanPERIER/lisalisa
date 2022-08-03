@@ -8,6 +8,7 @@
 	"desc_hash": 148777793,
 	"name": "Kujou Sara",
 	"desc": "A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",
+	"icon": "UI_AvatarIcon_Sara",
 	"rarity": 4,
 	"special": false,
 	"body": "BODY_LADY",
@@ -156,6 +157,7 @@
 			"name_hash": 1547762373,
 			"desc_hash": 4139104344,
 			"charge_num": 1,
+			"icon": "Skill_A_02",
 			"name": "Normal Attack: Tengu Bowmanship",
 			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal <color=#FFACFFFF>Electro DMG</color>.\\nWhen in the Crowfeather Cover state, a fully-charged arrow will leave a Crowfeather behind after it hits.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
 			"costs": [
@@ -395,6 +397,7 @@
 			"name_hash": 2752568269,
 			"desc_hash": 4167203120,
 			"charge_num": 1,
+			"icon": "Skill_S_Sara_01",
 			"name": "Tengu Stormcall",
 			"desc": "Retreats rapidly with the speed of a tengu, summoning the protection of the Crowfeather.\\nGains Crowfeather Cover for 18s, and when Kujou Sara fires a fully-charged Aimed Shot, Crowfeather Cover will be consumed, and will leave a Crowfeather at the target location.\\nCrowfeathers will trigger Tengu Juurai: Ambush after a short time, dealing <color=#FFACFFFF>Electro DMG</color> and granting the active character within its AoE an ATK Bonus based on Kujou Sara's Base ATK.\\n\\nThe ATK Bonuses from different Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.\\n\\n<i>The tengu race have never lacked for exceptional talents who have received an Electro Vision. It's just that they often habitually chant praises to the Electro Archon while manipulating Electro. The chants go something like this</i>\\n<i>\"Show forth your might, O praiseworthy Narukami, and grant this supplicant your thunderous might! Sowaka!\"</i>",
 			"costs": [
@@ -554,6 +557,7 @@
 			"name_hash": 2275338309,
 			"desc_hash": 1189895712,
 			"charge_num": 1,
+			"icon": "Skill_E_Sara_01",
 			"name": "Subjugation: Koukou Sendou",
 			"desc": "Casts down Tengu Juurai: Titanbreaker, dealing <color=#FFACFFFF>AoE Electro DMG</color>. Afterwards, Tengu Juurai: Titanbreaker spreads out into 4 consecutive bouts of Tengu Juurai: Stormcluster, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\nTengu Juurai: Titanbreaker and Tengu Juurai: Stormcluster can provide the active character within their AoE with the same ATK Bonus as given by the Elemental Skill, Tengu Stormcall.\\n\\nThe ATK Bonus provided by various kinds of Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.\\n\\n<i>Sara departed from her people, the tengu, and also temporarily lost her faith in the Tenryou Commission. But once the clouds over her heart cleared, she found her own lightning anew.</i>",
 			"costs": [
@@ -715,6 +719,7 @@
 		{
 			"name_hash": 3514401477,
 			"desc_hash": 701827235,
+			"icon": "UI_Talent_S_Sara_01",
 			"ascension": 1,
 			"name": "Immovable Will",
 			"desc": "While in the Crowfeather Cover state provided by <color=#FFD780FF>Tengu Stormcall</color>, Aimed Shot charge times are decreased by 60%."
@@ -722,6 +727,7 @@
 		{
 			"name_hash": 2365582789,
 			"desc_hash": 138769971,
+			"icon": "UI_Talent_S_Sara_06",
 			"ascension": 4,
 			"name": "Decorum",
 			"desc": "When Tengu Juurai: Ambush hits opponents, Kujou Sara will restore 1.2 Energy to all party members for every 100% Energy Recharge she has. This effect can be triggered once every 3s."
@@ -729,6 +735,7 @@
 		{
 			"name_hash": 3504701645,
 			"desc_hash": 3436263651,
+			"icon": "UI_Talent_S_Sara_07",
 			"ascension": null,
 			"name": "Land Survey",
 			"desc": "When dispatched on an expedition in Inazuma, time consumed is reduced by 25%."
@@ -739,37 +746,43 @@
 			"name_hash": 2730852953,
 			"name": "Crow's Eye",
 			"desc_hash": 2966673567,
-			"desc": "When Tengu Juurai grant characters ATK Bonuses or hits opponents, the CD of <color=#FFD780FF>Tengu Stormcall</color> is decreased by 1s.\\nThis effect can be triggered once every 3s."
+			"desc": "When Tengu Juurai grant characters ATK Bonuses or hits opponents, the CD of <color=#FFD780FF>Tengu Stormcall</color> is decreased by 1s.\\nThis effect can be triggered once every 3s.",
+			"icon": "UI_Talent_S_Sara_05"
 		},
 		{
 			"name_hash": 828426713,
 			"name": "Dark Wings",
 			"desc_hash": 3371927015,
-			"desc": "Unleashing <color=#FFD780FF>Tengu Stormcall</color> will leave a weaker Crowfeather at Kujou Sara's original position that will deal 30% of its original DMG."
+			"desc": "Unleashing <color=#FFD780FF>Tengu Stormcall</color> will leave a weaker Crowfeather at Kujou Sara's original position that will deal 30% of its original DMG.",
+			"icon": "UI_Talent_S_Sara_02"
 		},
 		{
 			"name_hash": 847916265,
 			"name": "The War Within",
 			"desc_hash": 1002234751,
-			"desc": "Increases the Level of <color=#FFD780FF>Subjugation: Koukou Sendou</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Subjugation: Koukou Sendou</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Sara_02"
 		},
 		{
 			"name_hash": 4283074321,
 			"name": "Conclusive Proof",
 			"desc_hash": 3556395063,
-			"desc": "The number of Tengu Juurai: Stormcluster released by <color=#FFD780FF>Subjugation: Koukou Sendou</color> is increased to 6."
+			"desc": "The number of Tengu Juurai: Stormcluster released by <color=#FFD780FF>Subjugation: Koukou Sendou</color> is increased to 6.",
+			"icon": "UI_Talent_S_Sara_03"
 		},
 		{
 			"name_hash": 747301089,
 			"name": "Spellsinger",
 			"desc_hash": 3457909759,
-			"desc": "Increases the Level of <color=#FFD780FF>Tengu Stormcall</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Tengu Stormcall</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Sara_01"
 		},
 		{
 			"name_hash": 165492609,
 			"name": "Sin of Pride",
 			"desc_hash": 3985105143,
-			"desc": "The <color=#FFACFFFF>Electro DMG</color> of characters who have had their ATK increased by Tengu Juurai has its Crit DMG increased by 60%."
+			"desc": "The <color=#FFACFFFF>Electro DMG</color> of characters who have had their ATK increased by Tengu Juurai has its Crit DMG increased by 60%.",
+			"icon": "UI_Talent_S_Sara_04"
 		}
 	],
 	"skins": {
@@ -779,7 +792,8 @@
 			"desc_hash": 1024066610,
 			"restricted": false,
 			"name": "Solemn Purity",
-			"desc": "Kujou Sara's outfit. Prim and proper, it is a garment worthy of an Archon's devout servant."
+			"desc": "Kujou Sara's outfit. Prim and proper, it is a garment worthy of an Archon's devout servant.",
+			"icon": ""
 		},
 		"alt": []
 	},

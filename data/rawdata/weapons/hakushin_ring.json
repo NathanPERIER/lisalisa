@@ -14,6 +14,8 @@
 	"desc_hash": 4273575325,
 	"name": "Hakushin Ring",
 	"desc": "A catalyst that carries the memory of the Kitsune Saiguu of ancient times. However, this device is but an impoverished vessel for the full breadth of her thought.",
+	"icon": "UI_EquipIcon_Catalyst_Bakufu",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Bakufu_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,

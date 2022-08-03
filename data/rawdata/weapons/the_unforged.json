@@ -14,6 +14,8 @@
 	"desc_hash": 3341255373,
 	"name": "The Unforged",
 	"desc": "Capable of driving away evil spirits and wicked people alike, this edgeless claymore seems to possess divine might.",
+	"icon": "UI_EquipIcon_Claymore_Kunwu",
+	"icon_awaken": "UI_EquipIcon_Claymore_Kunwu_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 45.9364013671875,

@@ -14,6 +14,8 @@
 	"desc_hash": 3086923557,
 	"name": "Skyrider Sword",
 	"desc": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword...",
+	"icon": "UI_EquipIcon_Sword_Mitsurugi",
+	"icon_awaken": "UI_EquipIcon_Sword_Mitsurugi_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 37.60749816894531,

@@ -8,6 +8,7 @@
 	"desc_hash": 3901895113,
 	"name": "Razor",
 	"desc": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+	"icon": "UI_AvatarIcon_Razor",
 	"rarity": 4,
 	"special": false,
 	"body": "BODY_BOY",
@@ -156,6 +157,7 @@
 			"name_hash": 3392494725,
 			"desc_hash": 398360984,
 			"charge_num": 1,
+			"icon": "Skill_A_04",
 			"name": "Normal Attack: Steel Fang",
 			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, perform a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
 			"costs": [
@@ -411,6 +413,7 @@
 			"name_hash": 2720517437,
 			"desc_hash": 183207800,
 			"charge_num": 1,
+			"icon": "Skill_S_Razor_01",
 			"name": "Claw and Thunder",
 			"desc": "#Hunts his prey using the techniques taught to him by his master and his lupical.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nSwings the Thunder Wolf Claw, dealing <color=#FFACFFFF>Electro DMG</color> to opponents in front of Razor.\\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\\n\\n<color=#FFD780FF>Hold</color>\\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive <color=#FFACFFFF>Electro DMG</color>, and clears all of Razor's Electro Sigils.\\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor.\\n\\n<i>In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.</i>",
 			"costs": [
@@ -618,6 +621,7 @@
 			"name_hash": 1752405213,
 			"desc_hash": 4038491440,
 			"charge_num": 1,
+			"icon": "Skill_E_Razor_01",
 			"name": "Lightning Fang",
 			"desc": "Summons the Wolf Within, which deals <color=#FFACFFFF>Electro DMG</color> to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him.\\nThe Wolf Within will fight alongside Razor for the skill's duration.\\n\\n<color=#FFD780FF>The Wolf Within</color>\\n\u00b7Strikes alongside Razor's normal attacks, dealing <color=#FFACFFFF>Electro DMG</color>.\\n\u00b7Raises Razor's ATK SPD and <color=#FFACFFFF>Electro RES</color>.\\n\u00b7Causes Razor to be immune to DMG inflicted by the <color=#FFACFFFF>Electro-Charged</color> status.\\n\u00b7Disables Razor's Charged Attacks.\\n\u00b7Increases Razor's resistance to interruption.\\n\\nThese effects end when Razor leaves the battlefield.\\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.\\n\\n<i>The wolf has awoken. The hunt is on.</i>",
 			"costs": [
@@ -827,6 +831,7 @@
 		{
 			"name_hash": 2218832005,
 			"desc_hash": 2005122803,
+			"icon": "UI_Talent_S_Razor_05",
 			"ascension": 1,
 			"name": "Awakening",
 			"desc": "Decreases <color=#FFD780FF>Claw and Thunder</color>'s CD by 18%.\\nUsing <color=#FFD780FF>Lightning Fang</color> resets the CD of <color=#FFD780FF>Claw and Thunder</color>."
@@ -834,6 +839,7 @@
 		{
 			"name_hash": 1235274093,
 			"desc_hash": 583080003,
+			"icon": "UI_Talent_S_Razor_06",
 			"ascension": 4,
 			"name": "Hunger",
 			"desc": "When Razor's Energy is below 50%, increases Energy Recharge by 30%."
@@ -841,6 +847,7 @@
 		{
 			"name_hash": 43323709,
 			"desc_hash": 3924700747,
+			"icon": "UI_Talent_Explosion_Sprint",
 			"ascension": null,
 			"name": "Wolvensprint",
 			"desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
@@ -851,37 +858,43 @@
 			"name_hash": 456119193,
 			"name": "Wolf's Instinct",
 			"desc_hash": 3596694423,
-			"desc": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s."
+			"desc": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.",
+			"icon": "UI_Talent_S_Razor_01"
 		},
 		{
 			"name_hash": 3370625609,
 			"name": "Suppression",
 			"desc_hash": 791295375,
-			"desc": "Increases CRIT Rate against opponents with less than 30% HP by 10%."
+			"desc": "Increases CRIT Rate against opponents with less than 30% HP by 10%.",
+			"icon": "UI_Talent_S_Razor_02"
 		},
 		{
 			"name_hash": 3366391689,
 			"name": "Soul Companion",
 			"desc_hash": 2668228831,
-			"desc": "Increases the Level of <color=#FFD780FF>Lightning Fang</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Lightning Fang</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Razor_02"
 		},
 		{
 			"name_hash": 770839401,
 			"name": "Bite",
 			"desc_hash": 3886927615,
-			"desc": "#When casting <color=#FFD780FF>Claw and Thunder</color> ({LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}), opponents hit will have their DEF decreased by 15% for 7s."
+			"desc": "#When casting <color=#FFD780FF>Claw and Thunder</color> ({LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}), opponents hit will have their DEF decreased by 15% for 7s.",
+			"icon": "UI_Talent_S_Razor_03"
 		},
 		{
 			"name_hash": 1781683177,
 			"name": "Sharpened Claws",
 			"desc_hash": 2350685383,
-			"desc": "Increases the Level of <color=#FFD780FF>Claw and Thunder</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Claw and Thunder</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Razor_01"
 		},
 		{
 			"name_hash": 4050704465,
 			"name": "Lupus Fulguris",
 			"desc_hash": 2977840775,
-			"desc": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as <color=#FFACFFFF>Electro DMG</color>.\\nWhen Razor is not using <color=#FFD780FF>Lightning Fang</color>, a lightning strike on an opponent will grant Razor an Electro Sigil for <color=#FFD780FF>Claw and Thunder</color>."
+			"desc": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as <color=#FFACFFFF>Electro DMG</color>.\\nWhen Razor is not using <color=#FFD780FF>Lightning Fang</color>, a lightning strike on an opponent will grant Razor an Electro Sigil for <color=#FFD780FF>Claw and Thunder</color>.",
+			"icon": "UI_Talent_S_Razor_04"
 		}
 	],
 	"skins": {
@@ -891,7 +904,8 @@
 			"desc_hash": 2955915298,
 			"restricted": false,
 			"name": "Wild Sprint",
-			"desc": "Razor's outfit. Rough and ready clothes suited for running out in the wilderness."
+			"desc": "Razor's outfit. Rough and ready clothes suited for running out in the wilderness.",
+			"icon": ""
 		},
 		"alt": []
 	},

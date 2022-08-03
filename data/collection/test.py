@@ -15,6 +15,7 @@ from exp.weapon         import readWeaponExp
 from items.gliders import readGliders
 from items.recipes import readRecipes
 from items import getAutoTranslated
+from common.text import getAutoColours
 
 import os
 import logging
@@ -88,6 +89,10 @@ def main() :
 	items_auto = getAutoTranslated()
 	dest_file = os.path.join(DEST_DIR, 'items/auto.json')
 	saveJson(items_auto, dest_file)
+
+	colours_auto = getAutoColours()
+	dest_file = os.path.join(DEST_DIR, 'colours.json')
+	saveJson(colours_auto, dest_file)
 
 
 if __name__ == '__main__' :

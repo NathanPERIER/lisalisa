@@ -8,6 +8,7 @@
 	"desc_hash": 738455441,
 	"name": "Kuki Shinobu",
 	"desc": "The capable and reliable deputy leader of the \"Arataki Gang.\" Please note: capable and reliable are not appellations for the \"Arataki Gang,\" but for their deputy leader in specific.",
+	"icon": "UI_AvatarIcon_Shinobu",
 	"rarity": 4,
 	"special": false,
 	"body": "BODY_GIRL",
@@ -156,6 +157,7 @@
 			"name_hash": 2013854373,
 			"desc_hash": 3593456928,
 			"charge_num": 1,
+			"icon": "Skill_A_01",
 			"name": "Normal Attack: Shinobu's Shadowsword",
 			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
 			"costs": [
@@ -379,6 +381,7 @@
 			"name_hash": 1345666909,
 			"desc_hash": 4080904480,
 			"charge_num": 1,
+			"icon": "Skill_S_Shinobu_01",
 			"name": "Sanctifying Ring",
 			"desc": "Creates a Grass Ring of Sanctification at the cost of part of her HP, dealing <color=#FFACFFFF>Electro DMG</color> to nearby opponents.\\n\\n<color=#FFD780FF>Grass Ring of Sanctification</color>\\nFollows your current active character around. Deals <color=#FFACFFFF>Electro DMG</color> to nearby opponents every 1.5s and restores HP for active character(s) within the ring's AoE based on Kuki Shinobu's Max HP.\\n\\nThe HP consumption from using this skill can only bring her to 20% HP.\\n\\n\"<i>Band the Naku Weed into a loop about your waist, and it shall exorcise evil.</i>\"",
 			"costs": [
@@ -570,6 +573,7 @@
 			"name_hash": 1690703909,
 			"desc_hash": 3065150096,
 			"charge_num": 1,
+			"icon": "Skill_E_Shinobu_01",
 			"name": "Gyoei Narukami Kariyama Rite",
 			"desc": "Stabs an evil-excoriating blade into the ground, creating a field that cleanses the area of all that is foul, dealing continuous <color=#FFACFFFF>Electro DMG</color> to opponents within its AoE based on Shinobu's Max HP.\\nIf Shinobu's HP is less than or equal to 50% when this skill is used, the field will last longer.\\n\\n<i>This was originally a technique used in weeding and in ritual prayers for the yearly harvest, but Shinobu has not forgotten it, though her life as a shrine maiden may have ended.</i>",
 			"costs": [
@@ -747,6 +751,7 @@
 		{
 			"name_hash": 98541941,
 			"desc_hash": 3324442635,
+			"icon": "UI_Talent_S_Shinobu_05",
 			"ascension": 1,
 			"name": "Breaking Free",
 			"desc": "When Shinobu's HP is not higher than 50%, her Healing Bonus is increased by 15%."
@@ -754,6 +759,7 @@
 		{
 			"name_hash": 2905492469,
 			"desc_hash": 2362024107,
+			"icon": "UI_Talent_S_Shinobu_06",
 			"ascension": 4,
 			"name": "Heart's Repose",
 			"desc": "<color=#FFD780FF>Sanctifying Ring</color>'s abilities will be boosted based on Shinobu's Elemental Mastery:\\n\u00b7Healing amount will be increased by 75% of Elemental Mastery.\\n\u00b7DMG dealt is increased by 25% of Elemental Mastery."
@@ -761,6 +767,7 @@
 		{
 			"name_hash": 345260181,
 			"desc_hash": 1072782803,
+			"icon": "UI_Talent_S_Shinobu_07",
 			"ascension": null,
 			"name": "Protracted Prayers",
 			"desc": "Gains 25% more rewards when dispatched on an Inazuma Expedition for 20 hours."
@@ -771,37 +778,43 @@
 			"name_hash": 3845919769,
 			"name": "To Cloister Compassion",
 			"desc_hash": 248122007,
-			"desc": "<color=#FFD780FF>Gyoei Narukami Kariyama Rite</color>'s AoE is increased by 50%."
+			"desc": "<color=#FFD780FF>Gyoei Narukami Kariyama Rite</color>'s AoE is increased by 50%.",
+			"icon": "UI_Talent_S_Shinobu_01"
 		},
 		{
 			"name_hash": 1476645953,
 			"name": "To Forsake Fortune",
 			"desc_hash": 1650156031,
-			"desc": "<color=#FFD780FF>Grass Ring of Sanctification</color>'s duration is increased by 3s."
+			"desc": "<color=#FFD780FF>Grass Ring of Sanctification</color>'s duration is increased by 3s.",
+			"icon": "UI_Talent_S_Shinobu_02"
 		},
 		{
 			"name_hash": 969784713,
 			"name": "To Sequester Sorrow",
 			"desc_hash": 1031038967,
-			"desc": "Increases the Level of <color=#FFD780FF>Sanctifying Ring</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Sanctifying Ring</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Shinobu_01"
 		},
 		{
 			"name_hash": 1870557153,
 			"name": "To Sever Sealing",
 			"desc_hash": 1847218111,
-			"desc": "When the Normal, Charged, or Plunging Attacks of the character affected by Shinobu's <color=#FFD780FF>Grass Ring of Sanctification</color> hit opponents, a Thundergrass Mark will land on the opponent's position and deal <color=#FFACFFFF>AoE Electro DMG</color> based on 9.7% of Shinobu's Max HP.\\nThis effect can occur once every 5s."
+			"desc": "When the Normal, Charged, or Plunging Attacks of the character affected by Shinobu's <color=#FFD780FF>Grass Ring of Sanctification</color> hit opponents, a Thundergrass Mark will land on the opponent's position and deal <color=#FFACFFFF>AoE Electro DMG</color> based on 9.7% of Shinobu's Max HP.\\nThis effect can occur once every 5s.",
+			"icon": "UI_Talent_S_Shinobu_03"
 		},
 		{
 			"name_hash": 2031120145,
 			"name": "To Cease Courtesies",
 			"desc_hash": 70909911,
-			"desc": "Increases the Level of <color=#FFD780FF>Gyoei Narukami Kariyama Rite</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Gyoei Narukami Kariyama Rite</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Shinobu_02"
 		},
 		{
 			"name_hash": 856483153,
 			"name": "To Ward Weakness",
 			"desc_hash": 3252448839,
-			"desc": "When Kuki Shinobu takes lethal DMG, this instance of DMG will not take her down. This effect will automatically trigger when her HP reaches 1 and will trigger once every 60s.\\nWhen Shinobu's HP drops below 25%, she will gain 150 Elemental Mastery for 15s. This effect will trigger once every 60s."
+			"desc": "When Kuki Shinobu takes lethal DMG, this instance of DMG will not take her down. This effect will automatically trigger when her HP reaches 1 and will trigger once every 60s.\\nWhen Shinobu's HP drops below 25%, she will gain 150 Elemental Mastery for 15s. This effect will trigger once every 60s.",
+			"icon": "UI_Talent_S_Shinobu_04"
 		}
 	],
 	"skins": {
@@ -811,7 +824,8 @@
 			"desc_hash": 3036913898,
 			"restricted": false,
 			"name": "Arataki's Demonic Deputy",
-			"desc": "Kuki Shinobu's outfit. The iconic oni mask she wears symbolizes her role as the Arataki Gang's terrifying \"demonic deputy.\""
+			"desc": "Kuki Shinobu's outfit. The iconic oni mask she wears symbolizes her role as the Arataki Gang's terrifying \"demonic deputy.\"",
+			"icon": ""
 		},
 		"alt": []
 	},

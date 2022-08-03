@@ -14,6 +14,8 @@
 	"desc_hash": 2543630901,
 	"name": "Amos' Bow",
 	"desc": "An extremely ancient bow that has retained its power despite its original master being long gone. It draws power from everyone and everything in the world, and the further away you are from that which your heart desires, the more powerful it is.",
+	"icon": "UI_EquipIcon_Bow_Amos",
+	"icon_awaken": "UI_EquipIcon_Bow_Amos_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 45.9364013671875,

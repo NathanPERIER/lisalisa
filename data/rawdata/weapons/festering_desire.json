@@ -14,6 +14,8 @@
 	"desc_hash": 279012485,
 	"name": "Festering Desire",
 	"desc": "A creepy straight sword that almost seems to yearn for life. It drips with a shriveling venom that could even corrupt a mighty dragon.",
+	"icon": "UI_EquipIcon_Sword_Magnum",
+	"icon_awaken": "UI_EquipIcon_Sword_Magnum_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,

@@ -14,6 +14,8 @@
 	"desc_hash": 1179976749,
 	"name": "Freedom-Sworn",
 	"desc": "A straight sword, azure as antediluvian song, and as keen as the oaths of freedom taken in the Land of Wind.",
+	"icon": "UI_EquipIcon_Sword_Widsith",
+	"icon_awaken": "UI_EquipIcon_Sword_Widsith_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 45.9364013671875,

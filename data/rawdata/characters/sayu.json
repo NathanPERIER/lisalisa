@@ -8,6 +8,7 @@
 	"desc_hash": 3029516969,
 	"name": "Sayu",
 	"desc": "A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.",
+	"icon": "UI_AvatarIcon_Sayu",
 	"rarity": 4,
 	"special": false,
 	"body": "BODY_LOLI",
@@ -156,6 +157,7 @@
 			"name_hash": 1631640581,
 			"desc_hash": 1904361664,
 			"charge_num": 1,
+			"icon": "Skill_A_04",
 			"name": "Normal Attack: Shuumatsuban Ninja Blade",
 			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, perform a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
 			"costs": [
@@ -411,6 +413,7 @@
 			"name_hash": 866970125,
 			"desc_hash": 2361803880,
 			"charge_num": 1,
+			"icon": "Skill_S_Sayu_01",
 			"name": "Yoohoo Art: Fuuin Dash",
 			"desc": "#The special technique of the Yoohoo Ninja Arts!\\nSayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing <color=#80FFD7FF>Anemo DMG</color>. When the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing <color=#80FFD7FF>AoE Anemo DMG</color>.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nEnters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.\\n\\n<color=#FFD780FF>Hold</color>\\nRolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state.\\nDuring this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick.\\nThe Hold version of this skill can trigger Elemental Absorption.\\n\\nThis skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.\\n\\n<color=#FFD780FF>Elemental Absorption</color>\\nIf Sayu comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> while in her Windwheel state, she will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use of this skill.\\n\\n<i>Sayu can pull this skill off with her eyes closed. This technique was originally created for escaping, but now that she's got a Vision, might as well make her foes eat dirt while she's at it.</i>",
 			"costs": [
@@ -618,6 +621,7 @@
 			"name_hash": 3632447629,
 			"desc_hash": 2950233224,
 			"charge_num": 1,
+			"icon": "Skill_E_Sayu_01",
 			"name": "Yoohoo Art: Mujina Flurry",
 			"desc": "The other super special technique of the Yoohoo Ninja Arts! It summons a pair of helping hands for Sayu.\\nDeals <color=#80FFD7FF>Anemo DMG</color> to nearby opponents and heals all nearby party members. The amount of HP restored is based on Sayu's ATK. This skill then summons a Muji-Muji Daruma.\\n\\n<color=#FFD780FF>Muji-Muji Daruma</color>\\nAt specific intervals, the Daruma will take one of several actions based on the situation around it:\\n\u00b7If the HP of nearby characters is above 70%, it will attack a nearby opponent, dealing <color=#80FFD7FF>Anemo DMG</color>.\\n\u00b7If there are active characters with 70% or less HP nearby, it will heal the active character with the lowest percentage HP left. If there are no opponents nearby, it will heal active characters nearby even if they have 70% HP or more.\\n\\n<i>People who don't know the first thing about ninjutsu love to watch Sayu show off this skill, and some have tried to learn it from her. But Sayu just wants to sleep and not be disturbed.</i>",
 			"costs": [
@@ -827,6 +831,7 @@
 		{
 			"name_hash": 1284587621,
 			"desc_hash": 1766003643,
+			"icon": "UI_Talent_S_Sayu_05",
 			"ascension": 1,
 			"name": "Someone More Capable",
 			"desc": "When Sayu triggers a Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.\\nThis effect can be triggered once every 2s."
@@ -834,6 +839,7 @@
 		{
 			"name_hash": 3662642061,
 			"desc_hash": 3244306483,
+			"icon": "UI_Talent_S_Sayu_06",
 			"ascension": 4,
 			"name": "No Work Today!",
 			"desc": "The Muji-Muji Daruma created by <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> gains the following effects:\\n\u00b7When healing a character, it will also heal characters near that healed character for 20% the amount of HP.\\n\u00b7Increases the AoE of its attack against opponents."
@@ -841,6 +847,7 @@
 		{
 			"name_hash": 1990554101,
 			"desc_hash": 356439491,
+			"icon": "UI_Talent_S_Sayu_07",
 			"ascension": null,
 			"name": "Yoohoo Art: Silencer's Secret",
 			"desc": "When Sayu is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on."
@@ -851,37 +858,43 @@
 			"name_hash": 1959569841,
 			"name": "Multi-Task no Jutsu",
 			"desc_hash": 443786623,
-			"desc": "The Muji-Muji Daruma created by <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> will ignore HP limits and can simultaneously attack nearby opponents and heal characters."
+			"desc": "The Muji-Muji Daruma created by <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> will ignore HP limits and can simultaneously attack nearby opponents and heal characters.",
+			"icon": "UI_Talent_S_Sayu_01"
 		},
 		{
 			"name_hash": 2759348737,
 			"name": "Egress Prep",
 			"desc_hash": 2039052767,
-			"desc": "#<color=#FFD780FF>Yoohoo Art: Fuuin Dash</color> gains the following effects:\\n\u00b7DMG of Fuufuu Whirlwind Kick in {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Mode increased by 3.3%.\\n\u00b7Every 0.5s in the Fuufuu Windwheel state will increase the DMG of this Fuufuu Whirlwind Kick by 3.3%. The maximum DMG increase possible through this method is 66%."
+			"desc": "#<color=#FFD780FF>Yoohoo Art: Fuuin Dash</color> gains the following effects:\\n\u00b7DMG of Fuufuu Whirlwind Kick in {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Mode increased by 3.3%.\\n\u00b7Every 0.5s in the Fuufuu Windwheel state will increase the DMG of this Fuufuu Whirlwind Kick by 3.3%. The maximum DMG increase possible through this method is 66%.",
+			"icon": "UI_Talent_S_Sayu_02"
 		},
 		{
 			"name_hash": 1035025377,
 			"name": "Eh, the Bunshin Can Handle It",
 			"desc_hash": 2151111671,
-			"desc": "Increases the Level of <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Sayu_02"
 		},
 		{
 			"name_hash": 3582154129,
 			"name": "Skiving: New and Improved",
 			"desc_hash": 2015470223,
-			"desc": "Sayu recovers 1.2 Energy when she triggers a Swirl reaction.\\nThis effect occurs once every 2s."
+			"desc": "Sayu recovers 1.2 Energy when she triggers a Swirl reaction.\\nThis effect occurs once every 2s.",
+			"icon": "UI_Talent_S_Sayu_03"
 		},
 		{
 			"name_hash": 4066463977,
 			"name": "Speed Comes First",
 			"desc_hash": 3761904935,
-			"desc": "Increases the Level of <color=#FFD780FF>Yoohoo Art: Fuuin Dash</color> by 3.\\nMaximum upgrade level is 15."
+			"desc": "Increases the Level of <color=#FFD780FF>Yoohoo Art: Fuuin Dash</color> by 3.\\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Sayu_01"
 		},
 		{
 			"name_hash": 3913839841,
 			"name": "Sleep O'Clock",
 			"desc_hash": 3551240383,
-			"desc": "The Muji-Muji Daruma created by Sayu's <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> will now also benefit from her Elemental Mastery. Each point of Sayu's Elemental Mastery will produce the following effects:\\n\u00b7Increases the damage dealt by the Muji-Muji Daruma's attacks by 0.2% ATK. A maximum of 400% ATK can be gained via this method.\\n\u00b7Increases the HP restored by the Muji-Muji Daruma by 3. A maximum of 6,000 additional HP can be restored in this manner."
+			"desc": "The Muji-Muji Daruma created by Sayu's <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> will now also benefit from her Elemental Mastery. Each point of Sayu's Elemental Mastery will produce the following effects:\\n\u00b7Increases the damage dealt by the Muji-Muji Daruma's attacks by 0.2% ATK. A maximum of 400% ATK can be gained via this method.\\n\u00b7Increases the HP restored by the Muji-Muji Daruma by 3. A maximum of 6,000 additional HP can be restored in this manner.",
+			"icon": "UI_Talent_S_Sayu_04"
 		}
 	],
 	"skins": {
@@ -891,7 +904,8 @@
 			"desc_hash": 2144597778,
 			"restricted": false,
 			"name": "Mini Mujina",
-			"desc": "Sayu's outfit. Marvelous attire designed after the mysterious animal known as the Mujina."
+			"desc": "Sayu's outfit. Marvelous attire designed after the mysterious animal known as the Mujina.",
+			"icon": ""
 		},
 		"alt": []
 	},

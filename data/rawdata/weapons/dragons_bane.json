@@ -14,6 +14,8 @@
 	"desc_hash": 1575094381,
 	"name": "Dragon's Bane",
 	"desc": "A polearm decorated with an entwining golden dragon. Light and sharp, this weapon may very well kill dragons with ease.",
+	"icon": "UI_EquipIcon_Pole_Stardust",
+	"icon_awaken": "UI_EquipIcon_Pole_Stardust_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 41.067100524902344,

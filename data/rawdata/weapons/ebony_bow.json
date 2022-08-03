@@ -14,6 +14,8 @@
 	"desc_hash": 2789017349,
 	"name": "Ebony Bow",
 	"desc": "A longbow made of ebony wood with stiffer limbs than ordinary bows. It is also a far more powerful weapon.",
+	"icon": "UI_EquipIcon_Bow_Hardwood",
+	"icon_awaken": "UI_EquipIcon_Bow_Hardwood_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 38.74129867553711,

@@ -14,6 +14,8 @@
 	"desc_hash": 1214777829,
 	"name": "Cool Steel",
 	"desc": "A reliable steel-forged weapon that serves as a testament to the great adventures of its old master.",
+	"icon": "UI_EquipIcon_Sword_Steel",
+	"icon_awaken": "UI_EquipIcon_Sword_Steel_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 38.74129867553711,
