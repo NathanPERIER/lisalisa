@@ -1,8 +1,9 @@
 
-from common.dataobj.images import ImageStore, CharacterImageStore, WeaponImageStore, ArtifactImageStore
-from common.dataobj.character import Character
-from common.dataobj.weapon import    Weapon
-from common.dataobj.artifact import  ArtifactSet
+from common.images.dataobj import ImageStore
+from characters.dataobj    import Character, CharacterImageStore
+from weapons.dataobj       import Weapon
+from artifacts.dataobj     import ArtifactSet
+
 
 AMBR_IMAGE_TEMPLATE = "https://api.ambr.top/assets/UI/%s.png"
 
@@ -43,7 +44,7 @@ AvatarTalentExcelConfigData.json
 """
 def registerCharacterImages(char_id: str, char: Character) :
     res = CharacterImageStore()
-    res.normal_attack = AMBR_IMAGE_TEMPLATE % char.talents['normal_attack']['icon']
+    res.normal_attack = AMBR_IMAGE_TEMPLATE % char.talents.normal_attack.icon
     # ...
     image_store.characters[char_id] = res
 
