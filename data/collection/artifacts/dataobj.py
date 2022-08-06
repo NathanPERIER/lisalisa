@@ -1,3 +1,4 @@
+
 from common.dataobj import DataObject
 
 
@@ -56,3 +57,12 @@ class ArtifactSet(DataObject) :
 		self.name: str = None
 		self.bonuses: "list[ArtifactSetEquip]" = []
 		self.pieces: "list[ArtifactRaritySet]" = []
+
+
+class ArtifactImageStore(DataObject) :
+    def __init__(self) :
+        self.flower_of_life:     str = None
+        self.plume_of_death:     str = None
+        self.sands_of_eon:       str = None
+        self.goblet_of_eonothem: str = None
+        self.circlet_of_logos:   str = None

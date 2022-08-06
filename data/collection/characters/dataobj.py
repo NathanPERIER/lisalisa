@@ -1,7 +1,7 @@
 
 from common.dataobj import DataObject
-from common.dataobj.item import Dish
 from common.ascensions.dataobj import Ascensions
+from items.dataobj import Dish
 
 
 class CharTalentStats(DataObject) :
@@ -58,6 +58,25 @@ class CharSpecialDish(Dish) :
 		return res
 
 
+class CharSkin(DataObject) :
+    def __init__(self) :
+        # Identifiers
+        self.hoyo_id: int = 0
+        # General data
+        self.name_hash: int = 0
+        self.desc_hash: int = 0
+        self.name: str = None
+        self.desc: str = None
+        self.icon: str = None
+        self.restricted: bool = False
+
+
+class CharSkins(DataObject) :
+    def __init__(self) :
+        self.default: CharSkin = None
+        self.alt: "list[CharSkin]" = []
+
+
 class Character(DataObject) :
 	def __init__(self) :
 		# Identifiers
@@ -94,10 +113,17 @@ class Character(DataObject) :
 		self.passives:       "list[CharPassive]" = None
 		self.constellations: "list[CharConstellation]" = None
 		# Skins
-		self.skins = { # TODO data object
-			'default': None,
-			'alt': []
-		}
+		self.skins: CharSkins = CharSkins()
 		# Special dish
 		self.special_dish: CharSpecialDish = None
 
+
+class CharacterImageStore(DataObject) :
+    def __init__(self) :
+        self.front:  str = None
+        self.banner: str = None
+        self.normal_attack:   str = None
+        self.elemental_skill: str = None
+        self.elemental_burst: str = None
+        self.constellations: "list[str]" = []
+        self.passives: "list[str]" = []

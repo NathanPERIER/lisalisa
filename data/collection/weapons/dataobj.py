@@ -1,6 +1,7 @@
 from common.dataobj import DataObject
 from common.ascensions.dataobj import Ascensions
 
+
 class Weapon(DataObject) :
 	def __init__(self) :
 		# Identifiers
@@ -25,3 +26,9 @@ class Weapon(DataObject) :
 		self.ascensions: Ascensions = None
 		# Abilities + refinement
 		self.abilities: list = None 
+
+
+class WeaponImageStore(DataObject) :
+    def __init__(self) :
+        self.default:  str = None
+        self.awakened: str = None
