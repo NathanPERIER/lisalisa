@@ -2,6 +2,7 @@
 from utils import loadJson, idFromName
 from constants import WEAPON_DATA_JSON
 from translate.textmap import lang
+from common.text import clearFormat
 from translate.mhy import mhy_weapons, mhy_items
 from common.props import PropType
 from weapons.dataobj import Weapon
@@ -67,7 +68,7 @@ def __g_readWeaponBase(weapon: dict) -> Weapon :
 		return None
 
 	data.name = lang(data.name_hash)
-	data.desc = lang(data.desc_hash)
+	data.desc = clearFormat(lang(data.desc_hash))
 	data.icon = weapon['icon']
 	data.icon_awaken = weapon['awakenIcon']
 

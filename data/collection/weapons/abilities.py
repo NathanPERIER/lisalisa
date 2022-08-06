@@ -2,6 +2,7 @@
 from utils import loadJson
 from constants import WEAPON_ABILITY_JSON
 from translate.textmap import lang
+from common.text import clearFormat
 from weapons.dataobj import Weapon
 
 import logging
@@ -67,5 +68,5 @@ def __g_readAbilityEntry(entry: dict) -> dict : # TODO dataobj
 		'desc_hash': entry['descTextMapHash']
 	}
 	ability['name'] = lang(ability['name_hash'])
-	ability['desc'] = lang(ability['desc_hash'])
+	ability['desc'] = clearFormat(lang(ability['desc_hash']))
 	return ability

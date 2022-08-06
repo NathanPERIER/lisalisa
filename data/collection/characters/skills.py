@@ -4,6 +4,7 @@ from constants import CHAR_SKILL_DEPOT_JSON, CHAR_SKILLS_JSON, CHAR_TALENTS_JSON
 from characters.dataobj import CharConstellation, CharPassive, CharTalentStats, CharTalent, Character
 from common.ascensions import formatCosts
 from translate.textmap import lang
+from common.text import clearFormat
 
 import re
 import logging
@@ -57,7 +58,7 @@ def __g_readConstellations(const_ids: "list[int]") -> "list[CharConstellation]" 
         cst_res.desc_hash = cst['descTextMapHash']
         cst_res.icon = cst['icon']
         cst_res.name = lang(cst_res.name_hash)
-        cst_res.desc = lang(cst_res.desc_hash)
+        cst_res.desc = clearFormat(lang(cst_res.desc_hash))
         res.append(cst_res)
     return res
 
@@ -78,7 +79,7 @@ def __g_readSimpleSkill(psg_id: int, ascension: int = None) :
     if res.name_hash not in lang :
         return None
     res.name = lang(res.name_hash)
-    res.desc = lang(res.desc_hash)
+    res.desc = clearFormat(lang(res.desc_hash))
     return res
 
 
@@ -98,7 +99,7 @@ def readSkill(skill_id: int, is_sprint = False) -> CharTalent :
     # cost = skill['costElemVal']
     # cooldown = skill['cdTime']
     res.name = lang(res.name_hash)
-    res.desc = lang(res.desc_hash)
+    res.desc = clearFormat(lang(res.desc_hash))
     # A talent is associated with a "proud skill group" that contains one entry
     # per level this talent can have, with the stats of this talent
     expected_num = 1 if is_sprint else 15

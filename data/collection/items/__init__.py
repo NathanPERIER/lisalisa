@@ -2,6 +2,7 @@
 from utils import loadJson, indexById, idFromName
 from constants import ITEM_LIST_JSON
 from translate.textmap import lang
+from common.text import clearFormat
 from translate.mhy import mhy_items
 from items.dataobj import Item
 
@@ -39,7 +40,7 @@ def readItem(item: dict) -> Item :
 	res.type_hash = item['typeDescTextMapHash']
 	res.rarity = item['rankLevel'] if 'rankLevel' in item else 1
 	res.name = lang(res.name_hash)
-	res.desc = lang(res.desc_hash)
+	res.desc = clearFormat(lang(res.desc_hash))
 	res.type = lang(res.type_hash)
 	sp_desc_hash = item['specialDescTextMapHash']
 	if sp_desc_hash in lang :
