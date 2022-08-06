@@ -4,8 +4,8 @@ from constants import CHAR_DATA_JSON
 from weapons import WeaponType
 from translate.textmap import lang
 from translate.mhy import mhy_chars, mhy_weapons
-from common.dataobj.character import Character
 from common.props import PropType
+from characters.dataobj import Character
 from characters.info import readInfo
 from characters.skins import readSkins
 from characters.ascensions import readAscensions

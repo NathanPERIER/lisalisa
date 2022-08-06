@@ -3,7 +3,7 @@ from utils import loadJson, indexById, idFromName
 from constants import ITEM_LIST_JSON
 from translate.textmap import lang
 from translate.mhy import mhy_items
-from common.dataobj.item import Item
+from items.dataobj import Item
 
 import logging
 

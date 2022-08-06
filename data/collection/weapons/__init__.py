@@ -3,8 +3,8 @@ from utils import loadJson, idFromName
 from constants import WEAPON_DATA_JSON
 from translate.textmap import lang
 from translate.mhy import mhy_weapons, mhy_items
-from common.dataobj.weapon import Weapon
 from common.props import PropType
+from weapons.dataobj import Weapon
 from weapons.ascensions import readAscensions
 from weapons.abilities import readAbilities
 from weapons.curves import curves

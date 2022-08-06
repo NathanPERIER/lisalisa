@@ -1,7 +1,7 @@
 
 from utils import idFromName
 from characters.skills import skill_depot, readSkillsConstellations, readSkill as __g_readSkill
-from common.dataobj.character import Character
+from characters.dataobj import Character
 
 import re
 import logging
@@ -72,10 +72,8 @@ def __g_readTravelerSkillEntry(char: Character, depot_id: int) -> "tuple[str,Cha
 
 # Reads the skills for the common traveler (only has default attack)
 def __g_readCommonTravelerSkillEntry(char: Character, depot: dict) :
-	char.talents = {
-        'normal_attack':    __g_readSkill(depot['skills'][0]),
-        'elemental_skill':  None, # No elemental skill
-        'elemental_burst':  None, # No elemental burst
-        'alternate_sprint': None
-    }
+	char.talents.normal_attack    = __g_readSkill(depot['skills'][0])
+	char.talents.elemental_skill  = None        # No elemental skill
+	char.talents.elemental_burst  = None        # No elemental burst
+	char.talents.alternate_sprint = None
 	# No passives, no constellations

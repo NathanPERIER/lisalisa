@@ -3,8 +3,8 @@ from utils import loadJson, idFromName
 from constants import COOKING_RECIPES_JSON, SPECIAL_DISHES_JSON
 from translate.textmap import lang
 from translate.mhy import mhy_items, mhy_recipes
-from common.dataobj.item import Dish
-from common.dataobj.character import CharSpecialDish
+from items.dataobj import Dish
+from characters.dataobj import CharSpecialDish
 from common.ascensions import formatCosts
 from items import items, readItem
 

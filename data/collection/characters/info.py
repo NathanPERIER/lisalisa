@@ -1,7 +1,7 @@
 
 from utils import loadJson
 from constants import CHAR_INFO_JSON
-from common.dataobj.character import Character
+from characters.dataobj import Character
 from translate.textmap import lang
 
 import logging

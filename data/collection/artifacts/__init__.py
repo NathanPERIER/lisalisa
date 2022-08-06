@@ -6,7 +6,7 @@ from translate.mhy import mhy_art_sets
 from artifacts.pieces import readArtifactPiece as __g_readArtifactPiece
 from artifacts.sets   import readArtifactSet   as __g_readArtifactSet
 from artifacts.curves import curves, getSetAffixes as __g_getSetAffixes
-from common.dataobj.artifact import ArtifactSet, ArtifactRaritySet
+from artifacts.dataobj import ArtifactSet, ArtifactRaritySet
 
 import logging
 

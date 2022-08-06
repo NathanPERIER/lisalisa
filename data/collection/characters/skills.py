@@ -1,7 +1,7 @@
 
 from utils import loadJson
 from constants import CHAR_SKILL_DEPOT_JSON, CHAR_SKILLS_JSON, CHAR_TALENTS_JSON, CHAR_PROUD_SKILL_JSON
-from common.dataobj.character import CharConstellation, CharPassive, CharTalentStats, CharTalent, Character
+from characters.dataobj import CharConstellation, CharPassive, CharTalentStats, CharTalent, Character
 from common.ascensions import formatCosts
 from translate.textmap import lang
 
