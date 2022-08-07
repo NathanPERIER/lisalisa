@@ -7,6 +7,7 @@ from artifacts.pieces import readArtifactPiece as __g_readArtifactPiece
 from artifacts.sets   import readArtifactSet   as __g_readArtifactSet
 from artifacts.curves import curves, getSetAffixes as __g_getSetAffixes
 from artifacts.dataobj import ArtifactSet, ArtifactRaritySet
+from artifacts.images import registerArtifactImages
 
 import logging
 
@@ -43,6 +44,7 @@ def readArtifactSets() -> "dict[str,ArtifactSet]" :
         art_set.name = art_set.pieces[0].name
         identifier = idFromName(art_set.name)
         res[identifier] = art_set
+        registerArtifactImages(identifier, art_set)
         mhy_art_sets[art_set.hoyo_id] = identifier
     return res
         

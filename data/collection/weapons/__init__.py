@@ -9,6 +9,7 @@ from weapons.dataobj import Weapon
 from weapons.ascensions import readAscensions
 from weapons.abilities import readAbilities
 from weapons.curves import curves
+from weapons.images import registerWeaponImage
 
 import logging
 from enum import Enum
@@ -32,6 +33,7 @@ def readWeapons() -> "dict[str,Weapon]" :
 		if data is not None :
 			identifier = idFromName(data.name)
 			res[identifier] = data
+			registerWeaponImage(identifier, data)
 			mhy_weapons[data.hoyo_id] = identifier
 
 	readAscensions(res)

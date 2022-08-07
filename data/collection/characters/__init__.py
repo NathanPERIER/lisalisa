@@ -12,6 +12,7 @@ from characters.ascensions import readAscensions
 from characters.skills import readSkillsConstellations
 from characters.travelers import readTravelerSkills
 from characters.curves import curves
+from characters.images import registerCharacterImages
 from items.recipes import readSpecialDish
 
 import logging
@@ -57,10 +58,12 @@ def readCharacters() -> "dict[str,Character]" :
 	for char in characters.values() :
 		if char.name == 'Traveler' :
 			res.update(readTravelerSkills(char))
+			# TODO images
 		else :
 			readSkillsConstellations(char)
 			identifier = idFromName(char.name)
 			res[identifier] = char
+			registerCharacterImages(identifier, char)
 			mhy_chars[char.hoyo_id] = identifier
 		
 	return res

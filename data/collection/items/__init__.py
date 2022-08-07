@@ -5,6 +5,7 @@ from translate.textmap import lang
 from common.text import clearFormat
 from translate.mhy import mhy_items
 from items.dataobj import Item
+from items.images import registerItemImage
 
 import logging
 
@@ -29,9 +30,10 @@ def readAllItems() -> "list[Item]" :
 def __g_supplyThroughItems(str_id: str) -> str :
 	hoyo_id = int(str_id)
 	if hoyo_id in items :
-		item = items[hoyo_id]
-		identifier = idFromName(lang(item['nameTextMapHash']))
-		__g_auto_translated[identifier] = readItem(item)
+		item = readItem(items[hoyo_id])
+		identifier = idFromName(item.name)
+		registerItemImage(identifier, item)
+		__g_auto_translated[identifier] = item
 		return identifier
 	logger.warning("No item found with hoyo id %d", hoyo_id)
 	return str(hoyo_id)

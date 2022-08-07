@@ -65,12 +65,14 @@ EXP_WEAPON_JSON         = os.path.join(EXCEL_DIR, 'WeaponLevelExcelConfigData.js
 LANG_JSON_TEMPLATE = os.path.join(REPO_DIR,  'GenshinData/TextMap/TextMap{lang}.json')
 MANUAL_LANG_JSON   = os.path.join(EXCEL_DIR, 'ManualTextMapConfigData.json')
 
-# Misc
+# Misc paths
 COOKING_RECIPES_JSON = os.path.join(EXCEL_DIR, 'CookRecipeExcelConfigData.json')
 SPECIAL_DISHES_JSON  = os.path.join(EXCEL_DIR, 'CookBonusExcelConfigData.json')
 WORLD_CITIES_JSON    = os.path.join(EXCEL_DIR, 'CityConfigData.json')
 # FRIENDSHIP_REWARDS_JSON = os.path.join(EXCEL_DIR, 'FetterCharacterCardExcelConfigData.json')
 
+# Images
+AMBR_IMAGE_TEMPLATE = "https://api.ambr.top/assets/UI/%s.png"
 
 ITEM_MORA_ID = 'mora'
 

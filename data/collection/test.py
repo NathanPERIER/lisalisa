@@ -15,6 +15,7 @@ from exp.weapon         import readWeaponExp
 from items.gliders import readGliders
 from items.recipes import readRecipes
 from items import getAutoTranslated, readAllItems
+from common.images import getImageStore
 from common.text import getAutoColours
 
 import os
@@ -86,10 +87,13 @@ def main() :
 	dest_file = os.path.join(DEST_DIR, 'items/full.json')
 	saveJson(items_full, dest_file)
 	
-	
 	char_curves = getCharacterCurves()
 	dest_file = os.path.join(DEST_DIR, 'curves/characters.json')
 	saveJson(char_curves, dest_file)
+
+	image_store = getImageStore()
+	dest_file = os.path.join(DEST_DIR, 'images.json')
+	saveJson(image_store, dest_file)
 
 	items_auto = getAutoTranslated()
 	dest_file = os.path.join(DEST_DIR, 'items/auto.json')
