@@ -14,7 +14,7 @@ from exp.offerings      import readOfferingsExp
 from exp.weapon         import readWeaponExp
 from items.gliders import readGliders
 from items.recipes import readRecipes
-from items import getAutoTranslated
+from items import getAutoTranslated, readAllItems
 from common.text import getAutoColours
 
 import os
@@ -81,6 +81,11 @@ def main() :
 	for char_id, char in characters.items() :
 		dest_file = os.path.join(DEST_DIR, f"characters/{char_id}.json")
 		saveJson(char, dest_file)
+
+	items_full = readAllItems()
+	dest_file = os.path.join(DEST_DIR, 'items/full.json')
+	saveJson(items_full, dest_file)
+	
 	
 	char_curves = getCharacterCurves()
 	dest_file = os.path.join(DEST_DIR, 'curves/characters.json')

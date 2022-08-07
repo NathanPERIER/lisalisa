@@ -19,6 +19,13 @@ def getAutoTranslated() -> dict :
 	return __g_auto_translated
 
 
+def readAllItems() -> "list[Item]" :
+	return [
+		__g_readFullItem(item) for item in items.values()
+		if item['nameTextMapHash'] in lang
+	]
+
+
 def __g_supplyThroughItems(str_id: str) -> str :
 	hoyo_id = int(str_id)
 	if hoyo_id in items :
@@ -40,18 +47,14 @@ def readItem(item: dict) -> Item :
 	res.type_hash = item['typeDescTextMapHash']
 	res.rarity = item['rankLevel'] if 'rankLevel' in item else 1
 	res.name = lang(res.name_hash)
-	res.desc = clearFormat(lang(res.desc_hash))
-	res.type = lang(res.type_hash)
-	sp_desc_hash = item['specialDescTextMapHash']
-	if sp_desc_hash in lang :
-		sp_desc = lang(sp_desc_hash)
-		print(f"SP: {sp_desc}")
-	effect_desc_hash = item['effectDescTextMapHash']
-	if effect_desc_hash in lang :
-		effect_desc = lang(effect_desc_hash)
-		print(f"EFF: {effect_desc}")
-	interaction_hash = item['interactionTitleTextMapHash']
-	if interaction_hash in lang :
-		interaction = lang(interaction_hash)
-		print(f"INTERACT: {interaction}")
+	res.desc = clearFormat(lang(res.desc_hash)) if res.desc_hash in lang else None
+	res.type = item['itemType']
+	res.type_desc = lang(res.type_hash) if res.type_hash in lang else None
+	return res
+
+
+def __g_readFullItem(item: dict) -> Item :
+	res = readItem(item)
+	if 'gadgetId' in item :
+		res.gadget_id = item['gadgetId']
 	return res

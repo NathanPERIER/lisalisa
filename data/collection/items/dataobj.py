@@ -12,6 +12,7 @@ class Item(DataObject) :
         self.name: str = None
         self.desc: str = None
         self.type: str = None
+        self.type_desc: str = None
         self.rarity: int = 0
 
 
