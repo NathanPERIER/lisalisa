@@ -4,7 +4,7 @@ import sys
 class Options :
 	debugMode = False
 	doFront   = False
-	doBack    = True
+	doBack    = False
 
 
 def __d_help(ret_code = 0) :
@@ -26,6 +26,10 @@ def parse() :
 	if len(args) > 0 and args[0] == '--back' :
 		Options.doBack = True
 		del args[0]
+
+	if not Options.doFront and not Options.doBack :
+		print('Specify at least --front or --back')
+		sys.exit(1)
 	
 	if len(args) > 0 and args[0] == '--debug' :
 		Options.debugMode = True
