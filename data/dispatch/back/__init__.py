@@ -1,6 +1,6 @@
 
 from utils import OutputDir
-from engine import DispatchEngine
+from engine.core import DispatchEngine
 from back.hardcoded import dispatchHardcoded
 
 BACK_CONSTANTS_FILE = 'numeric_constants.json'

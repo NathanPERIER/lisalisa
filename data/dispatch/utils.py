@@ -1,5 +1,5 @@
 
-from constants import RAW_DIR, BACK_DIR
+from constants import RAW_DIR, BACK_DIR, FRONT_DIR
 from args import Options
 
 import os
@@ -7,7 +7,8 @@ import json
 from enum import Enum
 
 class OutputDir(Enum) :
-	BACK = BACK_DIR
+	BACK  = BACK_DIR
+	FRONT = FRONT_DIR
 
 
 def loadJson(file: str) :

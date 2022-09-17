@@ -1,6 +1,6 @@
 
 from constants import HC_ADV_RANK_FILE, HC_ASCENSION_FILE, HC_WORLD_LEVEL_FILE
-from engine import DispatchEngine, Dispatcher
+from engine.core import DispatchEngine, Dispatcher
 
 BACK_ADV_RANK_FILE    = 'adventure_rank.json'
 BACK_ASCENSION_FILE   = 'ascension.json'

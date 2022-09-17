@@ -62,8 +62,8 @@ class Dispatcher :
 	def process(self) :
 		if self._transform is None :
 			self._res = self._data
-		else : 
-			self._res = self._transform(self, self._data)
+			return
+		self._res = self._transform(self, self._data)
 	
 	def save(self, dest_dir: OutputDir) :
 		saveJson(self._res, dest_dir, self._output)

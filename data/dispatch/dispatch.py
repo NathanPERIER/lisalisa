@@ -9,7 +9,13 @@ args.parse()
 from args import Options
 
 import back
+import front
+
 
 if __name__ == '__main__' :
+
 	if Options.doBack :
 		back.dispatch()
+	
+	if Options.doFront :
+		front.dispatch()
