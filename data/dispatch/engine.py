@@ -2,7 +2,15 @@
 from utils import OutputDir, loadJson, saveJson
 from constants import CONSTANTS_FILE
 
+import logging
+
+logger = logging.getLogger(__name__)
+
+
 class DispatchEngine :
+	'''
+	Engine that manages dispatchers
+	'''
 
 	def __init__(self, constants_dest: str, out: OutputDir) :
 		self._out_dir = out
@@ -21,7 +29,7 @@ class DispatchEngine :
 	
 	def setConstant(self, key: str, value: int) :
 		if key in self._constants :
-			print("WARNING override ... ") # TODO logging
+			logging.warning("Override constant associated with key %s", key)
 		self._constants[key] = value
 
 	def close(self) :
@@ -30,6 +38,9 @@ class DispatchEngine :
 
 
 class Dispatcher :
+	'''
+	Object responsible for copying the data and altering it if necessary
+	'''
 	
 	def __init__(self, input_file: str, output_file: str, transform = None) :
 		self._input  = input_file
