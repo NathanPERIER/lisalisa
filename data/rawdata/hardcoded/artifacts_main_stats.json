@@ -1,0 +1,38 @@
+{
+	"flower_of_life": [
+		"HP"
+	],
+	"plume_of_death": [
+		"ATK"
+	],
+	"sands_of_eon": [
+		"HP%",
+		"ATK%",
+		"DEF%",
+		"Elemental Mastery",
+		"Energy Recharge%"
+	],
+	"goblet_of_eonothem": [
+		"HP%",
+		"ATK%",
+		"DEF%",
+		"Elemental Mastery",
+		"Pyro DMG%",
+		"Hydro DMG%",
+		"Cryo DMG%",
+		"Electro DMG%",
+		"Anemo DMG%",
+		"Geo DMG%",
+		"Dendro DMG%",
+		"Physical DMG%"
+	],
+	"circlet_of_logos": [
+		"HP%",
+		"ATK%",
+		"DEF%",
+		"Elemental Mastery",
+		"Crit Rate%",
+		"Crit DMG%",
+		"Healing Bonus%"
+	]
+}
