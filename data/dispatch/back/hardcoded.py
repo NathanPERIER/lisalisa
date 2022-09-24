@@ -1,15 +1,13 @@
 
-from constants import HC_ADV_RANK_FILE, HC_ASCENSION_FILE, HC_WORLD_LEVEL_FILE
-from engine.core import DispatchEngine, Dispatcher
-
-BACK_ADV_RANK_FILE    = 'adventure_rank.json'
-BACK_ASCENSION_FILE   = 'ascension.json'
-BACK_WORLD_LEVEL_FILE = 'world_level.json'
+from constants import HC_ADV_RANK_FILE, HC_ASCENSION_FILE, HC_WORLD_LEVEL_FILE, HC_ART_RARITIES_FILE
+from engine.core import DispatchEngine
+from engine.dispatchers.filename import SameFilenameDispatcher
 
 
 def dispatchHardcoded(engine: DispatchEngine) :
 	engine.acceptAll([
-		Dispatcher(HC_ADV_RANK_FILE,    BACK_ADV_RANK_FILE),
-		Dispatcher(HC_ASCENSION_FILE,   BACK_ASCENSION_FILE),
-		Dispatcher(HC_WORLD_LEVEL_FILE, BACK_WORLD_LEVEL_FILE)
+		SameFilenameDispatcher(HC_ADV_RANK_FILE),
+		SameFilenameDispatcher(HC_ASCENSION_FILE),
+		SameFilenameDispatcher(HC_WORLD_LEVEL_FILE),
+		SameFilenameDispatcher(HC_ART_RARITIES_FILE)
 	])
