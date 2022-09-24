@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 @Component
 public class UserConfSanitiser {
@@ -83,14 +84,29 @@ public class UserConfSanitiser {
         if(user.getCharacters() == null) {
             throw new UserConfigException("Character configuration cannot be null");
         }
-        if(user.getCharacters().size() == 0) { // TODO at least one traveler, cannot mix boys and girls
+        if(user.getCharacters().size() == 0) {
             throw new UserConfigException("User has to have at least one character");
         }
-        for(String char_id : user.getCharacters().keySet()) {
-            CharacterConfSanitiser charSanitiser = new CharacterConfSanitiser(gservice, char_id, user);
-            charSanitiser.sanitise();
+        List<CharacterConfSanitiser> charSanitisers = user.getCharacters().keySet().stream()
+                .map(char_id -> new CharacterConfSanitiser(gservice, char_id, user))
+                .collect(Collectors.toList());
+        // If this passes, then all the IDs are correct
+        // We then need to check that there is at least one traveler
+        List<String> traveler_ids = user.getCharacters().keySet().stream()
+                .filter(char_id -> char_id.startsWith("traveler"))
+                .collect(Collectors.toList());
+        if(traveler_ids.isEmpty()) {
+            throw new UserConfigException("User has to have at least one traveler");
         }
+        // We also need to check that there is no girl/boy mix
+        final long nb_boys = traveler_ids.stream().filter(user_id -> user_id.startsWith("traveler_boy_")).count();
+        if(nb_boys != 0) {
+            final long nb_girls = traveler_ids.stream().filter(user_id -> user_id.startsWith("traveler_girl_")).count();
+            if(nb_girls != 0) {
+                throw new UserConfigException("User cannot have both boy travelers and girl travelers");
+            }
+        }
+        charSanitisers.forEach(CharacterConfSanitiser::sanitise);
     }
-
 
 }
