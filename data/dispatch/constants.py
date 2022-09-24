@@ -13,9 +13,12 @@ FRONT_DIR = os.path.join(REPO_DIR, 'frontend/src/assets/data')
 CONSTANTS_FILE   = 'hardcoded/numeric_constants.json'
 
 # Hardcoded
-HC_ADV_RANK_FILE    = 'hardcoded/adventure_rank.json'
-HC_ASCENSION_FILE   = 'hardcoded/ascension.json'
-HC_WORLD_LEVEL_FILE = 'hardcoded/world_level.json'
+HC_ADV_RANK_FILE       = 'hardcoded/adventure_rank.json'
+HC_ASCENSION_FILE      = 'hardcoded/ascension.json'
+HC_WORLD_LEVEL_FILE    = 'hardcoded/world_level.json'
+HC_ART_RARITIES_FILE   = 'hardcoded/artifacts_rarities.json'
+HC_ART_MAIN_STATS_FILE = 'hardcoded/artifacts_main_stats.json'
 
+# Character-related
 CHARACTERS_FOLDER = 'characters'
 CHARACTERS_IGNORED = ['traveler_boy_common', 'traveler_girl_common']
