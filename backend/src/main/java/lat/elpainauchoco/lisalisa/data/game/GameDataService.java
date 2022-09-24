@@ -46,6 +46,10 @@ public class GameDataService {
     private final int minPity;
     @Getter
     private final int maxPity;
+    @Getter
+    private final int minArtLevel;
+    @Getter
+    private final int artifactBasis;
 
 
     public GameDataService() {
@@ -68,6 +72,8 @@ public class GameDataService {
         maxRefinement = constants.get("refinement.level.max");
         minPity = constants.get("banner.pity.min");
         maxPity = constants.get("banner.pity.max");
+        minArtLevel = constants.get("artifact.level.min");
+        artifactBasis = constants.get("artifact.upgrade.basis");
     }
 
     public int getMinAR(int world_level) {

@@ -8,6 +8,7 @@ import lat.elpainauchoco.lisalisa.data.user.UserConf;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
 
@@ -18,12 +19,10 @@ public class UserConfSanitiser {
     private static final Pattern USER_NAME_REG = Pattern.compile("[^\\n\\t\\r]+");
 
     private final GameDataService gservice;
-    private final CharacterConfSanitiser charSanitiser;
 
     @Autowired
     public UserConfSanitiser(final GameDataService gs) {
         gservice = gs;
-        charSanitiser = new CharacterConfSanitiser(gs);
     }
 
     public void sanitiseUser(final UserConf user) {
@@ -33,7 +32,6 @@ public class UserConfSanitiser {
         sanitiseWorldLevel(user.getWorldLevel());
         sanitiseAdventureRank(user.getAdventureRank(), user.getWorldLevel());
         sanitiseProfileCharacter(user.getProfile(), user.getCharacters());
-        // TODO namecard
         sanitisePity(user.getPity());
         // TODO limit
         sanitiseCharacters(user);
@@ -88,8 +86,9 @@ public class UserConfSanitiser {
         if(user.getCharacters().size() == 0) { // TODO at least one traveler, cannot mix boys and girls
             throw new UserConfigException("User has to have at least one character");
         }
-        for(Map.Entry<String, CharacterConf> e : user.getCharacters().entrySet()) {
-            charSanitiser.sanitiseCharacter(e.getKey(), e.getValue(), user);
+        for(String char_id : user.getCharacters().keySet()) {
+            CharacterConfSanitiser charSanitiser = new CharacterConfSanitiser(gservice, char_id, user);
+            charSanitiser.sanitise();
         }
     }
 

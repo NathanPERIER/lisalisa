@@ -10,33 +10,40 @@ import lat.elpainauchoco.lisalisa.data.user.UserConf;
 public class CharacterConfSanitiser {
 
     private final GameDataService gservice;
+    private final String char_id;
+    private final UserConf user;
+    private final CharacterConf character;
+    private final CharacterData data;
 
-    public CharacterConfSanitiser(final GameDataService gs) {
-        gservice = gs;
-    }
-
-    public void sanitiseCharacter(final String char_id, final CharacterConf character, final UserConf user) {
+    public CharacterConfSanitiser(final GameDataService gservice, final String char_id, final UserConf user) {
+        this.gservice = gservice;
+        this.char_id = char_id;
         if(!gservice.hasCharacter(char_id)) {
             throw new UserConfigException("Character " + char_id + " does not exist");
         }
+        this.user = user;
+        this.character = user.getCharacters().get(char_id);
         if(character == null) {
             throw new UserConfigException("Configuration for character " + char_id + " cannot be null");
         }
-        CharacterData charData = gservice.getCharacter(char_id);
-        sanitiseCharacterAscension(char_id, character.getAscension(), user.getAdventureRank());
-        sanitiseCharacterLevel(char_id, character.getLevel(), character.getAscension());
-        sanitiseCharacterConstellations(char_id, character.getConstellations());
-        sanitiseCharacterTalent(char_id, character.getNormalAttack(), "normal attack", character.getAscension());
-        sanitiseCharacterTalent(char_id, character.getElementalSkill(), "elemental skill", character.getAscension());
-        sanitiseCharacterTalent(char_id, character.getElementalBurst(), "elemental burst", character.getAscension());
-        sanitiseCharacterLimits(char_id, character.getLimit());
+        this.data = gservice.getCharacter(char_id);
+    }
+
+    public void sanitise() {
+        sanitiseCharacterAscension(character.getAscension(), user.getAdventureRank());
+        sanitiseCharacterLevel(character.getLevel(), character.getAscension());
+        sanitiseCharacterConstellations(character.getConstellations());
+        sanitiseCharacterTalent(character.getNormalAttack(), "normal attack", character.getAscension());
+        sanitiseCharacterTalent(character.getElementalSkill(), "elemental skill", character.getAscension());
+        sanitiseCharacterTalent(character.getElementalBurst(), "elemental burst", character.getAscension());
+        sanitiseCharacterLimits(character.getLimit());
         // TODO weapon
         // TODO artifacts
         // TODO glider
-        sanitiseCharacterSkin(char_id, character.getSkin(), charData);
+        sanitiseCharacterSkin(character.getSkin());
     }
 
-    public void sanitiseCharacterAscension(final String char_id, final int ascension, final int ar) {
+    public void sanitiseCharacterAscension(final int ascension, final int ar) {
         if(ascension < gservice.getMinAscension()) {
             throw new UserConfigException("Invalid character ascension " + ascension
                     + " for character " + char_id
@@ -50,7 +57,7 @@ public class CharacterConfSanitiser {
         }
     }
 
-    public void sanitiseCharacterLevel(final String char_id, final int level, final int ascension) {
+    public void sanitiseCharacterLevel(final int level, final int ascension) {
         if(level < gservice.getMinLevel(ascension) || level > gservice.getMaxLevel(ascension)) {
             throw new UserConfigException("Invalid character level " + level
                     + " at ascension " + ascension
@@ -59,14 +66,13 @@ public class CharacterConfSanitiser {
         }
     }
 
-    public void sanitiseCharacterConstellations(final String char_id, final int constellations) {
+    public void sanitiseCharacterConstellations(final int constellations) {
         if(constellations < gservice.getMaxConstellations() || constellations > gservice.getMaxConstellations()) {
             throw new UserConfigException("Invalid number of constellations for character " + char_id);
         }
     }
 
-    public void sanitiseCharacterTalent(final String char_id, final int talentLevel, final String talentType,
-                                        final int ascension) {
+    public void sanitiseCharacterTalent(final int talentLevel, final String talentType, final int ascension) {
         if(talentLevel < gservice.getMinTalent()) {
             throw new UserConfigException("Invalid " + talentType + " level " + talentLevel
                     + " for character " + char_id
@@ -80,7 +86,7 @@ public class CharacterConfSanitiser {
         }
     }
 
-    protected void sanitiseCharacterLimits(final String char_id, final CharacterAscensionLimit limits) {
+    protected void sanitiseCharacterLimits(final CharacterAscensionLimit limits) {
         if(limits == null) {
             return;
         }
@@ -95,13 +101,12 @@ public class CharacterConfSanitiser {
                     + " in the limits of character " + char_id
             );
         }
-        sanitiseCharacterTalentLimit(char_id, limits.getNormalAttack(), "normal attack", ascension);
-        sanitiseCharacterTalentLimit(char_id, limits.getElementalSkill(), "elemental skill", ascension);
-        sanitiseCharacterTalentLimit(char_id, limits.getElementalBurst(), "elemental burst", ascension);
+        sanitiseCharacterTalentLimit(limits.getNormalAttack(), "normal attack", ascension);
+        sanitiseCharacterTalentLimit(limits.getElementalSkill(), "elemental skill", ascension);
+        sanitiseCharacterTalentLimit(limits.getElementalBurst(), "elemental burst", ascension);
     }
 
-    protected void sanitiseCharacterTalentLimit(final String char_id, final int talentLevel, final String talentType,
-                                                final int ascension) {
+    protected void sanitiseCharacterTalentLimit(final int talentLevel, final String talentType, final int ascension) {
         if(talentLevel < gservice.getMinTalent() || talentLevel > gservice.getMaxTalent(ascension)) {
             throw new UserConfigException("Invalid " + talentType + " level " + talentLevel
                     + " with ascension " + ascension
@@ -112,11 +117,11 @@ public class CharacterConfSanitiser {
 
 
 
-    protected void sanitiseCharacterSkin(final String char_id, final String skin, final CharacterData charData) {
+    protected void sanitiseCharacterSkin(final String skin) {
         if("default".equals(skin)) {
             return;
         }
-        if(!charData.getAlternateSkins().contains(skin)) {
+        if(!data.getAlternateSkins().contains(skin)) {
             throw new UserConfigException("Skin " + skin + " does not exist for character " + char_id);
         }
     }
