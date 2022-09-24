@@ -22,6 +22,7 @@ public class GameDataService {
     private final AscensionLevelData[] ascensions;
     private final int[][] world_levels;
     private final List<AdventureRankData> adventure_ranks;
+    private final Map<String, CharacterData> characters;
 
     @Getter
     private final int minWL;
@@ -46,6 +47,8 @@ public class GameDataService {
 
 
     public GameDataService() {
+        // associative array of all the possible characters
+        characters = readFromJar("/genshin/characters.json", new TypeReference<>() { });
         // array where the index is the ascension (character or weapon)
         ascensions = readFromJar("/genshin/ascension.json", new TypeReference<>() { });
         // array where the index is the world level, and the values are arrays of two integers (min and max ascension for this wl)
@@ -106,9 +109,14 @@ public class GameDataService {
         return ascensions[ascension].getMaxTalent();
     }
 
-    // public CharacterData getCharacter(String id) { // TODO
-    //
-    //}
+
+    public boolean hasCharacter(String id) {
+        return characters.containsKey(id);
+    }
+
+    public CharacterData getCharacter(String id) {
+        return characters.get(id);
+    }
 
 
 

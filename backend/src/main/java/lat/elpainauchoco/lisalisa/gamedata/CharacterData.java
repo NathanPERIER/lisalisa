@@ -9,10 +9,8 @@ import java.util.List;
 @Setter
 public class CharacterData {
 
-    private String name;
     private String weapon;
     private String defaultWeapon;
-    private String defaultSkin;
     private List<String> alternateSkins;
     private int increaseSkill;
     private int increaseBurst;
