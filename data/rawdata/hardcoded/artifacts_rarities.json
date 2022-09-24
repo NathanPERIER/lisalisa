@@ -1,86 +1,71 @@
 [
 	{
 		"max_level": 4,
-		"substats": {
-			"max_nb": 0,
-			"min_nb": 0,
-			"props": {}
-		}
+		"max_substats": 0,
+		"props": {}
 	},
 	{
 		"max_level": 4,
-		"substats": {
-			"max_nb": 1,
-			"min_nb": 0,
-			"props": {
-				"HP":                [50.19, 71.70],
-				"ATK":               [ 3.27,  4.76],
-				"DEF":               [ 3.89,  5.56],
-				"HP%":               [ 1.63,  2.33],
-				"ATK%":              [ 1.63,  2.33],
-				"DEF%":              [ 2.04,  2.91],
-				"Elemental Mastery": [ 6.53,  9.33],
-				"Energy Recharge%":  [ 1.81,  2.59],
-				"Crit Rate%":        [ 1.09,  1.55],
-				"Crit DMG%":         [ 2.18,  3.11]
-			}
+		"max_substats": 1,
+		"props": {
+			"HP":                [50.19, 71.70],
+			"ATK":               [ 3.27,  4.76],
+			"DEF":               [ 3.89,  5.56],
+			"HP%":               [ 1.63,  2.33],
+			"ATK%":              [ 1.63,  2.33],
+			"DEF%":              [ 2.04,  2.91],
+			"Elemental Mastery": [ 6.53,  9.33],
+			"Energy Recharge%":  [ 1.81,  2.59],
+			"Crit Rate%":        [ 1.09,  1.55],
+			"Crit DMG%":         [ 2.18,  3.11]
 		}
 	},
 	{
 		"max_level": 12,
-		"substats": {
-			"max_nb": 2,
-			"min_nb": 1,
-			"props": {
-				"HP":                [100.38, 143.40],
-				"ATK":               [  6.54,   9.34],
-				"DEF":               [  7.78,  11.11],
-				"HP%":               [  2.45,   3.50],
-				"ATK%":              [  2.45,   3.50],
-				"DEF%":              [  3.06,   4.37],
-				"Elemental Mastery": [  9.79,  13.99],
-				"Energy Recharge%":  [  2.72,   3.89],
-				"Crit Rate%":        [  1.63,   2.33],
-				"Crit DMG%":         [  3.26,   4.66]
-			}
+		"max_substats": 2,
+		"props": {
+			"HP":                [100.38, 143.40],
+			"ATK":               [  6.54,   9.34],
+			"DEF":               [  7.78,  11.11],
+			"HP%":               [  2.45,   3.50],
+			"ATK%":              [  2.45,   3.50],
+			"DEF%":              [  3.06,   4.37],
+			"Elemental Mastery": [  9.79,  13.99],
+			"Energy Recharge%":  [  2.72,   3.89],
+			"Crit Rate%":        [  1.63,   2.33],
+			"Crit DMG%":         [  3.26,   4.66]
 		}
 	},
 	{
 		"max_level": 16,
-		"substats": {
-			"max_nb": 3,
-			"min_nb": 2,
-			"props": {
-				"HP":                [167.30, 239.00],
-				"ATK":               [ 10.89,  15.56],
-				"DEF":               [ 12.96,  18.52],
-				"HP%":               [  3.26,   4.66],
-				"ATK%":              [  3.26,   4.66],
-				"DEF%":              [  4.08,   5.83],
-				"Elemental Mastery": [ 13.06,  18.56],
-				"Energy Recharge%":  [  3.63,   5.18],
-				"Crit Rate%":        [  2.18,   3.11],
-				"Crit DMG%":         [  4.35,   6.22]
-			}
+		"max_substats": 3,
+		"props": {
+			"HP":                [167.30, 239.00],
+			"ATK":               [ 10.89,  15.56],
+			"DEF":               [ 12.96,  18.52],
+			"HP%":               [  3.26,   4.66],
+			"ATK%":              [  3.26,   4.66],
+			"DEF%":              [  4.08,   5.83],
+			"Elemental Mastery": [ 13.06,  18.56],
+			"Energy Recharge%":  [  3.63,   5.18],
+			"Crit Rate%":        [  2.18,   3.11],
+			"Crit DMG%":         [  4.35,   6.22]
 		}
 	},
 	{
 		"max_level": 20,
-		"substats": {
-			"max_nb": 3,
-			"min_nb": 2,
-			"props": {
-				"HP":                [209.13, 298.75],
-				"ATK":               [ 13.62,  19.45],
-				"DEF":               [ 16.20,  23.15],
-				"HP%":               [  4.08,   5.83],
-				"ATK%":              [  4.08,   5.83],
-				"DEF%":              [  5.10,   7.29],
-				"Elemental Mastery": [ 16.32,  23.31],
-				"Energy Recharge%":  [  4.53,   6.48],
-				"Crit Rate%":        [  2.72,   3.89],
-				"Crit DMG%":         [  5.44,   7.77]
-			}
+		"max_substats": 4,
+		"props": {
+			"HP":                [209.13, 298.75],
+			"ATK":               [ 13.62,  19.45],
+			"DEF":               [ 16.20,  23.15],
+			"HP%":               [  4.08,   5.83],
+			"ATK%":              [  4.08,   5.83],
+			"DEF%":              [  5.10,   7.29],
+			"Elemental Mastery": [ 16.32,  23.31],
+			"Energy Recharge%":  [  4.53,   6.48],
+			"Crit Rate%":        [  2.72,   3.89],
+			"Crit DMG%":         [  5.44,   7.77]
 		}
 	}
 ]

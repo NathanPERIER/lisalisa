@@ -1,18 +1,18 @@
 {
-	"flower_of_life": [
+	"flower": [
 		"HP"
 	],
-	"plume_of_death": [
+	"plume": [
 		"ATK"
 	],
-	"sands_of_eon": [
+	"sands": [
 		"HP%",
 		"ATK%",
 		"DEF%",
 		"Elemental Mastery",
 		"Energy Recharge%"
 	],
-	"goblet_of_eonothem": [
+	"goblet": [
 		"HP%",
 		"ATK%",
 		"DEF%",
@@ -26,7 +26,7 @@
 		"Dendro DMG%",
 		"Physical DMG%"
 	],
-	"circlet_of_logos": [
+	"circlet": [
 		"HP%",
 		"ATK%",
 		"DEF%",
