@@ -1,4 +1,4 @@
-package lat.elpainauchoco.lisalisa.userdata;
+package lat.elpainauchoco.lisalisa.data.user;
 
 /*
 "artifacts": {

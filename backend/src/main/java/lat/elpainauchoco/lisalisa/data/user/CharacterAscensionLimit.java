@@ -1,7 +1,7 @@
-package lat.elpainauchoco.lisalisa.userdata;
+package lat.elpainauchoco.lisalisa.data.user;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
+import lat.elpainauchoco.lisalisa.data.game.GameDataService;
 import lombok.Getter;
 import lombok.Setter;
 

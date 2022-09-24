@@ -1,10 +1,11 @@
-package lat.elpainauchoco.lisalisa.userdata.sanitise;
+package lat.elpainauchoco.lisalisa.sanitise;
 
 import lat.elpainauchoco.lisalisa.exceptions.UserConfigException;
-import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
-import lat.elpainauchoco.lisalisa.userdata.CharacterAscensionLimit;
-import lat.elpainauchoco.lisalisa.userdata.CharacterConf;
-import lat.elpainauchoco.lisalisa.userdata.UserConf;
+import lat.elpainauchoco.lisalisa.data.game.CharacterData;
+import lat.elpainauchoco.lisalisa.data.game.GameDataService;
+import lat.elpainauchoco.lisalisa.data.user.CharacterAscensionLimit;
+import lat.elpainauchoco.lisalisa.data.user.CharacterConf;
+import lat.elpainauchoco.lisalisa.data.user.UserConf;
 
 public class CharacterConfSanitiser {
 
@@ -15,10 +16,13 @@ public class CharacterConfSanitiser {
     }
 
     public void sanitiseCharacter(final String char_id, final CharacterConf character, final UserConf user) {
-        // TODO check that character exists in the gservice
+        if(!gservice.hasCharacter(char_id)) {
+            throw new UserConfigException("Character " + char_id + " does not exist");
+        }
         if(character == null) {
             throw new UserConfigException("Configuration for character " + char_id + " cannot be null");
         }
+        CharacterData charData = gservice.getCharacter(char_id);
         sanitiseCharacterAscension(char_id, character.getAscension(), user.getAdventureRank());
         sanitiseCharacterLevel(char_id, character.getLevel(), character.getAscension());
         sanitiseCharacterConstellations(char_id, character.getConstellations());
@@ -29,7 +33,7 @@ public class CharacterConfSanitiser {
         // TODO weapon
         // TODO artifacts
         // TODO glider
-        // TODO skin
+        sanitiseCharacterSkin(char_id, character.getSkin(), charData);
     }
 
     public void sanitiseCharacterAscension(final String char_id, final int ascension, final int ar) {
@@ -107,5 +111,14 @@ public class CharacterConfSanitiser {
     }
 
 
+
+    protected void sanitiseCharacterSkin(final String char_id, final String skin, final CharacterData charData) {
+        if("default".equals(skin)) {
+            return;
+        }
+        if(!charData.getAlternateSkins().contains(skin)) {
+            throw new UserConfigException("Skin " + skin + " does not exist for character " + char_id);
+        }
+    }
 
 }

@@ -1,10 +1,10 @@
-package lat.elpainauchoco.lisalisa.userdata.sanitise;
+package lat.elpainauchoco.lisalisa.sanitise;
 
 import lat.elpainauchoco.lisalisa.exceptions.UserConfigException;
-import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
-import lat.elpainauchoco.lisalisa.userdata.CharacterConf;
-import lat.elpainauchoco.lisalisa.userdata.PityConf;
-import lat.elpainauchoco.lisalisa.userdata.UserConf;
+import lat.elpainauchoco.lisalisa.data.game.GameDataService;
+import lat.elpainauchoco.lisalisa.data.user.CharacterConf;
+import lat.elpainauchoco.lisalisa.data.user.PityConf;
+import lat.elpainauchoco.lisalisa.data.user.UserConf;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

@@ -1,9 +1,9 @@
 package lat.elpainauchoco.lisalisa;
 
-import lat.elpainauchoco.lisalisa.dto.CreateUserDTO;
-import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
-import lat.elpainauchoco.lisalisa.userdata.UserConf;
-import lat.elpainauchoco.lisalisa.userdata.sanitise.UserConfSanitiser;
+import lat.elpainauchoco.lisalisa.data.dto.CreateUserDTO;
+import lat.elpainauchoco.lisalisa.data.game.GameDataService;
+import lat.elpainauchoco.lisalisa.data.user.UserConf;
+import lat.elpainauchoco.lisalisa.sanitise.UserConfSanitiser;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

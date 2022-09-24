@@ -1,4 +1,4 @@
-package lat.elpainauchoco.lisalisa.gamedata;
+package lat.elpainauchoco.lisalisa.data.game;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
