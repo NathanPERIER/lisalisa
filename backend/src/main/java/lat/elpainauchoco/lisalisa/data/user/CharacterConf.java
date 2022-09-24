@@ -19,7 +19,7 @@ public class CharacterConf {
     private int elementalBurst; // 1-10
     private int constellations; // 0-6
     private String glider;      // In list of valid gliders
-    private String skin;        // In list of valid skins for the character
+    private String skin;        // In list of valid alternate skins for the character, or "default"
     private CharacterAscensionLimit limit;
     private WeaponConf weapon;
     private ArtifactsConf artifacts;
@@ -34,9 +34,10 @@ public class CharacterConf {
         elementalBurst = normalAttack;
         constellations = gdata.getMinConstellations();
         glider = "wings_of_first_flight"; // TODO first glider in the list
-        skin = "default";                 // TODO character's default skin
+        skin = GameDataService.DEFAULT_CHARACTER_SKIN;
         limit = user.getLimit().getCharacter();
-        // TODO default weapon of the correct type
+        final String defaultWeapon = gdata.getCharacter(id).getDefaultWeapon();
+        weapon = new WeaponConf(defaultWeapon, user, gdata);
         artifacts = new ArtifactsConf();
     }
 

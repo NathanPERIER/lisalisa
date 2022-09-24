@@ -19,6 +19,8 @@ public class GameDataService {
 
     private static final Logger logger = LogManager.getLogger(GameDataService.class);
 
+    public static final String DEFAULT_CHARACTER_SKIN = "default";
+
     private final AscensionLevelData[] ascensions;
     private final int[][] world_levels;
     private final List<AdventureRankData> adventure_ranks;
