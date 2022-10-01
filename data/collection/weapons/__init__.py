@@ -50,6 +50,7 @@ def __g_readWeaponBase(weapon: dict) -> Weapon :
 	data = Weapon()
 
 	data.hoyo_id     = weapon['id']
+	logger.debug("Reading weapon %s", data.hoyo_id)
 	data.promote_id  = weapon['weaponPromoteId']
 	data.gadget_id   = weapon['gadgetId']
 	data.story_id    = weapon['storyId'] if 'storyId' in weapon else None,
@@ -58,7 +59,7 @@ def __g_readWeaponBase(weapon: dict) -> Weapon :
 	data.rarity = weapon['rankLevel']
 
 	if data.rarity > 1 and data.promote_id == 11101 :
-		logger.info("< %s > (ignored)", data.name)
+		logger.debug("Skipping weapon %s (rarity not matching promote_id)", data.hoyo_id)
 		return None
 
 	data.type = WeaponType[weapon['weaponType']]
@@ -66,7 +67,7 @@ def __g_readWeaponBase(weapon: dict) -> Weapon :
 	data.desc_hash = weapon['descTextMapHash']
 
 	if data.name_hash not in lang :
-		logger.info("< %s > (ignored)", data.name)
+		logger.debug("Skipping weapon %s (no name translation)", data.hoyo_id)
 		return None
 
 	data.name = lang(data.name_hash)
@@ -75,10 +76,8 @@ def __g_readWeaponBase(weapon: dict) -> Weapon :
 	data.icon_awaken = weapon['awakenIcon']
 
 	if data.name == '' :
-		logger.info("< %s > (ignored)", data.name)
+		logger.debug("Skipping weapon %s (empty name translation)", data.hoyo_id)
 		return None
-	
-	logger.info("< %s >", data.name)
 
 	for prop in weapon['weaponProp'] :
 		if 'propType' in prop and 'initValue' in prop and 'type' in prop :

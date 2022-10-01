@@ -116,14 +116,3 @@ class Character(DataObject) :
 		self.skins: CharSkins = CharSkins()
 		# Special dish
 		self.special_dish: CharSpecialDish = None
-
-
-class CharacterImageStore(DataObject) :
-    def __init__(self) :
-        self.front:  str = None
-        self.banner: str = None
-        self.normal_attack:   str = None
-        self.elemental_skill: str = None
-        self.elemental_burst: str = None
-        self.constellations: "list[str]" = []
-        self.passives: "list[str]" = []

@@ -26,9 +26,3 @@ class Weapon(DataObject) :
 		self.ascensions: Ascensions = None
 		# Abilities + refinement
 		self.abilities: list = None 
-
-
-class WeaponImageStore(DataObject) :
-    def __init__(self) :
-        self.default:  str = None
-        self.awakened: str = None

@@ -1,7 +1,8 @@
 
 from constants import AMBR_IMAGE_TEMPLATE
 from common.images import image_store
-from characters.dataobj import Character, CharacterImageStore
+from common.images.dataobj import CharacterImageStore
+from characters.dataobj import Character
 
 """
 https://api.ambr.top/assets/UI/UI_AvatarIcon_Mona.png

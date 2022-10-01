@@ -1,7 +1,8 @@
 
 from constants import AMBR_IMAGE_TEMPLATE
 from common.images import image_store
-from artifacts.dataobj import ArtifactSet, ArtifactImageStore
+from common.images.dataobj import ArtifactImageStore
+from artifacts.dataobj import ArtifactSet 
 
 __g_piece_num = {
 	'flower':  4,
