@@ -20,6 +20,7 @@ proud_skills = loadJson(CHAR_PROUD_SKILL_JSON)
 
 
 def readSkillsConstellations(char: Character) :
+    logger.debug("Reading skills and constellations for %s (%s)", char.hoyo_id, char.name)
     # Search for the entry corresponding to the character in the skill depot
     depot_search = [x for x in skill_depot if x['id'] == char.skill_depot_id]
     if len(depot_search) != 1 :
@@ -43,6 +44,7 @@ def readSkillsConstellations(char: Character) :
     char.passives = [x for x in char.passives if x is not None]
     # Constellations
     char.constellations = __g_readConstellations(depot['talents'])
+    __g_readTalentBonuses(char)
 
 
 # Read the constellations of a character from the object that stores all the constellations
@@ -54,6 +56,7 @@ def __g_readConstellations(const_ids: "list[int]") -> "list[CharConstellation]" 
     for cst_id in const_ids :
         cst = constellations[cst_id]
         cst_res = CharConstellation()
+        # talent_id = cst_id
         cst_res.name_hash = cst['nameTextMapHash']
         cst_res.desc_hash = cst['descTextMapHash']
         cst_res.icon = cst['icon']
@@ -193,3 +196,27 @@ def __g_formatValue(val: float, type: str) -> str :
     if type.endswith('P') :
         res = f"{res}%"
     return res
+
+# Computes which constellation give talent levels
+def __g_readTalentBonuses(char: Character) :
+    if char.constellations is None :
+        return
+    c3 = char.constellations[2].desc
+    c5 = char.constellations[4].desc
+    skill_increase_text = f"Increases the Level of {char.talents.elemental_skill.name} by 3."
+    burst_increase_text = f"Increases the Level of {char.talents.elemental_burst.name} by 3."
+    if c3.startswith(skill_increase_text) :
+        char.increase_skill = 3
+        char.increase_burst = 5
+        if not c5.startswith(burst_increase_text) :
+            logger.warning("Found skill increase at C3 but no burst increase at C5 for %s (%s)", char.hoyo_id, char.name)
+        return
+    elif c5.startswith(skill_increase_text) :
+        char.increase_skill = 5
+        char.increase_burst = 3
+        if not c3.startswith(burst_increase_text) :
+            logger.warning("Found skill increase at C5 but no burst increase at C3 for %s (%s)", char.hoyo_id, char.name)
+        return
+    unobtainable_constellation = 'The time has not yet come for this person\'s corner of the night sky to light up.'
+    if c3 != unobtainable_constellation or c5 != unobtainable_constellation :
+        logger.warning("Could not find talent increases for character %s (%s)", char.hoyo_id, char.name)

@@ -76,6 +76,7 @@ def getCharacterCurves() -> "dict[str,list[float]]" :
 def __g_readCharacterBase(char: dict) -> Character :
 	data = Character()
 	data.hoyo_id        = char['id']
+	logger.debug("Reading character %s", data.hoyo_id)
 	data.promote_id     = char['avatarPromoteId']
 	data.skill_depot_id = char['skillDepotId']
 
@@ -94,7 +95,6 @@ def __g_readCharacterBase(char: dict) -> Character :
 	data.desc = lang(data.desc_hash)
 	# Same as `infoDescTextMapHash` it seems (?)
 	data.icon = char['iconName']
-	logger.info(data.name)
 
 	# <=> 'avatarIdentityType' not in data
 	if data.name == 'Traveler' :

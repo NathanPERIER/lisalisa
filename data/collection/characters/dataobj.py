@@ -103,6 +103,8 @@ class Character(DataObject) :
 		self.astrolabe:  str = None
 		self.allegiance: str = None
 		self.default_weapon: str = None
+		self.increase_skill: int = 0
+		self.increase_burst: int = 0
 		# Stats
 		self.base_stats = {}
 		self.curves = {}

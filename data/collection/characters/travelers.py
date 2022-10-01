@@ -24,6 +24,7 @@ class Visions(Enum) :
 
 # The traveler has 7 skill entries, so we need to go through them and keep only the ones that actually exist
 def readTravelerSkills(char: Character) -> "dict[str,Character]" :
+	logger.debug("Parsing traveler talents for %s (%s)", char.hoyo_id, char.name)
 	res = {}
 	for depot_id in char.skill_depot_id : 
 		sp_char = __g_readTravelerSkillEntry(char, depot_id)
