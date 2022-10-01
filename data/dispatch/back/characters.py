@@ -24,10 +24,5 @@ def __d_transformCharacter(_dispatcher: Dispatcher, character: "dict[str,any]") 
 	return {
 		'weapon': character['weapon'],
 		'defaultWeapon': character['default_weapon'],
-		'alternateSkins': __d_transformSkins(character['skins'])
+		'alternateSkins': list(character['skins'].keys())
 	}
-
-def __d_transformSkins(skins: "dict[str,any]") -> "dict[str,any]" :
-	return [
-		skin['name'] for skin in skins['alt']
-	]

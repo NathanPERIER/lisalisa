@@ -74,7 +74,7 @@ class CharSkin(DataObject) :
 class CharSkins(DataObject) :
     def __init__(self) :
         self.default: CharSkin = None
-        self.alt: "list[CharSkin]" = []
+        self.alt: "dict[str,CharSkin]" = {}
 
 
 class Character(DataObject) :

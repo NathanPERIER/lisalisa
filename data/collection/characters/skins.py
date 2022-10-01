@@ -1,5 +1,5 @@
 
-from utils import loadJson
+from utils import loadJson, idFromName
 from constants import CHAR_SKINS_JSON
 from characters.dataobj import Character, CharSkin
 from translate.textmap import lang
@@ -37,8 +37,13 @@ def __g_readSkin(skin: dict, characters: "dict[str,Character]") :
     char = characters[char_id]
     if 'isDefault' in skin and skin['isDefault'] :
         if char.skins['default'] is not None :
-            logger.warning('Overriding default skin %s for %s (%d)', 
+            logger.warning("Overriding default skin %s for %s (%d)", 
                 char.skins['default']['name'], char.name, char.hoyo_id)
         char.skins.default = data
     else :
-        char.skins.alt.append(data)
+        skin_id = idFromName(data.name)
+        if skin_id == 'default' :
+            logger.warning("Non-default skin %s with id `default` found for character %s (%s), renaming to `_default`",
+                data.hoyo_id, char.hoyo_id, char.name)
+            skin_id = '_default'
+        char.skins.alt[skin_id] = data
