@@ -15,6 +15,7 @@ class AssocType(Enum) :
     ASSOC_TYPE_MAINACTOR = 'outlander'
     ASSOC_TYPE_INAZUMA = 'inazuma'
     ASSOC_TYPE_LIYUE = 'liyue'
+    ASSOC_TYPE_SUMERU = 'sumeru'
     ASSOC_TYPE_RANGER = 'ranger'
 
 info = loadJson(CHAR_INFO_JSON)

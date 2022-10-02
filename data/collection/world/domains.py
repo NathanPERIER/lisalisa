@@ -49,14 +49,22 @@ def readDomains() -> "list[Domain]" :
 def __g_formatDungeon(subd: "list[SubDomain]", entry: dict) -> Domain :
 	res = Domain()
 	res.hoyo_id = entry['id']
+	logger.debug("Formatting dungeon %s", res.hoyo_id)
+	# print(entry)
 	res.scene_id = entry['sceneId']
 	res.entry_id = entry['dungeonEntryId']
 	res.desc_hash = entry['descTextMapHash']
 	res.desc = lang(res.desc_hash)
 	res.type = DungeonEntryType[entry['type']]
 	# Find the point to get the domain name
-	point = points[str(res.entry_id)]
-	res.name_hash = hashForValue(point[DUNGEON_NAME_VAL_FIELD])
+	point_id = str(res.entry_id)
+	if point_id in points :
+		point = points[point_id]
+		name_ui_key = point[DUNGEON_NAME_VAL_FIELD]
+	else :
+		name_ui_key = f"UI_DUNGEON_ENTRY_{res.entry_id}"
+	logger.debug("Found key %s for dungeon with entry id %d", name_ui_key, res.entry_id)
+	res.name_hash = hashForValue(name_ui_key)
 	res.name = lang(res.name_hash)
 	# Get the required AR for this domain (if any)
 	search_req_ar = [
@@ -72,6 +80,7 @@ def __g_formatDungeon(subd: "list[SubDomain]", entry: dict) -> Domain :
 
 
 def __g_findDungeonEntry(ui_type: str, dungeon_type: str) -> dict :
+	logger.debug("Searching for dungeon entry %s (type %s)", ui_type, dungeon_type)
 	entry_type = DungeonEntryType(dungeon_type).name
 	search_dungeon = [
 		x for x in entries
