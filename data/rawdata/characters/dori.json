@@ -1,0 +1,830 @@
+{
+	"hoyo_id": 10000068,
+	"promote_id": 68,
+	"skill_depot_id": 6801,
+	"fetter_id": 68600,
+	"weapon": "claymore",
+	"name_hash": 388272194,
+	"desc_hash": 71570297,
+	"name": "Dori",
+	"desc": "An elusive merchant who has a fondness for glittering Mora.",
+	"icon": "UI_AvatarIcon_Dori",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_LOLI",
+	"birthday": [
+		21,
+		12
+	],
+	"region": "sumeru",
+	"vision_hash": [
+		1843086100,
+		432178697
+	],
+	"astrolabe_hash": [
+		3012601882,
+		2229594011
+	],
+	"allegiance_hash": 3940327097,
+	"vision": "electro",
+	"astrolabe": "Magicae Lucerna",
+	"allegiance": "The Palace of Alcazarzaray",
+	"default_weapon": "waster_greatsword",
+	"increase_skill": 5,
+	"increase_burst": 3,
+	"base_stats": {
+		"Base HP": 1039.4417724609375,
+		"Base ATK": 18.698400497436523,
+		"Base DEF": 60.65850067138672,
+		"Crit Rate%": 5.000000074505806,
+		"Crit DMG%": 50.0
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"vajrada_amethyst_sliver": 1,
+				"kalpalata_lotus": 3,
+				"faded_red_satin": 3,
+				"mora": 20000
+			},
+			{
+				"vajrada_amethyst_fragment": 3,
+				"thunderclap_fruitcore": 2,
+				"kalpalata_lotus": 10,
+				"faded_red_satin": 15,
+				"mora": 40000
+			},
+			{
+				"vajrada_amethyst_fragment": 6,
+				"thunderclap_fruitcore": 4,
+				"kalpalata_lotus": 20,
+				"trimmed_red_silk": 12,
+				"mora": 60000
+			},
+			{
+				"vajrada_amethyst_chunk": 3,
+				"thunderclap_fruitcore": 8,
+				"kalpalata_lotus": 30,
+				"trimmed_red_silk": 18,
+				"mora": 80000
+			},
+			{
+				"vajrada_amethyst_chunk": 6,
+				"thunderclap_fruitcore": 12,
+				"kalpalata_lotus": 45,
+				"rich_red_brocade": 12,
+				"mora": 100000
+			},
+			{
+				"vajrada_amethyst_gemstone": 6,
+				"thunderclap_fruitcore": 20,
+				"kalpalata_lotus": 60,
+				"rich_red_brocade": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 0.0,
+					"Base DEF": 0.0,
+					"Base ATK": 0.0,
+					"HP%": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base HP": 776.5161743164062,
+					"Base DEF": 45.314998626708984,
+					"Base ATK": 13.968990325927734,
+					"HP%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1328.2513427734375,
+					"Base DEF": 77.51249694824219,
+					"Base ATK": 23.894325256347656,
+					"HP%": 5.999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2063.8984375,
+					"Base DEF": 120.44249725341797,
+					"Base ATK": 37.12810516357422,
+					"HP%": 11.999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2615.633544921875,
+					"Base DEF": 152.63999938964844,
+					"Base ATK": 47.05344009399414,
+					"HP%": 11.999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 3167.36865234375,
+					"Base DEF": 184.83749389648438,
+					"Base ATK": 56.97877502441406,
+					"HP%": 18.000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3719.10400390625,
+					"Base DEF": 217.03500366210938,
+					"Base ATK": 66.90411376953125,
+					"HP%": 23.999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 3134128957,
+			"desc_hash": 145589464,
+			"name": "Normal Attack: Marvelous Sword-Dance (Modified)",
+			"desc": "Normal Attack\nPerforms up to 3 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_04",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_ingenuity": 3,
+					"faded_red_satin": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ingenuity": 2,
+					"trimmed_red_silk": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ingenuity": 4,
+					"trimmed_red_silk": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ingenuity": 6,
+					"trimmed_red_silk": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ingenuity": 9,
+					"trimmed_red_silk": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ingenuity": 4,
+					"rich_red_brocade": 4,
+					"bloodjade_branch": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ingenuity": 6,
+					"rich_red_brocade": 6,
+					"bloodjade_branch": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ingenuity": 12,
+					"rich_red_brocade": 9,
+					"bloodjade_branch": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ingenuity": 16,
+					"rich_red_brocade": 12,
+					"bloodjade_branch": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"Charged Attack Spinning DMG",
+					"Charged Attack Final DMG",
+					"Charged Attack Stamina Cost",
+					"Max Duration",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"90.21%",
+						"41.07%+43.12%",
+						"128.4%",
+						"62.55%",
+						"113.09%",
+						"40/s",
+						"5s",
+						"74.59%",
+						"149.14%/186.29%"
+					],
+					[
+						"97.56%",
+						"44.42%+46.63%",
+						"138.85%",
+						"67.64%",
+						"122.29%",
+						"40/s",
+						"5s",
+						"80.66%",
+						"161.28%/201.45%"
+					],
+					[
+						"104.9%",
+						"47.76%+50.14%",
+						"149.3%",
+						"72.73%",
+						"131.5%",
+						"40/s",
+						"5s",
+						"86.73%",
+						"173.42%/216.62%"
+					],
+					[
+						"115.39%",
+						"52.54%+55.15%",
+						"164.23%",
+						"80%",
+						"144.65%",
+						"40/s",
+						"5s",
+						"95.4%",
+						"190.77%/238.28%"
+					],
+					[
+						"122.73%",
+						"55.88%+58.66%",
+						"174.68%",
+						"85.09%",
+						"153.86%",
+						"40/s",
+						"5s",
+						"101.47%",
+						"202.91%/253.44%"
+					],
+					[
+						"131.12%",
+						"59.7%+62.67%",
+						"186.63%",
+						"90.91%",
+						"164.37%",
+						"40/s",
+						"5s",
+						"108.41%",
+						"216.78%/270.77%"
+					],
+					[
+						"142.66%",
+						"64.95%+68.19%",
+						"203.05%",
+						"98.91%",
+						"178.84%",
+						"40/s",
+						"5s",
+						"117.95%",
+						"235.86%/294.6%"
+					],
+					[
+						"154.2%",
+						"70.21%+73.71%",
+						"219.47%",
+						"106.91%",
+						"193.31%",
+						"40/s",
+						"5s",
+						"127.49%",
+						"254.93%/318.42%"
+					],
+					[
+						"165.74%",
+						"75.46%+79.22%",
+						"235.89%",
+						"114.91%",
+						"207.77%",
+						"40/s",
+						"5s",
+						"137.03%",
+						"274.01%/342.25%"
+					],
+					[
+						"178.33%",
+						"81.19%+85.24%",
+						"253.81%",
+						"123.64%",
+						"223.55%",
+						"40/s",
+						"5s",
+						"147.44%",
+						"294.82%/368.25%"
+					],
+					[
+						"190.92%",
+						"86.92%+91.25%",
+						"271.73%",
+						"133.64%",
+						"241.63%",
+						"40/s",
+						"5s",
+						"157.85%",
+						"315.63%/394.24%"
+					],
+					[
+						"203.51%",
+						"92.65%+97.27%",
+						"289.64%",
+						"145.4%",
+						"262.89%",
+						"40/s",
+						"5s",
+						"168.26%",
+						"336.44%/420.23%"
+					],
+					[
+						"216.09%",
+						"98.39%+103.29%",
+						"307.56%",
+						"157.16%",
+						"284.16%",
+						"40/s",
+						"5s",
+						"178.66%",
+						"357.25%/446.23%"
+					],
+					[
+						"228.68%",
+						"104.12%+109.31%",
+						"325.47%",
+						"168.92%",
+						"305.42%",
+						"40/s",
+						"5s",
+						"189.07%",
+						"378.06%/472.22%"
+					],
+					[
+						"241.27%",
+						"109.85%+115.32%",
+						"343.39%",
+						"181.75%",
+						"328.62%",
+						"40/s",
+						"5s",
+						"199.48%",
+						"398.87%/498.21%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2851422357,
+			"desc_hash": 289369624,
+			"name": "Spirit-Warding Lamp: Troubleshooter Cannon",
+			"desc": "Directs a Spirit-Warding Lamp to fire off a Troubleshooter Shot at opponents, dealing Electro DMG.\nAfter the Troubleshooter Shot hits, it will create 2 After-Sales Service Rounds that will automatically track nearby opponents and deal Electro DMG.\n\n<i>It is said that Dori can fix any problem for you... for the right price.</i>",
+			"icon": "Skill_S_Dori_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_ingenuity": 3,
+					"faded_red_satin": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ingenuity": 2,
+					"trimmed_red_silk": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ingenuity": 4,
+					"trimmed_red_silk": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ingenuity": 6,
+					"trimmed_red_silk": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ingenuity": 9,
+					"trimmed_red_silk": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ingenuity": 4,
+					"rich_red_brocade": 4,
+					"bloodjade_branch": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ingenuity": 6,
+					"rich_red_brocade": 6,
+					"bloodjade_branch": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ingenuity": 12,
+					"rich_red_brocade": 9,
+					"bloodjade_branch": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ingenuity": 16,
+					"rich_red_brocade": 12,
+					"bloodjade_branch": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Troubleshooter Shot DMG",
+					"After-Sales Service Round DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"147.28%",
+						"31.56%",
+						"9s"
+					],
+					[
+						"158.33%",
+						"33.93%",
+						"9s"
+					],
+					[
+						"169.37%",
+						"36.29%",
+						"9s"
+					],
+					[
+						"184.1%",
+						"39.45%",
+						"9s"
+					],
+					[
+						"195.15%",
+						"41.82%",
+						"9s"
+					],
+					[
+						"206.19%",
+						"44.18%",
+						"9s"
+					],
+					[
+						"220.92%",
+						"47.34%",
+						"9s"
+					],
+					[
+						"235.65%",
+						"50.5%",
+						"9s"
+					],
+					[
+						"250.38%",
+						"53.65%",
+						"9s"
+					],
+					[
+						"265.1%",
+						"56.81%",
+						"9s"
+					],
+					[
+						"279.83%",
+						"59.96%",
+						"9s"
+					],
+					[
+						"294.56%",
+						"63.12%",
+						"9s"
+					],
+					[
+						"312.97%",
+						"67.07%",
+						"9s"
+					],
+					[
+						"331.38%",
+						"71.01%",
+						"9s"
+					],
+					[
+						"349.79%",
+						"74.95%",
+						"9s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 4155943733,
+			"desc_hash": 3813497976,
+			"name": "Alcazarzaray's Exactitude",
+			"desc": "Summons forth the Jinni within the lamp to give the client various kinds of aid.\n\nJinni\nConnects to a nearby character. The connected character will:\n\u00b7 Continuously restore HP based on Dori's Max HP.\n\u00b7 Continuously regenerate Energy.\n\u00b7 Be affected by Electro.\nWhen the connector between the Jinni and the character touches opponents, it will deal one instance of Electro DMG to them every 0.4s.\n\nOnly one Jinni can exist at one time.\n\n<i>\"Hmm? You'll pick this lamp, will you? Oh my, you've got good taste! Unfortunately, there's no price on this treasure \u2014 comparable, I'd say, to how you will not sell that mascot by your side for any price in the world.\"</i>",
+			"icon": "Skill_E_Dori_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_ingenuity": 3,
+					"faded_red_satin": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ingenuity": 2,
+					"trimmed_red_silk": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_ingenuity": 4,
+					"trimmed_red_silk": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_ingenuity": 6,
+					"trimmed_red_silk": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ingenuity": 9,
+					"trimmed_red_silk": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_ingenuity": 4,
+					"rich_red_brocade": 4,
+					"bloodjade_branch": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_ingenuity": 6,
+					"rich_red_brocade": 6,
+					"bloodjade_branch": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ingenuity": 12,
+					"rich_red_brocade": 9,
+					"bloodjade_branch": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_ingenuity": 16,
+					"rich_red_brocade": 12,
+					"bloodjade_branch": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Connector DMG",
+					"Continuous Healing",
+					"Energy Regeneration",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"15.88%",
+						"6.67% Max HP+641",
+						"1.6",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"17.07%",
+						"7.17% Max HP+706",
+						"1.7",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"18.26%",
+						"7.67% Max HP+775",
+						"1.8",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"19.85%",
+						"8.34% Max HP+850",
+						"1.9",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"21.04%",
+						"8.84% Max HP+930",
+						"2",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"22.24%",
+						"9.34% Max HP+1016",
+						"2.1",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"23.82%",
+						"10.01% Max HP+1107",
+						"2.2",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"25.41%",
+						"10.67% Max HP+1203",
+						"2.3",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"27%",
+						"11.34% Max HP+1305",
+						"2.4",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"28.59%",
+						"12.01% Max HP+1412",
+						"2.5",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"30.18%",
+						"12.67% Max HP+1524",
+						"2.5",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"31.76%",
+						"13.34% Max HP+1642",
+						"2.5",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"33.75%",
+						"14.17% Max HP+1765",
+						"2.5",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"35.74%",
+						"15.01% Max HP+1894",
+						"2.5",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"37.72%",
+						"15.84% Max HP+2027",
+						"2.5",
+						"12s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 989380157,
+			"desc_hash": 3162665395,
+			"name": "An Eye for Gold",
+			"desc": "After a character connected to the Jinni triggers an Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or an Electro Swirl or Crystallize reaction, the CD of Spirit-Warding Lamp: Troubleshooter Cannon is decreased by 1s.\nThis effect can be triggered once every 3s.",
+			"icon": "UI_Talent_S_Dori_05",
+			"ascension": 1
+		},
+		{
+			"name_hash": 1428982037,
+			"desc_hash": 3100591859,
+			"name": "Compound Interest",
+			"desc": "When the Troubleshooter Shots or After-Sales Service Rounds from Spirit-Warding Lamp: Troubleshooter Cannon hit opponents, Dori will restore 5 Elemental Energy for every 100% Energy Recharge possessed.\nPer Spirit-Warding Lamp: Troubleshooter Cannon, only one instance of Energy restoration can be triggered and a maximum of 15 Energy can be restored this way.",
+			"icon": "UI_Talent_S_Dori_06",
+			"ascension": 4
+		},
+		{
+			"name_hash": 2040369357,
+			"desc_hash": 3283377219,
+			"name": "Unexpected Order",
+			"desc": "Has a 25% chance to recover some of the materials used when crafting Character and Weapon Materials.",
+			"icon": "UI_Talent_S_Dori_07",
+			"ascension": null
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 1156598585,
+			"desc_hash": 2364339263,
+			"name": "Additional Investment",
+			"desc": "The number of After-Sales Service Rounds created by Troubleshooter Shots is increased by 1.",
+			"icon": "UI_Talent_S_Dori_01"
+		},
+		{
+			"name_hash": 3136137929,
+			"desc_hash": 683722431,
+			"name": "Special Franchise",
+			"desc": "When you are in combat and the Jinni heals the character it is connected to, it will fire a Jinni Toop from that character's position that deals 50% of Dori's ATK DMG.",
+			"icon": "UI_Talent_S_Dori_02"
+		},
+		{
+			"name_hash": 4285795529,
+			"desc_hash": 2003426135,
+			"name": "Wonders Never Cease",
+			"desc": "Increases the Level of Alcazarzaray's Exactitude by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Dori_02"
+		},
+		{
+			"name_hash": 3498425217,
+			"desc_hash": 895973127,
+			"name": "Discretionary Supplement",
+			"desc": "The character connected to the Jinni will obtain the following buffs based on their current HP and Energy:\n\u00b7When their HP is lower than 50%, they gain 50% Incoming Healing Bonus.\n\u00b7When their Energy is less than 50%, they gain 30% Energy Recharge.",
+			"icon": "UI_Talent_S_Dori_03"
+		},
+		{
+			"name_hash": 3715110481,
+			"desc_hash": 3465489175,
+			"name": "Value for Mora",
+			"desc": "Increases the Level of Spirit-Warding Lamp: Troubleshooter Cannon by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Dori_01"
+		},
+		{
+			"name_hash": 1782869129,
+			"desc_hash": 1392847887,
+			"name": "Sprinkling Weight",
+			"desc": "Dori gains the following effects for 3s after using Spirit-Warding Lamp: Troubleshooter Cannon:\n\u00b7Electro Infusion.\n\u00b7When Normal Attacks hit opponents, all nearby party members will heal HP equivalent to 4% of Dori's Max HP. This type of healing can occur once every 0.1s.",
+			"icon": "UI_Talent_S_Dori_04"
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 3617396594,
+			"desc_hash": 1616648506,
+			"name": "I Love Mora",
+			"desc": "Dori's outfit. This outfit almost begs to be further adorned with gems and precious metals, loudly announcing its wearer's love of wealth to the world. And they say that this is the merchant Dori's casual wear... So does this mean that she has clothes even more expensive than this one!?",
+			"icon": "",
+			"restricted": false
+		},
+		"alt": {}
+	},
+	"special_dish": {
+		"original_recipe": "butter_chicken",
+		"hoyo_id": 108438,
+		"name_hash": 4028715700,
+		"desc_hash": 2238976589,
+		"type_hash": 216901742,
+		"name": "Show Me the Mora",
+		"desc": "Dori's specialty. After paying a large sum of Mora, you finally got a chance to taste the dish cooked by Lord Sangemah Bay herself. Firm chicken is covered in the silky sauce with a smooth texture. With the mind-controlling charm of its great flavor, this dish is spurring an impulse in you to spend another fortune just to get another bite!",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 3
+	}
+}

@@ -159,7 +159,7 @@
 			"name_hash": 3770302877,
 			"desc_hash": 723463672,
 			"name": "Normal Attack: Oceanborne",
-			"desc": "Normal Attack\nPerform up to 5 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerforms up to 5 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
 			"icon": "Skill_A_04",
 			"charge_num": 1,
 			"costs": [
@@ -221,7 +221,7 @@
 					"3-Hit DMG",
 					"4-Hit DMG",
 					"5-Hit DMG",
-					"Charged Attack Spinning DMG",
+					"Charged Attack Cyclic DMG",
 					"Charged Attack Final DMG",
 					"Charged Attack Stamina Cost",
 					"Max Duration",

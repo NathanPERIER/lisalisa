@@ -1,0 +1,177 @@
+{
+	"hoyo_id": 15417,
+	"promote_id": 15417,
+	"gadget_id": 50015417,
+	"story_id": [
+		195417
+	],
+	"skill_affix": [
+		115417,
+		0
+	],
+	"type": "bow",
+	"name_hash": 3176599083,
+	"desc_hash": 2353466805,
+	"name": "King's Squire",
+	"desc": "A weapon you obtained from an Aranara tale. It has taken on the shape of a bow that can shoot the enemies of the forest down.",
+	"icon": "UI_EquipIcon_Bow_Arakalari",
+	"icon_awaken": "UI_EquipIcon_Bow_Arakalari_Awaken",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 41.067100524902344,
+		"ATK%": 11.999999731779099
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_204",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"echo_of_scorching_might": 3,
+				"inactivated_fungal_nucleus": 3,
+				"firm_arrowhead": 2,
+				"mora": 5000
+			},
+			{
+				"remnant_glow_of_scorching_might": 3,
+				"inactivated_fungal_nucleus": 12,
+				"firm_arrowhead": 8,
+				"mora": 15000
+			},
+			{
+				"remnant_glow_of_scorching_might": 6,
+				"dormant_fungal_nucleus": 6,
+				"sharp_arrowhead": 6,
+				"mora": 20000
+			},
+			{
+				"dream_of_scorching_might": 3,
+				"dormant_fungal_nucleus": 12,
+				"sharp_arrowhead": 9,
+				"mora": 30000
+			},
+			{
+				"dream_of_scorching_might": 6,
+				"robust_fungal_nucleus": 9,
+				"weathered_arrowhead": 6,
+				"mora": 35000
+			},
+			{
+				"olden_days_of_scorching_might": 4,
+				"robust_fungal_nucleus": 18,
+				"weathered_arrowhead": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 0.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2741603307,
+		"name": "Labyrinth Lord's Instruction",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1154170,
+				"desc_hash": 968925825,
+				"desc": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by 60 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 100% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1154171,
+				"desc_hash": 719975745,
+				"desc": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by 80 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 120% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1154172,
+				"desc_hash": 1571660977,
+				"desc": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by 100 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 140% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1154173,
+				"desc_hash": 1088897665,
+				"desc": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by 120 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 160% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1154174,
+				"desc_hash": 1613193777,
+				"desc": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by 140 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 180% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
+				"cost": 8000
+			}
+		]
+	}
+}

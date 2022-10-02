@@ -1,0 +1,862 @@
+{
+	"hoyo_id": 10000072,
+	"promote_id": 72,
+	"skill_depot_id": 7201,
+	"fetter_id": 72600,
+	"weapon": "polearm",
+	"name_hash": 3092975658,
+	"desc_hash": 369426969,
+	"name": "Candace",
+	"desc": "A descendant of King Deshret with an amber left eye. The defender of Aaru Village.",
+	"icon": "UI_AvatarIcon_Candace",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_LADY",
+	"birthday": [
+		3,
+		5
+	],
+	"region": "sumeru",
+	"vision_hash": [
+		3228108484,
+		2320032129
+	],
+	"astrolabe_hash": [
+		1078252442,
+		2228487675
+	],
+	"allegiance_hash": 1037867201,
+	"vision": "hydro",
+	"astrolabe": "Sagitta Scutum",
+	"allegiance": "Aaru Village",
+	"default_weapon": "beginners_protector",
+	"increase_skill": 5,
+	"increase_burst": 3,
+	"base_stats": {
+		"Base HP": 911.791015625,
+		"Base ATK": 17.808000564575195,
+		"Base DEF": 57.224998474121094,
+		"Crit Rate%": 5.000000074505806,
+		"Crit DMG%": 50.0
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"varunada_lazurite_sliver": 1,
+				"redcrest": 3,
+				"faded_red_satin": 3,
+				"mora": 20000
+			},
+			{
+				"varunada_lazurite_fragment": 3,
+				"light_guiding_tetrahedron": 2,
+				"redcrest": 10,
+				"faded_red_satin": 15,
+				"mora": 40000
+			},
+			{
+				"varunada_lazurite_fragment": 6,
+				"light_guiding_tetrahedron": 4,
+				"redcrest": 20,
+				"trimmed_red_silk": 12,
+				"mora": 60000
+			},
+			{
+				"varunada_lazurite_chunk": 3,
+				"light_guiding_tetrahedron": 8,
+				"redcrest": 30,
+				"trimmed_red_silk": 18,
+				"mora": 80000
+			},
+			{
+				"varunada_lazurite_chunk": 6,
+				"light_guiding_tetrahedron": 12,
+				"redcrest": 45,
+				"rich_red_brocade": 12,
+				"mora": 100000
+			},
+			{
+				"varunada_lazurite_gemstone": 6,
+				"light_guiding_tetrahedron": 20,
+				"redcrest": 60,
+				"rich_red_brocade": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 0.0,
+					"Base DEF": 0.0,
+					"Base ATK": 0.0,
+					"HP%": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base HP": 681.154541015625,
+					"Base DEF": 42.75,
+					"Base ATK": 13.303799629211426,
+					"HP%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1165.1328125,
+					"Base DEF": 73.125,
+					"Base ATK": 22.756500244140625,
+					"HP%": 5.999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1810.4371337890625,
+					"Base DEF": 113.625,
+					"Base ATK": 35.36009979248047,
+					"HP%": 11.999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2294.415283203125,
+					"Base DEF": 144.0,
+					"Base ATK": 44.812801361083984,
+					"HP%": 11.999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2778.3935546875,
+					"Base DEF": 174.375,
+					"Base ATK": 54.265499114990234,
+					"HP%": 18.000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3262.371826171875,
+					"Base DEF": 204.75,
+					"Base ATK": 63.71820068359375,
+					"HP%": 23.999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 2594921261,
+			"desc_hash": 3352315424,
+			"name": "Normal Attack: Gleaming Spear - Guardian Stance",
+			"desc": "Normal Attack\nPerforms up to 4 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_03",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_admonition": 3,
+					"faded_red_satin": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_admonition": 2,
+					"trimmed_red_silk": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_admonition": 4,
+					"trimmed_red_silk": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_admonition": 6,
+					"trimmed_red_silk": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_admonition": 9,
+					"trimmed_red_silk": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_admonition": 4,
+					"rich_red_brocade": 4,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_admonition": 6,
+					"rich_red_brocade": 6,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_admonition": 12,
+					"rich_red_brocade": 9,
+					"tears_of_the_calamitous_god": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_admonition": 16,
+					"rich_red_brocade": 12,
+					"tears_of_the_calamitous_god": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"60.8%",
+						"61.15%",
+						"35.49%+43.37%",
+						"94.94%",
+						"124.18%",
+						"25",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"65.75%",
+						"66.12%",
+						"38.38%+46.9%",
+						"102.67%",
+						"134.29%",
+						"25",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"70.7%",
+						"71.1%",
+						"41.26%+50.44%",
+						"110.4%",
+						"144.4%",
+						"25",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"77.77%",
+						"78.21%",
+						"45.39%+55.48%",
+						"121.44%",
+						"158.84%",
+						"25",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"82.72%",
+						"83.19%",
+						"48.28%+59.01%",
+						"129.17%",
+						"168.95%",
+						"25",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"88.38%",
+						"88.88%",
+						"51.58%+63.04%",
+						"138%",
+						"180.5%",
+						"25",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"96.15%",
+						"96.7%",
+						"56.12%+68.59%",
+						"150.14%",
+						"196.38%",
+						"25",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"103.93%",
+						"104.52%",
+						"60.66%+74.14%",
+						"162.29%",
+						"212.27%",
+						"25",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"111.71%",
+						"112.34%",
+						"65.2%+79.69%",
+						"174.43%",
+						"228.15%",
+						"25",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"120.19%",
+						"120.87%",
+						"70.15%+85.74%",
+						"187.68%",
+						"245.48%",
+						"25",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"128.67%",
+						"129.4%",
+						"75.1%+91.79%",
+						"200.93%",
+						"262.81%",
+						"25",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"137.16%",
+						"137.93%",
+						"80.05%+97.84%",
+						"214.18%",
+						"280.14%",
+						"25",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"145.64%",
+						"146.47%",
+						"85.01%+103.9%",
+						"227.42%",
+						"297.46%",
+						"25",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"154.13%",
+						"155%",
+						"89.96%+109.95%",
+						"240.67%",
+						"314.79%",
+						"25",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"162.61%",
+						"163.53%",
+						"94.91%+116%",
+						"253.92%",
+						"332.12%",
+						"25",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2160740245,
+			"desc_hash": 2763201128,
+			"name": "Sacred Rite: Heron's Sanctum",
+			"desc": "Candace's fighting style is capable of warding off an entire tide of foes.\n\nTap\nRushes forward with her shield, dealing Hydro DMG to opponents in front of her.\n\nHold\nRaises her shield to block incoming attacks from nearby opponents, forming a barrier that absorbs DMG based on her Max HP and absorbs Hydro DMG 250% more effectively. This barrier lasts until the Elemental Skill is unleashed.\nAfter holding for a certain period of time, Candace will finish charging, and when the skill button is released, the skill duration expires, or when the barrier is broken, she will perform a leaping strike that deals Hydro DMG to opponents in front of her.\n\n<i>The oath of the guardians is more stalwart yet than the shields they inherit.</i>",
+			"icon": "Skill_S_Candace_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_admonition": 3,
+					"faded_red_satin": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_admonition": 2,
+					"trimmed_red_silk": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_admonition": 4,
+					"trimmed_red_silk": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_admonition": 6,
+					"trimmed_red_silk": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_admonition": 9,
+					"trimmed_red_silk": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_admonition": 4,
+					"rich_red_brocade": 4,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_admonition": 6,
+					"rich_red_brocade": 6,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_admonition": 12,
+					"rich_red_brocade": 9,
+					"tears_of_the_calamitous_god": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_admonition": 16,
+					"rich_red_brocade": 12,
+					"tears_of_the_calamitous_god": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Shield DMG Absorption",
+					"Basic DMG",
+					"Charged Up DMG",
+					"#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD",
+					"Holding CD"
+				],
+				"values": [
+					[
+						"12% Max HP+1155",
+						"12% Max HP",
+						"19.04% Max HP",
+						"6s",
+						"9s"
+					],
+					[
+						"12.9% Max HP+1271",
+						"12.9% Max HP",
+						"20.47% Max HP",
+						"6s",
+						"9s"
+					],
+					[
+						"13.8% Max HP+1396",
+						"13.8% Max HP",
+						"21.9% Max HP",
+						"6s",
+						"9s"
+					],
+					[
+						"15% Max HP+1531",
+						"15% Max HP",
+						"23.8% Max HP",
+						"6s",
+						"9s"
+					],
+					[
+						"15.9% Max HP+1675",
+						"15.9% Max HP",
+						"25.23% Max HP",
+						"6s",
+						"9s"
+					],
+					[
+						"16.8% Max HP+1829",
+						"16.8% Max HP",
+						"26.66% Max HP",
+						"6s",
+						"9s"
+					],
+					[
+						"18% Max HP+1993",
+						"18% Max HP",
+						"28.56% Max HP",
+						"6s",
+						"9s"
+					],
+					[
+						"19.2% Max HP+2166",
+						"19.2% Max HP",
+						"30.46% Max HP",
+						"6s",
+						"9s"
+					],
+					[
+						"20.4% Max HP+2349",
+						"20.4% Max HP",
+						"32.37% Max HP",
+						"6s",
+						"9s"
+					],
+					[
+						"21.6% Max HP+2542",
+						"21.6% Max HP",
+						"34.27% Max HP",
+						"6s",
+						"9s"
+					],
+					[
+						"22.8% Max HP+2744",
+						"22.8% Max HP",
+						"36.18% Max HP",
+						"6s",
+						"9s"
+					],
+					[
+						"24% Max HP+2956",
+						"24% Max HP",
+						"38.08% Max HP",
+						"6s",
+						"9s"
+					],
+					[
+						"25.5% Max HP+3178",
+						"25.5% Max HP",
+						"40.46% Max HP",
+						"6s",
+						"9s"
+					],
+					[
+						"27% Max HP+3409",
+						"27% Max HP",
+						"42.84% Max HP",
+						"6s",
+						"9s"
+					],
+					[
+						"28.5% Max HP+3649",
+						"28.5% Max HP",
+						"45.22% Max HP",
+						"6s",
+						"9s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 2669120029,
+			"desc_hash": 2300903224,
+			"name": "Sacred Rite: Wagtail's Tide",
+			"desc": "Raising her weapon on high, Candace calls upon a divine blessing that deals AoE Hydro DMG based on her Max HP and continuously confers the Prayer of the Crimson Crown on your active character.\n\nPrayer of the Crimson Crown\nThis effect has the following properties:\n\u00b7Characters deal increased Elemental DMG with their Normal Attacks.\n\u00b7Whenever a character takes the field, they will unleash a rippling wave of water that deals Hydro DMG to nearby opponents. There is a limited number of waves that can be triggered in the duration of this skill.\n\u00b7Sword, Claymore, and Polearm-wielding characters under this effect will obtain a Hydro Infusion.\n\n<i>This secret rite has been passed down through Candace's clan from generation to generation. Though the old faiths have become lost over the years, the sands still protect the heirs of the ancient realm.</i>",
+			"icon": "Skill_E_Candace_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_admonition": 3,
+					"faded_red_satin": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_admonition": 2,
+					"trimmed_red_silk": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_admonition": 4,
+					"trimmed_red_silk": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_admonition": 6,
+					"trimmed_red_silk": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_admonition": 9,
+					"trimmed_red_silk": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_admonition": 4,
+					"rich_red_brocade": 4,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_admonition": 6,
+					"rich_red_brocade": 6,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_admonition": 12,
+					"rich_red_brocade": 9,
+					"tears_of_the_calamitous_god": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_admonition": 16,
+					"rich_red_brocade": 12,
+					"tears_of_the_calamitous_god": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Duration",
+					"DMG Bonus",
+					"Wave Impact DMG",
+					"Wave Instances",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"6.61% Max HP",
+						"9s",
+						"20%",
+						"6.61% Max HP",
+						"3",
+						"15s",
+						"60"
+					],
+					[
+						"7.11% Max HP",
+						"9s",
+						"20%",
+						"7.11% Max HP",
+						"3",
+						"15s",
+						"60"
+					],
+					[
+						"7.6% Max HP",
+						"9s",
+						"20%",
+						"7.6% Max HP",
+						"3",
+						"15s",
+						"60"
+					],
+					[
+						"8.26% Max HP",
+						"9s",
+						"20%",
+						"8.26% Max HP",
+						"3",
+						"15s",
+						"60"
+					],
+					[
+						"8.76% Max HP",
+						"9s",
+						"20%",
+						"8.76% Max HP",
+						"3",
+						"15s",
+						"60"
+					],
+					[
+						"9.25% Max HP",
+						"9s",
+						"20%",
+						"9.25% Max HP",
+						"3",
+						"15s",
+						"60"
+					],
+					[
+						"9.92% Max HP",
+						"9s",
+						"20%",
+						"9.92% Max HP",
+						"3",
+						"15s",
+						"60"
+					],
+					[
+						"10.58% Max HP",
+						"9s",
+						"20%",
+						"10.58% Max HP",
+						"3",
+						"15s",
+						"60"
+					],
+					[
+						"11.24% Max HP",
+						"9s",
+						"20%",
+						"11.24% Max HP",
+						"3",
+						"15s",
+						"60"
+					],
+					[
+						"11.9% Max HP",
+						"9s",
+						"20%",
+						"11.9% Max HP",
+						"3",
+						"15s",
+						"60"
+					],
+					[
+						"12.56% Max HP",
+						"9s",
+						"20%",
+						"12.56% Max HP",
+						"3",
+						"15s",
+						"60"
+					],
+					[
+						"13.22% Max HP",
+						"9s",
+						"20%",
+						"13.22% Max HP",
+						"3",
+						"15s",
+						"60"
+					],
+					[
+						"14.05% Max HP",
+						"9s",
+						"20%",
+						"14.05% Max HP",
+						"3",
+						"15s",
+						"60"
+					],
+					[
+						"14.87% Max HP",
+						"9s",
+						"20%",
+						"14.87% Max HP",
+						"3",
+						"15s",
+						"60"
+					],
+					[
+						"15.7% Max HP",
+						"9s",
+						"20%",
+						"15.7% Max HP",
+						"3",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 2824567053,
+			"desc_hash": 956822595,
+			"name": "Aegis of Crossed Arrows",
+			"desc": "If Candace is hit by an attack in the Hold duration of Sacred Rite: Heron's Sanctum, that skill will finish charging instantly.",
+			"icon": "UI_Talent_S_Candace_05",
+			"ascension": 1
+		},
+		{
+			"name_hash": 997098981,
+			"desc_hash": 1769542171,
+			"name": "Celestial Dome of Sand",
+			"desc": "Characters affected by the Prayer of the Crimson Crown caused by Sacred Rite: Wagtail's Tide will deal 0.5% increased DMG to opponents for every 1,000 points of Candace's Max HP when they deal Elemental DMG with their Normal Attacks.",
+			"icon": "UI_Talent_S_Candace_06",
+			"ascension": 4
+		},
+		{
+			"name_hash": 3750730405,
+			"desc_hash": 109186163,
+			"name": "To Dawn's First Light",
+			"desc": "Decreases climbing Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+			"icon": "UI_Talent_Explosion_Climb",
+			"ascension": null
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 449508113,
+			"desc_hash": 1938462311,
+			"name": "Returning Heiress of the Scarlet Sands",
+			"desc": "The duration of Prayer of the Crimson Crown effect triggered by Sacred Rite: Wagtail's Tide is increased by 3s.",
+			"icon": "UI_Talent_S_Candace_01"
+		},
+		{
+			"name_hash": 3442281625,
+			"desc_hash": 1981457807,
+			"name": "Moon-Piercing Brilliance",
+			"desc": "When Sacred Rite: Heron's Sanctum hits opponents, Candace's Max HP will be increased by 20% for 15s.",
+			"icon": "UI_Talent_S_Candace_02"
+		},
+		{
+			"name_hash": 3256412025,
+			"desc_hash": 3763148479,
+			"name": "Hunter's Supplication",
+			"desc": "Increases the Level of Sacred Rite: Wagtail's Tide by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Candace_01"
+		},
+		{
+			"name_hash": 984253913,
+			"desc_hash": 33452751,
+			"name": "Sentinel Oath",
+			"desc": "Shortens the Hold CD of Sacred Rite: Heron's Sanctum to be the same as that of the Tapping CD.",
+			"icon": "UI_Talent_S_Candace_03"
+		},
+		{
+			"name_hash": 2382311049,
+			"desc_hash": 1048738031,
+			"name": "Heterochromatic Gaze",
+			"desc": "Increases the Level of Sacred Rite: Heron's Sanctum by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Candace_02"
+		},
+		{
+			"name_hash": 955051961,
+			"desc_hash": 2921686415,
+			"name": "The Overflow",
+			"desc": "When characters (excluding Candace herself) affected by the Prayer of the Crimson Crown caused by Sacred Rite: Wagtail's Tide deal Elemental DMG to opponents using Normal Attacks, an attack wave will be unleashed that deals AoE Hydro DMG equal to 15% of Candace's Max HP.\nThis effect can trigger once every 2.3s and is considered Elemental Burst DMG.",
+			"icon": "UI_Talent_S_Candace_04"
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 2665843154,
+			"desc_hash": 2067286834,
+			"name": "Desert and Night",
+			"desc": "Candace's outfit. No matter where she goes, the golden sands and the nights of her homeland that adorn her clothes go together with her.",
+			"icon": "",
+			"restricted": false
+		},
+		"alt": {}
+	},
+	"special_dish": {
+		"original_recipe": "aaru_mixed_rice",
+		"hoyo_id": 108468,
+		"name_hash": 1792185044,
+		"desc_hash": 1576992661,
+		"type_hash": 577462726,
+		"name": "Utmost Care",
+		"desc": "Candace's specialty. The aroma of this dish hits your nose long before it can be plated up. It would seem that Candace's adept guardianship also extends to sustaining appetites... But, uh, this really is an extraordinary amount of Aaru Mixed Rice. How are you supposed to deal with this mountain of \"overflowing consideration\"?",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 2
+	}
+}

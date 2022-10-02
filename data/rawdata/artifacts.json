@@ -8971,7 +8971,7 @@
 				"name_hash": 2512309395,
 				"desc_hash": 4186114257,
 				"name": "Thundering Fury",
-				"desc": "Increases damage caused by Overloaded, Electro-Charged and Superconduct by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s.",
+				"desc": "Increases DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, and the DMG Bonus conferred by Aggravate is increased by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s.",
 				"nb_req": 4
 			}
 		],
@@ -9356,7 +9356,7 @@
 				"name_hash": 1524173875,
 				"desc_hash": 1376888985,
 				"name": "Crimson Witch of Flames",
-				"desc": "Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks.",
+				"desc": "Increases Overloaded and Burning, and Burgeon DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks.",
 				"nb_req": 4
 			}
 		],
@@ -14651,6 +14651,776 @@
 						"desc_hash": 3341296808,
 						"name": "Symbol of Felicitation",
 						"desc": "A circular jade ornament. Legend has it that it was once used somewhere as a symbol for rituals to begin.",
+						"rarity": 5,
+						"max_level": 20,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 3780
+					}
+				],
+				"substats": {
+					"HP": [
+						209.1300048828125,
+						239.0,
+						268.8800048828125,
+						298.75
+					],
+					"HP%": [
+						4.080000147223473,
+						4.659999907016754,
+						5.249999836087227,
+						5.829999968409538
+					],
+					"ATK": [
+						13.619999885559082,
+						15.5600004196167,
+						17.510000228881836,
+						19.450000762939453
+					],
+					"ATK%": [
+						4.080000147223473,
+						4.659999907016754,
+						5.249999836087227,
+						5.829999968409538
+					],
+					"DEF": [
+						16.200000762939453,
+						18.520000457763672,
+						20.829999923706055,
+						23.149999618530273
+					],
+					"DEF%": [
+						5.099999904632568,
+						5.829999968409538,
+						6.560000032186508,
+						7.289999723434448
+					],
+					"Energy Recharge%": [
+						4.529999941587448,
+						5.180000141263008,
+						5.829999968409538,
+						6.480000168085098
+					],
+					"Elemental Mastery": [
+						16.31999969482422,
+						18.649999618530273,
+						20.979999542236328,
+						23.309999465942383
+					],
+					"Crit Rate%": [
+						2.72000003606081,
+						3.109999932348728,
+						3.500000014901161,
+						3.8899999111890793
+					],
+					"Crit DMG%": [
+						5.44000007212162,
+						6.219999864697456,
+						6.989999860525131,
+						7.769999653100967
+					]
+				}
+			}
+		]
+	},
+	"deepwood_memories": {
+		"hoyo_id": 15025,
+		"equip_id": 215025,
+		"name": "Deepwood Memories",
+		"bonuses": [
+			{
+				"hoyo_id": 2150250,
+				"name_hash": 3857111747,
+				"desc_hash": 1987945857,
+				"name": "Deepwood Memories",
+				"desc": "Dendro DMG Bonus +15%.",
+				"nb_req": 2
+			},
+			{
+				"hoyo_id": 2150251,
+				"name_hash": 1675079283,
+				"desc_hash": 1381267761,
+				"name": "Deepwood Memories",
+				"desc": "After Elemental Skills or Bursts hit opponents, the targets' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field.",
+				"nb_req": 4
+			}
+		],
+		"pieces": [
+			{
+				"display_id": 400208,
+				"name_hash": 2468076273,
+				"name": "Deepwood Memories",
+				"rarity": 4,
+				"pieces": [
+					{
+						"hoyo_id": 20413,
+						"gadget_id": 70600044,
+						"story_id": 185251,
+						"prop_id": 401,
+						"set_id": 15025,
+						"type": "goblet_of_eonothem",
+						"name_hash": 2262918660,
+						"desc_hash": 3292822680,
+						"name": "Lamp of the Lost",
+						"desc": "This was originally an oil lamp in the style of the desert realm, but has since sprouted fluorescent green leaves.",
+						"rarity": 4,
+						"max_level": 16,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 2520
+					},
+					{
+						"hoyo_id": 20423,
+						"gadget_id": 70600044,
+						"story_id": 185252,
+						"prop_id": 401,
+						"set_id": 15025,
+						"type": "plume_of_death",
+						"name_hash": 485099084,
+						"desc_hash": 2197813408,
+						"name": "Scholar of Vines",
+						"desc": "An emerald leaf as fluffy as a feather. Plucked from the raiment of a forest scholar.",
+						"rarity": 4,
+						"max_level": 16,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 2520
+					},
+					{
+						"hoyo_id": 20433,
+						"gadget_id": 70600044,
+						"story_id": 185253,
+						"prop_id": 401,
+						"set_id": 15025,
+						"type": "circlet_of_logos",
+						"name_hash": 3155408180,
+						"desc_hash": 1902207040,
+						"name": "Laurel Coronet",
+						"desc": "This crown was bestowed by the deity with dominion over plants and trees. It was an heirloom of the royal house of the labyrinth. It was, at last, made the inheritance of the king's attendant.",
+						"rarity": 4,
+						"max_level": 16,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 2520
+					},
+					{
+						"hoyo_id": 20443,
+						"gadget_id": 70600044,
+						"story_id": 185254,
+						"prop_id": 401,
+						"set_id": 15025,
+						"type": "flower_of_life",
+						"name_hash": 3550542708,
+						"desc_hash": 1546714800,
+						"name": "Labyrinth Wayfarer",
+						"desc": "This lovely gold-plated flower was plucked from the crown of the ruler of the forest.",
+						"rarity": 4,
+						"max_level": 16,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 2520
+					},
+					{
+						"hoyo_id": 20453,
+						"gadget_id": 70600044,
+						"story_id": 185255,
+						"prop_id": 401,
+						"set_id": 15025,
+						"type": "sands_of_eon",
+						"name_hash": 3998848244,
+						"desc_hash": 2348752440,
+						"name": "A Time of Insight",
+						"desc": "Such timepieces are used by those who dedicate themselves to the way of the wise. These timepieces do not contain lifeless sand, but instead play host to tiny mustard seeds.",
+						"rarity": 4,
+						"max_level": 16,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 2520
+					}
+				],
+				"substats": {
+					"HP": [
+						167.3000030517578,
+						191.1999969482422,
+						215.10000610351562,
+						239.0
+					],
+					"HP%": [
+						3.2600000500679016,
+						3.7300001829862595,
+						4.1999999433755875,
+						4.659999907016754
+					],
+					"ATK": [
+						10.890000343322754,
+						12.449999809265137,
+						14.0,
+						15.5600004196167
+					],
+					"ATK%": [
+						3.2600000500679016,
+						3.7300001829862595,
+						4.1999999433755875,
+						4.659999907016754
+					],
+					"DEF": [
+						12.960000038146973,
+						14.819999694824219,
+						16.670000076293945,
+						18.520000457763672
+					],
+					"DEF%": [
+						4.080000147223473,
+						4.659999907016754,
+						5.249999836087227,
+						5.829999968409538
+					],
+					"Energy Recharge%": [
+						3.6299999803304672,
+						4.14000004529953,
+						4.659999907016754,
+						5.180000141263008
+					],
+					"Elemental Mastery": [
+						13.0600004196167,
+						14.920000076293945,
+						16.790000915527344,
+						18.649999618530273
+					],
+					"Crit Rate%": [
+						2.1800000220537186,
+						2.4900000542402267,
+						2.800000086426735,
+						3.109999932348728
+					],
+					"Crit DMG%": [
+						4.349999874830246,
+						4.969999939203262,
+						5.60000017285347,
+						6.219999864697456
+					]
+				}
+			},
+			{
+				"display_id": 400209,
+				"name_hash": 3089448137,
+				"name": "Deepwood Memories",
+				"rarity": 5,
+				"pieces": [
+					{
+						"hoyo_id": 20513,
+						"gadget_id": 70600045,
+						"story_id": 185251,
+						"prop_id": 501,
+						"set_id": 15025,
+						"type": "goblet_of_eonothem",
+						"name_hash": 1939132180,
+						"desc_hash": 2363709616,
+						"name": "Lamp of the Lost",
+						"desc": "This was originally an oil lamp in the style of the desert realm, but has since sprouted fluorescent green leaves.",
+						"rarity": 5,
+						"max_level": 20,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 3780
+					},
+					{
+						"hoyo_id": 20523,
+						"gadget_id": 70600045,
+						"story_id": 185252,
+						"prop_id": 501,
+						"set_id": 15025,
+						"type": "plume_of_death",
+						"name_hash": 3864622772,
+						"desc_hash": 3347952720,
+						"name": "Scholar of Vines",
+						"desc": "An emerald leaf as fluffy as a feather. Plucked from the raiment of a forest scholar.",
+						"rarity": 5,
+						"max_level": 20,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 3780
+					},
+					{
+						"hoyo_id": 20533,
+						"gadget_id": 70600045,
+						"story_id": 185253,
+						"prop_id": 501,
+						"set_id": 15025,
+						"type": "circlet_of_logos",
+						"name_hash": 1439834244,
+						"desc_hash": 2463723592,
+						"name": "Laurel Coronet",
+						"desc": "This crown was bestowed by the deity with dominion over plants and trees. It was an heirloom of the royal house of the labyrinth. It was, at last, made the inheritance of the king's attendant.",
+						"rarity": 5,
+						"max_level": 20,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 3780
+					},
+					{
+						"hoyo_id": 20543,
+						"gadget_id": 70600045,
+						"story_id": 185254,
+						"prop_id": 501,
+						"set_id": 15025,
+						"type": "flower_of_life",
+						"name_hash": 2547354684,
+						"desc_hash": 439431904,
+						"name": "Labyrinth Wayfarer",
+						"desc": "This lovely gold-plated flower was plucked from the crown of the ruler of the forest.",
+						"rarity": 5,
+						"max_level": 20,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 3780
+					},
+					{
+						"hoyo_id": 20553,
+						"gadget_id": 70600045,
+						"story_id": 185255,
+						"prop_id": 501,
+						"set_id": 15025,
+						"type": "sands_of_eon",
+						"name_hash": 486561868,
+						"desc_hash": 1697797584,
+						"name": "A Time of Insight",
+						"desc": "Such timepieces are used by those who dedicate themselves to the way of the wise. These timepieces do not contain lifeless sand, but instead play host to tiny mustard seeds.",
+						"rarity": 5,
+						"max_level": 20,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 3780
+					}
+				],
+				"substats": {
+					"HP": [
+						209.1300048828125,
+						239.0,
+						268.8800048828125,
+						298.75
+					],
+					"HP%": [
+						4.080000147223473,
+						4.659999907016754,
+						5.249999836087227,
+						5.829999968409538
+					],
+					"ATK": [
+						13.619999885559082,
+						15.5600004196167,
+						17.510000228881836,
+						19.450000762939453
+					],
+					"ATK%": [
+						4.080000147223473,
+						4.659999907016754,
+						5.249999836087227,
+						5.829999968409538
+					],
+					"DEF": [
+						16.200000762939453,
+						18.520000457763672,
+						20.829999923706055,
+						23.149999618530273
+					],
+					"DEF%": [
+						5.099999904632568,
+						5.829999968409538,
+						6.560000032186508,
+						7.289999723434448
+					],
+					"Energy Recharge%": [
+						4.529999941587448,
+						5.180000141263008,
+						5.829999968409538,
+						6.480000168085098
+					],
+					"Elemental Mastery": [
+						16.31999969482422,
+						18.649999618530273,
+						20.979999542236328,
+						23.309999465942383
+					],
+					"Crit Rate%": [
+						2.72000003606081,
+						3.109999932348728,
+						3.500000014901161,
+						3.8899999111890793
+					],
+					"Crit DMG%": [
+						5.44000007212162,
+						6.219999864697456,
+						6.989999860525131,
+						7.769999653100967
+					]
+				}
+			}
+		]
+	},
+	"gilded_dreams": {
+		"hoyo_id": 15026,
+		"equip_id": 215026,
+		"name": "Gilded Dreams",
+		"bonuses": [
+			{
+				"hoyo_id": 2150260,
+				"name_hash": 3450579555,
+				"desc_hash": 1833229521,
+				"name": "Gilded Dreams",
+				"desc": "Elemental Mastery +80.",
+				"nb_req": 2
+			},
+			{
+				"hoyo_id": 2150261,
+				"name_hash": 4145306051,
+				"desc_hash": 1474644585,
+				"name": "Gilded Dreams",
+				"desc": "Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members. ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field.",
+				"nb_req": 4
+			}
+		],
+		"pieces": [
+			{
+				"display_id": 400213,
+				"name_hash": 55003377,
+				"name": "Gilded Dreams",
+				"rarity": 4,
+				"pieces": [
+					{
+						"hoyo_id": 21413,
+						"gadget_id": 70600044,
+						"story_id": 185261,
+						"prop_id": 401,
+						"set_id": 15026,
+						"type": "goblet_of_eonothem",
+						"name_hash": 595882108,
+						"desc_hash": 4020540960,
+						"name": "Honeyed Final Feast",
+						"desc": "A wine cup that was once used at a grand and ancient feast. It has now lost much of that luster.",
+						"rarity": 4,
+						"max_level": 16,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 2520
+					},
+					{
+						"hoyo_id": 21423,
+						"gadget_id": 70600044,
+						"story_id": 185262,
+						"prop_id": 401,
+						"set_id": 15026,
+						"type": "plume_of_death",
+						"name_hash": 2116650692,
+						"desc_hash": 1032829192,
+						"name": "Feather of Judgment",
+						"desc": "This special feather was once used to weigh the hearts of the guilty, but it has since lost its original function.",
+						"rarity": 4,
+						"max_level": 16,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 2520
+					},
+					{
+						"hoyo_id": 21433,
+						"gadget_id": 70600044,
+						"story_id": 185263,
+						"prop_id": 401,
+						"set_id": 15026,
+						"type": "circlet_of_logos",
+						"name_hash": 2653889804,
+						"desc_hash": 2714701816,
+						"name": "Shadow of the Sand King",
+						"desc": "This gold-inlaid headband was once used by desert priests in the days of old. They were made in imitation of one worn by a legendary ruler of the desert peoples.",
+						"rarity": 4,
+						"max_level": 16,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 2520
+					},
+					{
+						"hoyo_id": 21443,
+						"gadget_id": 70600044,
+						"story_id": 185264,
+						"prop_id": 401,
+						"set_id": 15026,
+						"type": "flower_of_life",
+						"name_hash": 1775234692,
+						"desc_hash": 3559813032,
+						"name": "Dreaming Steelbloom",
+						"desc": "A flower bud made of hammered dark gold. Its crimson core is wrapped by petals that shall never open.",
+						"rarity": 4,
+						"max_level": 16,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 2520
+					},
+					{
+						"hoyo_id": 21453,
+						"gadget_id": 70600044,
+						"story_id": 185265,
+						"prop_id": 401,
+						"set_id": 15026,
+						"type": "sands_of_eon",
+						"name_hash": 4240798108,
+						"desc_hash": 776738104,
+						"name": "The Sunken Years",
+						"desc": "This dark-golden sundial seems to tell the ancient tale of the desert.",
+						"rarity": 4,
+						"max_level": 16,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 2520
+					}
+				],
+				"substats": {
+					"HP": [
+						167.3000030517578,
+						191.1999969482422,
+						215.10000610351562,
+						239.0
+					],
+					"HP%": [
+						3.2600000500679016,
+						3.7300001829862595,
+						4.1999999433755875,
+						4.659999907016754
+					],
+					"ATK": [
+						10.890000343322754,
+						12.449999809265137,
+						14.0,
+						15.5600004196167
+					],
+					"ATK%": [
+						3.2600000500679016,
+						3.7300001829862595,
+						4.1999999433755875,
+						4.659999907016754
+					],
+					"DEF": [
+						12.960000038146973,
+						14.819999694824219,
+						16.670000076293945,
+						18.520000457763672
+					],
+					"DEF%": [
+						4.080000147223473,
+						4.659999907016754,
+						5.249999836087227,
+						5.829999968409538
+					],
+					"Energy Recharge%": [
+						3.6299999803304672,
+						4.14000004529953,
+						4.659999907016754,
+						5.180000141263008
+					],
+					"Elemental Mastery": [
+						13.0600004196167,
+						14.920000076293945,
+						16.790000915527344,
+						18.649999618530273
+					],
+					"Crit Rate%": [
+						2.1800000220537186,
+						2.4900000542402267,
+						2.800000086426735,
+						3.109999932348728
+					],
+					"Crit DMG%": [
+						4.349999874830246,
+						4.969999939203262,
+						5.60000017285347,
+						6.219999864697456
+					]
+				}
+			},
+			{
+				"display_id": 400214,
+				"name_hash": 1758613569,
+				"name": "Gilded Dreams",
+				"rarity": 5,
+				"pieces": [
+					{
+						"hoyo_id": 21513,
+						"gadget_id": 70600045,
+						"story_id": 185261,
+						"prop_id": 501,
+						"set_id": 15026,
+						"type": "goblet_of_eonothem",
+						"name_hash": 1058628732,
+						"desc_hash": 1654291384,
+						"name": "Honeyed Final Feast",
+						"desc": "A wine cup that was once used at a grand and ancient feast. It has now lost much of that luster.",
+						"rarity": 5,
+						"max_level": 20,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 3780
+					},
+					{
+						"hoyo_id": 21523,
+						"gadget_id": 70600045,
+						"story_id": 185262,
+						"prop_id": 501,
+						"set_id": 15026,
+						"type": "plume_of_death",
+						"name_hash": 4110031964,
+						"desc_hash": 1930855864,
+						"name": "Feather of Judgment",
+						"desc": "This special feather was once used to weigh the hearts of the guilty, but it has since lost its original function.",
+						"rarity": 5,
+						"max_level": 20,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 3780
+					},
+					{
+						"hoyo_id": 21533,
+						"gadget_id": 70600045,
+						"story_id": 185263,
+						"prop_id": 501,
+						"set_id": 15026,
+						"type": "circlet_of_logos",
+						"name_hash": 2970865924,
+						"desc_hash": 1351895016,
+						"name": "Shadow of the Sand King",
+						"desc": "This gold-inlaid headband was once used by desert priests in the days of old. They were made in imitation of one worn by a legendary ruler of the desert peoples.",
+						"rarity": 5,
+						"max_level": 20,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 3780
+					},
+					{
+						"hoyo_id": 21543,
+						"gadget_id": 70600045,
+						"story_id": 185264,
+						"prop_id": 501,
+						"set_id": 15026,
+						"type": "flower_of_life",
+						"name_hash": 3960571484,
+						"desc_hash": 2985400984,
+						"name": "Dreaming Steelbloom",
+						"desc": "A flower bud made of hammered dark gold. Its crimson core is wrapped by petals that shall never open.",
+						"rarity": 5,
+						"max_level": 20,
+						"add_prop_levels": [
+							4,
+							8,
+							12,
+							16,
+							20
+						],
+						"conv_exp": 3780
+					},
+					{
+						"hoyo_id": 21553,
+						"gadget_id": 70600045,
+						"story_id": 185265,
+						"prop_id": 501,
+						"set_id": 15026,
+						"type": "sands_of_eon",
+						"name_hash": 1198995532,
+						"desc_hash": 1530629296,
+						"name": "The Sunken Years",
+						"desc": "This dark-golden sundial seems to tell the ancient tale of the desert.",
 						"rarity": 5,
 						"max_level": 20,
 						"add_prop_levels": [

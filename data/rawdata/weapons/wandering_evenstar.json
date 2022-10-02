@@ -1,0 +1,177 @@
+{
+	"hoyo_id": 14416,
+	"promote_id": 14416,
+	"gadget_id": 50014416,
+	"story_id": [
+		194416
+	],
+	"skill_affix": [
+		114416,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 426363739,
+	"desc_hash": 1089360837,
+	"name": "Wandering Evenstar",
+	"desc": "This was originally a device used by researchers to observe and perform calculations on celestial phenomena. It serves as a conduit and catalyst.",
+	"icon": "UI_EquipIcon_Catalyst_Pleroma",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Pleroma_Awaken",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"Elemental Mastery": 36.0
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"oasis_gardens_reminiscence": 3,
+				"inactivated_fungal_nucleus": 3,
+				"fungal_spores": 2,
+				"mora": 5000
+			},
+			{
+				"oasis_gardens_kindness": 3,
+				"inactivated_fungal_nucleus": 12,
+				"fungal_spores": 8,
+				"mora": 15000
+			},
+			{
+				"oasis_gardens_kindness": 6,
+				"dormant_fungal_nucleus": 6,
+				"luminescent_pollen": 6,
+				"mora": 20000
+			},
+			{
+				"oasis_gardens_mourning": 3,
+				"dormant_fungal_nucleus": 12,
+				"luminescent_pollen": 9,
+				"mora": 30000
+			},
+			{
+				"oasis_gardens_mourning": 6,
+				"robust_fungal_nucleus": 9,
+				"crystalline_cyst_dust": 6,
+				"mora": 35000
+			},
+			{
+				"oasis_gardens_truth": 4,
+				"robust_fungal_nucleus": 18,
+				"crystalline_cyst_dust": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 0.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3326699803,
+		"name": "Wildling Nightstar",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1144160,
+				"desc_hash": 936957161,
+				"desc": "The following effect will trigger every 10s: The equipping character will gain 24% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1144161,
+				"desc_hash": 279441465,
+				"desc": "The following effect will trigger every 10s: The equipping character will gain 30% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1144162,
+				"desc_hash": 512729449,
+				"desc": "The following effect will trigger every 10s: the equipping character will gain 36% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1144163,
+				"desc_hash": 305516921,
+				"desc": "The following effect will trigger every 10s: The equipping character will gain 42% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1144164,
+				"desc_hash": 2576455153,
+				"desc": "The following effect will trigger every 10s: The equipping character will gain 48% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+				"cost": 8000
+			}
+		]
+	}
+}

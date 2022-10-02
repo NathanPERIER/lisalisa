@@ -70,5 +70,13 @@
 		"name": "Wings of Shimmering Galaxy",
 		"desc": "A stylized wind glider and a gift that celebrates a symphony that resounds across the stars.",
 		"rarity": 4
+	},
+	"wings_of_the_forest": {
+		"hoyo_id": 140010,
+		"name_hash": 2488969468,
+		"desc_hash": 1899653016,
+		"name": "Wings of the Forest",
+		"desc": "A stylized wind glider gifted to you as a mark of Sumeru's acknowledgment and recognition.",
+		"rarity": 4
 	}
 }

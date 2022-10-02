@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1113040,
 				"desc_hash": 1124150097,
-				"desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by 20% for 12s.",
+				"desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, or Electro-infused Swirl reaction, ATK is increased by 20% for 12s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1113041,
 				"desc_hash": 3152487993,
-				"desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by 25% for 12s.",
+				"desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, or Electro-infused Swirl reaction, ATK is increased by 25% for 12s.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1113042,
 				"desc_hash": 2656165345,
-				"desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by 30% for 12s.",
+				"desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, or Electro-infused Swirl reaction, ATK is increased by 30% for 12s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1113043,
 				"desc_hash": 575353417,
-				"desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by 35% for 12s.",
+				"desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, or Electro-infused Swirl reaction, ATK is increased by 35% for 12s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1113044,
 				"desc_hash": 3471395985,
-				"desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by 40% for 12s.",
+				"desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, or Electro-infused Swirl reaction, ATK is increased by 40% for 12s.",
 				"cost": 4000
 			}
 		]

@@ -1,0 +1,830 @@
+{
+	"hoyo_id": 10000069,
+	"promote_id": 69,
+	"skill_depot_id": 6901,
+	"fetter_id": 69600,
+	"weapon": "bow",
+	"name_hash": 2506955778,
+	"desc_hash": 2793013657,
+	"name": "Tighnari",
+	"desc": "A young researcher well-versed in botany who currently serves as a Forest Watcher in Avidya Forest. He is a straight shooter with a warm heart \u2014 and a dab hand at guiding even the dullest of pupils.",
+	"icon": "UI_AvatarIcon_Tighnari",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_BOY",
+	"birthday": [
+		29,
+		12
+	],
+	"region": "sumeru",
+	"vision_hash": [
+		2161032364,
+		488863433
+	],
+	"astrolabe_hash": [
+		18086514,
+		647317707
+	],
+	"allegiance_hash": 609106153,
+	"vision": "dendro",
+	"astrolabe": "Vulpes Zerda",
+	"allegiance": "Gandharva Ville",
+	"default_weapon": "hunters_bow",
+	"increase_skill": 5,
+	"increase_burst": 3,
+	"base_stats": {
+		"Base HP": 844.6415405273438,
+		"Base ATK": 20.854400634765625,
+		"Base DEF": 49.06060028076172,
+		"Crit Rate%": 5.000000074505806,
+		"Crit DMG%": 50.0
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"nagadus_emerald_sliver": 1,
+				"nilotpala_lotus": 3,
+				"fungal_spores": 3,
+				"mora": 20000
+			},
+			{
+				"nagadus_emerald_fragment": 3,
+				"majestic_hooked_beak": 2,
+				"nilotpala_lotus": 10,
+				"fungal_spores": 15,
+				"mora": 40000
+			},
+			{
+				"nagadus_emerald_fragment": 6,
+				"majestic_hooked_beak": 4,
+				"nilotpala_lotus": 20,
+				"luminescent_pollen": 12,
+				"mora": 60000
+			},
+			{
+				"nagadus_emerald_chunk": 3,
+				"majestic_hooked_beak": 8,
+				"nilotpala_lotus": 30,
+				"luminescent_pollen": 18,
+				"mora": 80000
+			},
+			{
+				"nagadus_emerald_chunk": 6,
+				"majestic_hooked_beak": 12,
+				"nilotpala_lotus": 45,
+				"crystalline_cyst_dust": 12,
+				"mora": 100000
+			},
+			{
+				"nagadus_emerald_gemstone": 6,
+				"majestic_hooked_beak": 20,
+				"nilotpala_lotus": 60,
+				"crystalline_cyst_dust": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 0.0,
+					"Base DEF": 0.0,
+					"Base ATK": 0.0,
+					"Dendro DMG%": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base HP": 724.2037353515625,
+					"Base DEF": 42.066001892089844,
+					"Base ATK": 17.87945556640625,
+					"Dendro DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1238.76953125,
+					"Base DEF": 71.95500183105469,
+					"Base ATK": 30.583280563354492,
+					"Dendro DMG%": 7.199999690055847
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1924.8572998046875,
+					"Base DEF": 111.80699920654297,
+					"Base ATK": 47.52171325683594,
+					"Dendro DMG%": 14.399999380111694
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2439.423095703125,
+					"Base DEF": 141.6959991455078,
+					"Base ATK": 60.22553634643555,
+					"Dendro DMG%": 14.399999380111694
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2953.989013671875,
+					"Base DEF": 171.5850067138672,
+					"Base ATK": 72.92935943603516,
+					"Dendro DMG%": 21.60000056028366
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3468.5546875,
+					"Base DEF": 201.4739990234375,
+					"Base ATK": 85.63318634033203,
+					"Dendro DMG%": 28.79999876022339
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 3409522557,
+			"desc_hash": 416050040,
+			"name": "Normal Attack: Khanda Barrier-Buster",
+			"desc": "Normal Attack\nPerforms up to 4 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, the power of Dendro will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n\u00b7Charge Level 1: Fires off an arrow carrying the power of flora that deals Dendro DMG.\n\u00b7Charge Level 2: Fires off a Wreath Arrow that deals Dendro DMG. Upon hit, the Wreath Arrow will create 4 Clusterbloom Arrows that will track nearby opponents automatically and deal Dendro DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"icon": "Skill_A_02",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_admonition": 3,
+					"fungal_spores": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_admonition": 2,
+					"luminescent_pollen": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_admonition": 4,
+					"luminescent_pollen": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_admonition": 6,
+					"luminescent_pollen": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_admonition": 9,
+					"luminescent_pollen": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_admonition": 4,
+					"crystalline_cyst_dust": 4,
+					"the_meaning_of_aeons": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_admonition": 6,
+					"crystalline_cyst_dust": 6,
+					"the_meaning_of_aeons": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_admonition": 12,
+					"crystalline_cyst_dust": 9,
+					"the_meaning_of_aeons": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_admonition": 16,
+					"crystalline_cyst_dust": 12,
+					"the_meaning_of_aeons": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Aimed Shot",
+					"Level 1 Aimed Shot",
+					"Wreath Arrow DMG",
+					"Clusterbloom Arrow DMG",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"44.63%",
+						"41.97%",
+						"26.45%\u00d72",
+						"68.63%",
+						"43.86%",
+						"124%",
+						"87.2%",
+						"38.6%",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"48.27%",
+						"45.38%",
+						"28.6%\u00d72",
+						"74.21%",
+						"47.43%",
+						"133.3%",
+						"93.74%",
+						"41.5%",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"51.9%",
+						"48.8%",
+						"30.75%\u00d72",
+						"79.8%",
+						"51%",
+						"142.6%",
+						"100.28%",
+						"44.39%",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"57.09%",
+						"53.68%",
+						"33.83%\u00d72",
+						"87.78%",
+						"56.1%",
+						"155%",
+						"109%",
+						"48.25%",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"60.72%",
+						"57.1%",
+						"35.98%\u00d72",
+						"93.37%",
+						"59.67%",
+						"164.3%",
+						"115.54%",
+						"51.14%",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"64.88%",
+						"61%",
+						"38.44%\u00d72",
+						"99.75%",
+						"63.75%",
+						"173.6%",
+						"122.08%",
+						"54.04%",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"70.58%",
+						"66.37%",
+						"41.82%\u00d72",
+						"108.53%",
+						"69.36%",
+						"186%",
+						"130.8%",
+						"57.9%",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"76.29%",
+						"71.74%",
+						"45.2%\u00d72",
+						"117.31%",
+						"74.97%",
+						"198.4%",
+						"139.52%",
+						"61.76%",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"82%",
+						"77.1%",
+						"48.59%\u00d72",
+						"126.08%",
+						"80.58%",
+						"210.8%",
+						"148.24%",
+						"65.62%",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"88.23%",
+						"82.96%",
+						"52.28%\u00d72",
+						"135.66%",
+						"86.7%",
+						"223.2%",
+						"156.96%",
+						"69.48%",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"94.46%",
+						"88.82%",
+						"55.97%\u00d72",
+						"145.24%",
+						"92.82%",
+						"235.6%",
+						"165.68%",
+						"73.34%",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"100.69%",
+						"94.67%",
+						"59.65%\u00d72",
+						"154.81%",
+						"98.94%",
+						"248%",
+						"174.4%",
+						"77.2%",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"106.91%",
+						"100.53%",
+						"63.34%\u00d72",
+						"164.39%",
+						"105.06%",
+						"263.5%",
+						"185.3%",
+						"82.02%",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"113.14%",
+						"106.38%",
+						"67.04%\u00d72",
+						"173.96%",
+						"111.18%",
+						"279%",
+						"196.2%",
+						"86.85%",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"119.37%",
+						"112.24%",
+						"70.72%\u00d72",
+						"183.54%",
+						"117.3%",
+						"294.5%",
+						"207.1%",
+						"91.68%",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 3726986301,
+			"desc_hash": 3970361016,
+			"name": "Vijnana-Phala Mine",
+			"desc": "Tighnari throws a Vijnana Stormheart ahead that deals AoE Dendro DMG, creating a Vijnana-Khanda Field that creates mysterious illusions that taunt opponents and draw their fire.\nAdditionally, Tighnari gains the Vijnana Suffusion effect, which will decrease the Wreath Arrow's charging time by 2.4s. This effect will dissipate once the skill duration ends or after Tighnari has fired 3 Wreath Arrows.\n\n<i>\"If seeds wither apart from the soil, they will remain a single seed. But if returned to the soil, they shall multiply ten-million fold.\"</i>",
+			"icon": "Skill_S_Tighnari_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_admonition": 3,
+					"fungal_spores": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_admonition": 2,
+					"luminescent_pollen": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_admonition": 4,
+					"luminescent_pollen": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_admonition": 6,
+					"luminescent_pollen": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_admonition": 9,
+					"luminescent_pollen": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_admonition": 4,
+					"crystalline_cyst_dust": 4,
+					"the_meaning_of_aeons": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_admonition": 6,
+					"crystalline_cyst_dust": 6,
+					"the_meaning_of_aeons": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_admonition": 12,
+					"crystalline_cyst_dust": 9,
+					"the_meaning_of_aeons": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_admonition": 16,
+					"crystalline_cyst_dust": 12,
+					"the_meaning_of_aeons": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Vijnana-Khanda Field Duration",
+					"Vijnana Suffusion Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"149.6%",
+						"8s",
+						"12s",
+						"12s"
+					],
+					[
+						"160.82%",
+						"8s",
+						"12s",
+						"12s"
+					],
+					[
+						"172.04%",
+						"8s",
+						"12s",
+						"12s"
+					],
+					[
+						"187%",
+						"8s",
+						"12s",
+						"12s"
+					],
+					[
+						"198.22%",
+						"8s",
+						"12s",
+						"12s"
+					],
+					[
+						"209.44%",
+						"8s",
+						"12s",
+						"12s"
+					],
+					[
+						"224.4%",
+						"8s",
+						"12s",
+						"12s"
+					],
+					[
+						"239.36%",
+						"8s",
+						"12s",
+						"12s"
+					],
+					[
+						"254.32%",
+						"8s",
+						"12s",
+						"12s"
+					],
+					[
+						"269.28%",
+						"8s",
+						"12s",
+						"12s"
+					],
+					[
+						"284.24%",
+						"8s",
+						"12s",
+						"12s"
+					],
+					[
+						"299.2%",
+						"8s",
+						"12s",
+						"12s"
+					],
+					[
+						"317.9%",
+						"8s",
+						"12s",
+						"12s"
+					],
+					[
+						"336.6%",
+						"8s",
+						"12s",
+						"12s"
+					],
+					[
+						"355.3%",
+						"8s",
+						"12s",
+						"12s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 3822928381,
+			"desc_hash": 1756743120,
+			"name": "Fashioner's Tanglevine Shaft",
+			"desc": "Combines the power of all seeds to fire 6 Tanglevine Shafts that can track opponents and deal Dendro DMG.\nAfter they hit, the Tanglevine Shafts will create a secondary wave of Tanglevine Shafts that can also track nearby opponents and deal Dendro DMG on hit.\n\n<i>\"Do not seek to escape so easily. The vines grow and regrow ever on. Things might get dicey if you don't clear every last one of them out.\"</i>",
+			"icon": "Skill_E_Tighnari_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_admonition": 3,
+					"fungal_spores": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_admonition": 2,
+					"luminescent_pollen": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_admonition": 4,
+					"luminescent_pollen": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_admonition": 6,
+					"luminescent_pollen": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_admonition": 9,
+					"luminescent_pollen": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_admonition": 4,
+					"crystalline_cyst_dust": 4,
+					"the_meaning_of_aeons": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_admonition": 6,
+					"crystalline_cyst_dust": 6,
+					"the_meaning_of_aeons": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_admonition": 12,
+					"crystalline_cyst_dust": 9,
+					"the_meaning_of_aeons": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_admonition": 16,
+					"crystalline_cyst_dust": 12,
+					"the_meaning_of_aeons": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Tanglevine Shaft DMG",
+					"Secondary Tanglevine Shaft DMG",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"55.62%",
+						"67.98%",
+						"12s",
+						"40"
+					],
+					[
+						"59.79%",
+						"73.08%",
+						"12s",
+						"40"
+					],
+					[
+						"63.96%",
+						"78.18%",
+						"12s",
+						"40"
+					],
+					[
+						"69.52%",
+						"84.97%",
+						"12s",
+						"40"
+					],
+					[
+						"73.7%",
+						"90.07%",
+						"12s",
+						"40"
+					],
+					[
+						"77.87%",
+						"95.17%",
+						"12s",
+						"40"
+					],
+					[
+						"83.43%",
+						"101.97%",
+						"12s",
+						"40"
+					],
+					[
+						"88.99%",
+						"108.77%",
+						"12s",
+						"40"
+					],
+					[
+						"94.55%",
+						"115.57%",
+						"12s",
+						"40"
+					],
+					[
+						"100.12%",
+						"122.36%",
+						"12s",
+						"40"
+					],
+					[
+						"105.68%",
+						"129.16%",
+						"12s",
+						"40"
+					],
+					[
+						"111.24%",
+						"135.96%",
+						"12s",
+						"40"
+					],
+					[
+						"118.19%",
+						"144.46%",
+						"12s",
+						"40"
+					],
+					[
+						"125.14%",
+						"152.95%",
+						"12s",
+						"40"
+					],
+					[
+						"132.1%",
+						"161.45%",
+						"12s",
+						"40"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 4268651301,
+			"desc_hash": 2730346547,
+			"name": "Keen Sight",
+			"desc": "After Tighnari fires a Wreath Arrow, his Elemental Mastery is increased by 50 for 4s.",
+			"icon": "UI_Talent_S_Tighnari_05",
+			"ascension": 1
+		},
+		{
+			"name_hash": 848821669,
+			"desc_hash": 3888956347,
+			"name": "Scholarly Blade",
+			"desc": "For every point of Elemental Mastery Tighnari possesses, his Charged Attack and Fashioner's Tanglevine Shaft DMG are increased by 0.06%.\nThe maximum DMG Bonus obtainable this way is 60%.",
+			"icon": "UI_Talent_S_Tighnari_06",
+			"ascension": 4
+		},
+		{
+			"name_hash": 704527549,
+			"desc_hash": 2405982315,
+			"name": "Encyclopedic Knowledge",
+			"desc": "Displays the location of nearby resources unique to Sumeru on the mini-map.",
+			"icon": "UI_Talent_S_Tighnari_07",
+			"ascension": null
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 3505971089,
+			"desc_hash": 1106096311,
+			"name": "Beginnings Determined at the Roots",
+			"desc": "Tighnari's Charged Attack CRIT Rate is increased by 15%.",
+			"icon": "UI_Talent_S_Tighnari_01"
+		},
+		{
+			"name_hash": 2309081673,
+			"desc_hash": 1101606991,
+			"name": "Origins Known From the Stem",
+			"desc": "When there are opponents within the Vijnana-Khanda Field created by Vijnana-Phala Mine, Tighnari gains 20% Dendro DMG Bonus.\nThe effect will last up to 6s if the field's duration ends or if it no longer has opponents within it.",
+			"icon": "UI_Talent_S_Tighnari_02"
+		},
+		{
+			"name_hash": 3708646913,
+			"desc_hash": 1850244687,
+			"name": "Fortunes Read Amongst the Branches",
+			"desc": "Increases the Level of Fashioner's Tanglevine Shaft by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Tighnari_01"
+		},
+		{
+			"name_hash": 376580577,
+			"desc_hash": 1776421039,
+			"name": "Withering Glimpsed in the Leaves",
+			"desc": "When Fashioner's Tanglevine Shaft is unleashed, all nearby party members gain 60 Elemental Mastery for 8s. If the Fashioner's Tanglevine Shaft triggers a Burning, Bloom, Quicken, or Spread reaction, their Elemental Mastery will be further increased by 60. This latter case will also refresh the buff state's duration.",
+			"icon": "UI_Talent_S_Tighnari_03"
+		},
+		{
+			"name_hash": 3499024713,
+			"desc_hash": 2666902391,
+			"name": "Comprehension Amidst the Flowers",
+			"desc": "Increases the Level of Vijnana-Phala Mine by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Tighnari_02"
+		},
+		{
+			"name_hash": 2750929897,
+			"desc_hash": 2217630895,
+			"name": "Karma Adjudged From the Leaden Fruit",
+			"desc": "Wreath Arrow's charging time is decreased by 0.9s, and will produce 1 additional Clusterbloom Arrow upon hit. This arrow deals 150% of Tighnari's ATK as DMG.",
+			"icon": "UI_Talent_S_Tighnari_04"
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 1106979266,
+			"desc_hash": 510932922,
+			"name": "Woodland Song",
+			"desc": "Tighnari's outfit. Clad in the colors of wood, tree, and flower, Tighnari is surrounded at all times by natural life, determined even in fashion sense to put the \"forest\" in \"Forest Watcher.\"",
+			"icon": "",
+			"restricted": false
+		},
+		"alt": {}
+	},
+	"special_dish": {
+		"original_recipe": "mushroom_hodgepodge",
+		"hoyo_id": 108436,
+		"name_hash": 3703227900,
+		"desc_hash": 1499350509,
+		"type_hash": 508261918,
+		"name": "Forest Watcher's Choice",
+		"desc": "Tighnari's specialty. The Forest Watcher personally picked out these edible mushrooms \u2014 not only the common ones but also a few mysterious-looking shrooms that you have never seen before. No condiments were added, for the limelight should go to the ingredients' unmarred freshness. It must have taken him quite some time to prepare this delicious dish.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 2
+	}
+}

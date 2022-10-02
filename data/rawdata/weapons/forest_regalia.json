@@ -1,0 +1,177 @@
+{
+	"hoyo_id": 12417,
+	"promote_id": 12417,
+	"gadget_id": 50012417,
+	"story_id": [
+		192417
+	],
+	"skill_affix": [
+		112417,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 902184579,
+	"desc_hash": 2548100069,
+	"name": "Forest Regalia",
+	"desc": "A weapon you obtained from an Aranara tale. It has taken on the shape of a greatsword that shall cut down the foes of the forest.",
+	"icon": "UI_EquipIcon_Claymore_Arakalari",
+	"icon_awaken": "UI_EquipIcon_Claymore_Arakalari_Awaken",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 43.734901428222656,
+		"Energy Recharge%": 6.666699796915054
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_202",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"copper_talisman_of_the_forest_dew": 3,
+				"chaos_storage": 3,
+				"faded_red_satin": 2,
+				"mora": 5000
+			},
+			{
+				"iron_talisman_of_the_forest_dew": 3,
+				"chaos_storage": 12,
+				"faded_red_satin": 8,
+				"mora": 15000
+			},
+			{
+				"iron_talisman_of_the_forest_dew": 6,
+				"chaos_module": 6,
+				"trimmed_red_silk": 6,
+				"mora": 20000
+			},
+			{
+				"silver_talisman_of_the_forest_dew": 3,
+				"chaos_module": 12,
+				"trimmed_red_silk": 9,
+				"mora": 30000
+			},
+			{
+				"silver_talisman_of_the_forest_dew": 6,
+				"chaos_bolt": 9,
+				"rich_red_brocade": 6,
+				"mora": 35000
+			},
+			{
+				"golden_talisman_of_the_forest_dew": 4,
+				"chaos_bolt": 18,
+				"rich_red_brocade": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 0.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3264225139,
+		"name": "Forest Sanctuary",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1124170,
+				"desc_hash": 3788767897,
+				"desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1124171,
+				"desc_hash": 1250863065,
+				"desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 75 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1124172,
+				"desc_hash": 2950728033,
+				"desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 90 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1124173,
+				"desc_hash": 3409962761,
+				"desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 105 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1124174,
+				"desc_hash": 2847008297,
+				"desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 120 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
+				"cost": 8000
+			}
+		]
+	}
+}

@@ -1,0 +1,846 @@
+{
+	"hoyo_id": 10000070,
+	"promote_id": 70,
+	"skill_depot_id": 7001,
+	"fetter_id": 70600,
+	"weapon": "sword",
+	"name_hash": 3850149970,
+	"desc_hash": 3126933153,
+	"name": "Nilou",
+	"desc": "The star of the Zubayr Theater. She is full of warmth and innocence, and her dances are lively and elegant.",
+	"icon": "UI_AvatarIcon_Nilou",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": [
+		3,
+		12
+	],
+	"region": "sumeru",
+	"vision_hash": [
+		483165900,
+		2803900457
+	],
+	"astrolabe_hash": [
+		4233109642,
+		1572050475
+	],
+	"allegiance_hash": 2136998417,
+	"vision": "hydro",
+	"astrolabe": "Lotos Somno",
+	"allegiance": "Zubayr Theater",
+	"default_weapon": "dull_blade",
+	"increase_skill": 5,
+	"increase_burst": 3,
+	"base_stats": {
+		"Base HP": 1182.1168212890625,
+		"Base ATK": 17.875200271606445,
+		"Base DEF": 56.718841552734375,
+		"Crit Rate%": 5.000000074505806,
+		"Crit DMG%": 50.0
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"varunada_lazurite_sliver": 1,
+				"padisarah": 3,
+				"fungal_spores": 3,
+				"mora": 20000
+			},
+			{
+				"varunada_lazurite_fragment": 3,
+				"perpetual_caliber": 2,
+				"padisarah": 10,
+				"fungal_spores": 15,
+				"mora": 40000
+			},
+			{
+				"varunada_lazurite_fragment": 6,
+				"perpetual_caliber": 4,
+				"padisarah": 20,
+				"luminescent_pollen": 12,
+				"mora": 60000
+			},
+			{
+				"varunada_lazurite_chunk": 3,
+				"perpetual_caliber": 8,
+				"padisarah": 30,
+				"luminescent_pollen": 18,
+				"mora": 80000
+			},
+			{
+				"varunada_lazurite_chunk": 6,
+				"perpetual_caliber": 12,
+				"padisarah": 45,
+				"crystalline_cyst_dust": 12,
+				"mora": 100000
+			},
+			{
+				"varunada_lazurite_gemstone": 6,
+				"perpetual_caliber": 20,
+				"padisarah": 60,
+				"crystalline_cyst_dust": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 0.0,
+					"Base DEF": 0.0,
+					"Base ATK": 0.0,
+					"HP%": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base HP": 1013.5582885742188,
+					"Base DEF": 48.63240051269531,
+					"Base ATK": 15.325247764587402,
+					"HP%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1733.7181396484375,
+					"Base DEF": 83.18699645996094,
+					"Base ATK": 26.2142391204834,
+					"HP%": 7.199999690055847
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2693.93115234375,
+					"Base DEF": 129.25979614257812,
+					"Base ATK": 40.73289489746094,
+					"HP%": 14.399999380111694
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 3414.091064453125,
+					"Base DEF": 163.8144073486328,
+					"Base ATK": 51.62188720703125,
+					"HP%": 14.399999380111694
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 4134.2509765625,
+					"Base DEF": 198.36900329589844,
+					"Base ATK": 62.51087951660156,
+					"HP%": 21.60000056028366
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 4854.41064453125,
+					"Base DEF": 232.92359924316406,
+					"Base ATK": 73.39987182617188,
+					"HP%": 28.79999876022339
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 1390577909,
+			"desc_hash": 1185988448,
+			"name": "Normal Attack: Dance of Samser",
+			"desc": "Normal Attack\nPerforms up to 3 consecutive sword strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to perform a twirling slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_praxis": 3,
+					"fungal_spores": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_praxis": 2,
+					"luminescent_pollen": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_praxis": 4,
+					"luminescent_pollen": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_praxis": 6,
+					"luminescent_pollen": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_praxis": 9,
+					"luminescent_pollen": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_praxis": 4,
+					"crystalline_cyst_dust": 4,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_praxis": 6,
+					"crystalline_cyst_dust": 6,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_praxis": 12,
+					"crystalline_cyst_dust": 9,
+					"tears_of_the_calamitous_god": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_praxis": 16,
+					"crystalline_cyst_dust": 12,
+					"tears_of_the_calamitous_god": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"50.31%",
+						"45.44%",
+						"70.35%",
+						"50.22%+54.44%",
+						"20",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"54.4%",
+						"49.14%",
+						"76.08%",
+						"54.31%+58.87%",
+						"20",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"58.5%",
+						"52.84%",
+						"81.81%",
+						"58.4%+63.3%",
+						"20",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"64.35%",
+						"58.12%",
+						"89.99%",
+						"64.24%+69.63%",
+						"20",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"68.44%",
+						"61.82%",
+						"95.71%",
+						"68.33%+74.06%",
+						"20",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"73.12%",
+						"66.04%",
+						"102.26%",
+						"73%+79.12%",
+						"20",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"79.56%",
+						"71.86%",
+						"111.26%",
+						"79.42%+86.09%",
+						"20",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"85.99%",
+						"77.67%",
+						"120.26%",
+						"85.85%+93.05%",
+						"20",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"92.43%",
+						"83.48%",
+						"129.26%",
+						"92.27%+100.01%",
+						"20",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"99.44%",
+						"89.82%",
+						"139.07%",
+						"99.28%+107.61%",
+						"20",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"106.46%",
+						"96.16%",
+						"148.89%",
+						"106.29%+115.21%",
+						"20",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"113.48%",
+						"102.5%",
+						"158.71%",
+						"113.3%+122.8%",
+						"20",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"120.5%",
+						"108.84%",
+						"168.52%",
+						"120.3%+130.4%",
+						"20",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"127.52%",
+						"115.18%",
+						"178.34%",
+						"127.31%+137.99%",
+						"20",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"134.54%",
+						"121.52%",
+						"188.16%",
+						"134.32%+145.59%",
+						"20",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2640547533,
+			"desc_hash": 3630489128,
+			"name": "Dance of Haftkarsvar",
+			"desc": "Enters the Pirouette state, dealing Hydro DMG to nearby opponents based on Nilou's Max HP.\nWhile she is in the Pirouette state, Nilou's Normal Attacks and Elemental Skill will cause her to enter the Sword Dance and Whirling Steps stances respectively, causing DMG she deals to be converted to Hydro DMG that cannot be overridden and that is considered Elemental Skill DMG.\n\nIn these stances, Nilou's third dance step will end Pirouette, and has the following effects based on the type of said dance step:\n\u00b7Sword Dance: unleashes a Luminous Illusion that deals Hydro DMG to opponents it touches and grants Nilou the Lunar Prayer effect. This effect converts Nilou's Normal Attacks into Sword Dance techniques, and her final hit will unleash a Luminous Illusion.\n\u00b7Whirling Steps: Nilou unleashes a Whirling Water Wheel that deals AoE Hydro DMG and creates a Tranquility Aura that follows your active character around and applies Wet to opponents within its AoE.\n\nNilou is unable to perform Charged Attacks when under the effect of Pirouette or Lunar Prayer. These effects will be removed once she leaves the field.\n\n<i>\"Daintily her toes touch the water's face, and the light that ripples forth equals even the seven heavens.\"</i>",
+			"icon": "Skill_S_Nilou_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_praxis": 3,
+					"fungal_spores": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_praxis": 2,
+					"luminescent_pollen": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_praxis": 4,
+					"luminescent_pollen": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_praxis": 6,
+					"luminescent_pollen": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_praxis": 9,
+					"luminescent_pollen": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_praxis": 4,
+					"crystalline_cyst_dust": 4,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_praxis": 6,
+					"crystalline_cyst_dust": 6,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_praxis": 12,
+					"crystalline_cyst_dust": 9,
+					"tears_of_the_calamitous_god": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_praxis": 16,
+					"crystalline_cyst_dust": 12,
+					"tears_of_the_calamitous_god": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Sword Dance/Whirling Steps 1-Hit DMG",
+					"Sword Dance/Whirling Steps 2-Hit DMG",
+					"Luminous Illusion/Water Wheel DMG",
+					"Pirouette Duration",
+					"Lunar Prayer Duration",
+					"Tranquility Aura Duration",
+					"CD"
+				],
+				"values": [
+					[
+						"3.34% Max HP",
+						"4.55%/3.26% Max HP",
+						"5.14%/3.96% Max HP",
+						"7.17%/5.06% Max HP",
+						"10s",
+						"8s",
+						"12s",
+						"18s"
+					],
+					[
+						"3.59% Max HP",
+						"4.89%/3.51% Max HP",
+						"5.53%/4.26% Max HP",
+						"7.71%/5.44% Max HP",
+						"10s",
+						"8s",
+						"12s",
+						"18s"
+					],
+					[
+						"3.84% Max HP",
+						"5.24%/3.75% Max HP",
+						"5.92%/4.55% Max HP",
+						"8.24%/5.82% Max HP",
+						"10s",
+						"8s",
+						"12s",
+						"18s"
+					],
+					[
+						"4.17% Max HP",
+						"5.69%/4.08% Max HP",
+						"6.43%/4.95% Max HP",
+						"8.96%/6.33% Max HP",
+						"10s",
+						"8s",
+						"12s",
+						"18s"
+					],
+					[
+						"4.42% Max HP",
+						"6.03%/4.32% Max HP",
+						"6.82%/5.25% Max HP",
+						"9.5%/6.71% Max HP",
+						"10s",
+						"8s",
+						"12s",
+						"18s"
+					],
+					[
+						"4.67% Max HP",
+						"6.37%/4.57% Max HP",
+						"7.2%/5.54% Max HP",
+						"10.04%/7.09% Max HP",
+						"10s",
+						"8s",
+						"12s",
+						"18s"
+					],
+					[
+						"5.01% Max HP",
+						"6.83%/4.89% Max HP",
+						"7.72%/5.94% Max HP",
+						"10.75%/7.59% Max HP",
+						"10s",
+						"8s",
+						"12s",
+						"18s"
+					],
+					[
+						"5.34% Max HP",
+						"7.28%/5.22% Max HP",
+						"8.23%/6.34% Max HP",
+						"11.47%/8.1% Max HP",
+						"10s",
+						"8s",
+						"12s",
+						"18s"
+					],
+					[
+						"5.68% Max HP",
+						"7.74%/5.55% Max HP",
+						"8.75%/6.73% Max HP",
+						"12.19%/8.6% Max HP",
+						"10s",
+						"8s",
+						"12s",
+						"18s"
+					],
+					[
+						"6.01% Max HP",
+						"8.19%/5.87% Max HP",
+						"9.26%/7.13% Max HP",
+						"12.9%/9.11% Max HP",
+						"10s",
+						"8s",
+						"12s",
+						"18s"
+					],
+					[
+						"6.34% Max HP",
+						"8.65%/6.2% Max HP",
+						"9.77%/7.52% Max HP",
+						"13.62%/9.62% Max HP",
+						"10s",
+						"8s",
+						"12s",
+						"18s"
+					],
+					[
+						"6.68% Max HP",
+						"9.1%/6.52% Max HP",
+						"10.29%/7.92% Max HP",
+						"14.34%/10.12% Max HP",
+						"10s",
+						"8s",
+						"12s",
+						"18s"
+					],
+					[
+						"7.1% Max HP",
+						"9.67%/6.93% Max HP",
+						"10.93%/8.42% Max HP",
+						"15.23%/10.76% Max HP",
+						"10s",
+						"8s",
+						"12s",
+						"18s"
+					],
+					[
+						"7.51% Max HP",
+						"10.24%/7.34% Max HP",
+						"11.58%/8.91% Max HP",
+						"16.13%/11.39% Max HP",
+						"10s",
+						"8s",
+						"12s",
+						"18s"
+					],
+					[
+						"7.93% Max HP",
+						"10.81%/7.75% Max HP",
+						"12.22%/9.41% Max HP",
+						"17.03%/12.02% Max HP",
+						"10s",
+						"8s",
+						"12s",
+						"18s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 1967463157,
+			"desc_hash": 3122656376,
+			"name": "Dance of Abzendegi: Distant Dreams, Listening Spring",
+			"desc": "Begins the dance of faraway dreams and springs that hear, causing a Lotus of Distant Waters to bloom, dealing AoE Hydro DMG based on Nilou's Max HP and applying the Lingering Aeon effect to all opponents hit.\nAfter an interval, opponents affected by Lingering Aeon will take Hydro DMG.\n\n<i>\"We have never witnessed that distant dream, but this dance can bring it to life.\"</i>",
+			"icon": "Skill_E_Nilou_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_praxis": 3,
+					"fungal_spores": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_praxis": 2,
+					"luminescent_pollen": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_praxis": 4,
+					"luminescent_pollen": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_praxis": 6,
+					"luminescent_pollen": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_praxis": 9,
+					"luminescent_pollen": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_praxis": 4,
+					"crystalline_cyst_dust": 4,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_praxis": 6,
+					"crystalline_cyst_dust": 6,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_praxis": 12,
+					"crystalline_cyst_dust": 9,
+					"tears_of_the_calamitous_god": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_praxis": 16,
+					"crystalline_cyst_dust": 12,
+					"tears_of_the_calamitous_god": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Lingering Aeon DMG",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"18.43% Max HP",
+						"22.53% Max HP",
+						"18s",
+						"70"
+					],
+					[
+						"19.81% Max HP",
+						"24.22% Max HP",
+						"18s",
+						"70"
+					],
+					[
+						"21.2% Max HP",
+						"25.91% Max HP",
+						"18s",
+						"70"
+					],
+					[
+						"23.04% Max HP",
+						"28.16% Max HP",
+						"18s",
+						"70"
+					],
+					[
+						"24.42% Max HP",
+						"29.85% Max HP",
+						"18s",
+						"70"
+					],
+					[
+						"25.8% Max HP",
+						"31.54% Max HP",
+						"18s",
+						"70"
+					],
+					[
+						"27.65% Max HP",
+						"33.79% Max HP",
+						"18s",
+						"70"
+					],
+					[
+						"29.49% Max HP",
+						"36.04% Max HP",
+						"18s",
+						"70"
+					],
+					[
+						"31.33% Max HP",
+						"38.3% Max HP",
+						"18s",
+						"70"
+					],
+					[
+						"33.18% Max HP",
+						"40.55% Max HP",
+						"18s",
+						"70"
+					],
+					[
+						"35.02% Max HP",
+						"42.8% Max HP",
+						"18s",
+						"70"
+					],
+					[
+						"36.86% Max HP",
+						"45.06% Max HP",
+						"18s",
+						"70"
+					],
+					[
+						"39.17% Max HP",
+						"47.87% Max HP",
+						"18s",
+						"70"
+					],
+					[
+						"41.47% Max HP",
+						"50.69% Max HP",
+						"18s",
+						"70"
+					],
+					[
+						"43.78% Max HP",
+						"53.5% Max HP",
+						"18s",
+						"70"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 1079985949,
+			"desc_hash": 2790893747,
+			"name": "Court of Dancing Petals",
+			"desc": "When all characters in the party are all Dendro or Hydro, and there are at least one Dendro character and one Hydro character:\nThe completion of the third dance step of Nilou's Dance of Haftkarsvar will grant all nearby characters the Golden Chalice's Bounty for 30s upon its completion.\nCharacters under the effect of Golden Chalice's Bounty will increase the Elemental Mastery of all nearby characters by 100 for 10s whenever they are hit by Dendro attacks. Also, triggering the Bloom reaction will create Bountiful Cores instead of Dendro Cores.\nSuch Cores will burst very quickly after being created, and they have larger AoEs.\nBountiful Cores cannot trigger Hyperbloom or Burgeon, and they share an upper numerical limit with Dendro Cores. Bountiful Core DMG is considered DMG dealt by Dendro Cores produced by Bloom.\nShould the party not meet the conditions for this Passive Talent, any existing Golden Chalice's Bounty effects will be canceled.",
+			"icon": "UI_Talent_S_Nilou_05",
+			"ascension": 1
+		},
+		{
+			"name_hash": 4260729629,
+			"desc_hash": 174660427,
+			"name": "Dreamy Dance of Aeons",
+			"desc": "Every 1,000 points of Nilou's Max HP above 30,000 will cause the DMG dealt by Bountiful Cores created by characters affected by Golden Chalice's Bounty to increase by 9%.\nThe maximum increase in Bountiful Core DMG that can be achieved this way is 400%.",
+			"icon": "UI_Talent_S_Nilou_06",
+			"ascension": 4
+		},
+		{
+			"name_hash": 746325437,
+			"desc_hash": 141861795,
+			"name": "White Jade Lotus",
+			"desc": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product.",
+			"icon": "UI_Talent_S_Yunjin_07",
+			"ascension": null
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 3475888113,
+			"desc_hash": 2661312839,
+			"name": "Dance of the Waning Moon",
+			"desc": "Dance of Haftkarsvar will be enhanced as follows:\n\u00b7Luminous Illusion DMG is increased by 65%.\n\u00b7The Tranquility Aura's duration is extended by 6s.",
+			"icon": "UI_Talent_S_Nilou_01"
+		},
+		{
+			"name_hash": 318992601,
+			"desc_hash": 3919673783,
+			"name": "The Starry Skies Their Flowers Rain",
+			"desc": "After characters affected by the Golden Chalice's Bounty deal Hydro DMG to an opponent, that opponent's Hydro RES will be decreased by 35% for 10s. After a triggered Bloom reaction deals DMG to opponents, their Dendro RES will be decreased by 35% for 10s.\nYou need to have unlocked the \"Court of Dancing Petals\" Talent.",
+			"icon": "UI_Talent_S_Nilou_02"
+		},
+		{
+			"name_hash": 4083203921,
+			"desc_hash": 3288808887,
+			"name": "Beguiling Shadowstep",
+			"desc": "Increases the Level of Dance of Abzendegi: Distant Dreams, Listening Spring by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Nilou_01"
+		},
+		{
+			"name_hash": 3019515057,
+			"desc_hash": 888080927,
+			"name": "Fricative Pulse",
+			"desc": "After the third dance step of Dance of Haftkarsvar's Pirouette hits opponents, Nilou will gain 15 Elemental Energy, and DMG from her Dance of Abzendegi: Distant Dreams, Listening Spring will be increased by 50% for 8s.",
+			"icon": "UI_Talent_S_Nilou_03"
+		},
+		{
+			"name_hash": 4211988457,
+			"desc_hash": 4076971143,
+			"name": "Twirling Light",
+			"desc": "Increases the Level of Dance of Haftkarsvar by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Nilou_02"
+		},
+		{
+			"name_hash": 684061273,
+			"desc_hash": 3861878943,
+			"name": "Frostbreaker's Melody",
+			"desc": "For every 1,000 points of Max HP, Nilou's CRIT Rate and CRIT DMG will increase by 0.6% and 1.2% respectively.\nThe maximum increase in CRIT Rate and CRIT DMG via this method is 30% and 60% respectively.",
+			"icon": "UI_Talent_S_Nilou_04"
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 3647756106,
+			"desc_hash": 1078022994,
+			"name": "Neither Flower Nor Mist",
+			"desc": "Nilou's outfit. It is neither flower nor mist, but when she begins to dance, both seem to bloom into being.",
+			"icon": "",
+			"restricted": false
+		},
+		"alt": {}
+	},
+	"special_dish": {
+		"original_recipe": "padisarah_pudding",
+		"hoyo_id": 108466,
+		"name_hash": 4079439180,
+		"desc_hash": 3590762749,
+		"type_hash": 2110511630,
+		"name": "Swirling Steps",
+		"desc": "Nilou's specialty. The crystal-clear cup that reminds you of an ornate jewel case contains a soft, melt-in-your-mouth pudding. The reddish coloration, like a fleeting trance, reminds you ever so much of Nilou's radiant, dancing form. Ah, would that this dance might last forever.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 3
+	}
+}

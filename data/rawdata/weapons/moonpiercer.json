@@ -1,0 +1,177 @@
+{
+	"hoyo_id": 13417,
+	"promote_id": 13417,
+	"gadget_id": 50013417,
+	"story_id": [
+		193417
+	],
+	"skill_affix": [
+		113417,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 452357939,
+	"desc_hash": 3043809421,
+	"name": "Moonpiercer",
+	"desc": "A weapon you obtained from an Aranara tale. It is shaped like a giant arrow and can be used as a spear.",
+	"icon": "UI_EquipIcon_Pole_Arakalari",
+	"icon_awaken": "UI_EquipIcon_Pole_Arakalari_Awaken",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 43.734901428222656,
+		"Elemental Mastery": 24.0
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_202",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"oasis_gardens_reminiscence": 3,
+				"chaos_storage": 3,
+				"recruits_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"oasis_gardens_kindness": 3,
+				"chaos_storage": 12,
+				"recruits_insignia": 8,
+				"mora": 15000
+			},
+			{
+				"oasis_gardens_kindness": 6,
+				"chaos_module": 6,
+				"sergeants_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"oasis_gardens_mourning": 3,
+				"chaos_module": 12,
+				"sergeants_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"oasis_gardens_mourning": 6,
+				"chaos_bolt": 9,
+				"lieutenants_insignia": 6,
+				"mora": 35000
+			},
+			{
+				"oasis_gardens_truth": 4,
+				"chaos_bolt": 18,
+				"lieutenants_insignia": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 0.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 3177166091,
+		"name": "Stillwood Moonshadow",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1134170,
+				"desc_hash": 3977927625,
+				"desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 16% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1134171,
+				"desc_hash": 2139257321,
+				"desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 20% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1134172,
+				"desc_hash": 3276080153,
+				"desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 24% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1134173,
+				"desc_hash": 2411818033,
+				"desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 28% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1134174,
+				"desc_hash": 2688364001,
+				"desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 32% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+				"cost": 8000
+			}
+		]
+	}
+}

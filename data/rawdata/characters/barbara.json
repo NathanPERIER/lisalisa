@@ -159,7 +159,7 @@
 			"name_hash": 1555695317,
 			"desc_hash": 3743135664,
 			"name": "Normal Attack: Whisper of Water",
-			"desc": "Normal Attack\nPerform up to 4 water splash attacks that deal Hydro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\n\nPlunging Attack\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.",
+			"desc": "Normal Attack\nPerforms up to 4 water splash attacks that deal Hydro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\n\nPlunging Attack\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.",
 			"icon": "Skill_A_Catalyst_MD",
 			"charge_num": 1,
 			"costs": [

@@ -2878,5 +2878,985 @@
 				}
 			]
 		]
+	},
+	{
+		"hoyo_id": 19,
+		"scene_id": 3,
+		"entry_id": 505,
+		"name_hash": 3961922267,
+		"desc_hash": 3613595857,
+		"name": "Steeple of Ignorance",
+		"desc": "In the ancient past, man-made towers that could touch the skies were built all across the land. Though human hearts flowed downward, their souls aspired toward the high heavens. These towers would always fall, or collapse under their own weight and plummet into the depths.\\nHowever, if one were to look at things at a grander scale, the heavens and earth are as one \u2014 no direction is truly different from another.",
+		"type": "talent",
+		"req_ar": 22,
+		"sub_domains": [
+			[
+				{
+					"hoyo_id": 4430,
+					"scene_id": 40750,
+					"reward_id": 23220,
+					"name_hash": 2239383432,
+					"name": "Domain of Mastery: Full Moon I",
+					"type": "talent",
+					"city": "sumeru",
+					"days": [
+						"monday",
+						"thursday",
+						"sunday"
+					],
+					"sub_name": "Full Moon",
+					"level": 1,
+					"effects_hash": [
+						312723018
+					],
+					"effects": [
+						"Dealing Elemental DMG increases the DMG dealt by all party members by 10% for 10s. Stacks triggered by different types of Elemental DMG are counted independently. Max 4 stacks."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric",
+						"Fire",
+						"Water"
+					],
+					"reco_level": 38,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1575,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_admonition"
+					],
+					"ui_type": "UI_DungeonPic_XMCharacter01"
+				},
+				{
+					"hoyo_id": 4431,
+					"scene_id": 40751,
+					"reward_id": 23221,
+					"name_hash": 2216129400,
+					"name": "Domain of Mastery: Full Moon II",
+					"type": "talent",
+					"city": "sumeru",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Full Moon",
+					"level": 2,
+					"effects_hash": [
+						312723018
+					],
+					"effects": [
+						"Dealing Elemental DMG increases the DMG dealt by all party members by 10% for 10s. Stacks triggered by different types of Elemental DMG are counted independently. Max 4 stacks."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric",
+						"Fire",
+						"Water"
+					],
+					"reco_level": 54,
+					"req_ar": 28,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1800,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_admonition",
+						"guide_to_admonition"
+					],
+					"ui_type": "UI_DungeonPic_XMCharacter01"
+				},
+				{
+					"hoyo_id": 4432,
+					"scene_id": 40752,
+					"reward_id": 23222,
+					"name_hash": 101153872,
+					"name": "Domain of Mastery: Full Moon III",
+					"type": "talent",
+					"city": "sumeru",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Full Moon",
+					"level": 3,
+					"effects_hash": [
+						312723018
+					],
+					"effects": [
+						"Dealing Elemental DMG increases the DMG dealt by all party members by 10% for 10s. Stacks triggered by different types of Elemental DMG are counted independently. Max 4 stacks."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric",
+						"Fire",
+						"Water"
+					],
+					"reco_level": 71,
+					"req_ar": 36,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2050,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_admonition",
+						"guide_to_admonition"
+					],
+					"ui_type": "UI_DungeonPic_XMCharacter01"
+				},
+				{
+					"hoyo_id": 4433,
+					"scene_id": 40753,
+					"reward_id": 23223,
+					"name_hash": 3726959256,
+					"name": "Domain of Mastery: Full Moon IV",
+					"type": "talent",
+					"city": "sumeru",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Full Moon",
+					"level": 4,
+					"effects_hash": [
+						312723018
+					],
+					"effects": [
+						"Dealing Elemental DMG increases the DMG dealt by all party members by 10% for 10s. Stacks triggered by different types of Elemental DMG are counted independently. Max 4 stacks."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric",
+						"Fire",
+						"Water"
+					],
+					"reco_level": 88,
+					"req_ar": 45,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2375,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_admonition",
+						"guide_to_admonition",
+						"philosophies_of_admonition"
+					],
+					"ui_type": "UI_DungeonPic_XMCharacter01"
+				}
+			],
+			[
+				{
+					"hoyo_id": 4440,
+					"scene_id": 40750,
+					"reward_id": 23240,
+					"name_hash": 1872077704,
+					"name": "Domain of Mastery: Witticism I",
+					"type": "talent",
+					"city": "sumeru",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Witticism",
+					"level": 1,
+					"effects_hash": [
+						312723018
+					],
+					"effects": [
+						"Dealing Elemental DMG increases the DMG dealt by all party members by 10% for 10s. Stacks triggered by different types of Elemental DMG are counted independently. Max 4 stacks."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric",
+						"Fire",
+						"Water"
+					],
+					"reco_level": 38,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1575,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_ingenuity"
+					],
+					"ui_type": "UI_DungeonPic_XMCharacter01"
+				},
+				{
+					"hoyo_id": 4441,
+					"scene_id": 40751,
+					"reward_id": 23241,
+					"name_hash": 2368414064,
+					"name": "Domain of Mastery: Witticism II",
+					"type": "talent",
+					"city": "sumeru",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Witticism",
+					"level": 2,
+					"effects_hash": [
+						312723018
+					],
+					"effects": [
+						"Dealing Elemental DMG increases the DMG dealt by all party members by 10% for 10s. Stacks triggered by different types of Elemental DMG are counted independently. Max 4 stacks."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric",
+						"Fire",
+						"Water"
+					],
+					"reco_level": 54,
+					"req_ar": 28,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1800,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_ingenuity",
+						"guide_to_ingenuity"
+					],
+					"ui_type": "UI_DungeonPic_XMCharacter01"
+				},
+				{
+					"hoyo_id": 4442,
+					"scene_id": 40752,
+					"reward_id": 23242,
+					"name_hash": 102733296,
+					"name": "Domain of Mastery: Witticism III",
+					"type": "talent",
+					"city": "sumeru",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Witticism",
+					"level": 3,
+					"effects_hash": [
+						312723018
+					],
+					"effects": [
+						"Dealing Elemental DMG increases the DMG dealt by all party members by 10% for 10s. Stacks triggered by different types of Elemental DMG are counted independently. Max 4 stacks."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric",
+						"Fire",
+						"Water"
+					],
+					"reco_level": 71,
+					"req_ar": 36,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2050,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_ingenuity",
+						"guide_to_ingenuity"
+					],
+					"ui_type": "UI_DungeonPic_XMCharacter01"
+				},
+				{
+					"hoyo_id": 4443,
+					"scene_id": 40753,
+					"reward_id": 23243,
+					"name_hash": 867878744,
+					"name": "Domain of Mastery: Witticism IV",
+					"type": "talent",
+					"city": "sumeru",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Witticism",
+					"level": 4,
+					"effects_hash": [
+						312723018
+					],
+					"effects": [
+						"Dealing Elemental DMG increases the DMG dealt by all party members by 10% for 10s. Stacks triggered by different types of Elemental DMG are counted independently. Max 4 stacks."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric",
+						"Fire",
+						"Water"
+					],
+					"reco_level": 88,
+					"req_ar": 45,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2375,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_ingenuity",
+						"guide_to_ingenuity",
+						"philosophies_of_ingenuity"
+					],
+					"ui_type": "UI_DungeonPic_XMCharacter01"
+				}
+			],
+			[
+				{
+					"hoyo_id": 4450,
+					"scene_id": 40750,
+					"reward_id": 23260,
+					"name_hash": 1539147336,
+					"name": "Domain of Mastery: Basket of Discipline I",
+					"type": "talent",
+					"city": "sumeru",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Basket of Discipline",
+					"level": 1,
+					"effects_hash": [
+						312723018
+					],
+					"effects": [
+						"Dealing Elemental DMG increases the DMG dealt by all party members by 10% for 10s. Stacks triggered by different types of Elemental DMG are counted independently. Max 4 stacks."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric",
+						"Fire",
+						"Water"
+					],
+					"reco_level": 38,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1575,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_praxis"
+					],
+					"ui_type": "UI_DungeonPic_XMCharacter01"
+				},
+				{
+					"hoyo_id": 4451,
+					"scene_id": 40751,
+					"reward_id": 23261,
+					"name_hash": 1457800160,
+					"name": "Domain of Mastery: Basket of Discipline II",
+					"type": "talent",
+					"city": "sumeru",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Basket of Discipline",
+					"level": 2,
+					"effects_hash": [
+						312723018
+					],
+					"effects": [
+						"Dealing Elemental DMG increases the DMG dealt by all party members by 10% for 10s. Stacks triggered by different types of Elemental DMG are counted independently. Max 4 stacks."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric",
+						"Fire",
+						"Water"
+					],
+					"reco_level": 54,
+					"req_ar": 28,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1800,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"teachings_of_praxis",
+						"guide_to_praxis"
+					],
+					"ui_type": "UI_DungeonPic_XMCharacter01"
+				},
+				{
+					"hoyo_id": 4452,
+					"scene_id": 40752,
+					"reward_id": 23262,
+					"name_hash": 3850431592,
+					"name": "Domain of Mastery: Basket of Discipline III",
+					"type": "talent",
+					"city": "sumeru",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Basket of Discipline",
+					"level": 3,
+					"effects_hash": [
+						312723018
+					],
+					"effects": [
+						"Dealing Elemental DMG increases the DMG dealt by all party members by 10% for 10s. Stacks triggered by different types of Elemental DMG are counted independently. Max 4 stacks."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric",
+						"Fire",
+						"Water"
+					],
+					"reco_level": 71,
+					"req_ar": 36,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2050,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_praxis",
+						"guide_to_praxis"
+					],
+					"ui_type": "UI_DungeonPic_XMCharacter01"
+				},
+				{
+					"hoyo_id": 4453,
+					"scene_id": 40753,
+					"reward_id": 23263,
+					"name_hash": 3456444968,
+					"name": "Domain of Mastery: Basket of Discipline IV",
+					"type": "talent",
+					"city": "sumeru",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Basket of Discipline",
+					"level": 4,
+					"effects_hash": [
+						312723018
+					],
+					"effects": [
+						"Dealing Elemental DMG increases the DMG dealt by all party members by 10% for 10s. Stacks triggered by different types of Elemental DMG are counted independently. Max 4 stacks."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric",
+						"Fire",
+						"Water"
+					],
+					"reco_level": 88,
+					"req_ar": 45,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2375,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"teachings_of_praxis",
+						"guide_to_praxis",
+						"philosophies_of_praxis"
+					],
+					"ui_type": "UI_DungeonPic_XMCharacter01"
+				}
+			]
+		]
+	},
+	{
+		"hoyo_id": 21,
+		"scene_id": 3,
+		"entry_id": 509,
+		"name_hash": 869152675,
+		"desc_hash": 1711971481,
+		"name": "Tower of Abject Pride",
+		"desc": "It is said that the deserts were once home to three sage-kings, one of whom remained lovely and wise till the very end. They parted ways eventually for the sake of the paradise they sought in their hearts.\\nThis place is called a \"tower,\" but in truth was the temporary residence of one of these people when they were building that earthly paradise. If one stretches the past back even further, it was once a small shrine built to avoid the wind and the sand.",
+		"type": "weapon",
+		"req_ar": 22,
+		"sub_domains": [
+			[
+				{
+					"hoyo_id": 4370,
+					"scene_id": 40754,
+					"reward_id": 23320,
+					"name_hash": 723849744,
+					"name": "Domain of Forgery: Tainted Clouds I",
+					"type": "weapon",
+					"city": "sumeru",
+					"days": [
+						"monday",
+						"thursday",
+						"sunday"
+					],
+					"sub_name": "Tainted Clouds",
+					"level": 1,
+					"effects_hash": [
+						4155430658
+					],
+					"effects": [
+						"When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric"
+					],
+					"reco_level": 15,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1125,
+						"companionship_exp": 10
+					},
+					"special_items": [
+						"copper_talisman_of_the_forest_dew"
+					],
+					"ui_type": "UI_DungeonPic_XMWeapon01"
+				},
+				{
+					"hoyo_id": 4371,
+					"scene_id": 40755,
+					"reward_id": 23321,
+					"name_hash": 1718740824,
+					"name": "Domain of Forgery: Tainted Clouds II",
+					"type": "weapon",
+					"city": "sumeru",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Tainted Clouds",
+					"level": 2,
+					"effects_hash": [
+						4155430658
+					],
+					"effects": [
+						"When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric"
+					],
+					"reco_level": 36,
+					"req_ar": 21,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1550,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"copper_talisman_of_the_forest_dew",
+						"iron_talisman_of_the_forest_dew"
+					],
+					"ui_type": "UI_DungeonPic_XMWeapon01"
+				},
+				{
+					"hoyo_id": 4372,
+					"scene_id": 40756,
+					"reward_id": 23322,
+					"name_hash": 3296431224,
+					"name": "Domain of Forgery: Tainted Clouds III",
+					"type": "weapon",
+					"city": "sumeru",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Tainted Clouds",
+					"level": 3,
+					"effects_hash": [
+						4155430658
+					],
+					"effects": [
+						"When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric"
+					],
+					"reco_level": 59,
+					"req_ar": 30,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1850,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"copper_talisman_of_the_forest_dew",
+						"iron_talisman_of_the_forest_dew",
+						"silver_talisman_of_the_forest_dew"
+					],
+					"ui_type": "UI_DungeonPic_XMWeapon01"
+				},
+				{
+					"hoyo_id": 4373,
+					"scene_id": 40757,
+					"reward_id": 23323,
+					"name_hash": 2756262000,
+					"name": "Domain of Forgery: Tainted Clouds IV",
+					"type": "weapon",
+					"city": "sumeru",
+					"days": [
+						"sunday",
+						"monday",
+						"thursday"
+					],
+					"sub_name": "Tainted Clouds",
+					"level": 4,
+					"effects_hash": [
+						4155430658
+					],
+					"effects": [
+						"When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric"
+					],
+					"reco_level": 80,
+					"req_ar": 40,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2200,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"copper_talisman_of_the_forest_dew",
+						"iron_talisman_of_the_forest_dew",
+						"silver_talisman_of_the_forest_dew",
+						"golden_talisman_of_the_forest_dew"
+					],
+					"ui_type": "UI_DungeonPic_XMWeapon01"
+				}
+			],
+			[
+				{
+					"hoyo_id": 4374,
+					"scene_id": 40754,
+					"reward_id": 23340,
+					"name_hash": 2826607680,
+					"name": "Domain of Forgery: Obsession I",
+					"type": "weapon",
+					"city": "sumeru",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Obsession",
+					"level": 1,
+					"effects_hash": [
+						4155430658
+					],
+					"effects": [
+						"When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric"
+					],
+					"reco_level": 15,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1125,
+						"companionship_exp": 10
+					},
+					"special_items": [
+						"oasis_gardens_reminiscence"
+					],
+					"ui_type": "UI_DungeonPic_XMWeapon01"
+				},
+				{
+					"hoyo_id": 4375,
+					"scene_id": 40755,
+					"reward_id": 23341,
+					"name_hash": 1697252840,
+					"name": "Domain of Forgery: Obsession II",
+					"type": "weapon",
+					"city": "sumeru",
+					"days": [
+						"tuesday",
+						"friday",
+						"sunday"
+					],
+					"sub_name": "Obsession",
+					"level": 2,
+					"effects_hash": [
+						4155430658
+					],
+					"effects": [
+						"When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric"
+					],
+					"reco_level": 36,
+					"req_ar": 21,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1550,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"oasis_gardens_reminiscence",
+						"oasis_gardens_kindness"
+					],
+					"ui_type": "UI_DungeonPic_XMWeapon01"
+				},
+				{
+					"hoyo_id": 4376,
+					"scene_id": 40756,
+					"reward_id": 23342,
+					"name_hash": 2806782208,
+					"name": "Domain of Forgery: Obsession III",
+					"type": "weapon",
+					"city": "sumeru",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Obsession",
+					"level": 3,
+					"effects_hash": [
+						4155430658
+					],
+					"effects": [
+						"When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric"
+					],
+					"reco_level": 59,
+					"req_ar": 30,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1850,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"oasis_gardens_reminiscence",
+						"oasis_gardens_kindness",
+						"oasis_gardens_mourning"
+					],
+					"ui_type": "UI_DungeonPic_XMWeapon01"
+				},
+				{
+					"hoyo_id": 4377,
+					"scene_id": 40757,
+					"reward_id": 23343,
+					"name_hash": 931368568,
+					"name": "Domain of Forgery: Obsession IV",
+					"type": "weapon",
+					"city": "sumeru",
+					"days": [
+						"sunday",
+						"tuesday",
+						"friday"
+					],
+					"sub_name": "Obsession",
+					"level": 4,
+					"effects_hash": [
+						4155430658
+					],
+					"effects": [
+						"When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric"
+					],
+					"reco_level": 80,
+					"req_ar": 40,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2200,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"oasis_gardens_reminiscence",
+						"oasis_gardens_kindness",
+						"oasis_gardens_mourning",
+						"oasis_gardens_truth"
+					],
+					"ui_type": "UI_DungeonPic_XMWeapon01"
+				}
+			],
+			[
+				{
+					"hoyo_id": 4378,
+					"scene_id": 40754,
+					"reward_id": 23360,
+					"name_hash": 3786253616,
+					"name": "Domain of Forgery: Leading Karma I",
+					"type": "weapon",
+					"city": "sumeru",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Leading Karma",
+					"level": 1,
+					"effects_hash": [
+						4155430658
+					],
+					"effects": [
+						"When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric"
+					],
+					"reco_level": 15,
+					"req_ar": 1,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1125,
+						"companionship_exp": 10
+					},
+					"special_items": [
+						"echo_of_scorching_might"
+					],
+					"ui_type": "UI_DungeonPic_XMWeapon01"
+				},
+				{
+					"hoyo_id": 4379,
+					"scene_id": 40755,
+					"reward_id": 23361,
+					"name_hash": 695032120,
+					"name": "Domain of Forgery: Leading Karma II",
+					"type": "weapon",
+					"city": "sumeru",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Leading Karma",
+					"level": 2,
+					"effects_hash": [
+						4155430658
+					],
+					"effects": [
+						"When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric"
+					],
+					"reco_level": 36,
+					"req_ar": 21,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1550,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"echo_of_scorching_might",
+						"remnant_glow_of_scorching_might"
+					],
+					"ui_type": "UI_DungeonPic_XMWeapon01"
+				},
+				{
+					"hoyo_id": 4380,
+					"scene_id": 40756,
+					"reward_id": 23362,
+					"name_hash": 1055861080,
+					"name": "Domain of Forgery: Leading Karma III",
+					"type": "weapon",
+					"city": "sumeru",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Leading Karma",
+					"level": 3,
+					"effects_hash": [
+						4155430658
+					],
+					"effects": [
+						"When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric"
+					],
+					"reco_level": 59,
+					"req_ar": 30,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 1850,
+						"companionship_exp": 15
+					},
+					"special_items": [
+						"echo_of_scorching_might",
+						"remnant_glow_of_scorching_might",
+						"dream_of_scorching_might"
+					],
+					"ui_type": "UI_DungeonPic_XMWeapon01"
+				},
+				{
+					"hoyo_id": 4381,
+					"scene_id": 40757,
+					"reward_id": 23363,
+					"name_hash": 1067990592,
+					"name": "Domain of Forgery: Leading Karma IV",
+					"type": "weapon",
+					"city": "sumeru",
+					"days": [
+						"wednesday",
+						"saturday",
+						"sunday"
+					],
+					"sub_name": "Leading Karma",
+					"level": 4,
+					"effects_hash": [
+						4155430658
+					],
+					"effects": [
+						"When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken."
+					],
+					"reco_types": [
+						"Grass",
+						"Electric"
+					],
+					"reco_level": 80,
+					"req_ar": 40,
+					"rewards": {
+						"adventure_exp": 100,
+						"mora": 2200,
+						"companionship_exp": 20
+					},
+					"special_items": [
+						"echo_of_scorching_might",
+						"remnant_glow_of_scorching_might",
+						"dream_of_scorching_might",
+						"olden_days_of_scorching_might"
+					],
+					"ui_type": "UI_DungeonPic_XMWeapon01"
+				}
+			]
+		]
 	}
 ]

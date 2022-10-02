@@ -797,6 +797,106 @@
 			}
 		]
 	},
+	"minty_bean_soup": {
+		"hoyo_id": 1301,
+		"name_hash": 1101682256,
+		"desc_hash": 1984266282,
+		"rarity": 1,
+		"type": "heal",
+		"cook_method": "steam",
+		"proficiency": 5,
+		"name": "Minty Bean Soup",
+		"desc": "A rich soup made with simple ingredients. Mints and beans were boiled and ground together to get a smooth texture. The soup was then left on low heat till it thickened. Finally, some beans and mints were sprinkled on the top. This refreshing delicacy tastes equally good whether served hot or cold.",
+		"ingredients": {
+			"glabrous_beans": 2,
+			"mint": 2
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108412,
+				"name_hash": 1867798084,
+				"desc_hash": 1177503773,
+				"type_hash": 874659734,
+				"name": "Suspicious Minty Bean Soup",
+				"desc": "A rich soup made with simple ingredients. Due to an excess of water, the soup tastes more like a beverage than a proper dish. Why not add some ice and turn it into a bowl of Minty Bean Water, then?",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 1
+			},
+			{
+				"hoyo_id": 108413,
+				"name_hash": 956249796,
+				"desc_hash": 2364373373,
+				"type_hash": 677476390,
+				"name": "Minty Bean Soup",
+				"desc": "A rich soup made with simple ingredients. Mints and beans were boiled and ground together to get a smooth texture. The soup was then left on low heat till it thickened. Finally, some beans and mints were sprinkled on the top. This refreshing delicacy tastes equally good whether served hot or cold.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 1
+			},
+			{
+				"hoyo_id": 108414,
+				"name_hash": 679219140,
+				"desc_hash": 1821920813,
+				"type_hash": 2108187590,
+				"name": "Delicious Minty Bean Soup",
+				"desc": "A rich soup made with simple ingredients. The smooth texture caresses your taste buds, filling your mouth with the refreshing scent of beans and mints. The unadorned yet pleasant flavor reminds you of a leisurely walk in the shade. Who can refuse such simple delight?",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 1
+			}
+		]
+	},
+	"lambad_fish_roll": {
+		"hoyo_id": 1302,
+		"name_hash": 1937733632,
+		"desc_hash": 1645492386,
+		"rarity": 1,
+		"type": "heal",
+		"cook_method": "steam",
+		"proficiency": 5,
+		"name": "Lambad Fish Roll",
+		"desc": "A grilled fish dish with a faint floral scent. It is said that Lambad once adventured far and wide in his youth. Everywhere he went, he would taste the grilled fish at local taverns. Lambad found it regrettable that this dish was not widely available in Sumeru, so he invented his own fish roll. According to the people who often dine at his tavern, the tales of his adventures aren't necessarily true, but his fish roll is undoubtedly delicious.",
+		"ingredients": {
+			"fish": 1,
+			"sumeru_rose": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108421,
+				"name_hash": 335067948,
+				"desc_hash": 1498423221,
+				"type_hash": 1840871886,
+				"name": "Suspicious Lambad Fish Roll",
+				"desc": "A grilled fish dish with a faint floral scent. Oh dearie me. The rank smell of fish and the stench of charred meat are the most telling signs of your terrible skills. Take the dish away before Lambad sees it, or he might make you pay twice as much for your next order.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 1
+			},
+			{
+				"hoyo_id": 108422,
+				"name_hash": 1739427132,
+				"desc_hash": 977314957,
+				"type_hash": 482390270,
+				"name": "Lambad Fish Roll",
+				"desc": "A grilled fish dish with a faint floral scent. It is said that Lambad once adventured far and wide in his youth. Everywhere he went, he would taste the grilled fish at local taverns. This dish was not a signature food in Sumeru, and Lambad thought it was a pity, so he invented his own fish roll. According to the gourmets who often dine at his tavern, the tales of his adventures aren't necessarily true, but his fish roll is undoubtedly delicious.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 1
+			},
+			{
+				"hoyo_id": 108423,
+				"name_hash": 41482436,
+				"desc_hash": 425243877,
+				"type_hash": 191193670,
+				"name": "Delicious Lambad Fish Roll",
+				"desc": "A grilled fish dish with a faint floral scent. The rolling golden fish meat and fragrant rose petals remind you of the billowing waves on the sea surface, colored crimson by the setting sun. You see why the dish is also called \"the Romance of Sailors.\" W\u2014Wait just a minute! Does this mean that Lambad's adventure stories are not exaggerated after all?",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 1
+			}
+		]
+	},
 	"flaming_red_bolognese": {
 		"hoyo_id": 2001,
 		"name_hash": 3826793904,
@@ -2518,6 +2618,415 @@
 				"type_hash": 3535001374,
 				"name": "Delicious Katsu Sandwich",
 				"desc": "A nutritionally-balanced meal. The fragrant and fluffy bread fills you right up, while the crispy, juicy katsu titillates the senses. One single bite is all it takes to fill you from tongue to gut with satisfaction. Now then, who was the one who first thought of this brilliant combination?",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			}
+		]
+	},
+	"shawarma_wrap": {
+		"hoyo_id": 2301,
+		"name_hash": 2699885576,
+		"desc_hash": 3424003242,
+		"rarity": 2,
+		"type": "attack",
+		"cook_method": "fry",
+		"proficiency": 10,
+		"name": "Shawarma Wrap",
+		"desc": "A wrap filled with roasted meat. Meat shaved off a vertical skewer is wrapped in a flatbread together with vegetables and sauces. Plate it up, and a simple yet delicious Sumeru street food is ready.",
+		"ingredients": {
+			"raw_meat": 2,
+			"flour": 2,
+			"spice": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108394,
+				"name_hash": 711677804,
+				"desc_hash": 3083388941,
+				"type_hash": 2472974958,
+				"name": "Suspicious Shawarma Wrap",
+				"desc": "A wrap filled with roasted meat. The meat has been burnt as dark as charcoal. One may officially declare the dish to be hopeless, no matter how one might perfect the pastry shell... Carelessness, it seems, is always an awful ingredient for making food.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108395,
+				"name_hash": 1322070356,
+				"desc_hash": 416208717,
+				"type_hash": 2882823710,
+				"name": "Shawarma Wrap",
+				"desc": "A wrap filled with roasted meat. Meat shaved off the vertical skewer is wrapped in a flatbread together with vegetables and sauces. Plate it up, and a simple yet delicious Sumeru street food is ready.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108396,
+				"name_hash": 2332834860,
+				"desc_hash": 457576757,
+				"type_hash": 1735966302,
+				"name": "Delicious Shawarma Wrap",
+				"desc": "A wrap filled with roasted meat. On the thin, soft flatbread lies the tender meat covered in a crispy exterior, and the flavor is enriched by spices and balanced by vegetables. A small mouthful is enough to please one's picky taste buds. Eat carefully, now! You don't want to miss out on a single drop of the juice.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			}
+		]
+	},
+	"selva_salad": {
+		"hoyo_id": 2302,
+		"name_hash": 2523195728,
+		"desc_hash": 1715925842,
+		"rarity": 2,
+		"type": "stamina",
+		"cook_method": "fry",
+		"proficiency": 10,
+		"name": "Selva Salad",
+		"desc": "An Aranara-style salad that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. Fresh and crispy Zaytun Peach slices are mixed with gently-squeezed Sumeru Roses, which adds a touch of distinctive flavor. Mint is used instead of sugar to avoid getting a sickening sweetness. A refreshing dish that pleases both the eyes and the nose.",
+		"ingredients": {
+			"zaytun_peach": 2,
+			"mint": 2,
+			"sumeru_rose": 2
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108397,
+				"name_hash": 3036370124,
+				"desc_hash": 3884327693,
+				"type_hash": 3585828414,
+				"name": "Suspicious Selva Salad",
+				"desc": "An Aranara-style salad that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. Ripe \u2014 \"slightly fermented\" to be more precise \u2014 Zaytun Peaches give off a bizarre smell. And this is to say nothing of the disproportionate use of mints and roses...",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108398,
+				"name_hash": 847961820,
+				"desc_hash": 4160701765,
+				"type_hash": 1536741854,
+				"name": "Selva Salad",
+				"desc": "An Aranara-style salad that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. Fresh and crispy Zaytun Peach slices are mixed with gently-squeezed Sumeru Roses, which adds a touch of distinctive flavor. Mint is used instead of sugar to avoid getting a sickening sweetness. A refreshing dish that pleases both the eyes and the nose.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108399,
+				"name_hash": 4161378740,
+				"desc_hash": 1436031669,
+				"type_hash": 3140102110,
+				"name": "Delicious Selva Salad",
+				"desc": "An Aranara-style salad that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. Crispy and juicy Zaytun Peaches are served with fresh mints and blooming roses. This delicacy tastes refreshingly sweet and feels pleasantly cool on the tongue \u2014 This must be \"the Taste of Happiness,\" as Aranara say.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			}
+		]
+	},
+	"masala_cheese_balls": {
+		"hoyo_id": 2303,
+		"name_hash": 3208834128,
+		"desc_hash": 2893781074,
+		"rarity": 2,
+		"type": "attack",
+		"cook_method": "fry",
+		"proficiency": 10,
+		"name": "Masala Cheese Balls",
+		"desc": "An Aranara-style dish that Paimon has drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. The freshly cooked cheese balls give off a titillating aroma, for a special technique has been used to mix the spices into the dough. A small bite and you will see hot cheese oozing out immediately. Served with potatoes that were simmered until tender. This creamy combination will keep you full for a long time.",
+		"ingredients": {
+			"potato": 2,
+			"cheese": 1,
+			"spice": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108400,
+				"name_hash": 294779564,
+				"desc_hash": 2484597405,
+				"type_hash": 1292310606,
+				"name": "Suspicious Masala Cheese Balls",
+				"desc": "An Aranara-style dish that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. The cheese balls are under-cooked, and as a result, you got a mouthful of half-melted cheese and coarse potato chunks. Fry it for a while longer next time, would you?",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108401,
+				"name_hash": 1869149796,
+				"desc_hash": 3201658997,
+				"type_hash": 4088877550,
+				"name": "Masala Cheese Balls",
+				"desc": "An Aranara-style dish that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. The freshly cooked cheese balls give off a titillating aroma, for a special technique has been used to mix the spices into the dough. A small bite and you will see hot cheese oozing out immediately. Also, potatoes have been stewed till they softened properly. This creamy combination will keep you full for a long time.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108402,
+				"name_hash": 1515618836,
+				"desc_hash": 261079621,
+				"type_hash": 2821250934,
+				"name": "Delicious Masala Cheese Balls",
+				"desc": "An Aranara-style dish that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. The spices were mixed with the other ingredients in a special way to bring out the most original scents. They awaken your taste buds and create a multi-layered flavor profile. The cheese balls are crispy on the outside and soft on the inside. They go deliciously well with steamy hot potatoes.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			}
+		]
+	},
+	"mushroom_hodgepodge": {
+		"hoyo_id": 2304,
+		"name_hash": 1785068096,
+		"desc_hash": 1992448458,
+		"rarity": 2,
+		"type": "defense",
+		"cook_method": "fry",
+		"proficiency": 10,
+		"name": "Mushroom Hodgepodge",
+		"desc": "An Aranara-style dish that Paimon has drained her brain juice dry to improve. But in fact, it only requires a few common mushrooms from Sumeru, along with some extra seasonings. Paimon selected three types of mushrooms, and they were prepared and then cooked in a simple way, but the texture and flavor aren't bad at all.",
+		"ingredients": {
+			"rukkhashava_mushrooms": 1,
+			"mushroom": 1,
+			"starshroom": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108403,
+				"name_hash": 2451409796,
+				"desc_hash": 489365517,
+				"type_hash": 182429502,
+				"name": "Suspicious Mushroom Hodgepodge",
+				"desc": "An Aranara-style dish that Paimon drained her brain juice dry to improve. But in fact, it only requires a few common mushrooms from Sumeru, along with some extra seasonings. As for its flavor, you'd believe you've tasted the wildness of nature \u2014 ahem, \"the scent of the remaining heaps of dirt\" is probably the more accurate description though. Such bounties of the mountains and forests are best left for the boars to savor.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108404,
+				"name_hash": 81624700,
+				"desc_hash": 1544267765,
+				"type_hash": 1466835302,
+				"name": "Mushroom Hodgepodge",
+				"desc": "An Aranara-style dish that Paimon has drained her brain juice dry to improve. But in fact, it only requires a few common mushrooms from Sumeru, along with some extra seasonings. Paimon selected three types of mushrooms, and they were prepared and then cooked in a simple way, but the texture and flavor aren't bad at all.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108405,
+				"name_hash": 696014084,
+				"desc_hash": 2433357525,
+				"type_hash": 3032521102,
+				"name": "Delicious Mushroom Hodgepodge",
+				"desc": "An Aranara-style dish that Paimon drained her brain juice dry to improve. But in fact, it only requires a few common mushrooms from Sumeru, along with some extra seasonings. The heat and cooking time have been adjusted to preserve the distinctive flavors of three different types of mushrooms. Depending on one's preference, they can either be eaten together or one at a time to study the subtly varying flavors.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			}
+		]
+	},
+	"panipuri": {
+		"hoyo_id": 2305,
+		"name_hash": 704704144,
+		"desc_hash": 628410298,
+		"rarity": 2,
+		"type": "heal",
+		"cook_method": "fry",
+		"proficiency": 10,
+		"name": "Panipuri",
+		"desc": "An appetizer served with a green dipping sauce. The crispy balls are first deep-fried, then stuffed with a delicious filling through a hole on the top. The bite-sized snack is a common street food in Sumeru.",
+		"ingredients": {
+			"potato": 2,
+			"glabrous_beans": 2,
+			"spice": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108409,
+				"name_hash": 2159162684,
+				"desc_hash": 254848685,
+				"type_hash": 2175829294,
+				"name": "Suspicious Panipuri",
+				"desc": "A delicacy served with dipping sauce. The green sauce gives off a slightly unusual smell, and its color looks a bit off... Maybe it is a good idea to forget about the sauce and directly go for the panipuri balls.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108410,
+				"name_hash": 2344869668,
+				"desc_hash": 462806341,
+				"type_hash": 4000526614,
+				"name": "Panipuri",
+				"desc": "An appetizer served with a green dipping sauce. The crispy balls are first deep-fried, then stuffed with a delicious filling through a hole on the top. The bite-sized snack is a common street food in Sumeru.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108411,
+				"name_hash": 1304596556,
+				"desc_hash": 2681331165,
+				"type_hash": 2459153150,
+				"name": "Delicious Panipuri",
+				"desc": "A delicacy that is served with dipping sauce. The round panipuri balls remind you of Slimes. Anticipate the mysterious, bright-colored juice within, and bring it to your mouth \u2014 the coolness, sourness, and tingling sensations are bouncing freely on your tongue as if someone has ignited a stick of dreamy dynamite. No wonder that some people in Sumeru are so obsessed with it...",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			}
+		]
+	},
+	"curry_shrimp": {
+		"hoyo_id": 2306,
+		"name_hash": 2570176080,
+		"desc_hash": 1456904450,
+		"rarity": 2,
+		"type": "heal",
+		"cook_method": "fry",
+		"proficiency": 10,
+		"name": "Curry Shrimp",
+		"desc": "A common household dish in Sumeru. The shrimps are first boiled until chewy, then added into the curry broth. The perfect blend of savory curry and flavors from the ocean is enough to make one's stomach growl. Though it's a common household dish, almost every family seems to have made their own variations to the recipe. Perhaps one could say that for every Sumeru household, there'll be a different version of curry shrimp.",
+		"ingredients": {
+			"shrimp_meat": 3,
+			"onion": 2,
+			"spice": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108424,
+				"name_hash": 4166984124,
+				"desc_hash": 2512065877,
+				"type_hash": 875496422,
+				"name": "Suspicious Curry Shrimp",
+				"desc": "A simple, common dish in Sumeru. You can smell curry... though it stings your nose. After looking inside the squishy mess, you finally find a malnourished shrimp. Yes, this is curry shrimp for sure... But should you really give it a try?",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108425,
+				"name_hash": 1674815300,
+				"desc_hash": 20777485,
+				"type_hash": 1540650406,
+				"name": "Curry Shrimp",
+				"desc": "A common household dish in Sumeru. The shrimps are first boiled until chewy, then added into the curry broth. The perfect blend of savory curry and flavors from the ocean is enough to make one's stomach growl. Though it's a common household dish, almost every family seems to have made their own variations to the recipe. Perhaps one could say that for every Sumeru household, there'll be a different version of curry shrimp.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108426,
+				"name_hash": 14959548,
+				"desc_hash": 754719861,
+				"type_hash": 3973396174,
+				"name": "Delicious Curry Shrimp",
+				"desc": "A simple, common dish in Sumeru. Big shrimps are dipped in a creamy sauce, absorbing its rich flavor. The passionate aroma easily finds its way into your nose. Even a person who claims to have lost their appetite will drool over it.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			}
+		]
+	},
+	"fish_with_cream_sauce": {
+		"hoyo_id": 2307,
+		"name_hash": 2299388224,
+		"desc_hash": 2954190794,
+		"rarity": 2,
+		"type": "heal",
+		"cook_method": "fry",
+		"proficiency": 10,
+		"name": "Fish With Cream Sauce",
+		"desc": "A fish served in sauce. Fresh fish filets were dried before pan-fried until crispy, then drizzled with a creamy white dressing and sprinkled with fresh mint. A unique dish that can be made through the simplest methods.",
+		"ingredients": {
+			"fish": 3,
+			"milk": 2,
+			"mint": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108433,
+				"name_hash": 3740385276,
+				"desc_hash": 2486228245,
+				"type_hash": 306845398,
+				"name": "Suspicious Fish With Cream Sauce",
+				"desc": "A fish dish served in sauce. The outside was burnt in searing hot oil. It is rather hard not to notice the sharp contrast between the charcoal-black fish and the milk-white sauce. Only the meat inside seems edible... Wait, what's with this sourness?",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108434,
+				"name_hash": 2734521596,
+				"desc_hash": 148835629,
+				"type_hash": 1868728862,
+				"name": "Fish With Cream Sauce",
+				"desc": "A fish served in sauce. Fresh fish filets were dried before pan-fried until crispy, then drizzled with a creamy white dressing and sprinkled with fresh mint. A unique dish that can be made through the simplest methods.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108435,
+				"name_hash": 4224572932,
+				"desc_hash": 2069093645,
+				"type_hash": 4280256542,
+				"name": "Delicious Fish With Cream Sauce",
+				"desc": "A fish dish served in sauce. The translucent fillet lies upon exquisite cream sauce. With only a small mouthful, one might even see fish leaping on the sea surface.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			}
+		]
+	},
+	"aaru_mixed_rice": {
+		"hoyo_id": 2308,
+		"name_hash": 4111374096,
+		"desc_hash": 3207860082,
+		"rarity": 2,
+		"type": "stamina",
+		"cook_method": "fry",
+		"proficiency": 10,
+		"name": "Aaru Mixed Rice",
+		"desc": "A large serving of filling staple food. In this dish that combines rice, noodles, and beans together, the secret of great taste lies in the sweet and sour flavor imparted by tomatoes. Owing to its common nature and low price, this dish is a great choice for sating one's hunger \u2014 which is one of the key reasons why this recipe has spread from Aaru Village to the rest of Sumeru.",
+		"ingredients": {
+			"rice": 3,
+			"flour": 2,
+			"glabrous_beans": 2,
+			"tomato": 2
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108460,
+				"name_hash": 269185876,
+				"desc_hash": 2005228301,
+				"type_hash": 891974054,
+				"name": "Suspicious Aaru Mixed Rice",
+				"desc": "A large serving of filling staple food. In your hurry, you did not mix the various ingredients well before eating, resulting in a ridiculously thick tomato flavor on one side of the rice, and an utter blandness on the other... Best you mix it a bit better next time.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108461,
+				"name_hash": 3100644092,
+				"desc_hash": 3623661885,
+				"type_hash": 1784031782,
+				"name": "Aaru Mixed Rice",
+				"desc": "A large serving of filling staple food. In this dish that combines rice, noodles, and beans together, the secret of great taste lies in the sweet and sour flavor imparted by tomatoes. Owing to its common nature and low price, this dish is a great choice for sating one's hunger \u2014 which is one of the key reasons why this recipe has spread from Aaru Village to the rest of Sumeru.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 2
+			},
+			{
+				"hoyo_id": 108462,
+				"name_hash": 4257152076,
+				"desc_hash": 2301535677,
+				"type_hash": 2380474334,
+				"name": "Delicious Aaru Mixed Rice",
+				"desc": "A large serving of filling staple food. Each grain of rice is distinct and evenly coated in flavorful sauce as you spoon them into your mouth. No oily meats were used to make this dish, and yet its flavor is more alluring still. This dish stacks flavor like the endless dunes themselves, bringing a most unique satisfaction.",
 				"type": "ITEM_MATERIAL",
 				"type_desc": "Food",
 				"rarity": 2
@@ -5010,6 +5519,574 @@
 			}
 		]
 	},
+	"butter_chicken": {
+		"hoyo_id": 3301,
+		"name_hash": 3640787496,
+		"desc_hash": 4194205426,
+		"rarity": 3,
+		"type": "attack",
+		"cook_method": "boil",
+		"proficiency": 15,
+		"name": "Butter Chicken",
+		"desc": "A flavorful dish. Spice and chopped tomatoes were mixed with warm butter, and then cooked into a creamy sauce. Into it went marinated and pan-fried chicken pieces. People from Sumeru prefer eating the dish with rice or flatbread, which allows them to savor the dish's enticing flavor better.",
+		"ingredients": {
+			"fowl": 3,
+			"tomato": 3,
+			"butter": 1,
+			"spice": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108391,
+				"name_hash": 3842493988,
+				"desc_hash": 219835309,
+				"type_hash": 3678834094,
+				"name": "Suspicious Butter Chicken",
+				"desc": "A flavorful dish. The amount of seasoning was clearly miscalculated and the dish just tastes sickeningly heavy as a result. If you have it with a couple of glasses of water, perhaps you might manage to swallow some...",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108392,
+				"name_hash": 887076876,
+				"desc_hash": 2287112037,
+				"type_hash": 454952390,
+				"name": "Butter Chicken",
+				"desc": "A flavorful dish. Spice and chopped tomatoes were mixed with warm butter, and then cooked into a creamy sauce. Into it went marinated and pan-fried chicken pieces. People from Sumeru prefer eating the dish with rice or flatbread, which allows them to savor the dish's enticing flavor better.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108393,
+				"name_hash": 2949145252,
+				"desc_hash": 604763453,
+				"type_hash": 2152339326,
+				"name": "Delicious Butter Chicken",
+				"desc": "A flavorful dish. Juicy chicken is saturated with silky sauce. Every bite orchestrates an \"elemental symphony of flavors\"... Oops, before you even knew it, you had already emptied the plate. Dip the flatbread in the sauce \u2014 every last drop of this must go!",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			}
+		]
+	},
+	"pita_pocket": {
+		"hoyo_id": 3302,
+		"name_hash": 714581728,
+		"desc_hash": 449746114,
+		"rarity": 3,
+		"type": "heal",
+		"cook_method": "boil",
+		"proficiency": 15,
+		"name": "Pita Pocket",
+		"desc": "A bread with varied fillings. The flat dough has risen in the oven, reminding you of a lovely Pufferfish. The bread is usually cut in the middle into two separate \"pockets,\" hence the name, \"Pita Pocket.\" It is said that people of Sumeru used to dip the bread in sauce. But nowadays, people usually stuff the \"pockets\" with different fillings and then take big mouthfuls.",
+		"ingredients": {
+			"raw_meat": 3,
+			"flour": 3,
+			"tomato": 2,
+			"milk": 2
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108406,
+				"name_hash": 1336879868,
+				"desc_hash": 1327692333,
+				"type_hash": 616833718,
+				"name": "Suspicious Pita Pocket",
+				"desc": "A bread with varied fillings. The pastry shell feels like sand, and the firm fillings present an unpleasant color... Only a lost traveler who has been starving for days would willingly accept this Pita Pocket.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108407,
+				"name_hash": 2916334692,
+				"desc_hash": 3467747005,
+				"type_hash": 442123262,
+				"name": "Pita Pocket",
+				"desc": "A bread with varied fillings. The flat dough has puffed up in the oven, reminding you of a lovely Pufferfish. The bread is usually cut in the middle into two separate \"pockets,\" hence the name, \"Pita Pocket.\" It is said that people of Sumeru used to dip the bread in sauce. But nowadays, people usually stuff the \"pockets\" with different fillings and then take big mouthfuls.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108408,
+				"name_hash": 2577119340,
+				"desc_hash": 3843762061,
+				"type_hash": 1741577702,
+				"name": "Delicious Pita Pocket",
+				"desc": "A bread with varied fillings. Aromatic meat and crunchy vegetables are the leading actors of this big show. The sauce, or the \"gaffer,\" has expertly focused the limelight on their duet, while each \"pocket\" is full of surprises, just like a magician's bag.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			}
+		]
+	},
+	"tahchin": {
+		"hoyo_id": 3303,
+		"name_hash": 2535291960,
+		"desc_hash": 58565826,
+		"rarity": 3,
+		"type": "heal",
+		"cook_method": "boil",
+		"proficiency": 15,
+		"name": "Tahchin",
+		"desc": "A classic staple served in large quantities. Cooked rice is mixed with meat that was marinated in yogurt, then baked until its surface turns crispy. Don't forget to add a handful of Padisarah petals before serving! Both the rice and meat are enough to keep one's stomach full for a long time, making it a very popular dish at the Grand Bazaar.",
+		"ingredients": {
+			"rice": 4,
+			"fowl": 2,
+			"fish": 2,
+			"padisarah": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108418,
+				"name_hash": 3230303540,
+				"desc_hash": 206534405,
+				"type_hash": 2162580750,
+				"name": "Suspicious Tahchin",
+				"desc": "A classic rice dish served in large quantities. Its dark-colored shell looks rather suspicious. A bite into its hardened surface feels like a duel between the teeth and the food. For the sake of your poor teeth, you decide to only eat the fillings...",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108419,
+				"name_hash": 513139260,
+				"desc_hash": 1445057797,
+				"type_hash": 522614270,
+				"name": "Tahchin",
+				"desc": "A classic staple served in large quantities. Cooked rice is mixed with meat that was marinated in yogurt, then baked until its surface turns crispy. Don't forget to add a handful of Padisarah petals before serving! Both the rice and meat are enough to keep one's stomach full for a long time, making it a very popular dish at the Grand Bazaar.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108420,
+				"name_hash": 3172694604,
+				"desc_hash": 2773927029,
+				"type_hash": 167434382,
+				"name": "Delicious Tahchin",
+				"desc": "A classic rice dish served in large quantities. With the first bite, the crispy outside cracks with delightful crunching sounds. The second bite combines the soft and moist rice with juicy meat in your mouth. Then, the third bite brings in the Padisarah's fragrance... The last bite, however, leaves your heart empty. What a pity it is, that you are too full to continue this wondrous experience. Well then, why not have another serving tomorrow?",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			}
+		]
+	},
+	"potato_boat": {
+		"hoyo_id": 3304,
+		"name_hash": 1090250032,
+		"desc_hash": 3619304106,
+		"rarity": 3,
+		"type": "heal",
+		"cook_method": "boil",
+		"proficiency": 15,
+		"name": "Potato Boat",
+		"desc": "A baked appetizer. The potato was washed clean and then baked together with cheese and Rukkhashava Mushrooms. The dish guarantees an unmatched experience when eaten hot. This explains its popularity on the streets of Sumeru. Still, be careful not to burn your tongue.",
+		"ingredients": {
+			"potato": 4,
+			"rukkhashava_mushrooms": 2,
+			"cheese": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108430,
+				"name_hash": 2577214788,
+				"desc_hash": 2020583925,
+				"type_hash": 95182454,
+				"name": "Suspicious Potato Boat",
+				"desc": "A baked appetizer. The undercooked potato even has dirt on it... A failed attempt at cooking, it seems, and even the cheese that usually goes well with any other ingredients will not be able to save the day.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108431,
+				"name_hash": 2527593308,
+				"desc_hash": 2937741965,
+				"type_hash": 1846854038,
+				"name": "Potato Boat",
+				"desc": "A baked appetizer. The potato was washed clean and then baked together with cheese and Rukkhashava Mushrooms. The dish guarantees an unmatched experience when eaten hot. This explains its popularity on the streets of Sumeru. Still, be careful not to burn your tongue.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108432,
+				"name_hash": 324534828,
+				"desc_hash": 3196790901,
+				"type_hash": 1416117438,
+				"name": "Delicious Potato Boat",
+				"desc": "A baked appetizer. The oozing cheese flows forth like a golden river, carrying an alluring aroma into your mouth. Soon, you will be amazed by the freshness of the Rukkhashava Mushrooms and the softness of the potato. You can't help but wish that this leisurely and savory tour might last a little longer...",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			}
+		]
+	},
+	"sunset_berry_tea": {
+		"hoyo_id": 3305,
+		"name_hash": 3722265064,
+		"desc_hash": 3978968122,
+		"rarity": 3,
+		"type": "attack",
+		"cook_method": "boil",
+		"proficiency": 15,
+		"name": "Sunset Berry Tea",
+		"desc": "A fruity drink with a pleasantly sour taste. This scented tea gives off the pleasant aroma of fresh fruit. Its cold and refreshing taste is sure to dispel the stifling heat with each gulp.",
+		"ingredients": {
+			"sunsettia": 3,
+			"berry": 3,
+			"sugar": 2
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108442,
+				"name_hash": 2613928764,
+				"desc_hash": 2339039445,
+				"type_hash": 3494743478,
+				"name": "Suspicious Sunset Berry Tea",
+				"desc": "A fruity drink with a pleasantly sour taste. You added sugar to temper the sourness of the tea but accidentally lost control of the added quantity. What should have been a thirst-quenching beverage has now become a throat-clenching liquid. Water, let's have some more water...",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108443,
+				"name_hash": 338606156,
+				"desc_hash": 4097270245,
+				"type_hash": 1944458486,
+				"name": "Sunset Berry Tea",
+				"desc": "A fruity drink with a pleasantly sour taste. This scented tea gives off the pleasant aroma of fresh fruit. Its cold and refreshing taste is sure to dispel the stifling heat with each gulp.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108444,
+				"name_hash": 1231508,
+				"desc_hash": 779721149,
+				"type_hash": 2096078326,
+				"name": "Delicious Sunset Berry Tea",
+				"desc": "A fruity drink with a pleasantly sour taste. The redolence of tea carries your thoughts away. With one sip of this tea, you feel as if you are lazing in a flourishing orchard, tipsy in the gentle breeze that carries a fruity scent.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			}
+		]
+	},
+	"milky_mushroom_crisp_tower": {
+		"hoyo_id": 3306,
+		"name_hash": 3983682080,
+		"desc_hash": 105971922,
+		"rarity": 3,
+		"type": "heal",
+		"cook_method": "boil",
+		"proficiency": 15,
+		"name": "Milky Mushroom Crisp Tower",
+		"desc": "A crunchy appetizer that's baked with mushrooms and cheese on top of bread slices. A single whiff of its amazing smell is enough to fill one with anticipation. Give it a bite, and you'll experience a pleasant burst of sweetness.",
+		"ingredients": {
+			"flour": 4,
+			"mushroom": 3,
+			"cheese": 2,
+			"cream": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108445,
+				"name_hash": 3056050500,
+				"desc_hash": 2068381725,
+				"type_hash": 4140965726,
+				"name": "Suspicious Milky Mushroom Crisp Tower",
+				"desc": "A crunchy delicacy. From the sorry side of the dish, it is easy to tell that this dish has been left out here for some time \u2014 water loss has already dried up and hardened the bread slices. Biting into it makes your chin sore... Next time, do remember to eat it while it's still nice and fresh...",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108446,
+				"name_hash": 3942400012,
+				"desc_hash": 322924741,
+				"type_hash": 68911006,
+				"name": "Milky Mushroom Crisp Tower",
+				"desc": "A crunchy appetizer that's baked with mushrooms and cheese on top of bread slices. A single whiff of its amazing smell is enough to fill one with anticipation. Give it a bite, and you'll experience a pleasant burst of sweetness.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108447,
+				"name_hash": 1296715804,
+				"desc_hash": 3773004781,
+				"type_hash": 2068678510,
+				"name": "Delicious Milky Mushroom Crisp Tower",
+				"desc": "A crunchy delicacy. The faint creamy notes melt on your tongue as you munch on the succulent mushrooms and crispy bread. This unmatched sense of satisfaction somehow leaves you insatiable \u2014 you do not even hesitate to lick the bread crumbs off your fingertips.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			}
+		]
+	},
+	"baklava": {
+		"hoyo_id": 3307,
+		"name_hash": 2566334048,
+		"desc_hash": 1962380866,
+		"rarity": 3,
+		"type": "attack",
+		"cook_method": "bake",
+		"proficiency": 15,
+		"name": "Baklava",
+		"desc": "A traditional Sumeru dessert. This puff pastry contains chopped nuts and has been baked after having butter drizzled atop it \u2014 and not forgetting some syrup once it comes out of the oven. Some researchers will specially order this veritable \"fortress of sweetness\" to replenish their energies before an exam. This is also why this dish has great pride of place as the Akademiya's favorite dessert.",
+		"ingredients": {
+			"flour": 3,
+			"ajilenakh_nut": 2,
+			"butter": 2,
+			"sugar": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108451,
+				"name_hash": 850334836,
+				"desc_hash": 479925573,
+				"type_hash": 3710049134,
+				"name": "Suspicious Baklava",
+				"desc": "A traditional Sumeru dessert. The sickly sweetness explodes in your mouth like a bomb, leaving your teeth rattling in the wake of its saccharine shockwave. The appropriate amount of sweetness lifts the spirits, but too much of it becomes a terrible burden.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108452,
+				"name_hash": 1366126804,
+				"desc_hash": 1112862301,
+				"type_hash": 2385719886,
+				"name": "Baklava",
+				"desc": "A traditional Sumeru dessert. This puff pastry contains chopped nuts and has been baked after having butter drizzled atop it \u2014 and not forgetting some syrup once it comes out of the oven. Some researchers will specially order this veritable \"fortress of sweetness\" to replenish their energies before an exam. This is also why this dish has great pride of place as the Akademiya's favorite dessert.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108453,
+				"name_hash": 2454682036,
+				"desc_hash": 2582565853,
+				"type_hash": 3262066334,
+				"name": "Delicious Baklava",
+				"desc": "A traditional Sumeru dessert. A certain researcher once said that the people of Sumeru can be split into two categories. Those who eat desserts to live, and those who live to eat desserts. The thin puff pastry layers of this dish, and the bone-piercing aroma of butter and honey, may yet consign all who taste it into the second camp.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			}
+		]
+	},
+	"candied_ajilenakh_nut": {
+		"hoyo_id": 3308,
+		"name_hash": 3411799560,
+		"desc_hash": 685728634,
+		"rarity": 3,
+		"type": "defense",
+		"cook_method": "bake",
+		"proficiency": 15,
+		"name": "Candied Ajilenakh Nut",
+		"desc": "A rich dessert. First, the syrup is boiled till clear, then mixed with fillings and sesame paste from Sumeru. Then at last, the evenly-mixed syrup is poured into a mold and allowed to solidify into this crunchy form. It is said that the cold lands of Snezhnaya are a host to a similar dish, with a slightly different flavor profile. Of course, both sides naturally believe theirs to be the greatest in all Teyvat.",
+		"ingredients": {
+			"ajilenakh_nut": 4,
+			"almond": 2,
+			"butter": 2,
+			"sumeru_rose": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108454,
+				"name_hash": 1006064108,
+				"desc_hash": 543750293,
+				"type_hash": 3246756414,
+				"name": "Suspicious Candied Ajilenakh Nut",
+				"desc": "A rich dessert. The hard nut is almost like a stone lying hidden in the sand, waiting to strike. Sweetness brings happiness, yes, but the feeling of the hard bits stuck between your teeth rather ruins it by half.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108455,
+				"name_hash": 887066316,
+				"desc_hash": 3497409333,
+				"type_hash": 2593963558,
+				"name": "Candied Ajilenakh Nut",
+				"desc": "A rich dessert. First, the syrup is boiled till clear, then mixed with fillings and sesame paste from Sumeru. Then at last, the evenly-mixed syrup is poured into a mold and allowed to solidify into this crunchy form. It is said that the cold lands of Snezhnaya are a host to a similar dish, with a slightly different flavor profile. Of course, both sides naturally believe theirs to be the greatest in all Teyvat.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108456,
+				"name_hash": 503331460,
+				"desc_hash": 3057820917,
+				"type_hash": 2319421446,
+				"name": "Delicious Candied Ajilenakh Nut",
+				"desc": "A rich dessert. The syrup itself melts upon contact with your mouth, revealing the nut like a gem swathed in velvet, layer leading on to layer of joy. One small bite, and it is as if you are soaked in a tub of silken sweetness. Why, you really, really must make a few pieces more next time!",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			}
+		]
+	},
+	"padisarah_pudding": {
+		"hoyo_id": 3309,
+		"name_hash": 552629048,
+		"desc_hash": 4283290522,
+		"rarity": 3,
+		"type": "stamina",
+		"cook_method": "steam",
+		"proficiency": 15,
+		"name": "Padisarah Pudding",
+		"desc": "A popular dessert in Sumeru. Juices are squeezed from the petals of Padisarahs and Sumeru Roses before being mixed with milk, gelatin, sugar, and other ingredients, and then left to solidify. Cute appearance and sweet flavor make it a common sight at celebratory events in Sumeru.",
+		"ingredients": {
+			"padisarah": 2,
+			"sumeru_rose": 1,
+			"milk": 1,
+			"sugar": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108457,
+				"name_hash": 4001457012,
+				"desc_hash": 3485959405,
+				"type_hash": 2372436918,
+				"name": "Suspicious Padisarah Pudding",
+				"desc": "A popular dessert in Sumeru. A single bite yields a mix of milky and floral flavors... Which isn't bad, exactly, but remains a far cry from what you expected from this pudding. Did you get the ingredient proportions wrong or something?",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108458,
+				"name_hash": 741963860,
+				"desc_hash": 2924661421,
+				"type_hash": 3176969518,
+				"name": "Padisarah Pudding",
+				"desc": "A popular dessert in Sumeru. Juices are squeezed from the petals of Padisarahs and Sumeru Roses before being mixed with milk, gelatin, sugar, and other ingredients, and then left to solidify. Cute appearance and sweet flavor make it a common sight at celebratory events in Sumeru.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108459,
+				"name_hash": 1989418540,
+				"desc_hash": 4165754445,
+				"type_hash": 2275295446,
+				"name": "Delicious Padisarah Pudding",
+				"desc": "A popular dessert in Sumeru. The moment it enters your mouth, the springy mouthfeel makes you feel like you're wandering atop milk-flavored clouds. As you savor its flavors, the blended fragrance of Padisarah and Sumeru Rose fills the air. When you finally do reach that very last bite, it feels like something has been left unfinished. You cannot help but lick the back of your spoon, as if to savor the final sublime moments of enjoyment.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			}
+		]
+	},
+	"coconut_charcoal_cake": {
+		"hoyo_id": 3310,
+		"name_hash": 967776936,
+		"desc_hash": 129268298,
+		"rarity": 3,
+		"type": "heal",
+		"cook_method": "bake",
+		"proficiency": 15,
+		"name": "Coconut Charcoal Cake",
+		"desc": "A dark-colored pastry. The Ajilenakh Nuts were first roasted and powdered before being sieved, added to a batter, mixed evenly, and then baked. The final product by no means looks impressive, but it exudes the fresh aroma of Ajilenakh Nuts, and it tastes better still with some jam.",
+		"ingredients": {
+			"ajilenakh_nut": 2,
+			"flour": 1,
+			"jam": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108448,
+				"name_hash": 1632147268,
+				"desc_hash": 2771333717,
+				"type_hash": 2585792878,
+				"name": "Suspicious Coconut Charcoal Cake",
+				"desc": "A dark-colored pastry. One look is all it takes to tell that this is a disaster dish and a half. Your immense courage in trying one bite is rewarded with a supremely dry, coarse mouthfeel... Is this some kind of mistake? Was the charcoal plated up instead of the cake?",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108449,
+				"name_hash": 244468996,
+				"desc_hash": 188893333,
+				"type_hash": 1734002078,
+				"name": "Coconut Charcoal Cake",
+				"desc": "A dark-colored pastry. The Ajilenakh Nuts were first roasted and powdered before being sieved, added to a batter, mixed evenly, and then baked. The final product by no means looks impressive, but it exudes the fresh aroma of Ajilenakh Nuts, and it tastes better still with some jam.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108450,
+				"name_hash": 2927536276,
+				"desc_hash": 2294559141,
+				"type_hash": 3117477214,
+				"name": "Delicious Coconut Charcoal Cake",
+				"desc": "A dark-colored pastry. The pastry is fine, almost lustrous, and the fragrance of the Ajilenakh Nuts is both vivid and full of warmth. The cake is fluffy and delicate as it enters your mouth, exorcising exhaustion and muzzling misery. Ah, just as a book may not be judged by its cover, so too should a cake not be convicted by its crust.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			}
+		]
+	},
+	"fruits_of_the_festival": {
+		"hoyo_id": 3311,
+		"name_hash": 3177983032,
+		"desc_hash": 2119080146,
+		"rarity": 3,
+		"type": "defense",
+		"cook_method": "boil",
+		"proficiency": 15,
+		"name": "Fruits of the Festival",
+		"desc": "A brightly colored non-alcoholic beverage. Freshly squeezed Sunsettia and Wolfhook juices have been poured into a cup in a specific order. The cool and refreshing flavor and vibrant color remind people of the beautiful holiday times. Do not mess the order up if you want to get the gradient effect right!",
+		"ingredients": {
+			"wolfhook": 2,
+			"sunsettia": 2,
+			"sugar": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108463,
+				"name_hash": 3137645420,
+				"desc_hash": 1471613373,
+				"type_hash": 3418426046,
+				"name": "Suspicious Fruits of the Festival",
+				"desc": "A brightly colored non-alcoholic beverage. The sourness of the Wolfhook has not been managed well, leading to a numbing sensation on your tongue. Wait a minute... Is that howling from Wolvendom you hear? That's got to be a hallucination, right? Right?",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108464,
+				"name_hash": 1532723388,
+				"desc_hash": 871600165,
+				"type_hash": 328817542,
+				"name": "Fruits of the Festival",
+				"desc": "A brightly colored non-alcoholic beverage. Freshly squeezed Sunsettia and Wolfhook juices have been poured into a cup in a specific order. The cool and refreshing flavor and vibrant color remind people of the beautiful holiday times. Do not mess the order up if you want to get the gradient effect right!",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			},
+			{
+				"hoyo_id": 108465,
+				"name_hash": 3858434604,
+				"desc_hash": 2148456805,
+				"type_hash": 3786859846,
+				"name": "Delicious Fruits of the Festival",
+				"desc": "A brightly colored non-alcoholic beverage. The sublime enjoyment brought by the refreshing taste is almost like a sweet, illusory dream. One small sip transports you onto a white, sandy beach, where the sparkling seawater beats with the rhythm to which the hymn of your leisurely vacation shall be composed.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 3
+			}
+		]
+	},
 	"moon_pie": {
 		"hoyo_id": 4001,
 		"name_hash": 3644462440,
@@ -5524,6 +6601,162 @@
 				"type_hash": 4177508886,
 				"name": "Delicious Bountiful Year",
 				"desc": "Luxurious and exquisite raw fish. The stacked raw fish is sliced as thin as cicada wings, and their taste is as light as mist, their pattern lines opal-white, like snow kissing the earth. One can hardly wait to dig in \u2014 the soft and smooth meat and myriad condiment flavors coalesce on the tongue, to the praise of all. Truly, this is the flavor experience to top them all!",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 4
+			}
+		]
+	},
+	"biryani": {
+		"hoyo_id": 4301,
+		"name_hash": 3688423736,
+		"desc_hash": 2915314322,
+		"rarity": 4,
+		"type": "defense",
+		"cook_method": "steam",
+		"proficiency": 20,
+		"name": "Biryani",
+		"desc": "An aromatic rice dish. Stir-fry the meat such that it is crispy on the outside and tender on the inside. Then stew it with condiments and long-grain rice. Sprinkle a few Padisarah petals before serving. Every grain is saturated with the aroma of fatty meat and condiments. The dish has an exquisite taste only found in Sumeru.",
+		"ingredients": {
+			"rice": 4,
+			"raw_meat": 3,
+			"spice": 2,
+			"padisarah": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108415,
+				"name_hash": 215847452,
+				"desc_hash": 2122212957,
+				"type_hash": 1507513142,
+				"name": "Suspicious Biryani",
+				"desc": "An aromatic rice dish. The rice grains are soaked in oil and have thus become translucent. Its greasy smell is rather unpleasant. A layer of oil remains on the plate even after you finish the dish... Best to stay away from greasy food for the next few days...",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 4
+			},
+			{
+				"hoyo_id": 108416,
+				"name_hash": 1401189284,
+				"desc_hash": 4007049309,
+				"type_hash": 1046234430,
+				"name": "Biryani",
+				"desc": "An aromatic rice dish. Stir-fry the meat such that it is crispy on the outside and tender on the inside. Then stew it with condiments and long-grain rice. Sprinkle a few Padisarah petals before serving. Every grain is saturated with the aroma of fatty meat and condiments. The dish has an exquisite taste only found in Sumeru.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 4
+			},
+			{
+				"hoyo_id": 108417,
+				"name_hash": 200819324,
+				"desc_hash": 3916701085,
+				"type_hash": 285922750,
+				"name": "Delicious Biryani",
+				"desc": "An aromatic rice dish. The golden crown made of long-grain rice and meat is adorned with Padisarah petals, a picture that reminds you of a desert dotted with oases. The enticing scent of spices dances across each grain of rice. Every mouthful soothes your whole body. It won't take long for a customer to empty the plate. They can't help but lick their mouth, savoring the lingering scent.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 4
+			}
+		]
+	},
+	"tandoori_roast_chicken": {
+		"hoyo_id": 4302,
+		"name_hash": 3968074976,
+		"desc_hash": 2167145986,
+		"rarity": 4,
+		"type": "attack",
+		"cook_method": "steam",
+		"proficiency": 20,
+		"name": "Tandoori Roast Chicken",
+		"desc": "A signature chicken dish in Sumeru. The chicken was first marinated with red spices, and then roasted in a tandoor. The process of making this Sumeru classic does not involve any fancy skills, and the use of such a humble clay oven might be surprising to some. In Sumeru, a tandoor to a veteran chef is as important as a trusty sword to an adventurer.",
+		"ingredients": {
+			"fowl": 3,
+			"rukkhashava_mushrooms": 2,
+			"padisarah": 1,
+			"spice": 1
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108427,
+				"name_hash": 3358502540,
+				"desc_hash": 607183509,
+				"type_hash": 687312390,
+				"name": "Suspicious Tandoori Roast Chicken",
+				"desc": "A signature chicken dish of Sumeru. Baked in high heat, the chicken has become dry and wooden. The overabundance of seasonings has covered the original scent of the ingredients. Even someone who likes jerky will need a bottle of water to help swallow the meat.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 4
+			},
+			{
+				"hoyo_id": 108428,
+				"name_hash": 16756148,
+				"desc_hash": 714504573,
+				"type_hash": 3129112182,
+				"name": "Tandoori Roast Chicken",
+				"desc": "A signature chicken dish in Sumeru. The chicken was first marinated with red spices, and then roasted in a tandoor. The process of making this Sumeru classic does not involve any fancy skills, and the use of such a humble clay oven might be surprising to some. In Sumeru, a tandoor to a veteran chef is as important as a trusty sword to an adventurer.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 4
+			},
+			{
+				"hoyo_id": 108429,
+				"name_hash": 3879074292,
+				"desc_hash": 3680876757,
+				"type_hash": 114574134,
+				"name": "Delicious Tandoori Roast Chicken",
+				"desc": "A signature chicken dish in Sumeru. The vibrant flames have locked the umami inside the chicken's reddened skin. Once it slips into your mouth, the rich flavor will awaken your every taste bud. The chicken and spices seem to have performed a mysterious Sumeru dance on the tip of your tongue, evoking the image of a festive banquet...",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 4
+			}
+		]
+	},
+	"meat_lovers_mushroom_pizza": {
+		"hoyo_id": 4303,
+		"name_hash": 3104469016,
+		"desc_hash": 1293130338,
+		"rarity": 4,
+		"type": "attack",
+		"cook_method": "steam",
+		"proficiency": 20,
+		"name": "Meat Lovers' Mushroom Pizza",
+		"desc": "A pizza freshly baked from the oven. The crust is dotted with large chunks of meat and fresh mushroom slices. The sweet, stretchy cheese further adds to the charm. You have no doubt that every slice will be snatched away the moment it is served. Speed, therefore, is a gourmet's best buddy when this pizza is on the table.",
+		"ingredients": {
+			"raw_meat": 4,
+			"flour": 4,
+			"mushroom": 3,
+			"cheese": 2
+		},
+		"dishes": [
+			{
+				"hoyo_id": 108439,
+				"name_hash": 929948636,
+				"desc_hash": 139654469,
+				"type_hash": 2306883150,
+				"name": "Suspicious Meat Lovers' Mushroom Pizza",
+				"desc": "A pizza freshly baked in an oven. The messy lumps of cheese and ingredients give off a greasy smell, with a rock-hard crust just to make things worse. Well, what has the poor dish gone through to end up in this state? Was it the baking time or the excessive fermentation?",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 4
+			},
+			{
+				"hoyo_id": 108440,
+				"name_hash": 2981481668,
+				"desc_hash": 3531584405,
+				"type_hash": 4211906926,
+				"name": "Meat Lovers' Mushroom Pizza",
+				"desc": "A pizza freshly baked from the oven. The crust is dotted with large chunks of meat and fresh mushroom slices. The sweet, stretchy cheese further adds to the charm. You have no doubt that every slice will be snatched away the moment it is served. Speed, therefore, is a gourmet's best buddy when this pizza is on the table.",
+				"type": "ITEM_MATERIAL",
+				"type_desc": "Food",
+				"rarity": 4
+			},
+			{
+				"hoyo_id": 108441,
+				"name_hash": 1790367812,
+				"desc_hash": 2928806637,
+				"type_hash": 2070615078,
+				"name": "Delicious Meat Lovers' Mushroom Pizza",
+				"desc": "A pizza freshly baked in an oven. Every inch of the crust is saturated with the fatty aroma of meat. Some mushrooms have been sprinkled on top to add freshness. Just a small mouthful shall greet your taste buds with the rich scent of cheese \u2014 most enticing indeed. You can't help reaching for another slice before you've even finished off the one in your hand.",
 				"type": "ITEM_MATERIAL",
 				"type_desc": "Food",
 				"rarity": 4

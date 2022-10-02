@@ -1,0 +1,177 @@
+{
+	"hoyo_id": 15418,
+	"promote_id": 15418,
+	"gadget_id": 50015418,
+	"story_id": [
+		195418
+	],
+	"skill_affix": [
+		115418,
+		0
+	],
+	"type": "bow",
+	"name_hash": 3063191787,
+	"desc_hash": 1035513069,
+	"name": "End of the Line",
+	"desc": "This seems to be a now-extinct fish. Its body is sufficiently elastic that a string may be attached to it to let it serve as a bow.",
+	"icon": "UI_EquipIcon_Bow_Fin",
+	"icon_awaken": "UI_EquipIcon_Bow_Fin_Awaken",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"Energy Recharge%": 10.000000149011612
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"echo_of_scorching_might": 3,
+				"inactivated_fungal_nucleus": 3,
+				"fungal_spores": 2,
+				"mora": 5000
+			},
+			{
+				"remnant_glow_of_scorching_might": 3,
+				"inactivated_fungal_nucleus": 12,
+				"fungal_spores": 8,
+				"mora": 15000
+			},
+			{
+				"remnant_glow_of_scorching_might": 6,
+				"dormant_fungal_nucleus": 6,
+				"luminescent_pollen": 6,
+				"mora": 20000
+			},
+			{
+				"dream_of_scorching_might": 3,
+				"dormant_fungal_nucleus": 12,
+				"luminescent_pollen": 9,
+				"mora": 30000
+			},
+			{
+				"dream_of_scorching_might": 6,
+				"robust_fungal_nucleus": 9,
+				"crystalline_cyst_dust": 6,
+				"mora": 35000
+			},
+			{
+				"olden_days_of_scorching_might": 4,
+				"robust_fungal_nucleus": 18,
+				"crystalline_cyst_dust": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 0.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 280615747,
+		"name": "Net Snapper",
+		"special_material": "original_fish_ointment",
+		"values": [
+			{
+				"affix_id": 1154180,
+				"desc_hash": 1439153113,
+				"desc": "Triggers the Flowrider effect after using an Elemental Skill, dealing 80% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1154181,
+				"desc_hash": 528144953,
+				"desc": "Triggers the Flowrider effect after using an Elemental Skill, dealing 100% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1154182,
+				"desc_hash": 1411249217,
+				"desc": "Triggers the Flowrider effect after using an Elemental Skill, dealing 120% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1154183,
+				"desc_hash": 1049862001,
+				"desc": "Triggers the Flowrider effect after using an Elemental Skill, dealing 140% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1154184,
+				"desc_hash": 3079622417,
+				"desc": "Triggers the Flowrider effect after using an Elemental Skill, dealing 160% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
+				"cost": 8000
+			}
+		]
+	}
+}

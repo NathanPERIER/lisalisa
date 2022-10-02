@@ -1,0 +1,177 @@
+{
+	"hoyo_id": 13419,
+	"promote_id": 13419,
+	"gadget_id": 50013419,
+	"story_id": [
+		193419
+	],
+	"skill_affix": [
+		113419,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 1470442731,
+	"desc_hash": 242089325,
+	"name": "Missive Windspear",
+	"desc": "A beacon that shows the direction of the wind. Not every idyll carried on the breeze remains a gentle thing...",
+	"icon": "UI_EquipIcon_Pole_Windvane",
+	"icon_awaken": "UI_EquipIcon_Pole_Windvane_Awaken",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"ATK%": 9.000000357627869
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"ATK%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"boreal_wolfs_milk_tooth": 3,
+				"gloomy_statuette": 3,
+				"slime_condensate": 2,
+				"mora": 5000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 3,
+				"gloomy_statuette": 12,
+				"slime_condensate": 8,
+				"mora": 15000
+			},
+			{
+				"boreal_wolfs_cracked_tooth": 6,
+				"dark_statuette": 6,
+				"slime_secretions": 6,
+				"mora": 20000
+			},
+			{
+				"boreal_wolfs_broken_fang": 3,
+				"dark_statuette": 12,
+				"slime_secretions": 9,
+				"mora": 30000
+			},
+			{
+				"boreal_wolfs_broken_fang": 6,
+				"deathly_statuette": 9,
+				"slime_concentrate": 6,
+				"mora": 35000
+			},
+			{
+				"boreal_wolfs_nostalgia": 4,
+				"deathly_statuette": 18,
+				"slime_concentrate": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 0.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2975846323,
+		"name": "The Wind Unattained",
+		"special_material": "plume_of_the_changing_winds",
+		"values": [
+			{
+				"affix_id": 1134190,
+				"desc_hash": 3285409097,
+				"desc": "Within 10s after an Elemental Reaction is triggered, ATK is increased by 12% and Elemental Mastery is increased by 48.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1134191,
+				"desc_hash": 3326677273,
+				"desc": "Within 10s after an Elemental Reaction is triggered, ATK is increased by 15% and Elemental Mastery is increased by 60.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1134192,
+				"desc_hash": 2164830705,
+				"desc": "Within 10s after an Elemental Reaction is triggered, ATK is increased by 18% and Elemental Mastery is increased by 72.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1134193,
+				"desc_hash": 3006326401,
+				"desc": "Within 10s after an Elemental Reaction is triggered, ATK is increased by 21% and Elemental Mastery is increased by 84.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1134194,
+				"desc_hash": 83744945,
+				"desc": "Within 10s after an Elemental Reaction is triggered, ATK is increased by 24% and Elemental Mastery is increased by 96.",
+				"cost": 8000
+			}
+		]
+	}
+}

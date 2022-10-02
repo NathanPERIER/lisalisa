@@ -1,0 +1,768 @@
+{
+	"hoyo_id": 10000005,
+	"promote_id": 12,
+	"skill_depot_id": 508,
+	"fetter_id": 103,
+	"weapon": "sword",
+	"name_hash": null,
+	"desc_hash": 1204666377,
+	"name": "Dendro Traveler",
+	"desc": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+	"icon": "UI_AvatarIcon_PlayerBoy",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_BOY",
+	"birthday": null,
+	"region": "outlander",
+	"vision_hash": null,
+	"astrolabe_hash": [
+		756242466,
+		2038622971
+	],
+	"allegiance_hash": 2022316961,
+	"vision": "dendro",
+	"astrolabe": "Viator",
+	"allegiance": "-",
+	"default_weapon": "dull_blade",
+	"increase_skill": 3,
+	"increase_burst": 5,
+	"base_stats": {
+		"Base HP": 911.791015625,
+		"Base ATK": 17.808000564575195,
+		"Base DEF": 57.224998474121094,
+		"Crit Rate%": 5.000000074505806,
+		"Crit DMG%": 50.0
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"brilliant_diamond_sliver": 1,
+				"windwheel_aster": 3,
+				"damaged_mask": 3,
+				"mora": 20000
+			},
+			{
+				"brilliant_diamond_fragment": 3,
+				"windwheel_aster": 10,
+				"damaged_mask": 15,
+				"mora": 40000
+			},
+			{
+				"brilliant_diamond_fragment": 6,
+				"windwheel_aster": 20,
+				"stained_mask": 12,
+				"mora": 60000
+			},
+			{
+				"brilliant_diamond_chunk": 3,
+				"windwheel_aster": 30,
+				"stained_mask": 18,
+				"mora": 80000
+			},
+			{
+				"brilliant_diamond_chunk": 6,
+				"windwheel_aster": 45,
+				"ominous_mask": 12,
+				"mora": 100000
+			},
+			{
+				"brilliant_diamond_gemstone": 6,
+				"windwheel_aster": 60,
+				"ominous_mask": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 0.0,
+					"Base DEF": 0.0,
+					"Base ATK": 0.0,
+					"ATK%": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base HP": 681.154541015625,
+					"Base DEF": 42.75,
+					"Base ATK": 13.303799629211426,
+					"ATK%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1165.1328125,
+					"Base DEF": 73.125,
+					"Base ATK": 22.756500244140625,
+					"ATK%": 5.999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1810.4371337890625,
+					"Base DEF": 113.625,
+					"Base ATK": 35.36009979248047,
+					"ATK%": 11.999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2294.415283203125,
+					"Base DEF": 144.0,
+					"Base ATK": 44.812801361083984,
+					"ATK%": 11.999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2778.3935546875,
+					"Base DEF": 174.375,
+					"Base ATK": 54.265499114990234,
+					"ATK%": 18.000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3262.371826171875,
+					"Base DEF": 204.75,
+					"Base ATK": 63.71820068359375,
+					"ATK%": 23.999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 3401752693,
+			"desc_hash": 234884616,
+			"name": "Normal Attack: Foreign Fieldcleaver",
+			"desc": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_admonition": 3,
+					"fungal_spores": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ingenuity": 2,
+					"luminescent_pollen": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_praxis": 4,
+					"luminescent_pollen": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_admonition": 6,
+					"luminescent_pollen": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ingenuity": 9,
+					"luminescent_pollen": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_praxis": 4,
+					"crystalline_cyst_dust": 4,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_admonition": 6,
+					"crystalline_cyst_dust": 6,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ingenuity": 12,
+					"crystalline_cyst_dust": 9,
+					"mudra_of_the_malefic_general": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_praxis": 16,
+					"crystalline_cyst_dust": 12,
+					"mudra_of_the_malefic_general": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"44.46%",
+						"43.43%",
+						"52.98%",
+						"58.31%",
+						"70.78%",
+						"55.9%+60.72%",
+						"20",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"48.08%",
+						"46.97%",
+						"57.29%",
+						"63.05%",
+						"76.54%",
+						"60.45%+65.66%",
+						"20",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"51.7%",
+						"50.5%",
+						"61.6%",
+						"67.8%",
+						"82.3%",
+						"65%+70.6%",
+						"20",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"56.87%",
+						"55.55%",
+						"67.76%",
+						"74.58%",
+						"90.53%",
+						"71.5%+77.66%",
+						"20",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"60.49%",
+						"59.08%",
+						"72.07%",
+						"79.33%",
+						"96.29%",
+						"76.05%+82.6%",
+						"20",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"64.63%",
+						"63.13%",
+						"77%",
+						"84.75%",
+						"102.87%",
+						"81.25%+88.25%",
+						"20",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"70.31%",
+						"68.68%",
+						"83.78%",
+						"92.21%",
+						"111.93%",
+						"88.4%+96.02%",
+						"20",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"76%",
+						"74.23%",
+						"90.55%",
+						"99.67%",
+						"120.98%",
+						"95.55%+103.78%",
+						"20",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"81.69%",
+						"79.79%",
+						"97.33%",
+						"107.12%",
+						"130.03%",
+						"102.7%+111.55%",
+						"20",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"87.89%",
+						"85.85%",
+						"104.72%",
+						"115.26%",
+						"139.91%",
+						"110.5%+120.02%",
+						"20",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"94.09%",
+						"91.91%",
+						"112.11%",
+						"123.4%",
+						"149.79%",
+						"118.3%+128.49%",
+						"20",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"100.3%",
+						"97.97%",
+						"119.5%",
+						"131.53%",
+						"159.66%",
+						"126.1%+136.96%",
+						"20",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"106.5%",
+						"104.03%",
+						"126.9%",
+						"139.67%",
+						"169.54%",
+						"133.9%+145.44%",
+						"20",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"112.71%",
+						"110.09%",
+						"134.29%",
+						"147.8%",
+						"179.41%",
+						"141.7%+153.91%",
+						"20",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"118.91%",
+						"116.15%",
+						"141.68%",
+						"155.94%",
+						"189.29%",
+						"149.5%+162.38%",
+						"20",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2178570213,
+			"desc_hash": 1543524448,
+			"name": "Razorgrass Blade",
+			"desc": "With a flourish of your blade, you unleash a spray of razor-sharp leaves that go before you and deal Dendro DMG.\n\n<i>You and Paimon observed the flowing edges of grass and leaf.</i>",
+			"icon": "Skill_E_PlayerGrass_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_admonition": 3,
+					"fungal_spores": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ingenuity": 2,
+					"luminescent_pollen": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_praxis": 4,
+					"luminescent_pollen": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_admonition": 6,
+					"luminescent_pollen": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ingenuity": 9,
+					"luminescent_pollen": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_praxis": 4,
+					"crystalline_cyst_dust": 4,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_admonition": 6,
+					"crystalline_cyst_dust": 6,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ingenuity": 12,
+					"crystalline_cyst_dust": 9,
+					"mudra_of_the_malefic_general": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_praxis": 16,
+					"crystalline_cyst_dust": 12,
+					"mudra_of_the_malefic_general": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"230.4%",
+						"8s"
+					],
+					[
+						"247.68%",
+						"8s"
+					],
+					[
+						"264.96%",
+						"8s"
+					],
+					[
+						"288%",
+						"8s"
+					],
+					[
+						"305.28%",
+						"8s"
+					],
+					[
+						"322.56%",
+						"8s"
+					],
+					[
+						"345.6%",
+						"8s"
+					],
+					[
+						"368.64%",
+						"8s"
+					],
+					[
+						"391.68%",
+						"8s"
+					],
+					[
+						"414.72%",
+						"8s"
+					],
+					[
+						"437.76%",
+						"8s"
+					],
+					[
+						"460.8%",
+						"8s"
+					],
+					[
+						"489.6%",
+						"8s"
+					],
+					[
+						"518.4%",
+						"8s"
+					],
+					[
+						"547.2%",
+						"8s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 2504837493,
+			"desc_hash": 2829038472,
+			"name": "Surgent Manifestation",
+			"desc": "Calling upon the might of the flora all around you, you create a Lea Lotus Lamp.\nThis Lamp will deal continuous Dendro DMG to opponents within its AoE.\n\nLotuslight Transfiguration\nThe Lea Lotus Lamp will undergo the following changes after it comes into contact with Hydro/Electro/Pyro:\n\u00b7Hydro: the Lamp's AoE and the AoE of its attacks are increased.\n\u00b7Electro: the Lamp's ATK SPD is increased.\n\u00b7Pyro: the Lamp will explode after a short delay and then disappear, dealing AoE Dendro DMG.\nThe Lea Lotus Lamp can only undergo one Lotuslight Transfiguration in its duration.\n\nOnly one Lamp created by the Traveler can exist at any one time.\n\n<i>You and Paimon studied the sounds of plants that sprout after the rain.</i>",
+			"icon": "Skill_S_PlayerGrass_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_admonition": 3,
+					"fungal_spores": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_ingenuity": 2,
+					"luminescent_pollen": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_praxis": 4,
+					"luminescent_pollen": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_admonition": 6,
+					"luminescent_pollen": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_ingenuity": 9,
+					"luminescent_pollen": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_praxis": 4,
+					"crystalline_cyst_dust": 4,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_admonition": 6,
+					"crystalline_cyst_dust": 6,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_ingenuity": 12,
+					"crystalline_cyst_dust": 9,
+					"mudra_of_the_malefic_general": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_praxis": 16,
+					"crystalline_cyst_dust": 12,
+					"mudra_of_the_malefic_general": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Lea Lotus Lamp Attack DMG",
+					"Explosion DMG",
+					"Lea Lotus Lamp Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"80.16%",
+						"400.8%",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"86.17%",
+						"430.86%",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"92.18%",
+						"460.92%",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"100.2%",
+						"501%",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"106.21%",
+						"531.06%",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"112.22%",
+						"561.12%",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"120.24%",
+						"601.2%",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"128.26%",
+						"641.28%",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"136.27%",
+						"681.36%",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"144.29%",
+						"721.44%",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"152.3%",
+						"761.52%",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"160.32%",
+						"801.6%",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"170.34%",
+						"851.7%",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"180.36%",
+						"901.8%",
+						"12s",
+						"20s",
+						"80"
+					],
+					[
+						"190.38%",
+						"951.9%",
+						"12s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 3167892781,
+			"desc_hash": 3035751987,
+			"name": "Verdant Overgrowth",
+			"desc": "Lea Lotus Lamp will obtain one level of Overflowing Lotuslight every second it is on the field, increasing the Elemental Mastery of active character(s) within its AoE by 6. Overflowing Lotuslight has a maximum of 10 stacks.",
+			"icon": "UI_Talent_U_PlayerGrass_01",
+			"ascension": 1
+		},
+		{
+			"name_hash": 2422396909,
+			"desc_hash": 351702731,
+			"name": "Verdant Luxury",
+			"desc": "Every point of Elemental Mastery the Traveler possesses increases the DMG dealt by Razorgrass Blade by 0.15% and the DMG dealt by Surgent Manifestation by 0.1%.",
+			"icon": "UI_Talent_U_PlayerGrass_02",
+			"ascension": 4
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 1600504857,
+			"desc_hash": 3073486567,
+			"name": "Symbiotic Creeper",
+			"desc": "After Razorgrass Blade hits an opponent, it will regenerate 3.5 Energy for the Traveler.",
+			"icon": "UI_Talent_S_PlayerGrass_01"
+		},
+		{
+			"name_hash": 3553177833,
+			"desc_hash": 3849346231,
+			"name": "Green Resilience",
+			"desc": "Lea Lotus Lamp's duration is increased by 3s.",
+			"icon": "UI_Talent_S_PlayerGrass_02"
+		},
+		{
+			"name_hash": 2493239665,
+			"desc_hash": 281053767,
+			"name": "Whirling Weeds",
+			"desc": "Increases the Level of Razorgrass Blade by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_S_PlayerGrass_03"
+		},
+		{
+			"name_hash": 997796193,
+			"desc_hash": 3296129991,
+			"name": "Treacle Grass",
+			"desc": "After the Lea Lotus Lamp triggers a Lotuslight Transfiguration, it will obtain 5 stacks of the Overflowing Lotuslight effect from the Passive Talent \"Verdant Overgrowth.\"\nYou must have unlocked this Passive Talent first.",
+			"icon": "UI_Talent_S_PlayerGrass_04"
+		},
+		{
+			"name_hash": 2090706953,
+			"desc_hash": 3243167455,
+			"name": "Viridian Transience",
+			"desc": "Increases the Level of Surgent Manifestation by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_S_PlayerGrass_05"
+		},
+		{
+			"name_hash": 712474025,
+			"desc_hash": 1859597615,
+			"name": "Withering Aggregation",
+			"desc": "The Dendro DMG Bonus of the character under the effect of Overflowing Lotuslight as created by the Lea Lotus Lamp is increased by 12%. If the Lamp has experienced a Lotuslight Transfiguration previously, the character will also gain 12% DMG Bonus for the corresponding element.",
+			"icon": "UI_Talent_S_PlayerGrass_06"
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 1648736450,
+			"desc_hash": 2814665554,
+			"name": "Rising Star",
+			"desc": "The Traveler's outfit. A practical set of clothing to wear during a long journey.",
+			"icon": "",
+			"restricted": false
+		},
+		"alt": {}
+	},
+	"special_dish": null
+}

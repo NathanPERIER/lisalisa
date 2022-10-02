@@ -1,0 +1,782 @@
+{
+	"hoyo_id": 10000067,
+	"promote_id": 67,
+	"skill_depot_id": 6701,
+	"fetter_id": 67600,
+	"weapon": "bow",
+	"name_hash": 2948362178,
+	"desc_hash": 2491093329,
+	"name": "Collei",
+	"desc": "A trainee ranger active in Avidya Forest. Behind her enthusiastic words and actions hides a slightly introverted personality.",
+	"icon": "UI_AvatarIcon_Collei",
+	"rarity": 4,
+	"special": false,
+	"body": "BODY_GIRL",
+	"birthday": [
+		8,
+		5
+	],
+	"region": "sumeru",
+	"vision_hash": [
+		4017448612,
+		2697108833
+	],
+	"astrolabe_hash": [
+		1135583386,
+		930441339
+	],
+	"allegiance_hash": 3683659841,
+	"vision": "dendro",
+	"astrolabe": "Leptailurus Cervarius",
+	"allegiance": "Gandharva Ville",
+	"default_weapon": "hunters_bow",
+	"increase_skill": 3,
+	"increase_burst": 5,
+	"base_stats": {
+		"Base HP": 820.6118774414062,
+		"Base ATK": 16.739519119262695,
+		"Base DEF": 50.358001708984375,
+		"Crit Rate%": 5.000000074505806,
+		"Crit DMG%": 50.0
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S4",
+		"Base ATK": "GROW_CURVE_ATTACK_S4",
+		"Base DEF": "GROW_CURVE_HP_S4"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"nagadus_emerald_sliver": 1,
+				"rukkhashava_mushrooms": 3,
+				"firm_arrowhead": 3,
+				"mora": 20000
+			},
+			{
+				"nagadus_emerald_fragment": 3,
+				"majestic_hooked_beak": 2,
+				"rukkhashava_mushrooms": 10,
+				"firm_arrowhead": 15,
+				"mora": 40000
+			},
+			{
+				"nagadus_emerald_fragment": 6,
+				"majestic_hooked_beak": 4,
+				"rukkhashava_mushrooms": 20,
+				"sharp_arrowhead": 12,
+				"mora": 60000
+			},
+			{
+				"nagadus_emerald_chunk": 3,
+				"majestic_hooked_beak": 8,
+				"rukkhashava_mushrooms": 30,
+				"sharp_arrowhead": 18,
+				"mora": 80000
+			},
+			{
+				"nagadus_emerald_chunk": 6,
+				"majestic_hooked_beak": 12,
+				"rukkhashava_mushrooms": 45,
+				"weathered_arrowhead": 12,
+				"mora": 100000
+			},
+			{
+				"nagadus_emerald_gemstone": 6,
+				"majestic_hooked_beak": 20,
+				"rukkhashava_mushrooms": 60,
+				"weathered_arrowhead": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 0.0,
+					"Base DEF": 0.0,
+					"Base ATK": 0.0,
+					"ATK%": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base HP": 613.0391235351562,
+					"Base DEF": 37.619998931884766,
+					"Base ATK": 12.505572319030762,
+					"ATK%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1048.6195068359375,
+					"Base DEF": 64.3499984741211,
+					"Base ATK": 21.391109466552734,
+					"ATK%": 5.999999865889549
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 1629.3934326171875,
+					"Base DEF": 99.98999786376953,
+					"Base ATK": 33.238494873046875,
+					"ATK%": 11.999999731779099
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2064.973876953125,
+					"Base DEF": 126.72000122070312,
+					"Base ATK": 42.12403106689453,
+					"ATK%": 11.999999731779099
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 2500.55419921875,
+					"Base DEF": 153.4499969482422,
+					"Base ATK": 51.00957107543945,
+					"ATK%": 18.000000715255737
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 2936.134765625,
+					"Base DEF": 180.17999267578125,
+					"Base ATK": 59.89510726928711,
+					"ATK%": 23.999999463558197
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 3768859965,
+			"desc_hash": 2885504752,
+			"name": "Normal Attack: Supplicant's Bowmanship",
+			"desc": "Normal Attack\nPerforms up to 4 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, Dendro energy will accumulate on the arrowhead. A fully charged arrow will deal Dendro DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"icon": "Skill_A_02",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_praxis": 3,
+					"firm_arrowhead": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_praxis": 2,
+					"sharp_arrowhead": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_praxis": 4,
+					"sharp_arrowhead": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_praxis": 6,
+					"sharp_arrowhead": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_praxis": 9,
+					"sharp_arrowhead": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_praxis": 4,
+					"weathered_arrowhead": 4,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_praxis": 6,
+					"weathered_arrowhead": 6,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_praxis": 12,
+					"weathered_arrowhead": 9,
+					"tears_of_the_calamitous_god": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_praxis": 16,
+					"weathered_arrowhead": 12,
+					"tears_of_the_calamitous_god": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Aimed Shot",
+					"Fully-Charged Aimed Shot",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"43.6%",
+						"42.66%",
+						"54.09%",
+						"68.03%",
+						"43.86%",
+						"124%",
+						"56.83%",
+						"113.63%/141.93%"
+					],
+					[
+						"47.15%",
+						"46.13%",
+						"58.5%",
+						"73.56%",
+						"47.43%",
+						"133.3%",
+						"61.45%",
+						"122.88%/153.49%"
+					],
+					[
+						"50.7%",
+						"49.6%",
+						"62.9%",
+						"79.1%",
+						"51%",
+						"142.6%",
+						"66.08%",
+						"132.13%/165.04%"
+					],
+					[
+						"55.77%",
+						"54.56%",
+						"69.19%",
+						"87.01%",
+						"56.1%",
+						"155%",
+						"72.69%",
+						"145.35%/181.54%"
+					],
+					[
+						"59.32%",
+						"58.03%",
+						"73.59%",
+						"92.55%",
+						"59.67%",
+						"164.3%",
+						"77.31%",
+						"154.59%/193.1%"
+					],
+					[
+						"63.38%",
+						"62%",
+						"78.62%",
+						"98.87%",
+						"63.75%",
+						"173.6%",
+						"82.6%",
+						"165.16%/206.3%"
+					],
+					[
+						"68.95%",
+						"67.46%",
+						"85.54%",
+						"107.58%",
+						"69.36%",
+						"186%",
+						"89.87%",
+						"179.7%/224.45%"
+					],
+					[
+						"74.53%",
+						"72.91%",
+						"92.46%",
+						"116.28%",
+						"74.97%",
+						"198.4%",
+						"97.14%",
+						"194.23%/242.61%"
+					],
+					[
+						"80.11%",
+						"78.37%",
+						"99.38%",
+						"124.98%",
+						"80.58%",
+						"210.8%",
+						"104.41%",
+						"208.77%/260.76%"
+					],
+					[
+						"86.19%",
+						"84.32%",
+						"106.93%",
+						"134.47%",
+						"86.7%",
+						"223.2%",
+						"112.34%",
+						"224.62%/280.57%"
+					],
+					[
+						"92.27%",
+						"90.27%",
+						"114.48%",
+						"143.96%",
+						"92.82%",
+						"235.6%",
+						"120.27%",
+						"240.48%/300.37%"
+					],
+					[
+						"98.36%",
+						"96.22%",
+						"122.03%",
+						"153.45%",
+						"98.94%",
+						"248%",
+						"128.2%",
+						"256.34%/320.18%"
+					],
+					[
+						"104.44%",
+						"102.18%",
+						"129.57%",
+						"162.95%",
+						"105.06%",
+						"263.5%",
+						"136.12%",
+						"272.19%/339.98%"
+					],
+					[
+						"110.53%",
+						"108.13%",
+						"137.12%",
+						"172.44%",
+						"111.18%",
+						"279%",
+						"144.05%",
+						"288.05%/359.79%"
+					],
+					[
+						"116.61%",
+						"114.08%",
+						"144.67%",
+						"181.93%",
+						"117.3%",
+						"294.5%",
+						"151.98%",
+						"303.9%/379.59%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 2943851901,
+			"desc_hash": 1878895672,
+			"name": "Floral Brush",
+			"desc": "Throws out a Floral Ring that deals 1 instance of Dendro DMG to targets it comes into contact with.\nThe Floral Ring will return after a set time, dealing Dendro DMG once again.\n\n<i>This is Collei's go-to gadget for dealing with unruly wild beasts. A few good thwacks from this tool will generally improve their behavior. This same principle works just as well on evildoers.</i>",
+			"icon": "Skill_S_Collei_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_praxis": 3,
+					"firm_arrowhead": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_praxis": 2,
+					"sharp_arrowhead": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_praxis": 4,
+					"sharp_arrowhead": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_praxis": 6,
+					"sharp_arrowhead": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_praxis": 9,
+					"sharp_arrowhead": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_praxis": 4,
+					"weathered_arrowhead": 4,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_praxis": 6,
+					"weathered_arrowhead": 6,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_praxis": 12,
+					"weathered_arrowhead": 9,
+					"tears_of_the_calamitous_god": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_praxis": 16,
+					"weathered_arrowhead": 12,
+					"tears_of_the_calamitous_god": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"CD"
+				],
+				"values": [
+					[
+						"151.2%",
+						"12s"
+					],
+					[
+						"162.54%",
+						"12s"
+					],
+					[
+						"173.88%",
+						"12s"
+					],
+					[
+						"189%",
+						"12s"
+					],
+					[
+						"200.34%",
+						"12s"
+					],
+					[
+						"211.68%",
+						"12s"
+					],
+					[
+						"226.8%",
+						"12s"
+					],
+					[
+						"241.92%",
+						"12s"
+					],
+					[
+						"257.04%",
+						"12s"
+					],
+					[
+						"272.16%",
+						"12s"
+					],
+					[
+						"287.28%",
+						"12s"
+					],
+					[
+						"302.4%",
+						"12s"
+					],
+					[
+						"321.3%",
+						"12s"
+					],
+					[
+						"340.2%",
+						"12s"
+					],
+					[
+						"359.1%",
+						"12s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 1430301637,
+			"desc_hash": 744666440,
+			"name": "Trump-Card Kitty",
+			"desc": "Trusty Cuilein-Anbar comes to save the day!\nThrows the doll named Cuilein-Anbar, causing an explosion that deals AoE Dendro DMG, creating a Cuilein-Anbar Zone. Cuilein-Anbar will bounce around within this zone, dealing AoE Dendro DMG.\n\n<i>\"Pretty impressive, huh? ... Eh? You want to know how I came up with the name Cuilein-Anbar? Uh, well, I...\"</i>",
+			"icon": "Skill_E_Collei_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_praxis": 3,
+					"firm_arrowhead": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_praxis": 2,
+					"sharp_arrowhead": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_praxis": 4,
+					"sharp_arrowhead": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_praxis": 6,
+					"sharp_arrowhead": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_praxis": 9,
+					"sharp_arrowhead": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_praxis": 4,
+					"weathered_arrowhead": 4,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_praxis": 6,
+					"weathered_arrowhead": 6,
+					"tears_of_the_calamitous_god": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_praxis": 12,
+					"weathered_arrowhead": 9,
+					"tears_of_the_calamitous_god": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_praxis": 16,
+					"weathered_arrowhead": 12,
+					"tears_of_the_calamitous_god": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Explosion DMG",
+					"Leap DMG",
+					"Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"201.82%",
+						"43.25%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"216.96%",
+						"46.49%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"232.1%",
+						"49.74%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"252.28%",
+						"54.06%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"267.42%",
+						"57.3%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"282.55%",
+						"60.55%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"302.74%",
+						"64.87%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"322.92%",
+						"69.2%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"343.1%",
+						"73.52%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"363.28%",
+						"77.85%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"383.47%",
+						"82.17%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"403.65%",
+						"86.5%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"428.88%",
+						"91.9%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"454.1%",
+						"97.31%",
+						"6s",
+						"15s",
+						"60"
+					],
+					[
+						"479.33%",
+						"102.71%",
+						"6s",
+						"15s",
+						"60"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 78962293,
+			"desc_hash": 1181280875,
+			"name": "Floral Sidewinder",
+			"desc": "If one of your party members has triggered Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions before the Floral Ring returns, it will grant the character the Sprout effect upon return, which will continuously deal Dendro DMG equivalent to 40% of Collei's ATK to nearby opponents for 3s.\nIf another Sprout effect is triggered during its initial duration, the initial effect will be removed. DMG dealt by Sprout is considered Elemental Skill DMG.",
+			"icon": "UI_Talent_S_Collei_05",
+			"ascension": 1
+		},
+		{
+			"name_hash": 3603599453,
+			"desc_hash": 1230852467,
+			"name": "The Languid Wood",
+			"desc": "When a character within the Cuilein-Anbar Zone triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions, the Zone's duration will be increased by 1s.\nA single Trump-Card Kitty can be extended by up to 3s.",
+			"icon": "UI_Talent_S_Collei_06",
+			"ascension": 4
+		},
+		{
+			"name_hash": 3064942109,
+			"desc_hash": 1937602267,
+			"name": "Gliding Champion of Sumeru",
+			"desc": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+			"icon": "UI_Talent_Explosion_Glide",
+			"ascension": null
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 2655987137,
+			"desc_hash": 838052359,
+			"name": "Deepwood Patrol",
+			"desc": "When in the party and not on the field, Collei's Energy Recharge is increased by 20%.",
+			"icon": "UI_Talent_S_Collei_01"
+		},
+		{
+			"name_hash": 3472492497,
+			"desc_hash": 3024851719,
+			"name": "Through Hill and Copse",
+			"desc": "The Passive Talent Floral Sidewinder is changed to this:\nThe Floral Ring will grant the character the Sprout effect from Floral Sidewinder upon return, dealing 40% of Collei's ATK as Dendro DMG to nearby opponents for 3s.\nFrom the moment of using Floral Brush to the moment when this instance of Sprout effect ends, if any of your party members triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions, the Sprout effect will be extended by 3s.\nThe Sprout effect can only be extended this way once. If another Sprout effect is triggered during its initial duration, the initial effect will be removed. DMG dealt by Sprout is considered Elemental Skill DMG.\nRequires you to have unlocked the Floral Sidewinder Passive Talent.",
+			"icon": "UI_Talent_S_Collei_02"
+		},
+		{
+			"name_hash": 1426971073,
+			"desc_hash": 56316599,
+			"name": "Scent of Summer",
+			"desc": "Increases the Level of Floral Brush by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Collei_02"
+		},
+		{
+			"name_hash": 3753636729,
+			"desc_hash": 4094592551,
+			"name": "Gift of the Woods",
+			"desc": "Using Trump-Card Kitty will increase all nearby characters' Elemental Mastery by 60 for 12s (not including Collei herself).",
+			"icon": "UI_Talent_S_Collei_03"
+		},
+		{
+			"name_hash": 2500538945,
+			"desc_hash": 2543166839,
+			"name": "All Embers",
+			"desc": "Increases the Level of Trump-Card Kitty by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Collei_01"
+		},
+		{
+			"name_hash": 1091837217,
+			"desc_hash": 1015584855,
+			"name": "Forest of Falling Arrows",
+			"desc": "When the Floral Ring hits, it will create a miniature Cuilein-Anbar that will deal 200% of Collei's ATK as Dendro DMG.\nEach Floral Brush can only create one such miniature Cuilein-Anbar.",
+			"icon": "UI_Talent_S_Collei_04"
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 3135223450,
+			"desc_hash": 2308150714,
+			"name": "A New Leaf",
+			"desc": "Collei's outfit. Now that she no longer needs to remain bundled in a thick cloak, she is free to emerge like a newly-sprouted leaf and welcome every lovely sunrise.",
+			"icon": "",
+			"restricted": false
+		},
+		"alt": {}
+	},
+	"special_dish": {
+		"original_recipe": "pita_pocket",
+		"hoyo_id": 108437,
+		"name_hash": 3526454636,
+		"desc_hash": 4009513021,
+		"type_hash": 546621614,
+		"name": "Yearning",
+		"desc": "Collei's specialty. Nutrient-rich ingredients have been stuffed inside the soft pastry shell to create a filling dish fit for those on the move. According to Collei, the cutlet in it is named \"Forest Rangers' barbecue!\" ... You know, this rather reminds you of a certain enthusiastic girl in red. The dish must be the embodiment of Collei's innermost admiration.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 3
+	}
+}

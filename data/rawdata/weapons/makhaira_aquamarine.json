@@ -1,0 +1,177 @@
+{
+	"hoyo_id": 12415,
+	"promote_id": 12415,
+	"gadget_id": 50012415,
+	"story_id": [
+		192415
+	],
+	"skill_affix": [
+		112415,
+		0
+	],
+	"type": "claymore",
+	"name_hash": 3073454867,
+	"desc_hash": 370563661,
+	"name": "Makhaira Aquamarine",
+	"desc": "An ancient greatsword that gleams like the waters themselves. A thousand years of sand erosion has not dulled its unnaturally sharp edge one bit.",
+	"icon": "UI_EquipIcon_Claymore_Pleroma",
+	"icon_awaken": "UI_EquipIcon_Claymore_Pleroma_Awaken",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"Elemental Mastery": 36.0
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"echo_of_scorching_might": 3,
+				"chaos_storage": 3,
+				"treasure_hoarder_insignia": 2,
+				"mora": 5000
+			},
+			{
+				"remnant_glow_of_scorching_might": 3,
+				"chaos_storage": 12,
+				"treasure_hoarder_insignia": 8,
+				"mora": 15000
+			},
+			{
+				"remnant_glow_of_scorching_might": 6,
+				"chaos_module": 6,
+				"silver_raven_insignia": 6,
+				"mora": 20000
+			},
+			{
+				"dream_of_scorching_might": 3,
+				"chaos_module": 12,
+				"silver_raven_insignia": 9,
+				"mora": 30000
+			},
+			{
+				"dream_of_scorching_might": 6,
+				"chaos_bolt": 9,
+				"golden_raven_insignia": 6,
+				"mora": 35000
+			},
+			{
+				"olden_days_of_scorching_might": 4,
+				"chaos_bolt": 18,
+				"golden_raven_insignia": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 0.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1388031899,
+		"name": "Desert Pavilion",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1124150,
+				"desc_hash": 4253695721,
+				"desc": "The following effect will trigger every 10s: The equipping character will gain 24% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1124151,
+				"desc_hash": 2631100273,
+				"desc": "The following effect will trigger every 10s: The equipping character will gain 30% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1124152,
+				"desc_hash": 2587200169,
+				"desc": "The following effect will trigger every 10s: the equipping character will gain 36% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1124153,
+				"desc_hash": 1205059969,
+				"desc": "The following effect will trigger every 10s: The equipping character will gain 42% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1124154,
+				"desc_hash": 3020531697,
+				"desc": "The following effect will trigger every 10s: The equipping character will gain 48% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+				"cost": 8000
+			}
+		]
+	}
+}

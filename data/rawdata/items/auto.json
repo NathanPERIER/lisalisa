@@ -186,6 +186,28 @@
 		"type_desc": "Cooking Ingredient",
 		"rarity": 1
 	},
+	"glabrous_beans": {
+		"hoyo_id": 100096,
+		"name_hash": 2777077220,
+		"desc_hash": 3212928309,
+		"type_hash": 110406270,
+		"name": "Glabrous Beans",
+		"desc": "A common legume in Teyvat with a light aroma. It can be prepared in a variety of ways, and is thus widely accepted by people all over the world.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
+	},
+	"sumeru_rose": {
+		"hoyo_id": 101219,
+		"name_hash": 691451876,
+		"desc_hash": 215269037,
+		"type_hash": 946665950,
+		"name": "Sumeru Rose",
+		"desc": "Bright and beautiful, these pure purple flowers give off a pleasant fragrance that will give any passerby pause. While some like to call this a type of \"rambler rose,\" its relative lack of multiple flowers means that it falls under a different floral classification.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
+	},
 	"tomato": {
 		"hoyo_id": 100079,
 		"name_hash": 4252939948,
@@ -417,6 +439,61 @@
 		"type_desc": "Cooking Ingredient",
 		"rarity": 1
 	},
+	"spice": {
+		"hoyo_id": 110014,
+		"name_hash": 206006948,
+		"desc_hash": 1649826173,
+		"type_hash": 2141208454,
+		"name": "Spice",
+		"desc": "A seasoning with varied flavors. It is made from dried Harra Fruits and can enrich the taste of a dish. Therefore, Sumeru locals say, \"Spice goes well with anything.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
+	},
+	"zaytun_peach": {
+		"hoyo_id": 101218,
+		"name_hash": 492153948,
+		"desc_hash": 2653974917,
+		"type_hash": 1606142934,
+		"name": "Zaytun Peach",
+		"desc": "The fruit of a forest shrub. Its flesh is firm and sweet. It is said to have a calming effect on the mind.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
+	},
+	"cheese": {
+		"hoyo_id": 110009,
+		"name_hash": 276446060,
+		"desc_hash": 921669421,
+		"type_hash": 709437606,
+		"name": "Cheese",
+		"desc": "Made from fermented milk. High in energy, it's used in a wide range of dishes.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
+	},
+	"rukkhashava_mushrooms": {
+		"hoyo_id": 101213,
+		"name_hash": 225599940,
+		"desc_hash": 3334676677,
+		"type_hash": 1249989622,
+		"name": "Rukkhashava Mushrooms",
+		"desc": "A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest. Therefore, they are considered by the people of Sumeru to be the holy crystallization of Rukkhadevata's legacy.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Sumeru)",
+		"rarity": 1
+	},
+	"starshroom": {
+		"hoyo_id": 101212,
+		"name_hash": 2119751636,
+		"desc_hash": 1441056373,
+		"type_hash": 3565768358,
+		"name": "Starshroom",
+		"desc": "A fungus with a cap that resembles a five-pointed star. It is quite hardy indeed. Once it matures, the center of the cap will split open.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 1
+	},
 	"calla_lily": {
 		"hoyo_id": 100056,
 		"name_hash": 4260602868,
@@ -483,17 +560,6 @@
 		"type_desc": "Cooking Ingredient",
 		"rarity": 1
 	},
-	"cheese": {
-		"hoyo_id": 110009,
-		"name_hash": 276446060,
-		"desc_hash": 921669421,
-		"type_hash": 709437606,
-		"name": "Cheese",
-		"desc": "Made from fermented milk. High in energy, it's used in a wide range of dishes.",
-		"type": "ITEM_MATERIAL",
-		"type_desc": "Cooking Ingredient",
-		"rarity": 1
-	},
 	"jam": {
 		"hoyo_id": 110008,
 		"name_hash": 2985549868,
@@ -549,6 +615,39 @@
 		"type_desc": "Food",
 		"rarity": 1
 	},
+	"padisarah": {
+		"hoyo_id": 101214,
+		"name_hash": 200162852,
+		"desc_hash": 348913653,
+		"type_hash": 2431665574,
+		"name": "Padisarah",
+		"desc": "A holy and noble plant. The conditions for growth in its environment are very demanding. The flower buds can be processed to make valuable spices.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Sumeru)",
+		"rarity": 1
+	},
+	"ajilenakh_nut": {
+		"hoyo_id": 101221,
+		"name_hash": 4280106100,
+		"desc_hash": 2188029045,
+		"type_hash": 3536519406,
+		"name": "Ajilenakh Nut",
+		"desc": "A fruit that grows on evergreen trees within desert oases. The flesh under the tough skin is thick, sweet, and delicious, making it an important food source amongst the desert peoples.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
+	},
+	"wolfhook": {
+		"hoyo_id": 100021,
+		"name_hash": 1372081476,
+		"desc_hash": 1053197341,
+		"type_hash": 3287960358,
+		"name": "Wolfhook",
+		"desc": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Mondstadt)",
+		"rarity": 1
+	},
 	"qingxin": {
 		"hoyo_id": 100031,
 		"name_hash": 1573292868,
@@ -589,6 +688,17 @@
 		"type_hash": 3553447150,
 		"name": "Electroculus",
 		"desc": "A substance that has accumulated intense Electro energy. Offer it to the Statue and help reinstate the power it has lost over the years.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Adventure Item",
+		"rarity": 1
+	},
+	"dendroculus": {
+		"hoyo_id": 107017,
+		"name_hash": 1848957796,
+		"desc_hash": 355997941,
+		"type_hash": 3796059334,
+		"name": "Dendroculus",
+		"desc": "A substance that has accumulated intense Dendro energy. Offer it to the Statue and help reinstate the power it has lost over the years.",
 		"type": "ITEM_MATERIAL",
 		"type_desc": "Adventure Item",
 		"rarity": 1
@@ -1319,6 +1429,237 @@
 		"type_desc": "Weapon Ascension Material",
 		"rarity": 5
 	},
+	"teachings_of_admonition": {
+		"hoyo_id": 104329,
+		"name_hash": 1901318836,
+		"desc_hash": 1996778933,
+		"type_hash": 2906641582,
+		"name": "Teachings of Admonition",
+		"desc": "Talent Level-Up material.\nAdmonition is the branches of the nation of wisdom.\nAdmonition comes from a pure heart. Only sensible words of goodwill can express profound wisdom and free the sprout of knowledge from the shackles of arrogance.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Materials",
+		"rarity": 2
+	},
+	"teachings_of_ingenuity": {
+		"hoyo_id": 104332,
+		"name_hash": 965705772,
+		"desc_hash": 23101813,
+		"type_hash": 3718066438,
+		"name": "Teachings of Ingenuity",
+		"desc": "Talent Level-Up material.\nIngenuity is the leaf-veins of the nation of wisdom.\nIngenuity springs forth from benevolent consideration. They say that \"a poisonous tree bears no kind fruit.\" Similarly, ingenious nascent ideas are always born from determined and benign minds, for only they are worthy bearers of wisdom.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Materials",
+		"rarity": 2
+	},
+	"teachings_of_praxis": {
+		"hoyo_id": 104335,
+		"name_hash": 3345548268,
+		"desc_hash": 2516408373,
+		"type_hash": 2552437246,
+		"name": "Teachings of Praxis",
+		"desc": "Talent Level-Up material.\nPraxes are the roots of the nation of wisdom.\nPraxes stem from an unwavering will. All wisdom is manifested through the unyielding pursuit of goodness. Where goodness is not practiced, ingenuity and eloquence wither.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Materials",
+		"rarity": 2
+	},
+	"guide_to_admonition": {
+		"hoyo_id": 104330,
+		"name_hash": 886644404,
+		"desc_hash": 274596117,
+		"type_hash": 2078013862,
+		"name": "Guide to Admonition",
+		"desc": "Talent Level-Up material.\nAdmonition is the branches of the nation of wisdom.\nAdmonition is paired with wise thinking. Careful deliberation affords humble words a clarity that convinces the wise and enlightens the foolish. Such words allow wisdom to flow like an unobstructed river.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Materials",
+		"rarity": 3
+	},
+	"philosophies_of_admonition": {
+		"hoyo_id": 104331,
+		"name_hash": 1067170380,
+		"desc_hash": 359765781,
+		"type_hash": 1713825014,
+		"name": "Philosophies of Admonition",
+		"desc": "Talent Level-Up material.\nAdmonition is the branches of the nation of wisdom.\nAdmonition is completed by good deeds. What is done confers real meaning upon what is said. When one's mind, words, and deeds are aligned, their nourishment shall guarantee the fruition of wisdom's tree.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Materials",
+		"rarity": 4
+	},
+	"guide_to_ingenuity": {
+		"hoyo_id": 104333,
+		"name_hash": 778263340,
+		"desc_hash": 4020867853,
+		"type_hash": 1332573646,
+		"name": "Guide to Ingenuity",
+		"desc": "Talent Level-Up material.\nIngenuity is the leaf-veins of the nation of wisdom. Ingenuity sets words of integrity on the right path. One who thinks out of goodwill and in a clever and careful fashion never deviates from the path of boons. Yet one who thinks with contempt and malice shall taint their words with despicable colors.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Materials",
+		"rarity": 3
+	},
+	"guide_to_praxis": {
+		"hoyo_id": 104336,
+		"name_hash": 1803874988,
+		"desc_hash": 1534037701,
+		"type_hash": 1549429894,
+		"name": "Guide to Praxis",
+		"desc": "Talent Level-Up material.\nPraxes are the roots of the nation of wisdom.\nPraxes validate words of honesty. Though one speaks and acts out of goodwill, one has not yet obtained wisdom. Wisdom, born from action, is a signet pressed upon honest words.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Materials",
+		"rarity": 3
+	},
+	"philosophies_of_ingenuity": {
+		"hoyo_id": 104334,
+		"name_hash": 3292554300,
+		"desc_hash": 129497877,
+		"type_hash": 3697276382,
+		"name": "Philosophies of Ingenuity",
+		"desc": "Talent Level-Up material.\nIngenuity is the leaf-veins of the nation of wisdom.\nIngenuity is completed by harmonious conduct. What is done completes what is thought. Wisdom blooms where the mind, words, and practice converge.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Materials",
+		"rarity": 4
+	},
+	"philosophies_of_praxis": {
+		"hoyo_id": 104337,
+		"name_hash": 1186858772,
+		"desc_hash": 2551097557,
+		"type_hash": 9219206,
+		"name": "Philosophies of Praxis",
+		"desc": "Talent Level-Up material.\nPraxes are the roots of the nation of wisdom.\nPraxes bring forth the fruit of wisdom. Practice grants itself meaning, and it is only by treading a path that unites action, speech, and thought that the wise may reach perfection.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Materials",
+		"rarity": 4
+	},
+	"copper_talisman_of_the_forest_dew": {
+		"hoyo_id": 114037,
+		"name_hash": 1730762740,
+		"desc_hash": 531140317,
+		"type_hash": 384012286,
+		"name": "Copper Talisman of the Forest Dew",
+		"desc": "Weapon Ascension Material.\nUnder the instructions of the First Sage, the ancestors of the forest people made these talismans using withered trees to commemorate the Lord of Verdure.\nThe talisman's shape was inspired by the forest dew. It symbolizes the permeation of wisdom into mortal minds.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 2
+	},
+	"oasis_gardens_reminiscence": {
+		"hoyo_id": 114041,
+		"name_hash": 3952230084,
+		"desc_hash": 473723453,
+		"type_hash": 1606235862,
+		"name": "Oasis Garden's Reminiscence",
+		"desc": "Weapon Ascension Material.\nPeople used to say that the Lord of Flowers was the Lord of Joy and Happiness. Freshwater sprang from her sleeves, and thus was the oasis of blossoming flowers born in the desert. Flowers and grasses followed in her footsteps, and gleaming moonlight cleared the way for her.\nIn the bitter days when the sky turned its back on the ground, the Lord of Flowers extended her mercy to each and every one of the mortals, letting them regain their happiness and egos, allowing leisure and luxury to resume.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 2
+	},
+	"echo_of_scorching_might": {
+		"hoyo_id": 114045,
+		"name_hash": 3558261580,
+		"desc_hash": 2434140485,
+		"type_hash": 3730179310,
+		"name": "Echo of Scorching Might",
+		"desc": "Weapon Ascension Material.\nA long time ago, the people of the Lord of Deserts carved these imperial insignias based on robust beetles to memorialize the bright sun that marked the shifting of day and night, as well as the infinity of such times.\nThough the name of that Lord is no longer mentioned, these imperial insignias have been preserved through time, each bearing a faint ambiance of those past glories.\nThese insignias travel with the descendants of the Eremite Tribe, silently telling the tales of their then-Lord.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 2
+	},
+	"iron_talisman_of_the_forest_dew": {
+		"hoyo_id": 114038,
+		"name_hash": 3230177356,
+		"desc_hash": 406309293,
+		"type_hash": 478176406,
+		"name": "Iron Talisman of the Forest Dew",
+		"desc": "Weapon Ascension Material.\nLater, the Lord of Verdure taught people the mystery of the forging of black iron. The innocent mortals thus grasped the knowledge of using fire to forge blades.\nThe Lord of Verdure took pleasure in their knowledge \u2014 Lethal as fire and blades were to her, they made ordinary people powerful.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 3
+	},
+	"silver_talisman_of_the_forest_dew": {
+		"hoyo_id": 114039,
+		"name_hash": 3177631348,
+		"desc_hash": 4087708069,
+		"type_hash": 33479670,
+		"name": "Silver Talisman of the Forest Dew",
+		"desc": "Weapon Ascension Material.\nIn the myriad lore of the forest, the one in the striped cape that resembled blazing flames was the Greater Lord of the Labyrinths and the Owner of the Moon-Mirrored Spring.\nWhen he bowed his head and struck up a friendship with the Lord of Verdure, the tokens of their friendship were the gems that glimmered like water and silver that gleamed like the moonlight.\nTo repay such a gesture, the Lord of Verdure promised to keep secrets for the Greater Lord of the Labyrinths and safeguard the intricate and beautiful dreams of the rainforest.\nNo one could have foretold that the magnificent mansion of secrets and dreams would later fade away amidst the shroud of the dark flame of oblivion, after which its ash returned to the soil and became nutrients for the virgin rainforests.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 4
+	},
+	"golden_talisman_of_the_forest_dew": {
+		"hoyo_id": 114040,
+		"name_hash": 2877776164,
+		"desc_hash": 1729148037,
+		"type_hash": 3939123718,
+		"name": "Golden Talisman of the Forest Dew",
+		"desc": "Weapon Ascension Material.\n\"Mortals hold dear three things only: the spring water that embraces the moonlight, verdant life, and ageless youth...\"\nThe nature of \"wisdom\" is not domination over all minds or scheming to gain all the benefit. Instead, it is about empowering even ordinary beings to one day overcome their imposed constraints.\nThough the roar of the tiger is no longer heard in the forest and the resilient guardians would seclude themselves within the dreams of children... On the night when every secret golden seal is lifted and all dreams glow like amber in the moonlight, perhaps she and her beloved people will eventually win genuine freedom.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 5
+	},
+	"oasis_gardens_kindness": {
+		"hoyo_id": 114042,
+		"name_hash": 3957624372,
+		"desc_hash": 4256319085,
+		"type_hash": 2301649390,
+		"name": "Oasis Garden's Kindness",
+		"desc": "Weapon Ascension Material.\nIn the literature buried deep beneath the yellow sands, the Lord of Flowers was the Mistress of Dreams.\nShe bestowed dreams upon the exiled, the manic, and the foolish. In those dreams, they were presented with their dearest delights. Burdened by the brutality of reality, they were fascinated by the charm of the Lord of Flowers and captivated by her beauty and care.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 3
+	},
+	"remnant_glow_of_scorching_might": {
+		"hoyo_id": 114046,
+		"name_hash": 3735544220,
+		"desc_hash": 2975201941,
+		"type_hash": 3791152606,
+		"name": "Remnant Glow of Scorching Might",
+		"desc": "Weapon Ascension Material.\nTo weave together myriad thoughts and reign over countless souls \u2014 this is the essence of power.\nHowever, power is not cold-blooded tyranny. Its true ideal, at its heart, is to create a utopia free of worry, schemes, and slavery.\nIt was just as the silent lord saw in the crystal's secrets, and just as the lost companion had once taught.\nThe dark insect insignia and the steel judgment thus laid the foundations of the kingdom's rules.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 3
+	},
+	"oasis_gardens_mourning": {
+		"hoyo_id": 114043,
+		"name_hash": 100335260,
+		"desc_hash": 1201816605,
+		"type_hash": 1004998718,
+		"name": "Oasis Garden's Mourning",
+		"desc": "Weapon Ascension Material.\nThe Lord of Flowers was in an amicable relationship with the Jinn.\nThe Mistress of Flowers and Oases joined hands with the Lord of Deserts and built Ay-Khanoum, the \"City of Amphitheaters,\" which carried the meaning of \"City of the Moon Maiden\" in the ancient language of the Jinn.\nLater, however, it was said that the Lord of Flowers died due to the malice of the burning sun and yellow sand, after which the blossoms of purple Padisarahs were never seen again in the oases.\nAfter the departure of the Lord of Flowers, the sandstorms keened, the Jinn sobbed, and the moonlight-silver gem disc lost its original, glad purpose, giving off a mournful glimmer.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 4
+	},
+	"oasis_gardens_truth": {
+		"hoyo_id": 114044,
+		"name_hash": 1198987156,
+		"desc_hash": 2351566837,
+		"type_hash": 3978223262,
+		"name": "Oasis Garden's Truth",
+		"desc": "Weapon Ascension Material.\n\"Who would worship a departed god?\"\nThe Lord of Flowers was once in alliance with two other gods. Apart from wisdom and power, she also brought mercy and joy to her people.\nJust as the earth needs more than the burning sunshine and pouring rain, to the people of the Lord of Flowers, joy and love, singing and music, and wine and extravagance were just as vital as strength and sensibility.\nIt is said that flowers blossom so that they may enjoy a spectacular death, and that death was precisely the wholehearted pursuit of the Lord of Flowers \u2014 for death adds bitterness to lost joy, and intensifies with time across endless memories.\nThe ignorant Lord of Deserts was never aware of her reasoning. He only reveled in her immense charm and grace \u2014 and as misguided as such fervent affections might be, they were well within the calculations of the Lord of Flowers.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 5
+	},
+	"dream_of_scorching_might": {
+		"hoyo_id": 114047,
+		"name_hash": 1697960908,
+		"desc_hash": 2887342365,
+		"type_hash": 75295142,
+		"name": "Dream of Scorching Might",
+		"desc": "Weapon Ascension Material.\nSilver moonlight and clear springs once completed the scenery of the oases. But as the Lord of Flowers faded in the darkening sandstorm, so was the worriless golden paradise submerged by death.\nIn the poetry of the Eremite Tribe, the moon cast its silver light on the crimson mantle, causing Al-Ahmar, the Mourning King, to be driven to madness.\nIn a melancholic desert ballad, driven by the haunting nostalgia, the lonely king created an ever-youthful dreamland in the center of the desert, where undisturbed water sprang up and perpetual dusk remained.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 4
+	},
+	"olden_days_of_scorching_might": {
+		"hoyo_id": 114048,
+		"name_hash": 3000058380,
+		"desc_hash": 86518517,
+		"type_hash": 2784358230,
+		"name": "Olden Days of Scorching Might",
+		"desc": "Weapon Ascension Material.\nIn the era when the ignorant Lord of Deserts ruled, his power descended upon every inch of the land like the scorching sun.\nAncient stone tablets record that he turned his power into seven rays of blinding light or seven pillars, which he granted equally and mercifully to everyone. No one was neglected, nor was anyone discontented.\nThat was a forgotten golden era, an era when the Lord of Flowers had faded into the sands and the Lord of Verdure was determined to leave. Only the descendants in the yellow sand chose to follow their god. Even as the grim shadow of calamity loomed, the power in which they had faith shone brightly like amber and gold.\nYet calamity befell nonetheless, and the golden insectoid insignias were buried beneath the depths of shrine and palace, under collapsed pillars engraved with images of eagles and bulls.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 5
+	},
 	"crimson_agate": {
 		"hoyo_id": 107010,
 		"name_hash": 3351602148,
@@ -1407,6 +1748,17 @@
 		"type_desc": "Refinement Material",
 		"rarity": 4
 	},
+	"plume_of_the_changing_winds": {
+		"hoyo_id": 200112,
+		"name_hash": 64279748,
+		"desc_hash": 138649013,
+		"type_hash": 3852463070,
+		"name": "Plume of the Changing Winds",
+		"desc": "Specialized refinement material for \"Missive Windspear.\"\nAn ancient feather carved from turquoise. It was once used as an ornament or a token of sorts.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Refinement Material",
+		"rarity": 4
+	},
 	"fragments_of_innocence": {
 		"hoyo_id": 200105,
 		"name_hash": 3750798004,
@@ -1447,6 +1799,17 @@
 		"type_hash": 3943096966,
 		"name": "\"The Visible Winds\"",
 		"desc": "Specialized refinement material for the Windblume Ode.\nAn intricately-made ornament that symbolizes the windmills and windblumes, and is that which adorns the limbs of the Windblume Ode. The wind is invisible and intangible, but the windmills that keep turning and the swaying flowers in the emerald fields are \"the visible winds\" that show people that the breeze will always care for all life in Mondstadt.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Refinement Material",
+		"rarity": 4
+	},
+	"original_fish_ointment": {
+		"hoyo_id": 200111,
+		"name_hash": 2583227476,
+		"desc_hash": 523395493,
+		"type_hash": 1900976166,
+		"name": "Original Fish Ointment",
+		"desc": "Specialized refinement material for \"End of the Line.\"\nOintment refined from a catch from the great lake in the north. It has the effect of temporarily restoring the energy of the fish that could be made into fine bows.\nIt is said that in the lake dwell aquatic creatures that cannot be seen anywhere else in Teyvat.",
 		"type": "ITEM_MATERIAL",
 		"type_desc": "Refinement Material",
 		"rarity": 4
@@ -2012,6 +2375,105 @@
 		"type_desc": "Character Level-Up Material",
 		"rarity": 3
 	},
+	"chaos_storage": {
+		"hoyo_id": 112068,
+		"name_hash": 3624263596,
+		"desc_hash": 2726897069,
+		"type_hash": 610893998,
+		"name": "Chaos Storage",
+		"desc": "Comes from a now-inactive ancient Ruin Drake.\nRuin Drakes can absorb Elemental Energy from the outside and store it in this component inside their \"neck.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
+	},
+	"faded_red_satin": {
+		"hoyo_id": 112065,
+		"name_hash": 2216845460,
+		"desc_hash": 1114572085,
+		"type_hash": 646355918,
+		"name": "Faded Red Satin",
+		"desc": "A piece of red satin used to cover the eyes. The fabric is slightly torn.\nMany Eremites tend to cover their eyes with textiles, but the original intention of this practice has long been lost to the sands of time.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 1
+	},
+	"chaos_module": {
+		"hoyo_id": 112069,
+		"name_hash": 2462831988,
+		"desc_hash": 1481939285,
+		"type_hash": 4118533646,
+		"name": "Chaos Module",
+		"desc": "Comes from a now-inactive ancient Ruin Drake.\nThe dragons were once the most primitive and ancient bodily form of the supreme elements until they were defeated, conquered, or assimilated.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
+	},
+	"trimmed_red_silk": {
+		"hoyo_id": 112066,
+		"name_hash": 2568989060,
+		"desc_hash": 1212255741,
+		"type_hash": 2858258222,
+		"name": "Trimmed Red Silk",
+		"desc": "A piece of red silk trimmed with simple decorations.\nA seasoned warrior can detect weaknesses from their foe's eyes and thus take advantage. The Eremites have long since lost a master to serve, and now they have no one to trust but themselves. Word has it that they are more than convinced that all things betray, even their own eyes.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
+	},
+	"chaos_bolt": {
+		"hoyo_id": 112070,
+		"name_hash": 1238837980,
+		"desc_hash": 1513346053,
+		"type_hash": 3965605646,
+		"name": "Chaos Bolt",
+		"desc": "Comes from a now-inactive ancient Ruin Drake.\nAmong the lost ancient kingdoms, there was a group of people who were obsessed with the idea of mimesis. Be it the Hypostases' pure ordered elements or the ancient primitive power of the dragons, these people believed that they might all be replicated and modified to the point where they had surpassed their natural counterparts.\nBy this means, a superior and unsullied bodily form could replace the continuously decaying and shattering order.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
+	},
+	"rich_red_brocade": {
+		"hoyo_id": 112067,
+		"name_hash": 82539884,
+		"desc_hash": 2883755837,
+		"type_hash": 1737560622,
+		"name": "Rich Red Brocade",
+		"desc": "A piece of red brocade woven with golden thread.\nThose born in the gilded desert under the sun occasionally sing a song, of which the meaning has been forgotten. They would praise the scorching sun that illuminates the earth as equally as ever and bewail the afterglow at the end of the dusk. Some unfamiliar words recur at the end of the song, which are said to be the names of ancient gods. Legend has it that when the King of the Desert was still alive, his people chose to cover their eyes as they dared not look upon him, whose brilliance was beyond that of the sun.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
+	},
+	"damaged_prism": {
+		"hoyo_id": 112071,
+		"name_hash": 1323847452,
+		"desc_hash": 2003632261,
+		"type_hash": 832006406,
+		"name": "Damaged Prism",
+		"desc": "A damaged component obtained from defeating a Primal Construct.\nThese uniquely-shaped machines are the eternal sentinels of the desert ruins, and they possess the power to pierce the mountains and reshape rocks. The same principles that power many mysterious devices above and beneath the earth also power these machines.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
+	},
+	"turbid_prism": {
+		"hoyo_id": 112072,
+		"name_hash": 707744556,
+		"desc_hash": 3254213717,
+		"type_hash": 2241316222,
+		"name": "Turbid Prism",
+		"desc": "An old component obtained from defeating a Primal Construct.\nIt is said that these machines are different from those ruin machines that come from deep within the desert, for they were not made as heralds of destruction or conquest.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
+	},
+	"radiant_prism": {
+		"hoyo_id": 112073,
+		"name_hash": 3862610052,
+		"desc_hash": 870221965,
+		"type_hash": 2716565430,
+		"name": "Radiant Prism",
+		"desc": "An exquisite component obtained from defeating a Primal Construct.\nThe lord of the barren desert once had a dream, and once made a great many promises.\nThe legends of the desert say that these machines were originally vehicles for these unknown promises, which now live on only within their mechanical memory banks.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
+	},
 	"concealed_claw": {
 		"hoyo_id": 112056,
 		"name_hash": 1491574284,
@@ -2045,6 +2507,39 @@
 		"type_desc": "Character Level-Up Material",
 		"rarity": 4
 	},
+	"fungal_spores": {
+		"hoyo_id": 112059,
+		"name_hash": 2849798340,
+		"desc_hash": 2834789541,
+		"type_hash": 553968286,
+		"name": "Fungal Spores",
+		"desc": "A small amount of glittering spore powder left behind by Floating Fungi. Seems that a sneeze is all it takes for this powder to vanish without a trace.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 1
+	},
+	"luminescent_pollen": {
+		"hoyo_id": 112060,
+		"name_hash": 884678236,
+		"desc_hash": 3148510149,
+		"type_hash": 2969936582,
+		"name": "Luminescent Pollen",
+		"desc": "A small parcel of luminescent Fungal Spore powder, a common medical ingredient in the land of rainforests. Merchants usually sell them in paper packets.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
+	},
+	"crystalline_cyst_dust": {
+		"hoyo_id": 112061,
+		"name_hash": 358330556,
+		"desc_hash": 754182717,
+		"type_hash": 1391609542,
+		"name": "Crystalline Cyst Dust",
+		"desc": "A huge lump of spore powder collected from a structurally complete spore cyst. Put it in an appropriate environment, and the area might be filled with a thriving aggregation of Floating Fungi later...",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
+	},
 	"dismal_prism": {
 		"hoyo_id": 112050,
 		"name_hash": 3559934532,
@@ -2074,6 +2569,39 @@
 		"type_hash": 1484779294,
 		"name": "Polarizing Prism",
 		"desc": "A prism that can bend light.\nIn the darkness, these prisms can spread thin light into a wider area. Perhaps this is due to this quirk that these prisms can grant a measure of peace to those whose hearts are oft shrouded in darkness.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
+	},
+	"inactivated_fungal_nucleus": {
+		"hoyo_id": 112062,
+		"name_hash": 3338415988,
+		"desc_hash": 4022411117,
+		"type_hash": 4128337286,
+		"name": "Inactivated Fungal Nucleus",
+		"desc": "Body tissue left behind by a Fungus that has been exposed to intense elemental stimulation.\nIts soothing texture makes it shockingly good for stress relief. However, frequent usage can also easily lead to the Fungi multiplying, and thus the material is not suitable for any commercial use.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
+	},
+	"dormant_fungal_nucleus": {
+		"hoyo_id": 112063,
+		"name_hash": 3667476428,
+		"desc_hash": 718846029,
+		"type_hash": 2399470302,
+		"name": "Dormant Fungal Nucleus",
+		"desc": "Body tissue left behind by a Fungus that has been exposed to intense elemental stimulation.\nThere was once a protracted debate among Amurta researchers on whether the Fungi should be categorized as plants or animals. In the end, they reached an agreement and closed the case for good \u2014 the Fungi shall be its own category, neither plant nor animal.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
+	},
+	"robust_fungal_nucleus": {
+		"hoyo_id": 112064,
+		"name_hash": 3245213916,
+		"desc_hash": 1050228357,
+		"type_hash": 2525926118,
+		"name": "Robust Fungal Nucleus",
+		"desc": "Body tissue left behind by a Fungus that has been exposed to intense elemental stimulation.\nIt is generally believed that the Fungi evolved into more mobile forms to better disperse their spores.\nA poet once depicted a shared dream of the Fungi in which their spores covered every inch of the mountains and oceans. The world had never been more tranquil. Then the Fungi turned into fish, birds, beasts, men, and gods, relying on rainfall, land, and their own kind who had returned to the earth.",
 		"type": "ITEM_MATERIAL",
 		"type_desc": "Character Level-Up Material",
 		"rarity": 4
@@ -2452,17 +2980,6 @@
 		"type_desc": "Character Level-Up Material",
 		"rarity": 5
 	},
-	"wolfhook": {
-		"hoyo_id": 100021,
-		"name_hash": 1372081476,
-		"desc_hash": 1053197341,
-		"type_hash": 3287960358,
-		"name": "Wolfhook",
-		"desc": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
-		"type": "ITEM_MATERIAL",
-		"type_desc": "Local Specialty (Mondstadt)",
-		"rarity": 1
-	},
 	"cecilia": {
 		"hoyo_id": 100023,
 		"name_hash": 3828726124,
@@ -2771,6 +3288,138 @@
 		"type_desc": "Character Level-Up Material",
 		"rarity": 4
 	},
+	"nagadus_emerald_sliver": {
+		"hoyo_id": 104131,
+		"name_hash": 959469100,
+		"desc_hash": 3801491277,
+		"type_hash": 90429214,
+		"name": "Nagadus Emerald Sliver",
+		"desc": "Character Ascension Material.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
+	},
+	"nagadus_emerald_fragment": {
+		"hoyo_id": 104132,
+		"name_hash": 2728980868,
+		"desc_hash": 1214049805,
+		"type_hash": 2466870158,
+		"name": "Nagadus Emerald Fragment",
+		"desc": "Character Ascension material.\n\"I had a very, very long dream...\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
+	},
+	"majestic_hooked_beak": {
+		"hoyo_id": 113036,
+		"name_hash": 1986578756,
+		"desc_hash": 2968032157,
+		"type_hash": 3863680606,
+		"name": "Majestic Hooked Beak",
+		"desc": "An elongated bill that you found after defeating the Jadeplume Terrorshroom.\nResearchers still consider it a miracle even now that some soft Fungi have evolved these rock-hard hooked beaks. This magnificent king amongst Fungi has been leisurely pacing on the finish line of evolution. Now and then, it emits a long call to all the living beings in the rainforest: Even the most helpless and timid creature may one day become the monarch of the woods.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
+	},
+	"nagadus_emerald_chunk": {
+		"hoyo_id": 104133,
+		"name_hash": 972163988,
+		"desc_hash": 2131856461,
+		"type_hash": 3975708414,
+		"name": "Nagadus Emerald Chunk",
+		"desc": "Character Ascension material.\n\"I had a very, very long dream...\"\n\"In it, people were holding hands, dancing in a circle, be they sages or fools, dancers or warriors, puppets or statues of gods...\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
+	},
+	"nagadus_emerald_gemstone": {
+		"hoyo_id": 104134,
+		"name_hash": 2238447652,
+		"desc_hash": 2731202837,
+		"type_hash": 226689134,
+		"name": "Nagadus Emerald Gemstone",
+		"desc": "Character Ascension material.\n\"I had a very, very long dream...\"\n\"In it, people were holding hands, dancing in a circle, be they sages or fools, dancers or warriors, puppets or statues of gods...\"\n\"That dancing circle embodied everything about the universe. Life has always been the end, while it is wisdom that shall be the means.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
+	},
+	"kalpalata_lotus": {
+		"hoyo_id": 101217,
+		"name_hash": 1479130340,
+		"desc_hash": 1657727149,
+		"type_hash": 3298312766,
+		"name": "Kalpalata Lotus",
+		"desc": "Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Sumeru)",
+		"rarity": 1
+	},
+	"thunderclap_fruitcore": {
+		"hoyo_id": 113037,
+		"name_hash": 1912724692,
+		"desc_hash": 3169322469,
+		"type_hash": 3294651558,
+		"name": "Thunderclap Fruitcore",
+		"desc": "The core of an Electro Regisvine, wrapped in razor-sharp leaves, wantonly emits Electro energy.\nThe roaring energy rampaging deep within the earth is eager to pour out its rage, thus even tainting these unfortunate vines with its mania, causing them to wail and flail their branches frantically. One can hardly tell whether it longs for others to taste the pain of being continuously electrocuted and charred or if it is struggling, looking forward to its inevitable doom.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
+	},
+	"nilotpala_lotus": {
+		"hoyo_id": 101215,
+		"name_hash": 774700980,
+		"desc_hash": 3550396653,
+		"type_hash": 340465654,
+		"name": "Nilotpala Lotus",
+		"desc": "Growing in the forest wetlands, these plants only bloom at night with flowers as bright as the moon.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Sumeru)",
+		"rarity": 1
+	},
+	"perpetual_caliber": {
+		"hoyo_id": 113038,
+		"name_hash": 639583268,
+		"desc_hash": 1221882677,
+		"type_hash": 890034910,
+		"name": "Perpetual Caliber",
+		"desc": "A motive device obtained from a mysterious ruin machine.\nThe machine it once powered may have been destroyed, but it continues to rotate all the same.\nThere should be no such thing as an energy source that can sustain itself forever in this world, and most research results obtained in the field of \"perpetual motion\" have been eventually proved false. Yet, this device is proof that a now-destroyed civilization once reached heights that present-day nations could not hope to match...",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
+	},
+	"scarab": {
+		"hoyo_id": 101225,
+		"name_hash": 3811437564,
+		"desc_hash": 860893701,
+		"type_hash": 502737526,
+		"name": "Scarab",
+		"desc": "A tenacious beetle that finds repose within the vast ocean of desert sand. The golden pattern on such beetles' shells hints at some deep relationship between them and the ancient ruins that dot the desert.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Sumeru)",
+		"rarity": 1
+	},
+	"redcrest": {
+		"hoyo_id": 101220,
+		"name_hash": 3448878900,
+		"desc_hash": 749601989,
+		"type_hash": 1327992462,
+		"name": "Redcrest",
+		"desc": "A fruit that grows even in the most hostile of desert environments. Its vibrant crimson fruits are made even more lovely against a backdrop of yellow sand.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Sumeru)",
+		"rarity": 1
+	},
+	"light_guiding_tetrahedron": {
+		"hoyo_id": 113039,
+		"name_hash": 1868454972,
+		"desc_hash": 3014517733,
+		"type_hash": 2710273734,
+		"name": "Light Guiding Tetrahedron",
+		"desc": "A core component obtained via defeating a mysterious ruin machine.\nTo this day, these ancient devices have not forgotten the dreams of their masters or their own duties: to build a thousand palaces, to administrate three thousand machines, to sow ten thousand flowers that shall never bloom again, and to recreate a paradise now buried beneath the desert sands for the sake of all who live in this world.\nThough the lord of the desert no longer lives, and those dreams have long been corrupted by sinful whispers, and though all the magical pillars have been broken and have collapsed, the great beast once favored by the king hides still within the great searing storm.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
+	},
 	"bloodjade_branch": {
 		"hoyo_id": 113018,
 		"name_hash": 2573932868,
@@ -2833,6 +3482,17 @@
 		"type_hash": 637514238,
 		"name": "Dragon Lord's Crown",
 		"desc": "Horns created from hardened jade crystallized over a thousand years are the natural crown of the dragon king.\nInfused with spirit and carved from bedrock, it was born from the mountain's heart to show the strength of the earth to the land amidst monoliths, and its long golden horns are the mark of its ancient strife with an ancient lord.\nFor a time, this horn was shattered and lost its luster, but now it gleams cold and gold as it sits in your palm.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
+	},
+	"mudra_of_the_malefic_general": {
+		"hoyo_id": 113032,
+		"name_hash": 3301367164,
+		"desc_hash": 2451751957,
+		"type_hash": 2812578838,
+		"name": "Mudra of the Malefic General",
+		"desc": "A puppet joint obtained from the Plane of Euthymia. The gesture here symbolizes the concept that \"one sees and one does.\"\nEven now that \"she\" has become a calamitous deity, she can still utilize such transcendent gestures, her sword flashing forth as swiftly as her eyes may see.\nAnd yet, as the countless disasters ground on for far too long, the baleful general's shell had to embrace a new spring.",
 		"type": "ITEM_MATERIAL",
 		"type_desc": "Character Level-Up Material",
 		"rarity": 5
@@ -2965,17 +3625,6 @@
 		"type_hash": 4125259606,
 		"name": "Tears of the Calamitous God",
 		"desc": "A puppet joint obtained from the Plane of Euthymia. The gesture here is in the shape of the baleful Eye of Stormy Judgment.\nSince they are able to bring down curse and catastrophe alike with a mere gaze, it might seem natural to blame life's misfortunes on calamitous deities. However, if you think about it a little harder, if your will is strong enough, and if your convictions are firm enough...\nThe catastrophes go on for too long. Even a baleful gaze must wash itself with tears.",
-		"type": "ITEM_MATERIAL",
-		"type_desc": "Character Level-Up Material",
-		"rarity": 5
-	},
-	"mudra_of_the_malefic_general": {
-		"hoyo_id": 113032,
-		"name_hash": 3301367164,
-		"desc_hash": 2451751957,
-		"type_hash": 2812578838,
-		"name": "Mudra of the Malefic General",
-		"desc": "A puppet joint obtained from the Plane of Euthymia. The gesture here symbolizes the concept that \"one sees and one does.\"\nEven now that \"she\" has become a calamitous deity, she can still utilize such transcendent gestures, her sword flashing forth as swiftly as her eyes may see.\nAnd yet, as the countless disasters ground on for far too long, the baleful general's shell had to embrace a new spring.",
 		"type": "ITEM_MATERIAL",
 		"type_desc": "Character Level-Up Material",
 		"rarity": 5

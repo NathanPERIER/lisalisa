@@ -1,0 +1,177 @@
+{
+	"hoyo_id": 14417,
+	"promote_id": 14417,
+	"gadget_id": 50014417,
+	"story_id": [
+		194417
+	],
+	"skill_affix": [
+		114417,
+		0
+	],
+	"type": "catalyst",
+	"name_hash": 2267978875,
+	"desc_hash": 1504631261,
+	"name": "Fruit of Fulfillment",
+	"desc": "A fruit you obtained from an Aranara tale. It holds the potential to conquer any crisis.",
+	"icon": "UI_EquipIcon_Catalyst_Arakalari",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Arakalari_Awaken",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"Energy Recharge%": 10.000000149011612
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"Energy Recharge%": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"oasis_gardens_reminiscence": 3,
+				"gloomy_statuette": 3,
+				"fungal_spores": 2,
+				"mora": 5000
+			},
+			{
+				"oasis_gardens_kindness": 3,
+				"gloomy_statuette": 12,
+				"fungal_spores": 8,
+				"mora": 15000
+			},
+			{
+				"oasis_gardens_kindness": 6,
+				"dark_statuette": 6,
+				"luminescent_pollen": 6,
+				"mora": 20000
+			},
+			{
+				"oasis_gardens_mourning": 3,
+				"dark_statuette": 12,
+				"luminescent_pollen": 9,
+				"mora": 30000
+			},
+			{
+				"oasis_gardens_mourning": 6,
+				"deathly_statuette": 9,
+				"crystalline_cyst_dust": 6,
+				"mora": 35000
+			},
+			{
+				"oasis_gardens_truth": 4,
+				"deathly_statuette": 18,
+				"crystalline_cyst_dust": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 0.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 2058139371,
+		"name": "Full Circle",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1144170,
+				"desc_hash": 3992441009,
+				"desc": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining 24 Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1144171,
+				"desc_hash": 3749660473,
+				"desc": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining 27 Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1144172,
+				"desc_hash": 3123572273,
+				"desc": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining 30 Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1144173,
+				"desc_hash": 304674417,
+				"desc": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining 33 Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1144174,
+				"desc_hash": 3344113473,
+				"desc": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining 36 Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field.",
+				"cost": 8000
+			}
+		]
+	}
+}

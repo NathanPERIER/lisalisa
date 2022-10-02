@@ -1,0 +1,177 @@
+{
+	"hoyo_id": 11418,
+	"promote_id": 11418,
+	"gadget_id": 50011418,
+	"story_id": [
+		191418
+	],
+	"skill_affix": [
+		111418,
+		0
+	],
+	"type": "sword",
+	"name_hash": 143051931,
+	"desc_hash": 2220863565,
+	"name": "Xiphos' Moonlight",
+	"desc": "This ancient double-edged sword glimmers with moonlight. It is said that a now-silent Jinni dwells within it.",
+	"icon": "UI_EquipIcon_Sword_Pleroma",
+	"icon_awaken": "UI_EquipIcon_Sword_Pleroma_Awaken",
+	"rarity": 4,
+	"base_stats": {
+		"Base ATK": 42.4010009765625,
+		"Elemental Mastery": 36.0
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_201",
+		"Elemental Mastery": "GROW_CURVE_CRITICAL_201"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"copper_talisman_of_the_forest_dew": 3,
+				"damaged_prism": 3,
+				"faded_red_satin": 2,
+				"mora": 5000
+			},
+			{
+				"iron_talisman_of_the_forest_dew": 3,
+				"damaged_prism": 12,
+				"faded_red_satin": 8,
+				"mora": 15000
+			},
+			{
+				"iron_talisman_of_the_forest_dew": 6,
+				"turbid_prism": 6,
+				"trimmed_red_silk": 6,
+				"mora": 20000
+			},
+			{
+				"silver_talisman_of_the_forest_dew": 3,
+				"turbid_prism": 12,
+				"trimmed_red_silk": 9,
+				"mora": 30000
+			},
+			{
+				"silver_talisman_of_the_forest_dew": 6,
+				"radiant_prism": 9,
+				"rich_red_brocade": 6,
+				"mora": 35000
+			},
+			{
+				"golden_talisman_of_the_forest_dew": 4,
+				"radiant_prism": 18,
+				"rich_red_brocade": 12,
+				"mora": 45000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 0.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base ATK": 25.899999618530273,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 51.900001525878906,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 77.80000305175781,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 103.69999694824219,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 129.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 815912907,
+		"name": "Jinni's Whisper",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1114180,
+				"desc_hash": 4282331977,
+				"desc": "The following effect will trigger every 10s: The equipping character will gain 0.036% Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1114181,
+				"desc_hash": 594057257,
+				"desc": "The following effect will trigger every 10s: The equipping character will gain 0.045% Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+				"cost": 1000
+			},
+			{
+				"affix_id": 1114182,
+				"desc_hash": 2533040249,
+				"desc": "The following effect will trigger every 10s: the equipping character will gain 0.054% Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1114183,
+				"desc_hash": 3869556209,
+				"desc": "The following effect will trigger every 10s: The equipping character will gain 0.063% Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1114184,
+				"desc_hash": 3714764705,
+				"desc": "The following effect will trigger every 10s: the equipping character will gain 0.072% Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+				"cost": 8000
+			}
+		]
+	}
+}

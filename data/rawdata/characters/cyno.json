@@ -1,0 +1,958 @@
+{
+	"hoyo_id": 10000071,
+	"promote_id": 71,
+	"skill_depot_id": 7101,
+	"fetter_id": 71600,
+	"weapon": "polearm",
+	"name_hash": 1049891906,
+	"desc_hash": 2253913929,
+	"name": "Cyno",
+	"desc": "The General Mahamatra in charge of supervising the researchers of the Akademiya. It is said that when he gets down to work, the General Mahamatra is even more efficient than the \"Great Vayuvyastra\" made by the Kshahrewar.",
+	"icon": "UI_AvatarIcon_Cyno",
+	"rarity": 5,
+	"special": false,
+	"body": "BODY_BOY",
+	"birthday": [
+		23,
+		6
+	],
+	"region": "sumeru",
+	"vision_hash": [
+		1072755468,
+		2071410321
+	],
+	"astrolabe_hash": [
+		2651954010,
+		2791041171
+	],
+	"allegiance_hash": 1402968689,
+	"vision": "electro",
+	"astrolabe": "Lupus Aureus",
+	"allegiance": "Temple of Silence",
+	"default_weapon": "beginners_protector",
+	"increase_skill": 5,
+	"increase_burst": 3,
+	"base_stats": {
+		"Base HP": 972.3864135742188,
+		"Base ATK": 24.76460075378418,
+		"Base DEF": 66.88993835449219,
+		"Crit Rate%": 5.000000074505806,
+		"Crit DMG%": 50.0
+	},
+	"curves": {
+		"Base HP": "GROW_CURVE_HP_S5",
+		"Base ATK": "GROW_CURVE_ATTACK_S5",
+		"Base DEF": "GROW_CURVE_HP_S5"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"vajrada_amethyst_sliver": 1,
+				"scarab": 3,
+				"divining_scroll": 3,
+				"mora": 20000
+			},
+			{
+				"vajrada_amethyst_fragment": 3,
+				"thunderclap_fruitcore": 2,
+				"scarab": 10,
+				"divining_scroll": 15,
+				"mora": 40000
+			},
+			{
+				"vajrada_amethyst_fragment": 6,
+				"thunderclap_fruitcore": 4,
+				"scarab": 20,
+				"sealed_scroll": 12,
+				"mora": 60000
+			},
+			{
+				"vajrada_amethyst_chunk": 3,
+				"thunderclap_fruitcore": 8,
+				"scarab": 30,
+				"sealed_scroll": 18,
+				"mora": 80000
+			},
+			{
+				"vajrada_amethyst_chunk": 6,
+				"thunderclap_fruitcore": 12,
+				"scarab": 45,
+				"forbidden_curse_scroll": 12,
+				"mora": 100000
+			},
+			{
+				"vajrada_amethyst_gemstone": 6,
+				"thunderclap_fruitcore": 20,
+				"scarab": 60,
+				"forbidden_curse_scroll": 24,
+				"mora": 120000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base HP": 0.0,
+					"Base DEF": 0.0,
+					"Base ATK": 0.0,
+					"Crit DMG%": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base HP": 833.7333984375,
+					"Base DEF": 57.35340118408203,
+					"Base ATK": 21.231853485107422,
+					"Crit DMG%": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base HP": 1426.1229248046875,
+					"Base DEF": 98.10449981689453,
+					"Base ATK": 36.31764602661133,
+					"Crit DMG%": 9.600000083446503
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base HP": 2215.9755859375,
+					"Base DEF": 152.43930053710938,
+					"Base ATK": 56.43203353881836,
+					"Crit DMG%": 19.200000166893005
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base HP": 2808.365234375,
+					"Base DEF": 193.19039916992188,
+					"Base ATK": 71.517822265625,
+					"Crit DMG%": 19.200000166893005
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base HP": 3400.754638671875,
+					"Base DEF": 233.94149780273438,
+					"Base ATK": 86.6036148071289,
+					"Crit DMG%": 28.79999876022339
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base HP": 3993.144287109375,
+					"Base DEF": 274.6925964355469,
+					"Base ATK": 101.68940734863281,
+					"Crit DMG%": 38.40000033378601
+				},
+				"until": 90
+			}
+		]
+	},
+	"talents": {
+		"normal_attack": {
+			"name_hash": 2262721981,
+			"desc_hash": 1651662752,
+			"name": "Normal Attack: Invoker's Spear",
+			"desc": "Normal Attack\nPerforms up to 4 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_03",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_admonition": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_admonition": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_admonition": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_admonition": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_admonition": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_admonition": 4,
+					"forbidden_curse_scroll": 4,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_admonition": 6,
+					"forbidden_curse_scroll": 6,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_admonition": 12,
+					"forbidden_curse_scroll": 9,
+					"mudra_of_the_malefic_general": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_admonition": 16,
+					"forbidden_curse_scroll": 12,
+					"mudra_of_the_malefic_general": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG"
+				],
+				"values": [
+					[
+						"49.26%",
+						"47.92%",
+						"29.31%+29.31%",
+						"75.89%",
+						"122.38%",
+						"25",
+						"63.93%",
+						"127.84%/159.68%"
+					],
+					[
+						"53.27%",
+						"51.82%",
+						"31.69%+31.69%",
+						"82.07%",
+						"132.34%",
+						"25",
+						"69.14%",
+						"138.24%/172.67%"
+					],
+					[
+						"57.28%",
+						"55.72%",
+						"34.08%+34.08%",
+						"88.24%",
+						"142.3%",
+						"25",
+						"74.34%",
+						"148.65%/185.67%"
+					],
+					[
+						"63%",
+						"61.29%",
+						"37.48%+37.48%",
+						"97.07%",
+						"156.53%",
+						"25",
+						"81.77%",
+						"163.51%/204.24%"
+					],
+					[
+						"67.01%",
+						"65.19%",
+						"39.87%+39.87%",
+						"103.25%",
+						"166.49%",
+						"25",
+						"86.98%",
+						"173.92%/217.23%"
+					],
+					[
+						"71.6%",
+						"69.65%",
+						"42.6%+42.6%",
+						"110.31%",
+						"177.87%",
+						"25",
+						"92.93%",
+						"185.81%/232.09%"
+					],
+					[
+						"77.9%",
+						"75.78%",
+						"46.34%+46.34%",
+						"120.01%",
+						"193.53%",
+						"25",
+						"101.1%",
+						"202.16%/252.51%"
+					],
+					[
+						"84.2%",
+						"81.91%",
+						"50.09%+50.09%",
+						"129.72%",
+						"209.18%",
+						"25",
+						"109.28%",
+						"218.51%/272.93%"
+					],
+					[
+						"90.5%",
+						"88.04%",
+						"53.84%+53.84%",
+						"139.43%",
+						"224.83%",
+						"25",
+						"117.46%",
+						"234.86%/293.36%"
+					],
+					[
+						"97.37%",
+						"94.73%",
+						"57.93%+57.93%",
+						"150.02%",
+						"241.91%",
+						"25",
+						"126.38%",
+						"252.7%/315.64%"
+					],
+					[
+						"104.24%",
+						"101.41%",
+						"62.02%+62.02%",
+						"160.61%",
+						"258.99%",
+						"25",
+						"135.3%",
+						"270.54%/337.92%"
+					],
+					[
+						"111.12%",
+						"108.1%",
+						"66.11%+66.11%",
+						"171.2%",
+						"276.06%",
+						"25",
+						"144.22%",
+						"288.38%/360.2%"
+					],
+					[
+						"117.99%",
+						"114.79%",
+						"70.2%+70.2%",
+						"181.78%",
+						"293.14%",
+						"25",
+						"153.14%",
+						"306.22%/382.48%"
+					],
+					[
+						"124.86%",
+						"121.47%",
+						"74.29%+74.29%",
+						"192.37%",
+						"310.21%",
+						"25",
+						"162.06%",
+						"324.05%/404.76%"
+					],
+					[
+						"131.73%",
+						"128.16%",
+						"78.38%+78.38%",
+						"202.96%",
+						"327.29%",
+						"25",
+						"170.98%",
+						"341.89%/427.04%"
+					]
+				]
+			}
+		},
+		"elemental_skill": {
+			"name_hash": 584952661,
+			"desc_hash": 431532312,
+			"name": "Secret Rite: Chasmic Soulfarer",
+			"desc": "Performs a swift thrust, dealing Electro DMG to opponents along the path.\n\nWhen Cyno is under the Pactsworn Pathclearer state triggered by Sacred Rite: Wolf's Swiftness, he will instead unleash a Mortuary Rite that deals thunderous AoE Electro DMG and extends the duration of Pactsworn Pathclearer.\n\n<i>\"This judgment brooks no choice. There is no rejection or acceptance here... We have both long been bound up in this conviction.\"</i>",
+			"icon": "Skill_S_Cyno_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_admonition": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_admonition": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_admonition": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_admonition": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_admonition": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_admonition": 4,
+					"forbidden_curse_scroll": 4,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_admonition": 6,
+					"forbidden_curse_scroll": 6,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_admonition": 12,
+					"forbidden_curse_scroll": 9,
+					"mudra_of_the_malefic_general": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_admonition": 16,
+					"forbidden_curse_scroll": 12,
+					"mudra_of_the_malefic_general": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"Skill DMG",
+					"Mortuary Rite DMG",
+					"Pactsworn Pathclearer Duration Bonus",
+					"CD",
+					"Mortuary Rite CD"
+				],
+				"values": [
+					[
+						"130.4%",
+						"156.8%",
+						"4s",
+						"7.5s",
+						"3s"
+					],
+					[
+						"140.18%",
+						"168.56%",
+						"4s",
+						"7.5s",
+						"3s"
+					],
+					[
+						"149.96%",
+						"180.32%",
+						"4s",
+						"7.5s",
+						"3s"
+					],
+					[
+						"163%",
+						"196%",
+						"4s",
+						"7.5s",
+						"3s"
+					],
+					[
+						"172.78%",
+						"207.76%",
+						"4s",
+						"7.5s",
+						"3s"
+					],
+					[
+						"182.56%",
+						"219.52%",
+						"4s",
+						"7.5s",
+						"3s"
+					],
+					[
+						"195.6%",
+						"235.2%",
+						"4s",
+						"7.5s",
+						"3s"
+					],
+					[
+						"208.64%",
+						"250.88%",
+						"4s",
+						"7.5s",
+						"3s"
+					],
+					[
+						"221.68%",
+						"266.56%",
+						"4s",
+						"7.5s",
+						"3s"
+					],
+					[
+						"234.72%",
+						"282.24%",
+						"4s",
+						"7.5s",
+						"3s"
+					],
+					[
+						"247.76%",
+						"297.92%",
+						"4s",
+						"7.5s",
+						"3s"
+					],
+					[
+						"260.8%",
+						"313.6%",
+						"4s",
+						"7.5s",
+						"3s"
+					],
+					[
+						"277.1%",
+						"333.2%",
+						"4s",
+						"7.5s",
+						"3s"
+					],
+					[
+						"293.4%",
+						"352.8%",
+						"4s",
+						"7.5s",
+						"3s"
+					],
+					[
+						"309.7%",
+						"372.4%",
+						"4s",
+						"7.5s",
+						"3s"
+					]
+				]
+			}
+		},
+		"elemental_burst": {
+			"name_hash": 2604847405,
+			"desc_hash": 2282154672,
+			"name": "Sacred Rite: Wolf's Swiftness",
+			"desc": "Calls upon a divine spirit to indwell him, morphing into the Pactsworn Pathclearer.\n\nPactsworn Pathclearer\nCyno's Normal, Charged, and Plunging Attacks will be converted to Electro DMG that cannot be overridden.\n\u00b7Cyno's Elemental Mastery and resistance to interruption will increase, and he gains immunity to Electro-Charged DMG.\n\nThis effect will be canceled when Cyno leaves the field and lasts a maximum of 18s.\n\n<i>The secret rituals passed down within the ancient nation are as a final judgment to the General Mahamatra.</i>\n<i>Whether now or in the past, whether great storm or serpent, none shall shake the majesty of the law.</i>",
+			"icon": "Skill_E_Cyno_01",
+			"charge_num": 1,
+			"costs": [
+				{
+					"teachings_of_admonition": 3,
+					"divining_scroll": 6,
+					"mora": 12500
+				},
+				{
+					"guide_to_admonition": 2,
+					"sealed_scroll": 3,
+					"mora": 17500
+				},
+				{
+					"guide_to_admonition": 4,
+					"sealed_scroll": 4,
+					"mora": 25000
+				},
+				{
+					"guide_to_admonition": 6,
+					"sealed_scroll": 6,
+					"mora": 30000
+				},
+				{
+					"guide_to_admonition": 9,
+					"sealed_scroll": 9,
+					"mora": 37500
+				},
+				{
+					"philosophies_of_admonition": 4,
+					"forbidden_curse_scroll": 4,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 120000
+				},
+				{
+					"philosophies_of_admonition": 6,
+					"forbidden_curse_scroll": 6,
+					"mudra_of_the_malefic_general": 1,
+					"mora": 260000
+				},
+				{
+					"philosophies_of_admonition": 12,
+					"forbidden_curse_scroll": 9,
+					"mudra_of_the_malefic_general": 2,
+					"mora": 450000
+				},
+				{
+					"philosophies_of_admonition": 16,
+					"forbidden_curse_scroll": 12,
+					"mudra_of_the_malefic_general": 2,
+					"crown_of_insight": 1,
+					"mora": 700000
+				}
+			],
+			"stats": {
+				"names": [
+					"1-Hit DMG",
+					"2-Hit DMG",
+					"3-Hit DMG",
+					"4-Hit DMG",
+					"5-Hit DMG",
+					"Charged Attack DMG",
+					"Charged Attack Stamina Cost",
+					"Plunge DMG",
+					"Low/High Plunge DMG",
+					"Elemental Mastery Bonus",
+					"Basic Duration",
+					"CD",
+					"Energy Cost"
+				],
+				"values": [
+					[
+						"78.28%",
+						"82.47%",
+						"104.63%",
+						"51.69%+51.69%",
+						"130.84%",
+						"101.05%",
+						"25",
+						"63.93%",
+						"127.84%/159.68%",
+						"100",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"84.66%",
+						"89.18%",
+						"113.15%",
+						"55.9%+55.9%",
+						"141.49%",
+						"109.27%",
+						"25",
+						"69.14%",
+						"138.24%/172.67%",
+						"100",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"91.03%",
+						"95.89%",
+						"121.67%",
+						"60.11%+60.11%",
+						"152.15%",
+						"117.5%",
+						"25",
+						"74.34%",
+						"148.65%/185.67%",
+						"100",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"100.13%",
+						"105.48%",
+						"133.83%",
+						"66.12%+66.12%",
+						"167.36%",
+						"129.25%",
+						"25",
+						"81.77%",
+						"163.51%/204.24%",
+						"100",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"106.5%",
+						"112.2%",
+						"142.35%",
+						"70.33%+70.33%",
+						"178.01%",
+						"137.48%",
+						"25",
+						"86.98%",
+						"173.92%/217.23%",
+						"100",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"113.78%",
+						"119.87%",
+						"152.08%",
+						"75.14%+75.14%",
+						"190.18%",
+						"146.88%",
+						"25",
+						"92.93%",
+						"185.81%/232.09%",
+						"100",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"123.8%",
+						"130.42%",
+						"165.47%",
+						"81.75%+81.75%",
+						"206.92%",
+						"159.8%",
+						"25",
+						"101.1%",
+						"202.16%/252.51%",
+						"100",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"133.81%",
+						"140.96%",
+						"178.85%",
+						"88.36%+88.36%",
+						"223.65%",
+						"172.72%",
+						"25",
+						"109.28%",
+						"218.51%/272.93%",
+						"100",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"143.82%",
+						"151.51%",
+						"192.23%",
+						"94.97%+94.97%",
+						"240.39%",
+						"185.65%",
+						"25",
+						"117.46%",
+						"234.86%/293.36%",
+						"100",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"154.75%",
+						"163.02%",
+						"206.83%",
+						"102.19%+102.19%",
+						"258.65%",
+						"199.75%",
+						"25",
+						"126.38%",
+						"252.7%/315.64%",
+						"100",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"165.67%",
+						"174.53%",
+						"221.43%",
+						"109.4%+109.4%",
+						"276.9%",
+						"213.85%",
+						"25",
+						"135.3%",
+						"270.54%/337.92%",
+						"100",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"176.59%",
+						"186.03%",
+						"236.03%",
+						"116.61%+116.61%",
+						"295.16%",
+						"227.95%",
+						"25",
+						"144.22%",
+						"288.38%/360.2%",
+						"100",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"187.52%",
+						"197.54%",
+						"250.63%",
+						"123.83%+123.83%",
+						"313.42%",
+						"242.05%",
+						"25",
+						"153.14%",
+						"306.22%/382.48%",
+						"100",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"198.44%",
+						"209.05%",
+						"265.23%",
+						"131.04%+131.04%",
+						"331.68%",
+						"256.15%",
+						"25",
+						"162.06%",
+						"324.05%/404.76%",
+						"100",
+						"10s",
+						"20s",
+						"80"
+					],
+					[
+						"209.36%",
+						"220.56%",
+						"279.83%",
+						"138.25%+138.25%",
+						"349.93%",
+						"270.25%",
+						"25",
+						"170.98%",
+						"341.89%/427.04%",
+						"100",
+						"10s",
+						"20s",
+						"80"
+					]
+				]
+			}
+		},
+		"alternate_sprint": null
+	},
+	"passives": [
+		{
+			"name_hash": 406259061,
+			"desc_hash": 1396793139,
+			"name": "Featherfall Judgment",
+			"desc": "When Cyno is in the Pactsworn Pathclearer state activated by Sacred Rite: Wolf's Swiftness, Cyno will enter the Endseer stance at intervals. If he activates Secret Rite: Chasmic Soulfarer while affected by this stance, he will activate the Judication effect, increasing the DMG of this Secret Rite: Chasmic Soulfarer by 35%, and firing off 3 Duststalker Bolts that deal 100% of Cyno's ATK as Electro DMG.\nDuststalker Bolt DMG is considered Elemental Skill DMG.",
+			"icon": "UI_Talent_S_Cyno_05",
+			"ascension": 1
+		},
+		{
+			"name_hash": 2701967301,
+			"desc_hash": 1900475347,
+			"name": "Authority Over the Nine Bows",
+			"desc": "Cyno's DMG values will be increased based on his Elemental Mastery as follows:\n\u00b7Pactsworn Pathclearer's Normal Attack DMG is increased by 150% of his Elemental Mastery.\n\u00b7Duststalker Bolt DMG from his Passive Talent Featherfall Judgment is increased by 250% of his Elemental Mastery.",
+			"icon": "UI_Talent_S_Cyno_06",
+			"ascension": 4
+		},
+		{
+			"name_hash": 4091746589,
+			"desc_hash": 1571484299,
+			"name": "The Gift of Silence",
+			"desc": "Gains 25% more rewards when dispatched on a Sumeru Expedition for 20 hours.",
+			"icon": "UI_Talent_S_Cyno_07",
+			"ascension": null
+		}
+	],
+	"constellations": [
+		{
+			"name_hash": 748102489,
+			"desc_hash": 2323427151,
+			"name": "Ordinance: Unceasing Vigil",
+			"desc": "After using Sacred Rite: Wolf's Swiftness, Cyno's Normal Attack SPD will be increased by 20% for 10s. If the Judication effect of his Passive Talent Featherfall Judgment is triggered during Secret Rite: Chasmic Soulfarer, the duration of this increase will be refreshed.\nYou need to unlock the Passive Talent \"Featherfall Judgment.\"",
+			"icon": "UI_Talent_S_Cyno_01"
+		},
+		{
+			"name_hash": 3035895129,
+			"desc_hash": 1790987583,
+			"name": "Ceremony: Homecoming of Spirits",
+			"desc": "When Cyno's Normal Attacks hit opponents, his Electro DMG Bonus will increase by 10% for 4s. This effect can be triggered once every 0.1s. Max 5 stacks.",
+			"icon": "UI_Talent_S_Cyno_02"
+		},
+		{
+			"name_hash": 3680254705,
+			"desc_hash": 1482911911,
+			"name": "Precept: Lawful Enforcer",
+			"desc": "Increases the Level of Sacred Rite: Wolf's Swiftness by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Cyno_01"
+		},
+		{
+			"name_hash": 1630701449,
+			"desc_hash": 1262681015,
+			"name": "Austerity: Forbidding Guard",
+			"desc": "When Cyno is in the Pactsworn Pathclearer state triggered by Sacred Rite: Wolf's Swiftness, after he triggers Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or an Electro Swirl reaction, he will restore 3 Elemental Energy for all nearby party members (except himself.)\nThis effect can occur 5 times within one use of Sacred Rite: Wolf's Swiftness.",
+			"icon": "UI_Talent_S_Cyno_03"
+		},
+		{
+			"name_hash": 1368859857,
+			"desc_hash": 3824690295,
+			"name": "Funerary Rite: The Passing of Starlight",
+			"desc": "Increases the Level of Secret Rite: Chasmic Soulfarer by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Cyno_02"
+		},
+		{
+			"name_hash": 2479658985,
+			"desc_hash": 306126727,
+			"name": "Raiment: Just Scales",
+			"desc": "After using Sacred Rite: Wolf's Swiftness or triggering the Judication effect of the Passive Talent \"Featherfall Judgment,\" Cyno will gain 4 stacks of the \"Day of the Jackal\" effect. When he hits opponents with Normal Attacks, he will consume 1 stack of \"Day of the Jackal\" to fire off one Duststalker Bolt.\n\"Day of the Jackal\" lasts for 8s. Max 8 stacks. It will be canceled once Pactsworn Pathclearer ends.\nA maximum of 1 Duststalker Bolt can be unleashed this way every 0.4s.\nYou must first unlock the Passive Talent \"Featherfall Judgment.\"",
+			"icon": "UI_Talent_S_Cyno_04"
+		}
+	],
+	"skins": {
+		"default": {
+			"hoyo_id": null,
+			"name_hash": 3913661394,
+			"desc_hash": 1864424082,
+			"name": "Heart of the Scales",
+			"desc": "Cyno's outfit. This garb displays the General Mahamatra's dignity and the just principles he sticks by. It was a rather complicated piece to commission due to Cyno's request for the custom-made head ornaments and requires regular maintenance.",
+			"icon": "",
+			"restricted": false
+		},
+		"alt": {}
+	},
+	"special_dish": {
+		"original_recipe": "tahchin",
+		"hoyo_id": 108467,
+		"name_hash": 2190500132,
+		"desc_hash": 2629409261,
+		"type_hash": 56453686,
+		"name": "Duel Soul",
+		"desc": "Cyno's specialty. The golden grains of rice have been piled up like a most remarkable hill. As you scoop out a chunk and place the fragrant meat into your mouth, an impulse you cannot name rises within your chest \u2014 a desire to whip out your Genius Invokation deck and duel!",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 3
+	}
+}

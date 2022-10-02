@@ -1,0 +1,177 @@
+{
+	"hoyo_id": 13511,
+	"promote_id": 13511,
+	"gadget_id": 50013511,
+	"story_id": [
+		193511
+	],
+	"skill_affix": [
+		113511,
+		0
+	],
+	"type": "polearm",
+	"name_hash": 4238339131,
+	"desc_hash": 1590458749,
+	"name": "Staff of the Scarlet Sands",
+	"desc": "One of a paired set of scepters fashioned from obsidian. Legend has it that these staves grant the right to lead the people of the desert, but no retainer now lives who can verify the proper appearance of these regalia.",
+	"icon": "UI_EquipIcon_Pole_Deshret",
+	"icon_awaken": "UI_EquipIcon_Pole_Deshret_Awaken",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 44.33580017089844,
+		"Crit Rate%": 9.600000083446503
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_304",
+		"Crit Rate%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"oasis_gardens_reminiscence": 5,
+				"chaos_storage": 5,
+				"fungal_spores": 3,
+				"mora": 10000
+			},
+			{
+				"oasis_gardens_kindness": 5,
+				"chaos_storage": 18,
+				"fungal_spores": 12,
+				"mora": 20000
+			},
+			{
+				"oasis_gardens_kindness": 9,
+				"chaos_module": 9,
+				"luminescent_pollen": 9,
+				"mora": 30000
+			},
+			{
+				"oasis_gardens_mourning": 5,
+				"chaos_module": 18,
+				"luminescent_pollen": 14,
+				"mora": 45000
+			},
+			{
+				"oasis_gardens_mourning": 9,
+				"chaos_bolt": 14,
+				"crystalline_cyst_dust": 9,
+				"mora": 55000
+			},
+			{
+				"oasis_gardens_truth": 6,
+				"chaos_bolt": 27,
+				"crystalline_cyst_dust": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 0.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 810032979,
+		"name": "Heat Haze at Horizon's End",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1135110,
+				"desc_hash": 1366324041,
+				"desc": "The equipping character gains 52% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain 28% of their Elemental Mastery as bonus ATK. Max 3 stacks.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1135111,
+				"desc_hash": 3835351777,
+				"desc": "The equipping character gains 65% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain 35% of their Elemental Mastery as bonus ATK. Max 3 stacks.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1135112,
+				"desc_hash": 1881405929,
+				"desc": "The equipping character gains 78% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain 42% of their Elemental Mastery as bonus ATK. Max 3 stacks.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1135113,
+				"desc_hash": 4097388529,
+				"desc": "The equipping character gains 91% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain 49% of their Elemental Mastery as bonus ATK. Max 3 stacks.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1135114,
+				"desc_hash": 368659377,
+				"desc": "The equipping character gains 104% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain 56% of their Elemental Mastery as bonus ATK. Max 3 stacks.",
+				"cost": 16000
+			}
+		]
+	}
+}

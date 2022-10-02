@@ -1,0 +1,177 @@
+{
+	"hoyo_id": 15511,
+	"promote_id": 15511,
+	"gadget_id": 50015511,
+	"story_id": [
+		195511
+	],
+	"skill_affix": [
+		115511,
+		0
+	],
+	"type": "bow",
+	"name_hash": 1348687251,
+	"desc_hash": 2918205389,
+	"name": "Hunter's Path",
+	"desc": "This gilded bow was made using precious white branches. It has felled countless wicked beasts attempting to infiltrate the woods.",
+	"icon": "UI_EquipIcon_Bow_Ayus",
+	"icon_awaken": "UI_EquipIcon_Bow_Ayus_Awaken",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 44.33580017089844,
+		"Crit Rate%": 9.600000083446503
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_304",
+		"Crit Rate%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"echo_of_scorching_might": 5,
+				"inactivated_fungal_nucleus": 5,
+				"faded_red_satin": 3,
+				"mora": 10000
+			},
+			{
+				"remnant_glow_of_scorching_might": 5,
+				"inactivated_fungal_nucleus": 18,
+				"faded_red_satin": 12,
+				"mora": 20000
+			},
+			{
+				"remnant_glow_of_scorching_might": 9,
+				"dormant_fungal_nucleus": 9,
+				"trimmed_red_silk": 9,
+				"mora": 30000
+			},
+			{
+				"dream_of_scorching_might": 5,
+				"dormant_fungal_nucleus": 18,
+				"trimmed_red_silk": 14,
+				"mora": 45000
+			},
+			{
+				"dream_of_scorching_might": 9,
+				"robust_fungal_nucleus": 14,
+				"rich_red_brocade": 9,
+				"mora": 55000
+			},
+			{
+				"olden_days_of_scorching_might": 6,
+				"robust_fungal_nucleus": 27,
+				"rich_red_brocade": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 0.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1173973395,
+		"name": "At the End of the Beast-Paths",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1155110,
+				"desc_hash": 608698705,
+				"desc": "Gain 12% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by 160% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1155111,
+				"desc_hash": 64084113,
+				"desc": "Gain 15% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by 200% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1155112,
+				"desc_hash": 4259653657,
+				"desc": "Gain 18% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by 240% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1155113,
+				"desc_hash": 2834360001,
+				"desc": "Gain 21% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by 280% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1155114,
+				"desc_hash": 753180665,
+				"desc": "Gain 24% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by 320% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
+				"cost": 16000
+			}
+		]
+	}
+}

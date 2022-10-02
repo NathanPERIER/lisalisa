@@ -1,0 +1,177 @@
+{
+	"hoyo_id": 11511,
+	"promote_id": 11511,
+	"gadget_id": 50011511,
+	"story_id": [
+		191511
+	],
+	"skill_affix": [
+		111511,
+		0
+	],
+	"type": "sword",
+	"name_hash": 454086795,
+	"desc_hash": 1788860021,
+	"name": "Key of Khaj-Nisut",
+	"desc": "One of a paired set of scepters fashioned from obsidian. They say that this can be used as a key to open the gate to a paradise that lies at the end of the ocean of sand.",
+	"icon": "UI_EquipIcon_Sword_Deshret",
+	"icon_awaken": "UI_EquipIcon_Sword_Deshret_Awaken",
+	"rarity": 5,
+	"base_stats": {
+		"Base ATK": 44.33580017089844,
+		"HP%": 14.399999380111694
+	},
+	"curves": {
+		"Base ATK": "GROW_CURVE_ATTACK_304",
+		"HP%": "GROW_CURVE_CRITICAL_301"
+	},
+	"ascensions": {
+		"costs": [
+			{
+				"copper_talisman_of_the_forest_dew": 5,
+				"damaged_prism": 5,
+				"faded_red_satin": 3,
+				"mora": 10000
+			},
+			{
+				"iron_talisman_of_the_forest_dew": 5,
+				"damaged_prism": 18,
+				"faded_red_satin": 12,
+				"mora": 20000
+			},
+			{
+				"iron_talisman_of_the_forest_dew": 9,
+				"turbid_prism": 9,
+				"trimmed_red_silk": 9,
+				"mora": 30000
+			},
+			{
+				"silver_talisman_of_the_forest_dew": 5,
+				"turbid_prism": 18,
+				"trimmed_red_silk": 14,
+				"mora": 45000
+			},
+			{
+				"silver_talisman_of_the_forest_dew": 9,
+				"radiant_prism": 14,
+				"rich_red_brocade": 9,
+				"mora": 55000
+			},
+			{
+				"golden_talisman_of_the_forest_dew": 6,
+				"radiant_prism": 27,
+				"rich_red_brocade": 18,
+				"mora": 65000
+			}
+		],
+		"props": [
+			{
+				"values": {
+					"Base ATK": 0.0,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 20
+			},
+			{
+				"values": {
+					"Base ATK": 31.100000381469727,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 40
+			},
+			{
+				"values": {
+					"Base ATK": 62.20000076293945,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 50
+			},
+			{
+				"values": {
+					"Base ATK": 93.4000015258789,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 60
+			},
+			{
+				"values": {
+					"Base ATK": 124.5,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 70
+			},
+			{
+				"values": {
+					"Base ATK": 155.60000610351562,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 80
+			},
+			{
+				"values": {
+					"Base ATK": 186.6999969482422,
+					"Crit Rate%": 0.0,
+					"Crit DMG%": 0.0,
+					"Energy Recharge%": 0.0,
+					"Elemental Mastery": 0.0
+				},
+				"until": 90
+			}
+		]
+	},
+	"abilities": {
+		"name_hash": 1054221195,
+		"name": "Sunken Song of the Sands",
+		"special_material": null,
+		"values": [
+			{
+				"affix_id": 1115110,
+				"desc_hash": 1381038833,
+				"desc": "HP increased by 20%. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by 0.12% of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by 0.2% of the equipping character's max HP for 20s.",
+				"cost": 0
+			},
+			{
+				"affix_id": 1115111,
+				"desc_hash": 1850615761,
+				"desc": "HP increased by 25%. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by 0.15% of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by 0.25% of the equipping character's max HP for 20s.",
+				"cost": 2000
+			},
+			{
+				"affix_id": 1115112,
+				"desc_hash": 649707033,
+				"desc": "HP increased by 30%. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by 0.18% of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by 0.3% of the equipping character's max HP for 20s.",
+				"cost": 4000
+			},
+			{
+				"affix_id": 1115113,
+				"desc_hash": 2119140073,
+				"desc": "HP increased by 35%. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by 0.21% of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by 0.35% of the equipping character's max HP for 20s.",
+				"cost": 8000
+			},
+			{
+				"affix_id": 1115114,
+				"desc_hash": 2529732929,
+				"desc": "HP increased by 40%. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by 0.24% of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by 0.4% of the equipping character's max HP for 20s.",
+				"cost": 16000
+			}
+		]
+	}
+}

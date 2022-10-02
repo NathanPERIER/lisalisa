@@ -159,7 +159,7 @@
 			"name_hash": 2878874285,
 			"desc_hash": 2306677240,
 			"name": "Normal Attack: Tempered Sword",
-			"desc": "Normal Attack\nPerform up to 4 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerforms up to 4 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
 			"icon": "Skill_A_04",
 			"charge_num": 1,
 			"costs": [
@@ -220,7 +220,7 @@
 					"2-Hit DMG",
 					"3-Hit DMG",
 					"4-Hit DMG",
-					"Charged Attack Spinning DMG",
+					"Charged Attack Cyclic DMG",
 					"Charged Attack Final DMG",
 					"Charged Attack Stamina Cost",
 					"Max Duration",
@@ -415,7 +415,7 @@
 			"name_hash": 2979035429,
 			"desc_hash": 1648914688,
 			"name": "Searing Onslaught",
-			"desc": "Performs a forward slash that deals Pyro DMG.\n\nThis skill can be consecutively used 3 times. Enters CD if not cast again within a short period.\n\n<i>The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.</i>",
+			"desc": "Performs a forward slash that deals Pyro DMG.\n\nThis skill can be consecutively used 3 times.\nEnters CD if not cast again within a short period.\n\n<i>The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.</i>",
 			"icon": "Skill_S_Diluc_01_01",
 			"charge_num": 1,
 			"costs": [

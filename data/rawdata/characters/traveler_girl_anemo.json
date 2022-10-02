@@ -767,7 +767,7 @@
 			"name_hash": 1816631405,
 			"desc_hash": 626310931,
 			"name": "Second Wind",
-			"desc": "Palm Vortex kills regenerate 2% HP for 5s. This effect can only occur once every 5s.",
+			"desc": "Palm Vortex kills regenerate 2% HP for 5s.\nThis effect can only occur once every 5s.",
 			"icon": "UI_Talent_S_PlayerWind_06",
 			"ascension": 4
 		}

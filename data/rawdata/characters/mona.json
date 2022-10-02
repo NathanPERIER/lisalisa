@@ -159,7 +159,7 @@
 			"name_hash": 2512572181,
 			"desc_hash": 239283280,
 			"name": "Normal Attack: Ripple of Fate",
-			"desc": "Normal Attack\nPerform up to 4 water splash attacks that deal Hydro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\n\nPlunging Attack\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.",
+			"desc": "Normal Attack\nPerforms up to 4 water splash attacks that deal Hydro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\n\nPlunging Attack\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.",
 			"icon": "Skill_A_Catalyst_MD",
 			"charge_num": 1,
 			"costs": [
@@ -383,7 +383,7 @@
 			"name_hash": 1125648053,
 			"desc_hash": 3421937592,
 			"name": "Mirror Reflection of Doom",
-			"desc": "Creates an illusory Phantom of Fate from coalesced waterspouts.\n\nThe Phantom has the following special properties:\n\u00b7Continuously taunts nearby opponents, attracting their fire.\n\u00b7Continuously deals Hydro DMG to nearby opponents.\n\u00b7When its duration expires, the Phantom explodes, dealing AoE Hydro DMG.\n\nHold\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\n\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\n\n<i>Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.</i>",
+			"desc": "Creates an illusory Phantom of Fate from coalesced waterspouts.\n\nPhantom\nHas the following special properties:\n\u00b7Continuously taunts nearby opponents, attracting their fire.\n\u00b7Continuously deals Hydro DMG to nearby opponents.\n\u00b7When its duration expires, the Phantom explodes, dealing AoE Hydro DMG.\n\nHold\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\n\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\n\n<i>Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.</i>",
 			"icon": "Skill_S_Mona_01",
 			"charge_num": 1,
 			"costs": [
@@ -823,7 +823,7 @@
 				"name_hash": 1860400666,
 				"desc_hash": 2912743770,
 				"name": "Pact of Stars and Moon",
-				"desc": "Mona's outfit. A costume made specifically to encompass the astrological concept of \"the destined moment,\" thanks to the 30% discount ticket she got from the planetarium refund.",
+				"desc": "Mona's outfit. A costume made specifically to encompass the astrological concept of \"the destined moment,\" thanks to the 30% discount ticket she got from the celestial globe refund.",
 				"icon": "UI_AvatarIcon_MonaCostumeWic",
 				"restricted": true
 			}
