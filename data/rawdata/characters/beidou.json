@@ -30,6 +30,8 @@
 	"astrolabe": "Victor Mare",
 	"allegiance": "The Crux",
 	"default_weapon": "waster_greatsword",
+	"increase_skill": 3,
+	"increase_burst": 5,
 	"base_stats": {
 		"Base HP": 1094.149169921875,
 		"Base ATK": 18.876480102539062,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 3770302877,
 			"desc_hash": 723463672,
-			"charge_num": 1,
-			"icon": "Skill_A_04",
 			"name": "Normal Attack: Oceanborne",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous slashes.\\nAt the end of the sequence, perform a more powerful slash.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 5 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_04",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_gold": 3,
@@ -428,10 +430,10 @@
 		"elemental_skill": {
 			"name_hash": 3028116765,
 			"desc_hash": 3101314424,
-			"charge_num": 1,
-			"icon": "Skill_S_Beidou_01",
 			"name": "Tidecaller",
-			"desc": "#Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing <color=#FFACFFFF>Electro DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing <color=#FFACFFFF>Electro DMG</color>. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\\nThe shield possesses the following properties:\\n\u00b7Has 250% <color=#FFACFFFF>Electro DMG</color> Absorption Efficiency.\\n\u00b7Applies the <color=#FFACFFFF>Electro element</color> to Beidou upon activation.\\n\\n<i>Conquer the high seas! Pursue the waves and chase the storm!</i>",
+			"desc": "#Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\n\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing Electro DMG.\n\nHold\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing Electro DMG. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\nThe shield possesses the following properties:\n\u00b7Has 250% Electro DMG Absorption Efficiency.\n\u00b7Applies the Electro element to Beidou upon activation.\n\n<i>Conquer the high seas! Pursue the waves and chase the storm!</i>",
+			"icon": "Skill_S_Beidou_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_gold": 3,
@@ -588,10 +590,10 @@
 		"elemental_burst": {
 			"name_hash": 2874294485,
 			"desc_hash": 1233611720,
-			"charge_num": 1,
-			"icon": "Skill_E_Beidou_01",
 			"name": "Stormbreaker",
-			"desc": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing <color=#FFACFFFF>Electro DMG</color> to nearby opponents.\\n\\n<color=#FFD780FF>Thunderbeast's Targe</color>\\n\u00b7When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing <color=#FFACFFFF>Electro DMG</color>.\\n\u00b7Increases the character's resistance to interruption, and decreases DMG taken.\\n\\nA maximum of 1 lightning discharge can be triggered per second.\\n\\n<i>With a peal of thunder, Haishan is slain.</i>",
+			"desc": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing Electro DMG to nearby opponents.\n\nThunderbeast's Targe\n\u00b7When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing Electro DMG.\n\u00b7Increases the character's resistance to interruption, and decreases DMG taken.\n\nA maximum of 1 lightning discharge can be triggered per second.\n\n<i>With a peal of thunder, Haishan is slain.</i>",
+			"icon": "Skill_E_Beidou_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_gold": 3,
@@ -783,69 +785,69 @@
 		{
 			"name_hash": 4133627029,
 			"desc_hash": 2212073723,
-			"icon": "UI_Talent_S_Beidou_05",
-			"ascension": 1,
 			"name": "Retribution",
-			"desc": "Counterattacking with <color=#FFD780FF>Tidecaller</color> at the precise moment when the character is hit grants the maximum DMG Bonus."
+			"desc": "Counterattacking with Tidecaller at the precise moment when the character is hit grants the maximum DMG Bonus.",
+			"icon": "UI_Talent_S_Beidou_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 634340965,
 			"desc_hash": 3738470891,
-			"icon": "UI_Talent_S_Beidou_06",
-			"ascension": 4,
 			"name": "Lightning Storm",
-			"desc": "Gain the following effects for 10s after unleashing <color=#FFD780FF>Tidecaller</color> with its maximum DMG Bonus: \\n\u00b7DMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\\n\u00b7Greatly reduced delay before unleashing Charged Attacks."
+			"desc": "Gain the following effects for 10s after unleashing Tidecaller with its maximum DMG Bonus: \n\u00b7DMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\n\u00b7Greatly reduced delay before unleashing Charged Attacks.",
+			"icon": "UI_Talent_S_Beidou_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 2541261109,
 			"desc_hash": 792917115,
-			"icon": "UI_Talent_Explosion_Swim",
-			"ascension": null,
 			"name": "Conqueror of Tides",
-			"desc": "Decreases swimming Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+			"desc": "Decreases swimming Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+			"icon": "UI_Talent_Explosion_Swim",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 1598246073,
-			"name": "Sea Beast's Scourge",
 			"desc_hash": 2899101639,
-			"desc": "When <color=#FFD780FF>Stormbreaker</color> is used:\\nCreates a shield that absorbs up to 16% of Beidou's Max HP for 15s.\\nThis shield absorbs <color=#FFACFFFF>Electro DMG</color> 250% more effectively.",
+			"name": "Sea Beast's Scourge",
+			"desc": "When Stormbreaker is used:\nCreates a shield that absorbs up to 16% of Beidou's Max HP for 15s.\nThis shield absorbs Electro DMG 250% more effectively.",
 			"icon": "UI_Talent_S_Beidou_02"
 		},
 		{
 			"name_hash": 2620399769,
-			"name": "Upon the Turbulent Sea, the Thunder Arises",
 			"desc_hash": 2277441935,
-			"desc": "<color=#FFD780FF>Stormbreaker</color>'s arc lightning can jump to 2 additional targets.",
+			"name": "Upon the Turbulent Sea, the Thunder Arises",
+			"desc": "Stormbreaker's arc lightning can jump to 2 additional targets.",
 			"icon": "UI_Talent_S_Beidou_01"
 		},
 		{
 			"name_hash": 2741836993,
-			"name": "Summoner of Storm",
 			"desc_hash": 4053128919,
-			"desc": "Increases the Level of <color=#FFD780FF>Tidecaller</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Summoner of Storm",
+			"desc": "Increases the Level of Tidecaller by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Beidou_01"
 		},
 		{
 			"name_hash": 1523101409,
-			"name": "Stunning Revenge",
 			"desc_hash": 1024043391,
-			"desc": "Upon being attacked, Beidou's Normal Attacks gain an additional instance of 20% <color=#FFACFFFF>Electro DMG</color> for 10s.",
+			"name": "Stunning Revenge",
+			"desc": "Upon being attacked, Beidou's Normal Attacks gain an additional instance of 20% Electro DMG for 10s.",
 			"icon": "UI_Talent_S_Beidou_03"
 		},
 		{
 			"name_hash": 2181637521,
-			"name": "Crimson Tidewalker",
 			"desc_hash": 938587127,
-			"desc": "Increases the Level of <color=#FFD780FF>Stormbreaker</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Crimson Tidewalker",
+			"desc": "Increases the Level of Stormbreaker by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Beidou_02"
 		},
 		{
 			"name_hash": 688452449,
-			"name": "Bane of Evil",
 			"desc_hash": 1391917287,
-			"desc": "During the duration of <color=#FFD780FF>Stormbreaker</color>, the <color=#FFACFFFF>Electro RES</color> of surrounding opponents is decreased by 15%.",
+			"name": "Bane of Evil",
+			"desc": "During the duration of Stormbreaker, the Electro RES of surrounding opponents is decreased by 15%.",
 			"icon": "UI_Talent_S_Beidou_04"
 		}
 	],
@@ -854,25 +856,23 @@
 			"hoyo_id": null,
 			"name_hash": 2091122082,
 			"desc_hash": 1844332810,
-			"restricted": false,
 			"name": "Rolling Waves",
 			"desc": "Beidou's outfit. Lightweight clothing saturated with a brave seafarer's spirit.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "stir_fried_filet",
 		"hoyo_id": 108138,
 		"name_hash": 4120813956,
 		"desc_hash": 2696049221,
 		"type_hash": 135788662,
-		"rarity": 1,
 		"name": "Flash-Fried Filet",
 		"desc": "Beidou's specialty. They say that Beidou once learned some tricks from Xiangling, making some refinements and adding more flavor to this dish. If you can clean it out in one go, perhaps you might impress her.",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 1709769823,
-		"effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
-		"original_recipe": "stir_fried_filet"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 1
 	}
 }

@@ -145,7 +145,7 @@
 			{
 				"affix_id": 1114120,
 				"desc_hash": 2090107097,
-				"desc": "<color=#99FFFFFF>Effective only on the following platform: </color>\\n<color=#99FFFFFF>\"PlayStation Network\"</color>\\nHitting opponents with Normal and Charged Attacks grants a <color=#99FFFFFF>50%</color> chance to deal <color=#99FFFFFF>200%</color> ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by <color=#99FFFFFF>66</color>.",
+				"desc": "Effective only on the following platform: \n\"PlayStation Network\"\nHitting opponents with Normal and Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66.",
 				"cost": 0
 			}
 		]

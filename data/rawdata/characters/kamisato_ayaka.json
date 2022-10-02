@@ -30,6 +30,8 @@
 	"astrolabe": "Grus Nivis",
 	"allegiance": "Yashiro Commission",
 	"default_weapon": "dull_blade",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 1000.9860229492188,
 		"Base ATK": 26.62660026550293,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 813430205,
 			"desc_hash": 3246000152,
-			"charge_num": 1,
-			"icon": "Skill_A_01",
 			"name": "Normal Attack: Kamisato Art - Kabuki",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash a flurry of sword ki.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash a flurry of sword ki.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_elegance": 3,
@@ -396,10 +398,10 @@
 		"elemental_skill": {
 			"name_hash": 682887613,
 			"desc_hash": 4048563120,
-			"charge_num": 1,
-			"icon": "Skill_S_Ayaka_01",
 			"name": "Kamisato Art: Hyouka",
-			"desc": "Summons blooming ice to launch nearby opponents, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<i>\"Clouds shroud the moonlit night. Longing descends like a fog, filling the one detained with wanderlust.\"</i>",
+			"desc": "Summons blooming ice to launch nearby opponents, dealing AoE Cryo DMG.\n\n<i>\"Clouds shroud the moonlit night. Longing descends like a fog, filling the one detained with wanderlust.\"</i>",
+			"icon": "Skill_S_Ayaka_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_elegance": 3,
@@ -524,10 +526,10 @@
 		"elemental_burst": {
 			"name_hash": 81399925,
 			"desc_hash": 3746604880,
-			"charge_num": 1,
-			"icon": "Skill_E_Ayaka",
 			"name": "Kamisato Art: Soumetsu",
-			"desc": "Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.\\n\\n<color=#FFD780FF>Frostflake Seki no To</color>\\n\u00b7A storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing <color=#99FFFFFF>Cryo DMG</color>.\\n\u00b7The snowstorm explodes after its duration ends, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<i>\"The blizzard veils the heron's thoughts, pity heavy in its heart.\"</i>",
+			"desc": "Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.\n\nFrostflake Seki no To\n\u00b7A storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing Cryo DMG.\n\u00b7The snowstorm explodes after its duration ends, dealing AoE Cryo DMG.\n\n<i>\"The blizzard veils the heron's thoughts, pity heavy in its heart.\"</i>",
+			"icon": "Skill_E_Ayaka",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_elegance": 3,
@@ -700,10 +702,10 @@
 		"alternate_sprint": {
 			"name_hash": 2687935733,
 			"desc_hash": 1819205104,
-			"charge_num": 1,
-			"icon": "Skill_S_Ayaka_02",
 			"name": "Kamisato Art: Senho",
-			"desc": "<color=#FFD780FF>Alternate Sprint</color>\\nAyaka consumes Stamina and cloaks herself in a frozen fog that moves with her.\\n\\nIn Senho form, she moves swiftly upon water.\\nWhen she reappears, the following effects occur:\\n\u00b7Ayaka unleashes frigid energy to apply <color=#99FFFFFF>Cryo</color> on nearby opponents.\\n\u00b7Coldness condenses around Ayaka's blade, infusing her attacks with <color=#99FFFFFF>Cryo</color> for a brief period.\\n\\n<i>\"Feathers fleeting wet / the white heron treads water / a sight without flaw\"</i>",
+			"desc": "Alternate Sprint\nAyaka consumes Stamina and cloaks herself in a frozen fog that moves with her.\n\nIn Senho form, she moves swiftly upon water.\nWhen she reappears, the following effects occur:\n\u00b7Ayaka unleashes frigid energy to apply Cryo on nearby opponents.\n\u00b7Coldness condenses around Ayaka's blade, infusing her attacks with Cryo for a brief period.\n\n<i>\"Feathers fleeting wet / the white heron treads water / a sight without flaw\"</i>",
+			"icon": "Skill_S_Ayaka_02",
+			"charge_num": 1,
 			"costs": [],
 			"stats": {
 				"names": [
@@ -725,68 +727,68 @@
 		{
 			"name_hash": 894491949,
 			"desc_hash": 2636480403,
-			"icon": "UI_Talent_S_Ayaka_05",
-			"ascension": 1,
 			"name": "Amatsumi Kunitsumi Sanctification",
-			"desc": "After using <color=#FFD780FF>Kamisato Art: Hyouka</color>, Kamisato Ayaka's Normal and Charged Attacks deal 30% increased DMG for 6s."
+			"desc": "After using Kamisato Art: Hyouka, Kamisato Ayaka's Normal and Charged Attacks deal 30% increased DMG for 6s.",
+			"icon": "UI_Talent_S_Ayaka_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 93137789,
 			"desc_hash": 3965126451,
-			"icon": "UI_Talent_S_Ayaka_06",
-			"ascension": 4,
 			"name": "Kanten Senmyou Blessing",
-			"desc": "When the Cryo application at the end of <color=#FFD780FF>Kamisato Art: Senho</color> hits an opponent, Kamisato Ayaka gains the following effects:\\n\u00b7Restores 10 Stamina\\n\u00b7Gains 18% <color=#99FFFFFF>Cryo DMG Bonus</color> for 10s."
+			"desc": "When the Cryo application at the end of Kamisato Art: Senho hits an opponent, Kamisato Ayaka gains the following effects:\n\u00b7Restores 10 Stamina\n\u00b7Gains 18% Cryo DMG Bonus for 10s.",
+			"icon": "UI_Talent_S_Ayaka_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 447551629,
 			"desc_hash": 779979035,
-			"icon": "UI_Talent_Combine_Weapon_Double",
-			"ascension": null,
 			"name": "Fruits of Shinsa",
-			"desc": "When Ayaka crafts Weapon Ascension Materials, she has a 10% chance to receive double the product."
+			"desc": "When Ayaka crafts Weapon Ascension Materials, she has a 10% chance to receive double the product.",
+			"icon": "UI_Talent_Combine_Weapon_Double",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 3364696049,
-			"name": "Snowswept Sakura",
 			"desc_hash": 194851991,
-			"desc": "When Kamisato Ayaka's Normal or Charged Attacks deal <color=#99FFFFFF>Cryo DMG</color> to opponents, it has a 50% chance of decreasing the CD of <color=#FFD780FF>Kamisato Art: Hyouka</color> by 0.3s. This effect can occur once every 0.1s.",
+			"name": "Snowswept Sakura",
+			"desc": "When Kamisato Ayaka's Normal or Charged Attacks deal Cryo DMG to opponents, it has a 50% chance of decreasing the CD of Kamisato Art: Hyouka by 0.3s. This effect can occur once every 0.1s.",
 			"icon": "UI_Talent_S_Ayaka_01"
 		},
 		{
 			"name_hash": 562006217,
-			"name": "Blizzard Blade Seki no To",
 			"desc_hash": 846522047,
-			"desc": "When casting <color=#FFD780FF>Kamisato Art: Soumetsu</color>, unleashes 2 smaller additional Frostflake Seki no To, each dealing 20% of the original storm's DMG.",
+			"name": "Blizzard Blade Seki no To",
+			"desc": "When casting Kamisato Art: Soumetsu, unleashes 2 smaller additional Frostflake Seki no To, each dealing 20% of the original storm's DMG.",
 			"icon": "UI_Talent_S_Ayaka_02"
 		},
 		{
 			"name_hash": 1186654377,
-			"name": "Frostbloom Kamifubuki",
 			"desc_hash": 2194749263,
-			"desc": "Increases the Level of <color=#FFD780FF>Kamisato Art: Soumetsu</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Frostbloom Kamifubuki",
+			"desc": "Increases the Level of Kamisato Art: Soumetsu by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Ayaka_02"
 		},
 		{
 			"name_hash": 2463454169,
-			"name": "Ebb and Flow",
 			"desc_hash": 2503540655,
-			"desc": "Opponents damaged by <color=#FFD780FF>Kamisato Art: Soumetsu</color>'s Frostflake Seki no To will have their DEF decreased by 30% for 6s.",
+			"name": "Ebb and Flow",
+			"desc": "Opponents damaged by Kamisato Art: Soumetsu's Frostflake Seki no To will have their DEF decreased by 30% for 6s.",
 			"icon": "UI_Talent_S_Ayaka_03"
 		},
 		{
 			"name_hash": 51561297,
-			"name": "Blossom Cloud Irutsuki",
 			"desc_hash": 2689473807,
-			"desc": "Increases the Level of <color=#FFD780FF>Kamisato Art: Hyouka</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Blossom Cloud Irutsuki",
+			"desc": "Increases the Level of Kamisato Art: Hyouka by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Ayaka_01"
 		},
 		{
 			"name_hash": 2587184913,
-			"name": "Dance of Suigetsu",
 			"desc_hash": 1834326191,
+			"name": "Dance of Suigetsu",
 			"desc": "Kamisato Ayaka gains Usurahi Butou every 10s, increasing her Charged Attack DMG by 298%. This buff will be cleared 0.5s after Ayaka's Charged ATK hits an opponent, after which the timer for this ability will restart.",
 			"icon": "UI_Talent_S_Ayaka_04"
 		}
@@ -796,25 +798,23 @@
 			"hoyo_id": null,
 			"name_hash": 171482850,
 			"desc_hash": 2373183578,
-			"restricted": false,
 			"name": "Flawless Radiance",
 			"desc": "Kamisato Ayaka's outfit. This kimono features an armor-coated skirt, displaying the nobility and resilience of the Shirasagi Himegimi.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "sakura_mochi",
 		"hoyo_id": 108300,
 		"name_hash": 4185042652,
 		"desc_hash": 1245388757,
 		"type_hash": 2878855278,
-		"rarity": 3,
 		"name": "\"Snow on the Hearth\"",
 		"desc": "Kamisato Ayaka's specialty. This is almost like a small, lovely, and intricate artwork, with its pale red outer coat covering the feelings that the young maiden began to harbor from that moment on. If one had the honor of enjoy such a treat while having tea with a princess as graceful and noble as a white heron, one would surely yearn to have that moment stretch into eternity.",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 3768791647,
-		"effect": "Revives the selected character and restores 20% of Max HP, then restores an additional 1500 HP.",
-		"original_recipe": "sakura_mochi"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 3
 	}
 }

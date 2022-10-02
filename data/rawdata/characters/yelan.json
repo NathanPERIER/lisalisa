@@ -30,6 +30,8 @@
 	"astrolabe": "Umbrabilis Orchis",
 	"allegiance": "Yanshang Teahouse",
 	"default_weapon": "hunters_bow",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 1124.9176025390625,
 		"Base ATK": 18.992399215698242,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 1713742645,
 			"desc_hash": 2537126376,
-			"charge_num": 1,
-			"icon": "Skill_A_02",
 			"name": "Normal Attack: Stealthy Bowshot",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Breakthrough</color>\\nYelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal <color=#80C0FFFF>AoE Hydro DMG</color> based on Yelan's Max HP.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerforms up to 4 consecutive shots with a bow.\n\nCharged Attack\nPerform a more precise Aimed Shot with increased DMG.\nWhile aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal Hydro DMG.\n\nBreakthrough\nYelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal AoE Hydro DMG based on Yelan's Max HP.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"icon": "Skill_A_02",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_prosperity": 3,
@@ -396,10 +398,10 @@
 		"elemental_skill": {
 			"name_hash": 890827533,
 			"desc_hash": 1089734336,
-			"charge_num": 1,
-			"icon": "Skill_S_Yelan_01",
 			"name": "Lingering Lifeline",
-			"desc": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path.\\nWhen this rapid movement ends, the Lifeline will explode, dealing <color=#80C0FFFF>Hydro DMG</color> to the marked opponents based on Yelan's Max HP.\\n\\n<color=#FFD780FF>Tap</color>\\nMoves a certain distance forward swiftly.\\n\\n<color=#FFD780FF>Hold</color>\\nEngages in continuous, swift movement, during which Yelan's resistance to interruption is increased.\\nDuring this time, Yelan can control this rapid movement and end it by using this Skill again.\\n\\nAdditionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% chance to reset her Breakthrough state.\\n\\n<i>Not until she begins to tug on the strings do evildoers, crooks, and scheming villains alike know that there is no escape.</i>",
+			"desc": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path.\nWhen this rapid movement ends, the Lifeline will explode, dealing Hydro DMG to the marked opponents based on Yelan's Max HP.\n\nTap\nMoves a certain distance forward swiftly.\n\nHold\nEngages in continuous, swift movement, during which Yelan's resistance to interruption is increased.\nDuring this time, Yelan can control this rapid movement and end it by using this Skill again.\n\nAdditionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% chance to reset her Breakthrough state.\n\n<i>Not until she begins to tug on the strings do evildoers, crooks, and scheming villains alike know that there is no escape.</i>",
+			"icon": "Skill_S_Yelan_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_prosperity": 3,
@@ -540,10 +542,10 @@
 		"elemental_burst": {
 			"name_hash": 4098371861,
 			"desc_hash": 1896068072,
-			"charge_num": 1,
-			"icon": "Skill_E_Yelan_01",
 			"name": "Depth-Clarion Dice",
-			"desc": "Deals <color=#80C0FFFF>AoE Hydro DMG</color> and creates an \"Exquisite Throw,\" which aids her in battle.\\n\\n<color=#FFD780FF>Exquisite Throw</color>\\nFollows the character around and will initiate a coordinated attack under the following circumstances, dealing <color=#80C0FFFF>Hydro DMG</color> based on Yelan's Max HP:\\n\u00b7Can occur once every second when your active character uses a Normal Attack.\\n\u00b7Will occur each time Yelan's Lifeline explodes and hits opponents.\\n\\n<i>\"A gambling addiction is going to do you no good. I mean, let me just do the math for you as the dealer. What do you think your odds of beating me are, when I have seven dice and you, only one?\"</i>",
+			"desc": "Deals AoE Hydro DMG and creates an \"Exquisite Throw,\" which aids her in battle.\n\nExquisite Throw\nFollows the character around and will initiate a coordinated attack under the following circumstances, dealing Hydro DMG based on Yelan's Max HP:\n\u00b7Can occur once every second when your active character uses a Normal Attack.\n\u00b7Will occur each time Yelan's Lifeline explodes and hits opponents.\n\n<i>\"A gambling addiction is going to do you no good. I mean, let me just do the math for you as the dealer. What do you think your odds of beating me are, when I have seven dice and you, only one?\"</i>",
+			"icon": "Skill_E_Yelan_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_prosperity": 3,
@@ -719,69 +721,69 @@
 		{
 			"name_hash": 2010349533,
 			"desc_hash": 3218137499,
-			"icon": "UI_Talent_S_Yelan_05",
-			"ascension": 1,
 			"name": "Turn Control",
-			"desc": "When the party has 1/2/3/4 Elemental Types, Yelan's Max HP is increased by 6%/12%/18%/30%."
+			"desc": "When the party has 1/2/3/4 Elemental Types, Yelan's Max HP is increased by 6%/12%/18%/30%.",
+			"icon": "UI_Talent_S_Yelan_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 1181356845,
 			"desc_hash": 1408090907,
-			"icon": "UI_Talent_S_Yelan_06",
-			"ascension": 4,
 			"name": "Adapt With Ease",
-			"desc": "So long as an <color=#FFD780FF>Exquisite Throw</color> is in play, your own active character deals 1% more DMG. This increases by a further 3.5% DMG every second. The maximum increase to DMG dealt is 50%.\\nThe pre-existing effect will be dispelled if Depth-Clarion Dice is recast during its duration."
+			"desc": "So long as an Exquisite Throw is in play, your own active character deals 1% more DMG. This increases by a further 3.5% DMG every second. The maximum increase to DMG dealt is 50%.\nThe pre-existing effect will be dispelled if Depth-Clarion Dice is recast during its duration.",
+			"icon": "UI_Talent_S_Yelan_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 4230029053,
 			"desc_hash": 3143097979,
-			"icon": "UI_Talent_Expedition_Liyue",
-			"ascension": null,
 			"name": "Necessary Calculation",
-			"desc": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours."
+			"desc": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours.",
+			"icon": "UI_Talent_Expedition_Liyue",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 748294089,
-			"name": "Enter the Plotters",
 			"desc_hash": 3598001479,
-			"desc": "<color=#FFD780FF>Lingering Lifeline</color> gains 1 additional charge.",
+			"name": "Enter the Plotters",
+			"desc": "Lingering Lifeline gains 1 additional charge.",
 			"icon": "UI_Talent_S_Yelan_01"
 		},
 		{
 			"name_hash": 1030894625,
-			"name": "Taking All Comers",
 			"desc_hash": 1733458319,
-			"desc": "When <color=#FFD780FF>Exquisite Throw</color> conducts a coordinated attack, it will fire an additional water arrow that will deal 14% of Yelan's Max HP as Hydro DMG.\\nThis effect can trigger once every 1.8s.",
+			"name": "Taking All Comers",
+			"desc": "When Exquisite Throw conducts a coordinated attack, it will fire an additional water arrow that will deal 14% of Yelan's Max HP as Hydro DMG.\nThis effect can trigger once every 1.8s.",
 			"icon": "UI_Talent_S_Yelan_02"
 		},
 		{
 			"name_hash": 2703450625,
-			"name": "Beware the Trickster's Dice",
 			"desc_hash": 887338575,
-			"desc": "Increases the Level of <color=#FFD780FF>Depth-Clarion Dice</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Beware the Trickster's Dice",
+			"desc": "Increases the Level of Depth-Clarion Dice by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Yelan_01"
 		},
 		{
 			"name_hash": 2029790617,
-			"name": "Bait-and-Switch",
 			"desc_hash": 2426727055,
-			"desc": "Increases all party members' Max HP by 10% for 25s for every opponent marked by <color=#FFD780FF>Lifeline</color> when the Lifeline explodes. A maximum increase of 40% Max HP can be attained in this manner.",
+			"name": "Bait-and-Switch",
+			"desc": "Increases all party members' Max HP by 10% for 25s for every opponent marked by Lifeline when the Lifeline explodes. A maximum increase of 40% Max HP can be attained in this manner.",
 			"icon": "UI_Talent_S_Yelan_03"
 		},
 		{
 			"name_hash": 2362082321,
-			"name": "Dealer's Sleight",
 			"desc_hash": 2488367639,
-			"desc": "Increases the Level of <color=#FFD780FF>Lingering Lifeline</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Dealer's Sleight",
+			"desc": "Increases the Level of Lingering Lifeline by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Yelan_02"
 		},
 		{
 			"name_hash": 1272265729,
-			"name": "Winner Takes All",
 			"desc_hash": 824672567,
-			"desc": "After using <color=#FFD780FF>Depth-Clarion Dice</color>, Yelan will enter the Mastermind state.\\nIn this state, all of Yelan's Normal Attacks will be special Breakthrough Barbs. These Breakthrough Barbs will have similar abilities to normal ones and the DMG dealt will be considered Charged Attack DMG, dealing 156% of a normal Breakthrough Barb's DMG.\\n\\nThe Mastermind state lasts 20s and will be cleared after Yelan fires 5 arrows.",
+			"name": "Winner Takes All",
+			"desc": "After using Depth-Clarion Dice, Yelan will enter the Mastermind state.\nIn this state, all of Yelan's Normal Attacks will be special Breakthrough Barbs. These Breakthrough Barbs will have similar abilities to normal ones and the DMG dealt will be considered Charged Attack DMG, dealing 156% of a normal Breakthrough Barb's DMG.\n\nThe Mastermind state lasts 20s and will be cleared after Yelan fires 5 arrows.",
 			"icon": "UI_Talent_S_Yelan_04"
 		}
 	],
@@ -790,25 +792,23 @@
 			"hoyo_id": null,
 			"name_hash": 2196179842,
 			"desc_hash": 3407589218,
-			"restricted": false,
 			"name": "The Waning Point",
 			"desc": "Yelan's outfit. It has lurked alongside its wearer in the shadows over many a year, to the point where the outfit almost has a mysterious temper of its own, like an orchid blooming at midnight.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "stir_fried_shrimp",
 		"hoyo_id": 108389,
 		"name_hash": 289206060,
 		"desc_hash": 4004312725,
 		"type_hash": 3746093334,
-		"rarity": 3,
 		"name": "Dew-Dipped Shrimp",
 		"desc": "Yelan's specialty. Amongst the ingredients here is the new tea, Dipped Dew, delivered from Qiaoying Village right to the Teahouse, which was then quickly fried together with freshly-caught river shrimp. The look is sightly, the scent of distant tea, and the taste both tender and springy... Wait a moment. Why's she coming over with that plate of chilli?",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 2021855911,
-		"effect": "Increases all party members' Shield Strength by 35% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-		"original_recipe": "stir_fried_shrimp"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 3
 	}
 }

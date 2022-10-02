@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1135050,
 				"desc_hash": 1709090265,
-				"desc": "On hit, increases ATK by <color=#99FFFFFF>3.2%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>12%</color>.",
+				"desc": "On hit, increases ATK by 3.2% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by 12%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1135051,
 				"desc_hash": 3604328689,
-				"desc": "On hit, increases ATK by <color=#99FFFFFF>3.9%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>15%</color>.",
+				"desc": "On hit, increases ATK by 3.9% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by 15%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1135052,
 				"desc_hash": 3159527857,
-				"desc": "On hit, increases ATK by <color=#99FFFFFF>4.6%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>18%</color>.",
+				"desc": "On hit, increases ATK by 4.6% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by 18%.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1135053,
 				"desc_hash": 794008505,
-				"desc": "On hit, increases ATK by <color=#99FFFFFF>5.3%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>21%</color>.",
+				"desc": "On hit, increases ATK by 5.3% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by 21%.",
 				"cost": 8000
 			},
 			{
 				"affix_id": 1135054,
 				"desc_hash": 1722961881,
-				"desc": "On hit, increases ATK by <color=#99FFFFFF>6%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>24%</color>.",
+				"desc": "On hit, increases ATK by 6% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by 24%.",
 				"cost": 16000
 			}
 		]

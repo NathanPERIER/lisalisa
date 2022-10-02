@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1124160,
 				"desc_hash": 174137073,
-				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.12%</color>. A maximum of <color=#99FFFFFF>40%</color> increased Elemental Burst DMG can be achieved this way.",
+				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12%. A maximum of 40% increased Elemental Burst DMG can be achieved this way.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1124161,
 				"desc_hash": 1416683081,
-				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.15%</color>. A maximum of <color=#99FFFFFF>50%</color> increased Elemental Burst DMG can be achieved this way.",
+				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.15%. A maximum of 50% increased Elemental Burst DMG can be achieved this way.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1124162,
 				"desc_hash": 929790153,
-				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.18%</color>. A maximum of <color=#99FFFFFF>60%</color> increased Elemental Burst DMG can be achieved this way.",
+				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.18%. A maximum of 60% increased Elemental Burst DMG can be achieved this way.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1124163,
 				"desc_hash": 3358068185,
-				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.21%</color>. A maximum of <color=#99FFFFFF>70%</color> increased Elemental Burst DMG can be achieved this way.",
+				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.21%. A maximum of 70% increased Elemental Burst DMG can be achieved this way.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1124164,
 				"desc_hash": 1438082665,
-				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.24%</color>. A maximum of <color=#99FFFFFF>80%</color> increased Elemental Burst DMG can be achieved this way.",
+				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.24%. A maximum of 80% increased Elemental Burst DMG can be achieved this way.",
 				"cost": 8000
 			}
 		]

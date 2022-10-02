@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1143030,
 				"desc_hash": 3986553513,
-				"desc": "Picking up an Elemental Energy Orb/Particle recovers <color=#99FFFFFF>1%</color> HP.",
+				"desc": "Picking up an Elemental Energy Orb/Particle recovers 1% HP.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1143031,
 				"desc_hash": 4118449793,
-				"desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.25%</color> HP.",
+				"desc": "Each Elemental Orb or Particle collected restores 1.25% HP.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1143032,
 				"desc_hash": 3866142489,
-				"desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.5%</color> HP.",
+				"desc": "Each Elemental Orb or Particle collected restores 1.5% HP.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1143033,
 				"desc_hash": 3983462457,
-				"desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.75%</color> HP.",
+				"desc": "Each Elemental Orb or Particle collected restores 1.75% HP.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1143034,
 				"desc_hash": 694477017,
-				"desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>2%</color> HP.",
+				"desc": "Each Elemental Orb or Particle collected restores 2% HP.",
 				"cost": 4000
 			}
 		]

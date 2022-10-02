@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1125020,
 				"desc_hash": 375174089,
-				"desc": "Increases ATK by <color=#99FFFFFF>20%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>40%</color> for 12s. Can only occur once every 30s.",
+				"desc": "Increases ATK by 20%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 40% for 12s. Can only occur once every 30s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1125021,
 				"desc_hash": 2580155881,
-				"desc": "Increases ATK by <color=#99FFFFFF>25%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>50%</color> for 12s. Can only occur once every 30s.",
+				"desc": "Increases ATK by 25%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 50% for 12s. Can only occur once every 30s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1125022,
 				"desc_hash": 706750905,
-				"desc": "Increases ATK by <color=#99FFFFFF>30%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>60%</color> for 12s. Can only occur once every 30s.",
+				"desc": "Increases ATK by 30%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 60% for 12s. Can only occur once every 30s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1125023,
 				"desc_hash": 1829653905,
-				"desc": "Increases ATK by <color=#99FFFFFF>35%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>70%</color> for 12s. Can only occur once every 30s.",
+				"desc": "Increases ATK by 35%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 70% for 12s. Can only occur once every 30s.",
 				"cost": 8000
 			},
 			{
 				"affix_id": 1125024,
 				"desc_hash": 693041753,
-				"desc": "Increases ATK by <color=#99FFFFFF>40%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>80%</color> for 12s. Can only occur once every 30s.",
+				"desc": "Increases ATK by 40%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 80% for 12s. Can only occur once every 30s.",
 				"cost": 16000
 			}
 		]

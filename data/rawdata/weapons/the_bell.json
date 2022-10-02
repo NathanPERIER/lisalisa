@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1124020,
 				"desc_hash": 3641399833,
-				"desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>20%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by a shield, the character gains <color=#99FFFFFF>12%</color> increased DMG.",
+				"desc": "Taking DMG generates a shield which absorbs DMG up to 20% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 12% increased DMG.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1124021,
 				"desc_hash": 1645488473,
-				"desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>23%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by a shield, the character gains <color=#99FFFFFF>15%</color> increased DMG.",
+				"desc": "Taking DMG generates a shield which absorbs DMG up to 23% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 15% increased DMG.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1124022,
 				"desc_hash": 2418525641,
-				"desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>26%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by a shield, the character gains <color=#99FFFFFF>18%</color> increased DMG.",
+				"desc": "Taking DMG generates a shield which absorbs DMG up to 26% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 18% increased DMG.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1124023,
 				"desc_hash": 3996316769,
-				"desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>29%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by a shield, the character gains <color=#99FFFFFF>21%</color> increased DMG.",
+				"desc": "Taking DMG generates a shield which absorbs DMG up to 29% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 21% increased DMG.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1124024,
 				"desc_hash": 3001724009,
-				"desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>32%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by a shield, the character gains <color=#99FFFFFF>24%</color> increased DMG.",
+				"desc": "Taking DMG generates a shield which absorbs DMG up to 32% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 24% increased DMG.",
 				"cost": 8000
 			}
 		]

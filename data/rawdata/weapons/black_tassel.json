@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1133030,
 				"desc_hash": 1419204745,
-				"desc": "Increases DMG against slimes by <color=#99FFFFFF>40%</color>.",
+				"desc": "Increases DMG against slimes by 40%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1133031,
 				"desc_hash": 3187246905,
-				"desc": "Increases DMG against slimes by <color=#99FFFFFF>50%</color>.",
+				"desc": "Increases DMG against slimes by 50%.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1133032,
 				"desc_hash": 1250775489,
-				"desc": "Increases DMG against slimes by <color=#99FFFFFF>60%</color>.",
+				"desc": "Increases DMG against slimes by 60%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1133033,
 				"desc_hash": 2335392873,
-				"desc": "Increases DMG against slimes by <color=#99FFFFFF>70%</color>.",
+				"desc": "Increases DMG against slimes by 70%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1133034,
 				"desc_hash": 3410883329,
-				"desc": "Increases DMG against slimes by <color=#99FFFFFF>80%</color>.",
+				"desc": "Increases DMG against slimes by 80%.",
 				"cost": 4000
 			}
 		]

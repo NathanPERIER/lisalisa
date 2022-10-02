@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1125100,
 				"desc_hash": 900434577,
-				"desc": "DEF is increased by <color=#99FFFFFF>28%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>40%</color> of DEF.",
+				"desc": "DEF is increased by 28%. Normal and Charged Attack DMG is increased by 40% of DEF.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1125101,
 				"desc_hash": 1706844625,
-				"desc": "DEF is increased by <color=#99FFFFFF>35%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>50%</color> of DEF.",
+				"desc": "DEF is increased by 35%. Normal and Charged Attack DMG is increased by 50% of DEF.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1125102,
 				"desc_hash": 3214818497,
-				"desc": "DEF is increased by <color=#99FFFFFF>42%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>60%</color> of DEF.",
+				"desc": "DEF is increased by 42%. Normal and Charged Attack DMG is increased by 60% of DEF.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1125103,
 				"desc_hash": 1309441409,
-				"desc": "DEF is increased by <color=#99FFFFFF>49%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>70%</color> of DEF.",
+				"desc": "DEF is increased by 49%. Normal and Charged Attack DMG is increased by 70% of DEF.",
 				"cost": 8000
 			},
 			{
 				"affix_id": 1125104,
 				"desc_hash": 2900806161,
-				"desc": "DEF is increased by <color=#99FFFFFF>56%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>80%</color> of DEF.",
+				"desc": "DEF is increased by 56%. Normal and Charged Attack DMG is increased by 80% of DEF.",
 				"cost": 16000
 			}
 		]

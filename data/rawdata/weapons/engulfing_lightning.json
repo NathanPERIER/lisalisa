@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1135090,
 				"desc_hash": 3110784401,
-				"desc": "ATK increased by <color=#99FFFFFF>28%</color> of Energy Recharge over the base 100%. You can gain a maximum bonus of <color=#99FFFFFF>80%</color> ATK. Gain <color=#99FFFFFF>30%</color> Energy Recharge for 12s after using an Elemental Burst.",
+				"desc": "ATK increased by 28% of Energy Recharge over the base 100%. You can gain a maximum bonus of 80% ATK. Gain 30% Energy Recharge for 12s after using an Elemental Burst.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1135091,
 				"desc_hash": 1381088409,
-				"desc": "ATK increased by <color=#99FFFFFF>35%</color> of Energy Recharge over the base 100%. You can gain a maximum bonus of <color=#99FFFFFF>90%</color> ATK. Gain <color=#99FFFFFF>35%</color> Energy Recharge for 12s after using an Elemental Burst.",
+				"desc": "ATK increased by 35% of Energy Recharge over the base 100%. You can gain a maximum bonus of 90% ATK. Gain 35% Energy Recharge for 12s after using an Elemental Burst.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1135092,
 				"desc_hash": 445724265,
-				"desc": "ATK increased by <color=#99FFFFFF>42%</color> of Energy Recharge over the base 100%. You can gain a maximum bonus of <color=#99FFFFFF>100%</color> ATK. Gain <color=#99FFFFFF>40%</color> Energy Recharge for 12s after using an Elemental Burst.",
+				"desc": "ATK increased by 42% of Energy Recharge over the base 100%. You can gain a maximum bonus of 100% ATK. Gain 40% Energy Recharge for 12s after using an Elemental Burst.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1135093,
 				"desc_hash": 3958647865,
-				"desc": "ATK increased by <color=#99FFFFFF>49%</color> of Energy Recharge over the base 100%. You can gain a maximum bonus of <color=#99FFFFFF>110%</color> ATK. Gain <color=#99FFFFFF>45%</color> Energy Recharge for 12s after using an Elemental Burst.",
+				"desc": "ATK increased by 49% of Energy Recharge over the base 100%. You can gain a maximum bonus of 110% ATK. Gain 45% Energy Recharge for 12s after using an Elemental Burst.",
 				"cost": 8000
 			},
 			{
 				"affix_id": 1135094,
 				"desc_hash": 57447913,
-				"desc": "ATK increased by <color=#99FFFFFF>56%</color> of Energy Recharge over the base 100%. You can gain a maximum bonus of <color=#99FFFFFF>120%</color> ATK. Gain <color=#99FFFFFF>50%</color> Energy Recharge for 12s after using an Elemental Burst.",
+				"desc": "ATK increased by 56% of Energy Recharge over the base 100%. You can gain a maximum bonus of 120% ATK. Gain 50% Energy Recharge for 12s after using an Elemental Burst.",
 				"cost": 16000
 			}
 		]

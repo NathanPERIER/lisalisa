@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1134080,
 				"desc_hash": 2597690433,
-				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>8%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"desc": "Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1134081,
 				"desc_hash": 1245133505,
-				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>10%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"desc": "Upon damaging an opponent, increases CRIT Rate by 10%. Max 5 stacks. A CRIT Hit removes all stacks.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1134082,
 				"desc_hash": 2662513249,
-				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>12%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"desc": "Upon damaging an opponent, increases CRIT Rate by 12%. Max 5 stacks. A CRIT Hit removes all stacks.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1134083,
 				"desc_hash": 3055901025,
-				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>14%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"desc": "Upon damaging an opponent, increases CRIT Rate by 14%. Max 5 stacks. A CRIT Hit removes all stacks.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1134084,
 				"desc_hash": 2820634713,
-				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>16%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"desc": "Upon damaging an opponent, increases CRIT Rate by 16%. Max 5 stacks. A CRIT Hit removes all stacks.",
 				"cost": 8000
 			}
 		]

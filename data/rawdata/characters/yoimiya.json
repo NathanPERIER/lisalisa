@@ -30,6 +30,8 @@
 	"astrolabe": "Carassius Auratus",
 	"allegiance": "Naganohara Fireworks",
 	"default_weapon": "hunters_bow",
+	"increase_skill": 3,
+	"increase_burst": 5,
 	"base_stats": {
 		"Base HP": 791.255615234375,
 		"Base ATK": 25.136999130249023,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 1887244733,
 			"desc_hash": 672946912,
-			"charge_num": 1,
-			"icon": "Skill_A_02",
 			"name": "Normal Attack: Firework Flare-Up",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 5 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:\\n\u00b7Charge Level 1: Fires off a flaming arrow that deals <color=#FF9999FF>Pyro DMG</color>.\\n\u00b7Charge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing <color=#FF9999FF>Pyro DMG</color> on hit.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerforms up to 5 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:\n\u00b7Charge Level 1: Fires off a flaming arrow that deals Pyro DMG.\n\u00b7Charge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing Pyro DMG on hit.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"icon": "Skill_A_02",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_transience": 3,
@@ -412,10 +414,10 @@
 		"elemental_skill": {
 			"name_hash": 3119836125,
 			"desc_hash": 3354049592,
-			"charge_num": 1,
-			"icon": "Skill_S_Yoimiya_01",
 			"name": "Niwabi Fire-Dance",
-			"desc": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.\\n\\n<color=#FFD780FF>Niwabi Enshou</color>\\nDuring this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to <color=#FF9999FF>Pyro DMG</color>. During this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2.\\n\\nThis effect will deactivate when Yoimiya leaves the field.\\n\\n<i>\"Niwabi\" is a form of incense firework created by Yoimiya herself. Its ability to be lit without any prior training or preparation has made it a real hit. After many fire-related incidents, the Tenryou Commission ordered the use of \"Niwabi\" banned, but small, bright sparks can often still be seen springing up at night. If seen from above, they look almost like little twinkling stars.</i>",
+			"desc": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.\n\nNiwabi Enshou\nDuring this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to Pyro DMG. During this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2.\n\nThis effect will deactivate when Yoimiya leaves the field.\n\n<i>\"Niwabi\" is a form of incense firework created by Yoimiya herself. Its ability to be lit without any prior training or preparation has made it a real hit. After many fire-related incidents, the Tenryou Commission ordered the use of \"Niwabi\" banned, but small, bright sparks can often still be seen springing up at night. If seen from above, they look almost like little twinkling stars.</i>",
+			"icon": "Skill_S_Yoimiya_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_transience": 3,
@@ -556,10 +558,10 @@
 		"elemental_burst": {
 			"name_hash": 4251575685,
 			"desc_hash": 1220046344,
-			"charge_num": 1,
-			"icon": "Skill_E_Yoimiya_01",
 			"name": "Ryuukin Saxifrage",
-			"desc": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal <color=#FF9999FF>AoE Pyro DMG</color> and mark one of the hit opponents with Aurous Blaze.\\n\\n<color=#FFD780FF>Aurous Blaze</color>\\nAll Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\nWhen an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.\\n\\nOne Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated.\\n\\n<i>Fireworks are man-made starlight, comets fired into the sky. Though they last for but an instant, the memory of their brilliance shall surely live on.</i>",
+			"desc": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal AoE Pyro DMG and mark one of the hit opponents with Aurous Blaze.\n\nAurous Blaze\nAll Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing AoE Pyro DMG.\nWhen an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.\n\nOne Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated.\n\n<i>Fireworks are man-made starlight, comets fired into the sky. Though they last for but an instant, the memory of their brilliance shall surely live on.</i>",
+			"icon": "Skill_E_Yoimiya_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_transience": 3,
@@ -735,69 +737,69 @@
 		{
 			"name_hash": 539964053,
 			"desc_hash": 3580171643,
-			"icon": "UI_Talent_S_Yoimiya_05",
-			"ascension": 1,
 			"name": "Tricks of the Trouble-Maker",
-			"desc": "During <color=#FFD780FF>Niwabi Fire-Dance</color>, shots from Yoimiya's Normal Attack will increase her <color=#FF9999FF>Pyro DMG Bonus</color> by 2% on hit. This effect lasts for 3s and can have a maximum of 10 stacks."
+			"desc": "During Niwabi Fire-Dance, shots from Yoimiya's Normal Attack will increase her Pyro DMG Bonus by 2% on hit. This effect lasts for 3s and can have a maximum of 10 stacks.",
+			"icon": "UI_Talent_S_Yoimiya_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 1567653061,
 			"desc_hash": 2717127555,
-			"icon": "UI_Talent_S_Yoimiya_06",
-			"ascension": 4,
 			"name": "Summer Night's Dawn",
-			"desc": "Using <color=#FFD780FF>Ryuukin Saxifrage</color> causes nearby party members (not including Yoimiya) to gain a 10% ATK increase for 15s. Additionally, a further ATK Bonus will be added on based on the number of \"Tricks of the Trouble-Maker\" stacks Yoimiya possesses when using <color=#FFD780FF>Ryuukin Saxifrage</color>. Each stack increases this ATK Bonus by 1%."
+			"desc": "Using Ryuukin Saxifrage causes nearby party members (not including Yoimiya) to gain a 10% ATK increase for 15s. Additionally, a further ATK Bonus will be added on based on the number of \"Tricks of the Trouble-Maker\" stacks Yoimiya possesses when using Ryuukin Saxifrage. Each stack increases this ATK Bonus by 1%.",
+			"icon": "UI_Talent_S_Yoimiya_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 964826125,
 			"desc_hash": 953360891,
-			"icon": "UI_Talent_S_Yoimiya_07",
-			"ascension": null,
 			"name": "Blazing Match",
-			"desc": "When Yoimiya crafts Decoration, Ornament, and Landscape-type Furnishings, she has a 100% chance to refund a portion of the materials used."
+			"desc": "When Yoimiya crafts Decoration, Ornament, and Landscape-type Furnishings, she has a 100% chance to refund a portion of the materials used.",
+			"icon": "UI_Talent_S_Yoimiya_07",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 106208137,
-			"name": "Agate Ryuukin",
 			"desc_hash": 3438911311,
-			"desc": "The Aurous Blaze created by <color=#FFD780FF>Ryuukin Saxifrage</color> lasts for an extra 4s.\\nAdditionally, when an opponent affected by Aurous Blaze is defeated within its duration, Yoimiya's ATK is increased by 20% for 20s.",
+			"name": "Agate Ryuukin",
+			"desc": "The Aurous Blaze created by Ryuukin Saxifrage lasts for an extra 4s.\nAdditionally, when an opponent affected by Aurous Blaze is defeated within its duration, Yoimiya's ATK is increased by 20% for 20s.",
 			"icon": "UI_Talent_S_Yoimiya_01"
 		},
 		{
 			"name_hash": 3836801473,
-			"name": "A Procession of Bonfires",
 			"desc_hash": 2102275567,
-			"desc": "When Yoimiya's <color=#FF9999FF>Pyro DMG</color> scores a CRIT Hit, Yoimiya will gain a 25% <color=#FF9999FF>Pyro DMG Bonus</color> for 6s.\\nThis effect can be triggered even when Yoimiya is not the active character.",
+			"name": "A Procession of Bonfires",
+			"desc": "When Yoimiya's Pyro DMG scores a CRIT Hit, Yoimiya will gain a 25% Pyro DMG Bonus for 6s.\nThis effect can be triggered even when Yoimiya is not the active character.",
 			"icon": "UI_Talent_S_Yoimiya_02"
 		},
 		{
 			"name_hash": 3467544337,
-			"name": "Trickster's Flare",
 			"desc_hash": 3229313215,
-			"desc": "Increases the Level of <color=#FFD780FF>Niwabi Fire-Dance</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Trickster's Flare",
+			"desc": "Increases the Level of Niwabi Fire-Dance by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Yoimiya_01"
 		},
 		{
 			"name_hash": 2352994657,
-			"name": "Pyrotechnic Professional",
 			"desc_hash": 2299629615,
-			"desc": "When Yoimiya's own Aurous Blaze triggers an explosion, <color=#FFD780FF>Niwabi Fire-Dance</color>'s CD is decreased by 1.2s.",
+			"name": "Pyrotechnic Professional",
+			"desc": "When Yoimiya's own Aurous Blaze triggers an explosion, Niwabi Fire-Dance's CD is decreased by 1.2s.",
 			"icon": "UI_Talent_S_Yoimiya_03"
 		},
 		{
 			"name_hash": 3785597649,
-			"name": "A Summer Festival's Eve",
 			"desc_hash": 1007404639,
-			"desc": "Increases the Level of <color=#FFD780FF>Ryuukin Saxifrage</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "A Summer Festival's Eve",
+			"desc": "Increases the Level of Ryuukin Saxifrage by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Yoimiya_02"
 		},
 		{
 			"name_hash": 3248653433,
-			"name": "Naganohara Meteor Swarm",
 			"desc_hash": 1202044591,
-			"desc": "During <color=#FFD780FF>Niwabi Fire-Dance</color>, Yoimiya's Normal Attacks have a 50% chance of firing an extra Blazing Arrow that deals 60% of its original DMG. This DMG is considered Normal Attack DMG.",
+			"name": "Naganohara Meteor Swarm",
+			"desc": "During Niwabi Fire-Dance, Yoimiya's Normal Attacks have a 50% chance of firing an extra Blazing Arrow that deals 60% of its original DMG. This DMG is considered Normal Attack DMG.",
 			"icon": "UI_Talent_S_Yoimiya_04"
 		}
 	],
@@ -806,25 +808,23 @@
 			"hoyo_id": null,
 			"name_hash": 2353136394,
 			"desc_hash": 984351202,
-			"restricted": false,
 			"name": "Goldfish Firecracker",
 			"desc": "Yoimiya's outfit. A patchwork of memories from festivals over the years.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "tricolor_dango",
 		"hoyo_id": 108302,
 		"name_hash": 959580548,
 		"desc_hash": 2126645701,
 		"type_hash": 2817243478,
-		"rarity": 3,
 		"name": "Summer Festival Fish",
 		"desc": "Yoimiya's specialty. Watching the fireworks, your hands full of the snacks Yoimiya's given you, her carefree, child-like laughter in your ear as the pyrotechnics burst overhead... Amid this unique symphony of sounds, the plump goldfish in your hand almost looks like it might start swimming at any moment...",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 1873524711,
-		"effect": "Restores 40% of Max HP and an additional 2,350 HP to the selected character.",
-		"original_recipe": "tricolor_dango"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 3
 	}
 }

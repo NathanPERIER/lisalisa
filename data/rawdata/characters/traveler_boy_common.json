@@ -24,6 +24,8 @@
 	"astrolabe": "Viator",
 	"allegiance": "-",
 	"default_weapon": "dull_blade",
+	"increase_skill": 0,
+	"increase_burst": 0,
 	"base_stats": {
 		"Base HP": 911.791015625,
 		"Base ATK": 17.808000564575195,
@@ -145,10 +147,10 @@
 		"normal_attack": {
 			"name_hash": 1952055533,
 			"desc_hash": 1517379584,
-			"charge_num": 1,
-			"icon": "Skill_A_01",
 			"name": "Normal Attack: Past Memories",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -393,12 +395,12 @@
 			"hoyo_id": null,
 			"name_hash": 1648736450,
 			"desc_hash": 2814665554,
-			"restricted": false,
 			"name": "Rising Star",
 			"desc": "The Traveler's outfit. A practical set of clothing to wear during a long journey.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": null
 }

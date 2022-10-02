@@ -30,6 +30,8 @@
 	"astrolabe": "Aphros Delos",
 	"allegiance": "Knights of Favonius",
 	"default_weapon": "waster_greatsword",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 1029.5855712890625,
 		"Base ATK": 26.62660026550293,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 242311157,
 			"desc_hash": 1500184616,
-			"charge_num": 1,
-			"icon": "Skill_A_04",
 			"name": "Normal Attack: Favonius Bladework - Edel",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous slashes.\\nAt the end of the sequence, perform a more powerful slash.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 5 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_04",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_resistance": 3,
@@ -428,10 +430,10 @@
 		"elemental_skill": {
 			"name_hash": 741315613,
 			"desc_hash": 1769739528,
-			"charge_num": 1,
-			"icon": "Skill_S_Eula_01",
 			"name": "Icetide Vortex",
-			"desc": "#Sharp frost, swift blade.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nSlashes swiftly, dealing <color=#99FFFFFF>Cryo DMG</color>.\\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.\\n\\n<color=#FFD780FF>Grimheart</color>\\nIncreases Eula's resistance to interruption and DEF.\\n\\n<color=#FFD780FF>Hold</color>\\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing <color=#99FFFFFF>AoE Cryo DMG</color> to opponents in front of her.\\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and <color=#99FFFFFF>Cryo RES</color> decreased.\\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals <color=#99FFFFFF>Cryo DMG</color> to nearby opponents.\\n\\n<i>\"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\"</i>",
+			"desc": "#Sharp frost, swift blade.\n\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\nSlashes swiftly, dealing Cryo DMG.\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.\n\nGrimheart\nIncreases Eula's resistance to interruption and DEF.\n\nHold\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing AoE Cryo DMG to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.\n\n<i>\"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\"</i>",
+			"icon": "Skill_S_Eula_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_resistance": 3,
@@ -684,10 +686,10 @@
 		"elemental_burst": {
 			"name_hash": 3521320029,
 			"desc_hash": 569748832,
-			"charge_num": 1,
-			"icon": "Skill_E_Eula_01",
 			"name": "Glacial Illumination",
-			"desc": "Brandishes her greatsword, dealing <color=#99FFFFFF>Cryo DMG</color> to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\\nIf Eula leaves the field, the Lightfall Sword will explode immediately.\\n\\n<i>It is easy to sink. But even so, she desires to freeze this oncoming tide.</i>",
+			"desc": "Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will explode immediately.\n\n<i>It is easy to sink. But even so, she desires to freeze this oncoming tide.</i>",
+			"icon": "Skill_E_Eula_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_resistance": 3,
@@ -879,69 +881,69 @@
 		{
 			"name_hash": 1425537069,
 			"desc_hash": 2607513067,
-			"icon": "UI_Talent_S_Eula_05",
-			"ascension": 1,
 			"name": "Roiling Rime",
-			"desc": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of <color=#FFD780FF>Icetide Vortex</color>, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by <color=#FFD780FF>Glacial Illumination</color>."
+			"desc": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of Icetide Vortex, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by Glacial Illumination.",
+			"icon": "UI_Talent_S_Eula_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 1966610773,
 			"desc_hash": 236148939,
-			"icon": "UI_Talent_S_Eula_06",
-			"ascension": 4,
 			"name": "Wellspring of War-Lust",
-			"desc": "When <color=#FFD780FF>Glacial Illumination</color> is cast, the CD of <color=#FFD780FF>Icetide Vortex</color> is reset and Eula gains 1 stack of Grimheart."
+			"desc": "When Glacial Illumination is cast, the CD of Icetide Vortex is reset and Eula gains 1 stack of Grimheart.",
+			"icon": "UI_Talent_S_Eula_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 4003186445,
 			"desc_hash": 2270889547,
-			"icon": "UI_Talent_Eula_Combine",
-			"ascension": null,
 			"name": "Aristocratic Introspection",
-			"desc": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product."
+			"desc": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product.",
+			"icon": "UI_Talent_Eula_Combine",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 1401913601,
-			"name": "Tidal Illusion",
 			"desc_hash": 1142115463,
-			"desc": "Every time <color=#FFD780FF>Icetide Vortex</color>'s Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
+			"name": "Tidal Illusion",
+			"desc": "Every time Icetide Vortex's Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
 			"icon": "UI_Talent_S_Eula_02"
 		},
 		{
 			"name_hash": 4116602505,
-			"name": "Lady of Seafoam",
 			"desc_hash": 2873233407,
-			"desc": "#Decreases the CD of <color=#FFD780FF>Icetide Vortex</color>'s Holding Mode, rendering it identical to {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD.",
+			"name": "Lady of Seafoam",
+			"desc": "#Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD.",
 			"icon": "UI_Talent_S_Eula_01"
 		},
 		{
 			"name_hash": 4017023737,
-			"name": "Lawrence Pedigree",
 			"desc_hash": 3953679079,
-			"desc": "Increases the Level of <color=#FFD780FF>Glacial Illumination</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Lawrence Pedigree",
+			"desc": "Increases the Level of Glacial Illumination by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Eula_01"
 		},
 		{
 			"name_hash": 260126841,
-			"name": "The Obstinacy of One's Inferiors",
 			"desc_hash": 2211149663,
+			"name": "The Obstinacy of One's Inferiors",
 			"desc": "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.",
 			"icon": "UI_Talent_S_Eula_03"
 		},
 		{
 			"name_hash": 3295716345,
-			"name": "Chivalric Quality",
 			"desc_hash": 4202659807,
-			"desc": "Increases the Level of <color=#FFD780FF>Icetide Vortex</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Chivalric Quality",
+			"desc": "Increases the Level of Icetide Vortex by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Eula_02"
 		},
 		{
 			"name_hash": 1963500825,
-			"name": "Noble Obligation",
 			"desc_hash": 658737255,
-			"desc": "Lightfall Swords created by <color=#FFD780FF>Glacial Illumination</color> start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
+			"name": "Noble Obligation",
+			"desc": "Lightfall Swords created by Glacial Illumination start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
 			"icon": "UI_Talent_S_Eula_04"
 		}
 	],
@@ -950,25 +952,23 @@
 			"hoyo_id": null,
 			"name_hash": 301314714,
 			"desc_hash": 1419139450,
-			"restricted": false,
 			"name": "Wavecrest Waltz",
 			"desc": "Eula's outfit. Consummate elegance shines through in this neat and smart knight's uniform.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "moon_pie",
 		"hoyo_id": 108245,
 		"name_hash": 1859342524,
 		"desc_hash": 3144549181,
 		"type_hash": 2064641294,
-		"rarity": 4,
 		"name": "Stormcrest Pie",
 		"desc": "Eula's specialty. It's hard to say if the unorthodox, non-full-moon shape is meant to flout tradition or express her \"tooth for a tooth\" ethos. A rich, savory, and smoky flavor emanates from beneath the golden outer crust, unlikely to be reproducible by anybody else in Mondstadt. Best not to tell her all this, though, lest she add it to her list of personal vendettas.",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 626557871,
-		"effect": "Increases all party members' Shield Strength by 40% and DEF by 282 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-		"original_recipe": "moon_pie"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 4
 	}
 }

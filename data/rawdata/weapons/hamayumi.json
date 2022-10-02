@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1154140,
 				"desc_hash": 1005674993,
-				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>16%</color> and Charged Attack DMG by <color=#99FFFFFF>12%</color>. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+				"desc": "Increases Normal Attack DMG by 16% and Charged Attack DMG by 12%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1154141,
 				"desc_hash": 1500615753,
-				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>20%</color> and Charged Attack DMG by <color=#99FFFFFF>15%</color>. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+				"desc": "Increases Normal Attack DMG by 20% and Charged Attack DMG by 15%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1154142,
 				"desc_hash": 3258541705,
-				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>24%</color> and Charged Attack DMG by <color=#99FFFFFF>18%</color>. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+				"desc": "Increases Normal Attack DMG by 24% and Charged Attack DMG by 18%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1154143,
 				"desc_hash": 3854525521,
-				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>28%</color> and Charged Attack DMG by <color=#99FFFFFF>21%</color>. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+				"desc": "Increases Normal Attack DMG by 28% and Charged Attack DMG by 21%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1154144,
 				"desc_hash": 2650909905,
-				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>32%</color> and Charged Attack DMG by <color=#99FFFFFF>24%</color>. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+				"desc": "Increases Normal Attack DMG by 32% and Charged Attack DMG by 24%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
 				"cost": 8000
 			}
 		]

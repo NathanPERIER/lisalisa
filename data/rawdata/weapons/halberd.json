@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1133020,
 				"desc_hash": 12012241,
-				"desc": "Normal Attacks deal an additional <color=#99FFFFFF>160%</color> ATK as DMG. Can only occur once every 10s.",
+				"desc": "Normal Attacks deal an additional 160% ATK as DMG. Can only occur once every 10s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1133021,
 				"desc_hash": 4224599497,
-				"desc": "Normal Attacks deal an additional <color=#99FFFFFF>200%</color> ATK as DMG. This effect can only occur once every 10s.",
+				"desc": "Normal Attacks deal an additional 200% ATK as DMG. This effect can only occur once every 10s.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1133022,
 				"desc_hash": 1141380905,
-				"desc": "Normal Attacks deal an additional <color=#99FFFFFF>240%</color> ATK as DMG. This effect can only occur once every 10s.",
+				"desc": "Normal Attacks deal an additional 240% ATK as DMG. This effect can only occur once every 10s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1133023,
 				"desc_hash": 2326110457,
-				"desc": "Normal Attacks deal an additional <color=#99FFFFFF>280%</color> ATK as DMG. This effect can only occur once every 10s.",
+				"desc": "Normal Attacks deal an additional 280% ATK as DMG. This effect can only occur once every 10s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1133024,
 				"desc_hash": 1869215529,
-				"desc": "Normal Attacks deal an additional <color=#99FFFFFF>320%</color> ATK as DMG. This effect can only occur once every 10s.",
+				"desc": "Normal Attacks deal an additional 320% ATK as DMG. This effect can only occur once every 10s.",
 				"cost": 4000
 			}
 		]

@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1123010,
 				"desc_hash": 2855766121,
-				"desc": "When HP falls below <color=#99FFFFFF>70%</color>, increases Charged Attack DMG by <color=#99FFFFFF>30%</color> and Charged Attacks become harder to interrupt.",
+				"desc": "When HP falls below 70%, increases Charged Attack DMG by 30% and Charged Attacks become harder to interrupt.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1123011,
 				"desc_hash": 2312372713,
-				"desc": "When HP falls below <color=#99FFFFFF>75%</color>, increases Charged Attack DMG by <color=#99FFFFFF>35%</color> and Charged Attacks become harder to interrupt.",
+				"desc": "When HP falls below 75%, increases Charged Attack DMG by 35% and Charged Attacks become harder to interrupt.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1123012,
 				"desc_hash": 423698633,
-				"desc": "When HP falls below <color=#99FFFFFF>80%</color>, increases Charged Attack DMG by <color=#99FFFFFF>40%</color> and Charged Attacks become harder to interrupt.",
+				"desc": "When HP falls below 80%, increases Charged Attack DMG by 40% and Charged Attacks become harder to interrupt.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1123013,
 				"desc_hash": 3298730305,
-				"desc": "When HP falls below <color=#99FFFFFF>85%</color>, increases Charged Attack DMG by <color=#99FFFFFF>45%</color> and Charged Attacks become harder to interrupt.",
+				"desc": "When HP falls below 85%, increases Charged Attack DMG by 45% and Charged Attacks become harder to interrupt.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1123014,
 				"desc_hash": 3417004121,
-				"desc": "When HP falls below <color=#99FFFFFF>90%</color>, increases Charged Attack DMG by <color=#99FFFFFF>50%</color> and Charged Attacks become harder to interrupt.",
+				"desc": "When HP falls below 90%, increases Charged Attack DMG by 50% and Charged Attacks become harder to interrupt.",
 				"cost": 4000
 			}
 		]

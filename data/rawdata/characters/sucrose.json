@@ -30,6 +30,8 @@
 	"astrolabe": "Ampulla",
 	"allegiance": "Knights of Favonius",
 	"default_weapon": "apprentices_notes",
+	"increase_skill": 3,
+	"increase_burst": 5,
 	"base_stats": {
 		"Base HP": 775.0223388671875,
 		"Base ATK": 14.246399879455566,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 3941337549,
 			"desc_hash": 897873448,
-			"charge_num": 1,
-			"icon": "Skill_A_Catalyst_MD",
 			"name": "Normal Attack: Wind Spirit Creation",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 attacks using Wind Spirits, dealing <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina and deals <color=#80FFD7FF>AoE Anemo DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nCalling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80FFD7FF>AoE Anemo DMG</color> upon impact with the ground.",
+			"desc": "Normal Attack\nPerforms up to 4 attacks using Wind Spirits, dealing Anemo DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina and deals AoE Anemo DMG after a short casting time.\n\nPlunging Attack\nCalling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground.",
+			"icon": "Skill_A_Catalyst_MD",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -380,10 +382,10 @@
 		"elemental_skill": {
 			"name_hash": 159360653,
 			"desc_hash": 3348243704,
-			"charge_num": 1,
-			"icon": "Skill_S_Sucrose_01",
 			"name": "Astable Anemohypostasis Creation - 6308",
-			"desc": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<i>This is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications.</i>",
+			"desc": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals Anemo DMG.\n\n<i>This is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications.</i>",
+			"icon": "Skill_S_Sucrose_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -508,10 +510,10 @@
 		"elemental_burst": {
 			"name_hash": 234765309,
 			"desc_hash": 2314820896,
-			"charge_num": 1,
-			"icon": "Skill_E_Sucrose_01",
 			"name": "Forbidden Creation - Isomer 75 / Type II",
-			"desc": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.\\nWhile it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Elemental Absorption</color>\\nIf the Wind Spirit comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> energy, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.</i>",
+			"desc": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.\nWhile it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal Anemo DMG.\n\nElemental Absorption\nIf the Wind Spirit comes into contact with Hydro/Pyro/Cryo/Electro energy, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.</i>",
+			"icon": "Skill_E_Sucrose_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -687,69 +689,69 @@
 		{
 			"name_hash": 2797937013,
 			"desc_hash": 1686676419,
-			"icon": "UI_Talent_S_Sucrose_05",
-			"ascension": 1,
 			"name": "Catalyst Conversion",
-			"desc": "When Sucrose triggers a Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s."
+			"desc": "When Sucrose triggers a Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s.",
+			"icon": "UI_Talent_S_Sucrose_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 3490252853,
 			"desc_hash": 4161226819,
-			"icon": "UI_Talent_S_Sucrose_06",
-			"ascension": 4,
 			"name": "Mollis Favonius",
-			"desc": "When <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> or <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> hits an opponent, increases all party members' (excluding Sucrose) Elemental Mastery by an amount equal to 20% of Sucrose's Elemental Mastery for 8s."
+			"desc": "When Astable Anemohypostasis Creation - 6308 or Forbidden Creation - Isomer 75 / Type II hits an opponent, increases all party members' (excluding Sucrose) Elemental Mastery by an amount equal to 20% of Sucrose's Elemental Mastery for 8s.",
+			"icon": "UI_Talent_S_Sucrose_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 197407101,
 			"desc_hash": 2984501507,
-			"icon": "UI_Talent_Combine_Material",
-			"ascension": null,
 			"name": "Astable Invention",
-			"desc": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% to obtain double the product."
+			"desc": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% to obtain double the product.",
+			"icon": "UI_Talent_Combine_Material",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 1387979801,
-			"name": "Clustered Vacuum Field",
 			"desc_hash": 659439671,
-			"desc": "<color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> gains 1 additional charge.",
+			"name": "Clustered Vacuum Field",
+			"desc": "Astable Anemohypostasis Creation - 6308 gains 1 additional charge.",
 			"icon": "UI_Talent_S_Sucrose_01"
 		},
 		{
 			"name_hash": 412718689,
-			"name": "Beth: Unbound Form",
 			"desc_hash": 393014655,
-			"desc": "The duration of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> is increased by 2s.",
+			"name": "Beth: Unbound Form",
+			"desc": "The duration of Forbidden Creation - Isomer 75 / Type II is increased by 2s.",
 			"icon": "UI_Talent_S_Sucrose_02"
 		},
 		{
 			"name_hash": 3504453161,
-			"name": "Flawless Alchemistress",
 			"desc_hash": 3346841599,
-			"desc": "Increases the Level of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Flawless Alchemistress",
+			"desc": "Increases the Level of Astable Anemohypostasis Creation - 6308 by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Sucrose_01"
 		},
 		{
 			"name_hash": 2203237409,
-			"name": "Alchemania",
 			"desc_hash": 1019396935,
-			"desc": "Sucrose will reduce the CD of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 1-7s for every 7 Normal or Charged Attack hits she scores against opponents.\\nOne hit may be counted every 0.1s.",
+			"name": "Alchemania",
+			"desc": "Sucrose will reduce the CD of Astable Anemohypostasis Creation - 6308 by 1-7s for every 7 Normal or Charged Attack hits she scores against opponents.\nOne hit may be counted every 0.1s.",
 			"icon": "UI_Talent_S_Sucrose_03"
 		},
 		{
 			"name_hash": 1605290329,
-			"name": "Caution: Standard Flask",
 			"desc_hash": 901461951,
-			"desc": "Increases the Level of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Caution: Standard Flask",
+			"desc": "Increases the Level of Forbidden Creation - Isomer 75 / Type II by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Sucrose_02"
 		},
 		{
 			"name_hash": 344305449,
-			"name": "Chaotic Entropy",
 			"desc_hash": 4078577031,
-			"desc": "If <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration.",
+			"name": "Chaotic Entropy",
+			"desc": "If Forbidden Creation - Isomer 75 / Type II triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration.",
 			"icon": "UI_Talent_S_Sucrose_04"
 		}
 	],
@@ -758,25 +760,23 @@
 			"hoyo_id": null,
 			"name_hash": 3529210914,
 			"desc_hash": 4118239546,
-			"restricted": false,
 			"name": "Germinating Wind",
 			"desc": "Sucrose's outfit. A Knights of Favonius alchemist's uniform customized for Sucrose.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "crab_ham_veggie_bake",
 		"hoyo_id": 108146,
 		"name_hash": 664641428,
 		"desc_hash": 756175397,
 		"type_hash": 1319590390,
-		"rarity": 3,
 		"name": "Nutritious Meal (V.593)",
 		"desc": "Sucrose's specialty. It looks like some strange alchemical product at first, but Sucrose insists that it is a healthy and nutritious meal, the result of many experiments and painstaking improvements. Its healthy green color comes from a mix of cream and natural vegetable juices... Wait, vegetable juices?",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 1949802967,
-		"effect": "Revives the selected character and restores 20% of Max HP, then restores an additional 1500 HP.",
-		"original_recipe": "crab_ham_veggie_bake"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 3
 	}
 }

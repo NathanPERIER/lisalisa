@@ -30,6 +30,8 @@
 	"astrolabe": "Noctua",
 	"allegiance": "Dawn Winery",
 	"default_weapon": "waster_greatsword",
+	"increase_skill": 3,
+	"increase_burst": 5,
 	"base_stats": {
 		"Base HP": 1010.5192260742188,
 		"Base ATK": 26.06800079345703,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 2878874285,
 			"desc_hash": 2306677240,
-			"charge_num": 1,
-			"icon": "Skill_A_04",
 			"name": "Normal Attack: Tempered Sword",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous slashes.\\nAt the end of the sequence, perform a more powerful slash.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 4 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_04",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_resistance": 3,
@@ -412,10 +414,10 @@
 		"elemental_skill": {
 			"name_hash": 2979035429,
 			"desc_hash": 1648914688,
-			"charge_num": 1,
-			"icon": "Skill_S_Diluc_01_01",
 			"name": "Searing Onslaught",
-			"desc": "Performs a forward slash that deals <color=#FF9999FF>Pyro DMG</color>.\\n\\nThis skill can be consecutively used 3 times. Enters CD if not cast again within a short period.\\n\\n<i>The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.</i>",
+			"desc": "Performs a forward slash that deals Pyro DMG.\n\nThis skill can be consecutively used 3 times. Enters CD if not cast again within a short period.\n\n<i>The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.</i>",
+			"icon": "Skill_S_Diluc_01_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_resistance": 3,
@@ -572,10 +574,10 @@
 		"elemental_burst": {
 			"name_hash": 2772119557,
 			"desc_hash": 2932734984,
-			"charge_num": 1,
-			"icon": "Skill_E_Diluc_01",
 			"name": "Dawn",
-			"desc": "Releases intense flames to knock back nearby opponents, dealing <color=#FF9999FF>Pyro DMG</color>. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive <color=#FF9999FF>Pyro DMG</color> to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of <color=#FF9999FF>AoE Pyro DMG</color>.\\nThe searing flames that run down his blade cause it to be infused with <color=#FF9999FF>Pyro</color>.\\n\\n<i>The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.</i>",
+			"desc": "Releases intense flames to knock back nearby opponents, dealing Pyro DMG. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive Pyro DMG to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of AoE Pyro DMG.\nThe searing flames that run down his blade cause it to be infused with Pyro.\n\n<i>The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.</i>",
+			"icon": "Skill_E_Diluc_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_resistance": 3,
@@ -767,69 +769,69 @@
 		{
 			"name_hash": 2844158725,
 			"desc_hash": 1808773251,
-			"icon": "UI_Talent_S_Diluc_05",
-			"ascension": 1,
 			"name": "Relentless",
-			"desc": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s."
+			"desc": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s.",
+			"icon": "UI_Talent_S_Diluc_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 2904319165,
 			"desc_hash": 2686849171,
-			"icon": "UI_Talent_S_Diluc_06",
-			"ascension": 4,
 			"name": "Blessing of Phoenix",
-			"desc": "The <color=#FF9999FF>Pyro Infusion</color> provided by <color=#FFD780FF>Dawn</color> lasts for 4s longer. Additionally, Diluc gains 20% <color=#FF9999FF>Pyro DMG Bonus</color> during the duration of this effect."
+			"desc": "The Pyro Infusion provided by Dawn lasts for 4s longer. Additionally, Diluc gains 20% Pyro DMG Bonus during the duration of this effect.",
+			"icon": "UI_Talent_S_Diluc_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 4168878421,
 			"desc_hash": 1726568035,
-			"icon": "UI_Talent_Forge_Claymore",
-			"ascension": null,
 			"name": "Tradition of the Dawn Knight",
-			"desc": "Refunds 15% of the ore used when crafting Claymore-type weapons."
+			"desc": "Refunds 15% of the ore used when crafting Claymore-type weapons.",
+			"icon": "UI_Talent_Forge_Claymore",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 1050836105,
-			"name": "Conviction",
 			"desc_hash": 4178291015,
+			"name": "Conviction",
 			"desc": "Diluc deals 15% more DMG to opponents whose HP is above 50%.",
 			"icon": "UI_Talent_S_Diluc_01"
 		},
 		{
 			"name_hash": 610672953,
-			"name": "Searing Ember",
 			"desc_hash": 3591206935,
-			"desc": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\\nThis effect can stack up to 3 times and can only occur once every 1.5s.",
+			"name": "Searing Ember",
+			"desc": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\nThis effect can stack up to 3 times and can only occur once every 1.5s.",
 			"icon": "UI_Talent_S_Diluc_02"
 		},
 		{
 			"name_hash": 4084228505,
-			"name": "Fire and Steel",
 			"desc_hash": 4123556519,
-			"desc": "Increases the Level of <color=#FFD780FF>Searing Onslaught</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Fire and Steel",
+			"desc": "Increases the Level of Searing Onslaught by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Diluc_01"
 		},
 		{
 			"name_hash": 1732979729,
-			"name": "Flowing Flame",
 			"desc_hash": 3027261279,
-			"desc": "Casting <color=#FFD780FF>Searing Onslaught</color> in rhythm greatly increases damage dealt.\\n2s after casting <color=#FFD780FF>Searing Onslaught</color>, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s.",
+			"name": "Flowing Flame",
+			"desc": "Casting Searing Onslaught in rhythm greatly increases damage dealt.\n2s after casting Searing Onslaught, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s.",
 			"icon": "UI_Talent_S_Diluc_03"
 		},
 		{
 			"name_hash": 2293832361,
-			"name": "Phoenix, Harbinger of Dawn",
 			"desc_hash": 1232419951,
-			"desc": "Increases the Level of <color=#FFD780FF>Dawn</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Phoenix, Harbinger of Dawn",
+			"desc": "Increases the Level of Dawn by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Diluc_02"
 		},
 		{
 			"name_hash": 4215692089,
-			"name": "Flaming Sword, Nemesis of the Dark",
 			"desc_hash": 2507810183,
-			"desc": "After casting <color=#FFD780FF>Searing Onslaught</color>, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo.",
+			"name": "Flaming Sword, Nemesis of the Dark",
+			"desc": "After casting Searing Onslaught, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo.",
 			"icon": "UI_Talent_S_Diluc_04"
 		}
 	],
@@ -838,35 +840,33 @@
 			"hoyo_id": null,
 			"name_hash": 674973162,
 			"desc_hash": 2401924570,
-			"restricted": false,
 			"name": "Darknight Blaze",
 			"desc": "Diluc's outfit. A smart and tasteful suit fit for a nobleman.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": [
-			{
+		"alt": {
+			"red_dead_of_night": {
 				"hoyo_id": 340004,
 				"name_hash": 1332852170,
 				"desc_hash": 3295060426,
-				"restricted": false,
 				"name": "Red Dead of Night",
 				"desc": "One of the outfits Diluc wears during covert actions, it resembles a flame dancing in the shadows. The crimson red traces it leaves behind at the edges of the enemy's vision will scar their nightmares forever.",
-				"icon": "UI_AvatarIcon_DilucCostumeFlamme"
+				"icon": "UI_AvatarIcon_DilucCostumeFlamme",
+				"restricted": false
 			}
-		]
+		}
 	},
 	"special_dish": {
+		"original_recipe": "pile_em_up",
 		"hoyo_id": 108058,
 		"name_hash": 2313991356,
 		"desc_hash": 3575859421,
 		"type_hash": 429060806,
-		"rarity": 3,
 		"name": "\"Once Upon a Time in Mondstadt\"",
 		"desc": "Diluc's specialty. Feast your eyes and then your stomach upon this delicacy as the soft ribs melt in your mouth. Who knew Diluc was able to cook this well?",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 913695087,
-		"effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)",
-		"original_recipe": "pile_em_up"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 3
 	}
 }

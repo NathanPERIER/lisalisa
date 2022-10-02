@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1153060,
 				"desc_hash": 1028309561,
-				"desc": "Increases DMG against mechanoid Ruin opponents by <color=#99FFFFFF>40%</color>.",
+				"desc": "Increases DMG against mechanoid Ruin opponents by 40%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1153061,
 				"desc_hash": 2449908585,
-				"desc": "Increases DMG against mechanoid Ruin opponents by <color=#99FFFFFF>50%</color>.",
+				"desc": "Increases DMG against mechanoid Ruin opponents by 50%.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1153062,
 				"desc_hash": 1997044041,
-				"desc": "Increases DMG against mechanoid Ruin opponents by <color=#99FFFFFF>60%</color>.",
+				"desc": "Increases DMG against mechanoid Ruin opponents by 60%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1153063,
 				"desc_hash": 3853743425,
-				"desc": "Increases DMG against mechanoid Ruin opponents by <color=#99FFFFFF>70%</color>.",
+				"desc": "Increases DMG against mechanoid Ruin opponents by 70%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1153064,
 				"desc_hash": 144304065,
-				"desc": "Increases DMG against mechanoid Ruin opponents by <color=#99FFFFFF>80%</color>.",
+				"desc": "Increases DMG against mechanoid Ruin opponents by 80%.",
 				"cost": 4000
 			}
 		]

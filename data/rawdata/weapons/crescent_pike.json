@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1134030,
 				"desc_hash": 3150512345,
-				"desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>20%</color> of ATK for 5s.",
+				"desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 20% of ATK for 5s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1134031,
 				"desc_hash": 1629566577,
-				"desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>25%</color> of ATK for 5s.",
+				"desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 25% of ATK for 5s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1134032,
 				"desc_hash": 162703737,
-				"desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>30%</color> of ATK for 5s.",
+				"desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 30% of ATK for 5s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1134033,
 				"desc_hash": 2050638753,
-				"desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>35%</color> of ATK for 5s.",
+				"desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 35% of ATK for 5s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1134034,
 				"desc_hash": 2830231553,
-				"desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>40%</color> of ATK for 5s.",
+				"desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 40% of ATK for 5s.",
 				"cost": 8000
 			}
 		]

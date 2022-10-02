@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1134010,
 				"desc_hash": 2788068617,
-				"desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>20%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Pyro by 20%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1134011,
 				"desc_hash": 2618093289,
-				"desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>24%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Pyro by 24%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1134012,
 				"desc_hash": 3771176529,
-				"desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>28%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Pyro by 28%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1134013,
 				"desc_hash": 3411103305,
-				"desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>32%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Pyro by 32%.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1134014,
 				"desc_hash": 2489651689,
-				"desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>36%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Pyro by 36%.",
 				"cost": 8000
 			}
 		]

@@ -30,6 +30,8 @@
 	"astrolabe": "Astrolabos",
 	"allegiance": "Mondstadt",
 	"default_weapon": "apprentices_notes",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 810.322021484375,
 		"Base ATK": 22.3439998626709,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 2512572181,
 			"desc_hash": 239283280,
-			"charge_num": 1,
-			"icon": "Skill_A_Catalyst_MD",
 			"name": "Normal Attack: Ripple of Fate",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 water splash attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+			"desc": "Normal Attack\nPerform up to 4 water splash attacks that deal Hydro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\n\nPlunging Attack\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.",
+			"icon": "Skill_A_Catalyst_MD",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_resistance": 3,
@@ -380,10 +382,10 @@
 		"elemental_skill": {
 			"name_hash": 1125648053,
 			"desc_hash": 3421937592,
-			"charge_num": 1,
-			"icon": "Skill_S_Mona_01",
 			"name": "Mirror Reflection of Doom",
-			"desc": "Creates an illusory Phantom of Fate from coalesced waterspouts.\\n\\nThe <color=#FFD780FF>Phantom</color> has the following special properties:\\n\u00b7Continuously taunts nearby opponents, attracting their fire.\\n\u00b7Continuously deals <color=#80C0FFFF>Hydro DMG</color> to nearby opponents.\\n\u00b7When its duration expires, the Phantom explodes, dealing <color=#80C0FFFF>AoE Hydro DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\\n\\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\\n\\n<i>Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.</i>",
+			"desc": "Creates an illusory Phantom of Fate from coalesced waterspouts.\n\nThe Phantom has the following special properties:\n\u00b7Continuously taunts nearby opponents, attracting their fire.\n\u00b7Continuously deals Hydro DMG to nearby opponents.\n\u00b7When its duration expires, the Phantom explodes, dealing AoE Hydro DMG.\n\nHold\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\n\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\n\n<i>Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.</i>",
+			"icon": "Skill_S_Mona_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_resistance": 3,
@@ -524,10 +526,10 @@
 		"elemental_burst": {
 			"name_hash": 3616116589,
 			"desc_hash": 3902311160,
-			"charge_num": 1,
-			"icon": "Skill_E_Mona_01",
 			"name": "Stellaris Phantasm",
-			"desc": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE.\\n\\n<color=#FFD780FF>Illusory Bubble</color>\\nTraps opponents inside a pocket of destiny and also makes them <color=#80C0FFFF>Wet</color>. Renders weaker opponents immobile.\\nWhen an opponent affected by Illusory Bubble sustains DMG, it has the following effects:\\n\u00b7Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.\\n\u00b7Removes the Illusory Bubble, dealing <color=#80C0FFFF>Hydro</color> DMG in the process.\\n\\n<color=#FFD780FF>Omen</color>\\nDuring its duration, increases DMG taken by opponents.\\n\\n<i>It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.</i>",
+			"desc": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE.\n\nIllusory Bubble\nTraps opponents inside a pocket of destiny and also makes them Wet. Renders weaker opponents immobile.\nWhen an opponent affected by Illusory Bubble sustains DMG, it has the following effects:\n\u00b7Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.\n\u00b7Removes the Illusory Bubble, dealing Hydro DMG in the process.\n\nOmen\nDuring its duration, increases DMG taken by opponents.\n\n<i>It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.</i>",
+			"icon": "Skill_E_Mona_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_resistance": 3,
@@ -716,10 +718,10 @@
 		"alternate_sprint": {
 			"name_hash": 1057341493,
 			"desc_hash": 3378550992,
-			"charge_num": 1,
-			"icon": "Skill_S_Mona_02",
 			"name": "Illusory Torrent",
-			"desc": "<color=#FFD780FF>Alternate Sprint</color>\\nMona cloaks herself within the water's flow, consuming Stamina to move rapidly.\\n\\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.\\nApplies the <color=#80C0FFFF>Wet</color> status to nearby opponents when she reappears.\\n\\n<i>This is something that Mona can do, but her teacher cannot. Well, but it's not as if her teacher would pursue any matter concerning Hydro Visions anyway...</i>",
+			"desc": "Alternate Sprint\nMona cloaks herself within the water's flow, consuming Stamina to move rapidly.\n\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.\nApplies the Wet status to nearby opponents when she reappears.\n\n<i>This is something that Mona can do, but her teacher cannot. Well, but it's not as if her teacher would pursue any matter concerning Hydro Visions anyway...</i>",
+			"icon": "Skill_S_Mona_02",
+			"charge_num": 1,
 			"costs": [],
 			"stats": {
 				"names": [
@@ -739,69 +741,69 @@
 		{
 			"name_hash": 2516099965,
 			"desc_hash": 1706572851,
-			"icon": "UI_Talent_S_Mona_05",
-			"ascension": 1,
 			"name": "\"Come 'n' Get Me, Hag!\"",
-			"desc": "After she has used <color=#FFD780FF>Illusory Torrent</color> for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of <color=#FFD780FF>Mirror Reflection of Doom</color>."
+			"desc": "After she has used Illusory Torrent for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom.",
+			"icon": "UI_Talent_S_Mona_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 1413844365,
 			"desc_hash": 3379482011,
-			"icon": "UI_Talent_S_Mona_06",
-			"ascension": 4,
 			"name": "Waterborne Destiny",
-			"desc": "Increases Mona's <color=#80C0FFFF>Hydro DMG Bonus</color> by a degree equivalent to 20% of her Energy Recharge rate."
+			"desc": "Increases Mona's Hydro DMG Bonus by a degree equivalent to 20% of her Energy Recharge rate.",
+			"icon": "UI_Talent_S_Mona_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 3413416829,
 			"desc_hash": 1213329395,
-			"icon": "UI_Talent_Combine_Weapon",
-			"ascension": null,
 			"name": "Principium of Astrology",
-			"desc": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used."
+			"desc": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used.",
+			"icon": "UI_Talent_Combine_Weapon",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 3262519193,
-			"name": "Prophecy of Submersion",
 			"desc_hash": 452602631,
-			"desc": "When any of your own party members hits an opponent affected by an Omen, the effects of <color=#80C0FFFF>Hydro-related Elemental Reactions</color> are enhanced for 8s:\\n\u00b7Electro-Charged DMG increases by 15%.\\n\u00b7Vaporize DMG increases by 15%.\\n\u00b7Hydro Swirl DMG increases by 15%.\\n\u00b7Frozen duration is extended by 15%.",
+			"name": "Prophecy of Submersion",
+			"desc": "When any of your own party members hits an opponent affected by an Omen, the effects of Hydro-related Elemental Reactions are enhanced for 8s:\n\u00b7Electro-Charged DMG increases by 15%.\n\u00b7Vaporize DMG increases by 15%.\n\u00b7Hydro Swirl DMG increases by 15%.\n\u00b7Frozen duration is extended by 15%.",
 			"icon": "UI_Talent_S_Mona_01"
 		},
 		{
 			"name_hash": 3030801713,
-			"name": "Lunar Chain",
 			"desc_hash": 2775748423,
-			"desc": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\\nThis effect can only occur once every 5s.",
+			"name": "Lunar Chain",
+			"desc": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\nThis effect can only occur once every 5s.",
 			"icon": "UI_Talent_S_Mona_02"
 		},
 		{
 			"name_hash": 3782923609,
-			"name": "Restless Revolution",
 			"desc_hash": 4292322247,
-			"desc": "Increases the Level of <color=#FFD780FF>Stellaris Phantasm</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Restless Revolution",
+			"desc": "Increases the Level of Stellaris Phantasm by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Mona_01"
 		},
 		{
 			"name_hash": 488631345,
-			"name": "Prophecy of Oblivion",
 			"desc_hash": 4223850175,
+			"name": "Prophecy of Oblivion",
 			"desc": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%.",
 			"icon": "UI_Talent_S_Mona_03"
 		},
 		{
 			"name_hash": 496658001,
-			"name": "Mockery of Fortuna",
 			"desc_hash": 167333135,
-			"desc": "Increases the Level of <color=#FFD780FF>Mirror Reflection of Doom</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Mockery of Fortuna",
+			"desc": "Increases the Level of Mirror Reflection of Doom by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Mona_02"
 		},
 		{
 			"name_hash": 300946497,
-			"name": "Rhetorics of Calamitas",
 			"desc_hash": 2932631807,
-			"desc": "Upon entering <color=#FFD780FF>Illusory Torrent</color>, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement.\\nA maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.",
+			"name": "Rhetorics of Calamitas",
+			"desc": "Upon entering Illusory Torrent, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement.\nA maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.",
 			"icon": "UI_Talent_S_Mona_04"
 		}
 	],
@@ -810,35 +812,33 @@
 			"hoyo_id": null,
 			"name_hash": 4029369362,
 			"desc_hash": 871545986,
-			"restricted": false,
 			"name": "Flowing Fate",
 			"desc": "Mona's outfit. A light astrologist's outfit that does away with superfluous fabric to provide top quality at an affordable price.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": [
-			{
+		"alt": {
+			"pact_of_stars_and_moon": {
 				"hoyo_id": 340008,
 				"name_hash": 1860400666,
 				"desc_hash": 2912743770,
-				"restricted": true,
 				"name": "Pact of Stars and Moon",
 				"desc": "Mona's outfit. A costume made specifically to encompass the astrological concept of \"the destined moment,\" thanks to the 30% discount ticket she got from the planetarium refund.",
-				"icon": "UI_AvatarIcon_MonaCostumeWic"
+				"icon": "UI_AvatarIcon_MonaCostumeWic",
+				"restricted": true
 			}
-		]
+		}
 	},
 	"special_dish": {
+		"original_recipe": "satisfying_salad",
 		"hoyo_id": 108114,
 		"name_hash": 1408147348,
 		"desc_hash": 3111728525,
 		"type_hash": 4117256230,
-		"rarity": 2,
 		"name": "Der Weisheit Letzter Schluss (Life)",
 		"desc": "Mona's specialty. A great work from a great astrologer. Its greatest aspect lies with its cost-effectiveness in filling one's stomach.",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 398061119,
-		"effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-		"original_recipe": "satisfying_salad"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 2
 	}
 }

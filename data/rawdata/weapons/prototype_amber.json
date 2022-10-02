@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1144060,
 				"desc_hash": 604175817,
-				"desc": "Using an Elemental Burst regenerates <color=#99FFFFFF>4</color> Energy every 2s for 6s. All party members will regenerate <color=#99FFFFFF>4%</color> HP every 2s for this duration.",
+				"desc": "Using an Elemental Burst regenerates 4 Energy every 2s for 6s. All party members will regenerate 4% HP every 2s for this duration.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1144061,
 				"desc_hash": 3989966961,
-				"desc": "Using an Elemental Burst regenerates <color=#99FFFFFF>4.5</color> Energy every 2s for 6s. All party members will regenerate <color=#99FFFFFF>4.5%</color> HP every 2s for this duration.",
+				"desc": "Using an Elemental Burst regenerates 4.5 Energy every 2s for 6s. All party members will regenerate 4.5% HP every 2s for this duration.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1144062,
 				"desc_hash": 13797873,
-				"desc": "Using an Elemental Burst regenerates <color=#99FFFFFF>5</color> Energy every 2s for 6s. All party members will regenerate <color=#99FFFFFF>5%</color> HP every 2s for this duration.",
+				"desc": "Using an Elemental Burst regenerates 5 Energy every 2s for 6s. All party members will regenerate 5% HP every 2s for this duration.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1144063,
 				"desc_hash": 1229589209,
-				"desc": "Using an Elemental Burst regenerates <color=#99FFFFFF>5.5</color> Energy every 2s for 6s. All party members will regenerate <color=#99FFFFFF>5.5%</color> HP every 2s for this duration.",
+				"desc": "Using an Elemental Burst regenerates 5.5 Energy every 2s for 6s. All party members will regenerate 5.5% HP every 2s for this duration.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1144064,
 				"desc_hash": 2589589977,
-				"desc": "Using an Elemental Burst regenerates <color=#99FFFFFF>6</color> Energy every 2s for 6s. All party members will regenerate <color=#99FFFFFF>6%</color> HP every 2s for this duration.",
+				"desc": "Using an Elemental Burst regenerates 6 Energy every 2s for 6s. All party members will regenerate 6% HP every 2s for this duration.",
 				"cost": 8000
 			}
 		]

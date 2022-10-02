@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1144070,
 				"desc_hash": 170742345,
-				"desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>8%</color> Elemental DMG Bonus for 10s. Max 2 stacks.",
+				"desc": "Triggering an Elemental reaction grants a 8% Elemental DMG Bonus for 10s. Max 2 stacks.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1144071,
 				"desc_hash": 7429425,
-				"desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>10%</color> Elemental DMG Bonus for 10s. Max 2 stacks.",
+				"desc": "Triggering an Elemental reaction grants a 10% Elemental DMG Bonus for 10s. Max 2 stacks.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1144072,
 				"desc_hash": 3809105025,
-				"desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>12%</color> Elemental DMG Bonus for 10s. Max 2 stacks.",
+				"desc": "Triggering an Elemental reaction grants a 12% Elemental DMG Bonus for 10s. Max 2 stacks.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1144073,
 				"desc_hash": 3091429793,
-				"desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>14%</color> Elemental DMG Bonus for 10s. Max 2 stacks.",
+				"desc": "Triggering an Elemental reaction grants a 14% Elemental DMG Bonus for 10s. Max 2 stacks.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1144074,
 				"desc_hash": 3645696297,
-				"desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>16%</color> Elemental DMG Bonus for 10s. Max 2 stacks.",
+				"desc": "Triggering an Elemental reaction grants a 16% Elemental DMG Bonus for 10s. Max 2 stacks.",
 				"cost": 8000
 			}
 		]

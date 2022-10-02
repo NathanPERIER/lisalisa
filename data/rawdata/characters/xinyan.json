@@ -30,6 +30,8 @@
 	"astrolabe": "Fila Ignium",
 	"allegiance": "\"The Red Strings\"",
 	"default_weapon": "waster_greatsword",
+	"increase_skill": 3,
+	"increase_burst": 5,
 	"base_stats": {
 		"Base HP": 939.1447143554688,
 		"Base ATK": 20.835359573364258,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 327566445,
 			"desc_hash": 1969995312,
-			"charge_num": 1,
-			"icon": "Skill_A_04",
 			"name": "Normal Attack: Dance on Fire",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, perform a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 4 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_04",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_gold": 3,
@@ -412,10 +414,10 @@
 		"elemental_skill": {
 			"name_hash": 980327173,
 			"desc_hash": 3704294280,
-			"charge_num": 1,
-			"icon": "Skill_S_Xinyan_01",
 			"name": "Sweeping Fervor",
-			"desc": "Xinyan brandishes her instrument, dealing <color=#FF9999FF>Pyro DMG</color> on nearby opponents, forming a shield made out of her audience's passion.\\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\\n\u00b7Hitting 0\u20131 opponents grants Shield Level 1: Ad Lib.\\n\u00b7Hitting 2 opponents grants Shield Level 2: Lead-In.\\n\u00b7Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent <color=#FF9999FF>Pyro DMG</color> to nearby opponents.\\n\\nThe shield has the following special properties:\\n\u00b7When unleashed, it infuses Xinyan with <color=#FF9999FF>Pyro</color>.\\n\u00b7It has 250% DMG Absorption effectiveness against <color=#FF9999FF>Pyro DMG</color>.\\n\\n<i>Xinyan insists that these pyrotechnics are the apex of performative art, and that they are physical phenomena that have nothing to do with her Vision.</i>",
+			"desc": "Xinyan brandishes her instrument, dealing Pyro DMG on nearby opponents, forming a shield made out of her audience's passion.\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\n\u00b7Hitting 0\u20131 opponents grants Shield Level 1: Ad Lib.\n\u00b7Hitting 2 opponents grants Shield Level 2: Lead-In.\n\u00b7Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent Pyro DMG to nearby opponents.\n\nThe shield has the following special properties:\n\u00b7When unleashed, it infuses Xinyan with Pyro.\n\u00b7It has 250% DMG Absorption effectiveness against Pyro DMG.\n\n<i>Xinyan insists that these pyrotechnics are the apex of performative art, and that they are physical phenomena that have nothing to do with her Vision.</i>",
+			"icon": "Skill_S_Xinyan_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_gold": 3,
@@ -620,10 +622,10 @@
 		"elemental_burst": {
 			"name_hash": 405900781,
 			"desc_hash": 1175339880,
-			"charge_num": 1,
-			"icon": "Skill_E_Xinyan_01",
 			"name": "Riff Revolution",
-			"desc": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd.\\nThe sheer intensity of the atmosphere will cause explosions that deal <color=#FF9999FF>Pyro DMG</color> to nearby opponents.\\n\\n<i>Xinyan used to end all her performances with this move. She didn't stop because it was dangerous, however, but because she didn't have a more epic finale in case someone shouted \"Encore!\"</i>",
+			"desc": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd.\nThe sheer intensity of the atmosphere will cause explosions that deal Pyro DMG to nearby opponents.\n\n<i>Xinyan used to end all her performances with this move. She didn't stop because it was dangerous, however, but because she didn't have a more epic finale in case someone shouted \"Encore!\"</i>",
+			"icon": "Skill_E_Xinyan_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_gold": 3,
@@ -799,68 +801,68 @@
 		{
 			"name_hash": 3137818373,
 			"desc_hash": 1844902995,
-			"icon": "UI_Talent_S_Xinyan_05",
-			"ascension": 1,
 			"name": "\"The Show Goes On, Even Without an Audience...\"",
-			"desc": "Decreases the number of opponents <color=#FFD780FF>Sweeping Fervor</color> must hit to trigger each level of shielding.\\n\u00b7Shield Level 2: Lead-In requirement reduced to 1 opponent hit.\\n\u00b7Shield Level 3: Rave requirement reduced to 2 opponents hit or more."
+			"desc": "Decreases the number of opponents Sweeping Fervor must hit to trigger each level of shielding.\n\u00b7Shield Level 2: Lead-In requirement reduced to 1 opponent hit.\n\u00b7Shield Level 3: Rave requirement reduced to 2 opponents hit or more.",
+			"icon": "UI_Talent_S_Xinyan_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 2516474765,
 			"desc_hash": 3964569155,
-			"icon": "UI_Talent_S_Xinyan_06",
-			"ascension": 4,
 			"name": "\"...Now That's Rock 'N' Roll!\"",
-			"desc": "Characters shielded by <color=#FFD780FF>Sweeping Fervor</color> deal 15% increased Physical DMG."
+			"desc": "Characters shielded by Sweeping Fervor deal 15% increased Physical DMG.",
+			"icon": "UI_Talent_S_Xinyan_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 2639347341,
 			"desc_hash": 1386621859,
-			"icon": "UI_Talent_Cook_Defense",
-			"ascension": null,
 			"name": "A Rad Recipe",
-			"desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product."
+			"desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product.",
+			"icon": "UI_Talent_Cook_Defense",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 3068951001,
-			"name": "Fatal Acceleration",
 			"desc_hash": 3151757471,
-			"desc": "Upon scoring a CRIT Hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s.\\nCan only occur once every 5s.",
+			"name": "Fatal Acceleration",
+			"desc": "Upon scoring a CRIT Hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s.\nCan only occur once every 5s.",
 			"icon": "UI_Talent_S_Xinyan_01"
 		},
 		{
 			"name_hash": 2247567929,
-			"name": "Impromptu Opening",
 			"desc_hash": 4058915415,
-			"desc": "<color=#FFD780FF>Riff Revolution</color>'s Physical DMG has its CRIT Rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast.",
+			"name": "Impromptu Opening",
+			"desc": "Riff Revolution's Physical DMG has its CRIT Rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast.",
 			"icon": "UI_Talent_S_Xinyan_02"
 		},
 		{
 			"name_hash": 3545262929,
-			"name": "Double-Stop",
 			"desc_hash": 4067254263,
-			"desc": "Increases the Level of <color=#FFD780FF>Sweeping Fervor</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Double-Stop",
+			"desc": "Increases the Level of Sweeping Fervor by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Xinyan_01"
 		},
 		{
 			"name_hash": 3472180281,
-			"name": "Wildfire Rhythm",
 			"desc_hash": 630340871,
-			"desc": "<color=#FFD780FF>Sweeping Fervor</color>'s swing DMG decreases opponent's Physical RES by 15% for 12s.",
+			"name": "Wildfire Rhythm",
+			"desc": "Sweeping Fervor's swing DMG decreases opponent's Physical RES by 15% for 12s.",
 			"icon": "UI_Talent_S_Xinyan_03"
 		},
 		{
 			"name_hash": 3343552585,
-			"name": "Screamin' for an Encore",
 			"desc_hash": 1190369383,
-			"desc": "Increases the Level of <color=#FFD780FF>Riff Revolution</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Screamin' for an Encore",
+			"desc": "Increases the Level of Riff Revolution by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Xinyan_02"
 		},
 		{
 			"name_hash": 2632855681,
-			"name": "Rockin' in a Flaming World",
 			"desc_hash": 1450102367,
+			"name": "Rockin' in a Flaming World",
 			"desc": "Decreases the Stamina Consumption of Xinyan's Charged Attacks by 30%. Additionally, Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF.",
 			"icon": "UI_Talent_S_Xinyan_04"
 		}
@@ -870,25 +872,23 @@
 			"hoyo_id": null,
 			"name_hash": 2768155290,
 			"desc_hash": 678376738,
-			"restricted": false,
 			"name": "Ardent Soul",
 			"desc": "Xinyan's outfit. A rocker's stage costume adorned with spikes.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "jueyun_chili_chicken",
 		"hoyo_id": 108174,
 		"name_hash": 2818743172,
 		"desc_hash": 3405202989,
 		"type_hash": 2268352326,
-		"rarity": 2,
 		"name": "Rockin' Riffin' Chicken!",
 		"desc": "Xinyan's specialty. Its demonic appearance hides an absolutely demonic spiciness. Eat it, tear up, eat some more, and don't stop till you drop! Surely only a demon could have invented such a dish!",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 537430127,
-		"effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-		"original_recipe": "jueyun_chili_chicken"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 2
 	}
 }

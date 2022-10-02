@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1134040,
 				"desc_hash": 1032102393,
-				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>12%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"desc": "After defeating an enemy, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1134041,
 				"desc_hash": 1818031017,
-				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>15%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"desc": "After defeating an enemy, ATK is increased by 15% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1134042,
 				"desc_hash": 2974192209,
-				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>18%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"desc": "After defeating an enemy, ATK is increased by 18% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1134043,
 				"desc_hash": 3037189817,
-				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>21%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"desc": "After defeating an enemy, ATK is increased by 21% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1134044,
 				"desc_hash": 3351061593,
-				"desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>24%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"desc": "After defeating an enemy, ATK is increased by 24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
 				"cost": 8000
 			}
 		]

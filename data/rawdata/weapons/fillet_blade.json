@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1113050,
 				"desc_hash": 3893281385,
-				"desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>240%</color> ATK DMG to a single opponent. Can only occur once every <color=#99FFFFFF>15</color>s.",
+				"desc": "On hit, has a 50% chance to deal 240% ATK DMG to a single opponent. Can only occur once every 15s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1113051,
 				"desc_hash": 4143726001,
-				"desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>280%</color> ATK DMG to a single opponent. Can only occur once every <color=#99FFFFFF>14</color>s.",
+				"desc": "On hit, has a 50% chance to deal 280% ATK DMG to a single opponent. Can only occur once every 14s.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1113052,
 				"desc_hash": 3297377633,
-				"desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>320%</color> ATK DMG to a single opponent. Can only occur once every <color=#99FFFFFF>13</color>s.",
+				"desc": "On hit, has a 50% chance to deal 320% ATK DMG to a single opponent. Can only occur once every 13s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1113053,
 				"desc_hash": 91557945,
-				"desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>360%</color> ATK DMG to a single opponent. Can only occur once every <color=#99FFFFFF>12</color>s.",
+				"desc": "On hit, has a 50% chance to deal 360% ATK DMG to a single opponent. Can only occur once every 12s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1113054,
 				"desc_hash": 3687483889,
-				"desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>400%</color> ATK DMG to a single target. Can only occur once every <color=#99FFFFFF>11</color>s.",
+				"desc": "On hit, has a 50% chance to deal 400% ATK DMG to a single target. Can only occur once every 11s.",
 				"cost": 4000
 			}
 		]

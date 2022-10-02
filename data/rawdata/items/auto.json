@@ -4,2709 +4,2980 @@
 		"name_hash": 1926602188,
 		"desc_hash": 1134995557,
 		"type_hash": 3514718310,
-		"rarity": 1,
 		"name": "Mushroom",
 		"desc": "Hardy common fungi. Can grow anywhere with the right amount of shade and moisture.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"fowl": {
 		"hoyo_id": 100064,
 		"name_hash": 1695194124,
 		"desc_hash": 3875520501,
 		"type_hash": 150577358,
-		"rarity": 1,
 		"name": "Fowl",
 		"desc": "A fresh chunk of fowl. Handled properly, it can make a hearty meal.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"bird_egg": {
 		"hoyo_id": 100062,
 		"name_hash": 2577348708,
 		"desc_hash": 783346733,
 		"type_hash": 3620323686,
-		"rarity": 1,
 		"name": "Bird Egg",
 		"desc": "An incredibly versatile ingredient that can supply all of your daily protein needs.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"raw_meat": {
 		"hoyo_id": 100061,
 		"name_hash": 2492759708,
 		"desc_hash": 40515925,
 		"type_hash": 3189682238,
-		"rarity": 1,
 		"name": "Raw Meat",
 		"desc": "A fresh chunk of meat. Handled properly, it can be used to make delicious food.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"radish": {
 		"hoyo_id": 100014,
 		"name_hash": 1137755308,
 		"desc_hash": 2503153389,
 		"type_hash": 66265350,
-		"rarity": 1,
 		"name": "Radish",
 		"desc": "Rich in fiber and nutrients. Easy to grow and harvest.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"mint": {
 		"hoyo_id": 100016,
 		"name_hash": 4131305812,
 		"desc_hash": 3563342061,
 		"type_hash": 2358947190,
-		"rarity": 1,
 		"name": "Mint",
 		"desc": "A refreshingly cool ingredient. The cool, fresh flavor can cut through the heat of many dishes.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"fish": {
 		"hoyo_id": 100084,
 		"name_hash": 3499209748,
 		"desc_hash": 524650565,
 		"type_hash": 594738006,
-		"rarity": 1,
 		"name": "Fish",
 		"desc": "A fresh fillet of fish. Handled properly, it can make a rich dish.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"pepper": {
 		"hoyo_id": 100077,
 		"name_hash": 3351014060,
 		"desc_hash": 1923467445,
 		"type_hash": 4102299870,
-		"rarity": 1,
 		"name": "Pepper",
 		"desc": "Peppery. Cuts through oily flavors and excites the taste buds. Goes best on meat.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"sugar": {
 		"hoyo_id": 110006,
 		"name_hash": 1817657660,
 		"desc_hash": 3323487645,
 		"type_hash": 2817716630,
-		"rarity": 1,
 		"name": "Sugar",
 		"desc": "A seasoning derived from Sweet Flowers. Has the power to give both energy and happiness.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"flour": {
 		"hoyo_id": 110001,
 		"name_hash": 3380008460,
 		"desc_hash": 1120583693,
 		"type_hash": 3471122254,
-		"rarity": 1,
 		"name": "Flour",
 		"desc": "A powder ground from wheat. No matter what it goes into, it brings a sense of satisfaction to the diner.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"jueyun_chili": {
 		"hoyo_id": 100027,
 		"name_hash": 22100332,
 		"desc_hash": 856101533,
 		"type_hash": 1092799006,
-		"rarity": 1,
 		"name": "Jueyun Chili",
 		"desc": "A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
-		"type": "Local Specialty (Liyue)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Liyue)",
+		"rarity": 1
 	},
 	"rice": {
 		"hoyo_id": 100092,
 		"name_hash": 2438242684,
 		"desc_hash": 2046110901,
 		"type_hash": 1465470046,
-		"rarity": 1,
 		"name": "Rice",
 		"desc": "A grain crop commonly found in Teyvat. People of all walks of life enjoy its distinct grainy texture. As the saying goes, \"The same kind of rice can feed one hundred kinds of people.\"",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"horsetail": {
 		"hoyo_id": 100032,
 		"name_hash": 1247603844,
 		"desc_hash": 1612918325,
 		"type_hash": 1821026414,
-		"rarity": 1,
 		"name": "Horsetail",
 		"desc": "A purple plant that sometimes grows amidst Silvergrass but grows taller, straighter, and plumper \u2014 like an aristocrat among the paupers.",
-		"type": "Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Material",
+		"rarity": 1
 	},
 	"salt": {
 		"hoyo_id": 100075,
 		"name_hash": 3037179164,
 		"desc_hash": 4128982069,
 		"type_hash": 3226411374,
-		"rarity": 1,
 		"name": "Salt",
 		"desc": "A savory seasoning. A precise but adequate amount will elevate the quality of the cuisine.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"tofu": {
 		"hoyo_id": 100088,
 		"name_hash": 1706446876,
 		"desc_hash": 3340156293,
 		"type_hash": 595597758,
-		"rarity": 1,
 		"name": "Tofu",
 		"desc": "Freshly made bean product that has a silky-smooth tender texture.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"seagrass": {
 		"hoyo_id": 101210,
 		"name_hash": 2121075332,
 		"desc_hash": 800180909,
 		"type_hash": 1326847270,
-		"rarity": 1,
 		"name": "Seagrass",
 		"desc": "A plant that grows in shallow seas. It adds a unique flavor to dishes.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"shrimp_meat": {
 		"hoyo_id": 100093,
 		"name_hash": 4220739124,
 		"desc_hash": 2802987869,
 		"type_hash": 3856889206,
-		"rarity": 1,
 		"name": "Shrimp Meat",
 		"desc": "A whole piece of deep sea shrimp meat, full of nutrients and bursting with delicious flavor.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"tomato": {
 		"hoyo_id": 100079,
 		"name_hash": 4252939948,
 		"desc_hash": 2403611973,
 		"type_hash": 1764311382,
-		"rarity": 1,
 		"name": "Tomato",
 		"desc": "A bright red ingredient that gives a tangy kick. Yes, the \"fruit or vegetable\" debate is still going...",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"sweet_flower": {
 		"hoyo_id": 100012,
 		"name_hash": 1330975644,
 		"desc_hash": 701554261,
 		"type_hash": 464322374,
-		"rarity": 1,
 		"name": "Sweet Flower",
 		"desc": "Particularly fragrant flowers. They can be found easily, even in the dark. Just follow the scent.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"smoked_fowl": {
 		"hoyo_id": 110003,
 		"name_hash": 654190956,
 		"desc_hash": 1917354709,
 		"type_hash": 3755391190,
-		"rarity": 1,
 		"name": "Smoked Fowl",
 		"desc": "Fowl that has been smoked. The firmness of the meat gives new texture to dishes.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"onion": {
 		"hoyo_id": 100076,
 		"name_hash": 948558004,
 		"desc_hash": 2896149013,
 		"type_hash": 2246375150,
-		"rarity": 1,
 		"name": "Onion",
 		"desc": "A spherical vegetable. As vengeance for cutting it, it will make you cry, no matter how brave you are.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"cabbage": {
 		"hoyo_id": 100018,
 		"name_hash": 323457700,
 		"desc_hash": 823037141,
 		"type_hash": 7975518,
-		"rarity": 1,
 		"name": "Cabbage",
 		"desc": "A layered, leafy vegetable. Said to have originally been an ornamental plant, it certainly looks great in the pot.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"cream": {
 		"hoyo_id": 110002,
 		"name_hash": 3811122324,
 		"desc_hash": 2954105101,
 		"type_hash": 3899221806,
-		"rarity": 1,
 		"name": "Cream",
 		"desc": "A dairy product made from milk. An essential ingredient in making pastries.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"snapdragon": {
 		"hoyo_id": 100015,
 		"name_hash": 3558598460,
 		"desc_hash": 431838381,
 		"type_hash": 1932673998,
-		"rarity": 1,
 		"name": "Snapdragon",
 		"desc": "Can be eaten once cooked. As a spice, it can bring wonderful flavor to dishes.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"berry": {
 		"hoyo_id": 100051,
 		"name_hash": 1864853084,
 		"desc_hash": 3067534349,
 		"type_hash": 2237712790,
-		"rarity": 1,
 		"name": "Berry",
 		"desc": "Small, brightly-colored fruit. They can be found everywhere, and the taste of them wipes the fatigue of a long journey away.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"apple": {
 		"hoyo_id": 100001,
 		"name_hash": 2483588484,
 		"desc_hash": 3827952949,
 		"type_hash": 2957597022,
-		"rarity": 1,
 		"name": "Apple",
 		"desc": "Crisp and fragrant. Delicious raw or made into wine.",
-		"type": "Food"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 1
 	},
 	"potato": {
 		"hoyo_id": 100080,
 		"name_hash": 3300922500,
 		"desc_hash": 88512741,
 		"type_hash": 4176444654,
-		"rarity": 1,
 		"name": "Potato",
 		"desc": "A chunky vegetable. A gift from the earth that you never tire of with its multitude of cooking methods.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"milk": {
 		"hoyo_id": 100078,
 		"name_hash": 1939386644,
 		"desc_hash": 2063728813,
 		"type_hash": 389990798,
-		"rarity": 1,
 		"name": "Milk",
 		"desc": "Sweet and fragrant cow's milk. Don't waste a single drop, not even that one rolling down your chin.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"chilled_meat": {
 		"hoyo_id": 100094,
 		"name_hash": 2121103228,
 		"desc_hash": 2138909037,
 		"type_hash": 2833923862,
-		"rarity": 1,
 		"name": "Chilled Meat",
-		"desc": "Rare, fresh meat.\\nThis species of boar is recorded to have gone extinct several hundred years ago and has been preserved by the extreme temperatures on Dragonspine. For the gourmets of Teyvat, this is an ingredient of unspeakable sacrosanctness.",
-		"type": "Cooking Ingredient"
+		"desc": "Rare, fresh meat.\nThis species of boar is recorded to have gone extinct several hundred years ago and has been preserved by the extreme temperatures on Dragonspine. For the gourmets of Teyvat, this is an ingredient of unspeakable sacrosanctness.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"carrot": {
 		"hoyo_id": 100013,
 		"name_hash": 3407195260,
 		"desc_hash": 1593711925,
 		"type_hash": 1214390126,
-		"rarity": 1,
 		"name": "Carrot",
 		"desc": "A healthy and nutritious vegetable that is crunchy and sweet to the taste. Easy to grow and harvest.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"almond": {
 		"hoyo_id": 100089,
 		"name_hash": 1190894100,
 		"desc_hash": 2003172525,
 		"type_hash": 1258468198,
-		"rarity": 1,
 		"name": "Almond",
 		"desc": "A seed with a peculiar fragrance that gives food a refreshing taste.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"lotus_head": {
 		"hoyo_id": 100026,
 		"name_hash": 1050026836,
 		"desc_hash": 1746504493,
 		"type_hash": 2547270558,
-		"rarity": 1,
 		"name": "Lotus Head",
 		"desc": "An aquatic plant native to Liyue that grows and blooms in pairs. One is fragrant, and the other bitter. It's said to make a good herbal medicine.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"matsutake": {
 		"hoyo_id": 100063,
 		"name_hash": 1962114748,
 		"desc_hash": 525072093,
 		"type_hash": 1816228262,
-		"rarity": 1,
 		"name": "Matsutake",
 		"desc": "A rare fungus that generally grows on or near pine trees. Its delicate aroma gives away its location.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"violetgrass": {
 		"hoyo_id": 100034,
 		"name_hash": 2214426996,
 		"desc_hash": 460335149,
 		"type_hash": 1587507774,
-		"rarity": 1,
 		"name": "Violetgrass",
 		"desc": "A small flower with strong vitality. It is said that its downward-blooming flower keeps its fragrance from dissipating.",
-		"type": "Local Specialty (Liyue)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Liyue)",
+		"rarity": 1
 	},
 	"crab_roe": {
 		"hoyo_id": 100074,
 		"name_hash": 95467756,
 		"desc_hash": 3348269677,
 		"type_hash": 859844366,
-		"rarity": 1,
 		"name": "Crab Roe",
 		"desc": "A delicacy specific to female crabs. A rare and prized ingredient that isn't quite to everyone's taste.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"crab": {
 		"hoyo_id": 100073,
 		"name_hash": 2522076596,
 		"desc_hash": 118535661,
 		"type_hash": 1434515518,
-		"rarity": 1,
 		"name": "Crab",
 		"desc": "A shelled creature that lives near the ocean. Its flaky, delicious meat can easily be made into tasty dishes.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"unagi_meat": {
 		"hoyo_id": 100095,
 		"name_hash": 4293169236,
 		"desc_hash": 3215608101,
 		"type_hash": 605084526,
-		"rarity": 1,
 		"name": "Unagi Meat",
 		"desc": "The fresh meat of an Unagi. If handled properly, it can be used to make fresh, lovely food.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"bamboo_shoot": {
 		"hoyo_id": 100091,
 		"name_hash": 4238416012,
 		"desc_hash": 3902769349,
 		"type_hash": 2095709654,
-		"rarity": 1,
 		"name": "Bamboo Shoot",
 		"desc": "A fresh young bamboo shoot, straight out of the ground. It is a delicious cooking ingredient with an exotic aroma, found exclusively in bamboo-growing regions.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"calla_lily": {
 		"hoyo_id": 100056,
 		"name_hash": 4260602868,
 		"desc_hash": 4226812373,
 		"type_hash": 427754318,
-		"rarity": 1,
 		"name": "Calla Lily",
 		"desc": "A flower that grows near water sources. When cooked, the petals have a chunky texture, yet are sweet and a little bitter.",
-		"type": "Local Specialty (Mondstadt)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Mondstadt)",
+		"rarity": 1
 	},
 	"pinecone": {
 		"hoyo_id": 100020,
 		"name_hash": 4200020940,
 		"desc_hash": 1953989229,
 		"type_hash": 496341782,
-		"rarity": 1,
 		"name": "Pinecone",
 		"desc": "Filled with oil-rich seeds. Certainly won't be growing into a tree from inside a squirrel's stomach.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"butter": {
 		"hoyo_id": 110004,
 		"name_hash": 3297355148,
 		"desc_hash": 2461186013,
 		"type_hash": 1521932734,
-		"rarity": 1,
 		"name": "Butter",
 		"desc": "An extract from milk. With the appropriate application, it can bring rich aromas to even the most basic ingredients.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"ham": {
 		"hoyo_id": 110005,
 		"name_hash": 111726292,
 		"desc_hash": 149445085,
 		"type_hash": 2901969398,
-		"rarity": 1,
 		"name": "Ham",
 		"desc": "Smoked leg meat. Even the thinnest slice is packed full of flavor.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"bacon": {
 		"hoyo_id": 110010,
 		"name_hash": 1640991572,
 		"desc_hash": 858334493,
 		"type_hash": 545425046,
-		"rarity": 1,
 		"name": "Bacon",
 		"desc": "Smoked strips of pork. Crispy with a bit of fat, but not too greasy. Mmmmm... bacon.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"sausage": {
 		"hoyo_id": 110011,
 		"name_hash": 2431105076,
 		"desc_hash": 2343487077,
 		"type_hash": 3090062166,
-		"rarity": 1,
 		"name": "Sausage",
 		"desc": "Finely minced meat wrapped in a skin. A staple of every meat lover's daily diet.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"cheese": {
 		"hoyo_id": 110009,
 		"name_hash": 276446060,
 		"desc_hash": 921669421,
 		"type_hash": 709437606,
-		"rarity": 1,
 		"name": "Cheese",
 		"desc": "Made from fermented milk. High in energy, it's used in a wide range of dishes.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"jam": {
 		"hoyo_id": 110008,
 		"name_hash": 2985549868,
 		"desc_hash": 1224298989,
 		"type_hash": 3494281958,
-		"rarity": 1,
 		"name": "Jam",
 		"desc": "A gelatinous substance made from fruit and sugar. Even a little bit can easily wake up tired taste buds.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"small_lamp_grass": {
 		"hoyo_id": 100055,
 		"name_hash": 144892988,
 		"desc_hash": 2665831589,
 		"type_hash": 1785669262,
-		"rarity": 1,
 		"name": "Small Lamp Grass",
 		"desc": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
-		"type": "Local Specialty (Mondstadt)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Mondstadt)",
+		"rarity": 1
 	},
 	"sakura_bloom": {
 		"hoyo_id": 101202,
 		"name_hash": 3896942756,
 		"desc_hash": 4120120765,
 		"type_hash": 2193138478,
-		"rarity": 1,
 		"name": "Sakura Bloom",
 		"desc": "Blossoms from the Sacred Sakura at the Grand Narukami Shrine, filled with a fondness for Inazuma.",
-		"type": "Local Specialty (Inazuma)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Inazuma)",
+		"rarity": 1
 	},
 	"lavender_melon": {
 		"hoyo_id": 101211,
 		"name_hash": 4160392220,
 		"desc_hash": 90772949,
 		"type_hash": 3132400614,
-		"rarity": 1,
 		"name": "Lavender Melon",
 		"desc": "A brightly-colored fruit. The flesh within transforms into food with a unique mouthfeel when cooked.",
-		"type": "Cooking Ingredient"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Cooking Ingredient",
+		"rarity": 1
 	},
 	"sunsettia": {
 		"hoyo_id": 100002,
 		"name_hash": 4094258556,
 		"desc_hash": 1531906317,
 		"type_hash": 115528718,
-		"rarity": 1,
 		"name": "Sunsettia",
 		"desc": "A plump fruit, beautiful like the sunset, that is abundant across all of Teyvat. It has a curious, sweet aroma and is able to energize an individual.",
-		"type": "Food"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 1
 	},
 	"qingxin": {
 		"hoyo_id": 100031,
 		"name_hash": 1573292868,
 		"desc_hash": 2358110701,
 		"type_hash": 3956372614,
-		"rarity": 1,
 		"name": "Qingxin",
 		"desc": "A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
-		"type": "Local Specialty (Liyue)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Liyue)",
+		"rarity": 1
 	},
 	"anemoculus": {
 		"hoyo_id": 107001,
 		"name_hash": 4071443412,
 		"desc_hash": 4079477317,
 		"type_hash": 2361679966,
-		"rarity": 1,
 		"name": "Anemoculus",
 		"desc": "A substance that has accumulated intense Anemo energy. Offer it to the Statue and help reinstate the power it has lost over the years.",
-		"type": "Adventure Item"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Adventure Item",
+		"rarity": 1
 	},
 	"geoculus": {
 		"hoyo_id": 107003,
 		"name_hash": 3020361284,
 		"desc_hash": 693877725,
 		"type_hash": 1004484630,
-		"rarity": 1,
 		"name": "Geoculus",
 		"desc": "A substance that has accumulated intense Geo energy. Offer it to the Statue and help reinstate the power it has lost over the years.",
-		"type": "Adventure Item"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Adventure Item",
+		"rarity": 1
 	},
 	"electroculus": {
 		"hoyo_id": 107014,
 		"name_hash": 2425465436,
 		"desc_hash": 599020085,
 		"type_hash": 3553447150,
-		"rarity": 1,
 		"name": "Electroculus",
 		"desc": "A substance that has accumulated intense Electro energy. Offer it to the Statue and help reinstate the power it has lost over the years.",
-		"type": "Adventure Item"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Adventure Item",
+		"rarity": 1
 	},
 	"adventure_exp": {
 		"hoyo_id": 102,
 		"name_hash": 2333094364,
 		"desc_hash": 1582925893,
 		"type_hash": 1309734446,
-		"rarity": 3,
 		"name": "Adventure EXP",
 		"desc": "Adventure EXP. Used to improve Adventure Rank.",
-		"type": "System Access"
+		"type": "ITEM_VIRTUAL",
+		"type_desc": "System Access",
+		"rarity": 3
 	},
 	"mora": {
 		"hoyo_id": 202,
 		"name_hash": 3578052980,
 		"desc_hash": 495212501,
 		"type_hash": 2023354414,
-		"rarity": 3,
 		"name": "Mora",
 		"desc": "Common currency. The one language everybody speaks.",
-		"type": "Common Currency"
+		"type": "ITEM_VIRTUAL",
+		"type_desc": "Common Currency",
+		"rarity": 3
 	},
 	"companionship_exp": {
 		"hoyo_id": 105,
 		"name_hash": 2204604492,
 		"desc_hash": 4131349029,
 		"type_hash": 3095678286,
-		"rarity": 3,
 		"name": "Companionship EXP",
 		"desc": "Companionship EXP. Used to increase Friendship levels.",
-		"type": "Increases Friendship"
+		"type": "ITEM_VIRTUAL",
+		"type_desc": "Increases Friendship",
+		"rarity": 3
 	},
 	"teachings_of_prosperity": {
 		"hoyo_id": 104310,
 		"name_hash": 2565711028,
 		"desc_hash": 886229765,
 		"type_hash": 2290429086,
-		"rarity": 2,
 		"name": "Teachings of Prosperity",
-		"desc": "Talent Level-Up material.\\nProsperity is the people's pursuit in the land of Geo.\\nProsperity is the blessing of Liyue, it is the foundation of the great city built by the gods and the people of Liyue, and it is the source of the peace and safety of the land.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nProsperity is the people's pursuit in the land of Geo.\nProsperity is the blessing of Liyue, it is the foundation of the great city built by the gods and the people of Liyue, and it is the source of the peace and safety of the land.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 2
 	},
 	"teachings_of_diligence": {
 		"hoyo_id": 104313,
 		"name_hash": 206988300,
 		"desc_hash": 630050677,
 		"type_hash": 1904034158,
-		"rarity": 2,
 		"name": "Teachings of Diligence",
-		"desc": "Talent Level-Up material.\\nIndustriousness is the foundation of the land of Geo.\\nDiligence is having the bravery and the strength to conquer mountains and seas and to pursue gold and prosperity through honest, hard work.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nIndustriousness is the foundation of the land of Geo.\nDiligence is having the bravery and the strength to conquer mountains and seas and to pursue gold and prosperity through honest, hard work.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 2
 	},
 	"teachings_of_gold": {
 		"hoyo_id": 104316,
 		"name_hash": 3835242828,
 		"desc_hash": 841657757,
 		"type_hash": 2821611974,
-		"rarity": 2,
 		"name": "Teachings of Gold",
-		"desc": "Talent Level-Up material.\\nGold is the symbol of the land of Geo.\\nGold is the blood that flows deep within Liyue's veins, the muscle that makes up Liyue's beating heart, and the bones that make Liyue stand proud.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nGold is the symbol of the land of Geo.\nGold is the blood that flows deep within Liyue's veins, the muscle that makes up Liyue's beating heart, and the bones that make Liyue stand proud.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 2
 	},
 	"guide_to_prosperity": {
 		"hoyo_id": 104311,
 		"name_hash": 3275055188,
 		"desc_hash": 1512602237,
 		"type_hash": 3256728614,
-		"rarity": 3,
 		"name": "Guide to Prosperity",
-		"desc": "Talent Level-Up material.\\nProsperity is the people's pursuit in the land of Geo.\\nProsperity is the promise made by Liyue to its children: To repay the hard-working laborers with enough gold to brighten up this land.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nProsperity is the people's pursuit in the land of Geo.\nProsperity is the promise made by Liyue to its children: To repay the hard-working laborers with enough gold to brighten up this land.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 3
 	},
 	"philosophies_of_prosperity": {
 		"hoyo_id": 104312,
 		"name_hash": 1927399596,
 		"desc_hash": 113135021,
 		"type_hash": 1964196262,
-		"rarity": 4,
 		"name": "Philosophies of Prosperity",
-		"desc": "Talent Level-Up material.\\nProsperity is the people's pursuit in the land of Geo.\\nProsperity is Liyue's past, present, and future. This prosperity is unmatched and unobtainable by any other nations \u2014 it all belongs to Liyue and its inhabitants.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nProsperity is the people's pursuit in the land of Geo.\nProsperity is Liyue's past, present, and future. This prosperity is unmatched and unobtainable by any other nations \u2014 it all belongs to Liyue and its inhabitants.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 4
 	},
 	"guide_to_diligence": {
 		"hoyo_id": 104314,
 		"name_hash": 2071392676,
 		"desc_hash": 447772141,
 		"type_hash": 3094371102,
-		"rarity": 3,
 		"name": "Guide to Diligence",
-		"desc": "Talent Level-Up material.\\nIndustriousness is the foundation of the land of Geo.\\nIndustriousness is the catalyst that flows in the blood of the people of Liyue, able to turn rocks into gold. It is what lies behind the greatness of its great commercial port.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nIndustriousness is the foundation of the land of Geo.\nIndustriousness is the catalyst that flows in the blood of the people of Liyue, able to turn rocks into gold. It is what lies behind the greatness of its great commercial port.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 3
 	},
 	"guide_to_gold": {
 		"hoyo_id": 104317,
 		"name_hash": 266512684,
 		"desc_hash": 444799093,
 		"type_hash": 3063840462,
-		"rarity": 3,
 		"name": "Guide to Gold",
-		"desc": "Talent Level-Up material.\\nGold is the symbol of the land of Geo.\\nGold symbolizes conversion. This is the unspoken understanding between Liyue's mountains, land, city, and people. In Liyue, industriousness is converted into gold, and gold into prosperity.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nGold is the symbol of the land of Geo.\nGold symbolizes conversion. This is the unspoken understanding between Liyue's mountains, land, city, and people. In Liyue, industriousness is converted into gold, and gold into prosperity.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 3
 	},
 	"philosophies_of_diligence": {
 		"hoyo_id": 104315,
 		"name_hash": 620969700,
 		"desc_hash": 3276848453,
 		"type_hash": 1414882550,
-		"rarity": 4,
 		"name": "Philosophies of Diligence",
-		"desc": "Talent Level-Up material.\\nIndustriousness is the foundation of the land of Geo.\\nIndustriousness is believing in one's own ability to earn a place in the land of the gods through sweat, wisdom, and power.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nIndustriousness is the foundation of the land of Geo.\nIndustriousness is believing in one's own ability to earn a place in the land of the gods through sweat, wisdom, and power.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 4
 	},
 	"philosophies_of_gold": {
 		"hoyo_id": 104318,
 		"name_hash": 2661153132,
 		"desc_hash": 1596489717,
 		"type_hash": 2285989414,
-		"rarity": 4,
 		"name": "Philosophies of Gold",
-		"desc": "Talent Level-Up material.\\nGold is the symbol of the land of Geo.\\nGold is the wealth of Liyue, but Liyue's true wealth is the hearts of its people that shine like gold.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nGold is the symbol of the land of Geo.\nGold is the wealth of Liyue, but Liyue's true wealth is the hearts of its people that shine like gold.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 4
 	},
 	"luminous_sands_from_guyun": {
 		"hoyo_id": 114013,
 		"name_hash": 2979991860,
 		"desc_hash": 4175234213,
 		"type_hash": 2878794454,
-		"rarity": 2,
 		"name": "Luminous Sands from Guyun",
-		"desc": "Weapon Ascension Material.\\nThe stone pillars that tower amid Guyun Stone Forest were once the stone spears Morax used to defeat his enemies. Over time, the gods' substance has seeped into the pillars that pin them down, lending them divine power. The pillars sometimes shed fragments of hatred and curses.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nThe stone pillars that tower amid Guyun Stone Forest were once the stone spears Morax used to defeat his enemies. Over time, the gods' substance has seeped into the pillars that pin them down, lending them divine power. The pillars sometimes shed fragments of hatred and curses.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 2
 	},
 	"mist_veiled_lead_elixir": {
 		"hoyo_id": 114017,
 		"name_hash": 3020828124,
 		"desc_hash": 2545948589,
 		"type_hash": 1934710422,
-		"rarity": 2,
 		"name": "Mist Veiled Lead Elixir",
-		"desc": "Weapon Ascension Material.\\nJueyun Karst is the realm of the mighty and illuminated adepti. But other than the ability to control the elements of the world, Jueyun Karst is also home to three other untold secrets: Alchemy, Sigils, and Sub-Space Creation.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nJueyun Karst is the realm of the mighty and illuminated adepti. But other than the ability to control the elements of the world, Jueyun Karst is also home to three other untold secrets: Alchemy, Sigils, and Sub-Space Creation.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 2
 	},
 	"grain_of_aerosiderite": {
 		"hoyo_id": 114021,
 		"name_hash": 387168756,
 		"desc_hash": 4281002117,
 		"type_hash": 3261483774,
-		"rarity": 2,
 		"name": "Grain of Aerosiderite",
-		"desc": "Weapon Ascension Material.\\nA black meteor once fell beyond Liyue's Sea of Clouds, said to have fallen to vanquish a monster. However, it was stained by powerful tainted blood, so this item no longer possesses the pure power of Rex Lapis.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nA black meteor once fell beyond Liyue's Sea of Clouds, said to have fallen to vanquish a monster. However, it was stained by powerful tainted blood, so this item no longer possesses the pure power of Rex Lapis.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 2
 	},
 	"lustrous_stone_from_guyun": {
 		"hoyo_id": 114014,
 		"name_hash": 3800788188,
 		"desc_hash": 96181949,
 		"type_hash": 3117090686,
-		"rarity": 3,
 		"name": "Lustrous Stone from Guyun",
-		"desc": "Weapon Ascension Material.\\nThe learned know that Guyun Stone Forest is far more than simply a miraculous sight on the sea to behold: It is the cemetery of the former gods of Liyue. Hatred and filth have periodically risen up from it, but all have been subdued by a demon-conquering young man.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nThe learned know that Guyun Stone Forest is far more than simply a miraculous sight on the sea to behold: It is the cemetery of the former gods of Liyue. Hatred and filth have periodically risen up from it, but all have been subdued by a demon-conquering young man.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 3
 	},
 	"relic_from_guyun": {
 		"hoyo_id": 114015,
 		"name_hash": 2356214676,
 		"desc_hash": 2218728245,
 		"type_hash": 3590845542,
-		"rarity": 4,
 		"name": "Relic from Guyun",
-		"desc": "Weapon Ascension Material.\\nThe stone spear has a glimmering core formed by the power of the defeated gods. Their hatred is not directed at Morax, however, for they have lost themselves a long time ago and are incapable of holding personal grudges.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nThe stone spear has a glimmering core formed by the power of the defeated gods. Their hatred is not directed at Morax, however, for they have lost themselves a long time ago and are incapable of holding personal grudges.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 4
 	},
 	"divine_body_from_guyun": {
 		"hoyo_id": 114016,
 		"name_hash": 1100805700,
 		"desc_hash": 2782340861,
 		"type_hash": 1213937822,
-		"rarity": 5,
 		"name": "Divine Body from Guyun",
-		"desc": "Weapon Ascension Material.\\nThat which lurks within and animates this relic are the divine remains of lamenting gods. They are unrealized ideals, designs for a prosperous humanity that could never be. They may now lie deep within stone and sea, but they will not go quietly into the night.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nThat which lurks within and animates this relic are the divine remains of lamenting gods. They are unrealized ideals, designs for a prosperous humanity that could never be. They may now lie deep within stone and sea, but they will not go quietly into the night.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 5
 	},
 	"mist_veiled_mercury_elixir": {
 		"hoyo_id": 114018,
 		"name_hash": 3484430476,
 		"desc_hash": 2139059173,
 		"type_hash": 3782622422,
-		"rarity": 3,
 		"name": "Mist Veiled Mercury Elixir",
-		"desc": "Weapon Ascension Material.\\nWith Fulu (Sigils), the adepti can store their power in the form of symbols, and with Waijing (Sub-Space Creation) they can fashion a cosmic paradise with the power of their minds. The manufacture of elixirs, however, has always been shrouded in mystery, for certain death follows for any who swallow them.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nWith Fulu (Sigils), the adepti can store their power in the form of symbols, and with Waijing (Sub-Space Creation) they can fashion a cosmic paradise with the power of their minds. The manufacture of elixirs, however, has always been shrouded in mystery, for certain death follows for any who swallow them.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 3
 	},
 	"piece_of_aerosiderite": {
 		"hoyo_id": 114022,
 		"name_hash": 1391788468,
 		"desc_hash": 2710913565,
 		"type_hash": 2644232166,
-		"rarity": 3,
 		"name": "Piece of Aerosiderite",
-		"desc": "Weapon Ascension Material.\\nRumors of sea monsters are commonplace in Liyue, since the other shore is an unknown region that lies outside of Teyvat. Without the protection of The Seven, all that lies beyond is unknown chaos. Only power beyond the order of Teyvat is able to stain the power of Rex Lapis black.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nRumors of sea monsters are commonplace in Liyue, since the other shore is an unknown region that lies outside of Teyvat. Without the protection of The Seven, all that lies beyond is unknown chaos. Only power beyond the order of Teyvat is able to stain the power of Rex Lapis black.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 3
 	},
 	"mist_veiled_gold_elixir": {
 		"hoyo_id": 114019,
 		"name_hash": 2143222900,
 		"desc_hash": 2886460637,
 		"type_hash": 797095022,
-		"rarity": 4,
 		"name": "Mist Veiled Gold Elixir",
-		"desc": "Weapon Ascension Material.\\nElixirs are in fact pills made from metal alloys. They were created by the adepti, and are able to grant weapons transcendent powers. However, they are rarely seen in the world due to the hubris of the practitioners of martial arts, who prized the ways of combat over the paths of the adepti.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nElixirs are in fact pills made from metal alloys. They were created by the adepti, and are able to grant weapons transcendent powers. However, they are rarely seen in the world due to the hubris of the practitioners of martial arts, who prized the ways of combat over the paths of the adepti.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 4
 	},
 	"mist_veiled_primo_elixir": {
 		"hoyo_id": 114020,
 		"name_hash": 1879353236,
 		"desc_hash": 811033549,
 		"type_hash": 4153299262,
-		"rarity": 5,
 		"name": "Mist Veiled Primo Elixir",
-		"desc": "Weapon Ascension Material.\\nAn elixir of the highest quality. It embodies a state of intertwining order and chaos, and is said to mirror how the world was when it was first created. Of course, a certain someone knows that this was not the case.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nAn elixir of the highest quality. It embodies a state of intertwining order and chaos, and is said to mirror how the world was when it was first created. Of course, a certain someone knows that this was not the case.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 5
 	},
 	"bit_of_aerosiderite": {
 		"hoyo_id": 114023,
 		"name_hash": 145783836,
 		"desc_hash": 1020882181,
 		"type_hash": 1929585718,
-		"rarity": 4,
 		"name": "Bit of Aerosiderite",
-		"desc": "Weapon Ascension Material.\\nThe coastal nations of Teyvat refer to the region beyond the protection of The Seven as the Dark Sea. It is said that many defeated gods refused to live under the new order of The Seven, so they fled to remote islands and became evil gods. However, their powers came from the same source as Rex Lapis, separate from this all-devouring darkness.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nThe coastal nations of Teyvat refer to the region beyond the protection of The Seven as the Dark Sea. It is said that many defeated gods refused to live under the new order of The Seven, so they fled to remote islands and became evil gods. However, their powers came from the same source as Rex Lapis, separate from this all-devouring darkness.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 4
 	},
 	"chunk_of_aerosiderite": {
 		"hoyo_id": 114024,
 		"name_hash": 2698984332,
 		"desc_hash": 3485560845,
 		"type_hash": 2389407502,
-		"rarity": 5,
 		"name": "Chunk of Aerosiderite",
-		"desc": "Weapon Ascension Material.\\nWhen Khaenri'ah was destroyed, a great sinner created endless monsters with dark, alien blood flowing through their veins. They rampaged across the land, destroying all in their paths. They were mutated lifeforms, and the mutations were caused by powers from beyond this world. The black serpentine dragon Durin that attacked Mondstadt was one such mutated being.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nWhen Khaenri'ah was destroyed, a great sinner created endless monsters with dark, alien blood flowing through their veins. They rampaged across the land, destroying all in their paths. They were mutated lifeforms, and the mutations were caused by powers from beyond this world. The black serpentine dragon Durin that attacked Mondstadt was one such mutated being.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 5
 	},
 	"teachings_of_freedom": {
 		"hoyo_id": 104301,
 		"name_hash": 2262214436,
 		"desc_hash": 3569647205,
 		"type_hash": 3922692534,
-		"rarity": 2,
 		"name": "Teachings of Freedom",
-		"desc": "Talent Level-Up material.\\nFreedom is the spirit of the land of the wind.\\nThe freedom to live is one of such. It is the freedom to live freely and healthily without concerns of one's own safety.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nFreedom is the spirit of the land of the wind.\nThe freedom to live is one of such. It is the freedom to live freely and healthily without concerns of one's own safety.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 2
 	},
 	"teachings_of_resistance": {
 		"hoyo_id": 104304,
 		"name_hash": 3958753156,
 		"desc_hash": 2519567077,
 		"type_hash": 1499137774,
-		"rarity": 2,
 		"name": "Teachings of Resistance",
-		"desc": "Talent Level-Up material.\\nResistance is the backbone of the land of the wind.\\nThe history of Mondstadt is one of resistances. People rose up to prevent past conflicts from ever being forgotten, like sprouts breaking through the soil, like the eternal wind eroding through stone walls.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nResistance is the backbone of the land of the wind.\nThe history of Mondstadt is one of resistances. People rose up to prevent past conflicts from ever being forgotten, like sprouts breaking through the soil, like the eternal wind eroding through stone walls.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 2
 	},
 	"teachings_of_ballad": {
 		"hoyo_id": 104307,
 		"name_hash": 3272646612,
 		"desc_hash": 453022189,
 		"type_hash": 1734632254,
-		"rarity": 2,
 		"name": "Teachings of Ballad",
-		"desc": "Talent Level-Up material.\\nPoetry is the soul of the land of the wind.\\nPoetry is the manifestations of beautiful feelings. On a beautiful day, the breezes carry with them poetry that touches the heart of people like the wind caressing the leaves.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nPoetry is the soul of the land of the wind.\nPoetry is the manifestations of beautiful feelings. On a beautiful day, the breezes carry with them poetry that touches the heart of people like the wind caressing the leaves.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 2
 	},
 	"guide_to_freedom": {
 		"hoyo_id": 104302,
 		"name_hash": 3020009268,
 		"desc_hash": 329804349,
 		"type_hash": 2127886238,
-		"rarity": 3,
 		"name": "Guide to Freedom",
-		"desc": "Talent Level-Up material.\\nFreedom is the spirit of the land of the wind.\\nThe freedom of travel is one of such. It is the freedom to traverse the land freely without being obstructed.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nFreedom is the spirit of the land of the wind.\nThe freedom of travel is one of such. It is the freedom to traverse the land freely without being obstructed.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 3
 	},
 	"philosophies_of_freedom": {
 		"hoyo_id": 104303,
 		"name_hash": 2212011580,
 		"desc_hash": 317408357,
 		"type_hash": 2409461934,
-		"rarity": 4,
 		"name": "Philosophies of Freedom",
-		"desc": "Talent Level-Up material.\\nFreedom is the spirit of the land of the wind.\\nTo sing is one such freedom. To sing on the land created by the Anemo Archon is to send your heart away with the song on the wind.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nFreedom is the spirit of the land of the wind.\nTo sing is one such freedom. To sing on the land created by the Anemo Archon is to send your heart away with the song on the wind.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 4
 	},
 	"guide_to_resistance": {
 		"hoyo_id": 104305,
 		"name_hash": 2693927380,
 		"desc_hash": 779971069,
 		"type_hash": 2031297406,
-		"rarity": 3,
 		"name": "Guide to Resistance",
-		"desc": "Talent Level-Up material.\\nResistance is the backbone of the city of Wind.\\nThe history of Mondstadt is one of resistances. People rose up to grant the citizens of Mondstadt the freedom they now enjoy, like the Anemo Archon blowing away the snow, or like Vennessa rising up to fight.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nResistance is the backbone of the city of Wind.\nThe history of Mondstadt is one of resistances. People rose up to grant the citizens of Mondstadt the freedom they now enjoy, like the Anemo Archon blowing away the snow, or like Vennessa rising up to fight.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 3
 	},
 	"guide_to_ballad": {
 		"hoyo_id": 104308,
 		"name_hash": 3218582564,
 		"desc_hash": 2772836493,
 		"type_hash": 2371504038,
-		"rarity": 3,
 		"name": "Guide to Ballad",
-		"desc": "Talent Level-Up material.\\nPoetry is the soul of the land of the wind.\\nPoetry is the manifestations of the will to encourage. In the dark days, the gales in the streets and alleyways whisper words of fury, like the battle drums, like the low rumbling before the storm.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nPoetry is the soul of the land of the wind.\nPoetry is the manifestations of the will to encourage. In the dark days, the gales in the streets and alleyways whisper words of fury, like the battle drums, like the low rumbling before the storm.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 3
 	},
 	"philosophies_of_resistance": {
 		"hoyo_id": 104306,
 		"name_hash": 3735432580,
 		"desc_hash": 256159309,
 		"type_hash": 2172674686,
-		"rarity": 4,
 		"name": "Philosophies of Resistance",
-		"desc": "Talent Level-Up material.\\nResistance is the backbone of the land of the wind.\\nThe history of Mondstadt is one of resistances. People rose up to allow the future Mondstadt's poetry to freely be that of the wind and be spread across the land.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nResistance is the backbone of the land of the wind.\nThe history of Mondstadt is one of resistances. People rose up to allow the future Mondstadt's poetry to freely be that of the wind and be spread across the land.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 4
 	},
 	"philosophies_of_ballad": {
 		"hoyo_id": 104309,
 		"name_hash": 3202197196,
 		"desc_hash": 1759813845,
 		"type_hash": 2967912022,
-		"rarity": 4,
 		"name": "Philosophies of Ballad",
-		"desc": "Talent Level-Up material.\\nPoetry is the soul of the land of the wind.\\nPoetry is the manifestations of the desire to spread the word. Though nothing is eternal, though nothing will be the same, the wind's poetry will still spread beyond the skies, the land, the seas to every corner of the world.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nPoetry is the soul of the land of the wind.\nPoetry is the manifestations of the desire to spread the word. Though nothing is eternal, though nothing will be the same, the wind's poetry will still spread beyond the skies, the land, the seas to every corner of the world.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 4
 	},
 	"tile_of_decarabians_tower": {
 		"hoyo_id": 114001,
 		"name_hash": 2567593812,
 		"desc_hash": 2923523173,
 		"type_hash": 1859341190,
-		"rarity": 2,
 		"name": "Tile of Decarabian's Tower",
-		"desc": "Weapon Ascension Material.\\nThe place now known as Stormterror's Lair was once the capital city of Decarabian, the God of Storms. Since this dream of prosperity was created entirely by his divine might, the broken pieces left behind by the shattering of that dream still possess great power.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nThe place now known as Stormterror's Lair was once the capital city of Decarabian, the God of Storms. Since this dream of prosperity was created entirely by his divine might, the broken pieces left behind by the shattering of that dream still possess great power.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 2
 	},
 	"boreal_wolfs_milk_tooth": {
 		"hoyo_id": 114005,
 		"name_hash": 1988951604,
 		"desc_hash": 2458742965,
 		"type_hash": 1308126214,
-		"rarity": 2,
 		"name": "Boreal Wolf's Milk Tooth",
-		"desc": "Weapon Ascension Material.\\nAndrius' wolf pack is its blessed honor guard, and even the milk teeth of a wolf cub possess great potential.\\nIn the past, the gods had the responsibility to love all people. Andrius was therefore quite unusual in that he became leader of the wolves, while only welcoming abandoned babies and wanderers when it came to humans.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nAndrius' wolf pack is its blessed honor guard, and even the milk teeth of a wolf cub possess great potential.\nIn the past, the gods had the responsibility to love all people. Andrius was therefore quite unusual in that he became leader of the wolves, while only welcoming abandoned babies and wanderers when it came to humans.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 2
 	},
 	"fetters_of_the_dandelion_gladiator": {
 		"hoyo_id": 114009,
 		"name_hash": 1746118620,
 		"desc_hash": 2631555789,
 		"type_hash": 1915886774,
-		"rarity": 2,
 		"name": "Fetters of the Dandelion Gladiator",
-		"desc": "Weapon Ascension Material.\\nIt's a human thing to exaggerate a hero's story, even to the point of elevating the fetters that once bound the hero to the level of an enemy of true freedom.\\nAs a result, these fetters were granted extraordinary powers.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nIt's a human thing to exaggerate a hero's story, even to the point of elevating the fetters that once bound the hero to the level of an enemy of true freedom.\nAs a result, these fetters were granted extraordinary powers.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 2
 	},
 	"debris_of_decarabians_city": {
 		"hoyo_id": 114002,
 		"name_hash": 964863604,
 		"desc_hash": 3545489261,
 		"type_hash": 3690114478,
-		"rarity": 3,
 		"name": "Debris of Decarabian's City",
-		"desc": "Weapon Ascension Material.\\nDecarabian, the God of Storms, was content with the capital city he had raised, and accepted the worship of the people from atop his tower. But he knew not that the people did not bow to him out of respect or adoration.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nDecarabian, the God of Storms, was content with the capital city he had raised, and accepted the worship of the people from atop his tower. But he knew not that the people did not bow to him out of respect or adoration.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 3
 	},
 	"fragment_of_decarabians_epic": {
 		"hoyo_id": 114003,
 		"name_hash": 1852199700,
 		"desc_hash": 135685237,
 		"type_hash": 3678774734,
-		"rarity": 4,
 		"name": "Fragment of Decarabian's Epic",
-		"desc": "Weapon Ascension Material.\\nAndrius once declared war upon Decarabian, but failed to even scratch the capital of the Lord of the Tower. If it were not for the song of freedom that shattered the city in an instant, Decarabian's dream would have gone on forever.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nAndrius once declared war upon Decarabian, but failed to even scratch the capital of the Lord of the Tower. If it were not for the song of freedom that shattered the city in an instant, Decarabian's dream would have gone on forever.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 4
 	},
 	"scattered_piece_of_decarabians_dream": {
 		"hoyo_id": 114004,
 		"name_hash": 2734083860,
 		"desc_hash": 1515125725,
 		"type_hash": 2637387798,
-		"rarity": 5,
 		"name": "Scattered Piece of Decarabian's Dream",
-		"desc": "Weapon Ascension Material.\\nThe people did not bow to Decarabian out of respect or adoration, but because the harsh winds had laid them low. This was the shattered dream and ambition of the Anemo Archon before the rise of Barbatos.\\nHe tried so hard to make his dream come true, and so the fragments of that dream are still mighty.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nThe people did not bow to Decarabian out of respect or adoration, but because the harsh winds had laid them low. This was the shattered dream and ambition of the Anemo Archon before the rise of Barbatos.\nHe tried so hard to make his dream come true, and so the fragments of that dream are still mighty.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 5
 	},
 	"boreal_wolfs_cracked_tooth": {
 		"hoyo_id": 114006,
 		"name_hash": 3946196844,
 		"desc_hash": 3319915733,
 		"type_hash": 425508422,
-		"rarity": 3,
 		"name": "Boreal Wolf's Cracked Tooth",
-		"desc": "Weapon Ascension Material.\\nThe life of a wolf is not without violence; broken bones or cracked teeth are nothing special.\\nAndrius found humans to be a disappointment, but believed babies to be innocent. If both the wolf pack and the adopted children chose each other, then they become a Lupical, a fated family.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nThe life of a wolf is not without violence; broken bones or cracked teeth are nothing special.\nAndrius found humans to be a disappointment, but believed babies to be innocent. If both the wolf pack and the adopted children chose each other, then they become a Lupical, a fated family.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 3
 	},
 	"chains_of_the_dandelion_gladiator": {
 		"hoyo_id": 114010,
 		"name_hash": 2310635516,
 		"desc_hash": 688766285,
 		"type_hash": 1303110686,
-		"rarity": 3,
 		"name": "Chains of the Dandelion Gladiator",
-		"desc": "Weapon Ascension Material.\\nThe chains that once bound the great hero Vennessa. In truth, all gladiators would have worn chains in that era, and Vennessa was but one of many.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nThe chains that once bound the great hero Vennessa. In truth, all gladiators would have worn chains in that era, and Vennessa was but one of many.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 3
 	},
 	"boreal_wolfs_broken_fang": {
 		"hoyo_id": 114007,
 		"name_hash": 3293824324,
 		"desc_hash": 47632253,
 		"type_hash": 3241392782,
-		"rarity": 4,
 		"name": "Boreal Wolf's Broken Fang",
-		"desc": "Weapon Ascension Material.\\nThe wolf pack also understands that humans are not solitary creatures. The honorary broken tooth is a parting gift said to bring protection and luck.\\nIn the legends of a far-off world, a female wolf once adopted two great humans. Their home was known as the Cave of Wolves, or Lupercal - that word meaning the same thing as Lupical does in this world.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nThe wolf pack also understands that humans are not solitary creatures. The honorary broken tooth is a parting gift said to bring protection and luck.\nIn the legends of a far-off world, a female wolf once adopted two great humans. Their home was known as the Cave of Wolves, or Lupercal - that word meaning the same thing as Lupical does in this world.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 4
 	},
 	"boreal_wolfs_nostalgia": {
 		"hoyo_id": 114008,
 		"name_hash": 1910458284,
 		"desc_hash": 3091926493,
 		"type_hash": 2469439542,
-		"rarity": 5,
 		"name": "Boreal Wolf's Nostalgia",
-		"desc": "Weapon Ascension Material.\\nThe Wolf King, believing himself to despise humans, thought himself unable to envision a happy life for humanity, making him unworthy of becoming the Lord of the Winds of the world. Therefore, he chose to disappear. Yet, in truth, he gazes on the ones abandoned by the world ever so gently.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nThe Wolf King, believing himself to despise humans, thought himself unable to envision a happy life for humanity, making him unworthy of becoming the Lord of the Winds of the world. Therefore, he chose to disappear. Yet, in truth, he gazes on the ones abandoned by the world ever so gently.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 5
 	},
 	"shackles_of_the_dandelion_gladiator": {
 		"hoyo_id": 114011,
 		"name_hash": 3908879748,
 		"desc_hash": 1351240861,
 		"type_hash": 2272296678,
-		"rarity": 4,
 		"name": "Shackles of the Dandelion Gladiator",
-		"desc": "Weapon Ascension Material.\\nVennessa was not truly bound by her chains. If she had so wished, no ordinary physical constraints forged in Mondstadt could have held her, for the land there yielded no ore of exceptional quality, nor did it possess the divine flame of her ancestral home.\\nShe was only bound by her responsibility to take care of her tribespeople.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nVennessa was not truly bound by her chains. If she had so wished, no ordinary physical constraints forged in Mondstadt could have held her, for the land there yielded no ore of exceptional quality, nor did it possess the divine flame of her ancestral home.\nShe was only bound by her responsibility to take care of her tribespeople.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 4
 	},
 	"dream_of_the_dandelion_gladiator": {
 		"hoyo_id": 114012,
 		"name_hash": 4141994924,
 		"desc_hash": 3704420965,
 		"type_hash": 714559390,
-		"rarity": 5,
 		"name": "Dream of the Dandelion Gladiator",
-		"desc": "Weapon Ascension Material.\\nVennessa may have been freed from slavery, but she then found herself subject to many other, even greater forms of bondage. What began as a duty to her tribespeople extended to all of Mondstadt, then to the concept of freedom itself, and beyond a point even to the whole world.\\nWhat she really hoped for, in truth, was that the world might grow stronger.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nVennessa may have been freed from slavery, but she then found herself subject to many other, even greater forms of bondage. What began as a duty to her tribespeople extended to all of Mondstadt, then to the concept of freedom itself, and beyond a point even to the whole world.\nWhat she really hoped for, in truth, was that the world might grow stronger.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 5
 	},
 	"teachings_of_transience": {
 		"hoyo_id": 104320,
 		"name_hash": 2569352716,
 		"desc_hash": 724282397,
 		"type_hash": 4085364342,
-		"rarity": 2,
 		"name": "Teachings of Transience",
-		"desc": "Talent Level-Up material.\\nTransience is the dream of the nation of thunder.\\nFleeting glories are the highest expression of mortal beauty, for are we mortals not like the flashing lightning itself? Like a lovely dream or blossoming spark, we shall leave a gorgeous mark on the eternal night sky.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nTransience is the dream of the nation of thunder.\nFleeting glories are the highest expression of mortal beauty, for are we mortals not like the flashing lightning itself? Like a lovely dream or blossoming spark, we shall leave a gorgeous mark on the eternal night sky.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 2
 	},
 	"teachings_of_elegance": {
 		"hoyo_id": 104323,
 		"name_hash": 2962100916,
 		"desc_hash": 2966862229,
 		"type_hash": 3162127230,
-		"rarity": 2,
 		"name": "Teachings of Elegance",
-		"desc": "Talent Level-Up material.\\nElegance is the form of the nation of thunder.\\nElegance brooks no flattery, and the elegant are ever noble. They are like the sea eagles who soar on high to contend with the resounding storms. They will not cater to philistine vulgarity, as one would not cast a flower crown into the mud, staining its dignity.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nElegance is the form of the nation of thunder.\nElegance brooks no flattery, and the elegant are ever noble. They are like the sea eagles who soar on high to contend with the resounding storms. They will not cater to philistine vulgarity, as one would not cast a flower crown into the mud, staining its dignity.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 2
 	},
 	"teachings_of_light": {
 		"hoyo_id": 104326,
 		"name_hash": 2661352372,
 		"desc_hash": 2010864837,
 		"type_hash": 1400170142,
-		"rarity": 2,
 		"name": "Teachings of Light",
-		"desc": "Talent Level-Up material.\\nLight is the yearning of the land of thunder.\\nThe ruler who claims to have perceived all forever aims to hoard celestial glory. But this vision that cannot be shared only leads people to long for it more fiercely, like moths diving into the flame.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nLight is the yearning of the land of thunder.\nThe ruler who claims to have perceived all forever aims to hoard celestial glory. But this vision that cannot be shared only leads people to long for it more fiercely, like moths diving into the flame.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 2
 	},
 	"guide_to_transience": {
 		"hoyo_id": 104321,
 		"name_hash": 4164589940,
 		"desc_hash": 1756688229,
 		"type_hash": 3838178566,
-		"rarity": 3,
 		"name": "Guide to Transience",
-		"desc": "Talent Level-Up material.\\nTransience is the dream of the nation of thunder.\\nWe find the greatest joys in mortal life in transient dreams, for is life itself not like the shadow of the thunder? Pursue your dreams into the clouds if you wish, and enjoy the unexpected silence of the dim lamp-lit nights.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nTransience is the dream of the nation of thunder.\nWe find the greatest joys in mortal life in transient dreams, for is life itself not like the shadow of the thunder? Pursue your dreams into the clouds if you wish, and enjoy the unexpected silence of the dim lamp-lit nights.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 3
 	},
 	"philosophies_of_transience": {
 		"hoyo_id": 104322,
 		"name_hash": 2381438580,
 		"desc_hash": 2300110445,
 		"type_hash": 3448705806,
-		"rarity": 4,
 		"name": "Philosophies of Transience",
-		"desc": "Talent Level-Up material.\\nTransience is the dream of the nation of thunder.\\nThe fleeting nature of this mortal world is the essence of beauty, for are our lives in this world not akin to the levin flash? Yet the might of the divine comes suddenly, and before the roar of eternity, who can stand?",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nTransience is the dream of the nation of thunder.\nThe fleeting nature of this mortal world is the essence of beauty, for are our lives in this world not akin to the levin flash? Yet the might of the divine comes suddenly, and before the roar of eternity, who can stand?",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 4
 	},
 	"guide_to_elegance": {
 		"hoyo_id": 104324,
 		"name_hash": 4156724932,
 		"desc_hash": 2576652925,
 		"type_hash": 610484462,
-		"rarity": 3,
 		"name": "Guide to Elegance",
-		"desc": "Talent Level-Up material.\\nElegance is the form of the nation of thunder.\\nElegance shuns arrogance. The elegant are ever humble, and only by discarding vanity and sloth may one see clearly \u2014 and is there not beauty and loveliness even in the basest of appearances?",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nElegance is the form of the nation of thunder.\nElegance shuns arrogance. The elegant are ever humble, and only by discarding vanity and sloth may one see clearly \u2014 and is there not beauty and loveliness even in the basest of appearances?",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 3
 	},
 	"guide_to_light": {
 		"hoyo_id": 104327,
 		"name_hash": 2811001012,
 		"desc_hash": 1677660253,
 		"type_hash": 2361886310,
-		"rarity": 3,
 		"name": "Guide to Light",
-		"desc": "Talent Level-Up material.\\nLight is the yearning of the land of thunder.\\nThough the sun rays themselves should be blocked by layers upon layers of clouds, there are still those in the thunder god's land who dream of piercing that wrathful sea of lightning to pursue the glory of the divine, fearing not that they shall be cruelly struck down.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nLight is the yearning of the land of thunder.\nThough the sun rays themselves should be blocked by layers upon layers of clouds, there are still those in the thunder god's land who dream of piercing that wrathful sea of lightning to pursue the glory of the divine, fearing not that they shall be cruelly struck down.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 3
 	},
 	"philosophies_of_elegance": {
 		"hoyo_id": 104325,
 		"name_hash": 2852490284,
 		"desc_hash": 3225822933,
 		"type_hash": 1899246974,
-		"rarity": 4,
 		"name": "Philosophies of Elegance",
-		"desc": "Talent Level-Up material.\\nElegance is the form of the nation of thunder.\\nElegance abhors vulgarity, and the elegant ever walk alone. Resisting base evils, unmoved by base loves, never taking refuge in base ignorance \u2014 that is how one perceives the chasm between the elegant and the contemptuous.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nElegance is the form of the nation of thunder.\nElegance abhors vulgarity, and the elegant ever walk alone. Resisting base evils, unmoved by base loves, never taking refuge in base ignorance \u2014 that is how one perceives the chasm between the elegant and the contemptuous.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 4
 	},
 	"philosophies_of_light": {
 		"hoyo_id": 104328,
 		"name_hash": 3803357620,
 		"desc_hash": 1755729229,
 		"type_hash": 3354988350,
-		"rarity": 4,
 		"name": "Philosophies of Light",
-		"desc": "Talent Level-Up material.\\nLight is the yearning of the land of thunder.\\nThough they must live forever on the earth, humanity will always reach for the light. Mortals will pursue and surpass, and they will never stop. A sealed eternity may, perhaps, look magnificent, but its essence is death.",
-		"type": "Talent Level-Up Material"
+		"desc": "Talent Level-Up material.\nLight is the yearning of the land of thunder.\nThough they must live forever on the earth, humanity will always reach for the light. Mortals will pursue and surpass, and they will never stop. A sealed eternity may, perhaps, look magnificent, but its essence is death.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 4
 	},
 	"coral_branch_of_a_distant_sea": {
 		"hoyo_id": 114025,
 		"name_hash": 871205868,
 		"desc_hash": 1378432637,
 		"type_hash": 17413694,
-		"rarity": 2,
 		"name": "Coral Branch of a Distant Sea",
-		"desc": "Weapon Ascension Material.\\nWatatsumi Island is the furthest from Narukami Island in the Inazuman island chain, and its name means \"the god of the oceans\" in the island's ancient tongue. Legend has it that when the great serpent first arose within the abyssal nation of ever-night, its fluorescent body was covered in myriad-colored coral.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nWatatsumi Island is the furthest from Narukami Island in the Inazuman island chain, and its name means \"the god of the oceans\" in the island's ancient tongue. Legend has it that when the great serpent first arose within the abyssal nation of ever-night, its fluorescent body was covered in myriad-colored coral.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 2
 	},
 	"narukamis_wisdom": {
 		"hoyo_id": 114029,
 		"name_hash": 148841796,
 		"desc_hash": 2600497125,
 		"type_hash": 3076776638,
-		"rarity": 2,
 		"name": "Narukami's Wisdom",
-		"desc": "Weapon Ascension Material.\\nIn the past, the ancients would climb the peak now known as Mt. Yougou and bend wood that had been charred by lightning into a hook to offer as an effigy unto the thundering force that lit up the skies and shook the earth. This shape would eventually become the \"Electro Mitsudomoe\" symbol, symbolizing the favor, wisdom, and might of Electro, and also the people who represent these values.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nIn the past, the ancients would climb the peak now known as Mt. Yougou and bend wood that had been charred by lightning into a hook to offer as an effigy unto the thundering force that lit up the skies and shook the earth. This shape would eventually become the \"Electro Mitsudomoe\" symbol, symbolizing the favor, wisdom, and might of Electro, and also the people who represent these values.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 2
 	},
 	"mask_of_the_wicked_lieutenant": {
 		"hoyo_id": 114033,
 		"name_hash": 2900857628,
 		"desc_hash": 1070031573,
 		"type_hash": 3545114758,
-		"rarity": 2,
 		"name": "Mask of the Wicked Lieutenant",
-		"desc": "Weapon Ascension Material.\\nFolktales tell that once upon a time, there lived an oni named Torachiyo. Torachiyo was a highly skilled warrior, such that it was once said the Torachiyo might dance amid a thousand blades, juunihitoe robes becoming shredded like falling violet petals, and yet not receive a single wound. Yet this oni would eventually betray the Shogun and revolt, becoming shorn of an arm and a horn in the battle before fleeing and slaying itself in a fit of furious madness.\\nHearsay holds that the stubborn oni often hold fear and distress in their hearts. That they should fantasize about eternity yet fear the moment, and are apt to become swallowed by terror or anger is their just reward. This mask depicts Torachiyo, fangs bared.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nFolktales tell that once upon a time, there lived an oni named Torachiyo. Torachiyo was a highly skilled warrior, such that it was once said the Torachiyo might dance amid a thousand blades, juunihitoe robes becoming shredded like falling violet petals, and yet not receive a single wound. Yet this oni would eventually betray the Shogun and revolt, becoming shorn of an arm and a horn in the battle before fleeing and slaying itself in a fit of furious madness.\nHearsay holds that the stubborn oni often hold fear and distress in their hearts. That they should fantasize about eternity yet fear the moment, and are apt to become swallowed by terror or anger is their just reward. This mask depicts Torachiyo, fangs bared.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 2
 	},
 	"jeweled_branch_of_a_distant_sea": {
 		"hoyo_id": 114026,
 		"name_hash": 1256537812,
 		"desc_hash": 3176974133,
 		"type_hash": 1209843270,
-		"rarity": 3,
 		"name": "Jeweled Branch of a Distant Sea",
-		"desc": "Weapon Ascension Material.\\nThis coral cannot be found anywhere in Teyvat, but was a gift that the great serpent obtained when it broke into the Dark Sea. For that abyssal snake, to be filled with coral was to be mighty, and its power would be shaved away as those corals were lost. In other words, those corals contain power far beyond the norm.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nThis coral cannot be found anywhere in Teyvat, but was a gift that the great serpent obtained when it broke into the Dark Sea. For that abyssal snake, to be filled with coral was to be mighty, and its power would be shaved away as those corals were lost. In other words, those corals contain power far beyond the norm.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 3
 	},
 	"jade_branch_of_a_distant_sea": {
 		"hoyo_id": 114027,
 		"name_hash": 1039176244,
 		"desc_hash": 3692195269,
 		"type_hash": 3027078382,
-		"rarity": 4,
 		"name": "Jade Branch of a Distant Sea",
-		"desc": "Weapon Ascension Material.\\nFleeing into the Dark Sea, the god that had lost everything met the abandoned people who had nothing within the ocean depths. Thus it elected to remain and become their \"Orobashi no Mikoto,\" their \"Watatsumi Omikami.\"\\nIt is said that the great snake god once broke off all the coral branches on its body to give light to the children who were curled up in the darkness. They also say that it used these coral branches to create a huge ladder to allow those children to once again reach the surface and see the light of day.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nFleeing into the Dark Sea, the god that had lost everything met the abandoned people who had nothing within the ocean depths. Thus it elected to remain and become their \"Orobashi no Mikoto,\" their \"Watatsumi Omikami.\"\nIt is said that the great snake god once broke off all the coral branches on its body to give light to the children who were curled up in the darkness. They also say that it used these coral branches to create a huge ladder to allow those children to once again reach the surface and see the light of day.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 4
 	},
 	"golden_branch_of_a_distant_sea": {
 		"hoyo_id": 114028,
 		"name_hash": 1552632404,
 		"desc_hash": 3867386901,
 		"type_hash": 1463979878,
-		"rarity": 5,
 		"name": "Golden Branch of a Distant Sea",
-		"desc": "Weapon Ascension Material.\\nThe meaning that lies behind the name \"Watatsumi\" is simply the unrequited hopes that the abandoned people who dwelt in the deep sea pinned upon the serpent god that led them.\\nAnd it was also because the serpent god now had people who worshiped it that it stayed in the world it should have long fled, breaking off the coral branches that adorned its body, treading upon land where it should not have, and facing a foe it could never hope to match \u2014 till at last, its divine form was sundered along with the mountains, its ichor turned into plasma, and its will and power became a curse that could never be extinguished: Tatarigami.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nThe meaning that lies behind the name \"Watatsumi\" is simply the unrequited hopes that the abandoned people who dwelt in the deep sea pinned upon the serpent god that led them.\nAnd it was also because the serpent god now had people who worshiped it that it stayed in the world it should have long fled, breaking off the coral branches that adorned its body, treading upon land where it should not have, and facing a foe it could never hope to match \u2014 till at last, its divine form was sundered along with the mountains, its ichor turned into plasma, and its will and power became a curse that could never be extinguished: Tatarigami.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 5
 	},
 	"narukamis_joy": {
 		"hoyo_id": 114030,
 		"name_hash": 2954572564,
 		"desc_hash": 3599737757,
 		"type_hash": 165865198,
-		"rarity": 3,
 		"name": "Narukami's Joy",
-		"desc": "Weapon Ascension Material.\\nThose who belong to the Shogunate Commissions are those who administer and exercise power. In the monster-filled tales of the ancient past, those who were deeply trusted by the Shogun would bear talismans with this hooked design on their person, and just as the word \"commission\" means to \"joyfully serve\" in the old tongue, those who received her favor would return it with love and loyalty. Yet, after a certain point in time, nothing would be as it was before.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nThose who belong to the Shogunate Commissions are those who administer and exercise power. In the monster-filled tales of the ancient past, those who were deeply trusted by the Shogun would bear talismans with this hooked design on their person, and just as the word \"commission\" means to \"joyfully serve\" in the old tongue, those who received her favor would return it with love and loyalty. Yet, after a certain point in time, nothing would be as it was before.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 3
 	},
 	"mask_of_the_tigers_bite": {
 		"hoyo_id": 114034,
 		"name_hash": 3536791340,
 		"desc_hash": 156647053,
 		"type_hash": 3470511174,
-		"rarity": 3,
 		"name": "Mask of the Tiger's Bite",
-		"desc": "Weapon Ascension Material.\\n\"Sumirezome Sangetsu Kogetsukan\" depicts the fierce oni Torachiyo shattering the Shogun's naginata with a single bite, thus gaining the upper hand for a time. As such, masks that are based on him have finely crafted fangs.\\nIn the denouement of this tale, the wounded oni fled into the forest, deathly afraid of showing himself even to the cold moonlight. The wind that whispers through the alleys and valleys can be said to resemble his quiet cries of agony, and so there is a poetic seasonal expression for this in Inazuma: \"Torachiyo's Wind.\"",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\n\"Sumirezome Sangetsu Kogetsukan\" depicts the fierce oni Torachiyo shattering the Shogun's naginata with a single bite, thus gaining the upper hand for a time. As such, masks that are based on him have finely crafted fangs.\nIn the denouement of this tale, the wounded oni fled into the forest, deathly afraid of showing himself even to the cold moonlight. The wind that whispers through the alleys and valleys can be said to resemble his quiet cries of agony, and so there is a poetic seasonal expression for this in Inazuma: \"Torachiyo's Wind.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 3
 	},
 	"narukamis_affection": {
 		"hoyo_id": 114031,
 		"name_hash": 831056940,
 		"desc_hash": 893570085,
 		"type_hash": 4271214662,
-		"rarity": 4,
 		"name": "Narukami's Affection",
-		"desc": "Weapon Ascension Material.\\nAll demons who wander in the wilderness or live amongst mortals will be attracted by the sight of the Almighty Narukami Ogosho, represented by the Electro Mitsudomoe. Though their lives may be longer than any creature, they will at last come to their end. If those with limited lifespans hanker after eternity, then they can only pray that \"Eternity\" remembers them. And she did indeed answer their prayers, remembering them all, friend and foe alike, in her heart. No matter whether it was the demon owls who resided amidst the fog and ripped through the skies, the bake-danuki who dared to trespass her imperial gardens, or that female oni, lovely as the moon and mighty in battle, yet who would eventually come to blows with her... Whether it was the tengu who soared on dark wings or the Kitsune Saiguu who once walked by her side, but who eventually disappeared forever...\\nThese countless tales have come to rest within her heart, and someday, they will surely shine again in the eternal paradise of her dreams.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nAll demons who wander in the wilderness or live amongst mortals will be attracted by the sight of the Almighty Narukami Ogosho, represented by the Electro Mitsudomoe. Though their lives may be longer than any creature, they will at last come to their end. If those with limited lifespans hanker after eternity, then they can only pray that \"Eternity\" remembers them. And she did indeed answer their prayers, remembering them all, friend and foe alike, in her heart. No matter whether it was the demon owls who resided amidst the fog and ripped through the skies, the bake-danuki who dared to trespass her imperial gardens, or that female oni, lovely as the moon and mighty in battle, yet who would eventually come to blows with her... Whether it was the tengu who soared on dark wings or the Kitsune Saiguu who once walked by her side, but who eventually disappeared forever...\nThese countless tales have come to rest within her heart, and someday, they will surely shine again in the eternal paradise of her dreams.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 4
 	},
 	"narukamis_valor": {
 		"hoyo_id": 114032,
 		"name_hash": 449374556,
 		"desc_hash": 3648314293,
 		"type_hash": 475404566,
-		"rarity": 5,
 		"name": "Narukami's Valor",
-		"desc": "Weapon Ascension Material.\\nThe treasure of the lord of thunder is her majesty, and that majesty is embodied in her valor and wrath. Her wrath comes from the love that persists in her heart, and her valor supports that anger. Thus, whomsoever should block the path towards eternity or lay a finger on Inazuma's people shall become her foe.\\nThey say that there were four great spirits, three divine foxes, and two great swords \u2014 but that the symbol of Her Excellency, the Almighty Narukami Ogosho, could only be a single strike, unsurpassed and brilliant as a meteor.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nThe treasure of the lord of thunder is her majesty, and that majesty is embodied in her valor and wrath. Her wrath comes from the love that persists in her heart, and her valor supports that anger. Thus, whomsoever should block the path towards eternity or lay a finger on Inazuma's people shall become her foe.\nThey say that there were four great spirits, three divine foxes, and two great swords \u2014 but that the symbol of Her Excellency, the Almighty Narukami Ogosho, could only be a single strike, unsurpassed and brilliant as a meteor.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 5
 	},
 	"mask_of_the_one_horned": {
 		"hoyo_id": 114035,
 		"name_hash": 3486743316,
 		"desc_hash": 2746406829,
 		"type_hash": 4237713190,
-		"rarity": 4,
 		"name": "Mask of the One-Horned",
-		"desc": "Weapon Ascension Material.\\nIn the lost songs of the oni nursemaids, Torachiyo was an elegant young man, strong of body and fair of face. He was once a beloved lieutenant of the Shogun, and he followed her into the dark abyssal realms to repel the defiled ones, winning renown for the oni, whose blood thinned with each passing day.\\nNone now sing these songs, but the mask of a horned oni, even in a different form, still possesses power beyond the norm.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nIn the lost songs of the oni nursemaids, Torachiyo was an elegant young man, strong of body and fair of face. He was once a beloved lieutenant of the Shogun, and he followed her into the dark abyssal realms to repel the defiled ones, winning renown for the oni, whose blood thinned with each passing day.\nNone now sing these songs, but the mask of a horned oni, even in a different form, still possesses power beyond the norm.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 4
 	},
 	"mask_of_the_kijin": {
 		"hoyo_id": 114036,
 		"name_hash": 1747026276,
 		"desc_hash": 1801865485,
 		"type_hash": 1920099446,
-		"rarity": 5,
 		"name": "Mask of the Kijin",
-		"desc": "Weapon Ascension Material.\\nChiyo, a warrior of the oni tribe with the Electro Mitsudomoe emblem emblazoned on her back, was once swallowed whole by a beast from beyond this world that had a tiger's body and a serpent's tail while holding back the forces of darkness. At last, she tore the creature's innards apart from within, breaking free.\\nThis is the origin of the phrase \"Chiyo the Tiger-Bite,\" and would be changed over many years to \"Torachiyo.\"\\nBut within the belly of the beast, she was stained by a deep sin and saw her comrades ripped to shreds by those blood-red teeth. Steeped in darkness as far as the eye could see, she would eventually draw her sword upon the Almighty Narukami Ogosho. Her sword-arm and one horn would be cloven, and she would flee from the city into the forest like a wounded beast. There, they say that she was taken for some unknown monster and slain by the tengu, or perhaps by the Shuumatsuban \u2014 or perhaps by a scion of the Iwakura Clan training deep in the mountains, for her features had been twisted by hatred and the agony of her wounds. Or perhaps she even met the oni-masked, sword-bearing doll near the corpse of the giant serpent, and there ended her life's journey.\\nFew among those who fought against the abyss in those days were spared pitch-dark dreams. Those who slew monsters and then became them were hardly the minority. The border between worlds grows fragile, and corruption of this kind is perhaps not merely monodirectional.",
-		"type": "Weapon Ascension Material"
+		"desc": "Weapon Ascension Material.\nChiyo, a warrior of the oni tribe with the Electro Mitsudomoe emblem emblazoned on her back, was once swallowed whole by a beast from beyond this world that had a tiger's body and a serpent's tail while holding back the forces of darkness. At last, she tore the creature's innards apart from within, breaking free.\nThis is the origin of the phrase \"Chiyo the Tiger-Bite,\" and would be changed over many years to \"Torachiyo.\"\nBut within the belly of the beast, she was stained by a deep sin and saw her comrades ripped to shreds by those blood-red teeth. Steeped in darkness as far as the eye could see, she would eventually draw her sword upon the Almighty Narukami Ogosho. Her sword-arm and one horn would be cloven, and she would flee from the city into the forest like a wounded beast. There, they say that she was taken for some unknown monster and slain by the tengu, or perhaps by the Shuumatsuban \u2014 or perhaps by a scion of the Iwakura Clan training deep in the mountains, for her features had been twisted by hatred and the agony of her wounds. Or perhaps she even met the oni-masked, sword-bearing doll near the corpse of the giant serpent, and there ended her life's journey.\nFew among those who fought against the abyss in those days were spared pitch-dark dreams. Those who slew monsters and then became them were hardly the minority. The border between worlds grows fragile, and corruption of this kind is perhaps not merely monodirectional.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Weapon Ascension Material",
+		"rarity": 5
 	},
 	"crimson_agate": {
 		"hoyo_id": 107010,
 		"name_hash": 3351602148,
 		"desc_hash": 794477253,
 		"type_hash": 2861844382,
-		"rarity": 1,
 		"name": "Crimson Agate",
 		"desc": "A type of crystal formed from the combination of concentrated life force with an energy unique to Dragonspine. Makes for an ideal nutrient for growing Frostbearing Trees.",
-		"type": "Adventure Item"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Adventure Item",
+		"rarity": 1
 	},
 	"electro_sigil": {
 		"hoyo_id": 304,
 		"name_hash": 1061303060,
 		"desc_hash": 3458734077,
 		"type_hash": 923152598,
-		"rarity": 3,
 		"name": "Electro Sigil",
-		"desc": "A sigil that serves as a sign of the acknowledgment given by the thundering islands of Inazuma.\\nOffer them to the Sacred Sakura of the Grand Narukami Shrine to raise your Sacred Sakura's Favor level.",
-		"type": "City States Sigil"
+		"desc": "A sigil that serves as a sign of the acknowledgment given by the thundering islands of Inazuma.\nOffer them to the Sacred Sakura of the Grand Narukami Shrine to raise your Sacred Sakura's Favor level.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "City States Sigil",
+		"rarity": 3
 	},
 	"lumenspar": {
 		"hoyo_id": 107016,
 		"name_hash": 286070780,
 		"desc_hash": 255282597,
 		"type_hash": 2099674822,
-		"rarity": 1,
 		"name": "Lumenspar",
-		"desc": "A sky-blue crystal that glitters so brightly that it brings forth echoes of the heavens above, which cannot be seen from underground...\\nIf you hold it up to your ear, you can almost hear a soft sigh coming from within.\\nThis might sound strange, but this crystal also gives off a faint warmth.",
-		"type": "Adventure Item"
+		"desc": "A sky-blue crystal that glitters so brightly that it brings forth echoes of the heavens above, which cannot be seen from underground...\nIf you hold it up to your ear, you can almost hear a soft sigh coming from within.\nThis might sound strange, but this crystal also gives off a faint warmth.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Adventure Item",
+		"rarity": 1
 	},
 	"lumenstone_ore": {
 		"hoyo_id": 101644,
 		"name_hash": 2133972676,
 		"desc_hash": 2876520989,
 		"type_hash": 3233343662,
-		"rarity": 3,
 		"name": "Lumenstone Ore",
 		"desc": "The raw ore from which Lumenstone may be found. If processed properly, it can be used to strengthen the Lumenstone Adjuvant you have. Why not hit Jinwu up and ask her?",
-		"type": "Adventure Item"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Adventure Item",
+		"rarity": 3
 	},
 	"festering_dragon_marrow": {
 		"hoyo_id": 200103,
 		"name_hash": 950978516,
 		"desc_hash": 3521799293,
 		"type_hash": 3020894718,
-		"rarity": 4,
 		"name": "Festering Dragon Marrow",
-		"desc": "Specialized refinement material for Festering Desire.\\nThis is the product of purifying Durin's vile venom, which has seeped into and spread throughout Dragonspine's ley lines. By using it on a bloodthirsty sword with a strong affinity for such materials, you can increase that sword's power.",
-		"type": "Refinement Material"
+		"desc": "Specialized refinement material for Festering Desire.\nThis is the product of purifying Durin's vile venom, which has seeped into and spread throughout Dragonspine's ley lines. By using it on a bloodthirsty sword with a strong affinity for such materials, you can increase that sword's power.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Refinement Material",
+		"rarity": 4
 	},
 	"alkahest": {
 		"hoyo_id": 200108,
 		"name_hash": 854755996,
 		"desc_hash": 1826728773,
 		"type_hash": 3070907134,
-		"rarity": 4,
 		"name": "Alkahest",
-		"desc": "Specialized refinement material for the Cinnabar Spindle.\\nA silver substance shining with an otherworldly light that is a deadly corrosive poison to things of this world. And yet it also has the power to sublimate matter...",
-		"type": "Refinement Material"
+		"desc": "Specialized refinement material for the Cinnabar Spindle.\nA silver substance shining with an otherworldly light that is a deadly corrosive poison to things of this world. And yet it also has the power to sublimate matter...",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Refinement Material",
+		"rarity": 4
 	},
 	"emperors_balsam": {
 		"hoyo_id": 200106,
 		"name_hash": 1783346884,
 		"desc_hash": 2404692909,
 		"type_hash": 294356806,
-		"rarity": 4,
 		"name": "Emperor's Balsam",
-		"desc": "Specialized refinement material for the Luxurious Sea-Lord.\\nThe intense fragrance of this paste seems to have sealed the spirit of sea life within. Smear it on the Luxurious Sea-Lord to temper this unique claymore and make it harder still.",
-		"type": "Refinement Material"
+		"desc": "Specialized refinement material for the Luxurious Sea-Lord.\nThe intense fragrance of this paste seems to have sealed the spirit of sea life within. Smear it on the Luxurious Sea-Lord to temper this unique claymore and make it harder still.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Refinement Material",
+		"rarity": 4
 	},
 	"akos_sake_vessel": {
 		"hoyo_id": 200107,
 		"name_hash": 122876220,
 		"desc_hash": 3904229893,
 		"type_hash": 2838374886,
-		"rarity": 4,
 		"name": "Ako's Sake Vessel",
-		"desc": "Specialized refinement material for \"The Catch.\"\\nThis was the favored liquor vessel of Ako Domeki, who once ruled over the Seirai region. The sea has brought it onto an angler's hook.",
-		"type": "Refinement Material"
+		"desc": "Specialized refinement material for \"The Catch.\"\nThis was the favored liquor vessel of Ako Domeki, who once ruled over the Seirai region. The sea has brought it onto an angler's hook.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Refinement Material",
+		"rarity": 4
 	},
 	"fragments_of_innocence": {
 		"hoyo_id": 200105,
 		"name_hash": 3750798004,
 		"desc_hash": 3258933,
 		"type_hash": 1521935030,
-		"rarity": 4,
 		"name": "\"Fragments of Innocence\"",
-		"desc": "Specialized refinement material for \"Dodoco Tales.\"\\nPages scattered on the wind. Each one is filled to the brim with childlike wonder, and their dimensions are an exact match for \"Dodoco Tales.\" The abundant innocence and pure love therein will never fade, and just like the never-ending adventure in the book \u2014 this passionate fairy tale shall forever soar in the wake of the author's footsteps.",
-		"type": "Refinement Material"
+		"desc": "Specialized refinement material for \"Dodoco Tales.\"\nPages scattered on the wind. Each one is filled to the brim with childlike wonder, and their dimensions are an exact match for \"Dodoco Tales.\" The abundant innocence and pure love therein will never fade, and just like the never-ending adventure in the book \u2014 this passionate fairy tale shall forever soar in the wake of the author's footsteps.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Refinement Material",
+		"rarity": 4
 	},
 	"ointment_of_sight": {
 		"hoyo_id": 200109,
 		"name_hash": 3449458548,
 		"desc_hash": 243151149,
 		"type_hash": 1620760566,
-		"rarity": 4,
 		"name": "Ointment of Sight",
-		"desc": "Specialized refinement material for the Oathsworn Eye.\\nSpecial Deep Sea Unagi oil, which was once used to maintain Enkanomiya's sacred artifacts, has been carefully processed for the purpose of making this shining eye most bright indeed.",
-		"type": "Refinement Material"
+		"desc": "Specialized refinement material for the Oathsworn Eye.\nSpecial Deep Sea Unagi oil, which was once used to maintain Enkanomiya's sacred artifacts, has been carefully processed for the purpose of making this shining eye most bright indeed.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Refinement Material",
+		"rarity": 4
 	},
 	"glowing_gem": {
 		"hoyo_id": 200110,
 		"name_hash": 2293319308,
 		"desc_hash": 116040285,
 		"type_hash": 3273786766,
-		"rarity": 4,
 		"name": "Glowing Gem",
-		"desc": "Specialized refinement material for Fading Twilight.\\nCor Lapis delicately refined by ancient arts practiced by the early inhabitants of The Chasm. It glimmers slightly with a light that resembles either the radiance of dawn or the dying twilight. Appearing in caverns where none may see either form of light, it must have brought some small comfort to those who fought against the dark enemy.",
-		"type": "Refinement Material"
+		"desc": "Specialized refinement material for Fading Twilight.\nCor Lapis delicately refined by ancient arts practiced by the early inhabitants of The Chasm. It glimmers slightly with a light that resembles either the radiance of dawn or the dying twilight. Appearing in caverns where none may see either form of light, it must have brought some small comfort to those who fought against the dark enemy.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Refinement Material",
+		"rarity": 4
 	},
 	"the_visible_winds": {
 		"hoyo_id": 200104,
 		"name_hash": 1141409284,
 		"desc_hash": 3214931221,
 		"type_hash": 3943096966,
-		"rarity": 4,
 		"name": "\"The Visible Winds\"",
-		"desc": "Specialized refinement material for the Windblume Ode.\\nAn intricately-made ornament that symbolizes the windmills and windblumes, and is that which adorns the limbs of the Windblume Ode. The wind is invisible and intangible, but the windmills that keep turning and the swaying flowers in the emerald fields are \"the visible winds\" that show people that the breeze will always care for all life in Mondstadt.",
-		"type": "Refinement Material"
+		"desc": "Specialized refinement material for the Windblume Ode.\nAn intricately-made ornament that symbolizes the windmills and windblumes, and is that which adorns the limbs of the Windblume Ode. The wind is invisible and intangible, but the windmills that keep turning and the swaying flowers in the emerald fields are \"the visible winds\" that show people that the breeze will always care for all life in Mondstadt.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Refinement Material",
+		"rarity": 4
 	},
 	"heavy_horn": {
 		"hoyo_id": 112014,
 		"name_hash": 1874818508,
 		"desc_hash": 1914742325,
 		"type_hash": 1901987342,
-		"rarity": 2,
 		"name": "Heavy Horn",
 		"desc": "A crude horn used by hilichurls to warn each other. Given the damage to the horn, it won't be warning anyone any time soon.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"firm_arrowhead": {
 		"hoyo_id": 112011,
 		"name_hash": 85550076,
 		"desc_hash": 3133484733,
 		"type_hash": 1543946126,
-		"rarity": 1,
 		"name": "Firm Arrowhead",
 		"desc": "A roughly produced arrowhead. Though unimpressive, neither it nor the bow should be underestimated, for even the bravest knight can be felled by an arrow from the rear.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 1
 	},
 	"black_bronze_horn": {
 		"hoyo_id": 112015,
 		"name_hash": 98885076,
 		"desc_hash": 963573429,
 		"type_hash": 1621792758,
-		"rarity": 3,
 		"name": "Black Bronze Horn",
 		"desc": "A metallic monster horn that can only be obtained from especially strong hilichurls, since blowing on the horn takes real strength.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"sharp_arrowhead": {
 		"hoyo_id": 112012,
 		"name_hash": 2287171180,
 		"desc_hash": 3788729469,
 		"type_hash": 1626216686,
-		"rarity": 2,
 		"name": "Sharp Arrowhead",
 		"desc": "A well-made arrowhead. Sharp enough to penetrate armor with the ease of a rock through the surface of water.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"black_crystal_horn": {
 		"hoyo_id": 112016,
 		"name_hash": 258445116,
 		"desc_hash": 319888517,
 		"type_hash": 1905418486,
-		"rarity": 4,
 		"name": "Black Crystal Horn",
 		"desc": "A metallic horn with an ominous shine decorated with black crystals of an unknown source. It has hardly been used at all. It is likely a ceremonial item of the hilichurls'.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"weathered_arrowhead": {
 		"hoyo_id": 112013,
 		"name_hash": 744013132,
 		"desc_hash": 2584482101,
 		"type_hash": 616067574,
-		"rarity": 3,
 		"name": "Weathered Arrowhead",
-		"desc": "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon.\\nHowever, it represents the pride of a hunter and acts as both an amulet and a medal.",
-		"type": "Character Level-Up Material"
+		"desc": "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon.\nHowever, it represents the pride of a hunter and acts as both an amulet and a medal.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"dead_ley_line_branch": {
 		"hoyo_id": 112020,
 		"name_hash": 711289316,
 		"desc_hash": 2506096229,
 		"type_hash": 1673374638,
-		"rarity": 2,
 		"name": "Dead Ley Line Branch",
 		"desc": "Fragile branches from deep within the earth. Even after years of aging, from beneath it's mottled surface you can see that its power is not yet entirely lost.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"slime_condensate": {
 		"hoyo_id": 112002,
 		"name_hash": 1442515996,
 		"desc_hash": 3549591005,
 		"type_hash": 1726389574,
-		"rarity": 1,
 		"name": "Slime Condensate",
 		"desc": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 1
 	},
 	"dead_ley_line_leaves": {
 		"hoyo_id": 112021,
 		"name_hash": 3564785012,
 		"desc_hash": 1836473005,
 		"type_hash": 3290044910,
-		"rarity": 3,
 		"name": "Dead Ley Line Leaves",
 		"desc": "A twig from deep within the earth. Though it is far from where it once lay, its leaves still pulsate with energy.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"slime_secretions": {
 		"hoyo_id": 112003,
 		"name_hash": 2293593012,
 		"desc_hash": 1730614917,
 		"type_hash": 1497803510,
-		"rarity": 2,
 		"name": "Slime Secretions",
 		"desc": "Mildly purified slime secretions. Harmful to the skin. Please avoid direct exposure.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"ley_line_sprout": {
 		"hoyo_id": 112022,
 		"name_hash": 814255356,
 		"desc_hash": 3630280629,
 		"type_hash": 3778019030,
-		"rarity": 4,
 		"name": "Ley Line Sprout",
 		"desc": "It is said that there was a great tree whose roots once spread out to every corner of the world, and this branch is said to be part of it. It is almost if it was never broken off and taken far away, for its vitality is such that it still sprouts new leaves even now.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"slime_concentrate": {
 		"hoyo_id": 112004,
 		"name_hash": 3865019532,
 		"desc_hash": 1403535589,
 		"type_hash": 2831021150,
-		"rarity": 3,
 		"name": "Slime Concentrate",
 		"desc": "Concentrated slime essence. When left alone, it will begin to move on its own.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"chaos_device": {
 		"hoyo_id": 112023,
 		"name_hash": 3438617436,
 		"desc_hash": 2189110773,
 		"type_hash": 2262284086,
-		"rarity": 2,
 		"name": "Chaos Device",
 		"desc": "Comes from ancient defunct relic structures. A part that once held the structure together. Its aesthetically-pleasing engineering is quite exquisite.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"divining_scroll": {
 		"hoyo_id": 112008,
 		"name_hash": 1838237500,
 		"desc_hash": 2180330309,
 		"type_hash": 187577814,
-		"rarity": 1,
 		"name": "Divining Scroll",
 		"desc": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 1
 	},
 	"chaos_circuit": {
 		"hoyo_id": 112024,
 		"name_hash": 3502516708,
 		"desc_hash": 2205677949,
 		"type_hash": 3162273046,
-		"rarity": 3,
 		"name": "Chaos Circuit",
 		"desc": "Comes from ancient defunct relic structures. Was once a logic circuit responsible for movement functions. Sadly, no one is able to make sense of how it worked.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"sealed_scroll": {
 		"hoyo_id": 112009,
 		"name_hash": 2199916436,
 		"desc_hash": 707477613,
 		"type_hash": 3603397214,
-		"rarity": 2,
 		"name": "Sealed Scroll",
 		"desc": "An old scroll lacking in detail and clarity. By following the images on it, some magical creatures can recreate a small part of its magic.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"chaos_core": {
 		"hoyo_id": 112025,
 		"name_hash": 3313714244,
 		"desc_hash": 2364801645,
 		"type_hash": 3489852878,
-		"rarity": 4,
 		"name": "Chaos Core",
 		"desc": "Comes from ancient defunct relic structures. The core that once drove a mechanical beast. Should you come to understand its workings and reproduce it, you could perhaps change the world.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"forbidden_curse_scroll": {
 		"hoyo_id": 112010,
 		"name_hash": 4256206044,
 		"desc_hash": 4045489381,
 		"type_hash": 1819040614,
-		"rarity": 3,
 		"name": "Forbidden Curse Scroll",
 		"desc": "A scroll inscribed with ancient images. It is said that few can decipher its meaning, and the few scholars that have all went mad.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"hunters_sacrificial_knife": {
 		"hoyo_id": 112029,
 		"name_hash": 1979428308,
 		"desc_hash": 3192326549,
 		"type_hash": 3874704062,
-		"rarity": 2,
 		"name": "Hunter's Sacrificial Knife",
 		"desc": "A sharp alloy weapon. Though its owner has been lost, it still reflects a disturbingly cold light.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"damaged_mask": {
 		"hoyo_id": 112005,
 		"name_hash": 461826612,
 		"desc_hash": 3280900125,
 		"type_hash": 2461121486,
-		"rarity": 1,
 		"name": "Damaged Mask",
-		"desc": "A broken bone mask that once belonged to some hilichurl.\\nNow more broken than complete, it can no longer perform its primary function.",
-		"type": "Character Level-Up Material"
+		"desc": "A broken bone mask that once belonged to some hilichurl.\nNow more broken than complete, it can no longer perform its primary function.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 1
 	},
 	"agents_sacrificial_knife": {
 		"hoyo_id": 112030,
 		"name_hash": 451970588,
 		"desc_hash": 415889413,
 		"type_hash": 649793582,
-		"rarity": 3,
 		"name": "Agent's Sacrificial Knife",
 		"desc": "An oddly-shaped weapon made with superior Snezhnayan technology that once belonged to a senior agent. Proper training is required for using this strange weapon.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"stained_mask": {
 		"hoyo_id": 112006,
 		"name_hash": 3015475460,
 		"desc_hash": 866419469,
 		"type_hash": 3669159006,
-		"rarity": 2,
 		"name": "Stained Mask",
-		"desc": "A bone mask, covered in unidentifiable stains, that emanates a mysterious odor.\\nYet such is the devotion of hilichurls to masks that they will wear it nonetheless.",
-		"type": "Character Level-Up Material"
+		"desc": "A bone mask, covered in unidentifiable stains, that emanates a mysterious odor.\nYet such is the devotion of hilichurls to masks that they will wear it nonetheless.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"inspectors_sacrificial_knife": {
 		"hoyo_id": 112031,
 		"name_hash": 4188817260,
 		"desc_hash": 132299901,
 		"type_hash": 3647451918,
-		"rarity": 4,
 		"name": "Inspector's Sacrificial Knife",
 		"desc": "In the hands of its lord, this fierce weapon has handled many \"debts.\" No one has eyes in the back of their heads, and this weapon and its related techniques are designed around that weakness.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"ominous_mask": {
 		"hoyo_id": 112007,
 		"name_hash": 1726035172,
 		"desc_hash": 1586794693,
 		"type_hash": 1088069678,
-		"rarity": 3,
 		"name": "Ominous Mask",
-		"desc": "A glossy bone mask with oil markings painted on it, meant to intimidate enemies.\\nNo one really knows why hilichurls are so fascinated with masks. Some say that it's because they don't want to see their own reflections in the water.",
-		"type": "Character Level-Up Material"
+		"desc": "A glossy bone mask with oil markings painted on it, meant to intimidate enemies.\nNo one really knows why hilichurls are so fascinated with masks. Some say that it's because they don't want to see their own reflections in the water.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"mist_grass_pollen": {
 		"hoyo_id": 112026,
 		"name_hash": 2471442420,
 		"desc_hash": 389261381,
 		"type_hash": 3288994206,
-		"rarity": 2,
 		"name": "Mist Grass Pollen",
 		"desc": "Strange spores created by Mist Grass in enclosed spaces. They are the Cicins' favorite food.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"treasure_hoarder_insignia": {
 		"hoyo_id": 112035,
 		"name_hash": 2331730468,
 		"desc_hash": 1060227085,
 		"type_hash": 2021586438,
-		"rarity": 1,
 		"name": "Treasure Hoarder Insignia",
 		"desc": "A signet that proudly represents its owner's position as member of the Treasure Hoarders. The pursuit of treasure knows no bounds. That said... Is being a thief something to be proud of?",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 1
 	},
 	"mist_grass": {
 		"hoyo_id": 112027,
 		"name_hash": 132455476,
 		"desc_hash": 3346549749,
 		"type_hash": 1420435926,
-		"rarity": 3,
 		"name": "Mist Grass",
 		"desc": "Well-preserved Mist Grass. Some would take advantage of the Cicins' love for the Mist Grass to control them.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"silver_raven_insignia": {
 		"hoyo_id": 112036,
 		"name_hash": 1153212396,
 		"desc_hash": 2976790613,
 		"type_hash": 85784814,
-		"rarity": 2,
 		"name": "Silver Raven Insignia",
 		"desc": "A raven insignia used by members of the Treasure Hoarders to identify each other. The Treasure Hoarders ask for no resume. Anyone who has an insatiable desire for treasure and is backed up by an equal amount of courage can become a worthy member.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"mist_grass_wick": {
 		"hoyo_id": 112028,
 		"name_hash": 3503579852,
 		"desc_hash": 49483941,
 		"type_hash": 1919430478,
-		"rarity": 4,
 		"name": "Mist Grass Wick",
 		"desc": "A rare bundle of Mist Grass that gives off a faint glow. Those who carry it invite both the Cicins and misfortune.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"golden_raven_insignia": {
 		"hoyo_id": 112037,
 		"name_hash": 2209041116,
 		"desc_hash": 2565063437,
 		"type_hash": 2823572534,
-		"rarity": 3,
 		"name": "Golden Raven Insignia",
 		"desc": "A raven insignia that symbolizes the pride and the guiding principle of the Treasure Hoarders. Whether it's hidden amidst the vastness of the land or in the depths of the seas, as long as there are treasures to be hunted down, the spirit of Treasure Hoarders, who will stop at nothing to acquire them, will never die.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"fragile_bone_shard": {
 		"hoyo_id": 112041,
 		"name_hash": 1908773676,
 		"desc_hash": 1284597165,
 		"type_hash": 3018810286,
-		"rarity": 2,
 		"name": "Fragile Bone Shard",
-		"desc": "A bone shard once carried by a Geovishap.\\nAlthough they are quite fragile, they seem to still harbor some indescribable power.",
-		"type": "Character Level-Up Material"
+		"desc": "A bone shard once carried by a Geovishap.\nAlthough they are quite fragile, they seem to still harbor some indescribable power.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"recruits_insignia": {
 		"hoyo_id": 112032,
 		"name_hash": 3337386732,
 		"desc_hash": 3059669925,
 		"type_hash": 426357374,
-		"rarity": 1,
 		"name": "Recruit's Insignia",
 		"desc": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 1
 	},
 	"sturdy_bone_shard": {
 		"hoyo_id": 112042,
 		"name_hash": 3545037916,
 		"desc_hash": 3216655581,
 		"type_hash": 2954367998,
-		"rarity": 3,
 		"name": "Sturdy Bone Shard",
-		"desc": "A fragment of an unknown creature's bones that appear to be prized by Geovishaps for some reason.\\nThe fragment appears to be quite aged. Despite being dragon-like beasts with no spoken language, they still seem to have some sort of special affection for these bone shards.",
-		"type": "Character Level-Up Material"
+		"desc": "A fragment of an unknown creature's bones that appear to be prized by Geovishaps for some reason.\nThe fragment appears to be quite aged. Despite being dragon-like beasts with no spoken language, they still seem to have some sort of special affection for these bone shards.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"sergeants_insignia": {
 		"hoyo_id": 112033,
 		"name_hash": 2914740468,
 		"desc_hash": 2017004853,
 		"type_hash": 1677427094,
-		"rarity": 2,
 		"name": "Sergeant's Insignia",
 		"desc": "An insignia with a different shape to distinguish the sergeants from new recruits. Perhaps there are complicated emotions behind it.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"fossilized_bone_shard": {
 		"hoyo_id": 112043,
 		"name_hash": 15453836,
 		"desc_hash": 3645331701,
 		"type_hash": 224846014,
-		"rarity": 4,
 		"name": "Fossilized Bone Shard",
-		"desc": "A fossilized bone fragment sometimes found after defeating Geovishaps.\\nGeovishaps all dream of growing into great dragons one day. They see these fossils as dragon bones and greatly cherish them, perhaps because they too hope to attain the dragons' longevity and power.",
-		"type": "Character Level-Up Material"
+		"desc": "A fossilized bone fragment sometimes found after defeating Geovishaps.\nGeovishaps all dream of growing into great dragons one day. They see these fossils as dragon bones and greatly cherish them, perhaps because they too hope to attain the dragons' longevity and power.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"lieutenants_insignia": {
 		"hoyo_id": 112034,
 		"name_hash": 966140916,
 		"desc_hash": 2021043861,
 		"type_hash": 3046205222,
-		"rarity": 3,
 		"name": "Lieutenant's Insignia",
 		"desc": "An insignia to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"whopperflower_nectar": {
 		"hoyo_id": 112038,
 		"name_hash": 3308824804,
 		"desc_hash": 2741080885,
 		"type_hash": 4035022534,
-		"rarity": 1,
 		"name": "Whopperflower Nectar",
-		"desc": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elemental energy.\\nThe taste of the nectar has a hint of Sweet Flower in it.",
-		"type": "Character Level-Up Material"
+		"desc": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elemental energy.\nThe taste of the nectar has a hint of Sweet Flower in it.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 1
 	},
 	"shimmering_nectar": {
 		"hoyo_id": 112039,
 		"name_hash": 3355821404,
 		"desc_hash": 218630093,
 		"type_hash": 2841546974,
-		"rarity": 2,
 		"name": "Shimmering Nectar",
-		"desc": "Nectar that is full of pure elemental energy.\\nScholars generally concur that Whopperflowers are advanced life forms among the elemental plants, but there has yet to be a satisfactory explanation regarding their predatory habits.",
-		"type": "Character Level-Up Material"
+		"desc": "Nectar that is full of pure elemental energy.\nScholars generally concur that Whopperflowers are advanced life forms among the elemental plants, but there has yet to be a satisfactory explanation regarding their predatory habits.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"energy_nectar": {
 		"hoyo_id": 112040,
 		"name_hash": 2460819340,
 		"desc_hash": 1574471261,
 		"type_hash": 1039434038,
-		"rarity": 3,
 		"name": "Energy Nectar",
-		"desc": "A thick and sticky honey that is full of energy.\\nThe Whopperflower hunts by tricking its prey, a process it uses to possibly evolve into a more powerful and pure form.",
-		"type": "Character Level-Up Material"
+		"desc": "A thick and sticky honey that is full of energy.\nThe Whopperflower hunts by tricking its prey, a process it uses to possibly evolve into a more powerful and pure form.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"chaos_gear": {
 		"hoyo_id": 112047,
 		"name_hash": 3388706660,
 		"desc_hash": 3936071133,
 		"type_hash": 1582229062,
-		"rarity": 2,
 		"name": "Chaos Gear",
-		"desc": "Comes from a now-inactive ancient Ruin machine.\\nThis is the energy source of that biomimetic mechanism.",
-		"type": "Character Level-Up Material"
+		"desc": "Comes from a now-inactive ancient Ruin machine.\nThis is the energy source of that biomimetic mechanism.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"old_handguard": {
 		"hoyo_id": 112044,
 		"name_hash": 3548930732,
 		"desc_hash": 2467699405,
 		"type_hash": 590757630,
-		"rarity": 1,
 		"name": "Old Handguard",
-		"desc": "A battle-worn handguard that was once mounted on an Inazuman blade.\\nFor those adept in the art of the sword, the tsuba is a defense from the edge of an opponent's blade. For beginners, it is a defense made for their own right hand, to protect it from itself.",
-		"type": "Character Level-Up Material"
+		"desc": "A battle-worn handguard that was once mounted on an Inazuman blade.\nFor those adept in the art of the sword, the tsuba is a defense from the edge of an opponent's blade. For beginners, it is a defense made for their own right hand, to protect it from itself.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 1
 	},
 	"chaos_axis": {
 		"hoyo_id": 112048,
 		"name_hash": 3527434436,
 		"desc_hash": 2335646965,
 		"type_hash": 2482912046,
-		"rarity": 3,
 		"name": "Chaos Axis",
-		"desc": "Comes from a now-inactive ancient Ruin machine.\\nEven the great techniques and unknown power of this device must come to nothing should the machine that contained them ever fail to maintain structural integrity.",
-		"type": "Character Level-Up Material"
+		"desc": "Comes from a now-inactive ancient Ruin machine.\nEven the great techniques and unknown power of this device must come to nothing should the machine that contained them ever fail to maintain structural integrity.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"kageuchi_handguard": {
 		"hoyo_id": 112045,
 		"name_hash": 832899108,
 		"desc_hash": 1535133693,
 		"type_hash": 949325798,
-		"rarity": 2,
 		"name": "Kageuchi Handguard",
-		"desc": "A handguard mounded upon a sword of some distinction.\\nInazuma has a long tradition of sword-making. When making swords, smiths will often make several different weapons at once, before choosing from among them the \"shinuchi,\" or the best weapon, while the others are known as \"kageuchi.\"",
-		"type": "Character Level-Up Material"
+		"desc": "A handguard mounded upon a sword of some distinction.\nInazuma has a long tradition of sword-making. When making swords, smiths will often make several different weapons at once, before choosing from among them the \"shinuchi,\" or the best weapon, while the others are known as \"kageuchi.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"chaos_oculus": {
 		"hoyo_id": 112049,
 		"name_hash": 758596260,
 		"desc_hash": 524396829,
 		"type_hash": 1011610926,
-		"rarity": 4,
 		"name": "Chaos Oculus",
-		"desc": "Comes from a now-inactive ancient Ruin machine.\\nThe \"Ruin\" part of the name comes from the areas where they are most active. However, Ruin machines actually have little in common with the detritus in which they are often found.\\nIn the ancient past, these ruins were once part of a civilization mighty enough to almost touch the dome of the firmament, while \"ruin\" still waits in the deep places of the earth, awaiting the order to arise and tread all kingdoms underfoot.",
-		"type": "Character Level-Up Material"
+		"desc": "Comes from a now-inactive ancient Ruin machine.\nThe \"Ruin\" part of the name comes from the areas where they are most active. However, Ruin machines actually have little in common with the detritus in which they are often found.\nIn the ancient past, these ruins were once part of a civilization mighty enough to almost touch the dome of the firmament, while \"ruin\" still waits in the deep places of the earth, awaiting the order to arise and tread all kingdoms underfoot.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"famed_handguard": {
 		"hoyo_id": 112046,
 		"name_hash": 3514697380,
 		"desc_hash": 2792547525,
 		"type_hash": 1872807326,
-		"rarity": 3,
 		"name": "Famed Handguard",
-		"desc": "An intricately-made handguard that was mounted upon a famed weapon.\\nSome believe that swords have souls and lives of their own, and thus deserve their own names. Those who love their blades will be acknowledged by them in turn. But those who see their swords as friends or even lovers should be warned that this relationship is built on death and bloodshed. The passions of those who dance with their blade amid crimson showers must surely be cooled someday by fickle steel.",
-		"type": "Character Level-Up Material"
+		"desc": "An intricately-made handguard that was mounted upon a famed weapon.\nSome believe that swords have souls and lives of their own, and thus deserve their own names. Those who love their blades will be acknowledged by them in turn. But those who see their swords as friends or even lovers should be warned that this relationship is built on death and bloodshed. The passions of those who dance with their blade amid crimson showers must surely be cooled someday by fickle steel.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"gloomy_statuette": {
 		"hoyo_id": 112017,
 		"name_hash": 352394668,
 		"desc_hash": 2988255053,
 		"type_hash": 2791122030,
-		"rarity": 2,
 		"name": "Gloomy Statuette",
-		"desc": "An idol made in the likeness of some unknown person.\\nEven though this carving has seen many years pass, it still has not been damaged in any way. It seems that its previous owner must have cherished it like some holy icon.",
-		"type": "Character Level-Up Material"
+		"desc": "An idol made in the likeness of some unknown person.\nEven though this carving has seen many years pass, it still has not been damaged in any way. It seems that its previous owner must have cherished it like some holy icon.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"spectral_husk": {
 		"hoyo_id": 112053,
 		"name_hash": 2130054892,
 		"desc_hash": 417533509,
 		"type_hash": 688136726,
-		"rarity": 1,
 		"name": "Spectral Husk",
-		"desc": "An energy core that allows the Specters to float. It contains a small amount of elemental energy.\\nMost of the rest has already dispersed.",
-		"type": "Character Level-Up Material"
+		"desc": "An energy core that allows the Specters to float. It contains a small amount of elemental energy.\nMost of the rest has already dispersed.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 1
 	},
 	"dark_statuette": {
 		"hoyo_id": 112018,
 		"name_hash": 3743954164,
 		"desc_hash": 2569817933,
 		"type_hash": 2122558462,
-		"rarity": 3,
 		"name": "Dark Statuette",
-		"desc": "An idol made in the likeness of some unknown, one-eyed person.\\nYou can feel a strange warmth emanating from within as you hold onto it, like the shoulder of a dear friend. Perhaps this icon can indeed give people who understand its significance the courage to carry on.",
-		"type": "Character Level-Up Material"
+		"desc": "An idol made in the likeness of some unknown, one-eyed person.\nYou can feel a strange warmth emanating from within as you hold onto it, like the shoulder of a dear friend. Perhaps this icon can indeed give people who understand its significance the courage to carry on.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"spectral_heart": {
 		"hoyo_id": 112054,
 		"name_hash": 4256517428,
 		"desc_hash": 3530247109,
 		"type_hash": 181106614,
-		"rarity": 2,
 		"name": "Spectral Heart",
-		"desc": "An energy core that allows the Specters to float.\\nThese elemental life-forms have strange behavioral patterns and will periodically surge in number before disappearing.",
-		"type": "Character Level-Up Material"
+		"desc": "An energy core that allows the Specters to float.\nThese elemental life-forms have strange behavioral patterns and will periodically surge in number before disappearing.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"deathly_statuette": {
 		"hoyo_id": 112019,
 		"name_hash": 341144756,
 		"desc_hash": 2427635053,
 		"type_hash": 3826738814,
-		"rarity": 4,
 		"name": "Deathly Statuette",
-		"desc": "A one-eyed carving that emanates an ominous energy, with no indication of what it's made of.\\nAs you gaze upon this idol, you can almost hear a strange, comforting whisper...\\n\"See, my child. All that lies under the throne of heaven shall be destroyed by upheaval. The eternal peace of the pitch-dark void shall embrace us all.\"",
-		"type": "Character Level-Up Material"
+		"desc": "A one-eyed carving that emanates an ominous energy, with no indication of what it's made of.\nAs you gaze upon this idol, you can almost hear a strange, comforting whisper...\n\"See, my child. All that lies under the throne of heaven shall be destroyed by upheaval. The eternal peace of the pitch-dark void shall embrace us all.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"spectral_nucleus": {
 		"hoyo_id": 112055,
 		"name_hash": 3049633276,
 		"desc_hash": 1209406221,
 		"type_hash": 2868189750,
-		"rarity": 3,
 		"name": "Spectral Nucleus",
-		"desc": "A complete energy core that can sometimes be found after defeating Specters.\\nThere is a debate among those who just have to divide the world into winners and losers: what floats better \u2014 a Specter or an Anemo Slime?",
-		"type": "Character Level-Up Material"
+		"desc": "A complete energy core that can sometimes be found after defeating Specters.\nThere is a debate among those who just have to divide the world into winners and losers: what floats better \u2014 a Specter or an Anemo Slime?",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"concealed_claw": {
 		"hoyo_id": 112056,
 		"name_hash": 1491574284,
 		"desc_hash": 3615068437,
 		"type_hash": 1400992934,
-		"rarity": 2,
 		"name": "Concealed Claw",
-		"desc": "Residual body tissue left behind by one of the Riftwolves.\\nBy ordinary logic, these objects, so alien to this world, should not have remained behind after these abnormal creatures were excised from the land.",
-		"type": "Character Level-Up Material"
+		"desc": "Residual body tissue left behind by one of the Riftwolves.\nBy ordinary logic, these objects, so alien to this world, should not have remained behind after these abnormal creatures were excised from the land.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"concealed_unguis": {
 		"hoyo_id": 112057,
 		"name_hash": 2393704732,
 		"desc_hash": 2349277565,
 		"type_hash": 1470472518,
-		"rarity": 3,
 		"name": "Concealed Unguis",
-		"desc": "Body tissue left behind by one of the Riftwolves.\\nThough they are quite wondrous indeed, these hunting hounds of \"Alfisol\" are nothing of note before Durin of \"Humus.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Body tissue left behind by one of the Riftwolves.\nThough they are quite wondrous indeed, these hunting hounds of \"Alfisol\" are nothing of note before Durin of \"Humus.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"concealed_talon": {
 		"hoyo_id": 112058,
 		"name_hash": 4240144404,
 		"desc_hash": 2262282141,
 		"type_hash": 1482839350,
-		"rarity": 4,
 		"name": "Concealed Talon",
-		"desc": "A sharp nail left behind by one of the Riftwolves.\\nAll the marvels in the world must pale before \"Cretaceus,\" the greatest work of them all.",
-		"type": "Character Level-Up Material"
+		"desc": "A sharp nail left behind by one of the Riftwolves.\nAll the marvels in the world must pale before \"Cretaceus,\" the greatest work of them all.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"dismal_prism": {
 		"hoyo_id": 112050,
 		"name_hash": 3559934532,
 		"desc_hash": 2730071885,
 		"type_hash": 4097798222,
-		"rarity": 2,
 		"name": "Dismal Prism",
 		"desc": "This was once a prism that could polarize light, but has grown dull through the passing of years.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"crystal_prism": {
 		"hoyo_id": 112051,
 		"name_hash": 277364116,
 		"desc_hash": 2190011613,
 		"type_hash": 730009182,
-		"rarity": 3,
 		"name": "Crystal Prism",
-		"desc": "A prism that can bend light.\\nIllusory images can be made using such prisms, giving such devices \u2014 in a manner of speaking \u2014 the power to sway human hearts.",
-		"type": "Character Level-Up Material"
+		"desc": "A prism that can bend light.\nIllusory images can be made using such prisms, giving such devices \u2014 in a manner of speaking \u2014 the power to sway human hearts.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"polarizing_prism": {
 		"hoyo_id": 112052,
 		"name_hash": 3975732044,
 		"desc_hash": 576602957,
 		"type_hash": 1484779294,
-		"rarity": 4,
 		"name": "Polarizing Prism",
-		"desc": "A prism that can bend light.\\nIn the darkness, these prisms can spread thin light into a wider area. Perhaps this is due to this quirk that these prisms can grant a measure of peace to those whose hearts are oft shrouded in darkness.",
-		"type": "Character Level-Up Material"
+		"desc": "A prism that can bend light.\nIn the darkness, these prisms can spread thin light into a wider area. Perhaps this is due to this quirk that these prisms can grant a measure of peace to those whose hearts are oft shrouded in darkness.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"shivada_jade_sliver": {
 		"hoyo_id": 104161,
 		"name_hash": 3090648604,
 		"desc_hash": 709753093,
 		"type_hash": 3746353806,
-		"rarity": 2,
 		"name": "Shivada Jade Sliver",
 		"desc": "Character Ascension Material.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"shivada_jade_fragment": {
 		"hoyo_id": 104162,
 		"name_hash": 2226068148,
 		"desc_hash": 1129611981,
 		"type_hash": 707957702,
-		"rarity": 3,
 		"name": "Shivada Jade Fragment",
-		"desc": "Character Ascension material.\\n\"Sorry...\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"Sorry...\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"perpetual_heart": {
 		"hoyo_id": 113023,
 		"name_hash": 2070124532,
 		"desc_hash": 3621446525,
 		"type_hash": 2442169254,
-		"rarity": 4,
 		"name": "Perpetual Heart",
-		"desc": "The core that powers the autonomous movements of the Perpetual Mechanical Array.\\nSome theorize that the symbols on these cores have knowledge and logic inscribed upon them in a language that eyes cannot perceive. Some go a step further and believe that these unique Ruin machines autonomously decided to forsake a biomimetic form to pursue strength of function on account of their especially large cores and complex inscriptions.",
-		"type": "Character Level-Up Material"
+		"desc": "The core that powers the autonomous movements of the Perpetual Mechanical Array.\nSome theorize that the symbols on these cores have knowledge and logic inscribed upon them in a language that eyes cannot perceive. Some go a step further and believe that these unique Ruin machines autonomously decided to forsake a biomimetic form to pursue strength of function on account of their especially large cores and complex inscriptions.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"shivada_jade_chunk": {
 		"hoyo_id": 104163,
 		"name_hash": 498228604,
 		"desc_hash": 3291195213,
 		"type_hash": 268170478,
-		"rarity": 4,
 		"name": "Shivada Jade Chunk",
-		"desc": "Character Ascension material.\\n\"Sorry...\"\\n\"...to also have you shoulder the grievances of the world.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"Sorry...\"\n\"...to also have you shoulder the grievances of the world.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"shivada_jade_gemstone": {
 		"hoyo_id": 104164,
 		"name_hash": 1494673132,
 		"desc_hash": 4048716093,
 		"type_hash": 1396207830,
-		"rarity": 5,
 		"name": "Shivada Jade Gemstone",
-		"desc": "Character Ascension material.\\n\"Sorry... to also have you shoulder the grievances of the world.\\n\"Since you could endure my bitter cold, you must have the desire to burn?\\n\"Then, burn away the old world for me.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"Sorry... to also have you shoulder the grievances of the world.\n\"Since you could endure my bitter cold, you must have the desire to burn?\n\"Then, burn away the old world for me.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"vayuda_turquoise_sliver": {
 		"hoyo_id": 104151,
 		"name_hash": 3707625380,
 		"desc_hash": 2746572245,
 		"type_hash": 3195536126,
-		"rarity": 2,
 		"name": "Vayuda Turquoise Sliver",
 		"desc": "Character Ascension Material.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"dandelion_seed": {
 		"hoyo_id": 100057,
 		"name_hash": 2071890636,
 		"desc_hash": 15987637,
 		"type_hash": 4261920038,
-		"rarity": 1,
 		"name": "Dandelion Seed",
 		"desc": "A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
-		"type": "Local Specialty (Mondstadt)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Mondstadt)",
+		"rarity": 1
 	},
 	"vayuda_turquoise_fragment": {
 		"hoyo_id": 104152,
 		"name_hash": 2146025036,
 		"desc_hash": 333729461,
 		"type_hash": 4196035478,
-		"rarity": 3,
 		"name": "Vayuda Turquoise Fragment",
-		"desc": "Character Ascension material.\\n\"Still, the winds change direction.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"Still, the winds change direction.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"hurricane_seed": {
 		"hoyo_id": 113001,
 		"name_hash": 3449150084,
 		"desc_hash": 2452259045,
 		"type_hash": 3333412542,
-		"rarity": 4,
 		"name": "Hurricane Seed",
-		"desc": "The imploded form of an Anemo Hypostasis upon its defeat.\\nContains the essence of Anemo energy.\\nIt is said that the power to create hurricanes resides within its seemingly fragile body. This butterfly of pure Anemo energy must surely be waiting for the day when it can conjure up storms once again.",
-		"type": "Character Level-Up Material"
+		"desc": "The imploded form of an Anemo Hypostasis upon its defeat.\nContains the essence of Anemo energy.\nIt is said that the power to create hurricanes resides within its seemingly fragile body. This butterfly of pure Anemo energy must surely be waiting for the day when it can conjure up storms once again.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"vayuda_turquoise_chunk": {
 		"hoyo_id": 104153,
 		"name_hash": 4211103924,
 		"desc_hash": 4004502797,
 		"type_hash": 1638437654,
-		"rarity": 4,
 		"name": "Vayuda Turquoise Chunk",
-		"desc": "Character Ascension material.\\n\"Still, the winds change direction.\\nSomeday, they will blow towards a brighter future...\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"Still, the winds change direction.\nSomeday, they will blow towards a brighter future...\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"vayuda_turquoise_gemstone": {
 		"hoyo_id": 104154,
 		"name_hash": 995014132,
 		"desc_hash": 4026021989,
 		"type_hash": 833759174,
-		"rarity": 5,
 		"name": "Vayuda Turquoise Gemstone",
-		"desc": "Character Ascension material.\\n\"Still, the winds change direction.\\n\"Someday, they will blow towards a brighter future...\\n\"Take my blessings and live leisurely from this day onward.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"Still, the winds change direction.\n\"Someday, they will blow towards a brighter future...\n\"Take my blessings and live leisurely from this day onward.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"brilliant_diamond_sliver": {
 		"hoyo_id": 104101,
 		"name_hash": 1542620268,
 		"desc_hash": 933297341,
 		"type_hash": 861909702,
-		"rarity": 2,
 		"name": "Brilliant Diamond Sliver",
-		"desc": "Character Ascension material.\\n\"Welcome to this world.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"Welcome to this world.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"windwheel_aster": {
 		"hoyo_id": 100024,
 		"name_hash": 3920833836,
 		"desc_hash": 1319275901,
 		"type_hash": 2350560246,
-		"rarity": 1,
 		"name": "Windwheel Aster",
 		"desc": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
-		"type": "Local Specialty (Mondstadt)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Mondstadt)",
+		"rarity": 1
 	},
 	"brilliant_diamond_fragment": {
 		"hoyo_id": 104102,
 		"name_hash": 311931636,
 		"desc_hash": 4075401837,
 		"type_hash": 95156942,
-		"rarity": 3,
 		"name": "Brilliant Diamond Fragment",
-		"desc": "Character Ascension material.\\n\"Welcome to this world.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"Welcome to this world.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"brilliant_diamond_chunk": {
 		"hoyo_id": 104103,
 		"name_hash": 3015246748,
 		"desc_hash": 174676045,
 		"type_hash": 819771766,
-		"rarity": 4,
 		"name": "Brilliant Diamond Chunk",
-		"desc": "Character Ascension material.\\n\"Welcome to this world.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"Welcome to this world.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"brilliant_diamond_gemstone": {
 		"hoyo_id": 104104,
 		"name_hash": 841425532,
 		"desc_hash": 463155357,
 		"type_hash": 2123487590,
-		"rarity": 5,
 		"name": "Brilliant Diamond Gemstone",
-		"desc": "Character Ascension material.\\n\"Welcome to this world.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"Welcome to this world.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"vajrada_amethyst_sliver": {
 		"hoyo_id": 104141,
 		"name_hash": 1830354268,
 		"desc_hash": 2953328213,
 		"type_hash": 3290211302,
-		"rarity": 2,
 		"name": "Vajrada Amethyst Sliver",
 		"desc": "Character Ascension Material.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"valberry": {
 		"hoyo_id": 100022,
 		"name_hash": 2722402356,
 		"desc_hash": 1671208557,
 		"type_hash": 1457232182,
-		"rarity": 1,
 		"name": "Valberry",
 		"desc": "A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the storm watchers' only solace was the sweetness of this fruit and hope for the city's peace.",
-		"type": "Local Specialty (Mondstadt)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Mondstadt)",
+		"rarity": 1
 	},
 	"vajrada_amethyst_fragment": {
 		"hoyo_id": 104142,
 		"name_hash": 146485284,
 		"desc_hash": 4045371981,
 		"type_hash": 2455675454,
-		"rarity": 3,
 		"name": "Vajrada Amethyst Fragment",
-		"desc": "Character Ascension material.\\n\"This body is the noblest and most eminent of all in this world.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"This body is the noblest and most eminent of all in this world.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"lightning_prism": {
 		"hoyo_id": 113002,
 		"name_hash": 3227388316,
 		"desc_hash": 3979596805,
 		"type_hash": 3322423454,
-		"rarity": 4,
 		"name": "Lightning Prism",
-		"desc": "An Electro Hypostasis channels nearby elemental energy to repair damaged elemental entities. Contains the essence of Electro energy.\\nAn ordinary prism separates white light into its component colors; a Lightning Prism, however, channels flowing energies and weaves them into lightning. It will continue to do so even after the Electro Hypostasis has been defeated.",
-		"type": "Character Level-Up Material"
+		"desc": "An Electro Hypostasis channels nearby elemental energy to repair damaged elemental entities. Contains the essence of Electro energy.\nAn ordinary prism separates white light into its component colors; a Lightning Prism, however, channels flowing energies and weaves them into lightning. It will continue to do so even after the Electro Hypostasis has been defeated.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"vajrada_amethyst_chunk": {
 		"hoyo_id": 104143,
 		"name_hash": 2323057604,
 		"desc_hash": 781196901,
 		"type_hash": 40897382,
-		"rarity": 4,
 		"name": "Vajrada Amethyst Chunk",
-		"desc": "Character Ascension material.\\n\"This body is the noblest and most eminent of all in this world.\\nIt should hold absolute control over this world.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"This body is the noblest and most eminent of all in this world.\nIt should hold absolute control over this world.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"vajrada_amethyst_gemstone": {
 		"hoyo_id": 104144,
 		"name_hash": 2377787012,
 		"desc_hash": 2850939413,
 		"type_hash": 2198537486,
-		"rarity": 5,
 		"name": "Vajrada Amethyst Gemstone",
-		"desc": "Character Ascension material.\\n\"This body is the noblest and most eminent of all in this world.\\n\"It should hold absolute control over this world.\\n\"It once promised its people a dream: the never-changing 'eternity.'\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"This body is the noblest and most eminent of all in this world.\n\"It should hold absolute control over this world.\n\"It once promised its people a dream: the never-changing 'eternity.'\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"varunada_lazurite_sliver": {
 		"hoyo_id": 104121,
 		"name_hash": 805672532,
 		"desc_hash": 443877269,
 		"type_hash": 3069989150,
-		"rarity": 2,
 		"name": "Varunada Lazurite Sliver",
 		"desc": "Character Ascension Material.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"philanemo_mushroom": {
 		"hoyo_id": 100025,
 		"name_hash": 873400996,
 		"desc_hash": 3486342821,
 		"type_hash": 3265785278,
-		"rarity": 1,
 		"name": "Philanemo Mushroom",
 		"desc": "A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
-		"type": "Local Specialty (Mondstadt)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Mondstadt)",
+		"rarity": 1
 	},
 	"varunada_lazurite_fragment": {
 		"hoyo_id": 104122,
 		"name_hash": 3993365836,
 		"desc_hash": 3249670173,
 		"type_hash": 603836934,
-		"rarity": 3,
 		"name": "Varunada Lazurite Fragment",
-		"desc": "Character Ascension material.\\n\"My ideals have no stains.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"My ideals have no stains.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"cleansing_heart": {
 		"hoyo_id": 113012,
 		"name_hash": 1435804524,
 		"desc_hash": 3287433581,
 		"type_hash": 529615022,
-		"rarity": 4,
 		"name": "Cleansing Heart",
-		"desc": "A palmful of eternal water left by an oceanid.\\nThough it has already diffused among the depths of the lake, its purity remains all the same. But why would a creature so pure and clean as an oceanid covet the appearance of a being that roams the land, and assume such a form with pure water? They need not breathe nor do they require sustenance...",
-		"type": "Character Level-Up Material"
+		"desc": "A palmful of eternal water left by an oceanid.\nThough it has already diffused among the depths of the lake, its purity remains all the same. But why would a creature so pure and clean as an oceanid covet the appearance of a being that roams the land, and assume such a form with pure water? They need not breathe nor do they require sustenance...",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"varunada_lazurite_chunk": {
 		"hoyo_id": 104123,
 		"name_hash": 1384566356,
 		"desc_hash": 399276805,
 		"type_hash": 2825543254,
-		"rarity": 4,
 		"name": "Varunada Lazurite Chunk",
-		"desc": "Character Ascension material.\\n\"My ideals have no stains.\\nI must correct you. People here bear no sins in the eyes of the gods...\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"My ideals have no stains.\nI must correct you. People here bear no sins in the eyes of the gods...\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"varunada_lazurite_gemstone": {
 		"hoyo_id": 104124,
 		"name_hash": 1417433532,
 		"desc_hash": 3411980589,
 		"type_hash": 1852778910,
-		"rarity": 5,
 		"name": "Varunada Lazurite Gemstone",
-		"desc": "Character Ascension material.\\n\"My ideals have no stains.\\nI must correct you. People here bear no sins in the eyes of the gods... Only laws and the Tribunal can judge someone.\\nThey can judge even me. So praise my magnificence and purity.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"My ideals have no stains.\nI must correct you. People here bear no sins in the eyes of the gods... Only laws and the Tribunal can judge someone.\nThey can judge even me. So praise my magnificence and purity.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"hoarfrost_core": {
 		"hoyo_id": 113010,
 		"name_hash": 386158132,
 		"desc_hash": 4105189149,
 		"type_hash": 3269935558,
-		"rarity": 4,
 		"name": "Hoarfrost Core",
-		"desc": "The exposed core of a defeated Cryo Regisvine. Pure Cryo energy is contained within it.\\nEnergy and thoughts that swell deep within the earth will eventually erupt on the surface. Even the deathly silent frost will attach to living things on the ground, turning even ordinary vegetation like vines into huge, vicious predators.",
-		"type": "Character Level-Up Material"
+		"desc": "The exposed core of a defeated Cryo Regisvine. Pure Cryo energy is contained within it.\nEnergy and thoughts that swell deep within the earth will eventually erupt on the surface. Even the deathly silent frost will attach to living things on the ground, turning even ordinary vegetation like vines into huge, vicious predators.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"agnidus_agate_sliver": {
 		"hoyo_id": 104111,
 		"name_hash": 2483376012,
 		"desc_hash": 1498012061,
 		"type_hash": 3522628526,
-		"rarity": 2,
 		"name": "Agnidus Agate Sliver",
 		"desc": "Character Ascension Material.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"agnidus_agate_fragment": {
 		"hoyo_id": 104112,
 		"name_hash": 3100999548,
 		"desc_hash": 3011752221,
 		"type_hash": 1757926054,
-		"rarity": 3,
 		"name": "Agnidus Agate Fragment",
-		"desc": "Character Ascension material.\\n\"A pilgrimage for a wish; a battle to earn a name...\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"A pilgrimage for a wish; a battle to earn a name...\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"everflame_seed": {
 		"hoyo_id": 113011,
 		"name_hash": 988997460,
 		"desc_hash": 2537332765,
 		"type_hash": 2119896214,
-		"rarity": 4,
 		"name": "Everflame Seed",
-		"desc": "A seed that fuels the unending flames of the Pyro Regisvine. It emits Pyro energy as if it will burn all that has ever sprouted from the ground.\\nEndless desires flow among turbulent energy deep within the earth. What desire could steadily hold such fire to the plants and long so eagerly to bathe everything in unquenchable flames?",
-		"type": "Character Level-Up Material"
+		"desc": "A seed that fuels the unending flames of the Pyro Regisvine. It emits Pyro energy as if it will burn all that has ever sprouted from the ground.\nEndless desires flow among turbulent energy deep within the earth. What desire could steadily hold such fire to the plants and long so eagerly to bathe everything in unquenchable flames?",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"agnidus_agate_chunk": {
 		"hoyo_id": 104113,
 		"name_hash": 3381793068,
 		"desc_hash": 2010861997,
 		"type_hash": 3957066422,
-		"rarity": 4,
 		"name": "Agnidus Agate Chunk",
-		"desc": "Character Ascension material.\\n\"A pilgrimage for a wish; a battle to earn a name...\\nBurnt to cinders for a dream.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"A pilgrimage for a wish; a battle to earn a name...\nBurnt to cinders for a dream.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"agnidus_agate_gemstone": {
 		"hoyo_id": 104114,
 		"name_hash": 2914841348,
 		"desc_hash": 1915254717,
 		"type_hash": 3328983222,
-		"rarity": 5,
 		"name": "Agnidus Agate Gemstone",
-		"desc": "Character Ascension material.\\n\"A pilgrimage for a wish; a battle to earn a name...\\nBurnt to cinders for a dream.\\nIf the intention yet remains, achieved \u2588\u2588's truth he has.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"A pilgrimage for a wish; a battle to earn a name...\nBurnt to cinders for a dream.\nIf the intention yet remains, achieved \u2588\u2588's truth he has.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"wolfhook": {
 		"hoyo_id": 100021,
 		"name_hash": 1372081476,
 		"desc_hash": 1053197341,
 		"type_hash": 3287960358,
-		"rarity": 1,
 		"name": "Wolfhook",
 		"desc": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
-		"type": "Local Specialty (Mondstadt)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Mondstadt)",
+		"rarity": 1
 	},
 	"cecilia": {
 		"hoyo_id": 100023,
 		"name_hash": 3828726124,
 		"desc_hash": 4158848845,
 		"type_hash": 860890038,
-		"rarity": 1,
 		"name": "Cecilia",
 		"desc": "A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
-		"type": "Local Specialty (Mondstadt)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Mondstadt)",
+		"rarity": 1
 	},
 	"noctilucous_jade": {
 		"hoyo_id": 100028,
 		"name_hash": 2726159796,
 		"desc_hash": 4076851765,
 		"type_hash": 3245788990,
-		"rarity": 1,
 		"name": "Noctilucous Jade",
 		"desc": "A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
-		"type": "Local Specialty (Liyue)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Liyue)",
+		"rarity": 1
 	},
 	"silk_flower": {
 		"hoyo_id": 100029,
 		"name_hash": 1404683740,
 		"desc_hash": 3275996413,
 		"type_hash": 394480022,
-		"rarity": 1,
 		"name": "Silk Flower",
 		"desc": "A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric.",
-		"type": "Local Specialty (Liyue)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Liyue)",
+		"rarity": 1
 	},
 	"juvenile_jade": {
 		"hoyo_id": 113016,
 		"name_hash": 4143495132,
 		"desc_hash": 3388452565,
 		"type_hash": 2198254886,
-		"rarity": 4,
 		"name": "Juvenile Jade",
-		"desc": "A crystalline substance taken from a Primo Geovishap. Within it is contained the potential to become a dragon.\\nThese dull crystals are precipitated within the bodies of vishaps sleeping in the mountains. Liyue folklore holds that they will gather power over many years, after which this crystal will, at last, replace their original heart, and the vishap will become a true dragon \u2014 one that can shake the mountains and split the earth.",
-		"type": "Character Level-Up Material"
+		"desc": "A crystalline substance taken from a Primo Geovishap. Within it is contained the potential to become a dragon.\nThese dull crystals are precipitated within the bodies of vishaps sleeping in the mountains. Liyue folklore holds that they will gather power over many years, after which this crystal will, at last, replace their original heart, and the vishap will become a true dragon \u2014 one that can shake the mountains and split the earth.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"prithiva_topaz_sliver": {
 		"hoyo_id": 104171,
 		"name_hash": 1612219044,
 		"desc_hash": 3311880309,
 		"type_hash": 1708136022,
-		"rarity": 2,
 		"name": "Prithiva Topaz Sliver",
 		"desc": "Character Ascension Material.",
-		"type": "Character Level-Up Material"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 2
 	},
 	"glaze_lily": {
 		"hoyo_id": 100030,
 		"name_hash": 4012901404,
 		"desc_hash": 2013988533,
 		"type_hash": 2467021822,
-		"rarity": 1,
 		"name": "Glaze Lily",
 		"desc": "An extremely ancient flower that was said to be commonly seen in Liyue. It transforms the memories of the land into its fragrance during florescence.",
-		"type": "Local Specialty (Liyue)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Liyue)",
+		"rarity": 1
 	},
 	"prithiva_topaz_fragment": {
 		"hoyo_id": 104172,
 		"name_hash": 401353956,
 		"desc_hash": 1260726741,
 		"type_hash": 880670694,
-		"rarity": 3,
 		"name": "Prithiva Topaz Fragment",
-		"desc": "Character Ascension material.\\n\"The currencies that flow through this land are my flesh and blood.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"The currencies that flow through this land are my flesh and blood.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 3
 	},
 	"basalt_pillar": {
 		"hoyo_id": 113009,
 		"name_hash": 1165077972,
 		"desc_hash": 2904963013,
 		"type_hash": 2485704030,
-		"rarity": 4,
 		"name": "Basalt Pillar",
-		"desc": "A pillar formed by the shell of a Geo Hypostasis, composed of high-density Geo energy.\\nIt is a testament to Geo's status as the heaviest of the elements. Maybe the reason a Geo Hypostasis creates this pillar out of its shell and raises itself is just to get closer to the sky, not to combat enemies.",
-		"type": "Character Level-Up Material"
+		"desc": "A pillar formed by the shell of a Geo Hypostasis, composed of high-density Geo energy.\nIt is a testament to Geo's status as the heaviest of the elements. Maybe the reason a Geo Hypostasis creates this pillar out of its shell and raises itself is just to get closer to the sky, not to combat enemies.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"prithiva_topaz_chunk": {
 		"hoyo_id": 104173,
 		"name_hash": 131508644,
 		"desc_hash": 563629197,
 		"type_hash": 176899798,
-		"rarity": 4,
 		"name": "Prithiva Topaz Chunk",
-		"desc": "Character Ascension material.\\n\"The currencies that flow through this land are my flesh and blood.\\nFor thus did I become the guarantor of the people's hard work, wisdom, and future.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"The currencies that flow through this land are my flesh and blood.\nFor thus did I become the guarantor of the people's hard work, wisdom, and future.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"prithiva_topaz_gemstone": {
 		"hoyo_id": 104174,
 		"name_hash": 2186134900,
 		"desc_hash": 2317526541,
 		"type_hash": 2069911766,
-		"rarity": 5,
 		"name": "Prithiva Topaz Gemstone",
-		"desc": "Character Ascension material.\\n\"The currencies that flow through this land are my flesh and blood.\\nFor thus did I become the guarantor of the people's hard work, wisdom, and future.\\nThis is the trust I have placed in them. Betray it, and you taint my blood.\"",
-		"type": "Character Level-Up Material"
+		"desc": "Character Ascension material.\n\"The currencies that flow through this land are my flesh and blood.\nFor thus did I become the guarantor of the people's hard work, wisdom, and future.\nThis is the trust I have placed in them. Betray it, and you taint my blood.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"cor_lapis": {
 		"hoyo_id": 100058,
 		"name_hash": 2764520484,
 		"desc_hash": 1580467853,
 		"type_hash": 1127145758,
-		"rarity": 1,
 		"name": "Cor Lapis",
 		"desc": "A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
-		"type": "Local Specialty (Liyue)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Liyue)",
+		"rarity": 1
 	},
 	"starconch": {
 		"hoyo_id": 100033,
 		"name_hash": 1463427644,
 		"desc_hash": 2199597669,
 		"type_hash": 2737799422,
-		"rarity": 1,
 		"name": "Starconch",
 		"desc": "Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
-		"type": "Local Specialty (Liyue)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Liyue)",
+		"rarity": 1
 	},
 	"sea_ganoderma": {
 		"hoyo_id": 101206,
 		"name_hash": 4094015444,
 		"desc_hash": 3660134429,
 		"type_hash": 1423325774,
-		"rarity": 1,
 		"name": "Sea Ganoderma",
 		"desc": "A plant species that only grows in certain regions and islands of the ocean. Though it looks like a fungus of some sort, it actually comes from a substance secreted by certain soft-bodied organisms.",
-		"type": "Local Specialty (Inazuma)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Inazuma)",
+		"rarity": 1
 	},
 	"marionette_core": {
 		"hoyo_id": 113022,
 		"name_hash": 3762412924,
 		"desc_hash": 2748808181,
 		"type_hash": 2652506662,
-		"rarity": 4,
 		"name": "Marionette Core",
-		"desc": "This core can power the inorganic Maguu Kenki and cause it to wield a blade like a living being.\\nFlesh decays, and with it decay all martial arts mastery and all poignant memories.\\nPerhaps only by converting one's four limbs and body into sturdy mechanical parts, and by at last sacrificing one's very own heart for a sophisticated mechanical one, can one transcend the impermanence of the fleshly form...",
-		"type": "Character Level-Up Material"
+		"desc": "This core can power the inorganic Maguu Kenki and cause it to wield a blade like a living being.\nFlesh decays, and with it decay all martial arts mastery and all poignant memories.\nPerhaps only by converting one's four limbs and body into sturdy mechanical parts, and by at last sacrificing one's very own heart for a sophisticated mechanical one, can one transcend the impermanence of the fleshly form...",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"naku_weed": {
 		"hoyo_id": 101205,
 		"name_hash": 3623663804,
 		"desc_hash": 3834988877,
 		"type_hash": 1774647742,
-		"rarity": 1,
 		"name": "Naku Weed",
 		"desc": "Even on windless days, this plant will tremble lightly amid the cries of thunder. The parts of it that resemble petals are in fact extensions of the leaves meant to protect the fragile flower.",
-		"type": "Local Specialty (Inazuma)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Inazuma)",
+		"rarity": 1
 	},
 	"smoldering_pearl": {
 		"hoyo_id": 113024,
 		"name_hash": 2056318452,
 		"desc_hash": 2302196269,
 		"type_hash": 2128823118,
-		"rarity": 4,
 		"name": "Smoldering Pearl",
-		"desc": "A crystallization of a Pyro Hypostasis that constantly emits heat.\\nEven the burning flames shall one day grow cold, and even the ashen firewood can will itself back into a raging blaze. It must then be the will of the world that Pyro Hypostases should constantly cool down and heat up, much like the universe teems with endless life... until the fated darkness shall one day descend and bring it all to naught.",
-		"type": "Character Level-Up Material"
+		"desc": "A crystallization of a Pyro Hypostasis that constantly emits heat.\nEven the burning flames shall one day grow cold, and even the ashen firewood can will itself back into a raging blaze. It must then be the will of the world that Pyro Hypostases should constantly cool down and heat up, much like the universe teems with endless life... until the fated darkness shall one day descend and bring it all to naught.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"fluorescent_fungus": {
 		"hoyo_id": 101209,
 		"name_hash": 3996650316,
 		"desc_hash": 3804956637,
 		"type_hash": 55918582,
-		"rarity": 1,
 		"name": "Fluorescent Fungus",
 		"desc": "A mushroom that glows like a night-light. Some curious power lies hidden within it.",
-		"type": "Local Specialty (Inazuma)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Inazuma)",
+		"rarity": 1
 	},
 	"crystalline_bloom": {
 		"hoyo_id": 113020,
 		"name_hash": 3851624660,
 		"desc_hash": 3118890677,
 		"type_hash": 4287067726,
-		"rarity": 4,
 		"name": "Crystalline Bloom",
-		"desc": "An ice crystal of exceeding purity that is created in the frigid blooming of a Cryo Hypostasis.\\nThese frosty crystals will continue to grow according to their own cold, rigid laws, till one day a flower of winter shall bloom and freeze everything. Perhaps it is stagnant time, that never-thawing bosom, that is the essence of this undying flower.",
-		"type": "Character Level-Up Material"
+		"desc": "An ice crystal of exceeding purity that is created in the frigid blooming of a Cryo Hypostasis.\nThese frosty crystals will continue to grow according to their own cold, rigid laws, till one day a flower of winter shall bloom and freeze everything. Perhaps it is stagnant time, that never-thawing bosom, that is the essence of this undying flower.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"amakumo_fruit": {
 		"hoyo_id": 101208,
 		"name_hash": 3862594948,
 		"desc_hash": 1880079693,
 		"type_hash": 378289254,
-		"rarity": 1,
 		"name": "Amakumo Fruit",
 		"desc": "The fruit of the Amakumo Grass, which grows on Seirai Island. You can hear it crackling with a tiny current if you hold it up to your ear.",
-		"type": "Local Specialty (Inazuma)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Inazuma)",
+		"rarity": 1
 	},
 	"storm_beads": {
 		"hoyo_id": 113029,
 		"name_hash": 1816276316,
 		"desc_hash": 4231365933,
 		"type_hash": 2743528910,
-		"rarity": 4,
 		"name": "Storm Beads",
-		"desc": "Crackling Electro pearls left behind by the Thunder Manifestation.\\nIt is said that Thunder Manifestations will only descend upon lands where powerful hatred dwells. The singers say that it is the unbearable disappointments and sufferings of life that drive them to forever wander the broken earth, unleashing sky-searing lightning as they go.",
-		"type": "Character Level-Up Material"
+		"desc": "Crackling Electro pearls left behind by the Thunder Manifestation.\nIt is said that Thunder Manifestations will only descend upon lands where powerful hatred dwells. The singers say that it is the unbearable disappointments and sufferings of life that drive them to forever wander the broken earth, unleashing sky-searing lightning as they go.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"crystal_marrow": {
 		"hoyo_id": 101203,
 		"name_hash": 307506948,
 		"desc_hash": 2917481525,
 		"type_hash": 84501382,
-		"rarity": 1,
 		"name": "Crystal Marrow",
 		"desc": "A crystal that contains a sliver of Tatarigami power. Adding this material during smelting will greatly increase the strength and toughness of metals.",
-		"type": "Local Specialty (Inazuma)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Inazuma)",
+		"rarity": 1
 	},
 	"sango_pearl": {
 		"hoyo_id": 101207,
 		"name_hash": 4091967268,
 		"desc_hash": 2067948573,
 		"type_hash": 405887550,
-		"rarity": 1,
 		"name": "Sango Pearl",
 		"desc": "A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of the moonlight.",
-		"type": "Local Specialty (Inazuma)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Inazuma)",
+		"rarity": 1
 	},
 	"dew_of_repudiation": {
 		"hoyo_id": 113028,
 		"name_hash": 594984684,
 		"desc_hash": 1429324341,
 		"type_hash": 2627386470,
-		"rarity": 4,
 		"name": "Dew of Repudiation",
-		"desc": "A strange water droplet left behind by the collapse of the Hydro Hypostasis.\\nIt has strong rejection properties, and this forms the basis of one of the Hydro Hypostasis' attack patterns as well. They say that water contains memories and willpower, and that these things can grow when bodies of water meld together. However, the waves conjured by the Hydro Hypostasis are incompatible with the currents that flow above and below ground. Even if it were to flow into the surpassingly pure waters of Petrichor, this drop of water will likely resist assimilation as strongly as mercury.",
-		"type": "Character Level-Up Material"
+		"desc": "A strange water droplet left behind by the collapse of the Hydro Hypostasis.\nIt has strong rejection properties, and this forms the basis of one of the Hydro Hypostasis' attack patterns as well. They say that water contains memories and willpower, and that these things can grow when bodies of water meld together. However, the waves conjured by the Hydro Hypostasis are incompatible with the currents that flow above and below ground. Even if it were to flow into the surpassingly pure waters of Petrichor, this drop of water will likely resist assimilation as strongly as mercury.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"dendrobium": {
 		"hoyo_id": 101204,
 		"name_hash": 354894748,
 		"desc_hash": 1154953229,
 		"type_hash": 4035386726,
-		"rarity": 1,
 		"name": "Dendrobium",
 		"desc": "A vibrant plant that has also been named the \"lycoris\" by the poets. It was once thought extinct in the Inazuman archipelago, only to re-emerge now upon the battlefields. It is said that it blooms most enchantingly where much blood was spilled.",
-		"type": "Local Specialty (Inazuma)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Inazuma)",
+		"rarity": 1
 	},
 	"onikabuto": {
 		"hoyo_id": 101201,
 		"name_hash": 767303644,
 		"desc_hash": 1911169253,
 		"type_hash": 2026871294,
-		"rarity": 1,
 		"name": "Onikabuto",
 		"desc": "A strange beetle that inhabits areas rich with Electro energy. Its docile and sedentary temperament could not be more different from the fierce, demonic visage displayed on its armored shell.",
-		"type": "Local Specialty (Inazuma)"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Local Specialty (Inazuma)",
+		"rarity": 1
 	},
 	"riftborn_regalia": {
 		"hoyo_id": 113030,
 		"name_hash": 2389242444,
 		"desc_hash": 894660461,
 		"type_hash": 2573196686,
-		"rarity": 4,
 		"name": "Riftborn Regalia",
-		"desc": "A broken horn that you obtained from defeating the Wolflord. That said, it should not have left anything behind after your hunt.\\nEven a lord among the Riftwolves is nothing before monsters of a higher pedigree.\\n\"Gold\" mass-produced these malformed wolf packs almost as if by accident, like shrunken drawings on discarded sheets of paper, and the horns on this one represent its authority to command its dark brood to dissolve space itself.",
-		"type": "Character Level-Up Material"
+		"desc": "A broken horn that you obtained from defeating the Wolflord. That said, it should not have left anything behind after your hunt.\nEven a lord among the Riftwolves is nothing before monsters of a higher pedigree.\n\"Gold\" mass-produced these malformed wolf packs almost as if by accident, like shrunken drawings on discarded sheets of paper, and the horns on this one represent its authority to command its dark brood to dissolve space itself.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"dragonheirs_false_fin": {
 		"hoyo_id": 113031,
 		"name_hash": 4014873668,
 		"desc_hash": 1864552173,
 		"type_hash": 972902406,
-		"rarity": 4,
 		"name": "Dragonheir's False Fin",
-		"desc": "A piece of biological tissue that you found after defeating the Bathysmal Vishaps.\\nAlthough it looks like a fin of some kind, it does not actually have any function at all.\\nThe people of Byakuyakoku once investigated the Bathysmal Vishaps quite deeply. Their most distinctive feature was the ability to choose what traits it wished to pass on to its offspring. Because of their great hatred for man-made light sources, these vishaps will lose any visual acuity by the time they reach maturity. At the same time, they have also evolved a certain degree of elemental polymorphism for combat purposes.",
-		"type": "Character Level-Up Material"
+		"desc": "A piece of biological tissue that you found after defeating the Bathysmal Vishaps.\nAlthough it looks like a fin of some kind, it does not actually have any function at all.\nThe people of Byakuyakoku once investigated the Bathysmal Vishaps quite deeply. Their most distinctive feature was the ability to choose what traits it wished to pass on to its offspring. Because of their great hatred for man-made light sources, these vishaps will lose any visual acuity by the time they reach maturity. At the same time, they have also evolved a certain degree of elemental polymorphism for combat purposes.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"runic_fang": {
 		"hoyo_id": 113035,
 		"name_hash": 1692924756,
 		"desc_hash": 4085877189,
 		"type_hash": 66852454,
-		"rarity": 4,
 		"name": "Runic Fang",
-		"desc": "A \"fang\" with which the mysterious, snakelike machine of old dug into mountains' depths. There are many ominous runes carved on it.\\nIt is said that giant serpents lurk in the dark fissures deep beneath the ground. Burning with eternal resentment and malice toward the world above, they throw themselves into digging great tunnels, yet none know what their malicious purposes are...",
-		"type": "Character Level-Up Material"
+		"desc": "A \"fang\" with which the mysterious, snakelike machine of old dug into mountains' depths. There are many ominous runes carved on it.\nIt is said that giant serpents lurk in the dark fissures deep beneath the ground. Burning with eternal resentment and malice toward the world above, they throw themselves into digging great tunnels, yet none know what their malicious purposes are...",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 4
 	},
 	"bloodjade_branch": {
 		"hoyo_id": 113018,
 		"name_hash": 2573932868,
 		"desc_hash": 3985932285,
 		"type_hash": 3272992590,
-		"rarity": 5,
 		"name": "Bloodjade Branch",
-		"desc": "Nurtured by the might of the dragon king, these bone branches glitter with strange, unique colors.\\nHatred coursed through the natural streams and kissed the cold moonlight, and from them were these crystalline branches born and grown...\\nEven though they were severed in battle, these branches steeped in dragon blood rustle as if eternally ill-at-ease.",
-		"type": "Character Level-Up Material"
+		"desc": "Nurtured by the might of the dragon king, these bone branches glitter with strange, unique colors.\nHatred coursed through the natural streams and kissed the cold moonlight, and from them were these crystalline branches born and grown...\nEven though they were severed in battle, these branches steeped in dragon blood rustle as if eternally ill-at-ease.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"crown_of_insight": {
 		"hoyo_id": 104319,
 		"name_hash": 2454933108,
 		"desc_hash": 290910685,
 		"type_hash": 2233633526,
-		"rarity": 5,
 		"name": "Crown of Insight",
-		"desc": "A precious Talent Level-Up material.\\nOnce a medium for the storage and transfer of wisdom in ancient times. Now, wisdom is found in ancient texts and in profound speech. Nevertheless, this Crown of Insight must still be able to impart some transcendent power and wisdom to its bearer.",
-		"type": "Talent Level-Up Material"
+		"desc": "A precious Talent Level-Up material.\nOnce a medium for the storage and transfer of wisdom in ancient times. Now, wisdom is found in ancient texts and in profound speech. Nevertheless, this Crown of Insight must still be able to impart some transcendent power and wisdom to its bearer.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Talent Level-Up Material",
+		"rarity": 5
 	},
 	"dvalins_plume": {
 		"hoyo_id": 113003,
 		"name_hash": 1685239844,
 		"desc_hash": 2834867661,
 		"type_hash": 1968309958,
-		"rarity": 5,
 		"name": "Dvalin's Plume",
-		"desc": "A feather from the tail of the Dragon of the East.\\nAs a dragon's feather it has experienced more than a thousand years' worth of winds. One senses within it a yearning for freedom so strong that it could whip up a light breeze to rescue it from its current confines. Its former owner's recognition of you is what makes it content to stay in your hands.",
-		"type": "Character Level-Up Material"
+		"desc": "A feather from the tail of the Dragon of the East.\nAs a dragon's feather it has experienced more than a thousand years' worth of winds. One senses within it a yearning for freedom so strong that it could whip up a light breeze to rescue it from its current confines. Its former owner's recognition of you is what makes it content to stay in your hands.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"dvalins_sigh": {
 		"hoyo_id": 113005,
 		"name_hash": 3086954228,
 		"desc_hash": 2477667573,
 		"type_hash": 2678865246,
-		"rarity": 5,
 		"name": "Dvalin's Sigh",
-		"desc": "A bit of power taken from the whirlwinds evoked by the Dragon of the East.\\nBeautiful and transparent, both trade winds and tornadoes will work in his name. The winds move as his companion, his voice, and his freedom.\\nHis enemies are the thousands who stand against the wind.",
-		"type": "Character Level-Up Material"
+		"desc": "A bit of power taken from the whirlwinds evoked by the Dragon of the East.\nBeautiful and transparent, both trade winds and tornadoes will work in his name. The winds move as his companion, his voice, and his freedom.\nHis enemies are the thousands who stand against the wind.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"tail_of_boreas": {
 		"hoyo_id": 113006,
 		"name_hash": 2030091732,
 		"desc_hash": 101184701,
 		"type_hash": 3906253966,
-		"rarity": 5,
 		"name": "Tail of Boreas",
-		"desc": "A handful of tail scales from the Great Wolf King of the North.\\nEven without his physical body and beyond death, Boreas still possesses extraordinary powers. He took a form comprised of ice and wind to embrace a new challenge, but even such a form could not house all of his power. The ice scales that fell during the battle still retain some of their spiritual energy.",
-		"type": "Character Level-Up Material"
+		"desc": "A handful of tail scales from the Great Wolf King of the North.\nEven without his physical body and beyond death, Boreas still possesses extraordinary powers. He took a form comprised of ice and wind to embrace a new challenge, but even such a form could not house all of his power. The ice scales that fell during the battle still retain some of their spiritual energy.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"dragon_lords_crown": {
 		"hoyo_id": 113017,
 		"name_hash": 2308936636,
 		"desc_hash": 1663152397,
 		"type_hash": 637514238,
-		"rarity": 5,
 		"name": "Dragon Lord's Crown",
-		"desc": "Horns created from hardened jade crystallized over a thousand years are the natural crown of the dragon king.\\nInfused with spirit and carved from bedrock, it was born from the mountain's heart to show the strength of the earth to the land amidst monoliths, and its long golden horns are the mark of its ancient strife with an ancient lord.\\nFor a time, this horn was shattered and lost its luster, but now it gleams cold and gold as it sits in your palm.",
-		"type": "Character Level-Up Material"
+		"desc": "Horns created from hardened jade crystallized over a thousand years are the natural crown of the dragon king.\nInfused with spirit and carved from bedrock, it was born from the mountain's heart to show the strength of the earth to the land amidst monoliths, and its long golden horns are the mark of its ancient strife with an ancient lord.\nFor a time, this horn was shattered and lost its luster, but now it gleams cold and gold as it sits in your palm.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"dvalins_claw": {
 		"hoyo_id": 113004,
 		"name_hash": 2497474860,
 		"desc_hash": 2575339525,
 		"type_hash": 83705118,
-		"rarity": 5,
 		"name": "Dvalin's Claw",
-		"desc": "A claw from the Dragon of the East.\\nIt once contained the shadow dragon Durin's vile poison, having torn through the latter's flesh in battle. Thanks to your purification and healing, it is no longer toxic.",
-		"type": "Character Level-Up Material"
+		"desc": "A claw from the Dragon of the East.\nIt once contained the shadow dragon Durin's vile poison, having torn through the latter's flesh in battle. Thanks to your purification and healing, it is no longer toxic.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"ring_of_boreas": {
 		"hoyo_id": 113007,
 		"name_hash": 2394085100,
 		"desc_hash": 2900441725,
 		"type_hash": 1032966590,
-		"rarity": 5,
 		"name": "Ring of Boreas",
-		"desc": "A bit of crystallized ice from the Great Wolf King of the North.\\nThis land was once a realm of freezing-cold blizzards and ice storms filled with razor-sharp ice shards, all at the command of Boreas. Though his power may have diminished, he could still freeze the land in an instant.",
-		"type": "Character Level-Up Material"
+		"desc": "A bit of crystallized ice from the Great Wolf King of the North.\nThis land was once a realm of freezing-cold blizzards and ice storms filled with razor-sharp ice shards, all at the command of Boreas. Though his power may have diminished, he could still freeze the land in an instant.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"spirit_locket_of_boreas": {
 		"hoyo_id": 113008,
 		"name_hash": 1836033452,
 		"desc_hash": 418456933,
 		"type_hash": 2230852262,
-		"rarity": 5,
 		"name": "Spirit Locket of Boreas",
-		"desc": "A bit of the Great Wolf King of the North's power drawn from its soul.\\nThis land was once a realm of freezing-cold blizzards and ice storms filled with razor-sharp ice shards, all at the command of Boreas. In his final moments, he finally realized the chilling north wind could only extinguish life, not nurture it. Therefore, Boreas let his powers freely flow into the land to protect it and its inhabitants.",
-		"type": "Character Level-Up Material"
+		"desc": "A bit of the Great Wolf King of the North's power drawn from its soul.\nThis land was once a realm of freezing-cold blizzards and ice storms filled with razor-sharp ice shards, all at the command of Boreas. In his final moments, he finally realized the chilling north wind could only extinguish life, not nurture it. Therefore, Boreas let his powers freely flow into the land to protect it and its inhabitants.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"shadow_of_the_warrior": {
 		"hoyo_id": 113015,
 		"name_hash": 4138714844,
 		"desc_hash": 2845888453,
 		"type_hash": 2497995766,
-		"rarity": 5,
 		"name": "Shadow of the Warrior",
-		"desc": "A fragment of power that you obtained from defeating Childe, who had unleashed the might of his Delusion.\\nIt is the product of a will to fight that has been honed over countless slaughters.\\nIf humans do indeed have destinies, then his must surely have been twisted by such deeds. Why else, then, would he always be at the heart of every conflict?",
-		"type": "Character Level-Up Material"
+		"desc": "A fragment of power that you obtained from defeating Childe, who had unleashed the might of his Delusion.\nIt is the product of a will to fight that has been honed over countless slaughters.\nIf humans do indeed have destinies, then his must surely have been twisted by such deeds. Why else, then, would he always be at the heart of every conflict?",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"tusk_of_monoceros_caeli": {
 		"hoyo_id": 113013,
 		"name_hash": 3728851868,
 		"desc_hash": 1356257053,
 		"type_hash": 1497187366,
-		"rarity": 5,
 		"name": "Tusk of Monoceros Caeli",
-		"desc": "The horn of a whale that you obtained from defeating Childe, who had unleashed the might of his Delusion.\\nIt is said that the shape of one's constellation determines one's character. The image of a whale cruising across the celestial heights represents a solipsism that seeks to crush and devour all in its path.\\nEmbracing this aspect of himself, Childe gleefully summoned one such beast before throwing himself into battle against you.",
-		"type": "Character Level-Up Material"
+		"desc": "The horn of a whale that you obtained from defeating Childe, who had unleashed the might of his Delusion.\nIt is said that the shape of one's constellation determines one's character. The image of a whale cruising across the celestial heights represents a solipsism that seeks to crush and devour all in its path.\nEmbracing this aspect of himself, Childe gleefully summoned one such beast before throwing himself into battle against you.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"shard_of_a_foul_legacy": {
 		"hoyo_id": 113014,
 		"name_hash": 773658036,
 		"desc_hash": 309618869,
 		"type_hash": 733219422,
-		"rarity": 5,
 		"name": "Shard of a Foul Legacy",
-		"desc": "The shard of a weapon that you obtained from defeating Childe, who had unleashed the might of his Delusion.\\nIt is stained with a profound color that is not of this world, no doubt due to the land of endless darkness that the young boy saw with his own two eyes.\\nPerhaps it has nothing to do with the power of a Delusion, but as they say, the weapon reflects its user...",
-		"type": "Character Level-Up Material"
+		"desc": "The shard of a weapon that you obtained from defeating Childe, who had unleashed the might of his Delusion.\nIt is stained with a profound color that is not of this world, no doubt due to the land of endless darkness that the young boy saw with his own two eyes.\nPerhaps it has nothing to do with the power of a Delusion, but as they say, the weapon reflects its user...",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"gilded_scale": {
 		"hoyo_id": 113019,
 		"name_hash": 3484301404,
 		"desc_hash": 2909798661,
 		"type_hash": 3821376478,
-		"rarity": 5,
 		"name": "Gilded Scale",
-		"desc": "Scaled armor that grows naturally over mystical stone, tough and silent, and filled with the strength of the dragon king.\\nAcross the years as countless generations returned to the mulch of the earth, gold and obsidian embedded themselves into flesh and blood forged from bedrock before spreading and turning into scales.\\nSearing agony, wordless cries... perhaps they will all vanish when the grudges that spawned them, too, finally come to an end.",
-		"type": "Character Level-Up Material"
+		"desc": "Scaled armor that grows naturally over mystical stone, tough and silent, and filled with the strength of the dragon king.\nAcross the years as countless generations returned to the mulch of the earth, gold and obsidian embedded themselves into flesh and blood forged from bedrock before spreading and turning into scales.\nSearing agony, wordless cries... perhaps they will all vanish when the grudges that spawned them, too, finally come to an end.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"hellfire_butterfly": {
 		"hoyo_id": 113026,
 		"name_hash": 4185077420,
 		"desc_hash": 3304278821,
 		"type_hash": 1441463758,
-		"rarity": 5,
 		"name": "Hellfire Butterfly",
-		"desc": "A warped shard that houses great might. You obtained this from defeating Signora, who unleashed her original power.\\nThe seal of ice was broken under duress, and as her former will surged forth from its pale white prison and she remembered her old name once more, the undying butterfly danced amidst burning flesh and blood. And she remembered her past, wandering the land, spreading the flame, burning away all evil \u2014 and she recalled the face of the person she could never meet again.",
-		"type": "Character Level-Up Material"
+		"desc": "A warped shard that houses great might. You obtained this from defeating Signora, who unleashed her original power.\nThe seal of ice was broken under duress, and as her former will surged forth from its pale white prison and she remembered her old name once more, the undying butterfly danced amidst burning flesh and blood. And she remembered her past, wandering the land, spreading the flame, burning away all evil \u2014 and she recalled the face of the person she could never meet again.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"molten_moment": {
 		"hoyo_id": 113025,
 		"name_hash": 2152977356,
 		"desc_hash": 2330960213,
 		"type_hash": 1653385862,
-		"rarity": 5,
 		"name": "Molten Moment",
-		"desc": "A certain deformed fragment containing great might. You obtained this from defeating Signora, who unleashed her original power.\\n\"I had a long, long dream.\\n\"I dreamed that you and I met again in the pure white world that we created.\\n\"But I woke up at last, having long been consumed by the raging flames, while you had long returned to the earth along with that poisoned blood.\\n\"But none of it matters anymore. I must continue forging ahead. I must incinerate everything behind me. I must believe in that pure, spotless, everlasting realm that he spoke of \u2014 that I saw in the 'delusion' he let me see, at the end of the horizon of Her Majesty's dreams.\"",
-		"type": "Character Level-Up Material"
+		"desc": "A certain deformed fragment containing great might. You obtained this from defeating Signora, who unleashed her original power.\n\"I had a long, long dream.\n\"I dreamed that you and I met again in the pure white world that we created.\n\"But I woke up at last, having long been consumed by the raging flames, while you had long returned to the earth along with that poisoned blood.\n\"But none of it matters anymore. I must continue forging ahead. I must incinerate everything behind me. I must believe in that pure, spotless, everlasting realm that he spoke of \u2014 that I saw in the 'delusion' he let me see, at the end of the horizon of Her Majesty's dreams.\"",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"ashen_heart": {
 		"hoyo_id": 113027,
 		"name_hash": 2165808876,
 		"desc_hash": 514828349,
 		"type_hash": 2220324862,
-		"rarity": 5,
 		"name": "Ashen Heart",
-		"desc": "A deformed fragment that contains powerful emotions. You obtained this from defeating Signora, who unleashed her original power.\\nEven tears cannot extinguish the flames. Molten-hot agony and rage rush through her veins, oozing from her tear ducts.\\nThe First Fatuus found her just before her heart could be destroyed by the eternal blaze. He understood that only deeper hate and obsession could quench the fire that devoured her and make her his ally...",
-		"type": "Character Level-Up Material"
+		"desc": "A deformed fragment that contains powerful emotions. You obtained this from defeating Signora, who unleashed her original power.\nEven tears cannot extinguish the flames. Molten-hot agony and rage rush through her veins, oozing from her tear ducts.\nThe First Fatuus found her just before her heart could be destroyed by the eternal blaze. He understood that only deeper hate and obsession could quench the fire that devoured her and make her his ally...",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"the_meaning_of_aeons": {
 		"hoyo_id": 113034,
 		"name_hash": 926563116,
 		"desc_hash": 919828309,
 		"type_hash": 2870829230,
-		"rarity": 5,
 		"name": "The Meaning of Aeons",
-		"desc": "A small piece of headgear obtained once the dust settled in the Plane of Euthymia.\\nOne thought may end all calamity, and there will always be thoughts that may transcend time.\\nAmid all this, one wonders if Makoto's true meaning was successfully communicated or not.",
-		"type": "Character Level-Up Material"
+		"desc": "A small piece of headgear obtained once the dust settled in the Plane of Euthymia.\nOne thought may end all calamity, and there will always be thoughts that may transcend time.\nAmid all this, one wonders if Makoto's true meaning was successfully communicated or not.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"tears_of_the_calamitous_god": {
 		"hoyo_id": 113033,
 		"name_hash": 552133044,
 		"desc_hash": 844404621,
 		"type_hash": 4125259606,
-		"rarity": 5,
 		"name": "Tears of the Calamitous God",
-		"desc": "A puppet joint obtained from the Plane of Euthymia. The gesture here is in the shape of the baleful Eye of Stormy Judgment.\\nSince they are able to bring down curse and catastrophe alike with a mere gaze, it might seem natural to blame life's misfortunes on calamitous deities. However, if you think about it a little harder, if your will is strong enough, and if your convictions are firm enough...\\nThe catastrophes go on for too long. Even a baleful gaze must wash itself with tears.",
-		"type": "Character Level-Up Material"
+		"desc": "A puppet joint obtained from the Plane of Euthymia. The gesture here is in the shape of the baleful Eye of Stormy Judgment.\nSince they are able to bring down curse and catastrophe alike with a mere gaze, it might seem natural to blame life's misfortunes on calamitous deities. However, if you think about it a little harder, if your will is strong enough, and if your convictions are firm enough...\nThe catastrophes go on for too long. Even a baleful gaze must wash itself with tears.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	},
 	"mudra_of_the_malefic_general": {
 		"hoyo_id": 113032,
 		"name_hash": 3301367164,
 		"desc_hash": 2451751957,
 		"type_hash": 2812578838,
-		"rarity": 5,
 		"name": "Mudra of the Malefic General",
-		"desc": "A puppet joint obtained from the Plane of Euthymia. The gesture here symbolizes the concept that \"one sees and one does.\"\\nEven now that \"she\" has become a calamitous deity, she can still utilize such transcendent gestures, her sword flashing forth as swiftly as her eyes may see.\\nAnd yet, as the countless disasters ground on for far too long, the baleful general's shell had to embrace a new spring.",
-		"type": "Character Level-Up Material"
+		"desc": "A puppet joint obtained from the Plane of Euthymia. The gesture here symbolizes the concept that \"one sees and one does.\"\nEven now that \"she\" has become a calamitous deity, she can still utilize such transcendent gestures, her sword flashing forth as swiftly as her eyes may see.\nAnd yet, as the countless disasters ground on for far too long, the baleful general's shell had to embrace a new spring.",
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Character Level-Up Material",
+		"rarity": 5
 	}
 }

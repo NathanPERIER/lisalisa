@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1135010,
 				"desc_hash": 3464064329,
-				"desc": "HP increased by <color=#99FFFFFF>20%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>0.8%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1%</color> of Max HP.",
+				"desc": "HP increased by 20%. Additionally, provides an ATK Bonus based on 0.8% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1% of Max HP.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1135011,
 				"desc_hash": 4242489505,
-				"desc": "HP increased by <color=#99FFFFFF>25%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1.2%</color> of Max HP.",
+				"desc": "HP increased by 25%. Additionally, provides an ATK Bonus based on 1% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.2% of Max HP.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1135012,
 				"desc_hash": 407873177,
-				"desc": "HP increased by <color=#99FFFFFF>30%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1.2%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1.4%</color> of Max HP.",
+				"desc": "HP increased by 30%. Additionally, provides an ATK Bonus based on 1.2% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.4% of Max HP.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1135013,
 				"desc_hash": 1346183937,
-				"desc": "HP increased by <color=#99FFFFFF>35%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1.4%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1.6%</color> of Max HP.",
+				"desc": "HP increased by 35%. Additionally, provides an ATK Bonus based on 1.4% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.6% of Max HP.",
 				"cost": 8000
 			},
 			{
 				"affix_id": 1135014,
 				"desc_hash": 4016813361,
-				"desc": "HP increased by <color=#99FFFFFF>40%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1.6%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1.8%</color> of Max HP.",
+				"desc": "HP increased by 40%. Additionally, provides an ATK Bonus based on 1.6% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.8% of Max HP.",
 				"cost": 16000
 			}
 		]

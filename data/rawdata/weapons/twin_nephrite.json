@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1143050,
 				"desc_hash": 1635683641,
-				"desc": "Defeating an opponent increases Movement SPD and ATK by <color=#99FFFFFF>12%</color> for 15s.",
+				"desc": "Defeating an opponent increases Movement SPD and ATK by 12% for 15s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1143051,
 				"desc_hash": 389885337,
-				"desc": "Defeating an opponent increases Movement SPD and ATK by <color=#99FFFFFF>14%</color> for 15s.",
+				"desc": "Defeating an opponent increases Movement SPD and ATK by 14% for 15s.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1143052,
 				"desc_hash": 59677433,
-				"desc": "Defeating an opponent increases Movement SPD and ATK by <color=#99FFFFFF>16%</color> for 15s.",
+				"desc": "Defeating an opponent increases Movement SPD and ATK by 16% for 15s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1143053,
 				"desc_hash": 2971188409,
-				"desc": "Defeating an opponent increases Movement SPD and ATK by <color=#99FFFFFF>18%</color> for 15s.",
+				"desc": "Defeating an opponent increases Movement SPD and ATK by 18% for 15s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1143054,
 				"desc_hash": 1364056569,
-				"desc": "Defeating an opponent increases Movement SPD and ATK by <color=#99FFFFFF>20%</color> for 15s.",
+				"desc": "Defeating an opponent increases Movement SPD and ATK by 20% for 15s.",
 				"cost": 4000
 			}
 		]

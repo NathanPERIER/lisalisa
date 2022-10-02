@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1145060,
 				"desc_hash": 1545098289,
-				"desc": "Healing Bonus increased by <color=#99FFFFFF>10%</color>, Normal Attack DMG is increased by <color=#99FFFFFF>1%</color> of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
+				"desc": "Healing Bonus increased by 10%, Normal Attack DMG is increased by 1% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1145061,
 				"desc_hash": 3285363689,
-				"desc": "Healing Bonus increased by <color=#99FFFFFF>12.5%</color>, Normal Attack DMG is increased by <color=#99FFFFFF>1.5%</color> of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
+				"desc": "Healing Bonus increased by 12.5%, Normal Attack DMG is increased by 1.5% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1145062,
 				"desc_hash": 1277904569,
-				"desc": "Healing Bonus increased by <color=#99FFFFFF>15%</color>, Normal Attack DMG is increased by <color=#99FFFFFF>2%</color> of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
+				"desc": "Healing Bonus increased by 15%, Normal Attack DMG is increased by 2% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1145063,
 				"desc_hash": 2406669881,
-				"desc": "Healing Bonus increased by <color=#99FFFFFF>17.5%</color>, Normal Attack DMG is increased by <color=#99FFFFFF>2.5%</color> of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
+				"desc": "Healing Bonus increased by 17.5%, Normal Attack DMG is increased by 2.5% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
 				"cost": 8000
 			},
 			{
 				"affix_id": 1145064,
 				"desc_hash": 549838313,
-				"desc": "Healing Bonus increased by <color=#99FFFFFF>20%</color>, Normal Attack DMG is increased by <color=#99FFFFFF>3%</color> of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
+				"desc": "Healing Bonus increased by 20%, Normal Attack DMG is increased by 3% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
 				"cost": 16000
 			}
 		]

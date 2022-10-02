@@ -30,6 +30,8 @@
 	"astrolabe": "Spinea Corona",
 	"allegiance": "Church of Favonius",
 	"default_weapon": "beginners_protector",
+	"increase_skill": 3,
+	"increase_burst": 5,
 	"base_stats": {
 		"Base HP": 1030.3238525390625,
 		"Base ATK": 20.12303924560547,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 37074469,
 			"desc_hash": 1514818096,
-			"charge_num": 1,
-			"icon": "Skill_A_03",
 			"name": "Normal Attack: Spear of the Church",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to five consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerforms up to five consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_03",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_ballad": 3,
@@ -396,10 +398,10 @@
 		"elemental_skill": {
 			"name_hash": 2398605029,
 			"desc_hash": 1467181408,
-			"charge_num": 1,
-			"icon": "Skill_S_Rosaria_01",
 			"name": "Ravaging Confession",
-			"desc": "Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing <color=#99FFFFFF>Cryo DMG</color>.\\nThis ability cannot be used to travel behind opponents of a larger build.\\n\\n<i>Those who confess to Sister Rosaria will be granted no absolution. All sinners shall be met with the piercing cold of punishment proportionate to the weight of their sins.</i>",
+			"desc": "Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing Cryo DMG.\nThis ability cannot be used to travel behind opponents of a larger build.\n\n<i>Those who confess to Sister Rosaria will be granted no absolution. All sinners shall be met with the piercing cold of punishment proportionate to the weight of their sins.</i>",
+			"icon": "Skill_S_Rosaria_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_ballad": 3,
@@ -524,10 +526,10 @@
 		"elemental_burst": {
 			"name_hash": 3067800421,
 			"desc_hash": 2194551560,
-			"charge_num": 1,
-			"icon": "Skill_E_Rosaria_01",
 			"name": "Rites of Termination",
-			"desc": "Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal <color=#99FFFFFF>Cryo DMG</color>.\\nWhile active, the Ice Lance periodically releases a blast of cold air, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\\n\\n<i>Judgment is such a tedious ordeal \u2014 much easier to skip that phase and get straight to the last rites. Rosaria was never very devoted to the Anemo God anyway, which makes performing them all too easy.</i>",
+			"desc": "Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal Cryo DMG.\nWhile active, the Ice Lance periodically releases a blast of cold air, dealing Cryo DMG to surrounding opponents.\n\n<i>Judgment is such a tedious ordeal \u2014 much easier to skip that phase and get straight to the last rites. Rosaria was never very devoted to the Anemo God anyway, which makes performing them all too easy.</i>",
+			"icon": "Skill_E_Rosaria_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_ballad": 3,
@@ -703,69 +705,69 @@
 		{
 			"name_hash": 1821354965,
 			"desc_hash": 978610771,
-			"icon": "UI_Talent_S_Rosaria_05",
-			"ascension": 1,
 			"name": "Regina Probationum",
-			"desc": "When Rosaria strikes an opponent from behind using <color=#FFD780FF>Ravaging Confession</color>, Rosaria's CRIT Rate increases by 12% for 5s."
+			"desc": "When Rosaria strikes an opponent from behind using Ravaging Confession, Rosaria's CRIT Rate increases by 12% for 5s.",
+			"icon": "UI_Talent_S_Rosaria_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 3761750205,
 			"desc_hash": 311863307,
-			"icon": "UI_Talent_S_Rosaria_06",
-			"ascension": 4,
 			"name": "Shadow Samaritan",
-			"desc": "Casting <color=#FFD780FF>Rites of Termination</color> increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.\\nCRIT Rate Bonus gained this way cannot exceed 15%."
+			"desc": "Casting Rites of Termination increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.\nCRIT Rate Bonus gained this way cannot exceed 15%.",
+			"icon": "UI_Talent_S_Rosaria_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 1285745693,
 			"desc_hash": 3191921099,
-			"icon": "UI_Talent_Rosaria_NightRunner",
-			"ascension": null,
 			"name": "Night Walk",
-			"desc": "At night (18:00\u20136:00), increases the Movement SPD of your own party members by 10%.\\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the exact same effects."
+			"desc": "At night (18:00\u20136:00), increases the Movement SPD of your own party members by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the exact same effects.",
+			"icon": "UI_Talent_Rosaria_NightRunner",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 1747862233,
-			"name": "Unholy Revelation",
 			"desc_hash": 3325524863,
+			"name": "Unholy Revelation",
 			"desc": "When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s.",
 			"icon": "UI_Talent_S_Rosaria_01"
 		},
 		{
 			"name_hash": 3870318265,
-			"name": "Land Without Promise",
 			"desc_hash": 1426432255,
-			"desc": "The duration of the Ice Lance created by <color=#FFD780FF>Rites of Termination</color> is increased by 4s.",
+			"name": "Land Without Promise",
+			"desc": "The duration of the Ice Lance created by Rites of Termination is increased by 4s.",
 			"icon": "UI_Talent_S_Rosaria_02"
 		},
 		{
 			"name_hash": 3057954913,
-			"name": "The Wages of Sin",
 			"desc_hash": 3853272615,
-			"desc": "Increases the Level of <color=#FFD780FF>Ravaging Confession</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "The Wages of Sin",
+			"desc": "Increases the Level of Ravaging Confession by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Rosaria_01"
 		},
 		{
 			"name_hash": 1072343465,
-			"name": "Painful Grace",
 			"desc_hash": 1502603863,
-			"desc": "<color=#FFD780FF>Ravaging Confession</color>'s CRIT Hits regenerate 5 Energy for Rosaria.\\nCan only be triggered once each time Ravaging Confession is cast.",
+			"name": "Painful Grace",
+			"desc": "Ravaging Confession's CRIT Hits regenerate 5 Energy for Rosaria.\nCan only be triggered once each time Ravaging Confession is cast.",
 			"icon": "UI_Talent_S_Rosaria_03"
 		},
 		{
 			"name_hash": 1802655737,
-			"name": "Last Rites",
 			"desc_hash": 2207642951,
-			"desc": "Increases the Level of <color=#FFD780FF>Rites of Termination</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Last Rites",
+			"desc": "Increases the Level of Rites of Termination by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Rosaria_02"
 		},
 		{
 			"name_hash": 3739872265,
-			"name": "Divine Retribution",
 			"desc_hash": 1651444399,
-			"desc": "<color=#FFD780FF>Rites of Termination</color>'s attack decreases opponents' Physical RES by 20% for 10s.",
+			"name": "Divine Retribution",
+			"desc": "Rites of Termination's attack decreases opponents' Physical RES by 20% for 10s.",
 			"icon": "UI_Talent_S_Rosaria_04"
 		}
 	],
@@ -774,35 +776,33 @@
 			"hoyo_id": null,
 			"name_hash": 772899890,
 			"desc_hash": 4067539010,
-			"restricted": false,
 			"name": "Executor's Thorns",
 			"desc": "Rosaria's outfit. Rosaria has heavily modified this particular Church of Favonius uniform.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": [
-			{
+		"alt": {
+			"to_the_churchs_free_spirit": {
 				"hoyo_id": 340009,
 				"name_hash": 2412226586,
 				"desc_hash": 3143995322,
-				"restricted": true,
 				"name": "To the Church's Free Spirit",
 				"desc": "Rosaria's outfit. This seems to have been custom-made for her by the Church.",
-				"icon": "UI_AvatarIcon_RosariaCostumeWic"
+				"icon": "UI_AvatarIcon_RosariaCostumeWic",
+				"restricted": true
 			}
-		]
+		}
 	},
 	"special_dish": {
+		"original_recipe": "sweet_madame",
 		"hoyo_id": 108234,
 		"name_hash": 4177634804,
 		"desc_hash": 4055431757,
 		"type_hash": 3087823190,
-		"rarity": 2,
 		"name": "Dinner of Judgment",
 		"desc": "Rosaria's specialty. The seemingly dark thorns make it hard to know how to begin tucking in. After some effort, you manage to clear the ornamentation away... and to your surprise, the first taste of the tender chicken unveils a shockingly lovely taste. As Rosaria studies your reaction, she seems pleased.",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 3874610239,
-		"effect": "Restores 30% of Max HP and an additional 1,750 HP to the selected character.",
-		"original_recipe": "sweet_madame"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 2
 	}
 }

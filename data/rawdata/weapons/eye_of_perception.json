@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1144090,
 				"desc_hash": 1031538761,
-				"desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>240%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>12</color>s.",
+				"desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing 240% ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every 12s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1144091,
 				"desc_hash": 1715885393,
-				"desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>270%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>11</color>s.",
+				"desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing 270% ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every 11s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1144092,
 				"desc_hash": 1431811881,
-				"desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>300%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>10</color>s.",
+				"desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing 300% ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every 10s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1144093,
 				"desc_hash": 1120470593,
-				"desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>330%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>9</color>s.",
+				"desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing 330% ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every 9s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1144094,
 				"desc_hash": 2496973505,
-				"desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>360%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>8</color>s.",
+				"desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing 360% ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every 8s.",
 				"cost": 8000
 			}
 		]

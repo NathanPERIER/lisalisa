@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1123020,
 				"desc_hash": 2986417169,
-				"desc": "Increases DMG dealt against opponents affected by Pyro or Electro by <color=#99FFFFFF>12%</color>.",
+				"desc": "Increases DMG dealt against opponents affected by Pyro or Electro by 12%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1123021,
 				"desc_hash": 448306209,
-				"desc": "Increases DMG dealt against opponents affected by Pyro or Electro by <color=#99FFFFFF>15%</color>.",
+				"desc": "Increases DMG dealt against opponents affected by Pyro or Electro by 15%.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1123022,
 				"desc_hash": 563867881,
-				"desc": "Increases DMG dealt against opponents affected by Pyro or Electro by <color=#99FFFFFF>18%</color>.",
+				"desc": "Increases DMG dealt against opponents affected by Pyro or Electro by 18%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1123023,
 				"desc_hash": 1722471113,
-				"desc": "Increases DMG dealt against opponents affected by Pyro or Electro by <color=#99FFFFFF>21%</color>.",
+				"desc": "Increases DMG dealt against opponents affected by Pyro or Electro by 21%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1123024,
 				"desc_hash": 2736186969,
-				"desc": "Increases DMG against opponents affected by Pyro or Electro by <color=#99FFFFFF>24%</color>.",
+				"desc": "Increases DMG against opponents affected by Pyro or Electro by 24%.",
 				"cost": 4000
 			}
 		]

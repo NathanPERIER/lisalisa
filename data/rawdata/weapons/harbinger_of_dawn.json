@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1113020,
 				"desc_hash": 307733865,
-				"desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>14%</color>.",
+				"desc": "When HP is above 90%, increases CRIT Rate by 14%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1113021,
 				"desc_hash": 3332141809,
-				"desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>17.5%</color>.",
+				"desc": "When HP is above 90%, increases CRIT Rate by 17.5%.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1113022,
 				"desc_hash": 3037472457,
-				"desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>21%</color>.",
+				"desc": "When HP is above 90%, increases CRIT Rate by 21%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1113023,
 				"desc_hash": 1527692505,
-				"desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>24.5%</color>.",
+				"desc": "When HP is above 90%, increases CRIT Rate by 24.5%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1113024,
 				"desc_hash": 1272240945,
-				"desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>28%</color>.",
+				"desc": "When HP is above 90%, increases CRIT Rate by 28%.",
 				"cost": 4000
 			}
 		]

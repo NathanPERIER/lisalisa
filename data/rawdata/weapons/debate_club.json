@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1123050,
 				"desc_hash": 1389968321,
-				"desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>60%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+				"desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 60% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1123051,
 				"desc_hash": 3174462481,
-				"desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>75%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+				"desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 75% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1123052,
 				"desc_hash": 1857844849,
-				"desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>90%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+				"desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 90% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1123053,
 				"desc_hash": 3559833745,
-				"desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>105%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+				"desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 105% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1123054,
 				"desc_hash": 2231593369,
-				"desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>120%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+				"desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 120% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
 				"cost": 4000
 			}
 		]

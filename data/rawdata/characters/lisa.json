@@ -30,6 +30,8 @@
 	"astrolabe": "Tempus Fugit",
 	"allegiance": "Knights of Favonius",
 	"default_weapon": "apprentices_notes",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 802.3760986328125,
 		"Base ATK": 19.410720825195312,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 2499144501,
 			"desc_hash": 3362612400,
-			"charge_num": 1,
-			"icon": "Skill_A_Catalyst_MD",
 			"name": "Normal Attack: Lightning Touch",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 lightning attacks that deal <color=#FFACFFFF>Electro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal <color=#FFACFFFF>AoE Electro DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FFACFFFF>AoE Electro DMG</color> upon impact with the ground.",
+			"desc": "Normal Attack\nPerform up to 4 lightning attacks that deal Electro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Electro DMG after a short casting time.\n\nPlunging Attack\nGathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Electro DMG upon impact with the ground.",
+			"icon": "Skill_A_Catalyst_MD",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_ballad": 3,
@@ -380,10 +382,10 @@
 		"elemental_skill": {
 			"name_hash": 3342928733,
 			"desc_hash": 2036101496,
-			"charge_num": 1,
-			"icon": "Skill_S_Lisa_01",
 			"name": "Violet Arc",
-			"desc": "#Channels the power of lightning to sweep bothersome matters away.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nReleases a homing Lightning Orb.\\nOn hit, it deals <color=#FFACFFFF>Electro DMG</color> and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.\\n\\n<color=#FFD780FF>Hold</color>\\nAfter an extended casting time, calls down lightning from the heavens, dealing massive <color=#FFACFFFF>Electro DMG</color> to all nearby opponents.\\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.\\n\\n<i>Electro Purple is the raiment of the Witch of Purple Rose.</i>",
+			"desc": "#Channels the power of lightning to sweep bothersome matters away.\n\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\nReleases a homing Lightning Orb.\nOn hit, it deals Electro DMG and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.\n\nHold\nAfter an extended casting time, calls down lightning from the heavens, dealing massive Electro DMG to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.\n\n<i>Electro Purple is the raiment of the Witch of Purple Rose.</i>",
+			"icon": "Skill_S_Lisa_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_ballad": 3,
@@ -588,10 +590,10 @@
 		"elemental_burst": {
 			"name_hash": 3387608453,
 			"desc_hash": 2561961032,
-			"charge_num": 1,
-			"icon": "Skill_E_Lisa_01",
 			"name": "Lightning Rose",
-			"desc": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing <color=#FFACFFFF>Electro DMG</color>.\\nThe Lightning Rose will continuously emit lightning to knock back opponents and deal <color=#FFACFFFF>Electro DMG</color> throughout the ability's duration.\\n\\n<i>This rose is beautiful, but beware its mortal thorns.</i>",
+			"desc": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing Electro DMG.\nThe Lightning Rose will continuously emit lightning to knock back opponents and deal Electro DMG throughout the ability's duration.\n\n<i>This rose is beautiful, but beware its mortal thorns.</i>",
+			"icon": "Skill_E_Lisa_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_ballad": 3,
@@ -751,69 +753,69 @@
 		{
 			"name_hash": 3611282821,
 			"desc_hash": 1118493307,
-			"icon": "UI_Talent_S_Lisa_05",
-			"ascension": 1,
 			"name": "Induced Aftershock",
-			"desc": "Hits by Charged Attacks apply <color=#FFD780FF>Violet Arc</color>'s Conductive status to opponents."
+			"desc": "Hits by Charged Attacks apply Violet Arc's Conductive status to opponents.",
+			"icon": "UI_Talent_S_Lisa_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 1069142525,
 			"desc_hash": 3499444667,
-			"icon": "UI_Talent_S_Lisa_06",
-			"ascension": 4,
 			"name": "Static Electricity Field",
-			"desc": "Opponents hit by <color=#FFD780FF>Lightning Rose</color> have their DEF decreased by 15% for 10s."
+			"desc": "Opponents hit by Lightning Rose have their DEF decreased by 15% for 10s.",
+			"icon": "UI_Talent_S_Lisa_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 200498901,
 			"desc_hash": 3877764179,
-			"icon": "UI_Talent_Combine_Potion",
-			"ascension": null,
 			"name": "General Pharmaceutics",
-			"desc": "When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used."
+			"desc": "When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used.",
+			"icon": "UI_Talent_Combine_Potion",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 12874089,
-			"name": "Infinite Circuit",
 			"desc_hash": 1939598815,
-			"desc": "Lisa regenerates 2 Energy for every opponent hit while holding <color=#FFD780FF>Violet Arc</color>.\\nA maximum of 10 Energy can be regenerated in this manner at any one time.",
+			"name": "Infinite Circuit",
+			"desc": "Lisa regenerates 2 Energy for every opponent hit while holding Violet Arc.\nA maximum of 10 Energy can be regenerated in this manner at any one time.",
 			"icon": "UI_Talent_S_Lisa_01"
 		},
 		{
 			"name_hash": 1523216321,
-			"name": "Electromagnetic Field",
 			"desc_hash": 607155167,
-			"desc": "Holding <color=#FFD780FF>Violet Arc</color> has the following effects:\\n\u00b7Increases DEF by 25%.\\n\u00b7Increases Lisa's resistance to interruption.",
+			"name": "Electromagnetic Field",
+			"desc": "Holding Violet Arc has the following effects:\n\u00b7Increases DEF by 25%.\n\u00b7Increases Lisa's resistance to interruption.",
 			"icon": "UI_Talent_S_Lisa_02"
 		},
 		{
 			"name_hash": 3707731441,
-			"name": "Resonant Thunder",
 			"desc_hash": 3643569183,
-			"desc": "Increases the Level of <color=#FFD780FF>Lightning Rose</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Resonant Thunder",
+			"desc": "Increases the Level of Lightning Rose by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Lisa_02"
 		},
 		{
 			"name_hash": 1540277121,
-			"name": "Plasma Eruption",
 			"desc_hash": 4061309583,
-			"desc": "Increases the number of lightning bolts released by <color=#FFD780FF>Lightning Rose</color> by 1-3.",
+			"name": "Plasma Eruption",
+			"desc": "Increases the number of lightning bolts released by Lightning Rose by 1-3.",
 			"icon": "UI_Talent_S_Lisa_03"
 		},
 		{
 			"name_hash": 2256541273,
-			"name": "Electrocute",
 			"desc_hash": 1025564511,
-			"desc": "Increases the Level of <color=#FFD780FF>Violet Arc</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Electrocute",
+			"desc": "Increases the Level of Violet Arc by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Lisa_01"
 		},
 		{
 			"name_hash": 2935728161,
-			"name": "Pulsating Witch",
 			"desc_hash": 2237370327,
-			"desc": "When Lisa takes the field, she applies 3 stacks of <color=#FFD780FF>Violet Arc</color>'s Conductive status onto nearby opponents.\\nThis effect can only occur once every 5s.",
+			"name": "Pulsating Witch",
+			"desc": "When Lisa takes the field, she applies 3 stacks of Violet Arc's Conductive status onto nearby opponents.\nThis effect can only occur once every 5s.",
 			"icon": "UI_Talent_S_Lisa_04"
 		}
 	],
@@ -822,25 +824,23 @@
 			"hoyo_id": null,
 			"name_hash": 672166154,
 			"desc_hash": 3946345210,
-			"restricted": false,
 			"name": "Purple Rose",
 			"desc": "Lisa's outfit. A slim-fit dress adorned with roses that displays a young lady's elegance.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "flaming_red_bolognese",
 		"hoyo_id": 108018,
 		"name_hash": 1049618132,
 		"desc_hash": 1198713557,
 		"type_hash": 4130587542,
-		"rarity": 2,
 		"name": "Mysterious Bolognese",
 		"desc": "Lisa's specialty. With an inexplicable aura, this bolognese is so exotic that you can never have enough. Did she actually enchant it with some kind of magic?",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 3768382527,
-		"effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s.",
-		"original_recipe": "flaming_red_bolognese"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 2
 	}
 }

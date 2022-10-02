@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1143010,
 				"desc_hash": 1270011833,
-				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>12%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by 12%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1143011,
 				"desc_hash": 34396009,
-				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>15%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by 15%.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1143012,
 				"desc_hash": 4226431209,
-				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>18%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by 18%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1143013,
 				"desc_hash": 1865334985,
-				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>21%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by 21%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1143014,
 				"desc_hash": 3466198865,
-				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>24%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by 24%.",
 				"cost": 4000
 			}
 		]

@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1145020,
 				"desc_hash": 3973186969,
-				"desc": "Increases Movement SPD by 10%. When in battle, gain an <color=#99FFFFFF>8%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+				"desc": "Increases Movement SPD by 10%. When in battle, gain an 8% Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1145021,
 				"desc_hash": 2446228769,
-				"desc": "Increases Movement SPD by 10%. When in battle, earn a <color=#99FFFFFF>10%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+				"desc": "Increases Movement SPD by 10%. When in battle, earn a 10% Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1145022,
 				"desc_hash": 1833471105,
-				"desc": "Increases Movement SPD by 10%. When in battle, gain a <color=#99FFFFFF>12%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+				"desc": "Increases Movement SPD by 10%. When in battle, gain a 12% Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1145023,
 				"desc_hash": 1045127345,
-				"desc": "Increases Movement SPD by 10%. When in battle, gain a <color=#99FFFFFF>14%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+				"desc": "Increases Movement SPD by 10%. When in battle, gain a 14% Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
 				"cost": 8000
 			},
 			{
 				"affix_id": 1145024,
 				"desc_hash": 3828463225,
-				"desc": "Increases Movement SPD by 10%. When in battle, gain a <color=#99FFFFFF>16%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+				"desc": "Increases Movement SPD by 10%. When in battle, gain a 16% Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
 				"cost": 16000
 			}
 		]

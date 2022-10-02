@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1114100,
 				"desc_hash": 820748057,
-				"desc": "Increases DMG dealt by the character equipping this weapon by <color=#99FFFFFF>12%</color>. Taking DMG disables this effect for 5s.",
+				"desc": "Increases DMG dealt by the character equipping this weapon by 12%. Taking DMG disables this effect for 5s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1114101,
 				"desc_hash": 221557857,
-				"desc": "Increases DMG dealt by the character equipping this weapon by <color=#99FFFFFF>15%</color>. Taking DMG disables this effect for 5s.",
+				"desc": "Increases DMG dealt by the character equipping this weapon by 15%. Taking DMG disables this effect for 5s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1114102,
 				"desc_hash": 1186671217,
-				"desc": "Increases DMG dealt by the character equipping this weapon by <color=#99FFFFFF>18%</color>. Taking DMG disables this effect for 5s.",
+				"desc": "Increases DMG dealt by the character equipping this weapon by 18%. Taking DMG disables this effect for 5s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1114103,
 				"desc_hash": 191893953,
-				"desc": "Increases DMG dealt by the character equipping this weapon by <color=#99FFFFFF>21%</color>. Taking DMG disables this effect for 5s.",
+				"desc": "Increases DMG dealt by the character equipping this weapon by 21%. Taking DMG disables this effect for 5s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1114104,
 				"desc_hash": 493971049,
-				"desc": "Increases DMG dealt by the character equipping this weapon by <color=#99FFFFFF>24%</color>. Taking DMG disables this effect for 5s.",
+				"desc": "Increases DMG dealt by the character equipping this weapon by 24%. Taking DMG disables this effect for 5s.",
 				"cost": 8000
 			}
 		]

@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1144010,
 				"desc_hash": 60910497,
-				"desc": "CRIT Hits have a <color=#99FFFFFF>60%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>12</color>s.",
+				"desc": "CRIT Hits have a 60% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1144011,
 				"desc_hash": 1336872385,
-				"desc": "CRIT Hits have a <color=#99FFFFFF>70%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>10.5</color>s.",
+				"desc": "CRIT Hits have a 70% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 10.5s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1144012,
 				"desc_hash": 3760694201,
-				"desc": "CRIT Hits have a <color=#99FFFFFF>80%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>9</color>s.",
+				"desc": "CRIT Hits have a 80% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 9s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1144013,
 				"desc_hash": 2247561017,
-				"desc": "CRIT Hits have a <color=#99FFFFFF>90%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>7.5</color>s.",
+				"desc": "CRIT Hits have a 90% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 7.5s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1144014,
 				"desc_hash": 2604821145,
-				"desc": "CRIT Hits have a <color=#99FFFFFF>100%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>6</color>s.",
+				"desc": "CRIT Hits have a 100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 6s.",
 				"cost": 8000
 			}
 		]

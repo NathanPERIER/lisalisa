@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1155010,
 				"desc_hash": 3850184073,
-				"desc": "Increases CRIT DMG by <color=#99FFFFFF>20%</color>. Hits have a <color=#99FFFFFF>60%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>4</color>s.",
+				"desc": "Increases CRIT DMG by 20%. Hits have a 60% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 4s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1155011,
 				"desc_hash": 2742737713,
-				"desc": "Increases CRIT DMG by <color=#99FFFFFF>25%</color>. Hits have a <color=#99FFFFFF>70%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>3.5</color>s.",
+				"desc": "Increases CRIT DMG by 25%. Hits have a 70% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 3.5s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1155012,
 				"desc_hash": 4244549793,
-				"desc": "Increases CRIT DMG by <color=#99FFFFFF>30%</color>. Hits have a <color=#99FFFFFF>80%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>3</color>s.",
+				"desc": "Increases CRIT DMG by 30%. Hits have a 80% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 3s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1155013,
 				"desc_hash": 1674512929,
-				"desc": "Increases CRIT DMG by <color=#99FFFFFF>35%</color>. Hits have a <color=#99FFFFFF>90%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>2.5</color>s.",
+				"desc": "Increases CRIT DMG by 35%. Hits have a 90% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 2.5s.",
 				"cost": 8000
 			},
 			{
 				"affix_id": 1155014,
 				"desc_hash": 2384978993,
-				"desc": "Increases CRIT DMG by <color=#99FFFFFF>40%</color>. Hits have a <color=#99FFFFFF>100%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>2</color>s.",
+				"desc": "Increases CRIT DMG by 40%. Hits have a 100% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 2s.",
 				"cost": 16000
 			}
 		]

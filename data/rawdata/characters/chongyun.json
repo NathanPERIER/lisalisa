@@ -30,6 +30,8 @@
 	"astrolabe": "Nubis Caesor",
 	"allegiance": "Tianheng Thaumaturges",
 	"default_weapon": "waster_greatsword",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 920.908935546875,
 		"Base ATK": 18.698400497436523,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 1917853333,
 			"desc_hash": 588212448,
-			"charge_num": 1,
-			"icon": "Skill_A_04",
 			"name": "Normal Attack: Demonbane",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, perform a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 4 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_04",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_diligence": 3,
@@ -412,10 +414,10 @@
 		"elemental_skill": {
 			"name_hash": 1241562797,
 			"desc_hash": 543360552,
-			"charge_num": 1,
-			"icon": "Skill_S_Chongyun_01",
 			"name": "Spirit Blade: Chonghua's Layered Frost",
-			"desc": "Chongyun strikes the ground with his greatsword, causing a Cryo explosion in a circular AoE in front of him that deals <color=#99FFFFFF>Cryo DMG</color>.\\nAfter a short delay, the cold air created by the Cryo explosion will coalesce into a Chonghua Frost Field, within which all Sword, Claymore and Polearm-wielding characters' weapons will be infused with <color=#99FFFFFF>Cryo</color>.\\n\\n<i>\"A crystal-clear ring, and all is silent. The rivers move not, and the clouds are heavy with frost. The altar gates open, and evil is banished.\"</i>",
+			"desc": "Chongyun strikes the ground with his greatsword, causing a Cryo explosion in a circular AoE in front of him that deals Cryo DMG.\nAfter a short delay, the cold air created by the Cryo explosion will coalesce into a Chonghua Frost Field, within which all Sword, Claymore and Polearm-wielding characters' weapons will be infused with Cryo.\n\n<i>\"A crystal-clear ring, and all is silent. The rivers move not, and the clouds are heavy with frost. The altar gates open, and evil is banished.\"</i>",
+			"icon": "Skill_S_Chongyun_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_diligence": 3,
@@ -572,10 +574,10 @@
 		"elemental_burst": {
 			"name_hash": 514253413,
 			"desc_hash": 3537624992,
-			"charge_num": 1,
-			"icon": "Skill_E_Chongyun_01",
 			"name": "Spirit Blade: Cloud-Parting Star",
-			"desc": "Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground.\\nWhen the spirit blades explode, they will deal <color=#99FFFFFF>AoE Cryo DMG</color> and launch opponents.\\n\\n<i>\"As ice doth give the biting frost birth, My transcendent blade shakes heaven and earth. Heed my summons and come hence!\"</i>",
+			"desc": "Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground.\nWhen the spirit blades explode, they will deal AoE Cryo DMG and launch opponents.\n\n<i>\"As ice doth give the biting frost birth, My transcendent blade shakes heaven and earth. Heed my summons and come hence!\"</i>",
+			"icon": "Skill_E_Chongyun_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_diligence": 3,
@@ -719,69 +721,69 @@
 		{
 			"name_hash": 1471902469,
 			"desc_hash": 2917701275,
-			"icon": "UI_Talent_S_Chongyun_05",
-			"ascension": 1,
 			"name": "Steady Breathing",
-			"desc": "Sword, Claymore, or Polearm-wielding characters within the field created by <color=#FFD780FF>Spirit Blade: Chonghua's Layered Frost</color> have their Normal ATK SPD increased by 8%."
+			"desc": "Sword, Claymore, or Polearm-wielding characters within the field created by Spirit Blade: Chonghua's Layered Frost have their Normal ATK SPD increased by 8%.",
+			"icon": "UI_Talent_S_Chongyun_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 2188306525,
 			"desc_hash": 1400289131,
-			"icon": "UI_Talent_S_Chongyun_06",
-			"ascension": 4,
 			"name": "Rimechaser Blade",
-			"desc": "When the field created by <color=#FFD780FF>Spirit Blade: Chonghua's Layered Frost</color> disappears, another spirit blade will be summoned to strike nearby opponents, dealing 100% of Chonghua's Layered Frost's Skill DMG as <color=#99FFFFFF>AoE Cryo DMG</color>. Opponents hit by this blade will have their <color=#99FFFFFF>Cryo RES</color> decreased by 10% for 8s."
+			"desc": "When the field created by Spirit Blade: Chonghua's Layered Frost disappears, another spirit blade will be summoned to strike nearby opponents, dealing 100% of Chonghua's Layered Frost's Skill DMG as AoE Cryo DMG. Opponents hit by this blade will have their Cryo RES decreased by 10% for 8s.",
+			"icon": "UI_Talent_S_Chongyun_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 1722331629,
 			"desc_hash": 225068227,
-			"icon": "UI_Talent_Expedition_Liyue",
-			"ascension": null,
 			"name": "Gallant Journey",
-			"desc": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%."
+			"desc": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%.",
+			"icon": "UI_Talent_Expedition_Liyue",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 1859111849,
-			"name": "Ice Unleashed",
 			"desc_hash": 3874733319,
-			"desc": "The last attack of Chongyun's Normal Attack combo releases 3 ice blades. Each blade deals 50% of Chongyun's ATK as <color=#99FFFFFF>Cryo DMG</color> to all opponents in its path.",
+			"name": "Ice Unleashed",
+			"desc": "The last attack of Chongyun's Normal Attack combo releases 3 ice blades. Each blade deals 50% of Chongyun's ATK as Cryo DMG to all opponents in its path.",
 			"icon": "UI_Talent_S_Chongyun_01"
 		},
 		{
 			"name_hash": 1016771721,
-			"name": "Atmospheric Revolution",
 			"desc_hash": 1537894911,
-			"desc": "Elemental Skills and Elemental Bursts cast within the Frost Field created by <color=#FFD780FF>Spirit Blade: Chonghua's Layered Frost</color> have their CD time decreased by 15%.",
+			"name": "Atmospheric Revolution",
+			"desc": "Elemental Skills and Elemental Bursts cast within the Frost Field created by Spirit Blade: Chonghua's Layered Frost have their CD time decreased by 15%.",
 			"icon": "UI_Talent_S_Chongyun_02"
 		},
 		{
 			"name_hash": 294514897,
-			"name": "Cloudburst",
 			"desc_hash": 1615074199,
-			"desc": "Increases the Level of <color=#FFD780FF>Spirit Blade: Cloud-Parting Star</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Cloudburst",
+			"desc": "Increases the Level of Spirit Blade: Cloud-Parting Star by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Chongyun_01"
 		},
 		{
 			"name_hash": 1282888193,
-			"name": "Frozen Skies",
 			"desc_hash": 461481359,
-			"desc": "Chongyun regenerates 1 Energy every time he hits an opponent affected by <color=#99FFFFFF>Cryo</color>.\\nThis effect can only occur once every 2s.",
+			"name": "Frozen Skies",
+			"desc": "Chongyun regenerates 1 Energy every time he hits an opponent affected by Cryo.\nThis effect can only occur once every 2s.",
 			"icon": "UI_Talent_S_Chongyun_03"
 		},
 		{
 			"name_hash": 1493556457,
-			"name": "The True Path",
 			"desc_hash": 3819808039,
-			"desc": "Increases the Level of <color=#FFD780FF>Spirit Blade: Chonghua's Layered Frost</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "The True Path",
+			"desc": "Increases the Level of Spirit Blade: Chonghua's Layered Frost by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Chongyun_02"
 		},
 		{
 			"name_hash": 3391919345,
-			"name": "Rally of Four Blades",
 			"desc_hash": 121953951,
-			"desc": "<color=#FFD780FF>Spirit Blade: Cloud-Parting Star</color> deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun.\\nThis skill will also summon 1 additional spirit blade.",
+			"name": "Rally of Four Blades",
+			"desc": "Spirit Blade: Cloud-Parting Star deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun.\nThis skill will also summon 1 additional spirit blade.",
 			"icon": "UI_Talent_S_Chongyun_04"
 		}
 	],
@@ -790,25 +792,23 @@
 			"hoyo_id": null,
 			"name_hash": 1142485354,
 			"desc_hash": 3971237746,
-			"restricted": false,
 			"name": "Pure Spirit",
 			"desc": "Chongyun's outfit. A traditional thaumaturge's trappings.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "noodles_with_mountain_delicacies",
 		"hoyo_id": 108144,
 		"name_hash": 1838781284,
 		"desc_hash": 611853869,
 		"type_hash": 232835230,
-		"rarity": 2,
 		"name": "Cold Noodles with Mountain Delicacies",
 		"desc": "Chongyun's specialty. Though these springy noodles would be irresistible in the sweltering summer, Chongyun insists on dining on them even in the chattering cold of winter. What a guy.",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 2829041399,
-		"effect": "Restores 80 Stamina",
-		"original_recipe": "noodles_with_mountain_delicacies"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 2
 	}
 }

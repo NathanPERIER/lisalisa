@@ -30,6 +30,8 @@
 	"astrolabe": "Pavo Ocellus",
 	"allegiance": "Knights of Favonius",
 	"default_weapon": "dull_blade",
+	"increase_skill": 3,
+	"increase_burst": 5,
 	"base_stats": {
 		"Base HP": 975.6163940429688,
 		"Base ATK": 18.698400497436523,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 3795823997,
 			"desc_hash": 3473499832,
-			"charge_num": 1,
-			"icon": "Skill_A_01",
 			"name": "Normal Attack: Ceremonial Bladework",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_ballad": 3,
@@ -396,10 +398,10 @@
 		"elemental_skill": {
 			"name_hash": 1067425573,
 			"desc_hash": 1929962560,
-			"charge_num": 1,
-			"icon": "Skill_S_Kaeya_01",
 			"name": "Frostgnaw",
-			"desc": "Unleashes a frigid blast, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in front of Kaeya.\\n\\n<i>Kaeya seems affable, but his nature is that of unyielding ice.</i>",
+			"desc": "Unleashes a frigid blast, dealing Cryo DMG to opponents in front of Kaeya.\n\n<i>Kaeya seems affable, but his nature is that of unyielding ice.</i>",
+			"icon": "Skill_S_Kaeya_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_ballad": 3,
@@ -524,10 +526,10 @@
 		"elemental_burst": {
 			"name_hash": 2486277181,
 			"desc_hash": 2120666136,
-			"charge_num": 1,
-			"icon": "Skill_E_Kaeya_01",
 			"name": "Glacial Waltz",
-			"desc": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him.\\nThese icicles will follow the character around and deal <color=#99FFFFFF>Cryo DMG</color> to opponents in their path for the ability's duration.\\n\\n<i>A winsome smile, genial words, and the merciless hoarfrost that lies beneath... These are all Kaeya's weapons.</i>",
+			"desc": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him.\nThese icicles will follow the character around and deal Cryo DMG to opponents in their path for the ability's duration.\n\n<i>A winsome smile, genial words, and the merciless hoarfrost that lies beneath... These are all Kaeya's weapons.</i>",
+			"icon": "Skill_E_Kaeya_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_ballad": 3,
@@ -687,69 +689,69 @@
 		{
 			"name_hash": 73889597,
 			"desc_hash": 2556398915,
-			"icon": "UI_Talent_S_Kaeya_05",
-			"ascension": 1,
 			"name": "Cold-Blooded Strike",
-			"desc": "Every hit with <color=#FFD780FF>Frostgnaw</color> regenerates HP for Kaeya equal to 15% of his ATK."
+			"desc": "Every hit with Frostgnaw regenerates HP for Kaeya equal to 15% of his ATK.",
+			"icon": "UI_Talent_S_Kaeya_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 2837976013,
 			"desc_hash": 1886880811,
-			"icon": "UI_Talent_S_Kaeya_06",
-			"ascension": 4,
 			"name": "Glacial Heart",
-			"desc": "Opponents <color=#99FFFFFF>Frozen</color> by <color=#FFD780FF>Frostgnaw</color> will drop additional Elemental Particles.\\nFrostgnaw may only produce a maximum of 2 additional Elemental Particles per use."
+			"desc": "Opponents Frozen by Frostgnaw will drop additional Elemental Particles.\nFrostgnaw may only produce a maximum of 2 additional Elemental Particles per use.",
+			"icon": "UI_Talent_S_Kaeya_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 433695005,
 			"desc_hash": 1546033427,
-			"icon": "UI_Talent_Explosion_Sprint",
-			"ascension": null,
 			"name": "Hidden Strength",
-			"desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+			"desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+			"icon": "UI_Talent_Explosion_Sprint",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 1478938545,
-			"name": "Excellent Blood",
 			"desc_hash": 2364565991,
-			"desc": "The CRIT Rate of Kaeya's Normal and Charge Attacks against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%.",
+			"name": "Excellent Blood",
+			"desc": "The CRIT Rate of Kaeya's Normal and Charge Attacks against opponents affected by Cryo is increased by 15%.",
 			"icon": "UI_Talent_S_Kaeya_01"
 		},
 		{
 			"name_hash": 1425365945,
-			"name": "Never-Ending Performance",
 			"desc_hash": 2342848423,
-			"desc": "Every time <color=#FFD780FF>Glacial Waltz</color> defeats an opponent during its duration, its duration is increased by 2.5s, up to a maximum of 15s.",
+			"name": "Never-Ending Performance",
+			"desc": "Every time Glacial Waltz defeats an opponent during its duration, its duration is increased by 2.5s, up to a maximum of 15s.",
 			"icon": "UI_Talent_S_Kaeya_02"
 		},
 		{
 			"name_hash": 1397996209,
-			"name": "Dance of Frost",
 			"desc_hash": 4020405287,
-			"desc": "Increases the Level of <color=#FFD780FF>Frostgnaw</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Dance of Frost",
+			"desc": "Increases the Level of Frostgnaw by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Kaeya_01"
 		},
 		{
 			"name_hash": 1595754497,
-			"name": "Frozen Kiss",
 			"desc_hash": 3513562087,
-			"desc": "Triggers automatically when Kaeya's HP falls below 20%:\\nCreates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.\\nThis shield absorbs <color=#99FFFFFF>Cryo DMG</color> with 250% efficiency.\\nCan only occur once every 60s.",
+			"name": "Frozen Kiss",
+			"desc": "Triggers automatically when Kaeya's HP falls below 20%:\nCreates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.\nThis shield absorbs Cryo DMG with 250% efficiency.\nCan only occur once every 60s.",
 			"icon": "UI_Talent_S_Kaeya_03"
 		},
 		{
 			"name_hash": 1102683585,
-			"name": "Frostbiting Embrace",
 			"desc_hash": 3968399879,
-			"desc": "Increases the Level of <color=#FFD780FF>Glacial Waltz</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Frostbiting Embrace",
+			"desc": "Increases the Level of Glacial Waltz by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Kaeya_02"
 		},
 		{
 			"name_hash": 2310553705,
-			"name": "Glacial Whirlwind",
 			"desc_hash": 3726105031,
-			"desc": "<color=#FFD780FF>Glacial Waltz</color> will generate 1 additional icicle, and will regenerate 15 Energy when cast.",
+			"name": "Glacial Whirlwind",
+			"desc": "Glacial Waltz will generate 1 additional icicle, and will regenerate 15 Energy when cast.",
 			"icon": "UI_Talent_S_Kaeya_04"
 		}
 	],
@@ -758,25 +760,23 @@
 			"hoyo_id": null,
 			"name_hash": 4036813530,
 			"desc_hash": 1523967378,
-			"restricted": false,
 			"name": "Icy Featherflight",
 			"desc": "Kaeya's outfit. Fashionable clothes festooned with a fur collar.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "chicken_mushroom_skewer",
 		"hoyo_id": 108014,
 		"name_hash": 2274681260,
 		"desc_hash": 1756793317,
 		"type_hash": 2201658030,
-		"rarity": 1,
 		"name": "Fruity Skewers",
 		"desc": "Kaeya's specialty. A chewy skewer with a rich sweet aftertaste. Wait... Is this really the smell of fruit?",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 3603275271,
-		"effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
-		"original_recipe": "chicken_mushroom_skewer"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 1
 	}
 }

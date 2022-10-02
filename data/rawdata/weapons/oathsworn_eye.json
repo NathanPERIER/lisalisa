@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1144150,
 				"desc_hash": 3361934785,
-				"desc": "Increases Energy Recharge by <color=#99FFFFFF>24%</color> for 10s after using an Elemental Skill.",
+				"desc": "Increases Energy Recharge by 24% for 10s after using an Elemental Skill.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1144151,
 				"desc_hash": 443566497,
-				"desc": "Increases Energy Recharge by <color=#99FFFFFF>30%</color> for 10s after using an Elemental Skill.",
+				"desc": "Increases Energy Recharge by 30% for 10s after using an Elemental Skill.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1144152,
 				"desc_hash": 1117653353,
-				"desc": "Increases Energy Recharge by <color=#99FFFFFF>36%</color> for 10s after using an Elemental Skill.",
+				"desc": "Increases Energy Recharge by 36% for 10s after using an Elemental Skill.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1144153,
 				"desc_hash": 3163783449,
-				"desc": "Increases Energy Recharge by <color=#99FFFFFF>42%</color> for 10s after using an Elemental Skill.",
+				"desc": "Increases Energy Recharge by 42% for 10s after using an Elemental Skill.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1144154,
 				"desc_hash": 2865937601,
-				"desc": "Increases Energy Recharge by <color=#99FFFFFF>48%</color> for 10s after using an Elemental Skill.",
+				"desc": "Increases Energy Recharge by 48% for 10s after using an Elemental Skill.",
 				"cost": 8000
 			}
 		]

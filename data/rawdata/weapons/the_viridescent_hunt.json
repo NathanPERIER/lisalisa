@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1154090,
 				"desc_hash": 75004577,
-				"desc": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <color=#99FFFFFF>40%</color> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <color=#99FFFFFF>14</color>s.",
+				"desc": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 40% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 14s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1154091,
 				"desc_hash": 1054698953,
-				"desc": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <color=#99FFFFFF>50%</color> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <color=#99FFFFFF>13</color>s.",
+				"desc": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 50% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 13s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1154092,
 				"desc_hash": 1516978649,
-				"desc": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <color=#99FFFFFF>60%</color> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <color=#99FFFFFF>12</color>s.",
+				"desc": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 60% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 12s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1154093,
 				"desc_hash": 2631397065,
-				"desc": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <color=#99FFFFFF>70%</color> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <color=#99FFFFFF>11</color>s.",
+				"desc": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 70% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 11s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1154094,
 				"desc_hash": 3337229097,
-				"desc": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <color=#99FFFFFF>80%</color> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <color=#99FFFFFF>10</color>s.",
+				"desc": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 80% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 10s.",
 				"cost": 8000
 			}
 		]

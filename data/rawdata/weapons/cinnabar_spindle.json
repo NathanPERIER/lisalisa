@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1114150,
 				"desc_hash": 1104846361,
-				"desc": "Elemental Skill DMG is increased by <color=#99FFFFFF>40%</color> of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+				"desc": "Elemental Skill DMG is increased by 40% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1114151,
 				"desc_hash": 4208719337,
-				"desc": "Elemental Skill DMG is increased by <color=#99FFFFFF>50%</color> of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+				"desc": "Elemental Skill DMG is increased by 50% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1114152,
 				"desc_hash": 4195913993,
-				"desc": "Elemental Skill DMG is increased by <color=#99FFFFFF>60%</color> of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+				"desc": "Elemental Skill DMG is increased by 60% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1114153,
 				"desc_hash": 1849966937,
-				"desc": "Elemental Skill DMG is increased by <color=#99FFFFFF>70%</color> of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+				"desc": "Elemental Skill DMG is increased by 70% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1114154,
 				"desc_hash": 3490528385,
-				"desc": "Elemental Skill DMG is increased by <color=#99FFFFFF>80%</color> of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+				"desc": "Elemental Skill DMG is increased by 80% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
 				"cost": 8000
 			}
 		]

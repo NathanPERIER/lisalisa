@@ -30,6 +30,8 @@
 	"astrolabe": "Trulla",
 	"allegiance": "Wanmin Restaurant",
 	"default_weapon": "beginners_protector",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 911.791015625,
 		"Base ATK": 18.876480102539062,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 2921789333,
 			"desc_hash": 2304447960,
-			"charge_num": 1,
-			"icon": "Skill_A_03",
 			"name": "Normal Attack: Dough-Fu",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to five consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerforms up to five consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_03",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_diligence": 3,
@@ -396,10 +398,10 @@
 		"elemental_skill": {
 			"name_hash": 1925269741,
 			"desc_hash": 3652072736,
-			"charge_num": 1,
-			"icon": "Skill_S_Xiangling_01",
 			"name": "Guoba Attack",
-			"desc": "Summons Guoba, who will continuously breathe fire at opponents, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\n\\n<i>Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.</i>",
+			"desc": "Summons Guoba, who will continuously breathe fire at opponents, dealing AoE Pyro DMG.\n\n<i>Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.</i>",
+			"icon": "Skill_S_Xiangling_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_diligence": 3,
@@ -524,10 +526,10 @@
 		"elemental_burst": {
 			"name_hash": 3051726149,
 			"desc_hash": 1407584528,
-			"charge_num": 1,
-			"icon": "Skill_E_Xiangling_01",
 			"name": "Pyronado",
-			"desc": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her.\\nThe Pyronado will move with your character for the ability's duration, dealing <color=#FF9999FF>Pyro DMG</color> to all opponents in its path.\\n\\n<i>There will never be enough heat. Never.</i>",
+			"desc": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her.\nThe Pyronado will move with your character for the ability's duration, dealing Pyro DMG to all opponents in its path.\n\n<i>There will never be enough heat. Never.</i>",
+			"icon": "Skill_E_Xiangling_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_diligence": 3,
@@ -735,69 +737,69 @@
 		{
 			"name_hash": 338716653,
 			"desc_hash": 3659479899,
-			"icon": "UI_Talent_S_Xiangling_05",
-			"ascension": 1,
 			"name": "Crossfire",
-			"desc": "Increases the flame range of Guoba by 20%."
+			"desc": "Increases the flame range of Guoba by 20%.",
+			"icon": "UI_Talent_S_Xiangling_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 3631919501,
 			"desc_hash": 4053428835,
-			"icon": "UI_Talent_S_Xiangling_06",
-			"ascension": 4,
 			"name": "Beware, It's Super Hot!",
-			"desc": "When <color=#FFD780FF>Guoba Attack</color>'s effect ends, Guoba leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases ATK by 10% for 10s."
+			"desc": "When Guoba Attack's effect ends, Guoba leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases ATK by 10% for 10s.",
+			"icon": "UI_Talent_S_Xiangling_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 4101043149,
 			"desc_hash": 3985819811,
-			"icon": "UI_Talent_Cook_Attack",
-			"ascension": null,
 			"name": "Chef de Cuisine",
-			"desc": "When Xiangling cooks an ATK-boosting dish perfectly, she has a 12% chance to receive double the product."
+			"desc": "When Xiangling cooks an ATK-boosting dish perfectly, she has a 12% chance to receive double the product.",
+			"icon": "UI_Talent_Cook_Attack",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 1194445449,
-			"name": "Crispy Outside, Tender Inside",
 			"desc_hash": 3866122911,
-			"desc": "Opponents hit by Guoba's attacks have their <color=#FF9999FF>Pyro RES</color> reduced by 15% for 6s.",
+			"name": "Crispy Outside, Tender Inside",
+			"desc": "Opponents hit by Guoba's attacks have their Pyro RES reduced by 15% for 6s.",
 			"icon": "UI_Talent_S_Xiangling_01"
 		},
 		{
 			"name_hash": 1745094577,
-			"name": "Oil Meets Fire",
 			"desc_hash": 515394687,
-			"desc": "The last attack in a Normal Attack sequence applies the Implode status onto the opponent for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as <color=#FF9999FF>AoE Pyro DMG</color>.",
+			"name": "Oil Meets Fire",
+			"desc": "The last attack in a Normal Attack sequence applies the Implode status onto the opponent for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as AoE Pyro DMG.",
 			"icon": "UI_Talent_S_Xiangling_02"
 		},
 		{
 			"name_hash": 2414003921,
-			"name": "Deepfry",
 			"desc_hash": 1194236287,
-			"desc": "Increases the Level of <color=#FFD780FF>Pyronado</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Deepfry",
+			"desc": "Increases the Level of Pyronado by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Xiangling_02"
 		},
 		{
 			"name_hash": 2365969361,
-			"name": "Slowbake",
 			"desc_hash": 2051519231,
-			"desc": "<color=#FFD780FF>Pyronado</color>'s duration is increased by 40%.",
+			"name": "Slowbake",
+			"desc": "Pyronado's duration is increased by 40%.",
 			"icon": "UI_Talent_S_Xiangling_03"
 		},
 		{
 			"name_hash": 4257441793,
-			"name": "Guoba Mad",
 			"desc_hash": 4011282063,
-			"desc": "Increases the Level of <color=#FFD780FF>Guoba Attack</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Guoba Mad",
+			"desc": "Increases the Level of Guoba Attack by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Xiangling_01"
 		},
 		{
 			"name_hash": 2739862033,
-			"name": "Condensed Pyronado",
 			"desc_hash": 366896479,
-			"desc": "For the duration of <color=#FFD780FF>Pyronado</color>, all party members receive a 15% <color=#FF9999FF>Pyro DMG Bonus</color>.",
+			"name": "Condensed Pyronado",
+			"desc": "For the duration of Pyronado, all party members receive a 15% Pyro DMG Bonus.",
 			"icon": "UI_Talent_S_Xiangling_04"
 		}
 	],
@@ -806,25 +808,23 @@
 			"hoyo_id": null,
 			"name_hash": 2926593050,
 			"desc_hash": 2478839258,
-			"restricted": false,
 			"name": "Red Pepper and Turmeric",
 			"desc": "Xiangling's outfit. Light and comfortable clothing brimming with fiery passion.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "black_back_perch_stew",
 		"hoyo_id": 108135,
 		"name_hash": 2753182804,
 		"desc_hash": 337456765,
 		"type_hash": 1791804670,
-		"rarity": 3,
 		"name": "Wanmin Restaurant's Boiled Fish",
 		"desc": "Xiangling's specialty. This is the signature dish of the Wanmin Restaurant, combining Xiangling's heartfelt passion for cuisine. Anyone who tastes it will gain a pure appreciation for gourmet food amid the hearty and addictive blend of flavors.",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 1691230831,
-		"effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s.",
-		"original_recipe": "black_back_perch_stew"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 3
 	}
 }

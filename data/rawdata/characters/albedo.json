@@ -30,6 +30,8 @@
 	"astrolabe": "Princeps Cretaceus",
 	"allegiance": "Knights of Favonius",
 	"default_weapon": "dull_blade",
+	"increase_skill": 3,
+	"increase_burst": 5,
 	"base_stats": {
 		"Base HP": 1029.5855712890625,
 		"Base ATK": 19.551000595092773,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 1763139317,
 			"desc_hash": 3484591568,
-			"charge_num": 1,
-			"icon": "Skill_A_01",
 			"name": "Normal Attack: Favonius Bladework - Weiss",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_ballad": 3,
@@ -396,10 +398,10 @@
 		"elemental_skill": {
 			"name_hash": 4277075117,
 			"desc_hash": 706635616,
-			"charge_num": 1,
-			"icon": "Skill_S_Albedo_01",
 			"name": "Abiogenesis: Solar Isotoma",
-			"desc": "Albedo creates a Solar Isotoma using alchemy, which deals <color=#FFE699FF>AoE Geo DMG</color> on appearance.\\n\\n<color=#FFD780FF>Solar Isotoma</color>\\nhas the following properties:\\n\u00b7When opponents within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal <color=#FFE699FF>AoE Geo DMG</color>. DMG dealt scales off Albedo's DEF. \\n\u00b7Transient Blossoms can only be generated once every 2s.\\n\u00b7When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.\\n\u00b7Solar Isotoma is considered a <color=#FFE699FF>Geo construct</color>. Only one Solar Isotoma created by Albedo himself can exist at a time. \\n\\n<color=#FFD780FF>Hold</color> to designate the location of the skill.\\n\\n<i>This Geo bloom has an unusual property mirrored in the aim of alchemy. To rise from the earth, soar into the sky, and become the sun.</i>",
+			"desc": "Albedo creates a Solar Isotoma using alchemy, which deals AoE Geo DMG on appearance.\n\nSolar Isotoma\nhas the following properties:\n\u00b7When opponents within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal AoE Geo DMG. DMG dealt scales off Albedo's DEF. \n\u00b7Transient Blossoms can only be generated once every 2s.\n\u00b7When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.\n\u00b7Solar Isotoma is considered a Geo construct. Only one Solar Isotoma created by Albedo himself can exist at a time. \n\nHold to designate the location of the skill.\n\n<i>This Geo bloom has an unusual property mirrored in the aim of alchemy. To rise from the earth, soar into the sky, and become the sun.</i>",
+			"icon": "Skill_S_Albedo_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_ballad": 3,
@@ -556,10 +558,10 @@
 		"elemental_burst": {
 			"name_hash": 1170150789,
 			"desc_hash": 4198905856,
-			"charge_num": 1,
-			"icon": "Skill_E_Albedo_01",
 			"name": "Rite of Progeniture: Tectonic Tide",
-			"desc": "Under Albedo's command, Geo crystals surge and burst forth, dealing <color=#FFE699FF>AoE Geo DMG</color> in front of him.\\nIf a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing <color=#FFE699FF>AoE Geo DMG</color>.\\n\\nTectonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.\\n\\n<i>Under the Kreideprinz's command, the tectonic tide of creation seethes into life.</i>",
+			"desc": "Under Albedo's command, Geo crystals surge and burst forth, dealing AoE Geo DMG in front of him.\nIf a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing AoE Geo DMG.\n\nTectonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.\n\n<i>Under the Kreideprinz's command, the tectonic tide of creation seethes into life.</i>",
+			"icon": "Skill_E_Albedo_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_ballad": 3,
@@ -719,68 +721,68 @@
 		{
 			"name_hash": 1581011589,
 			"desc_hash": 654921947,
-			"icon": "UI_Talent_S_Albedo_05",
-			"ascension": 1,
 			"name": "Calcite Might",
-			"desc": "Transient Blossoms generated by <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> deal 25% more DMG to opponents whose HP is below 50%."
+			"desc": "Transient Blossoms generated by Abiogenesis: Solar Isotoma deal 25% more DMG to opponents whose HP is below 50%.",
+			"icon": "UI_Talent_S_Albedo_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 442320245,
 			"desc_hash": 1378375771,
-			"icon": "UI_Talent_S_Albedo_06",
-			"ascension": 4,
 			"name": "Homuncular Nature",
-			"desc": "Using <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> increases the Elemental Mastery of nearby party members by 125 for 10s."
+			"desc": "Using Rite of Progeniture: Tectonic Tide increases the Elemental Mastery of nearby party members by 125 for 10s.",
+			"icon": "UI_Talent_S_Albedo_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 2878058053,
 			"desc_hash": 810427107,
-			"icon": "UI_Talent_Combine_Weapon_Double",
-			"ascension": null,
 			"name": "Flash of Genius",
-			"desc": "When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product."
+			"desc": "When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.",
+			"icon": "UI_Talent_Combine_Weapon_Double",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 4171208737,
-			"name": "Flower of Eden",
 			"desc_hash": 3462874567,
-			"desc": "Transient Blossoms generated by Albedo's <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> regenerate 1.2 Energy for Albedo.",
+			"name": "Flower of Eden",
+			"desc": "Transient Blossoms generated by Albedo's Abiogenesis: Solar Isotoma regenerate 1.2 Energy for Albedo.",
 			"icon": "UI_Talent_S_Albedo_01"
 		},
 		{
 			"name_hash": 151370681,
-			"name": "Opening of Phanerozoic",
 			"desc_hash": 2243530431,
-			"desc": "Transient Blossoms generated by <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> grant Albedo Fatal Reckoning for 30s:\\n\u00b7Unleashing <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> consumes all stacks of Fatal Reckoning. Each stack of Fatal Reckoning consumed increases the DMG dealt by Fatal Blossoms and Rite of Progeniture: Tectonic Tide's burst DMG by 30% of Albedo's DEF.\\n\u00b7This effect stacks up to 4 times.",
+			"name": "Opening of Phanerozoic",
+			"desc": "Transient Blossoms generated by Abiogenesis: Solar Isotoma grant Albedo Fatal Reckoning for 30s:\n\u00b7Unleashing Rite of Progeniture: Tectonic Tide consumes all stacks of Fatal Reckoning. Each stack of Fatal Reckoning consumed increases the DMG dealt by Fatal Blossoms and Rite of Progeniture: Tectonic Tide's burst DMG by 30% of Albedo's DEF.\n\u00b7This effect stacks up to 4 times.",
 			"icon": "UI_Talent_S_Albedo_02"
 		},
 		{
 			"name_hash": 625211161,
-			"name": "Grace of Helios",
 			"desc_hash": 4113451831,
-			"desc": "Increases the Level of <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Grace of Helios",
+			"desc": "Increases the Level of Abiogenesis: Solar Isotoma by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Albedo_01"
 		},
 		{
 			"name_hash": 1728244745,
-			"name": "Descent of Divinity",
 			"desc_hash": 1431711711,
+			"name": "Descent of Divinity",
 			"desc": "Active party members within the Solar Isotoma field have their Plunging Attack DMG increased by 30%.",
 			"icon": "UI_Talent_S_Albedo_03"
 		},
 		{
 			"name_hash": 3896567129,
-			"name": "Tide of Hadean",
 			"desc_hash": 3779396687,
-			"desc": "Increases the Level of <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Tide of Hadean",
+			"desc": "Increases the Level of Rite of Progeniture: Tectonic Tide by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Albedo_02"
 		},
 		{
 			"name_hash": 3605875457,
-			"name": "Dust of Purification",
 			"desc_hash": 2084479351,
+			"name": "Dust of Purification",
 			"desc": "Active party members within the Solar Isotoma field who are protected by a shield created by Crystallize have their DMG increased by 17%.",
 			"icon": "UI_Talent_S_Albedo_04"
 		}
@@ -790,25 +792,23 @@
 			"hoyo_id": null,
 			"name_hash": 3397577098,
 			"desc_hash": 310650770,
-			"restricted": false,
 			"name": "Newmoon Starlight",
 			"desc": "Albedo's outfit. The Knights of Favonius alchemist's uniform that Albedo often wears when conducting his experiments.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "sunshine_sprat",
 		"hoyo_id": 108214,
 		"name_hash": 4181440108,
 		"desc_hash": 3532958013,
 		"type_hash": 2663264390,
-		"rarity": 3,
 		"name": "Woodland Dream",
 		"desc": "Albedo's specialty. The fruits and vegetables are laid out like grass, and they stand tall like trees. In this miniature world-in-a-plate, you circle the mottled city wall, follow brown alleys, and enter the light orange castle. A sweet, tender taste then bursts forth like a blooming flower. You open your eyes. There is a smile in the white-haired prince's eyes.",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 2115740167,
-		"effect": "Increases all party members' Shield Strength by 35% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-		"original_recipe": "sunshine_sprat"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 3
 	}
 }

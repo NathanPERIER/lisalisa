@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1154100,
 				"desc_hash": 1333678233,
-				"desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by <color=#99FFFFFF>2%</color> every second up to a max of <color=#99FFFFFF>20%</color>. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by <color=#99FFFFFF>4%</color> per second until it reaches 0%.",
+				"desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 2% every second up to a max of 20%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 4% per second until it reaches 0%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1154101,
 				"desc_hash": 3490203185,
-				"desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by <color=#99FFFFFF>2.5%</color> every second up to a max of <color=#99FFFFFF>25%</color>. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by <color=#99FFFFFF>5%</color> per second until it reaches 0%.",
+				"desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 2.5% every second up to a max of 25%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 5% per second until it reaches 0%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1154102,
 				"desc_hash": 3969501113,
-				"desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by <color=#99FFFFFF>3%</color> every second up to a max of <color=#99FFFFFF>30%</color>. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by <color=#99FFFFFF>6%</color> per second until it reaches 0%.",
+				"desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 3% every second up to a max of 30%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 6% per second until it reaches 0%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1154103,
 				"desc_hash": 1108020297,
-				"desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by <color=#99FFFFFF>3.5%</color> every second up to a max of <color=#99FFFFFF>35%</color>. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by <color=#99FFFFFF>7%</color> per second until it reaches 0%.",
+				"desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 3.5% every second up to a max of 35%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 7% per second until it reaches 0%.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1154104,
 				"desc_hash": 3785180097,
-				"desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by <color=#99FFFFFF>4%</color> every second up to a max of <color=#99FFFFFF>40%</color>. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by <color=#99FFFFFF>8%</color> per second until it reaches 0%.",
+				"desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 4% every second up to a max of 40%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 8% per second until it reaches 0%.",
 				"cost": 8000
 			}
 		]

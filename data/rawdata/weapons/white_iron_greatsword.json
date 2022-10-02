@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1123030,
 				"desc_hash": 3395408817,
-				"desc": "Defeating an opponent restores <color=#99FFFFFF>8%</color> HP.",
+				"desc": "Defeating an opponent restores 8% HP.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1123031,
 				"desc_hash": 568240425,
-				"desc": "Defeating an opponent restores <color=#99FFFFFF>10%</color> HP.",
+				"desc": "Defeating an opponent restores 10% HP.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1123032,
 				"desc_hash": 1069952849,
-				"desc": "Defeating an opponent restores <color=#99FFFFFF>12%</color> HP.",
+				"desc": "Defeating an opponent restores 12% HP.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1123033,
 				"desc_hash": 3748745,
-				"desc": "Defeating an opponent restores <color=#99FFFFFF>14%</color> HP.",
+				"desc": "Defeating an opponent restores 14% HP.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1123034,
 				"desc_hash": 622203977,
-				"desc": "Defeating an opponent restores <color=#99FFFFFF>16%</color> HP.",
+				"desc": "Defeating an opponent restores 16% HP.",
 				"cost": 4000
 			}
 		]

@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1124030,
 				"desc_hash": 327279921,
-				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>40%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>30</color>s.",
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1124031,
 				"desc_hash": 4150617129,
-				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>50%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>26</color>s.",
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a 50% chance to end its own CD. Can only occur once every 26s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1124032,
 				"desc_hash": 665615489,
-				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>60%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>22s</color>.",
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a 60% chance to end its own CD. Can only occur once every 22s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1124033,
 				"desc_hash": 1396465993,
-				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>70%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>19</color>s.",
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a 70% chance to end its own CD. Can only occur once every 19s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1124034,
 				"desc_hash": 1659390633,
-				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>80%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>16s</color>.",
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a 80% chance to end its own CD. Can only occur once every 16s.",
 				"cost": 8000
 			}
 		]

@@ -145,31 +145,31 @@
 			{
 				"affix_id": 1153020,
 				"desc_hash": 2851659249,
-				"desc": "Increases DMG against weak spots by <color=#99FFFFFF>24%</color>.",
+				"desc": "Increases DMG against weak spots by 24%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1153021,
 				"desc_hash": 1636621233,
-				"desc": "Increases DMG against weak spots by <color=#99FFFFFF>30%</color>.",
+				"desc": "Increases DMG against weak spots by 30%.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1153022,
 				"desc_hash": 3110378385,
-				"desc": "Increases DMG against weak spots by <color=#99FFFFFF>36%</color>.",
+				"desc": "Increases DMG against weak spots by 36%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1153023,
 				"desc_hash": 4144128505,
-				"desc": "Increases DMG against weak spots by <color=#99FFFFFF>42%</color>.",
+				"desc": "Increases DMG against weak spots by 42%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1153024,
 				"desc_hash": 3361078809,
-				"desc": "Increases DMG against weak spots by <color=#99FFFFFF>48%</color>.",
+				"desc": "Increases DMG against weak spots by 48%.",
 				"cost": 4000
 			}
 		]

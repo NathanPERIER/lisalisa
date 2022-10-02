@@ -30,6 +30,8 @@
 	"astrolabe": "Rubeum Scutum",
 	"allegiance": "Yashiro Commission",
 	"default_weapon": "beginners_protector",
+	"increase_skill": 3,
+	"increase_burst": 5,
 	"base_stats": {
 		"Base HP": 866.2014770507812,
 		"Base ATK": 16.917600631713867,
@@ -156,10 +158,10 @@
 		"normal_attack": {
 			"name_hash": 3651752365,
 			"desc_hash": 3009612584,
-			"charge_num": 1,
-			"icon": "Skill_A_03",
 			"name": "Normal Attack: Swiftshatter Spear",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to four consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerforms up to four consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_03",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_transience": 3,
@@ -380,10 +382,10 @@
 		"elemental_skill": {
 			"name_hash": 3732507581,
 			"desc_hash": 432172712,
-			"charge_num": 1,
-			"icon": "Skill_S_Tohma_01",
 			"name": "Blazing Blessing",
-			"desc": "Thoma vaults forward with his polearm and delivers a flame-filled flying kick that deals <color=#FF9999FF>AoE Pyro DMG</color>, while also summoning a defensive Blazing Barrier. At the moment of casting, Thoma's Elemental Skill applies <color=#FF9999FF>Pyro</color> to himself.\\nThe DMG Absorption of the Blazing Barrier scales off Thoma's Max HP.\\nThe Blazing Barrier has the following traits:\\n\u00b7Absorbs <color=#FF9999FF>Pyro DMG</color> 250% more effectively.\\n\u00b7When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\\n\\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.\\n\\n<i>As a guest from afar, only the most burning passion would allow one to master the pure and precise spear arts of Inazuma. Thoma's mastery, indeed, is not limited to being the \"swiftest-studying student\" or \"a master of the spear,\" but he has imbued his will to protect others and fend off foes into his art as well.</i>",
+			"desc": "Thoma vaults forward with his polearm and delivers a flame-filled flying kick that deals AoE Pyro DMG, while also summoning a defensive Blazing Barrier. At the moment of casting, Thoma's Elemental Skill applies Pyro to himself.\nThe DMG Absorption of the Blazing Barrier scales off Thoma's Max HP.\nThe Blazing Barrier has the following traits:\n\u00b7Absorbs Pyro DMG 250% more effectively.\n\u00b7When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\n\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.\n\n<i>As a guest from afar, only the most burning passion would allow one to master the pure and precise spear arts of Inazuma. Thoma's mastery, indeed, is not limited to being the \"swiftest-studying student\" or \"a master of the spear,\" but he has imbued his will to protect others and fend off foes into his art as well.</i>",
+			"icon": "Skill_S_Tohma_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_transience": 3,
@@ -556,10 +558,10 @@
 		"elemental_burst": {
 			"name_hash": 3548079181,
 			"desc_hash": 3214600680,
-			"charge_num": 1,
-			"icon": "Skill_E_Tohma_01",
 			"name": "Crimson Ooyoroi",
-			"desc": "Thoma spins his polearm, slicing at his foes with roaring flames that deal <color=#FF9999FF>AoE Pyro DMG</color> and weave themselves into a Scorching Ooyoroi.\\n\\n<color=#FFD780FF>Scorching Ooyoroi</color>\\nWhile Scorching Ooyoroi is in effect, the active character's Normal Attacks will trigger Fiery Collapse, dealing <color=#FF9999FF>AoE Pyro DMG</color> and summoning a Blazing Barrier.\\nFiery Collapse can be triggered once every 1s.\\n\\nExcept for the amount of DMG they can absorb, the Blazing Barriers created in this way are identical to those created by Thoma's Elemental Skill, Blazing Blessing:\\n\u00b7Absorbs <color=#FF9999FF>Pyro DMG</color> 250% more effectively.\\n\u00b7When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\\n\\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.\\n\\nIf Thoma falls, the effects of Scorching Ooyoroi will be cleared.\\n\\n<i>\"I will not forget my initial promise. Let this burning flame protect those I cherish, and may it never be extinguished.\"</i>",
+			"desc": "Thoma spins his polearm, slicing at his foes with roaring flames that deal AoE Pyro DMG and weave themselves into a Scorching Ooyoroi.\n\nScorching Ooyoroi\nWhile Scorching Ooyoroi is in effect, the active character's Normal Attacks will trigger Fiery Collapse, dealing AoE Pyro DMG and summoning a Blazing Barrier.\nFiery Collapse can be triggered once every 1s.\n\nExcept for the amount of DMG they can absorb, the Blazing Barriers created in this way are identical to those created by Thoma's Elemental Skill, Blazing Blessing:\n\u00b7Absorbs Pyro DMG 250% more effectively.\n\u00b7When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\n\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.\n\nIf Thoma falls, the effects of Scorching Ooyoroi will be cleared.\n\n<i>\"I will not forget my initial promise. Let this burning flame protect those I cherish, and may it never be extinguished.\"</i>",
+			"icon": "Skill_E_Tohma_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_transience": 3,
@@ -767,69 +769,69 @@
 		{
 			"name_hash": 2361872037,
 			"desc_hash": 1069705163,
-			"icon": "UI_Talent_S_Tohma_05",
-			"ascension": 1,
 			"name": "Imbricated Armor",
-			"desc": "When your current active character obtains or refreshes a <color=#FFD780FF>Blazing Barrier</color>, this character's Shield Strength will increase by 5% for 6s.\\nThis effect can be triggered once every 0.3s seconds. Max 5 stacks."
+			"desc": "When your current active character obtains or refreshes a Blazing Barrier, this character's Shield Strength will increase by 5% for 6s.\nThis effect can be triggered once every 0.3s seconds. Max 5 stacks.",
+			"icon": "UI_Talent_S_Tohma_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 4028465645,
 			"desc_hash": 4029622747,
-			"icon": "UI_Talent_S_Tohma_06",
-			"ascension": 4,
 			"name": "Flaming Assault",
-			"desc": "DMG dealt by <color=#FFD780FF>Crimson Ooyoroi</color>'s Fiery Collapse is increased by 2.2% of Thoma's Max HP."
+			"desc": "DMG dealt by Crimson Ooyoroi's Fiery Collapse is increased by 2.2% of Thoma's Max HP.",
+			"icon": "UI_Talent_S_Tohma_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 1914527421,
 			"desc_hash": 2521602571,
-			"icon": "UI_Talent_S_Tohma_07",
-			"ascension": null,
 			"name": "Snap and Swing",
-			"desc": "When you <color=#FFD780FF>fish</color> successfully in Inazuma, Thoma's help grants a 20% chance of scoring a double catch."
+			"desc": "When you fish successfully in Inazuma, Thoma's help grants a 20% chance of scoring a double catch.",
+			"icon": "UI_Talent_S_Tohma_07",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 288006665,
-			"name": "A Comrade's Duty",
 			"desc_hash": 3077252167,
-			"desc": "When a character protected by Thoma's own <color=#FFD780FF>Blazing Barrier</color> (Thoma excluded) is attacked, Thoma's own <color=#FFD780FF>Blazing Blessing</color> CD is decreased by 3s, while his own <color=#FFD780FF>Crimson Ooyoroi</color>'s CD is decreased by 3s.\\nThis effect can be triggered once every 20s.",
+			"name": "A Comrade's Duty",
+			"desc": "When a character protected by Thoma's own Blazing Barrier (Thoma excluded) is attacked, Thoma's own Blazing Blessing CD is decreased by 3s, while his own Crimson Ooyoroi's CD is decreased by 3s.\nThis effect can be triggered once every 20s.",
 			"icon": "UI_Talent_S_Tohma_01"
 		},
 		{
 			"name_hash": 4132403369,
-			"name": "A Subordinate's Skills",
 			"desc_hash": 1866802871,
-			"desc": "<color=#FFD780FF>Crimson Ooyoroi</color>'s duration is increased by 3s.",
+			"name": "A Subordinate's Skills",
+			"desc": "Crimson Ooyoroi's duration is increased by 3s.",
 			"icon": "UI_Talent_S_Tohma_02"
 		},
 		{
 			"name_hash": 2578792073,
-			"name": "Fortified Resolve",
 			"desc_hash": 2167442199,
-			"desc": "Increases the Level of <color=#FFD780FF>Blazing Blessing</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Fortified Resolve",
+			"desc": "Increases the Level of Blazing Blessing by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Tohma_01"
 		},
 		{
 			"name_hash": 1754888249,
-			"name": "Long-Term Planning",
 			"desc_hash": 976028519,
-			"desc": "After using <color=#FFD780FF>Crimson Ooyoroi</color>, 15 Energy will be restored to Thoma.",
+			"name": "Long-Term Planning",
+			"desc": "After using Crimson Ooyoroi, 15 Energy will be restored to Thoma.",
 			"icon": "UI_Talent_S_Tohma_03"
 		},
 		{
 			"name_hash": 3609710361,
-			"name": "Raging Wildfire",
 			"desc_hash": 1553651527,
-			"desc": "Increases the Level of <color=#FFD780FF>Crimson Ooyoroi</color> by 3.\\nMaximum upgrade level is 15.",
+			"name": "Raging Wildfire",
+			"desc": "Increases the Level of Crimson Ooyoroi by 3.\nMaximum upgrade level is 15.",
 			"icon": "UI_Talent_U_Tohma_02"
 		},
 		{
 			"name_hash": 297689921,
-			"name": "Burning Heart",
 			"desc_hash": 2142833663,
-			"desc": "When a <color=#FFD780FF>Blazing Barrier</color> is obtained or refreshed, the DMG dealt by all party members' Normal, Charged, and Plunging Attacks is increased by 15% for 6s.",
+			"name": "Burning Heart",
+			"desc": "When a Blazing Barrier is obtained or refreshed, the DMG dealt by all party members' Normal, Charged, and Plunging Attacks is increased by 15% for 6s.",
 			"icon": "UI_Talent_S_Tohma_04"
 		}
 	],
@@ -838,25 +840,23 @@
 			"hoyo_id": null,
 			"name_hash": 2040879098,
 			"desc_hash": 1458439730,
-			"restricted": false,
 			"name": "Warrior of Flame",
 			"desc": "Thoma's outfit. He cropped the pieces of this light suit of armor till only the thigh and arm guards were left, allowing him to comfortably attend to all matters in and out of combat.",
-			"icon": ""
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "miso_soup",
 		"hoyo_id": 108354,
 		"name_hash": 3212506652,
 		"desc_hash": 794224493,
 		"type_hash": 4285348678,
-		"rarity": 1,
 		"name": "\"Warmth\"",
 		"desc": "Thoma's specialty. The intricate appearance of this dish belies the simple ingredients used. But take a sip, and Thoma's sunshine smile comes straight to mind. Perhaps this is his special ability: warming the hearts of others using the simplest of ingredients.",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 386442199,
-		"effect": "Restores 14% of Max HP to the selected character and regenerates 350 HP every 5s for 30s.",
-		"original_recipe": "miso_soup"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 1
 	}
 }
