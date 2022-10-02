@@ -14,6 +14,8 @@
 	"desc_hash": 750378765,
 	"name": "Lion's Roar",
 	"desc": "A sharp blade with extravagant carvings that somehow does not compromise on durability and sharpness. It roars like a lion as it cuts through the air.",
+	"icon": "UI_EquipIcon_Sword_Rockkiller",
+	"icon_awaken": "UI_EquipIcon_Sword_Rockkiller_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1114050,
 				"desc_hash": 4063568689,
-				"desc": "Increases DMG against opponents affected by Pyro or Electro by <color=#99FFFFFF>20%</color>.",
+				"desc": "Increases DMG against opponents affected by Pyro or Electro by 20%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1114051,
 				"desc_hash": 3309338761,
-				"desc": "Increases DMG against opponents affected by Pyro or Electro by <color=#99FFFFFF>24%</color>.",
+				"desc": "Increases DMG against opponents affected by Pyro or Electro by 24%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1114052,
 				"desc_hash": 3276257433,
-				"desc": "Increases DMG against opponents affected by Pyro or Electro by <color=#99FFFFFF>28%</color>.",
+				"desc": "Increases DMG against opponents affected by Pyro or Electro by 28%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1114053,
 				"desc_hash": 228648857,
-				"desc": "Increases DMG against opponents affected by Pyro or Electro by <color=#99FFFFFF>32%</color>.",
+				"desc": "Increases DMG against opponents affected by Pyro or Electro by 32%.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1114054,
 				"desc_hash": 2630710345,
-				"desc": "Increases DMG against opponents affected by Pyro or Electro by <color=#99FFFFFF>36%</color>.",
+				"desc": "Increases DMG against opponents affected by Pyro or Electro by 36%.",
 				"cost": 8000
 			}
 		]

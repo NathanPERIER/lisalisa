@@ -14,6 +14,8 @@
 	"desc_hash": 2616355533,
 	"name": "Prototype Starglitter",
 	"desc": "A hooked spear discovered hidden away in the Blackcliff Forge. The glimmers along the sharp edge are like stars in the night.",
+	"icon": "UI_EquipIcon_Pole_Proto",
+	"icon_awaken": "UI_EquipIcon_Pole_Proto_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1134020,
 				"desc_hash": 3806082625,
-				"desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>8%</color> for 12s. Max 2 stacks.",
+				"desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by 8% for 12s. Max 2 stacks.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1134021,
 				"desc_hash": 173699449,
-				"desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>10%</color> for 12s. Max 2 stacks.",
+				"desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by 10% for 12s. Max 2 stacks.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1134022,
 				"desc_hash": 470481049,
-				"desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>12%</color> for 12s. Max 2 stacks.",
+				"desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by 12% for 12s. Max 2 stacks.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1134023,
 				"desc_hash": 2527665809,
-				"desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>14%</color> for 12s. Max 2 stacks.",
+				"desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by 14% for 12s. Max 2 stacks.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1134024,
 				"desc_hash": 1658920241,
-				"desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>16%</color> for 12s. Max 2 stacks.",
+				"desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by 16% for 12s. Max 2 stacks.",
 				"cost": 8000
 			}
 		]

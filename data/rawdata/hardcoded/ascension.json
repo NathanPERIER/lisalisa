@@ -1,30 +1,30 @@
 [
 	{
 		"level": [1, 20],
-		"maxTalent": 1
+		"max_talent": 1
 	},
 	{
 		"level": [20, 40],
-		"maxTalent": 1
+		"max_talent": 1
 	},
 	{
 		"level": [40, 50],
-		"maxTalent": 2
+		"max_talent": 2
 	},
 	{
 		"level": [50, 60],
-		"maxTalent": 4
+		"max_talent": 4
 	},
 	{
 		"level": [60, 70],
-		"maxTalent": 6
+		"max_talent": 6
 	},
 	{
 		"level": [70, 80],
-		"maxTalent": 8
+		"max_talent": 8
 	},
 	{
 		"level": [80, 90],
-		"maxTalent": 10
+		"max_talent": 10
 	}
 ]

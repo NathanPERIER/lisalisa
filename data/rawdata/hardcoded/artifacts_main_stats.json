@@ -1,0 +1,38 @@
+{
+	"flower": [
+		"HP"
+	],
+	"plume": [
+		"ATK"
+	],
+	"sands": [
+		"HP%",
+		"ATK%",
+		"DEF%",
+		"Elemental Mastery",
+		"Energy Recharge%"
+	],
+	"goblet": [
+		"HP%",
+		"ATK%",
+		"DEF%",
+		"Elemental Mastery",
+		"Pyro DMG%",
+		"Hydro DMG%",
+		"Cryo DMG%",
+		"Electro DMG%",
+		"Anemo DMG%",
+		"Geo DMG%",
+		"Dendro DMG%",
+		"Physical DMG%"
+	],
+	"circlet": [
+		"HP%",
+		"ATK%",
+		"DEF%",
+		"Elemental Mastery",
+		"Crit Rate%",
+		"Crit DMG%",
+		"Healing Bonus%"
+	]
+}

@@ -14,6 +14,8 @@
 	"desc_hash": 1730885565,
 	"name": "Wavebreaker's Fin",
 	"desc": "A naginata forged from luminescent material deep in the ocean depths. It was once the possession of the tengu race.",
+	"icon": "UI_EquipIcon_Pole_Maria",
+	"icon_awaken": "UI_EquipIcon_Pole_Maria_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 45.06869888305664,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1134160,
 				"desc_hash": 2943644025,
-				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.12%</color>. A maximum of <color=#99FFFFFF>40%</color> increased Elemental Burst DMG can be achieved this way.",
+				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12%. A maximum of 40% increased Elemental Burst DMG can be achieved this way.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1134161,
 				"desc_hash": 3756656953,
-				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.15%</color>. A maximum of <color=#99FFFFFF>50%</color> increased Elemental Burst DMG can be achieved this way.",
+				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.15%. A maximum of 50% increased Elemental Burst DMG can be achieved this way.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1134162,
 				"desc_hash": 325676553,
-				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.18%</color>. A maximum of <color=#99FFFFFF>60%</color> increased Elemental Burst DMG can be achieved this way.",
+				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.18%. A maximum of 60% increased Elemental Burst DMG can be achieved this way.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1134163,
 				"desc_hash": 759699921,
-				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.21%</color>. A maximum of <color=#99FFFFFF>70%</color> increased Elemental Burst DMG can be achieved this way.",
+				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.21%. A maximum of 70% increased Elemental Burst DMG can be achieved this way.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1134164,
 				"desc_hash": 775754601,
-				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.24%</color>. A maximum of <color=#99FFFFFF>80%</color> increased Elemental Burst DMG can be achieved this way.",
+				"desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.24%. A maximum of 80% increased Elemental Burst DMG can be achieved this way.",
 				"cost": 8000
 			}
 		]

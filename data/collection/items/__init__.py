@@ -2,7 +2,10 @@
 from utils import loadJson, indexById, idFromName
 from constants import ITEM_LIST_JSON
 from translate.textmap import lang
+from common.text import clearFormat
 from translate.mhy import mhy_items
+from items.dataobj import Item
+from items.images import registerItemImage
 
 import logging
 
@@ -17,12 +20,20 @@ def getAutoTranslated() -> dict :
 	return __g_auto_translated
 
 
+def readAllItems() -> "list[Item]" :
+	return [
+		__g_readFullItem(item) for item in items.values()
+		if item['nameTextMapHash'] in lang
+	]
+
+
 def __g_supplyThroughItems(str_id: str) -> str :
 	hoyo_id = int(str_id)
 	if hoyo_id in items :
-		item = items[hoyo_id]
-		identifier = idFromName(lang(item['nameTextMapHash']))
-		__g_auto_translated[identifier] = readItem(item)
+		item = readItem(items[hoyo_id])
+		identifier = idFromName(item.name)
+		registerItemImage(identifier, item)
+		__g_auto_translated[identifier] = item
 		return identifier
 	logger.warning("No item found with hoyo id %d", hoyo_id)
 	return str(hoyo_id)
@@ -30,27 +41,22 @@ def __g_supplyThroughItems(str_id: str) -> str :
 mhy_items.setSupplyStrategy(__g_supplyThroughItems)
 
 
-def readItem(item: dict) -> dict :
-	res = {
-		'hoyo_id': item['id'],
-		'name_hash': item['nameTextMapHash'],
-		'desc_hash': item['descTextMapHash'],
-		'type_hash': item['typeDescTextMapHash'],
-		'rarity': item['rankLevel'] if 'rankLevel' in item else 1
-	}
-	res['name'] = lang(res['name_hash'])
-	res['desc'] = lang(res['desc_hash'])
-	res['type'] = lang(res['type_hash'])
-	sp_desc_hash = item['specialDescTextMapHash']
-	sp_desc = lang(sp_desc_hash)
-	if sp_desc != '' :
-		print(f"SP: {sp_desc}")
-	effect_desc_hash = item['effectDescTextMapHash']
-	effect_desc = lang(effect_desc_hash)
-	if effect_desc != '' :
-		print(f"EFF: {effect_desc}")
-	interaction_hash = item['interactionTitleTextMapHash']
-	interaction = lang(interaction_hash)
-	if interaction != '' :
-		print(f"INTERACT: {interaction}")
+def readItem(item: dict) -> Item :
+	res = Item()
+	res.hoyo_id = item['id']
+	res.name_hash = item['nameTextMapHash']
+	res.desc_hash = item['descTextMapHash']
+	res.type_hash = item['typeDescTextMapHash']
+	res.rarity = item['rankLevel'] if 'rankLevel' in item else 1
+	res.name = lang(res.name_hash)
+	res.desc = clearFormat(lang(res.desc_hash)) if res.desc_hash in lang else None
+	res.type = item['itemType']
+	res.type_desc = lang(res.type_hash) if res.type_hash in lang else None
+	return res
+
+
+def __g_readFullItem(item: dict) -> Item :
+	res = readItem(item)
+	if 'gadgetId' in item :
+		res.gadget_id = item['gadgetId']
 	return res

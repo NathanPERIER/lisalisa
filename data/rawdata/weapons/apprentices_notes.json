@@ -14,6 +14,8 @@
 	"desc_hash": 62211301,
 	"name": "Apprentice's Notes",
 	"desc": "Notes left behind by a top student. Many useful spells are listed, and the handwriting is beautiful.",
+	"icon": "UI_EquipIcon_Catalyst_Apprentice",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Apprentice_Awaken",
 	"rarity": 1,
 	"base_stats": {
 		"Base ATK": 23.2450008392334

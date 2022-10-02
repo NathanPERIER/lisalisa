@@ -14,6 +14,8 @@
 	"desc_hash": 2243594437,
 	"name": "White Iron Greatsword",
 	"desc": "A claymore made from white iron. Lightweight without compromising on power. Effective even when wielded by one of average strength, it is extremely deadly in the hands of a physically stronger wielder.",
+	"icon": "UI_EquipIcon_Claymore_Tin",
+	"icon_awaken": "UI_EquipIcon_Claymore_Tin_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 38.74129867553711,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1123030,
 				"desc_hash": 3395408817,
-				"desc": "Defeating an opponent restores <color=#99FFFFFF>8%</color> HP.",
+				"desc": "Defeating an opponent restores 8% HP.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1123031,
 				"desc_hash": 568240425,
-				"desc": "Defeating an opponent restores <color=#99FFFFFF>10%</color> HP.",
+				"desc": "Defeating an opponent restores 10% HP.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1123032,
 				"desc_hash": 1069952849,
-				"desc": "Defeating an opponent restores <color=#99FFFFFF>12%</color> HP.",
+				"desc": "Defeating an opponent restores 12% HP.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1123033,
 				"desc_hash": 3748745,
-				"desc": "Defeating an opponent restores <color=#99FFFFFF>14%</color> HP.",
+				"desc": "Defeating an opponent restores 14% HP.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1123034,
 				"desc_hash": 622203977,
-				"desc": "Defeating an opponent restores <color=#99FFFFFF>16%</color> HP.",
+				"desc": "Defeating an opponent restores 16% HP.",
 				"cost": 4000
 			}
 		]

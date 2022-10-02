@@ -14,6 +14,8 @@
 	"desc_hash": 885061045,
 	"name": "Deathmatch",
 	"desc": "A sharp crimson polearm that was once a gladiator's priceless treasure. Its awl has been stained by the blood of countless beasts and men.",
+	"icon": "UI_EquipIcon_Pole_Gladiator",
+	"icon_awaken": "UI_EquipIcon_Pole_Gladiator_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 41.067100524902344,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1134050,
 				"desc_hash": 2488158001,
-				"desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>16%</color> and DEF is increased by <color=#99FFFFFF>16%</color>. If there are fewer than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>24%</color>.",
+				"desc": "If there are at least 2 opponents nearby, ATK is increased by 16% and DEF is increased by 16%. If there are fewer than 2 opponents nearby, ATK is increased by 24%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1134051,
 				"desc_hash": 1635499705,
-				"desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>20%</color> and DEF is increased by <color=#99FFFFFF>20%</color>. If there are fewer than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>30%</color>.",
+				"desc": "If there are at least 2 opponents nearby, ATK is increased by 20% and DEF is increased by 20%. If there are fewer than 2 opponents nearby, ATK is increased by 30%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1134052,
 				"desc_hash": 3325990985,
-				"desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>24%</color> and DEF is increased by <color=#99FFFFFF>24%</color>. If there are fewer than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>36%</color>.",
+				"desc": "If there are at least 2 opponents nearby, ATK is increased by 24% and DEF is increased by 24%. If there are fewer than 2 opponents nearby, ATK is increased by 36%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1134053,
 				"desc_hash": 1138390113,
-				"desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>28%</color> and DEF is increased by <color=#99FFFFFF>28%</color>. If there are fewer than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>42%</color>.",
+				"desc": "If there are at least 2 opponents nearby, ATK is increased by 28% and DEF is increased by 28%. If there are fewer than 2 opponents nearby, ATK is increased by 42%.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1134054,
 				"desc_hash": 4026522113,
-				"desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>32%</color> and DEF is increased by <color=#99FFFFFF>32%</color>. If there are fewer than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>48%</color>.",
+				"desc": "If there are at least 2 opponents nearby, ATK is increased by 32% and DEF is increased by 32%. If there are fewer than 2 opponents nearby, ATK is increased by 48%.",
 				"cost": 8000
 			}
 		]

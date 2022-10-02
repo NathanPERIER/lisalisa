@@ -14,6 +14,8 @@
 	"desc_hash": 3931321797,
 	"name": "Rust",
 	"desc": "A completely rusted iron greatbow. The average person would lack the strength to even lift it, let alone fire it.",
+	"icon": "UI_EquipIcon_Bow_Recluse",
+	"icon_awaken": "UI_EquipIcon_Bow_Recluse_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1154050,
 				"desc_hash": 3268538449,
-				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>40%</color> but decreases Charged Attack DMG by 10%.",
+				"desc": "Increases Normal Attack DMG by 40% but decreases Charged Attack DMG by 10%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1154051,
 				"desc_hash": 3179243025,
-				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>50%</color> but decreases Charged Attack DMG by 10%.",
+				"desc": "Increases Normal Attack DMG by 50% but decreases Charged Attack DMG by 10%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1154052,
 				"desc_hash": 657870729,
-				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>60%</color> but decreases Charged Attack DMG by 10%.",
+				"desc": "Increases Normal Attack DMG by 60% but decreases Charged Attack DMG by 10%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1154053,
 				"desc_hash": 705040913,
-				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>70%</color> but decreases Charged Attack DMG by 10%.",
+				"desc": "Increases Normal Attack DMG by 70% but decreases Charged Attack DMG by 10%.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1154054,
 				"desc_hash": 1454583665,
-				"desc": "Increases Normal Attack DMG by <color=#99FFFFFF>80%</color> but decreases Charged Attack DMG by 10%.",
+				"desc": "Increases Normal Attack DMG by 80% but decreases Charged Attack DMG by 10%.",
 				"cost": 8000
 			}
 		]

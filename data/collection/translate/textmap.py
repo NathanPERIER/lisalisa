@@ -12,12 +12,20 @@ __g_lang: "dict[str, str]"   = loadJson(LANG_JSON)
 __g_manual: "dict[str, any]" = indexById(loadJson(MANUAL_LANG_JSON), 'textMapId')
 
 
-def lang(text_hash: int) -> str :
-	str_hash = str(text_hash)
-	if str_hash in __g_lang :
-		return __g_lang[str_hash]
-	logger.error("Translation for hash %s not found in lang", str_hash)
-	return None
+class Translator :
+	def __init__(self, textmap: "dict[str,str]") :
+		self._textmap = textmap
+	def __getitem__(self, hash: str) :
+		if hash in self._textmap :
+			return self._textmap[hash]
+		logger.error("Translation for hash %s not found in lang", hash)
+		return None
+	def __call__(self, hash: int) :
+		return self[str(hash)]
+	def __contains__(self, hash: int) :
+		return str(hash) in self._textmap
+
+lang = Translator(__g_lang)
 
 
 def hashForValue(val: str) -> int :

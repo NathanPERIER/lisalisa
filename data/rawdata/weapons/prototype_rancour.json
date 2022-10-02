@@ -14,6 +14,8 @@
 	"desc_hash": 626666981,
 	"name": "Prototype Rancour",
 	"desc": "An ancient longsword discovered in the Blackcliff Forge that cuts through rocks like a hot knife through butter.",
+	"icon": "UI_EquipIcon_Sword_Proto",
+	"icon_awaken": "UI_EquipIcon_Sword_Proto_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1114060,
 				"desc_hash": 3563143057,
-				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>4%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
+				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by 4% for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1114061,
 				"desc_hash": 1802515777,
-				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>5%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
+				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by 5% for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1114062,
 				"desc_hash": 2817384937,
-				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>6%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
+				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by 6% for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1114063,
 				"desc_hash": 14760489,
-				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>7%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
+				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by 7% for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1114064,
 				"desc_hash": 3447558873,
-				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>8%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
+				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by 8% for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
 				"cost": 8000
 			}
 		]

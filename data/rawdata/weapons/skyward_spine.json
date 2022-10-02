@@ -14,6 +14,8 @@
 	"desc_hash": 2400004301,
 	"name": "Skyward Spine",
 	"desc": "A polearm that symbolizes Dvalin's firm resolve. The upright shaft of this weapon points towards the heavens, clad in the might of sky and wind.",
+	"icon": "UI_EquipIcon_Pole_Dvalin",
+	"icon_awaken": "UI_EquipIcon_Pole_Dvalin_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 47.5369987487793,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1135020,
 				"desc_hash": 3677933153,
-				"desc": "Increases CRIT Rate by <color=#99FFFFFF>8%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>40%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+				"desc": "Increases CRIT Rate by 8% and increases Normal ATK SPD by 12%. Additionally, Normal and Charged Attacks hits on opponents have a 50% chance to trigger a vacuum blade that deals 40% of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1135021,
 				"desc_hash": 965461625,
-				"desc": "Increases CRIT Rate by <color=#99FFFFFF>10%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>55%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+				"desc": "Increases CRIT Rate by 10% and increases Normal ATK SPD by 12%. Additionally, Normal and Charged Attacks hits on opponents have a 50% chance to trigger a vacuum blade that deals 55% of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1135022,
 				"desc_hash": 680920065,
-				"desc": "Increases CRIT Rate by <color=#99FFFFFF>12%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>70%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+				"desc": "Increases CRIT Rate by 12% and increases Normal ATK SPD by 12%. Additionally, Normal and Charged Attacks hits on opponents have a 50% chance to trigger a vacuum blade that deals 70% of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1135023,
 				"desc_hash": 2889838121,
-				"desc": "Increases CRIT Rate by <color=#99FFFFFF>14%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>85%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+				"desc": "Increases CRIT Rate by 14% and increases Normal ATK SPD by 12%. Additionally, Normal and Charged Attacks hits on opponents have a 50% chance to trigger a vacuum blade that deals 85% of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
 				"cost": 8000
 			},
 			{
 				"affix_id": 1135024,
 				"desc_hash": 762646945,
-				"desc": "Increases CRIT Rate by <color=#99FFFFFF>16%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>100%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+				"desc": "Increases CRIT Rate by 16% and increases Normal ATK SPD by 12%. Additionally, Normal and Charged Attacks hits on opponents have a 50% chance to trigger a vacuum blade that deals 100% of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
 				"cost": 16000
 			}
 		]

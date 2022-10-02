@@ -14,6 +14,8 @@
 	"desc_hash": 3867432845,
 	"name": "Amber Bead",
 	"desc": "A catalyst carved out of amber that gains a warm halo under the sun.",
+	"icon": "UI_EquipIcon_Catalyst_Amber",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Amber_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 38.74129867553711,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1143060,
 				"desc_hash": 2949139721,
-				"desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>6%</color> for 6s. Max 2 stacks.",
+				"desc": "Normal Attack hits increase all Elemental DMG by 6% for 6s. Max 2 stacks.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1143061,
 				"desc_hash": 902954657,
-				"desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>7.5%</color> for 6s. Max 2 stacks.",
+				"desc": "Normal Attack hits increase all Elemental DMG by 7.5% for 6s. Max 2 stacks.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1143062,
 				"desc_hash": 4062007553,
-				"desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>9%</color> for 6s. Max 2 stacks.",
+				"desc": "Normal Attack hits increase all Elemental DMG by 9% for 6s. Max 2 stacks.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1143063,
 				"desc_hash": 3669605993,
-				"desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>10.5%</color> for 6s. Max 2 stacks.",
+				"desc": "Normal Attack hits increase all Elemental DMG by 10.5% for 6s. Max 2 stacks.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1143064,
 				"desc_hash": 243001,
-				"desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>12%</color> for 6s. Max 2 stacks.",
+				"desc": "Normal Attack hits increase all Elemental DMG by 12% for 6s. Max 2 stacks.",
 				"cost": 4000
 			}
 		]

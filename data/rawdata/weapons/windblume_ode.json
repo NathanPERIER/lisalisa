@@ -14,6 +14,8 @@
 	"desc_hash": 1031521493,
 	"name": "Windblume Ode",
 	"desc": "A bow adorned with nameless flowers that bears the earnest hopes of an equally nameless person.",
+	"icon": "UI_EquipIcon_Bow_Fleurfair",
+	"icon_awaken": "UI_EquipIcon_Bow_Fleurfair_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1154130,
 				"desc_hash": 3011253385,
-				"desc": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by <color=#99FFFFFF>16%</color> for 6s.",
+				"desc": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 16% for 6s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1154131,
 				"desc_hash": 1438538761,
-				"desc": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by <color=#99FFFFFF>20%</color> for 6s.",
+				"desc": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 20% for 6s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1154132,
 				"desc_hash": 1633168769,
-				"desc": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by <color=#99FFFFFF>24%</color> for 6s.",
+				"desc": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 24% for 6s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1154133,
 				"desc_hash": 1464349937,
-				"desc": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by <color=#99FFFFFF>28%</color> for 6s.",
+				"desc": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 28% for 6s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1154134,
 				"desc_hash": 2359422417,
-				"desc": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by <color=#99FFFFFF>32%</color> for 6s.",
+				"desc": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 32% for 6s.",
 				"cost": 8000
 			}
 		]

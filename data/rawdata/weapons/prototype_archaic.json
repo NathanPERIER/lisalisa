@@ -14,6 +14,8 @@
 	"desc_hash": 356356197,
 	"name": "Prototype Archaic",
 	"desc": "An ancient greatsword discovered in the Blackcliff Forge. It swings with such an immense force that one feels it could cut straight through reality itself.",
+	"icon": "UI_EquipIcon_Claymore_Proto",
+	"icon_awaken": "UI_EquipIcon_Claymore_Proto_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1124060,
 				"desc_hash": 2542595553,
-				"desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional <color=#99FFFFFF>240%</color> ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
+				"desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional 240% ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1124061,
 				"desc_hash": 586715849,
-				"desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional <color=#99FFFFFF>300%</color> ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
+				"desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional 300% ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1124062,
 				"desc_hash": 3163655049,
-				"desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional <color=#99FFFFFF>360%</color> ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
+				"desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional 360% ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1124063,
 				"desc_hash": 3470900905,
-				"desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional <color=#99FFFFFF>420%</color> ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
+				"desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional 420% ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1124064,
 				"desc_hash": 2849616817,
-				"desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional <color=#99FFFFFF>480%</color> ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
+				"desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional 480% ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
 				"cost": 8000
 			}
 		]

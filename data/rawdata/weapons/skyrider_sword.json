@@ -14,6 +14,8 @@
 	"desc_hash": 3086923557,
 	"name": "Skyrider Sword",
 	"desc": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword...",
+	"icon": "UI_EquipIcon_Sword_Mitsurugi",
+	"icon_awaken": "UI_EquipIcon_Sword_Mitsurugi_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 37.60749816894531,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1113060,
 				"desc_hash": 4238264529,
-				"desc": "Using an Elemental Burst grants a <color=#99FFFFFF>12%</color> increase in ATK and Movement SPD for 15s.",
+				"desc": "Using an Elemental Burst grants a 12% increase in ATK and Movement SPD for 15s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1113061,
 				"desc_hash": 4191987009,
-				"desc": "Using an Elemental Burst grants a <color=#99FFFFFF>15%</color> increase in ATK and Movement SPD for 15s.",
+				"desc": "Using an Elemental Burst grants a 15% increase in ATK and Movement SPD for 15s.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1113062,
 				"desc_hash": 283262361,
-				"desc": "Using an Elemental Burst grants a <color=#99FFFFFF>18%</color> increase in ATK and Movement SPD for 15s.",
+				"desc": "Using an Elemental Burst grants a 18% increase in ATK and Movement SPD for 15s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1113063,
 				"desc_hash": 3076540873,
-				"desc": "Using an Elemental Burst grants a <color=#99FFFFFF>21%</color> increase in ATK and Movement SPD for 15s.",
+				"desc": "Using an Elemental Burst grants a 21% increase in ATK and Movement SPD for 15s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1113064,
 				"desc_hash": 86444217,
-				"desc": "Using an Elemental Burst grants a <color=#99FFFFFF>24%</color> increase in ATK and Movement SPD for 15s.",
+				"desc": "Using an Elemental Burst grants a 24% increase in ATK and Movement SPD for 15s.",
 				"cost": 4000
 			}
 		]

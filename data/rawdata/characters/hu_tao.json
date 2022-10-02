@@ -8,6 +8,7 @@
 	"desc_hash": 223073489,
 	"name": "Hu Tao",
 	"desc": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
+	"icon": "UI_AvatarIcon_Hutao",
 	"rarity": 5,
 	"special": false,
 	"body": "BODY_GIRL",
@@ -29,6 +30,8 @@
 	"astrolabe": "Papilio Charontis",
 	"allegiance": "Wangsheng Funeral Parlor",
 	"default_weapon": "beginners_protector",
+	"increase_skill": 3,
+	"increase_burst": 5,
 	"base_stats": {
 		"Base HP": 1210.7164306640625,
 		"Base ATK": 8.285900115966797,
@@ -155,9 +158,10 @@
 		"normal_attack": {
 			"name_hash": 2345944629,
 			"desc_hash": 2233988720,
-			"charge_num": 1,
 			"name": "Normal Attack: Secret Spear of Wangsheng",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to six consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerforms up to six consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_03",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_diligence": 3,
@@ -410,9 +414,10 @@
 		"elemental_skill": {
 			"name_hash": 214248165,
 			"desc_hash": 3772368888,
-			"charge_num": 1,
 			"name": "Guide to Afterlife",
-			"desc": "Only an unwavering flame can cleanse the impurities of this world.\\nHu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.\\n\\n<color=#FFD780FF>Paramita Papilio</color>\\n\u00b7Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.\\n\u00b7Converts attack DMG to <color=#FF9999FF>Pyro DMG</color>, which cannot be overridden by any other elemental infusion.\\n\u00b7Charged Attacks apply the Blood Blossom effect to the enemies hit.\\n\u00b7Increases Hu Tao's resistance to interruption.\\n\\n<color=#FFD780FF>Blood Blossom</color>\\nEnemies affected by Blood Blossom will take <color=#FF9999FF>Pyro DMG</color> every 4s. This DMG is considered Elemental Skill DMG.\\nEach enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.\\n\\n<color=#FFD780FF>Paramita Papilio</color> ends when its duration is over, or Hu Tao has left the battlefield or fallen.\\n\\n<i>Hu Tao's Secret Spear technique is based on several rules, the first of which is: \"The spear opens the path to the afterlife, and the butterflies bridge this world and the next.\"</i>",
+			"desc": "Only an unwavering flame can cleanse the impurities of this world.\nHu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.\n\nParamita Papilio\n\u00b7Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.\n\u00b7Converts attack DMG to Pyro DMG, which cannot be overridden by any other elemental infusion.\n\u00b7Charged Attacks apply the Blood Blossom effect to the enemies hit.\n\u00b7Increases Hu Tao's resistance to interruption.\n\nBlood Blossom\nEnemies affected by Blood Blossom will take Pyro DMG every 4s. This DMG is considered Elemental Skill DMG.\nEach enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.\n\nParamita Papilio ends when its duration is over, or Hu Tao has left the battlefield or fallen.\n\n<i>Hu Tao's Secret Spear technique is based on several rules, the first of which is: \"The spear opens the path to the afterlife, and the butterflies bridge this world and the next.\"</i>",
+			"icon": "Skill_S_Hutao_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_diligence": 3,
@@ -601,9 +606,10 @@
 		"elemental_burst": {
 			"name_hash": 1115787101,
 			"desc_hash": 4072387376,
-			"charge_num": 1,
 			"name": "Spirit Soother",
-			"desc": "Commands a blazing spirit to attack, dealing <color=#FF9999FF>Pyro DMG</color> in a large AoE.\\nUpon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times, based on the number of enemies hit.\\nIf Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased.\\n\\n<i>Supernatural activity by those who have already left this world is a source of great anxiety for the Wangsheng Funeral Parlor. In such cases, cremation always lets Hu Tao find peace of mind. The more anxious she feels, the stronger the flame.</i>",
+			"desc": "Commands a blazing spirit to attack, dealing Pyro DMG in a large AoE.\nUpon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times, based on the number of enemies hit.\nIf Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased.\n\n<i>Supernatural activity by those who have already left this world is a source of great anxiety for the Wangsheng Funeral Parlor. In such cases, cremation always lets Hu Tao find peace of mind. The more anxious she feels, the stronger the flame.</i>",
+			"icon": "Skill_E_Hutao_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_diligence": 3,
@@ -795,61 +801,70 @@
 		{
 			"name_hash": 2050097581,
 			"desc_hash": 1251434283,
-			"ascension": 1,
 			"name": "Flutter By",
-			"desc": "When a <color=#FFD780FF>Paramita Papilio</color> state activated by <color=#FFD780FF>Guide to Afterlife</color> ends, all allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 8s."
+			"desc": "When a Paramita Papilio state activated by Guide to Afterlife ends, all allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 8s.",
+			"icon": "UI_Talent_S_Hutao_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 2294463397,
 			"desc_hash": 3730912435,
-			"ascension": 4,
 			"name": "Sanguine Rouge",
-			"desc": "When Hu Tao's HP is equal to or less than 50%, her <color=#FF9999FF>Pyro DMG Bonus</color> is increased by 33%."
+			"desc": "When Hu Tao's HP is equal to or less than 50%, her Pyro DMG Bonus is increased by 33%.",
+			"icon": "UI_Talent_S_Hutao_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 1749668397,
 			"desc_hash": 3062891747,
-			"ascension": null,
 			"name": "The More the Merrier",
-			"desc": "When Hu Tao cooks a dish perfectly, she has a 18% chance to receive an additional \"Suspicious\" dish of the same type."
+			"desc": "When Hu Tao cooks a dish perfectly, she has a 18% chance to receive an additional \"Suspicious\" dish of the same type.",
+			"icon": "UI_Talent_Cook_ExtraFailedItem",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 2081199193,
-			"name": "Crimson Bouquet",
 			"desc_hash": 67778231,
-			"desc": "While in a <color=#FFD780FF>Paramita Papilio</color> state activated by <color=#FFD780FF>Guide to Afterlife</color>, Hu Tao's Charge Attacks do not consume Stamina."
+			"name": "Crimson Bouquet",
+			"desc": "While in a Paramita Papilio state activated by Guide to Afterlife, Hu Tao's Charge Attacks do not consume Stamina.",
+			"icon": "UI_Talent_S_Hutao_03"
 		},
 		{
 			"name_hash": 1768747369,
-			"name": "Ominous Rainfall",
 			"desc_hash": 3620258903,
-			"desc": "Increases the <color=#FFD780FF>Blood Blossom</color> DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied.\\nAdditionally, <color=#FFD780FF>Spirit Soother</color> will also apply the <color=#FFD780FF>Blood Blossom</color> effect."
+			"name": "Ominous Rainfall",
+			"desc": "Increases the Blood Blossom DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied.\nAdditionally, Spirit Soother will also apply the Blood Blossom effect.",
+			"icon": "UI_Talent_S_Hutao_01"
 		},
 		{
 			"name_hash": 3111083697,
-			"name": "Lingering Carmine",
 			"desc_hash": 3057870071,
-			"desc": "Increases the Level of <color=#FFD780FF>Guide to Afterlife</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Lingering Carmine",
+			"desc": "Increases the Level of Guide to Afterlife by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Hutao_01"
 		},
 		{
 			"name_hash": 4276933609,
-			"name": "Garden of Eternal Rest",
 			"desc_hash": 3695286279,
-			"desc": "Upon defeating an enemy affected by a <color=#FFD780FF>Blood Blossom</color> that Hu Tao applied herself, all nearby allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 15s."
+			"name": "Garden of Eternal Rest",
+			"desc": "Upon defeating an enemy affected by a Blood Blossom that Hu Tao applied herself, all nearby allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 15s.",
+			"icon": "UI_Talent_S_Hutao_02"
 		},
 		{
 			"name_hash": 658527361,
-			"name": "Floral Incense",
 			"desc_hash": 2735458983,
-			"desc": "Increases the Level of <color=#FFD780FF>Spirit Soother</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Floral Incense",
+			"desc": "Increases the Level of Spirit Soother by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Hutao_02"
 		},
 		{
 			"name_hash": 2361886209,
-			"name": "Butterfly's Embrace",
 			"desc_hash": 3811817239,
-			"desc": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:\\nHu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, all of her Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.\\nThis effect triggers automatically when Hu Tao has 1 HP left.\\nCan only occur once every 60s."
+			"name": "Butterfly's Embrace",
+			"desc": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:\nHu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, all of her Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.\nThis effect triggers automatically when Hu Tao has 1 HP left.\nCan only occur once every 60s.",
+			"icon": "UI_Talent_S_Hutao_04"
 		}
 	],
 	"skins": {
@@ -857,24 +872,23 @@
 			"hoyo_id": null,
 			"name_hash": 626284674,
 			"desc_hash": 1186495122,
-			"restricted": false,
 			"name": "Plum Blossom Bouquet",
-			"desc": "Hu Tao's outfit. The daily work clothes of the Wangsheng Funeral Parlor's director."
+			"desc": "Hu Tao's outfit. The daily work clothes of the Wangsheng Funeral Parlor's director.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "vegetarian_abalone",
 		"hoyo_id": 108200,
 		"name_hash": 1745083764,
 		"desc_hash": 1802123117,
 		"type_hash": 1134559294,
-		"rarity": 2,
 		"name": "Ghostly March",
 		"desc": "Hu Tao's specialty. The round-faced ghouls seem quite cute, squeezed into a pile as they are. But if you were to fall to temptation and try but one of them, you may yet come to regret it for a long while... After all, this plate is full of top-quality, taste-bud-blasting\u2014 Actually, what on earth is this stuff, anyway?",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 1453877799,
-		"effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP.",
-		"original_recipe": "vegetarian_abalone"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 2
 	}
 }

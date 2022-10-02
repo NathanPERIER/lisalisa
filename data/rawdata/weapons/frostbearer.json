@@ -14,6 +14,8 @@
 	"desc_hash": 234405637,
 	"name": "Frostbearer",
 	"desc": "A fruit that possesses a strange, frosty will. A faint sense of agony emanates from it.",
+	"icon": "UI_EquipIcon_Catalyst_Everfrost",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Everfrost_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1144120,
 				"desc_hash": 3743087417,
-				"desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>60%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>80%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>200%</color> of ATK. Can only occur once every 10s.",
+				"desc": "Hitting an opponent with Normal and Charged Attacks has a 60% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 80% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 200% of ATK. Can only occur once every 10s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1144121,
 				"desc_hash": 2638100617,
-				"desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>70%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>95%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>240%</color> of ATK. Can only occur once every 10s.",
+				"desc": "Hitting an opponent with Normal and Charged Attacks has a 70% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 95% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 240% of ATK. Can only occur once every 10s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1144122,
 				"desc_hash": 3670272705,
-				"desc": "Hitting an opponent with Normal and Charged Attacks has an <color=#99FFFFFF>80%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>110%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>280%</color> of ATK. Can only occur once every 10s.",
+				"desc": "Hitting an opponent with Normal and Charged Attacks has an 80% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 110% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 280% of ATK. Can only occur once every 10s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1144123,
 				"desc_hash": 2227378393,
-				"desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>90%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>125%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>320%</color> of ATK. Can only occur once every 10s.",
+				"desc": "Hitting an opponent with Normal and Charged Attacks has a 90% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 125% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 320% of ATK. Can only occur once every 10s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1144124,
 				"desc_hash": 2637568257,
-				"desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>100%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>140%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>360%</color> of ATK. Can only occur once every 10s.",
+				"desc": "Hitting an opponent with Normal and Charged Attacks has a 100% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 140% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 360% of ATK. Can only occur once every 10s.",
 				"cost": 8000
 			}
 		]

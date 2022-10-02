@@ -14,6 +14,8 @@
 	"desc_hash": 3519261853,
 	"name": "Luxurious Sea-Lord",
 	"desc": "The great king of the ocean. Having been air-dried, it makes for a fine weapon as well as emergency sustenance.",
+	"icon": "UI_EquipIcon_Claymore_MillenniaTuna",
+	"icon_awaken": "UI_EquipIcon_Claymore_MillenniaTuna_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 41.067100524902344,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1124120,
 				"desc_hash": 2335370529,
-				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>12%</color>. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals <color=#99FFFFFF>100%</color> ATK as AoE DMG. This effect can occur once every 15s.",
+				"desc": "Increases Elemental Burst DMG by 12%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 100% ATK as AoE DMG. This effect can occur once every 15s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1124121,
 				"desc_hash": 2419718961,
-				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>15%</color>. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals <color=#99FFFFFF>125%</color> ATK as AoE DMG. This effect can occur once every 15s.",
+				"desc": "Increases Elemental Burst DMG by 15%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 125% ATK as AoE DMG. This effect can occur once every 15s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1124122,
 				"desc_hash": 1030583761,
-				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>18%</color>. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals <color=#99FFFFFF>150%</color> ATK as AoE DMG. This effect can occur once every 15s.",
+				"desc": "Increases Elemental Burst DMG by 18%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 150% ATK as AoE DMG. This effect can occur once every 15s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1124123,
 				"desc_hash": 292425609,
-				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>21%</color>. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals <color=#99FFFFFF>175%</color> ATK as AoE DMG. This effect can occur once every 15s.",
+				"desc": "Increases Elemental Burst DMG by 21%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 175% ATK as AoE DMG. This effect can occur once every 15s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1124124,
 				"desc_hash": 2434899201,
-				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>24%</color>. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals <color=#99FFFFFF>200%</color> ATK as AoE DMG. This effect can occur once every 15s.",
+				"desc": "Increases Elemental Burst DMG by 24%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 200% ATK as AoE DMG. This effect can occur once every 15s.",
 				"cost": 8000
 			}
 		]

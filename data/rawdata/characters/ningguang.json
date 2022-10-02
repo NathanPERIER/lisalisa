@@ -8,6 +8,7 @@
 	"desc_hash": 2174640361,
 	"name": "Ningguang",
 	"desc": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+	"icon": "UI_AvatarIcon_Ningguang",
 	"rarity": 4,
 	"special": false,
 	"body": "BODY_LADY",
@@ -29,6 +30,8 @@
 	"astrolabe": "Opus Aequilibrium",
 	"allegiance": "Liyue Qixing",
 	"default_weapon": "apprentices_notes",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 820.6118774414062,
 		"Base ATK": 17.808000564575195,
@@ -155,9 +158,10 @@
 		"normal_attack": {
 			"name_hash": 2745030989,
 			"desc_hash": 3500884936,
-			"charge_num": 1,
 			"name": "Normal Attack: Sparkling Scatter",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nShoots gems that deal <color=#FFE699FF>Geo DMG</color>.\\nUpon hit, this grants Ningguang 1 Star Jade.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of stamina to fire off a giant gem that deals <color=#FFE699FF>Geo DMG</color>.\\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FFE699FF>AoE Geo DMG</color> upon impact with the ground.",
+			"desc": "Normal Attack\nShoots gems that deal Geo DMG.\nUpon hit, this grants Ningguang 1 Star Jade.\n\nCharged Attack\nConsumes a certain amount of stamina to fire off a giant gem that deals Geo DMG.\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n\nPlunging Attack\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Geo DMG upon impact with the ground.",
+			"icon": "Skill_A_Catalyst_MD",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_prosperity": 3,
@@ -346,9 +350,10 @@
 		"elemental_skill": {
 			"name_hash": 2863733197,
 			"desc_hash": 226285648,
-			"charge_num": 1,
 			"name": "Jade Screen",
-			"desc": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing <color=#FFE699FF>AoE Geo DMG</color>.\\n\\n<color=#FFD780FF>Jade Screen</color>\\n\u00b7Blocks opponents' projectiles.\\n\u00b7Endurance scales based on Ningguang's Max HP.\\n\\nJade Screen is considered a <color=#FFE699FF>Geo Construct</color> and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\\n\\n<i>The canvas of stars is written upon this jade screen.</i>",
+			"desc": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing AoE Geo DMG.\n\nJade Screen\n\u00b7Blocks opponents' projectiles.\n\u00b7Endurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a Geo Construct and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\n\n<i>The canvas of stars is written upon this jade screen.</i>",
+			"icon": "Skill_S_Ningguang_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_prosperity": 3,
@@ -489,9 +494,10 @@
 		"elemental_burst": {
 			"name_hash": 3719617877,
 			"desc_hash": 4121543128,
-			"charge_num": 1,
 			"name": "Starshatter",
-			"desc": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive <color=#FFE699FF>Geo DMG</color>.\\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.\\n\\n<i>Stars shatter. Silence falls.</i>",
+			"desc": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive Geo DMG.\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.\n\n<i>Stars shatter. Silence falls.</i>",
+			"icon": "Skill_E_Ningguang_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_prosperity": 3,
@@ -635,61 +641,70 @@
 		{
 			"name_hash": 2007496293,
 			"desc_hash": 936555731,
-			"ascension": 1,
 			"name": "Backup Plan",
-			"desc": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina."
+			"desc": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina.",
+			"icon": "UI_Talent_S_Ningguang_02",
+			"ascension": 1
 		},
 		{
 			"name_hash": 2498988029,
 			"desc_hash": 3667556291,
-			"ascension": 4,
 			"name": "Strategic Reserve",
-			"desc": "A character that passes through the <color=#FFD780FF>Jade Screen</color> will gain a 12% <color=#FFE699FF>Geo DMG Bonus</color> for 10s."
+			"desc": "A character that passes through the Jade Screen will gain a 12% Geo DMG Bonus for 10s.",
+			"icon": "UI_Talent_S_Ningguang_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 3990426357,
 			"desc_hash": 3051868187,
-			"ascension": null,
 			"name": "Trove of Marvelous Treasures",
-			"desc": "Displays the location of nearby <color=#FFD780FF>ore veins used in forging</color> on the mini-map."
+			"desc": "Displays the location of nearby ore veins used in forging on the mini-map.",
+			"icon": "UI_Talent_Collect_Ore",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 2798083633,
-			"name": "Piercing Fragments",
 			"desc_hash": 3095075175,
-			"desc": "When a Normal Attack hits, it deals AoE DMG."
+			"name": "Piercing Fragments",
+			"desc": "When a Normal Attack hits, it deals AoE DMG.",
+			"icon": "UI_Talent_S_Ningguang_01"
 		},
 		{
 			"name_hash": 3383823929,
-			"name": "Shock Effect",
 			"desc_hash": 215899111,
-			"desc": "When <color=#FFD780FF>Jade Screen</color> is shattered, its CD will reset.\\nCan occur once every 6s."
+			"name": "Shock Effect",
+			"desc": "When Jade Screen is shattered, its CD will reset.\nCan occur once every 6s.",
+			"icon": "UI_Talent_S_Ningguang_05"
 		},
 		{
 			"name_hash": 2150334649,
-			"name": "Majesty Be the Array of Stars",
 			"desc_hash": 3390871,
-			"desc": "Increases the Level of <color=#FFD780FF>Starshatter</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Majesty Be the Array of Stars",
+			"desc": "Increases the Level of Starshatter by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Ningguang_02"
 		},
 		{
 			"name_hash": 900430793,
-			"name": "Exquisite be the Jade, Outshining All Beneath",
 			"desc_hash": 3712986823,
-			"desc": "<color=#FFD780FF>Jade Screen</color> increases nearby characters' Elemental RES by 10%."
+			"name": "Exquisite be the Jade, Outshining All Beneath",
+			"desc": "Jade Screen increases nearby characters' Elemental RES by 10%.",
+			"icon": "UI_Talent_S_Ningguang_03"
 		},
 		{
 			"name_hash": 276636521,
-			"name": "Invincible Be the Jade Screen",
 			"desc_hash": 1513475887,
-			"desc": "Increases the Level of <color=#FFD780FF>Jade Screen</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Invincible Be the Jade Screen",
+			"desc": "Increases the Level of Jade Screen by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Ningguang_01"
 		},
 		{
 			"name_hash": 637125593,
-			"name": "Grandeur Be the Seven Stars",
 			"desc_hash": 1654510391,
-			"desc": "When <color=#FFD780FF>Starshatter</color> is used, Ningguang gains 7 Star Jades."
+			"name": "Grandeur Be the Seven Stars",
+			"desc": "When Starshatter is used, Ningguang gains 7 Star Jades.",
+			"icon": "UI_Talent_S_Ningguang_04"
 		}
 	],
 	"skins": {
@@ -697,33 +712,33 @@
 			"hoyo_id": null,
 			"name_hash": 116451794,
 			"desc_hash": 3980318498,
-			"restricted": false,
 			"name": "Gold Leaf and Pearly Jade",
-			"desc": "Ningguang's outfit. Intricate embroidery is the hallmark of this graceful dress."
+			"desc": "Ningguang's outfit. Intricate embroidery is the hallmark of this graceful dress.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": [
-			{
+		"alt": {
+			"orchids_evening_gown": {
 				"hoyo_id": 340002,
 				"name_hash": 2572106930,
 				"desc_hash": 720597146,
-				"restricted": false,
 				"name": "Orchid's Evening Gown",
-				"desc": "Ningguang's formal wear. The long cyan skirt traces her elegant curves, and the butterfly wings at her ankles lend the outfit a touch of light grace."
+				"desc": "Ningguang's formal wear. The long cyan skirt traces her elegant curves, and the butterfly wings at her ankles lend the outfit a touch of light grace.",
+				"icon": "UI_AvatarIcon_NingguangCostumeFloral",
+				"restricted": false
 			}
-		]
+		}
 	},
 	"special_dish": {
+		"original_recipe": "mora_meat",
 		"hoyo_id": 108139,
 		"name_hash": 4230919132,
 		"desc_hash": 4182865141,
 		"type_hash": 2992055350,
-		"rarity": 1,
 		"name": "Qiankun Mora Meat",
 		"desc": "Ningguang's specialty. The pastry is perfectly soft and waxy, as is the consistency of the meat, and the honey-like meat juices ooze out as you squeeze it. Wherever did the high and mighty Tianquan Lady Ningguang learn to make this dish?",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 2579625423,
-		"effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
-		"original_recipe": "mora_meat"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 1
 	}
 }

@@ -8,6 +8,7 @@
 	"desc_hash": 4037633993,
 	"name": "Yun Jin",
 	"desc": "A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
+	"icon": "UI_AvatarIcon_Yunjin",
 	"rarity": 4,
 	"special": false,
 	"body": "BODY_GIRL",
@@ -29,6 +30,8 @@
 	"astrolabe": "Opera Grandis",
 	"allegiance": "Yun-Han Opera Troupe",
 	"default_weapon": "beginners_protector",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 893.55517578125,
 		"Base ATK": 16.02720069885254,
@@ -155,9 +158,10 @@
 		"normal_attack": {
 			"name_hash": 4286587805,
 			"desc_hash": 1810789288,
-			"charge_num": 1,
 			"name": "Normal Attack: Cloud-Grazing Strike",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to five consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerforms up to five consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_03",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_diligence": 3,
@@ -394,9 +398,10 @@
 		"elemental_skill": {
 			"name_hash": 2178272253,
 			"desc_hash": 1567883432,
-			"charge_num": 1,
 			"name": "Opening Flourish",
-			"desc": "#Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nFlourishes her polearm in a cloud-grasping stance, dealing <color=#FFE699FF>Geo DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nTakes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.\\nWhen the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing <color=#FFE699FF>Geo DMG</color>.\\nBased on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.\\n\\n<i>One glorious moment on-stage, a decade of preparation behind it.</i>",
+			"desc": "#Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.\n\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\nFlourishes her polearm in a cloud-grasping stance, dealing Geo DMG.\n\nHold\nTakes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.\nWhen the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing Geo DMG.\nBased on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.\n\n<i>One glorious moment on-stage, a decade of preparation behind it.</i>",
+			"icon": "Skill_S_Yunjin_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_diligence": 3,
@@ -569,9 +574,10 @@
 		"elemental_burst": {
 			"name_hash": 3248431565,
 			"desc_hash": 1997720160,
-			"charge_num": 1,
 			"name": "Cliffbreaker's Banner",
-			"desc": "Deals <color=#FFE699FF>AoE Geo DMG</color> and grants all nearby party members a Flying Cloud Flag Formation.\\n\\n<color=#FFD780FF>Flying Cloud Flag Formation</color>\\nWhen Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.\\n\\nThe effects of this skill will be cleared after a set duration or after being triggered a specific number of times.\\nWhen one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.\\n\\n<i>As the drums resound, as swords and halberds weave and clash, the doyenne is transformed into a mighty general.</i>\\n<i>As the instruments on stage strum in unison, lo, see how she vanquishes these demons!</i>",
+			"desc": "Deals AoE Geo DMG and grants all nearby party members a Flying Cloud Flag Formation.\n\nFlying Cloud Flag Formation\nWhen Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.\n\nThe effects of this skill will be cleared after a set duration or after being triggered a specific number of times.\nWhen one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.\n\n<i>As the drums resound, as swords and halberds weave and clash, the doyenne is transformed into a mighty general.</i>\n<i>As the instruments on stage strum in unison, lo, see how she vanquishes these demons!</i>",
+			"icon": "Skill_E_Yunjin_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_diligence": 3,
@@ -763,61 +769,70 @@
 		{
 			"name_hash": 2061261821,
 			"desc_hash": 1764840187,
-			"ascension": 1,
 			"name": "True to Oneself",
-			"desc": "Using <color=#FFD780FF>Opening Flourish</color> at the precise moment when Yun Jin is attacked will unleash its Level 2 Charged (Hold) form."
+			"desc": "Using Opening Flourish at the precise moment when Yun Jin is attacked will unleash its Level 2 Charged (Hold) form.",
+			"icon": "UI_Talent_S_Yunjin_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 1468378453,
 			"desc_hash": 3288929659,
-			"ascension": 4,
 			"name": "Breaking Conventions",
-			"desc": "The Normal Attack DMG Bonus granted by <color=#FFD780FF>Flying Cloud Flag Formation</color> is further increased by 2.5%/5%/7.5%/11.5% of Yun Jin's DEF when the party contains characters of 1/2/3/4 Elemental Types, respectively."
+			"desc": "The Normal Attack DMG Bonus granted by Flying Cloud Flag Formation is further increased by 2.5%/5%/7.5%/11.5% of Yun Jin's DEF when the party contains characters of 1/2/3/4 Elemental Types, respectively.",
+			"icon": "UI_Talent_S_Yunjin_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 773398885,
 			"desc_hash": 1415116931,
-			"ascension": null,
 			"name": "Light Nourishment",
-			"desc": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product."
+			"desc": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product.",
+			"icon": "UI_Talent_S_Yunjin_07",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 3266663729,
-			"name": "Thespian Gallop",
 			"desc_hash": 196548151,
-			"desc": "<color=#FFD780FF>Opening Flourish's</color> CD is decreased by 18%."
+			"name": "Thespian Gallop",
+			"desc": "Opening Flourish's CD is decreased by 18%.",
+			"icon": "UI_Talent_S_Yunjin_01"
 		},
 		{
 			"name_hash": 3949157249,
-			"name": "Myriad Mise-En-Sc\u00e8ne",
 			"desc_hash": 1258924591,
-			"desc": "After <color=#FFD780FF>Cliffbreaker's Banner</color> is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s."
+			"name": "Myriad Mise-En-Sc\u00e8ne",
+			"desc": "After Cliffbreaker's Banner is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s.",
+			"icon": "UI_Talent_S_Yunjin_02"
 		},
 		{
 			"name_hash": 3536888569,
-			"name": "Seafaring General",
 			"desc_hash": 26925591,
-			"desc": "Increases the Level of <color=#FFD780FF>Cliffbreaker's Banner</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Seafaring General",
+			"desc": "Increases the Level of Cliffbreaker's Banner by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Yunjin_01"
 		},
 		{
 			"name_hash": 2785617601,
-			"name": "Flower and a Fighter",
 			"desc_hash": 2804375063,
-			"desc": "When Yun Jin triggers the Crystallize Reaction, her DEF is increased by 20% for 12s."
+			"name": "Flower and a Fighter",
+			"desc": "When Yun Jin triggers the Crystallize Reaction, her DEF is increased by 20% for 12s.",
+			"icon": "UI_Talent_S_Yunjin_03"
 		},
 		{
 			"name_hash": 1985942201,
-			"name": "Famed Throughout the Land",
 			"desc_hash": 1265824527,
-			"desc": "Increases the Level of <color=#FFD780FF>Opening Flourish</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Famed Throughout the Land",
+			"desc": "Increases the Level of Opening Flourish by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Yunjin_02"
 		},
 		{
 			"name_hash": 2696040833,
-			"name": "Decorous Harmony",
 			"desc_hash": 3355249799,
-			"desc": "Characters under the effects of the <color=#FFD780FF>Flying Cloud Flag Formation</color> have their Normal ATK SPD increased by 12%."
+			"name": "Decorous Harmony",
+			"desc": "Characters under the effects of the Flying Cloud Flag Formation have their Normal ATK SPD increased by 12%.",
+			"icon": "UI_Talent_S_Yunjin_04"
 		}
 	],
 	"skins": {
@@ -825,24 +840,23 @@
 			"hoyo_id": null,
 			"name_hash": 2433262890,
 			"desc_hash": 1261799770,
-			"restricted": false,
 			"name": "Mistcloud Stage",
-			"desc": "Yun Jin's outfit. It was made by skilled tailors from the Feiyun Commerce Guild. Yun Jin fell in love with it at first sight, and it is now her favorite set of casual wear."
+			"desc": "Yun Jin's outfit. It was made by skilled tailors from the Feiyun Commerce Guild. Yun Jin fell in love with it at first sight, and it is now her favorite set of casual wear.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "lotus_seed_and_bird_egg_soup",
 		"hoyo_id": 108373,
 		"name_hash": 3523665964,
 		"desc_hash": 69204293,
 		"type_hash": 1968595758,
-		"rarity": 2,
 		"name": "Cloud-Shrouded Jade",
 		"desc": "Yun Jin's specialty. This sweet and sticky snack will somehow not affect your throat in any negative way, which is why it's Yun Jin's favorite. The aftertaste is most elegant, not something one would get sick of quickly. Come to think of it... This is quite a decent bit more than she would usually make for herself \u2014 but who are you to question her kindness?",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 323413175,
-		"effect": "Decreases all party members' sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s).",
-		"original_recipe": "lotus_seed_and_bird_egg_soup"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 2
 	}
 }

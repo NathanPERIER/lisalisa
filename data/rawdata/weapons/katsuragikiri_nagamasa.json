@@ -14,6 +14,8 @@
 	"desc_hash": 2449465901,
 	"name": "Katsuragikiri Nagamasa",
 	"desc": "A blade that was once made in Tatarasuna. Heavy and tough.",
+	"icon": "UI_EquipIcon_Claymore_Bakufu",
+	"icon_awaken": "UI_EquipIcon_Claymore_Bakufu_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1124140,
 				"desc_hash": 437621345,
-				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>6%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>3</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"desc": "Increases Elemental Skill DMG by 6%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 3 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1124141,
 				"desc_hash": 4257676377,
-				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>7.5%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>3.5</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"desc": "Increases Elemental Skill DMG by 7.5%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 3.5 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1124142,
 				"desc_hash": 2352434905,
-				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>9%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>4</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"desc": "Increases Elemental Skill DMG by 9%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 4 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1124143,
 				"desc_hash": 715445137,
-				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>10.5%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>4.5</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"desc": "Increases Elemental Skill DMG by 10.5%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 4.5 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1124144,
 				"desc_hash": 2607024913,
-				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>12%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>5</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+				"desc": "Increases Elemental Skill DMG by 12%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 5 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
 				"cost": 8000
 			}
 		]

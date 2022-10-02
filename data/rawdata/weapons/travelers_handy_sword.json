@@ -14,6 +14,8 @@
 	"desc_hash": 2969158189,
 	"name": "Traveler's Handy Sword",
 	"desc": "A handy steel sword which contains scissors, a magnifying glass, tinder, and other useful items in its sheath.",
+	"icon": "UI_EquipIcon_Sword_Traveler",
+	"icon_awaken": "UI_EquipIcon_Sword_Traveler_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 39.875099182128906,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1113030,
 				"desc_hash": 1907931185,
-				"desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1%</color> HP.",
+				"desc": "Each Elemental Orb or Particle collected restores 1% HP.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1113031,
 				"desc_hash": 302455697,
-				"desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.25%</color> HP.",
+				"desc": "Each Elemental Orb or Particle collected restores 1.25% HP.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1113032,
 				"desc_hash": 1608926681,
-				"desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.5%</color> HP.",
+				"desc": "Each Elemental Orb or Particle collected restores 1.5% HP.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1113033,
 				"desc_hash": 2336567089,
-				"desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.75%</color> HP.",
+				"desc": "Each Elemental Orb or Particle collected restores 1.75% HP.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1113034,
 				"desc_hash": 1356454433,
-				"desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>2%</color> HP.",
+				"desc": "Each Elemental Orb or Particle collected restores 2% HP.",
 				"cost": 4000
 			}
 		]

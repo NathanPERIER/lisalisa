@@ -8,6 +8,7 @@
 	"desc_hash": 2887592185,
 	"name": "Kamisato Ayato",
 	"desc": "The young but highly accomplished head of the Yashiro Commission's Kamisato Clan. Cultured and polite, he is a man of many ways and means.",
+	"icon": "UI_AvatarIcon_Ayato",
 	"rarity": 5,
 	"special": false,
 	"body": "BODY_MALE",
@@ -29,6 +30,8 @@
 	"astrolabe": "Cypressus Custos",
 	"allegiance": "Yashiro Commission",
 	"default_weapon": "dull_blade",
+	"increase_skill": 3,
+	"increase_burst": 5,
 	"base_stats": {
 		"Base HP": 1067.7183837890625,
 		"Base ATK": 23.274999618530273,
@@ -155,9 +158,10 @@
 		"normal_attack": {
 			"name_hash": 3116393605,
 			"desc_hash": 3145153016,
-			"charge_num": 1,
 			"name": "Normal Attack: Kamisato Art - Marobashi",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to dash forward and perform an iai.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to dash forward and perform an iai.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_elegance": 3,
@@ -394,9 +398,10 @@
 		"elemental_skill": {
 			"name_hash": 856237685,
 			"desc_hash": 64942672,
-			"charge_num": 1,
 			"name": "Kamisato Art: Kyouka",
-			"desc": "Kamisato Ayato shifts positions and enters the Takimeguri Kanka state.\\nAfter this shift, he will leave a watery illusion at his original location. After it is formed, the watery illusion will explode if opponents are nearby or after its duration ends, dealing <color=#80C0FFFF>AoE Hydro DMG</color>.\\n\\n<color=#FFD780FF>Takimeguri Kanka</color>\\nIn this state, Kamisato Ayato uses his Shunsuiken to engage in blindingly fast attacks, causing DMG from his Normal Attacks to be converted into <color=#80C0FFFF>AoE Hydro DMG</color>. This cannot be overridden.\\nIt also has the following properties:\\n\u00b7After a Shunsuiken attack hits an opponent, it will grant Ayato the Namisen effect, increasing the DMG dealt by Shunsuiken based on Ayato's current Max HP. The initial maximum number of Namisen stacks is 4, and 1 stack can be gained through Shunsuiken every 0.1s. This effect will be dispelled when Takimeguri Kanka ends.\\n\u00b7Kamisato Ayato's resistance to interruption is increased.\\n\u00b7Unable to use Charged or Plunging Attacks.\\n\\nTakimeguri Kanka will be cleared when Ayato leaves the field. Using Kamisato Art: Kyouka again while in the Takimeguri Kanka state will reset and replace the pre-existing state.\\n\\n<i>\"When, I wonder, did you come under the illusion that you were winning?\"</i>\\n<i>\u2014 Ayato is like this in both matter of martial prowess and political intrigue, but to preserve the dignity of his fellow Commissioners, he does not say such things to them. As such, only Thoma, Itto, and Ayaka have ever heard this line.</i>",
+			"desc": "Kamisato Ayato shifts positions and enters the Takimeguri Kanka state.\nAfter this shift, he will leave a watery illusion at his original location. After it is formed, the watery illusion will explode if opponents are nearby or after its duration ends, dealing AoE Hydro DMG.\n\nTakimeguri Kanka\nIn this state, Kamisato Ayato uses his Shunsuiken to engage in blindingly fast attacks, causing DMG from his Normal Attacks to be converted into AoE Hydro DMG. This cannot be overridden.\nIt also has the following properties:\n\u00b7After a Shunsuiken attack hits an opponent, it will grant Ayato the Namisen effect, increasing the DMG dealt by Shunsuiken based on Ayato's current Max HP. The initial maximum number of Namisen stacks is 4, and 1 stack can be gained through Shunsuiken every 0.1s. This effect will be dispelled when Takimeguri Kanka ends.\n\u00b7Kamisato Ayato's resistance to interruption is increased.\n\u00b7Unable to use Charged or Plunging Attacks.\n\nTakimeguri Kanka will be cleared when Ayato leaves the field. Using Kamisato Art: Kyouka again while in the Takimeguri Kanka state will reset and replace the pre-existing state.\n\n<i>\"When, I wonder, did you come under the illusion that you were winning?\"</i>\n<i>\u2014 Ayato is like this in both matter of martial prowess and political intrigue, but to preserve the dignity of his fellow Commissioners, he does not say such things to them. As such, only Thoma, Itto, and Ayaka have ever heard this line.</i>",
+			"icon": "Skill_S_Ayato_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_elegance": 3,
@@ -617,9 +622,10 @@
 		"elemental_burst": {
 			"name_hash": 2907386981,
 			"desc_hash": 993012864,
-			"charge_num": 1,
 			"name": "Kamisato Art: Suiyuu",
-			"desc": "Unveils a garden of purity that silences the cacophony within.\\nWhile this space exists, Bloomwater Blades will constantly rain down and attack opponents within its AoE, dealing <color=#80C0FFFF>Hydro DMG</color> and increasing the Normal Attack DMG of characters within.\\n\\n<i>\"I can see them, you know. The ripples of your beating heart within this realm of still waters.\"</i>",
+			"desc": "Unveils a garden of purity that silences the cacophony within.\nWhile this space exists, Bloomwater Blades will constantly rain down and attack opponents within its AoE, dealing Hydro DMG and increasing the Normal Attack DMG of characters within.\n\n<i>\"I can see them, you know. The ripples of your beating heart within this realm of still waters.\"</i>",
+			"icon": "Skill_E_Ayato_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_elegance": 3,
@@ -795,61 +801,70 @@
 		{
 			"name_hash": 3736274925,
 			"desc_hash": 2546406659,
-			"ascension": 1,
 			"name": "Kamisato Art: Mine Wo Matoishi Kiyotaki",
-			"desc": "<color=#FFD780FF>Kamisato Art: Kyouka</color> has the following properties:\\n\u00b7After it is used, Kamisato Ayato will gain 2 Namisen stacks.\\n\u00b7When the water illusion explodes, Ayato will gain a Namisen effect equal to the maximum number of stacks possible."
+			"desc": "Kamisato Art: Kyouka has the following properties:\n\u00b7After it is used, Kamisato Ayato will gain 2 Namisen stacks.\n\u00b7When the water illusion explodes, Ayato will gain a Namisen effect equal to the maximum number of stacks possible.",
+			"icon": "UI_Talent_S_Ayato_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 8289349,
 			"desc_hash": 1701064667,
-			"ascension": 4,
 			"name": "Kamisato Art: Michiyuku Hagetsu",
-			"desc": "If Kamisato Ayato is not on the field and his Energy is less than 40, he will regenerate 2 Energy for himself every second."
+			"desc": "If Kamisato Ayato is not on the field and his Energy is less than 40, he will regenerate 2 Energy for himself every second.",
+			"icon": "UI_Talent_S_Ayato_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 1590740317,
 			"desc_hash": 720429075,
-			"ascension": null,
 			"name": "Kamisato Art: Daily Cooking",
-			"desc": "When Ayato cooks a dish perfectly, he has a 18% chance to receive an additional \"Suspicious\" dish of the same type."
+			"desc": "When Ayato cooks a dish perfectly, he has a 18% chance to receive an additional \"Suspicious\" dish of the same type.",
+			"icon": "UI_Talent_S_Ayato_07",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 2715418569,
-			"name": "Kyouka Fuushi",
 			"desc_hash": 501879071,
-			"desc": "<color=#FFD780FF>Shunsuiken</color> DMG is increased by 40% against opponents with 50% HP or less."
+			"name": "Kyouka Fuushi",
+			"desc": "Shunsuiken DMG is increased by 40% against opponents with 50% HP or less.",
+			"icon": "UI_Talent_S_Ayato_01"
 		},
 		{
 			"name_hash": 4259062785,
-			"name": "World Source",
 			"desc_hash": 3191408815,
-			"desc": "<color=#FFD780FF>Namisen</color>'s maximum stack count is increased to 5. When Kamisato Ayato has at least 3 Namisen stacks, his Max HP is increased by 50%."
+			"name": "World Source",
+			"desc": "Namisen's maximum stack count is increased to 5. When Kamisato Ayato has at least 3 Namisen stacks, his Max HP is increased by 50%.",
+			"icon": "UI_Talent_S_Ayato_02"
 		},
 		{
 			"name_hash": 2402833929,
-			"name": "To Admire the Flowers",
 			"desc_hash": 893583671,
-			"desc": "Increases the Level of <color=#FFD780FF>Kamisato Art: Kyouka</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "To Admire the Flowers",
+			"desc": "Increases the Level of Kamisato Art: Kyouka by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Ayato_02"
 		},
 		{
 			"name_hash": 517644137,
-			"name": "Endless Flow",
 			"desc_hash": 1916995439,
-			"desc": "After using <color=#FFD780FF>Kamisato Art: Suiyuu</color>, all nearby party members will have 15% increased Normal Attack SPD for 15s."
+			"name": "Endless Flow",
+			"desc": "After using Kamisato Art: Suiyuu, all nearby party members will have 15% increased Normal Attack SPD for 15s.",
+			"icon": "UI_Talent_S_Ayato_03"
 		},
 		{
 			"name_hash": 993707681,
-			"name": "Bansui Ichiro",
 			"desc_hash": 2541322175,
-			"desc": "Increases the Level of <color=#FFD780FF>Kamisato Art: Suiyuu</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Bansui Ichiro",
+			"desc": "Increases the Level of Kamisato Art: Suiyuu by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Ayato_01"
 		},
 		{
 			"name_hash": 1168376425,
-			"name": "Boundless Origin",
 			"desc_hash": 2267009151,
-			"desc": "After using <color=#FFD780FF>Kamisato Art: Kyouka</color>, Ayato's next Shunsuiken attack will create 2 extra Shunsuiken strikes when they hit opponents, each one dealing 450% of Ayato's ATK as DMG.\\nBoth these Shunsuiken attacks will not be affected by Namisen."
+			"name": "Boundless Origin",
+			"desc": "After using Kamisato Art: Kyouka, Ayato's next Shunsuiken attack will create 2 extra Shunsuiken strikes when they hit opponents, each one dealing 450% of Ayato's ATK as DMG.\nBoth these Shunsuiken attacks will not be affected by Namisen.",
+			"icon": "UI_Talent_S_Ayato_04"
 		}
 	],
 	"skins": {
@@ -857,24 +872,23 @@
 			"hoyo_id": null,
 			"name_hash": 3109032026,
 			"desc_hash": 3093997674,
-			"restricted": false,
 			"name": "Silk Splendor",
-			"desc": "Kamisato Ayato's outfit. The kimono itself is made using uncommon fabrics, and its patterning recalls a mountain spring, giving off a feeling of calm and stability that matches its wearer."
+			"desc": "Kamisato Ayato's outfit. The kimono itself is made using uncommon fabrics, and its patterning recalls a mountain spring, giving off a feeling of calm and stability that matches its wearer.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "sakura_tempura",
 		"hoyo_id": 108387,
 		"name_hash": 2728975572,
 		"desc_hash": 515529053,
 		"type_hash": 823300398,
-		"rarity": 3,
 		"name": "Quiet Elegance",
 		"desc": "Kamisato Ayato's specialty. The arrangement is exquisite and elegant, much like the manner in which Ayato handles all his affairs. Any more, and it would have been excessive. Any less, and it would have proved a sight squandered. As you sample the dish, you find that its flavor is identical to that of Uyuu Restaurant's \u2014 amazing. But as you reach your chopsticks for that crystalline camellia, Ayato stops you... \"That was something I made during sword practice. It's just a decoration.\"",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 3457329991,
-		"effect": "Increases all party members' Shield Strength by 35% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-		"original_recipe": "sakura_tempura"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 3
 	}
 }

@@ -13,7 +13,9 @@
 	"name_hash": 3456986819,
 	"desc_hash": 746319397,
 	"name": "Dodoco Tales",
-	"desc": "A children's book filled with childish short stories at which one cannot help but laugh.\\nEven those readers who have long reached adulthood cannot help but be absorbed by the innocent, naive little adventures portrayed within.",
+	"desc": "A children's book filled with childish short stories at which one cannot help but laugh.\nEven those readers who have long reached adulthood cannot help but be absorbed by the innocent, naive little adventures portrayed within.",
+	"icon": "UI_EquipIcon_Catalyst_Ludiharpastum",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Ludiharpastum_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 41.067100524902344,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1144130,
 				"desc_hash": 1766027041,
-				"desc": "Normal Attack hits on opponents increase Charged Attack DMG by <color=#99FFFFFF>16%</color> for 6s. Charged Attack hits on opponents increase ATK by <color=#99FFFFFF>8%</color> for 6s.",
+				"desc": "Normal Attack hits on opponents increase Charged Attack DMG by 16% for 6s. Charged Attack hits on opponents increase ATK by 8% for 6s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1144131,
 				"desc_hash": 2187045233,
-				"desc": "Normal Attack hits on opponents increase Charged Attack DMG by <color=#99FFFFFF>20%</color> for 6s. Charged Attack hits on opponents increase ATK by <color=#99FFFFFF>10%</color> for 6s.",
+				"desc": "Normal Attack hits on opponents increase Charged Attack DMG by 20% for 6s. Charged Attack hits on opponents increase ATK by 10% for 6s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1144132,
 				"desc_hash": 2377666601,
-				"desc": "Normal Attack hits on opponents increase Charged Attack DMG by <color=#99FFFFFF>24%</color> for 6s. Charged Attack hits on opponents increase ATK by <color=#99FFFFFF>12%</color> for 6s.",
+				"desc": "Normal Attack hits on opponents increase Charged Attack DMG by 24% for 6s. Charged Attack hits on opponents increase ATK by 12% for 6s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1144133,
 				"desc_hash": 1754041689,
-				"desc": "Normal Attack hits on opponents increase Charged Attack DMG by <color=#99FFFFFF>28%</color> for 6s. Charged Attack hits on opponents increase ATK by <color=#99FFFFFF>14%</color> for 6s.",
+				"desc": "Normal Attack hits on opponents increase Charged Attack DMG by 28% for 6s. Charged Attack hits on opponents increase ATK by 14% for 6s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1144134,
 				"desc_hash": 2121914769,
-				"desc": "Normal Attack hits on opponents increase Charged Attack DMG by <color=#99FFFFFF>32%</color> for 6s. Charged Attack hits on opponents increase ATK by <color=#99FFFFFF>16%</color> for 6s.",
+				"desc": "Normal Attack hits on opponents increase Charged Attack DMG by 32% for 6s. Charged Attack hits on opponents increase ATK by 16% for 6s.",
 				"cost": 8000
 			}
 		]

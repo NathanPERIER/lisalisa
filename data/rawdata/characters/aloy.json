@@ -8,6 +8,7 @@
 	"desc_hash": 2468599457,
 	"name": "Aloy",
 	"desc": "Formerly an outcast, now a hunter of unparalleled skill. Ready to do the right thing at any time.",
+	"icon": "UI_AvatarIcon_Aloy",
 	"rarity": 5,
 	"special": true,
 	"body": "BODY_GIRL",
@@ -29,6 +30,8 @@
 	"astrolabe": "Nora Fortis",
 	"allegiance": "Wandering Heroine",
 	"default_weapon": "hunters_bow",
+	"increase_skill": 0,
+	"increase_burst": 0,
 	"base_stats": {
 		"Base HP": 848.4547729492188,
 		"Base ATK": 18.210359573364258,
@@ -155,9 +158,10 @@
 		"normal_attack": {
 			"name_hash": 2994648485,
 			"desc_hash": 3151277984,
-			"charge_num": 1,
 			"name": "Normal Attack: Rapid Fire",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 4 consecutive shots with a bow.\n\nCharged Attack\nPerform a more precise Aimed Shot with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"icon": "Skill_A_02",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -378,9 +382,10 @@
 		"elemental_skill": {
 			"name_hash": 1871687965,
 			"desc_hash": 647988592,
-			"charge_num": 1,
 			"name": "Frozen Wilds",
-			"desc": "Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing <color=#99FFFFFF>Cryo DMG</color>. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing <color=#99FFFFFF>Cryo DMG</color>.\\nWhen a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.\\nAloy can gain up to 1 Coil stack every 0.1s.\\n\\n<color=#FFD780FF>Coil</color>\\n\u00b7Each stack increases Aloy's Normal Attack DMG.\\n\u00b7When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to <color=#99FFFFFF>Cryo DMG</color>.\\n\\nWhile in the Rushing Ice state, Aloy cannot obtain new Coil stacks.\\nCoil effects will be cleared 30s after Aloy leaves the field.\\n\\n<i>You think that's cold? Guess you've never been to The Cut.</i>",
+			"desc": "Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing Cryo DMG. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing Cryo DMG.\nWhen a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.\nAloy can gain up to 1 Coil stack every 0.1s.\n\nCoil\n\u00b7Each stack increases Aloy's Normal Attack DMG.\n\u00b7When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to Cryo DMG.\n\nWhile in the Rushing Ice state, Aloy cannot obtain new Coil stacks.\nCoil effects will be cleared 30s after Aloy leaves the field.\n\n<i>You think that's cold? Guess you've never been to The Cut.</i>",
+			"icon": "Skill_S_Aloy_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -601,9 +606,10 @@
 		"elemental_burst": {
 			"name_hash": 902219717,
 			"desc_hash": 3360208896,
-			"charge_num": 1,
 			"name": "Prophecies of Dawn",
-			"desc": "Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<i>Whether \"Zero Dawn\" referred to hope or extinction no longer matters. Aloy has already saved her world, and the fate of this one is still being forged by its own heroes.</i>",
+			"desc": "Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing AoE Cryo DMG.\n\n<i>Whether \"Zero Dawn\" referred to hope or extinction no longer matters. Aloy has already saved her world, and the fate of this one is still being forged by its own heroes.</i>",
+			"icon": "Skill_E_Aloy_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -747,61 +753,70 @@
 		{
 			"name_hash": 523305877,
 			"desc_hash": 3940970907,
-			"ascension": 1,
 			"name": "Combat Override",
-			"desc": "When Aloy receives the Coil effect from <color=#FFD780FF>Frozen Wilds</color>, her ATK is increased by 16%, while nearby party members' ATK is increased by 8%. This effect lasts 10s."
+			"desc": "When Aloy receives the Coil effect from Frozen Wilds, her ATK is increased by 16%, while nearby party members' ATK is increased by 8%. This effect lasts 10s.",
+			"icon": "UI_Talent_S_Aloy_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 433318997,
 			"desc_hash": 4257487235,
-			"ascension": 4,
 			"name": "Strong Strike",
-			"desc": "When Aloy is in the Rushing Ice state conferred by <color=#FFD780FF>Frozen Wilds</color>, her <color=#99FFFFFF>Cryo DMG Bonus</color> increases by 3.5% every 1s. A maximum <color=#99FFFFFF>Cryo DMG Bonus</color> increase of 35% can be gained in this way."
+			"desc": "When Aloy is in the Rushing Ice state conferred by Frozen Wilds, her Cryo DMG Bonus increases by 3.5% every 1s. A maximum Cryo DMG Bonus increase of 35% can be gained in this way.",
+			"icon": "UI_Talent_S_Aloy_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 3414124565,
 			"desc_hash": 3074893395,
-			"ascension": null,
 			"name": "Easy Does It",
-			"desc": "When Aloy is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them."
+			"desc": "When Aloy is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them.",
+			"icon": "UI_Talent_S_Aloy_07",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 1426348289,
-			"name": "Star of Another World",
 			"desc_hash": 4200726279,
-			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+			"name": "Star of Another World",
+			"desc": "The time has not yet come for this person's corner of the night sky to light up.",
+			"icon": "UI_Talent_S_Aloy_Lock"
 		},
 		{
 			"name_hash": 3468411401,
-			"name": "Star of Another World",
 			"desc_hash": 1371842791,
-			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+			"name": "Star of Another World",
+			"desc": "The time has not yet come for this person's corner of the night sky to light up.",
+			"icon": "UI_Talent_S_Aloy_Lock"
 		},
 		{
 			"name_hash": 2621661209,
-			"name": "Star of Another World",
 			"desc_hash": 873529775,
-			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+			"name": "Star of Another World",
+			"desc": "The time has not yet come for this person's corner of the night sky to light up.",
+			"icon": "UI_Talent_S_Aloy_Lock"
 		},
 		{
 			"name_hash": 890048705,
-			"name": "Star of Another World",
 			"desc_hash": 2073552343,
-			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+			"name": "Star of Another World",
+			"desc": "The time has not yet come for this person's corner of the night sky to light up.",
+			"icon": "UI_Talent_S_Aloy_Lock"
 		},
 		{
 			"name_hash": 2013072401,
-			"name": "Star of Another World",
 			"desc_hash": 554591055,
-			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+			"name": "Star of Another World",
+			"desc": "The time has not yet come for this person's corner of the night sky to light up.",
+			"icon": "UI_Talent_S_Aloy_Lock"
 		},
 		{
 			"name_hash": 3578739209,
-			"name": "Star of Another World",
 			"desc_hash": 1335613687,
-			"desc": "The time has not yet come for this person's corner of the night sky to light up."
+			"name": "Star of Another World",
+			"desc": "The time has not yet come for this person's corner of the night sky to light up.",
+			"icon": "UI_Talent_S_Aloy_Lock"
 		}
 	],
 	"skins": {
@@ -809,24 +824,23 @@
 			"hoyo_id": null,
 			"name_hash": 3429415730,
 			"desc_hash": 271842858,
-			"restricted": false,
 			"name": "Machine Hunter",
-			"desc": "Aloy's outfit. A hunter's garb suited to life in the wilds."
+			"desc": "Aloy's outfit. A hunter's garb suited to life in the wilds.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "mint_jelly",
 		"hoyo_id": 108339,
 		"name_hash": 3676492396,
 		"desc_hash": 3194488261,
 		"type_hash": 3204836070,
-		"rarity": 1,
 		"name": "Satiety Gel",
 		"desc": "Aloy's specialty. The cross-section looks perfect, its shape is regular, and it gives off a cool air. At first, Aloy seemed a bit apprehensive as to whether you'd enjoy this rather unique dessert, but she was relieved when you wolfed it all down in one go...",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 3996763535,
-		"effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
-		"original_recipe": "mint_jelly"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 1
 	}
 }

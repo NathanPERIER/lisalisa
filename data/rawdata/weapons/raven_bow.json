@@ -14,6 +14,8 @@
 	"desc_hash": 367902357,
 	"name": "Raven Bow",
 	"desc": "Ravens are known to be the ferrymen of the dead. This bow's limb is decorated with raven feathers, which forebode the imminent death of its target.",
+	"icon": "UI_EquipIcon_Bow_Crowfeather",
+	"icon_awaken": "UI_EquipIcon_Bow_Crowfeather_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 39.875099182128906,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1153010,
 				"desc_hash": 4021611305,
-				"desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>12%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Pyro by 12%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1153011,
 				"desc_hash": 4029571225,
-				"desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>15%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Pyro by 15%.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1153012,
 				"desc_hash": 2539460561,
-				"desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>18%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Pyro by 18%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1153013,
 				"desc_hash": 1584444065,
-				"desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>21%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Pyro by 21%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1153014,
 				"desc_hash": 3786618233,
-				"desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>24%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Pyro by 24%.",
 				"cost": 4000
 			}
 		]

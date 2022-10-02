@@ -14,6 +14,8 @@
 	"desc_hash": 2174225037,
 	"name": "Prototype Crescent",
 	"desc": "A prototype longbow discovered in the Blackcliff Forge. The arrow fired from this bow glimmers like a ray of moonlight.",
+	"icon": "UI_EquipIcon_Bow_Proto",
+	"icon_awaken": "UI_EquipIcon_Bow_Proto_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1154060,
 				"desc_hash": 1361434521,
-				"desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>36%</color> for 10s.",
+				"desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 36% for 10s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1154061,
 				"desc_hash": 3442169441,
-				"desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>45%</color> for 10s.",
+				"desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 45% for 10s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1154062,
 				"desc_hash": 3341545649,
-				"desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>54%</color> for 10s.",
+				"desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 54% for 10s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1154063,
 				"desc_hash": 3524996897,
-				"desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>63%</color> for 10s.",
+				"desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 63% for 10s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1154064,
 				"desc_hash": 2700504721,
-				"desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>72%</color> for 10s.",
+				"desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 72% for 10s.",
 				"cost": 8000
 			}
 		]

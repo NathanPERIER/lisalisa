@@ -14,6 +14,8 @@
 	"desc_hash": 712713253,
 	"name": "Kagura's Verity",
 	"desc": "The bells used when performing the Kagura Dance, blessed by the Guuji herself. The scent of the Sacred Sakura tree lingers on it.",
+	"icon": "UI_EquipIcon_Catalyst_Narukami",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Narukami_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 45.9364013671875,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1145090,
 				"desc_hash": 581756417,
-				"desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>12%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>12%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+				"desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by 12% for 16s. Max 3 stacks. This character will gain 12% All Elemental DMG Bonus when they possess 3 stacks.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1145091,
 				"desc_hash": 4186939041,
-				"desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>15%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>15%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+				"desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by 15% for 16s. Max 3 stacks. This character will gain 15% All Elemental DMG Bonus when they possess 3 stacks.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1145092,
 				"desc_hash": 265099305,
-				"desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>18%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>18%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+				"desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by 18% for 16s. Max 3 stacks. This character will gain 18% All Elemental DMG Bonus when they possess 3 stacks.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1145093,
 				"desc_hash": 1239317409,
-				"desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>21%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>21%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+				"desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by 21% for 16s. Max 3 stacks. This character will gain 21% All Elemental DMG Bonus when they possess 3 stacks.",
 				"cost": 8000
 			},
 			{
 				"affix_id": 1145094,
 				"desc_hash": 931121153,
-				"desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>24%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>24%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+				"desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by 24% for 16s. Max 3 stacks. This character will gain 24% All Elemental DMG Bonus when they possess 3 stacks.",
 				"cost": 16000
 			}
 		]

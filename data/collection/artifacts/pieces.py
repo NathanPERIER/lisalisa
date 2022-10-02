@@ -2,7 +2,7 @@
 from utils import loadJson, indexById
 from constants import ARTIFACT_PIECES_JSON
 from translate.textmap import lang
-from common.dataobj.artifact import ArtifactPiece
+from artifacts.dataobj import ArtifactPiece
 
 from enum import Enum
 

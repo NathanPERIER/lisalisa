@@ -14,6 +14,8 @@
 	"desc_hash": 279012485,
 	"name": "Festering Desire",
 	"desc": "A creepy straight sword that almost seems to yearn for life. It drips with a shriveling venom that could even corrupt a mighty dragon.",
+	"icon": "UI_EquipIcon_Sword_Magnum",
+	"icon_awaken": "UI_EquipIcon_Sword_Magnum_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1114130,
 				"desc_hash": 1015127657,
-				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>16%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>6%</color>.",
+				"desc": "Increases Elemental Skill DMG by 16% and Elemental Skill CRIT Rate by 6%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1114131,
 				"desc_hash": 2757463545,
-				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>20%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>7.5%</color>.",
+				"desc": "Increases Elemental Skill DMG by 20% and Elemental Skill CRIT Rate by 7.5%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1114132,
 				"desc_hash": 3027339465,
-				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>24%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>9%</color>.",
+				"desc": "Increases Elemental Skill DMG by 24% and Elemental Skill CRIT Rate by 9%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1114133,
 				"desc_hash": 1124392161,
-				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>28%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>10.5%</color>.",
+				"desc": "Increases Elemental Skill DMG by 28% and Elemental Skill CRIT Rate by 10.5%.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1114134,
 				"desc_hash": 3098144017,
-				"desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>32%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>12%</color>.",
+				"desc": "Increases Elemental Skill DMG by 32% and Elemental Skill CRIT Rate by 12%.",
 				"cost": 8000
 			}
 		]

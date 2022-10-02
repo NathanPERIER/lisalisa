@@ -8,6 +8,7 @@
 	"desc_hash": 3149724857,
 	"name": "Diona",
 	"desc": "A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern.",
+	"icon": "UI_AvatarIcon_Diona",
 	"rarity": 4,
 	"special": false,
 	"body": "BODY_LOLI",
@@ -29,6 +30,8 @@
 	"astrolabe": "Feles",
 	"allegiance": "The Cat's Tail",
 	"default_weapon": "hunters_bow",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 802.3760986328125,
 		"Base ATK": 17.808000564575195,
@@ -155,9 +158,10 @@
 		"normal_attack": {
 			"name_hash": 3860542709,
 			"desc_hash": 55456664,
-			"charge_num": 1,
 			"name": "Normal Attack: K\u00e4tzlein Style",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 5 consecutive shots with a bow.\n\nCharged Attack\nPerform a more precise Aimed Shot with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"icon": "Skill_A_02",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -394,9 +398,10 @@
 		"elemental_skill": {
 			"name_hash": 3942666181,
 			"desc_hash": 3246576584,
-			"charge_num": 1,
 			"name": "Icy Paws",
-			"desc": "#Fires an Icy Paw that deals <color=#99FFFFFF>Cryo DMG</color> to opponents and forms a shield on hit.\\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nRapidly fires off 2 Icy Paws.\\n\\n<color=#FFD780FF>Hold</color>\\nDashes back quickly before firing five Icy Paws.\\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\\n\\nThe shield has a 250% <color=#99FFFFFF>Cryo DMG</color> Absorption Bonus, and will cause your active character to become affected by <color=#99FFFFFF>Cryo</color> at the point of formation for a short duration.\\n\\n<i>When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision \u2014 now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!</i>",
+			"desc": "#Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\nRapidly fires off 2 Icy Paws.\n\nHold\nDashes back quickly before firing five Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% Cryo DMG Absorption Bonus, and will cause your active character to become affected by Cryo at the point of formation for a short duration.\n\n<i>When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision \u2014 now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!</i>",
+			"icon": "Skill_S_Diona_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -569,9 +574,10 @@
 		"elemental_burst": {
 			"name_hash": 948563965,
 			"desc_hash": 56887240,
-			"charge_num": 1,
 			"name": "Signature Mix",
-			"desc": "Tosses out a special cold brew that deals <color=#99FFFFFF>AoE Cryo DMG</color> and creates a Drunken Mist in an AoE.\\n\\n<color=#FFD780FF>Drunken Mist</color>\\n\u00b7Deals continuous <color=#99FFFFFF>Cryo DMG</color> to opponents within the AoE.\\n\u00b7Continuously regenerates the HP of characters within the AoE.\\n\\n<i>A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.</i>",
+			"desc": "Tosses out a special cold brew that deals AoE Cryo DMG and creates a Drunken Mist in an AoE.\n\nDrunken Mist\n\u00b7Deals continuous Cryo DMG to opponents within the AoE.\n\u00b7Continuously regenerates the HP of characters within the AoE.\n\n<i>A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.</i>",
+			"icon": "Skill_E_Diona_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -763,61 +769,70 @@
 		{
 			"name_hash": 3742754573,
 			"desc_hash": 3924394963,
-			"ascension": 1,
 			"name": "Cat's Tail Secret Menu",
-			"desc": "Characters shielded by <color=#FFD780FF>Icy Paws</color> have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%."
+			"desc": "Characters shielded by Icy Paws have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%.",
+			"icon": "UI_Talent_S_Diona_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 184677189,
 			"desc_hash": 907839219,
-			"ascension": 4,
 			"name": "Drunkards' Farce",
-			"desc": "Opponents who enter the AoE of <color=#FFD780FF>Signature Mix</color> have 10% decreased ATK for 15s."
+			"desc": "Opponents who enter the AoE of Signature Mix have 10% decreased ATK for 15s.",
+			"icon": "UI_Talent_S_Diona_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 2478336245,
 			"desc_hash": 2768580979,
-			"ascension": null,
 			"name": "Complimentary Bar Food",
-			"desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+			"desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
+			"icon": "UI_Talent_Cook_Heal",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 2653503505,
-			"name": "A Lingering Flavor",
 			"desc_hash": 1358209303,
-			"desc": "Regenerates 15 Energy for Diona after the effects of <color=#FFD780FF>Signature Mix</color> end."
+			"name": "A Lingering Flavor",
+			"desc": "Regenerates 15 Energy for Diona after the effects of Signature Mix end.",
+			"icon": "UI_Talent_S_Diona_01"
 		},
 		{
 			"name_hash": 3233494081,
-			"name": "Shaken, Not Purred",
 			"desc_hash": 2723142055,
-			"desc": "Increases <color=#FFD780FF>Icy Paws</color>' DMG by 15%, and increases its shield's DMG Absorption by 15%.\\nAdditionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the <color=#FFD780FF>Icy Paws</color> shield's DMG Absorption for 5s."
+			"name": "Shaken, Not Purred",
+			"desc": "Increases Icy Paws' DMG by 15%, and increases its shield's DMG Absorption by 15%.\nAdditionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the Icy Paws shield's DMG Absorption for 5s.",
+			"icon": "UI_Talent_S_Diona_02"
 		},
 		{
 			"name_hash": 1153113417,
-			"name": "A\u2014Another Round?",
 			"desc_hash": 266501231,
-			"desc": "Increases the Level of <color=#FFD780FF>Signature Mix</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "A\u2014Another Round?",
+			"desc": "Increases the Level of Signature Mix by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Diona_01"
 		},
 		{
 			"name_hash": 389925129,
-			"name": "Wine Industry Slayer",
 			"desc_hash": 1880884495,
-			"desc": "Within the radius of <color=#FFD780FF>Signature Mix</color>, Diona's charge time for aimed shots is reduced by 60%"
+			"name": "Wine Industry Slayer",
+			"desc": "Within the radius of Signature Mix, Diona's charge time for aimed shots is reduced by 60%",
+			"icon": "UI_Talent_S_Diona_03"
 		},
 		{
 			"name_hash": 2582391273,
-			"name": "Double Shot, on the Rocks",
 			"desc_hash": 859024503,
-			"desc": "Increases the Level of <color=#FFD780FF>Icy Paws</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Double Shot, on the Rocks",
+			"desc": "Increases the Level of Icy Paws by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Diona_02"
 		},
 		{
 			"name_hash": 3637405321,
-			"name": "Cat's Tail Closing Time",
 			"desc_hash": 1673554303,
-			"desc": "Characters within <color=#FFD780FF>Signature Mix</color>'s radius will gain the following effects based on their HP amounts:\\n\u00b7Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\\n\u00b7Elemental Mastery increased by 200 when HP is above 50%."
+			"name": "Cat's Tail Closing Time",
+			"desc": "Characters within Signature Mix's radius will gain the following effects based on their HP amounts:\n\u00b7Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\n\u00b7Elemental Mastery increased by 200 when HP is above 50%.",
+			"icon": "UI_Talent_S_Diona_04"
 		}
 	],
 	"skins": {
@@ -825,24 +840,23 @@
 			"hoyo_id": null,
 			"name_hash": 2364432618,
 			"desc_hash": 670221618,
-			"restricted": false,
 			"name": "Sugary Brew",
-			"desc": "Diona's outfit. The work uniform of the Cat's Tail's star bartender."
+			"desc": "Diona's outfit. The work uniform of the Cat's Tail's star bartender.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "mondstadt_grilled_fish",
 		"hoyo_id": 108134,
 		"name_hash": 77809404,
 		"desc_hash": 3103134717,
 		"type_hash": 2850965942,
-		"rarity": 1,
 		"name": "Definitely Not Bar Food!",
 		"desc": "Diona's specialty. The fish skin is crisp, and the meat is sumptuous. Only someone with a sufficiently great love for fish would be able to bring out such lovely flavors. Now, if only there were something to drink to go with it... Uh-oh, she's looking this way!",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 25142175,
-		"effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
-		"original_recipe": "mondstadt_grilled_fish"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 1
 	}
 }

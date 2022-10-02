@@ -14,6 +14,8 @@
 	"desc_hash": 2690715037,
 	"name": "Blackcliff Longsword",
 	"desc": "A sword made of a material known as \"blackcliff.\" It has a dark crimson glow on its black blade.",
+	"icon": "UI_EquipIcon_Sword_Blackrock",
+	"icon_awaken": "UI_EquipIcon_Sword_Blackrock_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1114080,
 				"desc_hash": 3223695473,
-				"desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>12%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"desc": "After defeating an opponent, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1114081,
 				"desc_hash": 3223662353,
-				"desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>15%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"desc": "After defeating an opponent, ATK is increased by 15% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1114082,
 				"desc_hash": 143574985,
-				"desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>18%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"desc": "After defeating an opponent, ATK is increased by 18% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1114083,
 				"desc_hash": 2925900017,
-				"desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>21%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"desc": "After defeating an opponent, ATK is increased by 21% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1114084,
 				"desc_hash": 570467441,
-				"desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>24%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+				"desc": "After defeating an opponent, ATK is increased by 24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
 				"cost": 8000
 			}
 		]

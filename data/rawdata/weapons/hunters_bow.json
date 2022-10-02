@@ -14,6 +14,8 @@
 	"desc_hash": 2408955477,
 	"name": "Hunter's Bow",
 	"desc": "A hunter's music consists of but two sounds: the twang of the bowstring and the whoosh of soaring arrows.",
+	"icon": "UI_EquipIcon_Bow_Hunters",
+	"icon_awaken": "UI_EquipIcon_Bow_Hunters_Awaken",
 	"rarity": 1,
 	"base_stats": {
 		"Base ATK": 23.2450008392334

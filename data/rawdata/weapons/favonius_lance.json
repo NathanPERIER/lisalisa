@@ -14,6 +14,8 @@
 	"desc_hash": 2331820333,
 	"name": "Favonius Lance",
 	"desc": "A polearm made in the style of the Knights of Favonius. Its shaft is straight, and its tip flows lightly like the wind.",
+	"icon": "UI_EquipIcon_Pole_Zephyrus",
+	"icon_awaken": "UI_EquipIcon_Pole_Zephyrus_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1134070,
 				"desc_hash": 3935138497,
-				"desc": "CRIT Hits have a <color=#99FFFFFF>60%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>12</color>s.",
+				"desc": "CRIT Hits have a 60% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1134071,
 				"desc_hash": 3560981425,
-				"desc": "CRIT Hits have a <color=#99FFFFFF>70%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>10.5</color>s.",
+				"desc": "CRIT Hits have a 70% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 10.5s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1134072,
 				"desc_hash": 2705032601,
-				"desc": "CRIT Hits have a <color=#99FFFFFF>80%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>9</color>s.",
+				"desc": "CRIT Hits have a 80% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 9s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1134073,
 				"desc_hash": 4009221001,
-				"desc": "CRIT Hits have a <color=#99FFFFFF>90%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>7.5</color>s.",
+				"desc": "CRIT Hits have a 90% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 7.5s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1134074,
 				"desc_hash": 721375305,
-				"desc": "CRIT Hits have a <color=#99FFFFFF>100%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>6</color>s.",
+				"desc": "CRIT Hits have a 100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 6s.",
 				"cost": 8000
 			}
 		]

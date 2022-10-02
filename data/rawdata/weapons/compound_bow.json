@@ -14,6 +14,8 @@
 	"desc_hash": 1166197037,
 	"name": "Compound Bow",
 	"desc": "An exotic metallic bow from a distant land. Though extremely difficult to maintain, it is easy to nock and fires with tremendous force.",
+	"icon": "UI_EquipIcon_Bow_Exotic",
+	"icon_awaken": "UI_EquipIcon_Bow_Exotic_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 41.067100524902344,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1154070,
 				"desc_hash": 324143905,
-				"desc": "Normal Attack and Charged Attack hits increase ATK by <color=#99FFFFFF>4%</color> and Normal ATK SPD by <color=#99FFFFFF>1.2%</color> for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+				"desc": "Normal Attack and Charged Attack hits increase ATK by 4% and Normal ATK SPD by 1.2% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1154071,
 				"desc_hash": 984691073,
-				"desc": "Normal Attack and Charged Attack hits increase ATK by <color=#99FFFFFF>5%</color> and Normal ATK SPD by <color=#99FFFFFF>1.5%</color> for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+				"desc": "Normal Attack and Charged Attack hits increase ATK by 5% and Normal ATK SPD by 1.5% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1154072,
 				"desc_hash": 576501033,
-				"desc": "Normal Attack and Charged Attack hits increase ATK by <color=#99FFFFFF>6%</color> and Normal ATK SPD by <color=#99FFFFFF>1.8%</color> for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+				"desc": "Normal Attack and Charged Attack hits increase ATK by 6% and Normal ATK SPD by 1.8% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1154073,
 				"desc_hash": 2109756401,
-				"desc": "Normal Attack and Charged Attack hits increase ATK by <color=#99FFFFFF>7%</color> and Normal ATK SPD by <color=#99FFFFFF>2.1%</color> for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+				"desc": "Normal Attack and Charged Attack hits increase ATK by 7% and Normal ATK SPD by 2.1% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1154074,
 				"desc_hash": 469959537,
-				"desc": "Normal Attack and Charged Attack hits increase ATK by <color=#99FFFFFF>8%</color> and Normal ATK SPD by <color=#99FFFFFF>2.4%</color> for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+				"desc": "Normal Attack and Charged Attack hits increase ATK by 8% and Normal ATK SPD by 2.4% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
 				"cost": 8000
 			}
 		]

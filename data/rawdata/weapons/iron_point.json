@@ -14,6 +14,8 @@
 	"desc_hash": 1460440477,
 	"name": "Iron Point",
 	"desc": "Sharp and pointy at one end, it is a balanced weapon that is quite popular among travelers.",
+	"icon": "UI_EquipIcon_Pole_Rod",
+	"icon_awaken": "UI_EquipIcon_Pole_Rod_Awaken",
 	"rarity": 2,
 	"base_stats": {
 		"Base ATK": 32.93000030517578

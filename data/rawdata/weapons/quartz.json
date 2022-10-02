@@ -14,6 +14,8 @@
 	"desc_hash": 3918253109,
 	"name": "Quartz",
 	"desc": "A simple but heavy greatsword made of polished black quartz with a golden gilt. It has an air of elegance and dignity about it.",
+	"icon": "UI_EquipIcon_Claymore_Quartz",
+	"icon_awaken": "UI_EquipIcon_Claymore_Quartz_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 38.74129867553711,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1123040,
 				"desc_hash": 2572260937,
-				"desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>20%</color> for 12s.",
+				"desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by 20% for 12s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1123041,
 				"desc_hash": 4266352641,
-				"desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>25%</color> for 12s.",
+				"desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by 25% for 12s.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1123042,
 				"desc_hash": 3920017241,
-				"desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>30%</color> for 12s.",
+				"desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by 30% for 12s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1123043,
 				"desc_hash": 3822113393,
-				"desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>35%</color> for 12s.",
+				"desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by 35% for 12s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1123044,
 				"desc_hash": 1018753001,
-				"desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>40%</color> for 12s.",
+				"desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by 40% for 12s.",
 				"cost": 4000
 			}
 		]

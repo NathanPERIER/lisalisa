@@ -14,6 +14,8 @@
 	"desc_hash": 1253880813,
 	"name": "The Black Sword",
 	"desc": "A pitch-black longsword that thirsts for violence and conflict. It is said that this weapon can cause its user to become drunk on the red wine of slaughter.",
+	"icon": "UI_EquipIcon_Sword_Bloodstained",
+	"icon_awaken": "UI_EquipIcon_Sword_Bloodstained_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1114090,
 				"desc_hash": 1687951521,
-				"desc": "Increases DMG dealt by Normal and Charged Attacks by <color=#99FFFFFF>20%</color>. Additionally, regenerates <color=#99FFFFFF>60%</color> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+				"desc": "Increases DMG dealt by Normal and Charged Attacks by 20%. Additionally, regenerates 60% of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1114091,
 				"desc_hash": 4260048817,
-				"desc": "Increases DMG dealt by Normal and Charged Attacks by <color=#99FFFFFF>25%</color>. Additionally, regenerates <color=#99FFFFFF>70%</color> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+				"desc": "Increases DMG dealt by Normal and Charged Attacks by 25%. Additionally, regenerates 70% of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1114092,
 				"desc_hash": 2207401681,
-				"desc": "Increases DMG dealt by Normal and Charged Attacks by <color=#99FFFFFF>30%</color>. Additionally, regenerates <color=#99FFFFFF>80%</color> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+				"desc": "Increases DMG dealt by Normal and Charged Attacks by 30%. Additionally, regenerates 80% of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1114093,
 				"desc_hash": 4178576897,
-				"desc": "Increases DMG dealt by Normal and Charged Attacks by <color=#99FFFFFF>35%</color>. Additionally, regenerates <color=#99FFFFFF>90%</color> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+				"desc": "Increases DMG dealt by Normal and Charged Attacks by 35%. Additionally, regenerates 90% of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1114094,
 				"desc_hash": 1270460209,
-				"desc": "Increases DMG dealt by Normal and Charged Attacks by <color=#99FFFFFF>40%</color>. Additionally, regenerates <color=#99FFFFFF>100%</color> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+				"desc": "Increases DMG dealt by Normal and Charged Attacks by 40%. Additionally, regenerates 100% of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
 				"cost": 8000
 			}
 		]

@@ -8,6 +8,7 @@
 	"desc_hash": 2692321673,
 	"name": "Gorou",
 	"desc": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
+	"icon": "UI_AvatarIcon_Gorou",
 	"rarity": 4,
 	"special": false,
 	"body": "BODY_BOY",
@@ -29,6 +30,8 @@
 	"astrolabe": "Canis Bellatoris",
 	"allegiance": "Watatsumi Island",
 	"default_weapon": "hunters_bow",
+	"increase_skill": 3,
+	"increase_burst": 5,
 	"base_stats": {
 		"Base HP": 802.3760986328125,
 		"Base ATK": 15.31488037109375,
@@ -155,9 +158,10 @@
 		"normal_attack": {
 			"name_hash": 527760517,
 			"desc_hash": 2178965904,
-			"charge_num": 1,
 			"name": "Normal Attack: Ripping Fang Fletching",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal <color=#FFE699FF>Geo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 4 consecutive shots with a bow.\n\nCharged Attack\nPerform a more precise Aimed Shot with increased DMG.\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal Geo DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"icon": "Skill_A_02",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_light": 3,
@@ -378,9 +382,10 @@
 		"elemental_skill": {
 			"name_hash": 2527853093,
 			"desc_hash": 1410062040,
-			"charge_num": 1,
 			"name": "Inuzaka All-Round Defense",
-			"desc": "Deals <color=#FFE699FF>AoE Geo DMG</color> and sets up a General's War Banner.\\n\\n<color=#FFD780FF>General's War Banner</color>\\nProvides up to 3 buffs to active characters within the skill's AoE based on the number of <color=#FFE699FF>Geo</color> characters in the party at the time of casting:\\n\u00b7 1 Geo character: Adds \"Standing Firm\" - DEF Bonus.\\n\u00b7 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption.\\n\u00b7 3 Geo characters: Adds \"Crunch\" - <color=#FFE699FF>Geo DMG Bonus</color>.\\n\\nGorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s.\\n\\n<color=#FFD780FF>Hold</color>\\nAdjust the location of the skill.\\n\\n<i>\"Take up this formation and we'll be safe \u2014 I guarantee it!\" As a general and a leader of troops, the last thing Gorou wants is to see is those who follow him getting hurt.</i>",
+			"desc": "Deals AoE Geo DMG and sets up a General's War Banner.\n\nGeneral's War Banner\nProvides up to 3 buffs to active characters within the skill's AoE based on the number of Geo characters in the party at the time of casting:\n\u00b7 1 Geo character: Adds \"Standing Firm\" - DEF Bonus.\n\u00b7 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption.\n\u00b7 3 Geo characters: Adds \"Crunch\" - Geo DMG Bonus.\n\nGorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s.\n\nHold\nAdjust the location of the skill.\n\n<i>\"Take up this formation and we'll be safe \u2014 I guarantee it!\" As a general and a leader of troops, the last thing Gorou wants is to see is those who follow him getting hurt.</i>",
+			"icon": "Skill_S_Gorou_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_light": 3,
@@ -553,9 +558,10 @@
 		"elemental_burst": {
 			"name_hash": 406282597,
 			"desc_hash": 1236862952,
-			"charge_num": 1,
 			"name": "Juuga: Forward Unto Victory",
-			"desc": "Displaying his valor as a general, Gorou deals <color=#FFE699FF>AoE Geo DMG</color> and creates a field known as General's Glory to embolden his comrades.\\n\\n<color=#FFD780FF>General's Glory</color>\\nThis field has the following properties:\\n\u00b7 Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of <color=#FFE699FF>Geo</color> characters in the party. Also moves together with your active character.\\n\u00b7 Generates 1 Crystal Collapse every 1.5s that deals <color=#FFE699FF>AoE Geo DMG</color> to 1 opponent within the skill's AoE.\\n\u00b7 Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).\\n\\nIf a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.\\n If Gorou falls, the effects of General's Glory will be cleared.\\n\\n<i>\"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition.</i>",
+			"desc": "Displaying his valor as a general, Gorou deals AoE Geo DMG and creates a field known as General's Glory to embolden his comrades.\n\nGeneral's Glory\nThis field has the following properties:\n\u00b7 Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of Geo characters in the party. Also moves together with your active character.\n\u00b7 Generates 1 Crystal Collapse every 1.5s that deals AoE Geo DMG to 1 opponent within the skill's AoE.\n\u00b7 Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).\n\nIf a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.\n If Gorou falls, the effects of General's Glory will be cleared.\n\n<i>\"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition.</i>",
+			"icon": "Skill_E_Gorou_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_light": 3,
@@ -731,61 +737,70 @@
 		{
 			"name_hash": 574868277,
 			"desc_hash": 1439744475,
-			"ascension": 1,
 			"name": "Heedless of the Wind and Weather",
-			"desc": "After using <color=#FFD780FF>Juuga: Forward Unto Victory</color>, all nearby party members' DEF is increased by 25% for 12s."
+			"desc": "After using Juuga: Forward Unto Victory, all nearby party members' DEF is increased by 25% for 12s.",
+			"icon": "UI_Talent_S_Gorou_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 787754445,
 			"desc_hash": 175486939,
-			"ascension": 4,
 			"name": "A Favor Repaid",
-			"desc": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:\\n\u00b7 <color=#FFD780FF>Inuzaka All-Round Defense</color>: Skill DMG increased by 156% of DEF\\n\u00b7 <color=#FFD780FF>Juuga: Forward Unto Victory</color>: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF"
+			"desc": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:\n\u00b7 Inuzaka All-Round Defense: Skill DMG increased by 156% of DEF\n\u00b7 Juuga: Forward Unto Victory: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF",
+			"icon": "UI_Talent_S_Gorou_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 705002701,
 			"desc_hash": 291298051,
-			"ascension": null,
 			"name": "Seeker of Shinies",
-			"desc": "Displays the location of nearby <color=#FFD780FF>resources unique to Inazuma</color> on the mini-map."
+			"desc": "Displays the location of nearby resources unique to Inazuma on the mini-map.",
+			"icon": "UI_Talent_S_Gorou_07",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 674796161,
-			"name": "Rushing Hound: Swift as the Wind",
 			"desc_hash": 438942695,
-			"desc": "When characters (other than Gorou) within the AoE of Gorou's <color=#FFD780FF>General's War Banner</color> or <color=#FFD780FF>General's Glory</color> deal Geo DMG to opponents, the CD of Gorou's <color=#FFD780FF>Inuzaka All-Round Defense</color> is decreased by 2s.\\nThis effect can occur once every 10s."
+			"name": "Rushing Hound: Swift as the Wind",
+			"desc": "When characters (other than Gorou) within the AoE of Gorou's General's War Banner or General's Glory deal Geo DMG to opponents, the CD of Gorou's Inuzaka All-Round Defense is decreased by 2s.\nThis effect can occur once every 10s.",
+			"icon": "UI_Talent_S_Gorou_01"
 		},
 		{
 			"name_hash": 879885745,
-			"name": "Sitting Hound: Steady as a Clock",
 			"desc_hash": 2750519095,
-			"desc": "While <color=#FFD780FF>General's Glory</color> is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction. \\nThis effect can occur once every 0.1s. Max extension is 3s."
+			"name": "Sitting Hound: Steady as a Clock",
+			"desc": "While General's Glory is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction. \nThis effect can occur once every 0.1s. Max extension is 3s.",
+			"icon": "UI_Talent_S_Gorou_02"
 		},
 		{
 			"name_hash": 1718191057,
-			"name": "Mauling Hound: Fierce as Fire",
 			"desc_hash": 3711276975,
-			"desc": "Increases the Level of <color=#FFD780FF>Inuzaka All-Round Defense</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Mauling Hound: Fierce as Fire",
+			"desc": "Increases the Level of Inuzaka All-Round Defense by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Gorou_01"
 		},
 		{
 			"name_hash": 3990139889,
-			"name": "Lapping Hound: Warm as Water",
 			"desc_hash": 2595428727,
-			"desc": "When <color=#FFD780FF>General's Glory</color> is in the \"Impregnable\" or \"Crunch\" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s."
+			"name": "Lapping Hound: Warm as Water",
+			"desc": "When General's Glory is in the \"Impregnable\" or \"Crunch\" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s.",
+			"icon": "UI_Talent_S_Gorou_03"
 		},
 		{
 			"name_hash": 1205827537,
-			"name": "Striking Hound: Thunderous Force",
 			"desc_hash": 1584361191,
-			"desc": "Increases the Level of <color=#FFD780FF>Juuga: Forward Unto Victory</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Striking Hound: Thunderous Force",
+			"desc": "Increases the Level of Juuga: Forward Unto Victory by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Gorou_02"
 		},
 		{
 			"name_hash": 3335516265,
-			"name": "Valiant Hound: Mountainous Fealty",
 			"desc_hash": 622715863,
-			"desc": "For 12s after using <color=#FFD780FF>Inuzaka All-Round Defense</color> or <color=#FFD780FF>Juuga: Forward Unto Victory</color>, increases the CRIT DMG of all nearby party members' <color=#FFE699FF>Geo DMG</color> based on the buff level of the skill's field at the time of use:\\n\u00b7 \"Standing Firm\": +10%\\n\u00b7 \"Impregnable\": +20%\\n\u00b7 \"Crunch\": +40%\\n\\nThis effect cannot stack and will take reference from the last instance of the effect that is triggered."
+			"name": "Valiant Hound: Mountainous Fealty",
+			"desc": "For 12s after using Inuzaka All-Round Defense or Juuga: Forward Unto Victory, increases the CRIT DMG of all nearby party members' Geo DMG based on the buff level of the skill's field at the time of use:\n\u00b7 \"Standing Firm\": +10%\n\u00b7 \"Impregnable\": +20%\n\u00b7 \"Crunch\": +40%\n\nThis effect cannot stack and will take reference from the last instance of the effect that is triggered.",
+			"icon": "UI_Talent_S_Gorou_04"
 		}
 	],
 	"skins": {
@@ -793,24 +808,23 @@
 			"hoyo_id": null,
 			"name_hash": 3561880386,
 			"desc_hash": 990939858,
-			"restricted": false,
 			"name": "Panoply of a Hundred Hunts",
-			"desc": "Gorou's outfit. This light armor is designed to allow the marksman-general Gorou to handle his bow with ease. The armoring at the shoulder and elbow is also designed with this in mind."
+			"desc": "Gorou's outfit. This light armor is designed to allow the marksman-general Gorou to handle his bow with ease. The armoring at the shoulder and elbow is also designed with this in mind.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "tonkotsu_ramen",
 		"hoyo_id": 108365,
 		"name_hash": 2886035148,
 		"desc_hash": 2318065973,
 		"type_hash": 1174767742,
-		"rarity": 3,
 		"name": "Victorious Legend",
 		"desc": "Gorou's specialty. The side dishes have been piled high to form a sight as moving as Gorou's own motivations. As you finish the noodles and soup all in one go and pat your stomach in satisfaction, you look up and see Gorou... smiling radiantly as his tail wags from side to side (the latter probably unbeknownst to him!).",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 3628521775,
-		"effect": "Restores 40% of Max HP and an additional 2,350 HP to the selected character.",
-		"original_recipe": "tonkotsu_ramen"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 3
 	}
 }

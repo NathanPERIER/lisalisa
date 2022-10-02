@@ -14,6 +14,8 @@
 	"desc_hash": 4199357237,
 	"name": "Serpent Spine",
 	"desc": "A rare weapon whose origin is the ancient ocean. One can hear the sound of the ageless waves as one swings it.",
+	"icon": "UI_EquipIcon_Claymore_Kione",
+	"icon_awaken": "UI_EquipIcon_Claymore_Kione_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1124090,
 				"desc_hash": 3670994657,
-				"desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>6%</color> more DMG and take <color=#99FFFFFF>3%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+				"desc": "Every 4s a character is on the field, they will deal 6% more DMG and take 3% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1124091,
 				"desc_hash": 38478873,
-				"desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>7%</color> more DMG and take <color=#99FFFFFF>2.7%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+				"desc": "Every 4s a character is on the field, they will deal 7% more DMG and take 2.7% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1124092,
 				"desc_hash": 663761017,
-				"desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>8%</color> more DMG and take <color=#99FFFFFF>2.4%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+				"desc": "Every 4s a character is on the field, they will deal 8% more DMG and take 2.4% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1124093,
 				"desc_hash": 432294409,
-				"desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>9%</color> more DMG and take <color=#99FFFFFF>2.2%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+				"desc": "Every 4s a character is on the field, they will deal 9% more DMG and take 2.2% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1124094,
 				"desc_hash": 3300288489,
-				"desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>10%</color> more DMG and take <color=#99FFFFFF>2%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+				"desc": "Every 4s a character is on the field, they will deal 10% more DMG and take 2% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
 				"cost": 8000
 			}
 		]

@@ -8,6 +8,7 @@
 	"desc_hash": 3128332321,
 	"name": "Qiqi",
 	"desc": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+	"icon": "UI_AvatarIcon_Qiqi",
 	"rarity": 5,
 	"special": false,
 	"body": "BODY_LOLI",
@@ -29,6 +30,8 @@
 	"astrolabe": "Pristina Nola",
 	"allegiance": "Bubu Pharmacy",
 	"default_weapon": "dull_blade",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 962.8532104492188,
 		"Base ATK": 22.3439998626709,
@@ -155,9 +158,10 @@
 		"normal_attack": {
 			"name_hash": 1361102277,
 			"desc_hash": 989342840,
-			"charge_num": 1,
 			"name": "Normal Attack: Ancient Sword Art",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_prosperity": 3,
@@ -394,9 +398,10 @@
 		"elemental_skill": {
 			"name_hash": 2328467573,
 			"desc_hash": 293117848,
-			"charge_num": 1,
 			"name": "Adeptus Art: Herald of Frost",
-			"desc": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\\n\\n<color=#FFD780FF>Herald of Frost</color>\\n\u00b7On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\\n\u00b7Periodically regenerates your active character's HP.\\n\u00b7Follows the character around, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in their path.\\n\\n<i>I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.</i>",
+			"desc": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing Cryo DMG to surrounding opponents.\n\nHerald of Frost\n\u00b7On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\n\u00b7Periodically regenerates your active character's HP.\n\u00b7Follows the character around, dealing Cryo DMG to opponents in their path.\n\n<i>I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.</i>",
+			"icon": "Skill_S_Qiqi_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_prosperity": 3,
@@ -585,9 +590,10 @@
 		"elemental_burst": {
 			"name_hash": 2926659693,
 			"desc_hash": 3521541160,
-			"charge_num": 1,
 			"name": "Adeptus Art: Preserver of Fortune",
-			"desc": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\\n\\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\\n<i>\u2014 Qiqi does not remember these words.</i>",
+			"desc": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals Cryo DMG.\n\nFortune-Preserving Talisman\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\n\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\n<i>\u2014 Qiqi does not remember these words.</i>",
+			"icon": "Skill_E_Qiqi_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_prosperity": 3,
@@ -763,61 +769,70 @@
 		{
 			"name_hash": 3698199485,
 			"desc_hash": 1229898787,
-			"ascension": 1,
 			"name": "Life-Prolonging Methods",
-			"desc": "When a character under the effects of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s."
+			"desc": "When a character under the effects of Adeptus Art: Herald of Frost triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s.",
+			"icon": "UI_Talent_S_Qiqi_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 3159951405,
 			"desc_hash": 1235554483,
-			"ascension": 4,
 			"name": "A Glimpse Into Arcanum",
-			"desc": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s."
+			"desc": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
+			"icon": "UI_Talent_S_Qiqi_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 4097525341,
 			"desc_hash": 1381757851,
-			"ascension": null,
 			"name": "Former Life Memories",
-			"desc": "Displays the location of nearby <color=#FFD780FF>resources unique to Liyue</color> on the mini-map."
+			"desc": "Displays the location of nearby resources unique to Liyue on the mini-map.",
+			"icon": "UI_Talent_Collect_Local_Liyue",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 3894833521,
-			"name": "Ascetics of Frost",
 			"desc_hash": 1696126103,
-			"desc": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy."
+			"name": "Ascetics of Frost",
+			"desc": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy.",
+			"icon": "UI_Talent_S_Qiqi_01"
 		},
 		{
 			"name_hash": 388179873,
-			"name": "Frozen to the Bone",
 			"desc_hash": 606329007,
-			"desc": "Qiqi's Normal and Charge Attack DMG against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%."
+			"name": "Frozen to the Bone",
+			"desc": "Qiqi's Normal and Charge Attack DMG against opponents affected by Cryo is increased by 15%.",
+			"icon": "UI_Talent_S_Qiqi_02"
 		},
 		{
 			"name_hash": 1454042537,
-			"name": "Ascendant Praise",
 			"desc_hash": 2773207751,
-			"desc": "Increases the Level of <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Ascendant Praise",
+			"desc": "Increases the Level of Adeptus Art: Preserver of Fortune by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Qiqi_01"
 		},
 		{
 			"name_hash": 3785958321,
-			"name": "Divine Suppression",
 			"desc_hash": 1811613895,
-			"desc": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%."
+			"name": "Divine Suppression",
+			"desc": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
+			"icon": "UI_Talent_S_Qiqi_03"
 		},
 		{
 			"name_hash": 243639329,
-			"name": "Crimson Lotus Bloom",
 			"desc_hash": 655434095,
-			"desc": "Increases the Level of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Crimson Lotus Bloom",
+			"desc": "Increases the Level of Adeptus Art: Herald of Frost by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Qiqi_02"
 		},
 		{
 			"name_hash": 1456237985,
-			"name": "Rite of Resurrection",
 			"desc_hash": 1392516727,
-			"desc": "Using <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> revives all fallen party members nearby and regenerates 50% of their HP.\\nThis effect can only occur once every 15 mins."
+			"name": "Rite of Resurrection",
+			"desc": "Using Adeptus Art: Preserver of Fortune revives all fallen party members nearby and regenerates 50% of their HP.\nThis effect can only occur once every 15 mins.",
+			"icon": "UI_Talent_S_Qiqi_04"
 		}
 	],
 	"skins": {
@@ -825,24 +840,23 @@
 			"hoyo_id": null,
 			"name_hash": 2620016810,
 			"desc_hash": 4056261530,
-			"restricted": false,
 			"name": "Summerchill Dreams",
-			"desc": "Qiqi's outfit. A herb gatherer's garment that brings her great peace of mind due to the attached talismans."
+			"desc": "Qiqi's outfit. A herb gatherer's garment that brings her great peace of mind due to the attached talismans.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "come_and_get_it",
 		"hoyo_id": 108140,
 		"name_hash": 2916224140,
 		"desc_hash": 2952714309,
 		"type_hash": 707837358,
-		"rarity": 3,
 		"name": "No Tomorrow",
 		"desc": "Qiqi's specialty. The neat rows of ingredients seem at once exotic and delicious, and Baizhu says that Qiqi has spent a long time creating this dish. Still, once one considers that Qiqi has no sense of taste, just putting chopsticks to the food is going to take some courage.",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 2281030543,
-		"effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)",
-		"original_recipe": "come_and_get_it"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 3
 	}
 }

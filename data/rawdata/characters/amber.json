@@ -8,6 +8,7 @@
 	"desc_hash": 3898061993,
 	"name": "Amber",
 	"desc": "Always energetic and full of life, Amber's the best \u2014 albeit only \u2014 Outrider of the Knights of Favonius.",
+	"icon": "UI_AvatarIcon_Ambor",
 	"rarity": 4,
 	"special": false,
 	"body": "BODY_GIRL",
@@ -29,6 +30,8 @@
 	"astrolabe": "Lepus",
 	"allegiance": "Knights of Favonius",
 	"default_weapon": "hunters_bow",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 793.2581787109375,
 		"Base ATK": 18.698400497436523,
@@ -155,9 +158,10 @@
 		"normal_attack": {
 			"name_hash": 1422444957,
 			"desc_hash": 440387256,
-			"charge_num": 1,
 			"name": "Normal Attack: Sharpshooter",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal <color=#FF9999FF>Pyro DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 5 consecutive shots with a bow.\n\nCharged Attack\nPerform a more precise Aimed Shot with increased DMG.\nWhile aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal Pyro DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+			"icon": "Skill_A_02",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -394,9 +398,10 @@
 		"elemental_skill": {
 			"name_hash": 3667697773,
 			"desc_hash": 1744735952,
-			"charge_num": 1,
 			"name": "Explosive Puppet",
-			"desc": "The ever-reliable Baron Bunny takes the stage.\\n\\n<color=#FFD780FF>Baron Bunny</color>\\n\u00b7Continuously taunts the enemy, drawing their fire.\\n\u00b7Baron Bunny's HP scales with Amber's Max HP.\\n\u00b7When destroyed or when its timer expires, Baron Bunny explodes, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nAdjusts the throwing direction of Baron Bunny.\\nThe longer the button is held, the further the throw.\\n\\n<i>Baron Bunny hails from a storied lineage, but Amber has stopped keeping count since Baron Bunny the 893rd.</i>",
+			"desc": "The ever-reliable Baron Bunny takes the stage.\n\nBaron Bunny\n\u00b7Continuously taunts the enemy, drawing their fire.\n\u00b7Baron Bunny's HP scales with Amber's Max HP.\n\u00b7When destroyed or when its timer expires, Baron Bunny explodes, dealing AoE Pyro DMG.\n\nHold\nAdjusts the throwing direction of Baron Bunny.\nThe longer the button is held, the further the throw.\n\n<i>Baron Bunny hails from a storied lineage, but Amber has stopped keeping count since Baron Bunny the 893rd.</i>",
+			"icon": "Skill_S_Ambor_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -537,9 +542,10 @@
 		"elemental_burst": {
 			"name_hash": 4246808797,
 			"desc_hash": 1744785232,
-			"charge_num": 1,
 			"name": "Fiery Rain",
-			"desc": "Fires off a shower of arrows, dealing continuous <color=#FF9999FF>AoE Pyro DMG</color>.\\n\\n<i>Amber's passion truly burns hot.</i>",
+			"desc": "Fires off a shower of arrows, dealing continuous AoE Pyro DMG.\n\n<i>Amber's passion truly burns hot.</i>",
+			"icon": "Skill_E_Ambor",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -715,61 +721,70 @@
 		{
 			"name_hash": 644206373,
 			"desc_hash": 2816835699,
-			"ascension": 1,
 			"name": "Every Arrow Finds Its Target",
-			"desc": "Increases the CRIT Rate of <color=#FFD780FF>Fiery Rain</color> by 10% and widens its AoE by 30%."
+			"desc": "Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by 30%.",
+			"icon": "UI_Talent_S_Ambor_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 3924875829,
 			"desc_hash": 3525842155,
-			"ascension": 4,
 			"name": "Precise Shot",
-			"desc": "Aimed Shot hits on weak points increase ATK by 15% for 10s."
+			"desc": "Aimed Shot hits on weak points increase ATK by 15% for 10s.",
+			"icon": "UI_Talent_S_Ambor_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 318191261,
 			"desc_hash": 1991866363,
-			"ascension": null,
 			"name": "Gliding Champion",
-			"desc": "Decreases gliding Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+			"desc": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+			"icon": "UI_Talent_Explosion_Glide",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 1803598873,
-			"name": "One Arrow to Rule Them All",
 			"desc_hash": 2709231575,
-			"desc": "Fires 2 arrows per <color=#FFD780FF>Aimed Shot</color>. The second arrow deals 20% of the first arrow's DMG."
+			"name": "One Arrow to Rule Them All",
+			"desc": "Fires 2 arrows per Aimed Shot. The second arrow deals 20% of the first arrow's DMG.",
+			"icon": "UI_Talent_S_Ambor_01"
 		},
 		{
 			"name_hash": 2183507145,
-			"name": "Bunny Triggered",
 			"desc_hash": 967025055,
-			"desc": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.\\nExplosion via manual detonation deals 200% additional DMG."
+			"name": "Bunny Triggered",
+			"desc": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.\nExplosion via manual detonation deals 200% additional DMG.",
+			"icon": "UI_Talent_S_Ambor_02"
 		},
 		{
 			"name_hash": 1196596641,
-			"name": "It Burns!",
 			"desc_hash": 2432552951,
-			"desc": "Increases the Level of <color=#FFD780FF>Fiery Rain</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "It Burns!",
+			"desc": "Increases the Level of Fiery Rain by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Ambor_02"
 		},
 		{
 			"name_hash": 2969048825,
-			"name": "It's Not Just Any Doll...",
 			"desc_hash": 3308085223,
-			"desc": "Decreases <color=#FFD780FF>Explosive Puppet</color>'s CD by 20%. Adds 1 additional charge."
+			"name": "It's Not Just Any Doll...",
+			"desc": "Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge.",
+			"icon": "UI_Talent_S_Ambor_03"
 		},
 		{
 			"name_hash": 1752633193,
-			"name": "It's Baron Bunny!",
 			"desc_hash": 3697934583,
-			"desc": "Increases the Level of <color=#FFD780FF>Explosive Puppet</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "It's Baron Bunny!",
+			"desc": "Increases the Level of Explosive Puppet by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Ambor_01"
 		},
 		{
 			"name_hash": 1429105737,
-			"name": "Wildfire",
 			"desc_hash": 2414194279,
-			"desc": "<color=#FFD780FF>Fiery Rain</color> increases all party members' Movement SPD by 15% and ATK by 15% for 10s."
+			"name": "Wildfire",
+			"desc": "Fiery Rain increases all party members' Movement SPD by 15% and ATK by 15% for 10s.",
+			"icon": "UI_Talent_S_Ambor_04"
 		}
 	],
 	"skins": {
@@ -777,33 +792,33 @@
 			"hoyo_id": null,
 			"name_hash": 690774682,
 			"desc_hash": 2978334658,
-			"restricted": false,
 			"name": "5-Star Outrider",
-			"desc": "Amber's outfit. An Outrider's uniform made for maximum mobility."
+			"desc": "Amber's outfit. An Outrider's uniform made for maximum mobility.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": [
-			{
+		"alt": {
+			"100_outrider": {
 				"hoyo_id": 340007,
 				"name_hash": 4237698530,
 				"desc_hash": 2955174482,
-				"restricted": true,
 				"name": "100% Outrider",
-				"desc": "Amber's outfit. This is a more formal \u2014 but no less cool \u2014 version of the Outrider's uniform!"
+				"desc": "Amber's outfit. This is a more formal \u2014 but no less cool \u2014 version of the Outrider's uniform!",
+				"icon": "UI_AvatarIcon_AmborCostumeWic",
+				"restricted": true
 			}
-		]
+		}
 	},
 	"special_dish": {
+		"original_recipe": "steak",
 		"hoyo_id": 108010,
 		"name_hash": 1465836308,
 		"desc_hash": 490868933,
 		"type_hash": 1184068054,
-		"rarity": 1,
 		"name": "Outrider's Champion Steak!",
 		"desc": "Amber's specialty. One side is obviously uncooked. The other side gives off a subtle scent of something burnt. Close your eyes and have a big mouthful, just to keep Amber happy if nothing else.",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 1232289807,
-		"effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
-		"original_recipe": "steak"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 1
 	}
 }

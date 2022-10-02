@@ -14,6 +14,8 @@
 	"desc_hash": 2717009405,
 	"name": "Royal Grimoire",
 	"desc": "A book that once belonged to a court mage of Mondstadt who served the nobility. It contains faithful and comprehensive historical accounts as well as magic spells.",
+	"icon": "UI_EquipIcon_Catalyst_Theocrat",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Theocrat_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 43.734901428222656,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1144040,
 				"desc_hash": 3437160097,
-				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>8%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"desc": "Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1144041,
 				"desc_hash": 1512900809,
-				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>10%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"desc": "Upon damaging an opponent, increases CRIT Rate by 10%. Max 5 stacks. A CRIT Hit removes all stacks.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1144042,
 				"desc_hash": 3546181585,
-				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>12%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"desc": "Upon damaging an opponent, increases CRIT Rate by 12%. Max 5 stacks. A CRIT Hit removes all stacks.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1144043,
 				"desc_hash": 1052312137,
-				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>14%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"desc": "Upon damaging an opponent, increases CRIT Rate by 14%. Max 5 stacks. A CRIT Hit removes all stacks.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1144044,
 				"desc_hash": 953622361,
-				"desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>16%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+				"desc": "Upon damaging an opponent, increases CRIT Rate by 16%. Max 5 stacks. A CRIT Hit removes all stacks.",
 				"cost": 8000
 			}
 		]

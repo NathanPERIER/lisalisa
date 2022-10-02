@@ -1,7 +1,7 @@
 
 from utils import idFromName
 from characters.skills import skill_depot, readSkillsConstellations, readSkill as __g_readSkill
-from common.dataobj.character import Character
+from characters.dataobj import Character
 
 import re
 import logging
@@ -24,6 +24,7 @@ class Visions(Enum) :
 
 # The traveler has 7 skill entries, so we need to go through them and keep only the ones that actually exist
 def readTravelerSkills(char: Character) -> "dict[str,Character]" :
+	logger.debug("Parsing traveler talents for %s (%s)", char.hoyo_id, char.name)
 	res = {}
 	for depot_id in char.skill_depot_id : 
 		sp_char = __g_readTravelerSkillEntry(char, depot_id)
@@ -33,12 +34,11 @@ def readTravelerSkills(char: Character) -> "dict[str,Character]" :
 
 
 def __g_readTravelerSkillEntry(char: Character, depot_id: int) -> "tuple[str,Character]" :
-	depot_search = [x for x in skill_depot if x['id'] == depot_id]
-	if len(depot_search) != 1 :
-		logger.error('No skills found in skill depot with for %s (%d) with id %d', 
+	if depot_id not in skill_depot :
+		logger.error('No skills found in skill depot for %s (%d) with id %d', 
 						char.name, char.hoyo_id, depot_id)
 		return None
-	depot = depot_search[0]
+	depot = skill_depot[depot_id]
 	# If the version of the traveler has not been implemented yet, we skip this entry
 	ability_group = depot['skillDepotAbilityGroup']
 	if ability_group == '' :
@@ -72,10 +72,8 @@ def __g_readTravelerSkillEntry(char: Character, depot_id: int) -> "tuple[str,Cha
 
 # Reads the skills for the common traveler (only has default attack)
 def __g_readCommonTravelerSkillEntry(char: Character, depot: dict) :
-	char.talents = {
-        'normal_attack':    __g_readSkill(depot['skills'][0]),
-        'elemental_skill':  None, # No elemental skill
-        'elemental_burst':  None, # No elemental burst
-        'alternate_sprint': None
-    }
+	char.talents.normal_attack    = __g_readSkill(depot['skills'][0])
+	char.talents.elemental_skill  = None        # No elemental skill
+	char.talents.elemental_burst  = None        # No elemental burst
+	char.talents.alternate_sprint = None
 	# No passives, no constellations

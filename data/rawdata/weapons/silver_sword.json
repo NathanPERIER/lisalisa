@@ -14,6 +14,8 @@
 	"desc_hash": 2342805333,
 	"name": "Silver Sword",
 	"desc": "A sword for exorcising demons. Everyone knows it's made of a silver alloy, not pure silver.",
+	"icon": "UI_EquipIcon_Sword_Silver",
+	"icon_awaken": "UI_EquipIcon_Sword_Silver_Awaken",
 	"rarity": 2,
 	"base_stats": {
 		"Base ATK": 32.93000030517578

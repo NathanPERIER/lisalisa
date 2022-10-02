@@ -14,6 +14,8 @@
 	"desc_hash": 1214777829,
 	"name": "Cool Steel",
 	"desc": "A reliable steel-forged weapon that serves as a testament to the great adventures of its old master.",
+	"icon": "UI_EquipIcon_Sword_Steel",
+	"icon_awaken": "UI_EquipIcon_Sword_Steel_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 38.74129867553711,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1113010,
 				"desc_hash": 4047259305,
-				"desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>12%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Cryo by 12%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1113011,
 				"desc_hash": 4252592161,
-				"desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>15%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Cryo by 15%.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1113012,
 				"desc_hash": 1779029265,
-				"desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>18%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Cryo by 18%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1113013,
 				"desc_hash": 3979717609,
-				"desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>21%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Cryo by 21%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1113014,
 				"desc_hash": 3264134801,
-				"desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>24%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Cryo by 24%.",
 				"cost": 4000
 			}
 		]

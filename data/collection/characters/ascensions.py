@@ -1,9 +1,10 @@
 
 from utils import loadJson
 from constants import CHAR_ASCENSIONS_JSON
-from common.dataobj.character import Character
+from characters.dataobj import Character
 from common.ascensions import formatAscensions as __g_formatAscensions
 from common.ascensions import readAscension    as __g_readAscension
+from common.ascensions.dataobj import AscensionLevel
 
 import logging
 
@@ -17,7 +18,7 @@ MORA_COST_FIELD  = 'scoinCost'
 
 
 def readAscensions(characters: "dict[str,Character]") :
-    data = {}
+    data: "dict[int,list[AscensionLevel]]" = {}
     for asc in ascensions :
         __g_readAscension(asc, data, PROMOTE_ID_FIELD, MORA_COST_FIELD)
     for char in characters.values() :

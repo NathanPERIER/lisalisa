@@ -14,6 +14,8 @@
 	"desc_hash": 3767447885,
 	"name": "The Flagstaff",
 	"desc": "Reserve",
+	"icon": "UI_EquipIcon_Pole_Flagpole",
+	"icon_awaken": "UI_EquipIcon_Pole_Flagpole_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 9.899999618530273
@@ -141,31 +143,31 @@
 			{
 				"affix_id": 1133040,
 				"desc_hash": 3846743545,
-				"desc": "Defeating an opponent restores <color=#99FFFFFF>8%</color> HP.",
+				"desc": "Defeating an opponent restores 8% HP.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1133041,
 				"desc_hash": 2732932377,
-				"desc": "Defeating an opponent restores <color=#99FFFFFF>10%</color> HP.",
+				"desc": "Defeating an opponent restores 10% HP.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1133042,
 				"desc_hash": 2876316489,
-				"desc": "Defeating an opponent restores <color=#99FFFFFF>12%</color> HP.",
+				"desc": "Defeating an opponent restores 12% HP.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1133043,
 				"desc_hash": 2119574529,
-				"desc": "Defeating an opponent restores <color=#99FFFFFF>14%</color> HP.",
+				"desc": "Defeating an opponent restores 14% HP.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1133044,
 				"desc_hash": 1106651273,
-				"desc": "Defeating an opponent restores <color=#99FFFFFF>16%</color> HP.",
+				"desc": "Defeating an opponent restores 16% HP.",
 				"cost": 4000
 			}
 		]

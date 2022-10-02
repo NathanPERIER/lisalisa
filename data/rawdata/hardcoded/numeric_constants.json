@@ -5,6 +5,8 @@
 	"constellations.num.min": 0,
 	"constellations.num.max": 6,
 	"refinement.level.min": 1,
+	"artifact.level.min": 0,
+	"artifact.upgrade.basis": 4,
 	"banner.pity.min": 0,
 	"banner.pity.max": 89
 }

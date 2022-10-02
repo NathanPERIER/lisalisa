@@ -14,6 +14,8 @@
 	"desc_hash": 728247149,
 	"name": "Pocket Grimoire",
 	"desc": "A carefully compiled notebook featuring the essentials needed to pass a magic exam.",
+	"icon": "UI_EquipIcon_Catalyst_Pocket",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Pocket_Awaken",
 	"rarity": 2,
 	"base_stats": {
 		"Base ATK": 32.93000030517578

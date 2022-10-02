@@ -4,6 +4,7 @@ from utils import loadJson
 from constants import WEAPON_ASCENSIONS_JSON
 from common.ascensions import formatAscensions as __g_formatAscensions
 from common.ascensions import readAscension    as __g_readAscension
+from common.ascensions.dataobj import AscensionLevel
 
 import logging
 
@@ -17,7 +18,7 @@ MORA_COST_FIELD  = 'coinCost'
 
 # TODO keep only useful parameters in props
 def readAscensions(weapons: "dict[int,Weapon]") :
-	data = {}
+	data: "dict[int,list[AscensionLevel]]" = {}
 	for asc in ascensions :
 		__g_readAscension(asc, data, PROMOTE_ID_FIELD, MORA_COST_FIELD)
 	for weapon in weapons.values() :

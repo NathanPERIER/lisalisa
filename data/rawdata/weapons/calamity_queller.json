@@ -14,6 +14,8 @@
 	"desc_hash": 4156676173,
 	"name": "Calamity Queller",
 	"desc": "A keenly honed weapon forged from some strange crystal. Its faint blue light seems to whisper of countless matters now past.",
+	"icon": "UI_EquipIcon_Pole_Santika",
+	"icon_awaken": "UI_EquipIcon_Pole_Santika_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 49.137699127197266,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1135070,
 				"desc_hash": 3432697505,
-				"desc": "Gain <color=#99FFFFFF>12%</color> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <color=#99FFFFFF>3.2%</color> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+				"desc": "Gain 12% All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by 3.2% per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1135071,
 				"desc_hash": 3619812593,
-				"desc": "Gain <color=#99FFFFFF>15%</color> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <color=#99FFFFFF>4%</color> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+				"desc": "Gain 15% All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by 4% per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1135072,
 				"desc_hash": 4237092561,
-				"desc": "Gain <color=#99FFFFFF>18%</color> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <color=#99FFFFFF>4.8%</color> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+				"desc": "Gain 18% All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by 4.8% per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1135073,
 				"desc_hash": 3817202369,
-				"desc": "Gain <color=#99FFFFFF>21%</color> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <color=#99FFFFFF>5.6%</color> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+				"desc": "Gain 21% All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by 5.6% per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
 				"cost": 8000
 			},
 			{
 				"affix_id": 1135074,
 				"desc_hash": 642703121,
-				"desc": "Gain <color=#99FFFFFF>24%</color> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <color=#99FFFFFF>6.4%</color> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+				"desc": "Gain 24% All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by 6.4% per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
 				"cost": 16000
 			}
 		]

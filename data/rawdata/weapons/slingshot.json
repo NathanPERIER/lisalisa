@@ -14,6 +14,8 @@
 	"desc_hash": 2260945613,
 	"name": "Slingshot",
 	"desc": "A bow, despite the name. After countless experiments and improvements to the design, the creator of the ultimate slingshot found himself to have made what was actually a bow.",
+	"icon": "UI_EquipIcon_Bow_Sling",
+	"icon_awaken": "UI_EquipIcon_Bow_Sling_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 37.60749816894531,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1153040,
 				"desc_hash": 3429616905,
-				"desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>36%</color>. Otherwise, decreases DMG by 10%.",
+				"desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 36%. Otherwise, decreases DMG by 10%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1153041,
 				"desc_hash": 1915137313,
-				"desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>42%</color>. Otherwise, decreases DMG by 10%.",
+				"desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 42%. Otherwise, decreases DMG by 10%.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1153042,
 				"desc_hash": 224169849,
-				"desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>48%</color>. Otherwise, decreases DMG by 10%.",
+				"desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 48%. Otherwise, decreases DMG by 10%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1153043,
 				"desc_hash": 881017425,
-				"desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>54%</color>. Otherwise, decreases DMG by 10%.",
+				"desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 54%. Otherwise, decreases DMG by 10%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1153044,
 				"desc_hash": 1534621105,
-				"desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>60%</color>. Otherwise, decreases DMG by 10%.",
+				"desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 60%. Otherwise, decreases DMG by 10%.",
 				"cost": 4000
 			}
 		]

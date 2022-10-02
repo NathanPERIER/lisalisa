@@ -8,6 +8,7 @@
 	"desc_hash": 3696214329,
 	"name": "Bennett",
 	"desc": "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+	"icon": "UI_AvatarIcon_Bennett",
 	"rarity": 4,
 	"special": false,
 	"body": "BODY_BOY",
@@ -29,6 +30,8 @@
 	"astrolabe": "Rota Calamitas",
 	"allegiance": "Adventurers' Guild",
 	"default_weapon": "dull_blade",
+	"increase_skill": 3,
+	"increase_burst": 5,
 	"base_stats": {
 		"Base HP": 1039.4417724609375,
 		"Base ATK": 16.02720069885254,
@@ -155,9 +158,10 @@
 		"normal_attack": {
 			"name_hash": 422353221,
 			"desc_hash": 280312952,
-			"charge_num": 1,
 			"name": "Normal Attack: Strike of Fortune",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_resistance": 3,
@@ -394,9 +398,10 @@
 		"elemental_skill": {
 			"name_hash": 1809314813,
 			"desc_hash": 2368393840,
-			"charge_num": 1,
 			"name": "Passion Overload",
-			"desc": "#Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nA single, swift flame strike that deals <color=#FF9999FF>Pyro DMG</color>.\\n\\n<color=#FFD780FF>Hold (Short)</color>\\nCharges up, resulting in different effects when unleashed based on the Charge Level.\\n\u00b7Level 1: Strikes twice, dealing <color=#FF9999FF>Pyro DMG</color> and launching opponents.\\n\u00b7Level 2: Unleashes 3 consecutive attacks that deal impressive <color=#FF9999FF>Pyro DMG</color>, but the last attack triggers an explosion that launches both Bennett and the enemy.\\nBennett takes no damage from being launched.\\n\\n<i>An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.</i>",
+			"desc": "#Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\n\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\nA single, swift flame strike that deals Pyro DMG.\n\nHold (Short)\nCharges up, resulting in different effects when unleashed based on the Charge Level.\n\u00b7Level 1: Strikes twice, dealing Pyro DMG and launching opponents.\n\u00b7Level 2: Unleashes 3 consecutive attacks that deal impressive Pyro DMG, but the last attack triggers an explosion that launches both Bennett and the enemy.\nBennett takes no damage from being launched.\n\n<i>An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.</i>",
+			"icon": "Skill_S_Bennett_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_resistance": 3,
@@ -569,9 +574,10 @@
 		"elemental_burst": {
 			"name_hash": 3528607669,
 			"desc_hash": 2911356856,
-			"charge_num": 1,
 			"name": "Fantastic Voyage",
-			"desc": "Bennett performs a jumping attack that deals <color=#FF9999FF>Pyro DMG</color>, creating an Inspiration Field.\\n\\n<color=#FFD780FF>Inspiration Field</color>\\n\u00b7If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.\\n\u00b7If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\\n\u00b7Imbues characters within the AoE with <color=#FF9999FF>Pyro</color>.\\n\\n<i>Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"</i>",
+			"desc": "Bennett performs a jumping attack that deals Pyro DMG, creating an Inspiration Field.\n\nInspiration Field\n\u00b7If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.\n\u00b7If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\n\u00b7Imbues characters within the AoE with Pyro.\n\n<i>Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"</i>",
+			"icon": "Skill_E_Bennett_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_resistance": 3,
@@ -763,61 +769,70 @@
 		{
 			"name_hash": 1863603757,
 			"desc_hash": 684037875,
-			"ascension": 1,
 			"name": "Rekindle",
-			"desc": "Decreases <color=#FFD780FF>Passion Overload</color>'s CD by 20%."
+			"desc": "Decreases Passion Overload's CD by 20%.",
+			"icon": "UI_Talent_S_Bennett_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 1897523725,
 			"desc_hash": 2550793755,
-			"ascension": 4,
 			"name": "Fearnaught",
-			"desc": "Within the area created by <color=#FFD780FF>Fantastic Voyage</color>, <color=#FFD780FF>Passion Overload</color> takes on the following effects:\\n\u00b7CD is reduced by 50%.\\n\u00b7Bennett will not be launched by the effects of Charge Level 2."
+			"desc": "Within the area created by Fantastic Voyage, Passion Overload takes on the following effects:\n\u00b7CD is reduced by 50%.\n\u00b7Bennett will not be launched by the effects of Charge Level 2.",
+			"icon": "UI_Talent_S_Bennett_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 1766090197,
 			"desc_hash": 1620966331,
-			"ascension": null,
 			"name": "It Should Be Safe...",
-			"desc": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
+			"desc": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
+			"icon": "UI_Talent_Expedition_Mengde",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 804447537,
-			"name": "Grand Expectation",
 			"desc_hash": 2073825087,
-			"desc": "<color=#FFD780FF>Fantastic Voyage</color>'s ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK."
+			"name": "Grand Expectation",
+			"desc": "Fantastic Voyage's ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK.",
+			"icon": "UI_Talent_S_Bennett_01"
 		},
 		{
 			"name_hash": 2431201553,
-			"name": "Impasse Conqueror",
 			"desc_hash": 471991591,
-			"desc": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%."
+			"name": "Impasse Conqueror",
+			"desc": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%.",
+			"icon": "UI_Talent_S_Bennett_02"
 		},
 		{
 			"name_hash": 698148913,
-			"name": "Unstoppable Fervor",
 			"desc_hash": 1713009919,
-			"desc": "Increases the Level of <color=#FFD780FF>Passion Overload</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Unstoppable Fervor",
+			"desc": "Increases the Level of Passion Overload by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Bennett_01"
 		},
 		{
 			"name_hash": 3306938097,
-			"name": "Unexpected Odyssey",
 			"desc_hash": 3601575975,
-			"desc": "Using a Normal Attack when executing the second attack of <color=#FFD780FF>Passion Overload</color>'s Charge Level 1 allows an additional attack to be performed.\\nThis additional attack does 135% of the second attack's DMG."
+			"name": "Unexpected Odyssey",
+			"desc": "Using a Normal Attack when executing the second attack of Passion Overload's Charge Level 1 allows an additional attack to be performed.\nThis additional attack does 135% of the second attack's DMG.",
+			"icon": "UI_Talent_S_Bennett_03"
 		},
 		{
 			"name_hash": 2443947665,
-			"name": "True Explorer",
 			"desc_hash": 2838302743,
-			"desc": "Increases the Level of <color=#FFD780FF>Fantastic Voyage</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "True Explorer",
+			"desc": "Increases the Level of Fantastic Voyage by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Bennett_02"
 		},
 		{
 			"name_hash": 3326774305,
-			"name": "Fire Ventures With Me",
 			"desc_hash": 596615087,
-			"desc": "Sword, Claymore, or Polearm-wielding characters inside <color=#FFD780FF>Fantastic Voyage</color>'s radius gain a 15% <color=#FF9999FF>Pyro DMG Bonus</color> and their weapons are infused with <color=#FF9999FF>Pyro</color>."
+			"name": "Fire Ventures With Me",
+			"desc": "Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage's radius gain a 15% Pyro DMG Bonus and their weapons are infused with Pyro.",
+			"icon": "UI_Talent_S_Bennett_04"
 		}
 	],
 	"skins": {
@@ -825,24 +840,23 @@
 			"hoyo_id": null,
 			"name_hash": 2359403186,
 			"desc_hash": 3111188850,
-			"restricted": false,
 			"name": "Fortune's Favor",
-			"desc": "Bennett's outfit. An old adventurer's uniform that has been patched and sewn up in various places."
+			"desc": "Bennett's outfit. An old adventurer's uniform that has been patched and sewn up in various places.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "teyvat_fried_egg",
 		"hoyo_id": 108116,
 		"name_hash": 374472204,
 		"desc_hash": 4237119101,
 		"type_hash": 95496718,
-		"rarity": 1,
 		"name": "Teyvat Charred Egg",
 		"desc": "Bennett's specialty. For some reason, every single fried egg is a little burnt around the edges. That said, the burnt crisp does lends a whole new flavor to the dish.",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 3280865279,
-		"effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
-		"original_recipe": "teyvat_fried_egg"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 1
 	}
 }

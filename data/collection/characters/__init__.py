@@ -4,14 +4,15 @@ from constants import CHAR_DATA_JSON
 from weapons import WeaponType
 from translate.textmap import lang
 from translate.mhy import mhy_chars, mhy_weapons
-from common.dataobj.character import Character
 from common.props import PropType
+from characters.dataobj import Character
 from characters.info import readInfo
 from characters.skins import readSkins
 from characters.ascensions import readAscensions
 from characters.skills import readSkillsConstellations
 from characters.travelers import readTravelerSkills
 from characters.curves import curves
+from characters.images import registerCharacterImages
 from items.recipes import readSpecialDish
 
 import logging
@@ -57,10 +58,12 @@ def readCharacters() -> "dict[str,Character]" :
 	for char in characters.values() :
 		if char.name == 'Traveler' :
 			res.update(readTravelerSkills(char))
+			# TODO images
 		else :
 			readSkillsConstellations(char)
 			identifier = idFromName(char.name)
 			res[identifier] = char
+			registerCharacterImages(identifier, char)
 			mhy_chars[char.hoyo_id] = identifier
 		
 	return res
@@ -73,6 +76,7 @@ def getCharacterCurves() -> "dict[str,list[float]]" :
 def __g_readCharacterBase(char: dict) -> Character :
 	data = Character()
 	data.hoyo_id        = char['id']
+	logger.debug("Reading character %s", data.hoyo_id)
 	data.promote_id     = char['avatarPromoteId']
 	data.skill_depot_id = char['skillDepotId']
 
@@ -90,7 +94,7 @@ def __g_readCharacterBase(char: dict) -> Character :
 	data.name = lang(data.name_hash)
 	data.desc = lang(data.desc_hash)
 	# Same as `infoDescTextMapHash` it seems (?)
-	logger.info(data.name)
+	data.icon = char['iconName']
 
 	# <=> 'avatarIdentityType' not in data
 	if data.name == 'Traveler' :

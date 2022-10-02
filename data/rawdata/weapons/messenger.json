@@ -14,6 +14,8 @@
 	"desc_hash": 2838701821,
 	"name": "Messenger",
 	"desc": "A basic wooden bow. It is said to have once been used as a tool for long-distance communication.",
+	"icon": "UI_EquipIcon_Bow_Msg",
+	"icon_awaken": "UI_EquipIcon_Bow_Msg_Awaken",
 	"rarity": 3,
 	"base_stats": {
 		"Base ATK": 39.875099182128906,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1153050,
 				"desc_hash": 1470376425,
-				"desc": "Charged Attack hits on weak points deal an additional <color=#99FFFFFF>100%</color> ATK DMG as CRIT DMG. Can only occur once every 10s.",
+				"desc": "Charged Attack hits on weak points deal an additional 100% ATK DMG as CRIT DMG. Can only occur once every 10s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1153051,
 				"desc_hash": 186000497,
-				"desc": "Charged Attack hits on weak points deal an additional <color=#99FFFFFF>125%</color> ATK DMG as CRIT DMG. Can only occur once every 10s.",
+				"desc": "Charged Attack hits on weak points deal an additional 125% ATK DMG as CRIT DMG. Can only occur once every 10s.",
 				"cost": 500
 			},
 			{
 				"affix_id": 1153052,
 				"desc_hash": 3712082401,
-				"desc": "Charged Attack hits on weak points deal an additional <color=#99FFFFFF>150%</color> ATK DMG as CRIT DMG. Can only occur once every 10s.",
+				"desc": "Charged Attack hits on weak points deal an additional 150% ATK DMG as CRIT DMG. Can only occur once every 10s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1153053,
 				"desc_hash": 333248849,
-				"desc": "Charged Attack hits on weak points deal an additional <color=#99FFFFFF>175%</color> ATK DMG as CRIT DMG. Can only occur once every 10s.",
+				"desc": "Charged Attack hits on weak points deal an additional 175% ATK DMG as CRIT DMG. Can only occur once every 10s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1153054,
 				"desc_hash": 386704385,
-				"desc": "Charged Attack hits on weak points deal an additional <color=#99FFFFFF>200%</color> ATK DMG as CRIT DMG. Can only occur once every 10s.",
+				"desc": "Charged Attack hits on weak points deal an additional 200% ATK DMG as CRIT DMG. Can only occur once every 10s.",
 				"cost": 4000
 			}
 		]

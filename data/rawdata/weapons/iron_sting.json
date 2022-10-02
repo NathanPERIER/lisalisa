@@ -14,6 +14,8 @@
 	"desc_hash": 904885541,
 	"name": "Iron Sting",
 	"desc": "An exotic long-bladed rapier that somehow found its way into Liyue via foreign traders. It is light, agile, and sharp.",
+	"icon": "UI_EquipIcon_Sword_Exotic",
+	"icon_awaken": "UI_EquipIcon_Sword_Exotic_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1114070,
 				"desc_hash": 4042640001,
-				"desc": "Dealing Elemental DMG increases all DMG by <color=#99FFFFFF>6%</color> for 6s. Max 2 stacks. Can occur once every 1s.",
+				"desc": "Dealing Elemental DMG increases all DMG by 6% for 6s. Max 2 stacks. Can occur once every 1s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1114071,
 				"desc_hash": 215695545,
-				"desc": "Dealing Elemental DMG increases all DMG by <color=#99FFFFFF>7.5%</color> for 6s. Max 2 stacks. Can occur once every 1s.",
+				"desc": "Dealing Elemental DMG increases all DMG by 7.5% for 6s. Max 2 stacks. Can occur once every 1s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1114072,
 				"desc_hash": 527934417,
-				"desc": "Dealing Elemental DMG increases all DMG by <color=#99FFFFFF>9%</color> for 6s. Max 2 stacks. Can occur once every 1s.",
+				"desc": "Dealing Elemental DMG increases all DMG by 9% for 6s. Max 2 stacks. Can occur once every 1s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1114073,
 				"desc_hash": 1988092641,
-				"desc": "Dealing Elemental DMG increases all DMG by <color=#99FFFFFF>10.5%</color> for 6s. Max 2 stacks. Can occur once every 1s.",
+				"desc": "Dealing Elemental DMG increases all DMG by 10.5% for 6s. Max 2 stacks. Can occur once every 1s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1114074,
 				"desc_hash": 452776505,
-				"desc": "Dealing Elemental DMG increases all DMG by <color=#99FFFFFF>12%</color> for 6s. Max 2 stacks. Can occur once every 1s.",
+				"desc": "Dealing Elemental DMG increases all DMG by 12% for 6s. Max 2 stacks. Can occur once every 1s.",
 				"cost": 8000
 			}
 		]

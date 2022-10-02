@@ -1,8 +1,9 @@
 
-from common.dataobj.weapon import Weapon
 from utils import loadJson
 from constants import WEAPON_ABILITY_JSON
 from translate.textmap import lang
+from common.text import clearFormat
+from weapons.dataobj import Weapon
 
 import logging
 
@@ -51,7 +52,7 @@ def __g_readWeaponAbilities(weapon: Weapon, affix: int, costs: "list[int]", awak
 		del ability['level']
 		del ability['name_hash']
 		del ability['name']
-	weapon.abilities = {
+	weapon.abilities = { # TODO dataobj
 		'name_hash': name_hash,
 		'name': name,
 		'special_material': awaken_material,
@@ -59,7 +60,7 @@ def __g_readWeaponAbilities(weapon: Weapon, affix: int, costs: "list[int]", awak
 	}
 
 
-def __g_readAbilityEntry(entry: dict) -> dict :
+def __g_readAbilityEntry(entry: dict) -> dict : # TODO dataobj
 	ability = {
 		'affix_id': entry['affixId'],
 		'level': entry['level'] if 'level' in entry else 0,
@@ -67,5 +68,5 @@ def __g_readAbilityEntry(entry: dict) -> dict :
 		'desc_hash': entry['descTextMapHash']
 	}
 	ability['name'] = lang(ability['name_hash'])
-	ability['desc'] = lang(ability['desc_hash'])
+	ability['desc'] = clearFormat(lang(ability['desc_hash']))
 	return ability

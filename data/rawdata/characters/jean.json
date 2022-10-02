@@ -8,6 +8,7 @@
 	"desc_hash": 2215890689,
 	"name": "Jean",
 	"desc": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius.",
+	"icon": "UI_AvatarIcon_Qin",
 	"rarity": 5,
 	"special": false,
 	"body": "BODY_LADY",
@@ -29,6 +30,8 @@
 	"astrolabe": "Leo Minor",
 	"allegiance": "Knights of Favonius",
 	"default_weapon": "dull_blade",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 1143.9840087890625,
 		"Base ATK": 18.6200008392334,
@@ -155,9 +158,10 @@
 		"normal_attack": {
 			"name_hash": 3128535397,
 			"desc_hash": 2357477968,
-			"charge_num": 1,
 			"name": "Normal Attack: Favonius Bladework",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 5 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of stamina to launch an opponent using the power of wind.\\nLaunched opponents will slowly fall to the ground.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerforms up to 5 consecutive strikes.\n\nCharged Attack\nConsumes a certain amount of stamina to launch an opponent using the power of wind.\nLaunched opponents will slowly fall to the ground.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_resistance": 3,
@@ -394,9 +398,10 @@
 		"elemental_skill": {
 			"name_hash": 1433276421,
 			"desc_hash": 1281904448,
-			"charge_num": 1,
 			"name": "Gale Blade",
-			"desc": "Focusing the might of the formless wind around her blade, Jean releases a miniature storm, launching opponents in the direction she aims at, dealing massive <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nAt the cost of continued stamina consumption, Jean can command the whirlwind to pull surrounding opponents and objects towards her front.\\nDirection can be adjusted.\\nCharacter is immobile during skill duration.\\n\\n<i>That which follows Jean, the wholehearted defender, is a guardian wind that can banish danger from her comrades' presence.</i>",
+			"desc": "Focusing the might of the formless wind around her blade, Jean releases a miniature storm, launching opponents in the direction she aims at, dealing massive Anemo DMG.\n\nHold\nAt the cost of continued stamina consumption, Jean can command the whirlwind to pull surrounding opponents and objects towards her front.\nDirection can be adjusted.\nCharacter is immobile during skill duration.\n\n<i>That which follows Jean, the wholehearted defender, is a guardian wind that can banish danger from her comrades' presence.</i>",
+			"icon": "Skill_S_Qin_02",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_resistance": 3,
@@ -553,9 +558,10 @@
 		"elemental_burst": {
 			"name_hash": 1586562613,
 			"desc_hash": 1484586416,
-			"charge_num": 1,
 			"name": "Dandelion Breeze",
-			"desc": "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding opponents and dealing <color=#80FFD7FF>Anemo DMG</color>.\\nAt the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK.\\n\\n<color=#FFD780FF>Dandelion Field</color>\\n\u00b7Continuously regenerates HP of characters within the AoE and continuously imbues them with <color=#80FFD7FF>Anemo</color>.\\n\u00b7Deals <color=#80FFD7FF>Anemo DMG</color> to opponents entering or exiting the Dandelion Field.\\n\\n<i>Jean's magnanimity is as vast as the dandelion fields, and it is the root of her wish to protect others.</i>",
+			"desc": "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding opponents and dealing Anemo DMG.\nAt the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK.\n\nDandelion Field\n\u00b7Continuously regenerates HP of characters within the AoE and continuously imbues them with Anemo.\n\u00b7Deals Anemo DMG to opponents entering or exiting the Dandelion Field.\n\n<i>Jean's magnanimity is as vast as the dandelion fields, and it is the root of her wish to protect others.</i>",
+			"icon": "Skill_E_Qin_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_resistance": 3,
@@ -747,61 +753,70 @@
 		{
 			"name_hash": 1495472693,
 			"desc_hash": 1706320299,
-			"ascension": 1,
 			"name": "Wind Companion",
-			"desc": "On hit, Jean's Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members."
+			"desc": "On hit, Jean's Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.",
+			"icon": "UI_Talent_S_Qin_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 2466088197,
 			"desc_hash": 854544579,
-			"ascension": 4,
 			"name": "Let the Wind Lead",
-			"desc": "Using <color=#FFD780FF>Dandelion Breeze</color> will regenerate 20% of its Energy."
+			"desc": "Using Dandelion Breeze will regenerate 20% of its Energy.",
+			"icon": "UI_Talent_S_Qin_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 3874514189,
 			"desc_hash": 1823299387,
-			"ascension": null,
 			"name": "Guiding Breeze",
-			"desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+			"desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
+			"icon": "UI_Talent_Cook_Heal",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 2935753641,
-			"name": "Spiraling Tempest",
 			"desc_hash": 988897943,
-			"desc": "Increases the pulling speed of <color=#FFD780FF>Gale Blade</color> after holding for more than 1s, and increases the DMG dealt by 40%."
+			"name": "Spiraling Tempest",
+			"desc": "Increases the pulling speed of Gale Blade after holding for more than 1s, and increases the DMG dealt by 40%.",
+			"icon": "UI_Talent_S_Qin_01"
 		},
 		{
 			"name_hash": 573725673,
-			"name": "People's Aegis",
 			"desc_hash": 544290319,
-			"desc": "When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s."
+			"name": "People's Aegis",
+			"desc": "When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s.",
+			"icon": "UI_Talent_S_Qin_02"
 		},
 		{
 			"name_hash": 997607873,
-			"name": "When the West Wind Arises",
 			"desc_hash": 3837932671,
-			"desc": "Increases the Level of <color=#FFD780FF>Dandelion Breeze</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "When the West Wind Arises",
+			"desc": "Increases the Level of Dandelion Breeze by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Qin_02"
 		},
 		{
 			"name_hash": 2887613457,
-			"name": "Lands of Dandelion",
 			"desc_hash": 2911211423,
-			"desc": "Within the Field created by <color=#FFD780FF>Dandelion Breeze</color>, all opponents have their <color=#80FFD7FF>Anemo RES</color> decreased by 40%."
+			"name": "Lands of Dandelion",
+			"desc": "Within the Field created by Dandelion Breeze, all opponents have their Anemo RES decreased by 40%.",
+			"icon": "UI_Talent_S_Qin_03"
 		},
 		{
 			"name_hash": 2712156785,
-			"name": "Outbursting Gust",
 			"desc_hash": 3588133439,
-			"desc": "Increases the Level of <color=#FFD780FF>Gale Blade</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Outbursting Gust",
+			"desc": "Increases the Level of Gale Blade by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Qin_01"
 		},
 		{
 			"name_hash": 3167949041,
-			"name": "Lion's Fang, Fair Protector of Mondstadt",
 			"desc_hash": 4148193751,
-			"desc": "Incoming DMG is decreased by 35% within the Field created by <color=#FFD780FF>Dandelion Breeze</color>. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s."
+			"name": "Lion's Fang, Fair Protector of Mondstadt",
+			"desc": "Incoming DMG is decreased by 35% within the Field created by Dandelion Breeze. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s.",
+			"icon": "UI_Talent_S_Qin_04"
 		}
 	],
 	"skins": {
@@ -809,41 +824,42 @@
 			"hoyo_id": null,
 			"name_hash": 2431528538,
 			"desc_hash": 248153650,
-			"restricted": false,
 			"name": "Favonian Devotion",
-			"desc": "Jean's outfit. Neat and smart clothing that emphasizes her chivalry."
+			"desc": "Jean's outfit. Neat and smart clothing that emphasizes her chivalry.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": [
-			{
+		"alt": {
+			"sea_breeze_dandelion": {
 				"hoyo_id": 340001,
 				"name_hash": 1504245738,
 				"desc_hash": 3529954098,
-				"restricted": false,
 				"name": "Sea Breeze Dandelion",
-				"desc": "Jean's summer wear. Light and cool, but no less elegant for it. The perfect choice for a trip to the seaside."
+				"desc": "Jean's summer wear. Light and cool, but no less elegant for it. The perfect choice for a trip to the seaside.",
+				"icon": "UI_AvatarIcon_QinCostumeSea",
+				"restricted": false
 			},
-			{
+			"gunnhildrs_legacy": {
 				"hoyo_id": 340006,
 				"name_hash": 2691230306,
 				"desc_hash": 1553444314,
-				"restricted": true,
 				"name": "Gunnhildr's Legacy",
-				"desc": "Jean's outfit. This classic knight's ceremonial outfit is suited to all manner of occasions."
+				"desc": "Jean's outfit. This classic knight's ceremonial outfit is suited to all manner of occasions.",
+				"icon": "UI_AvatarIcon_QinCostumeWic",
+				"restricted": true
 			}
-		]
+		}
 	},
 	"special_dish": {
+		"original_recipe": "mushroom_pizza",
 		"hoyo_id": 108044,
 		"name_hash": 3225627540,
 		"desc_hash": 1679435333,
 		"type_hash": 2152302662,
-		"rarity": 3,
 		"name": "Invigorating Pizza",
 		"desc": "Jean's specialty. This pizza almost seems more art than food. Just one slice is enough to have you raring to go. Is this what keeps Jean working so hard?",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 3205020775,
-		"effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s.",
-		"original_recipe": "mushroom_pizza"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 3
 	}
 }

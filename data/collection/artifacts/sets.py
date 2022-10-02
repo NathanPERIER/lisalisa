@@ -2,7 +2,7 @@
 from utils import loadJson, indexById, groupByField
 from constants import ARTIFACT_SETS_JSON, ARTIFACT_EQUIP_JSON
 from translate.textmap import lang
-from common.dataobj.artifact import ArtifactSet, ArtifactSetEquip
+from artifacts.dataobj import ArtifactSet, ArtifactSetEquip
 
 import logging
 

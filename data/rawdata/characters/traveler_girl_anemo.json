@@ -8,6 +8,7 @@
 	"desc_hash": 4261991457,
 	"name": "Anemo Traveler",
 	"desc": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+	"icon": "UI_AvatarIcon_PlayerGirl",
 	"rarity": 5,
 	"special": false,
 	"body": "BODY_GIRL",
@@ -23,6 +24,8 @@
 	"astrolabe": "Viatrix",
 	"allegiance": "-",
 	"default_weapon": "dull_blade",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 911.791015625,
 		"Base ATK": 17.808000564575195,
@@ -144,9 +147,10 @@
 		"normal_attack": {
 			"name_hash": 2182891949,
 			"desc_hash": 3290781720,
-			"charge_num": 1,
 			"name": "Normal Attack: Foreign Ironwind",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -383,9 +387,10 @@
 		"elemental_skill": {
 			"name_hash": 2639384229,
 			"desc_hash": 3074217384,
-			"charge_num": 1,
 			"name": "Palm Vortex",
-			"desc": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous <color=#80FFD7FF>Anemo DMG</color> to opponents in front of you.\\nThe vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.\\n\\n<color=#FFD780FF>Hold</color>\\nDMG and AoE will gradually increase.\\n\\n<color=#FFD780FF>Elemental Absorption</color>\\nIf the vortex comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>You discussed the way to grasp the formless wind with Paimon.</i>",
+			"desc": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous Anemo DMG to opponents in front of you.\nThe vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.\n\nHold\nDMG and AoE will gradually increase.\n\nElemental Absorption\nIf the vortex comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>You discussed the way to grasp the formless wind with Paimon.</i>",
+			"icon": "Skill_S_PlayerWind_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -574,9 +579,10 @@
 		"elemental_burst": {
 			"name_hash": 565740677,
 			"desc_hash": 68132912,
-			"charge_num": 1,
 			"name": "Gust Surge",
-			"desc": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Elemental Absorption</color>\\nIf the tornado comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>You and Paimon studied the flapping of a butterfly's wings.</i>",
+			"desc": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous Anemo DMG.\n\nElemental Absorption\nIf the tornado comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>You and Paimon studied the flapping of a butterfly's wings.</i>",
+			"icon": "Skill_E_PlayerWind_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -752,54 +758,62 @@
 		{
 			"name_hash": 290187581,
 			"desc_hash": 3531151099,
-			"ascension": 1,
 			"name": "Slitting Wind",
-			"desc": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as <color=#80FFD7FF>Anemo DMG</color> to all opponents in its path."
+			"desc": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as Anemo DMG to all opponents in its path.",
+			"icon": "UI_Talent_S_PlayerWind_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 1816631405,
 			"desc_hash": 626310931,
-			"ascension": 4,
 			"name": "Second Wind",
-			"desc": "<color=#FFD780FF>Palm Vortex</color> kills regenerate 2% HP for 5s. This effect can only occur once every 5s."
+			"desc": "Palm Vortex kills regenerate 2% HP for 5s. This effect can only occur once every 5s.",
+			"icon": "UI_Talent_S_PlayerWind_06",
+			"ascension": 4
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 1939010113,
-			"name": "Raging Vortex",
 			"desc_hash": 1376664943,
-			"desc": "<color=#FFD780FF>Palm Vortex</color> pulls in opponents and objects within a 5m radius."
+			"name": "Raging Vortex",
+			"desc": "Palm Vortex pulls in opponents and objects within a 5m radius.",
+			"icon": "UI_Talent_S_PlayerWind_01"
 		},
 		{
 			"name_hash": 202198665,
-			"name": "Uprising Whirlwind",
 			"desc_hash": 1959927503,
-			"desc": "Increases Energy Recharge by 16%."
+			"name": "Uprising Whirlwind",
+			"desc": "Increases Energy Recharge by 16%.",
+			"icon": "UI_Talent_S_PlayerWind_02"
 		},
 		{
 			"name_hash": 3296754769,
-			"name": "Sweeping Gust",
 			"desc_hash": 125832943,
-			"desc": "Increases the Level of <color=#FFD780FF>Gust Surge</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Sweeping Gust",
+			"desc": "Increases the Level of Gust Surge by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_PlayerWind_02"
 		},
 		{
 			"name_hash": 2963680761,
-			"name": "Cherishing Breezes",
 			"desc_hash": 3431258791,
-			"desc": "Reduces DMG taken while casting <color=#FFD780FF>Palm Vortex</color> by 10%."
+			"name": "Cherishing Breezes",
+			"desc": "Reduces DMG taken while casting Palm Vortex by 10%.",
+			"icon": "UI_Talent_S_PlayerWind_03"
 		},
 		{
 			"name_hash": 1400173321,
-			"name": "Vortex Stellaris",
 			"desc_hash": 2655543991,
-			"desc": "Increases the Level of <color=#FFD780FF>Palm Vortex</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Vortex Stellaris",
+			"desc": "Increases the Level of Palm Vortex by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_PlayerWind_01"
 		},
 		{
 			"name_hash": 3558611633,
-			"name": "Intertwined Winds",
 			"desc_hash": 2741900303,
-			"desc": "Targets who take DMG from <color=#FFD780FF>Gust Surge</color> have their <color=#80FFD7FF>Anemo RES</color> decreased by 20%.\\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
+			"name": "Intertwined Winds",
+			"desc": "Targets who take DMG from Gust Surge have their Anemo RES decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
+			"icon": "UI_Talent_S_PlayerWind_04"
 		}
 	],
 	"skins": {
@@ -807,11 +821,12 @@
 			"hoyo_id": null,
 			"name_hash": 3561662730,
 			"desc_hash": 2020994066,
-			"restricted": false,
 			"name": "Rising Star",
-			"desc": "The Traveler's outfit. A practical set of clothing to wear during a long journey."
+			"desc": "The Traveler's outfit. A practical set of clothing to wear during a long journey.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": null
 }

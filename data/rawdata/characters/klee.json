@@ -8,6 +8,7 @@
 	"desc_hash": 2313554193,
 	"name": "Klee",
 	"desc": "An explosives expert and a regular at the Knights of Favonius's confinement room. Also known as Fleeing Sunlight.",
+	"icon": "UI_AvatarIcon_Klee",
 	"rarity": 5,
 	"special": false,
 	"body": "BODY_LOLI",
@@ -29,6 +30,8 @@
 	"astrolabe": "Trifolium",
 	"allegiance": "Knights of Favonius",
 	"default_weapon": "apprentices_notes",
+	"increase_skill": 3,
+	"increase_burst": 5,
 	"base_stats": {
 		"Base HP": 800.788818359375,
 		"Base ATK": 24.20599937438965,
@@ -155,9 +158,10 @@
 		"normal_attack": {
 			"name_hash": 161160581,
 			"desc_hash": 468291488,
-			"charge_num": 1,
 			"name": "Normal Attack: Kaboom!",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nThrows things that go boom when they hit things! Perform up to 3 explosive attacks, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina and deals <color=#FF9999FF>AoE Pyro DMG</color> to opponents after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FF9999FF>AoE Pyro DMG</color> upon impact with the ground.",
+			"desc": "Normal Attack\nThrows things that go boom when they hit things! Perform up to 3 explosive attacks, dealing AoE Pyro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina and deals AoE Pyro DMG to opponents after a short casting time.\n\nPlunging Attack\nGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Pyro DMG upon impact with the ground.",
+			"icon": "Skill_A_Catalyst_MD",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -362,9 +366,10 @@
 		"elemental_skill": {
 			"name_hash": 3723743117,
 			"desc_hash": 713417336,
-			"charge_num": 2,
 			"name": "Jumpy Dumpty",
-			"desc": "Jumpy Dumpty is tons of boom-bang-fun! \\nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing <color=#FF9999FF>AoE Pyro DMG</color> with every bounce.\\n\\nOn the third bounce, the bomb splits into many mines.\\nThe mines will explode upon contact with opponents, or after a short period of time, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\n\\nStarts with 2 charges.\\n\\n<i>Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone.</i>",
+			"desc": "Jumpy Dumpty is tons of boom-bang-fun! \nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing AoE Pyro DMG with every bounce.\n\nOn the third bounce, the bomb splits into many mines.\nThe mines will explode upon contact with opponents, or after a short period of time, dealing AoE Pyro DMG.\n\nStarts with 2 charges.\n\n<i>Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone.</i>",
+			"icon": "Skill_S_Klee_01",
+			"charge_num": 2,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -521,9 +526,10 @@
 		"elemental_burst": {
 			"name_hash": 1371192733,
 			"desc_hash": 3680863856,
-			"charge_num": 1,
 			"name": "Sparks 'n' Splash",
-			"desc": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\n\\n<i>The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...</i>",
+			"desc": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing AoE Pyro DMG.\n\n<i>The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...</i>",
+			"icon": "Skill_E_Klee_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -683,61 +689,70 @@
 		{
 			"name_hash": 1539278821,
 			"desc_hash": 633641795,
-			"ascension": 1,
 			"name": "Pounding Surprise",
-			"desc": "When <color=#FFD780FF>Jumpy Dumpty</color> and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark.\\nThis Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG."
+			"desc": "When Jumpy Dumpty and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark.\nThis Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG.",
+			"icon": "UI_Talent_S_Klee_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 330795749,
 			"desc_hash": 3585141899,
-			"ascension": 4,
 			"name": "Sparkling Burst",
-			"desc": "When Klee's Charged Attack results in a CRIT Hit, all party members gain 2 Elemental Energy."
+			"desc": "When Klee's Charged Attack results in a CRIT Hit, all party members gain 2 Elemental Energy.",
+			"icon": "UI_Talent_S_Klee_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 3590967205,
 			"desc_hash": 710544459,
-			"ascension": null,
 			"name": "All Of My Treasures!",
-			"desc": "Displays the location of nearby <color=#FFD780FF>resources unique to Mondstadt</color> on the mini-map."
+			"desc": "Displays the location of nearby resources unique to Mondstadt on the mini-map.",
+			"icon": "UI_Talent_Collect_Local_Mengde",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 600240137,
-			"name": "Chained Reactions",
 			"desc_hash": 4004824647,
-			"desc": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of <color=#FFD780FF>Sparks 'n' Splash</color>'s DMG."
+			"name": "Chained Reactions",
+			"desc": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of Sparks 'n' Splash's DMG.",
+			"icon": "UI_Talent_S_Klee_01"
 		},
 		{
 			"name_hash": 328772169,
-			"name": "Explosive Frags",
 			"desc_hash": 4201661495,
-			"desc": "Being hit by <color=#FFD780FF>Jumpy Dumpty</color>'s mines decreases opponents' DEF by 23% for 10s."
+			"name": "Explosive Frags",
+			"desc": "Being hit by Jumpy Dumpty's mines decreases opponents' DEF by 23% for 10s.",
+			"icon": "UI_Talent_S_Klee_02"
 		},
 		{
 			"name_hash": 1369435161,
-			"name": "Exquisite Compound",
 			"desc_hash": 2182377015,
-			"desc": "Increases the Level of <color=#FFD780FF>Jumpy Dumpty</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Exquisite Compound",
+			"desc": "Increases the Level of Jumpy Dumpty by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Klee_01"
 		},
 		{
 			"name_hash": 1327047857,
-			"name": "Sparkly Explosion",
 			"desc_hash": 3999371183,
-			"desc": "If Klee leaves the field during the duration of <color=#FFD780FF>Sparks 'n' Splash</color>, her departure triggers an explosion that deals 555% of her ATK as <color=#FF9999FF>AoE Pyro DMG</color>."
+			"name": "Sparkly Explosion",
+			"desc": "If Klee leaves the field during the duration of Sparks 'n' Splash, her departure triggers an explosion that deals 555% of her ATK as AoE Pyro DMG.",
+			"icon": "UI_Talent_S_Klee_03"
 		},
 		{
 			"name_hash": 3317796233,
-			"name": "Nova Burst",
 			"desc_hash": 4010119167,
-			"desc": "Increases the Level of <color=#FFD780FF>Sparks 'n' Splash</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Nova Burst",
+			"desc": "Increases the Level of Sparks 'n' Splash by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Klee_02"
 		},
 		{
 			"name_hash": 1554210529,
-			"name": "Blazing Delight",
 			"desc_hash": 1281989519,
-			"desc": "While under the effects of <color=#FFD780FF>Sparks 'n' Splash</color>, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.\\nWhen <color=#FFD780FF>Sparks 'n' Splash</color> is used, all party members will gain a 10% <color=#FF9999FF>Pyro DMG Bonus</color> for 25s."
+			"name": "Blazing Delight",
+			"desc": "While under the effects of Sparks 'n' Splash, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.\nWhen Sparks 'n' Splash is used, all party members will gain a 10% Pyro DMG Bonus for 25s.",
+			"icon": "UI_Talent_S_Klee_04"
 		}
 	],
 	"skins": {
@@ -745,24 +760,23 @@
 			"hoyo_id": null,
 			"name_hash": 1023505626,
 			"desc_hash": 3488214794,
-			"restricted": false,
 			"name": "Shooting Spark",
-			"desc": "Klee's outfit. A set of clothing for an energetic child that even comes with a matching leather backpack."
+			"desc": "Klee's outfit. A set of clothing for an energetic child that even comes with a matching leather backpack.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "fishermans_toast",
 		"hoyo_id": 108115,
 		"name_hash": 4243799012,
 		"desc_hash": 2403757549,
 		"type_hash": 4291242670,
-		"rarity": 2,
 		"name": "Fish-Flavored Toast",
 		"desc": "Klee's specialty. By way of apology for wantonly using her bombs to scare away the fish, Jean instructed Klee to make this toast for the fishermen. It's filling and tasty. Klee will never starve again, even after a whole day of blast fishing.",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 2045678999,
-		"effect": "Increases all party members' DEF by 151 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-		"original_recipe": "fishermans_toast"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 2
 	}
 }

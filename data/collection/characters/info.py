@@ -1,7 +1,7 @@
 
 from utils import loadJson
 from constants import CHAR_INFO_JSON
-from common.dataobj.character import Character
+from characters.dataobj import Character
 from translate.textmap import lang
 
 import logging
@@ -47,8 +47,9 @@ def __g_readInfo(inf: dict, characters: "dict[str,Character]") :
         inf['avatarConstellationBeforTextMapHash'],
         inf['avatarConstellationAfterTextMapHash']
     ]
-    data.astrolabe = lang(data.astrolabe_hash[1])
-    if data.astrolabe == '' :
+    if data.astrolabe_hash[1] in lang :
+        data.astrolabe = lang(data.astrolabe_hash[1])
+    else :
         data.astrolabe = lang(data.astrolabe_hash[0])
     data.allegiance_hash = inf['avatarNativeTextMapHash']
     data.allegiance = lang(data.allegiance_hash)

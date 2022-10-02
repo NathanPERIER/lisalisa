@@ -14,6 +14,8 @@
 	"desc_hash": 789905885,
 	"name": "Sacrificial Fragments",
 	"desc": "A weathered script, the text of which is no longer legible. A cursed item eroded by the winds of time.",
+	"icon": "UI_EquipIcon_Catalyst_Fossil",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Fossil_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 41.067100524902344,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1144030,
 				"desc_hash": 3386789833,
-				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>40%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>30</color>s.",
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1144031,
 				"desc_hash": 3500633425,
-				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>50%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>26</color>s.",
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a 50% chance to end its own CD. Can only occur once every 26s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1144032,
 				"desc_hash": 2667889233,
-				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>60%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>22s</color>.",
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a 60% chance to end its own CD. Can only occur once every 22s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1144033,
 				"desc_hash": 68588217,
-				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>70%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>19</color>s.",
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a 70% chance to end its own CD. Can only occur once every 19s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1144034,
 				"desc_hash": 2678116945,
-				"desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>80%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>16s</color>.",
+				"desc": "After damaging an opponent with an Elemental Skill, the skill has a 80% chance to end its own CD. Can only occur once every 16s.",
 				"cost": 8000
 			}
 		]

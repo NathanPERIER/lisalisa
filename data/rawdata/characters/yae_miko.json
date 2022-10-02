@@ -8,6 +8,7 @@
 	"desc_hash": 1170085417,
 	"name": "Yae Miko",
 	"desc": "Lady Guuji of the Grand Narukami Shrine. Also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance.",
+	"icon": "UI_AvatarIcon_Yae",
 	"rarity": 5,
 	"special": false,
 	"body": "BODY_LADY",
@@ -29,6 +30,8 @@
 	"astrolabe": "Divina Vulpes",
 	"allegiance": "Grand Narukami Shrine",
 	"default_weapon": "apprentices_notes",
+	"increase_skill": 3,
+	"increase_burst": 5,
 	"base_stats": {
 		"Base HP": 807.4620361328125,
 		"Base ATK": 26.440399169921875,
@@ -155,9 +158,10 @@
 		"normal_attack": {
 			"name_hash": 3966360853,
 			"desc_hash": 976224872,
-			"charge_num": 1,
 			"name": "Normal Attack: Spiritfox Sin-Eater",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nSummons forth kitsune spirits, initiating a maximum of 3 attacks that deal <color=#FFACFFFF>Electro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal <color=#FFACFFFF>AoE Electro DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges towards the ground from mid-air, damaging all opponents in her path with thunderous might. Deals <color=#FFACFFFF>AoE Electro DMG</color> upon impact with the ground.",
+			"desc": "Normal Attack\nSummons forth kitsune spirits, initiating a maximum of 3 attacks that deal Electro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Electro DMG after a short casting time.\n\nPlunging Attack\nPlunges towards the ground from mid-air, damaging all opponents in her path with thunderous might. Deals AoE Electro DMG upon impact with the ground.",
+			"icon": "Skill_A_Catalyst_MD",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_light": 3,
@@ -362,9 +366,10 @@
 		"elemental_skill": {
 			"name_hash": 823035501,
 			"desc_hash": 1814358328,
-			"charge_num": 3,
 			"name": "Yakan Evocation: Sesshou Sakura",
-			"desc": "To Yae, such dull tasks as can be accomplished by driving spirits out need not be done personally.\\nMoves swiftly, leaving a Sesshou Sakura behind.\\n\\n<color=#FFD780FF>Sesshou Sakura</color>\\nHas the following properties:\\n\u00b7 Periodically strikes one nearby opponent with lightning, dealing <color=#FFACFFFF>Electro DMG</color>\\n\u00b7 When there are other Sesshou Sakura nearby, their level will increase, boosting the DMG dealt by these lightning strikes.\\n\\nThis skill has three charges.\\nA maximum of 3 Sesshou Sakura can exist simultaneously. The initial level of each Sesshou Sakura is 1, and the initial highest level each sakura can reach is 3. If a new Sesshou Sakura is created too close to an existing one, the existing one will be destroyed.\\n\\n<i>\"The kitsune spirits sealed in the branches are all yakan who stooped to preying upon humans. The yakan are two grades lower than us Sky Kitsune, and so, I hardly see the problem with... asking that they do my bidding. Now, this doesn't mean that you humans should go learning from our grading systems, no indeed \u2014 and as for which of us, kitsune or human, is higher up in the pecking order... Heh, wouldn't you like to know?\"</i>",
+			"desc": "To Yae, such dull tasks as can be accomplished by driving spirits out need not be done personally.\nMoves swiftly, leaving a Sesshou Sakura behind.\n\nSesshou Sakura\nHas the following properties:\n\u00b7 Periodically strikes one nearby opponent with lightning, dealing Electro DMG\n\u00b7 When there are other Sesshou Sakura nearby, their level will increase, boosting the DMG dealt by these lightning strikes.\n\nThis skill has three charges.\nA maximum of 3 Sesshou Sakura can exist simultaneously. The initial level of each Sesshou Sakura is 1, and the initial highest level each sakura can reach is 3. If a new Sesshou Sakura is created too close to an existing one, the existing one will be destroyed.\n\n<i>\"The kitsune spirits sealed in the branches are all yakan who stooped to preying upon humans. The yakan are two grades lower than us Sky Kitsune, and so, I hardly see the problem with... asking that they do my bidding. Now, this doesn't mean that you humans should go learning from our grading systems, no indeed \u2014 and as for which of us, kitsune or human, is higher up in the pecking order... Heh, wouldn't you like to know?\"</i>",
+			"icon": "Skill_S_Yae_01",
+			"charge_num": 3,
 			"costs": [
 				{
 					"teachings_of_light": 3,
@@ -553,9 +558,10 @@
 		"elemental_burst": {
 			"name_hash": 3675029365,
 			"desc_hash": 1743360824,
-			"charge_num": 1,
 			"name": "Great Secret Art: Tenko Kenshin",
-			"desc": "Legends of \"kitsunetsuki,\" or the manifestation of a kitsune's might, are common in Inazuma's folktales. One that particularly captures the imagination is that of the Sky Kitsune, said to cause lightning to fall down upon the foes of the Grand Narukami Shrine. Summons a lightning strike, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\nWhen she uses this skill, Yae Miko will unseal nearby Sesshou Sakura, destroying their outer forms and transforming them into Tenko Thunderbolts that descend from the skies, dealing <color=#FFACFFFF>AoE Electro DMG</color>. Each Sesshou Sakura destroyed in this way will create one Tenko Thunderbolt.\\n\\n<i>Only at times like these will Yae reveal her Sky Kitsune form and wield lightning itself. None have seen the Lady Guuji's tails and lived to tell the story... so remember, as far as you are concerned, Lady Yae does not have a tail.</i>",
+			"desc": "Legends of \"kitsunetsuki,\" or the manifestation of a kitsune's might, are common in Inazuma's folktales. One that particularly captures the imagination is that of the Sky Kitsune, said to cause lightning to fall down upon the foes of the Grand Narukami Shrine. Summons a lightning strike, dealing AoE Electro DMG.\nWhen she uses this skill, Yae Miko will unseal nearby Sesshou Sakura, destroying their outer forms and transforming them into Tenko Thunderbolts that descend from the skies, dealing AoE Electro DMG. Each Sesshou Sakura destroyed in this way will create one Tenko Thunderbolt.\n\n<i>Only at times like these will Yae reveal her Sky Kitsune form and wield lightning itself. None have seen the Lady Guuji's tails and lived to tell the story... so remember, as far as you are concerned, Lady Yae does not have a tail.</i>",
+			"icon": "Skill_E_Yae_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_light": 3,
@@ -715,61 +721,70 @@
 		{
 			"name_hash": 4293081189,
 			"desc_hash": 3689732219,
-			"ascension": 1,
 			"name": "The Shrine's Sacred Shade",
-			"desc": "When casting <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color>, each Sesshou Sakura destroyed resets the cooldown for 1 charge of <color=#FFD780FF>Yakan Evocation: Sesshou Sakura</color>."
+			"desc": "When casting Great Secret Art: Tenko Kenshin, each Sesshou Sakura destroyed resets the cooldown for 1 charge of Yakan Evocation: Sesshou Sakura.",
+			"icon": "UI_Talent_S_Yae_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 1210172149,
 			"desc_hash": 886862779,
-			"ascension": 4,
 			"name": "Enlightened Blessing",
-			"desc": "Every point of Elemental Mastery Yae Miko possesses will increase <color=#FFD780FF>Sesshou Sakura</color> DMG by 0.15%."
+			"desc": "Every point of Elemental Mastery Yae Miko possesses will increase Sesshou Sakura DMG by 0.15%.",
+			"icon": "UI_Talent_S_Yae_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 294064029,
 			"desc_hash": 1058193419,
-			"ascension": null,
 			"name": "Meditations of a Yako",
-			"desc": "Has a 25% chance to get 1 regional Character Talent Material (base material excluded) when crafting. The rarity is that of the base material."
+			"desc": "Has a 25% chance to get 1 regional Character Talent Material (base material excluded) when crafting. The rarity is that of the base material.",
+			"icon": "UI_Talent_S_Yae_07",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 2281393129,
-			"name": "Yakan Offering",
 			"desc_hash": 3672936767,
-			"desc": "Each time <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color> activates a Tenko Thunderbolt, Yae Miko will restore 8 Elemental Energy for herself."
+			"name": "Yakan Offering",
+			"desc": "Each time Great Secret Art: Tenko Kenshin activates a Tenko Thunderbolt, Yae Miko will restore 8 Elemental Energy for herself.",
+			"icon": "UI_Talent_S_Yae_01"
 		},
 		{
 			"name_hash": 2254983737,
-			"name": "Fox's Mooncall",
 			"desc_hash": 1386782575,
-			"desc": "<color=#FFD780FF>Sesshou Sakura</color> start at Level 2 when created, their max level is increased to 4, and their attack range is increased by 60%."
+			"name": "Fox's Mooncall",
+			"desc": "Sesshou Sakura start at Level 2 when created, their max level is increased to 4, and their attack range is increased by 60%.",
+			"icon": "UI_Talent_S_Yae_02"
 		},
 		{
 			"name_hash": 516586793,
-			"name": "The Seven Glamours",
 			"desc_hash": 509551311,
-			"desc": "Increases the Level of <color=#FFD780FF>Yakan Evocation: Sesshou Sakura</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "The Seven Glamours",
+			"desc": "Increases the Level of Yakan Evocation: Sesshou Sakura by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Yae_01"
 		},
 		{
 			"name_hash": 1524489289,
-			"name": "Sakura Channeling",
 			"desc_hash": 580900487,
-			"desc": "When <color=#FFD780FF>Sesshou Sakura</color> lightning hits opponents, the <color=#FFACFFFF>Electro DMG Bonus</color> of all nearby party members is increased by 20% for 5s."
+			"name": "Sakura Channeling",
+			"desc": "When Sesshou Sakura lightning hits opponents, the Electro DMG Bonus of all nearby party members is increased by 20% for 5s.",
+			"icon": "UI_Talent_S_Yae_03"
 		},
 		{
 			"name_hash": 3181299049,
-			"name": "Mischievous Teasing",
 			"desc_hash": 2441345199,
-			"desc": "Increases the Level of <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Mischievous Teasing",
+			"desc": "Increases the Level of Great Secret Art: Tenko Kenshin by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Yae_02"
 		},
 		{
 			"name_hash": 913339777,
-			"name": "Forbidden Art: Daisesshou",
 			"desc_hash": 2127512239,
-			"desc": "<color=#FFD780FF>The Sesshou Sakura's</color> attacks will ignore 60% of the opponents' DEF."
+			"name": "Forbidden Art: Daisesshou",
+			"desc": "The Sesshou Sakura's attacks will ignore 60% of the opponents' DEF.",
+			"icon": "UI_Talent_S_Yae_04"
 		}
 	],
 	"skins": {
@@ -777,24 +792,23 @@
 			"hoyo_id": null,
 			"name_hash": 1295363218,
 			"desc_hash": 3314678434,
-			"restricted": false,
 			"name": "Miko's Instruction",
-			"desc": "Yae Miko's outfit. A shrine maiden uniform that declares her lofty position as the Guuji of the Grand Narukami Shrine to all. May the lovely sight of her in that dress remain forever, just as the Sacred Sakura emblazoned upon her pure white skirt, which will never wilt away."
+			"desc": "Yae Miko's outfit. A shrine maiden uniform that declares her lofty position as the Guuji of the Grand Narukami Shrine to all. May the lovely sight of her in that dress remain forever, just as the Sacred Sakura emblazoned upon her pure white skirt, which will never wilt away.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": {
+		"original_recipe": "udon_noodles",
 		"hoyo_id": 108380,
 		"name_hash": 1480952796,
 		"desc_hash": 2497849205,
 		"type_hash": 4215019350,
-		"rarity": 2,
 		"name": "Fukuuchi Udon",
 		"desc": "Yae Miko's specialty. The Fried Tofu in here is specially made by the solemn Lady Kitsune. It is said that if you eat it all at one go with sincerity in your heart, you will have the protection of the Great Kitsune \u2014 misfortune shall flee and fortune abound!",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 665054167,
-		"effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP.",
-		"original_recipe": "udon_noodles"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 2
 	}
 }

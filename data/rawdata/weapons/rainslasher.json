@@ -14,6 +14,8 @@
 	"desc_hash": 2688397213,
 	"name": "Rainslasher",
 	"desc": "A fluorescent greatsword with no sharp edge that crushes enemies with brute force and raw power.",
+	"icon": "UI_EquipIcon_Claymore_Perdue",
+	"icon_awaken": "UI_EquipIcon_Claymore_Perdue_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1124050,
 				"desc_hash": 1692191241,
-				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>20%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by 20%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1124051,
 				"desc_hash": 3691086665,
-				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>24%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by 24%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1124052,
 				"desc_hash": 3957483593,
-				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>28%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by 28%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1124053,
 				"desc_hash": 605182377,
-				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>32%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by 32%.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1124054,
 				"desc_hash": 3866769929,
-				"desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>36%</color>.",
+				"desc": "Increases DMG against opponents affected by Hydro or Electro by 36%.",
 				"cost": 8000
 			}
 		]

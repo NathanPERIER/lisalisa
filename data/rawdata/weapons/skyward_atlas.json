@@ -14,6 +14,8 @@
 	"desc_hash": 929689749,
 	"name": "Skyward Atlas",
 	"desc": "A cloud atlas symbolizing Dvalin and his former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.",
+	"icon": "UI_EquipIcon_Catalyst_Dvalin",
+	"icon_awaken": "UI_EquipIcon_Catalyst_Dvalin_Awaken",
 	"rarity": 5,
 	"base_stats": {
 		"Base ATK": 47.5369987487793,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1145010,
 				"desc_hash": 1572327097,
-				"desc": "Increases Elemental DMG Bonus by <color=#99FFFFFF>12%</color>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <color=#99FFFFFF>160%</color> ATK DMG. Can only occur once every 30s.",
+				"desc": "Increases Elemental DMG Bonus by 12%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 160% ATK DMG. Can only occur once every 30s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1145011,
 				"desc_hash": 1756765969,
-				"desc": "Increases Elemental DMG Bonus by <color=#99FFFFFF>15%</color>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <color=#99FFFFFF>200%</color> ATK DMG. Can only occur once every 30s.",
+				"desc": "Increases Elemental DMG Bonus by 15%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 200% ATK DMG. Can only occur once every 30s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1145012,
 				"desc_hash": 3690397193,
-				"desc": "Increases Elemental DMG Bonus by <color=#99FFFFFF>18%</color>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <color=#99FFFFFF>240%</color> ATK DMG. Can only occur once every 30s.",
+				"desc": "Increases Elemental DMG Bonus by 18%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 240% ATK DMG. Can only occur once every 30s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1145013,
 				"desc_hash": 950631985,
-				"desc": "Increases Elemental DMG Bonus by <color=#99FFFFFF>21%</color>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <color=#99FFFFFF>280%</color> ATK DMG. Can only occur once every 30s.",
+				"desc": "Increases Elemental DMG Bonus by 21%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 280% ATK DMG. Can only occur once every 30s.",
 				"cost": 8000
 			},
 			{
 				"affix_id": 1145014,
 				"desc_hash": 483482313,
-				"desc": "Increases Elemental DMG Bonus by <color=#99FFFFFF>24%</color>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <color=#99FFFFFF>320%</color> ATK DMG. Can only occur once every 30s.",
+				"desc": "Increases Elemental DMG Bonus by 24%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 320% ATK DMG. Can only occur once every 30s.",
 				"cost": 16000
 			}
 		]

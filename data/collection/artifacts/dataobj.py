@@ -1,3 +1,4 @@
+
 from common.dataobj import DataObject
 
 
@@ -56,3 +57,4 @@ class ArtifactSet(DataObject) :
 		self.name: str = None
 		self.bonuses: "list[ArtifactSetEquip]" = []
 		self.pieces: "list[ArtifactRaritySet]" = []
+

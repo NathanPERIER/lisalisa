@@ -14,6 +14,8 @@
 	"desc_hash": 1683286045,
 	"name": "Whiteblind",
 	"desc": "An exotic sword with one section of the blade left blunt. It made its way into Liyue via the hands of foreign traders. Incredibly powerful in the hands of someone who knows how to use it.",
+	"icon": "UI_EquipIcon_Claymore_Exotic",
+	"icon_awaken": "UI_EquipIcon_Claymore_Exotic_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1124070,
 				"desc_hash": 762668369,
-				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>6%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by 6% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1124071,
 				"desc_hash": 8483777,
-				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>7.5%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by 7.5% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1124072,
 				"desc_hash": 1860409153,
-				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>9%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by 9% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1124073,
 				"desc_hash": 3017173617,
-				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>10.5%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by 10.5% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1124074,
 				"desc_hash": 4191876393,
-				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>12%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+				"desc": "On hit, Normal or Charged Attacks increase ATK and DEF by 12% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
 				"cost": 8000
 			}
 		]

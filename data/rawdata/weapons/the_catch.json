@@ -14,6 +14,8 @@
 	"desc_hash": 1942599173,
 	"name": "\"The Catch\"",
 	"desc": "In the distant past, this was the beloved spear of a famed Inazuman bandit.",
+	"icon": "UI_EquipIcon_Pole_Mori",
+	"icon_awaken": "UI_EquipIcon_Pole_Mori_Awaken",
 	"rarity": 4,
 	"base_stats": {
 		"Base ATK": 42.4010009765625,
@@ -143,31 +145,31 @@
 			{
 				"affix_id": 1134150,
 				"desc_hash": 1255493729,
-				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>16%</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>6%</color>.",
+				"desc": "Increases Elemental Burst DMG by 16% and Elemental Burst CRIT Rate by 6%.",
 				"cost": 0
 			},
 			{
 				"affix_id": 1134151,
 				"desc_hash": 66627713,
-				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>20%</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>7.5%</color>.",
+				"desc": "Increases Elemental Burst DMG by 20% and Elemental Burst CRIT Rate by 7.5%.",
 				"cost": 1000
 			},
 			{
 				"affix_id": 1134152,
 				"desc_hash": 2163892497,
-				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>24%</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>9%</color>.",
+				"desc": "Increases Elemental Burst DMG by 24% and Elemental Burst CRIT Rate by 9%.",
 				"cost": 2000
 			},
 			{
 				"affix_id": 1134153,
 				"desc_hash": 76648377,
-				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>28%</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>10.5%</color>.",
+				"desc": "Increases Elemental Burst DMG by 28% and Elemental Burst CRIT Rate by 10.5%.",
 				"cost": 4000
 			},
 			{
 				"affix_id": 1134154,
 				"desc_hash": 3574278937,
-				"desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>32%</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>12%</color>.",
+				"desc": "Increases Elemental Burst DMG by 32% and Elemental Burst CRIT Rate by 12%.",
 				"cost": 8000
 			}
 		]

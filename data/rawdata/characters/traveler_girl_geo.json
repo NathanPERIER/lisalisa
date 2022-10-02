@@ -8,6 +8,7 @@
 	"desc_hash": 4261991457,
 	"name": "Geo Traveler",
 	"desc": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+	"icon": "UI_AvatarIcon_PlayerGirl",
 	"rarity": 5,
 	"special": false,
 	"body": "BODY_GIRL",
@@ -23,6 +24,8 @@
 	"astrolabe": "Viatrix",
 	"allegiance": "-",
 	"default_weapon": "dull_blade",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 911.791015625,
 		"Base ATK": 17.808000564575195,
@@ -144,9 +147,10 @@
 		"normal_attack": {
 			"name_hash": 1063935965,
 			"desc_hash": 2733637224,
-			"charge_num": 1,
 			"name": "Normal Attack: Foreign Rockblade",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"desc": "Normal Attack\nPerform up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"icon": "Skill_A_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -383,9 +387,10 @@
 		"elemental_skill": {
 			"name_hash": 65936957,
 			"desc_hash": 3553092136,
-			"charge_num": 1,
 			"name": "Starfell Sword",
-			"desc": "You disgorge a meteorite from the depths of the earth, dealing <color=#FFE699FF>AoE Geo DMG</color>.\\nThe meteorite is considered a <color=#FFE699FF>Geo Construct</color>, and can be climbed or used to block attacks.\\n\\n<color=#FFD780FF>Hold</color>\\nThis skill's positioning may be adjusted.\\n\\n<i>You spoke with Paimon about the final destination of falling stars.</i>",
+			"desc": "You disgorge a meteorite from the depths of the earth, dealing AoE Geo DMG.\nThe meteorite is considered a Geo Construct, and can be climbed or used to block attacks.\n\nHold\nThis skill's positioning may be adjusted.\n\n<i>You spoke with Paimon about the final destination of falling stars.</i>",
+			"icon": "Skill_S_PlayerRock_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_prosperity": 3,
@@ -526,9 +531,10 @@
 		"elemental_burst": {
 			"name_hash": 1608625765,
 			"desc_hash": 3588021304,
-			"charge_num": 1,
 			"name": "Wake of Earth",
-			"desc": "Energizing the Geo deep underground, you set off expanding shockwaves.\\nLaunches surrounding opponents back and deals <color=#FFE699FF>AoE Geo DMG</color>.\\nA stone wall is erected at the edges of the shockwave.\\nThe stone wall is considered a <color=#FFE699FF>Geo Construct</color>, and may be used to block attacks.\\n\\n<i>You and Paimon studied the pulse of the mountains.</i>",
+			"desc": "Energizing the Geo deep underground, you set off expanding shockwaves.\nLaunches surrounding opponents back and deals AoE Geo DMG.\nA stone wall is erected at the edges of the shockwave.\nThe stone wall is considered a Geo Construct, and may be used to block attacks.\n\n<i>You and Paimon studied the pulse of the mountains.</i>",
+			"icon": "Skill_E_PlayerRock_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_prosperity": 3,
@@ -688,54 +694,62 @@
 		{
 			"name_hash": 2245308365,
 			"desc_hash": 145351123,
-			"ascension": 1,
 			"name": "Shattered Darkrock",
-			"desc": "Reduces <color=#FFD780FF>Starfell Sword</color>'s CD by 2s."
+			"desc": "Reduces Starfell Sword's CD by 2s.",
+			"icon": "UI_Talent_S_PlayerRock_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 1198534341,
 			"desc_hash": 179743619,
-			"ascension": 4,
 			"name": "Frenzied Rockslide",
-			"desc": "The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as <color=#FFE699FF>AoE Geo DMG</color>."
+			"desc": "The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as AoE Geo DMG.",
+			"icon": "UI_Talent_S_PlayerRock_06",
+			"ascension": 4
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 3120087313,
-			"name": "Invincible Stonewall",
 			"desc_hash": 3266302015,
-			"desc": "Party members within the radius of <color=#FFD780FF>Wake of Earth</color> have their CRIT Rate increased by 10% and have increased resistance against interruption."
+			"name": "Invincible Stonewall",
+			"desc": "Party members within the radius of Wake of Earth have their CRIT Rate increased by 10% and have increased resistance against interruption.",
+			"icon": "UI_Talent_S_PlayerRock_01"
 		},
 		{
 			"name_hash": 1377520009,
-			"name": "Rockcore Meltdown",
 			"desc_hash": 80364831,
-			"desc": "When the meteorite created by <color=#FFD780FF>Starfell Sword</color> is destroyed, it will also explode, dealing additional <color=#FFE699FF>AoE Geo DMG</color> equal to the amount of damage dealt by Starfell Sword."
+			"name": "Rockcore Meltdown",
+			"desc": "When the meteorite created by Starfell Sword is destroyed, it will also explode, dealing additional AoE Geo DMG equal to the amount of damage dealt by Starfell Sword.",
+			"icon": "UI_Talent_S_PlayerRock_02"
 		},
 		{
 			"name_hash": 622533617,
-			"name": "Will of the Rock",
 			"desc_hash": 4258516863,
-			"desc": "Increases the Level of <color=#FFD780FF>Wake of Earth</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Will of the Rock",
+			"desc": "Increases the Level of Wake of Earth by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_PlayerRock_02"
 		},
 		{
 			"name_hash": 161259209,
-			"name": "Reaction Force",
 			"desc_hash": 21981831,
-			"desc": "The shockwave triggered by <color=#FFD780FF>Wake of Earth</color> regenerates 5 Energy for every opponent hit.\\nA maximum of 25 Energy can be regenerated in this manner at any one time."
+			"name": "Reaction Force",
+			"desc": "The shockwave triggered by Wake of Earth regenerates 5 Energy for every opponent hit.\nA maximum of 25 Energy can be regenerated in this manner at any one time.",
+			"icon": "UI_Talent_S_PlayerRock_03"
 		},
 		{
 			"name_hash": 4177873769,
-			"name": "Meteorite Impact",
 			"desc_hash": 1928504199,
-			"desc": "Increases the Level of <color=#FFD780FF>Starfell Sword</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Meteorite Impact",
+			"desc": "Increases the Level of Starfell Sword by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_PlayerRock_01"
 		},
 		{
 			"name_hash": 4065853553,
-			"name": "Everlasting Boulder",
 			"desc_hash": 3925312399,
-			"desc": "The barrier created by <color=#FFD780FF>Wake of Earth</color> lasts 5s longer.\\nThe meteorite created by <color=#FFD780FF>Starfell Sword</color> lasts 10s longer."
+			"name": "Everlasting Boulder",
+			"desc": "The barrier created by Wake of Earth lasts 5s longer.\nThe meteorite created by Starfell Sword lasts 10s longer.",
+			"icon": "UI_Talent_S_PlayerRock_04"
 		}
 	],
 	"skins": {
@@ -743,11 +757,12 @@
 			"hoyo_id": null,
 			"name_hash": 3561662730,
 			"desc_hash": 2020994066,
-			"restricted": false,
 			"name": "Rising Star",
-			"desc": "The Traveler's outfit. A practical set of clothing to wear during a long journey."
+			"desc": "The Traveler's outfit. A practical set of clothing to wear during a long journey.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": []
+		"alt": {}
 	},
 	"special_dish": null
 }

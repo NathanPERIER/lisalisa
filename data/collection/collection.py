@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+import sys
+import config
+
+config.processArgs(sys.argv)
+
 from utils import saveJson
 from constants import DEST_DIR
 from characters import readCharacters, getCharacterCurves
@@ -14,12 +19,11 @@ from exp.offerings      import readOfferingsExp
 from exp.weapon         import readWeaponExp
 from items.gliders import readGliders
 from items.recipes import readRecipes
-from items import getAutoTranslated
+from items import getAutoTranslated, readAllItems
+from common.images import getImageStore
+from common.text import getAutoColours
 
 import os
-import logging
-
-logging.basicConfig(level=logging.INFO, format="(%(name)s) [%(levelname)s] %(message)s", datefmt='%d/%m/%Y %H:%M:%S')
 
 
 def main() :
@@ -80,14 +84,26 @@ def main() :
 	for char_id, char in characters.items() :
 		dest_file = os.path.join(DEST_DIR, f"characters/{char_id}.json")
 		saveJson(char, dest_file)
+
+	items_full = readAllItems()
+	dest_file = os.path.join(DEST_DIR, 'items/full.json')
+	saveJson(items_full, dest_file)
 	
 	char_curves = getCharacterCurves()
 	dest_file = os.path.join(DEST_DIR, 'curves/characters.json')
 	saveJson(char_curves, dest_file)
 
+	image_store = getImageStore()
+	dest_file = os.path.join(DEST_DIR, 'images.json')
+	saveJson(image_store, dest_file)
+
 	items_auto = getAutoTranslated()
 	dest_file = os.path.join(DEST_DIR, 'items/auto.json')
 	saveJson(items_auto, dest_file)
+
+	colours_auto = getAutoColours()
+	dest_file = os.path.join(DEST_DIR, 'colours.json')
+	saveJson(colours_auto, dest_file)
 
 
 if __name__ == '__main__' :

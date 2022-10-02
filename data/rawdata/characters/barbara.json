@@ -8,6 +8,7 @@
 	"desc_hash": 1566920073,
 	"name": "Barbara",
 	"desc": "Every citizen of Mondstadt adores Barbara. She learned the word \"idol\" from a magazine.",
+	"icon": "UI_AvatarIcon_Barbara",
 	"rarity": 4,
 	"special": false,
 	"body": "BODY_GIRL",
@@ -29,6 +30,8 @@
 	"astrolabe": "Crater",
 	"allegiance": "Church of Favonius",
 	"default_weapon": "apprentices_notes",
+	"increase_skill": 5,
+	"increase_burst": 3,
 	"base_stats": {
 		"Base HP": 820.6118774414062,
 		"Base ATK": 13.355999946594238,
@@ -155,9 +158,10 @@
 		"normal_attack": {
 			"name_hash": 1555695317,
 			"desc_hash": 3743135664,
-			"charge_num": 1,
 			"name": "Normal Attack: Whisper of Water",
-			"desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 water splash attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+			"desc": "Normal Attack\nPerform up to 4 water splash attacks that deal Hydro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\n\nPlunging Attack\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.",
+			"icon": "Skill_A_Catalyst_MD",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -378,9 +382,10 @@
 		"elemental_skill": {
 			"name_hash": 645814357,
 			"desc_hash": 403491544,
-			"charge_num": 1,
 			"name": "Let the Show Begin\u266a",
-			"desc": "Summons water droplets resembling musical notes that form a Melody Loop, dealing <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents and applying the <color=#80C0FFFF>Wet</color> status to them.\\n\\n<color=#FFD780FF>Melody Loop</color>\\n\u00b7On hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.\\n\u00b7On hit, Barbara's Charged Attack generates 4 times the amount of healing.\\n\u00b7Periodically regenerates your own active character's HP.\\n\u00b7Applies the <color=#80C0FFFF>Wet</color> status to the character and to opponents who come in contact with them.\\n\\n<i>Barbara's music is the magic that heals her companions.</i>",
+			"desc": "Summons water droplets resembling musical notes that form a Melody Loop, dealing Hydro DMG to surrounding opponents and applying the Wet status to them.\n\nMelody Loop\n\u00b7On hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.\n\u00b7On hit, Barbara's Charged Attack generates 4 times the amount of healing.\n\u00b7Periodically regenerates your own active character's HP.\n\u00b7Applies the Wet status to the character and to opponents who come in contact with them.\n\n<i>Barbara's music is the magic that heals her companions.</i>",
+			"icon": "Skill_S_Barbara_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -553,9 +558,10 @@
 		"elemental_burst": {
 			"name_hash": 3238780589,
 			"desc_hash": 3483681304,
-			"charge_num": 1,
 			"name": "Shining Miracle\u266a",
-			"desc": "Heals your own party members and nearby teammates for a large amount of HP that scales with Barbara's Max HP.\\n\\n<i>Barbara's desire to heal strengthens her will to fight and sing.</i>",
+			"desc": "Heals your own party members and nearby teammates for a large amount of HP that scales with Barbara's Max HP.\n\n<i>Barbara's desire to heal strengthens her will to fight and sing.</i>",
+			"icon": "Skill_E_Barbara_01",
+			"charge_num": 1,
 			"costs": [
 				{
 					"teachings_of_freedom": 3,
@@ -699,61 +705,70 @@
 		{
 			"name_hash": 2589212997,
 			"desc_hash": 4114751091,
-			"ascension": 1,
 			"name": "Glorious Season",
-			"desc": "The Stamina Consumption of characters within <color=#FFD780FF>Let the Show Begin\u266a</color>'s Melody Loop is reduced by 12%."
+			"desc": "The Stamina Consumption of characters within Let the Show Begin\u266a's Melody Loop is reduced by 12%.",
+			"icon": "UI_Talent_S_Barbara_05",
+			"ascension": 1
 		},
 		{
 			"name_hash": 868478693,
 			"desc_hash": 3220600547,
-			"ascension": 4,
 			"name": "Encore",
-			"desc": "When your active character gains an Elemental Orb/Particle, the duration of the Melody Loop of <color=#FFD780FF>Let the Show Begin\u266a</color> is extended by 1s.\\nThe maximum extension is 5s."
+			"desc": "When your active character gains an Elemental Orb/Particle, the duration of the Melody Loop of Let the Show Begin\u266a is extended by 1s.\nThe maximum extension is 5s.",
+			"icon": "UI_Talent_S_Barbara_06",
+			"ascension": 4
 		},
 		{
 			"name_hash": 3475904157,
 			"desc_hash": 1532071283,
-			"ascension": null,
 			"name": "With My Whole Heart\u266a",
-			"desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+			"desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
+			"icon": "UI_Talent_Cook_Heal",
+			"ascension": null
 		}
 	],
 	"constellations": [
 		{
 			"name_hash": 696499609,
-			"name": "Gleeful Songs",
 			"desc_hash": 1541078791,
-			"desc": "Barbara regenerates 1 Energy every 10s."
+			"name": "Gleeful Songs",
+			"desc": "Barbara regenerates 1 Energy every 10s.",
+			"icon": "UI_Talent_S_Barbara_01"
 		},
 		{
 			"name_hash": 3458095841,
-			"name": "Vitality Burst",
 			"desc_hash": 3401415943,
-			"desc": "Decreases the CD of <color=#FFD780FF>Let the Show Begin\u266a</color> by 15%.\\nDuring the ability's duration, your active character gains a 15% <color=#80C0FFFF>Hydro DMG Bonus</color>."
+			"name": "Vitality Burst",
+			"desc": "Decreases the CD of Let the Show Begin\u266a by 15%.\nDuring the ability's duration, your active character gains a 15% Hydro DMG Bonus.",
+			"icon": "UI_Talent_S_Barbara_02"
 		},
 		{
 			"name_hash": 929991257,
-			"name": "Star of Tomorrow",
 			"desc_hash": 3525415831,
-			"desc": "Increases the Level of <color=#FFD780FF>Shining Miracle\u266a</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "Star of Tomorrow",
+			"desc": "Increases the Level of Shining Miracle\u266a by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Barbara_02"
 		},
 		{
 			"name_hash": 2093148473,
-			"name": "Attentiveness be My Power",
 			"desc_hash": 1120190279,
-			"desc": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.\\nA maximum of 5 energy can be regenerated in this manner with any one Charged Attack."
+			"name": "Attentiveness be My Power",
+			"desc": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.\nA maximum of 5 energy can be regenerated in this manner with any one Charged Attack.",
+			"icon": "UI_Talent_S_Barbara_03"
 		},
 		{
 			"name_hash": 3139814905,
-			"name": "The Purest Companionship",
 			"desc_hash": 1422637159,
-			"desc": "Increases the Level of <color=#FFD780FF>Let the Show Begin\u266a</color> by 3.\\nMaximum upgrade level is 15."
+			"name": "The Purest Companionship",
+			"desc": "Increases the Level of Let the Show Begin\u266a by 3.\nMaximum upgrade level is 15.",
+			"icon": "UI_Talent_U_Barbara_01"
 		},
 		{
 			"name_hash": 2183173281,
-			"name": "Dedicating Everything to You",
 			"desc_hash": 3744328127,
-			"desc": "When Barbara is in the party but not on the field, and one of your own party members falls:\\n\u00b7Automatically revives the fallen character.\\n\u00b7Fully restores the revived character's HP to 100%.\\nThis effect can only occur once every 15 mins."
+			"name": "Dedicating Everything to You",
+			"desc": "When Barbara is in the party but not on the field, and one of your own party members falls:\n\u00b7Automatically revives the fallen character.\n\u00b7Fully restores the revived character's HP to 100%.\nThis effect can only occur once every 15 mins.",
+			"icon": "UI_Talent_S_Barbara_04"
 		}
 	],
 	"skins": {
@@ -761,33 +776,33 @@
 			"hoyo_id": null,
 			"name_hash": 2895548298,
 			"desc_hash": 3092975850,
-			"restricted": false,
 			"name": "Innocent Longing",
-			"desc": "Barbara's outfit. A Deaconess's uniform from the Church of Favonius with a unique Barbara streak running through it."
+			"desc": "Barbara's outfit. A Deaconess's uniform from the Church of Favonius with a unique Barbara streak running through it.",
+			"icon": "",
+			"restricted": false
 		},
-		"alt": [
-			{
+		"alt": {
+			"summertime_sparkle": {
 				"hoyo_id": 340000,
 				"name_hash": 4121525482,
 				"desc_hash": 2644173682,
-				"restricted": false,
 				"name": "Summertime Sparkle",
-				"desc": "Barbara's beach attire. This pretty skirt brims with summer vitality and carries with it a cool ocean breeze."
+				"desc": "Barbara's beach attire. This pretty skirt brims with summer vitality and carries with it a cool ocean breeze.",
+				"icon": "UI_AvatarIcon_BarbaraCostumeSummertime",
+				"restricted": false
 			}
-		]
+		}
 	},
 	"special_dish": {
+		"original_recipe": "cream_stew",
 		"hoyo_id": 108040,
 		"name_hash": 333709212,
 		"desc_hash": 1307830461,
 		"type_hash": 4038101870,
-		"rarity": 2,
 		"name": "Spicy Stew",
 		"desc": "Barbara's specialty. Carrots cut into cute little stars make this dish... Wait, AHH, where did this spiciness come from!?",
-		"type": "Food",
-		"count": 1,
-		"effect_hash": 3351025639,
-		"effect": "Decreases all party members' sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s).",
-		"original_recipe": "cream_stew"
+		"type": "ITEM_MATERIAL",
+		"type_desc": "Food",
+		"rarity": 2
 	}
 }
