@@ -34,12 +34,11 @@ def readTravelerSkills(char: Character) -> "dict[str,Character]" :
 
 
 def __g_readTravelerSkillEntry(char: Character, depot_id: int) -> "tuple[str,Character]" :
-	depot_search = [x for x in skill_depot if x['id'] == depot_id]
-	if len(depot_search) != 1 :
-		logger.error('No skills found in skill depot with for %s (%d) with id %d', 
+	if depot_id not in skill_depot :
+		logger.error('No skills found in skill depot for %s (%d) with id %d', 
 						char.name, char.hoyo_id, depot_id)
 		return None
-	depot = depot_search[0]
+	depot = skill_depot[depot_id]
 	# If the version of the traveler has not been implemented yet, we skip this entry
 	ability_group = depot['skillDepotAbilityGroup']
 	if ability_group == '' :

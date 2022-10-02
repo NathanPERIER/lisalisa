@@ -1,5 +1,5 @@
 
-from utils import loadJson
+from utils import loadJson, indexById, groupByField
 from constants import CHAR_SKILL_DEPOT_JSON, CHAR_SKILLS_JSON, CHAR_TALENTS_JSON, CHAR_PROUD_SKILL_JSON
 from characters.dataobj import CharConstellation, CharPassive, CharTalentStats, CharTalent, Character
 from common.ascensions import formatCosts
@@ -13,20 +13,16 @@ params_reg = re.compile(r'\{param(\d+):([A-Z0-9]+)\}')
 
 logger = logging.getLogger(__name__)
 
-skill_depot = loadJson(CHAR_SKILL_DEPOT_JSON)
-skills = loadJson(CHAR_SKILLS_JSON)
+skill_depot = indexById(loadJson(CHAR_SKILL_DEPOT_JSON))
+skills = indexById(loadJson(CHAR_SKILLS_JSON))
 talents = loadJson(CHAR_TALENTS_JSON)
-proud_skills = loadJson(CHAR_PROUD_SKILL_JSON)
+proud_skills = groupByField(loadJson(CHAR_PROUD_SKILL_JSON), 'proudSkillGroupId')
 
 
 def readSkillsConstellations(char: Character) :
     logger.debug("Reading skills and constellations for %s (%s)", char.hoyo_id, char.name)
     # Search for the entry corresponding to the character in the skill depot
-    depot_search = [x for x in skill_depot if x['id'] == char.skill_depot_id]
-    if len(depot_search) != 1 :
-        logger.error('No skills found for %s (%d)', char.name, char.hoyo_id)
-        return
-    depot = depot_search[0]
+    depot = skill_depot[char.skill_depot_id]
     # Talents 
     char.talents.normal_attack   = readSkill(depot['skills'][0])
     char.talents.elemental_skill = readSkill(depot['skills'][1])
@@ -69,10 +65,9 @@ def __g_readConstellations(const_ids: "list[int]") -> "list[CharConstellation]" 
 # Read a passive from the object that stores all the skills
 # Note : skill is the generic term for passive + talent
 def __g_readSimpleSkill(psg_id: int, ascension: int = None) :
-    skill_search = [psk for psk in proud_skills if psk['proudSkillGroupId'] == psg_id]
-    if len(skill_search) != 1 :
-        logger.error('No skill found with group id %d', psg_id)
-        return None
+    skill_search = proud_skills[psg_id]
+    if len(skill_search) > 1 :
+        logger.warning('Multiple skills found with group id %d (expected one)', psg_id)
     skill = skill_search[0]
     res = CharPassive()
     res.name_hash = skill['nameTextMapHash']
@@ -88,11 +83,7 @@ def __g_readSimpleSkill(psg_id: int, ascension: int = None) :
 
 # Read a talent from the object that stores all the skills
 def readSkill(skill_id: int, is_sprint = False) -> CharTalent :
-    skill_search = [x for x in skills if x['id'] == skill_id]
-    if len(skill_search) != 1 :
-        logger.error('No skill found with id %d', skill_id)
-        return None
-    skill = skill_search[0]
+    skill = skills[skill_id]
     # triggerID ?
     res = CharTalent()
     res.name_hash = skill['nameTextMapHash']
@@ -112,7 +103,7 @@ def readSkill(skill_id: int, is_sprint = False) -> CharTalent :
 
 # Reads the entries of a proud skill group to get the stats + ascension costs of a talent at each level
 def __g_readProudSkillGroup(psg_id: int, expected_num: int) -> "tuple[list[dict[str,int]],CharTalentStats]" :
-    group = [psk for psk in proud_skills if psk['proudSkillGroupId'] == psg_id]
+    group = proud_skills[psg_id]
     group.sort(key = lambda psk: psk['level'])
     if len(group) != expected_num :
         logger.warning('Expected %d proud skills in group %d, found %d', expected_num, psg_id, len(group))
@@ -196,6 +187,7 @@ def __g_formatValue(val: float, type: str) -> str :
     if type.endswith('P') :
         res = f"{res}%"
     return res
+
 
 # Computes which constellation give talent levels
 def __g_readTalentBonuses(char: Character) :
