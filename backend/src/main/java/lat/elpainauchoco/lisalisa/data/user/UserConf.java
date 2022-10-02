@@ -1,7 +1,7 @@
-package lat.elpainauchoco.lisalisa.userdata;
+package lat.elpainauchoco.lisalisa.data.user;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
+import lat.elpainauchoco.lisalisa.data.game.GameDataService;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -16,7 +16,7 @@ public class UserConf {
     private String name;
     private String desc;
     private String profile;
-    private String namecard;
+    // private String namecard;
     @JsonProperty("adventure_rank")
     private int adventureRank;
     @JsonProperty("world_level")
@@ -32,7 +32,7 @@ public class UserConf {
         name = n;
         desc = "";
         profile = "traveler_" + tt.toString().toLowerCase() + "_anemo";
-        namecard = "achievement_challenger"; // TODO
+        // namecard = "achievement_challenger";
         worldLevel = gdata.getMinWL();
         adventureRank = gdata.getMinAR(worldLevel);
         pity = new PityConf();

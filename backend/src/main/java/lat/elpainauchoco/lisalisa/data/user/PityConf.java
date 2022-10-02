@@ -1,4 +1,4 @@
-package lat.elpainauchoco.lisalisa.userdata;
+package lat.elpainauchoco.lisalisa.data.user;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -12,8 +12,8 @@ public class PityConf {
     private boolean guaranteed;
 
     public PityConf() {
-        perma = 0;
-        tempo = 0;
+        perma = 0;  // 0 - 89
+        tempo = 0;  // 0 - 89
         guaranteed = false;
     }
 

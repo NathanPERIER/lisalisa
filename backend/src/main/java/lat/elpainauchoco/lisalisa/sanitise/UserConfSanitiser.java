@@ -1,22 +1,29 @@
 package lat.elpainauchoco.lisalisa.sanitise;
 
 import lat.elpainauchoco.lisalisa.exceptions.UserConfigException;
-import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
-import lat.elpainauchoco.lisalisa.userdata.CharacterConf;
-import lat.elpainauchoco.lisalisa.userdata.UserConf;
+import lat.elpainauchoco.lisalisa.data.game.GameDataService;
+import lat.elpainauchoco.lisalisa.data.user.CharacterConf;
+import lat.elpainauchoco.lisalisa.data.user.PityConf;
+import lat.elpainauchoco.lisalisa.data.user.UserConf;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
+@Component
 public class UserConfSanitiser {
 
-    private final Pattern USER_ID_REG = Pattern.compile("[1-9][0-9]{8}");
-    private final Pattern USER_NAME_REG = Pattern.compile("[^\\n\\t\\r]+");
+    private static final Pattern USER_ID_REG = Pattern.compile("[1-9][0-9]{8}");
+    private static final Pattern USER_NAME_REG = Pattern.compile("[^\\n\\t\\r]+");
 
     private final GameDataService gservice;
 
+    @Autowired
     public UserConfSanitiser(final GameDataService gs) {
-         gservice = gs;
+        gservice = gs;
     }
 
     public void sanitiseUser(final UserConf user) {
@@ -26,8 +33,7 @@ public class UserConfSanitiser {
         sanitiseWorldLevel(user.getWorldLevel());
         sanitiseAdventureRank(user.getAdventureRank(), user.getWorldLevel());
         sanitiseProfileCharacter(user.getProfile(), user.getCharacters());
-        // TODO namecard
-        // TODO pity
+        sanitisePity(user.getPity());
         // TODO limit
         sanitiseCharacters(user);
     }
@@ -62,79 +68,45 @@ public class UserConfSanitiser {
         }
     }
 
+    protected void sanitisePity(final PityConf pity) {
+        if(pity == null) {
+            throw new UserConfigException("Pity configuration cannot be null");
+        }
+        if(pity.getPerma() < gservice.getMinPity() || pity.getPerma() > gservice.getMaxPity()) {
+            throw new UserConfigException("Invalid pity value " + pity.getPerma() + " on the permanent banner");
+        }
+        if(pity.getTempo() < gservice.getMinPity() || pity.getTempo() > gservice.getMaxPity()) {
+            throw new UserConfigException("Invalid pity value " + pity.getTempo() + " on the temporary banner");
+        }
+    }
+
     protected void sanitiseCharacters(final UserConf user) {
         if(user.getCharacters() == null) {
             throw new UserConfigException("Character configuration cannot be null");
         }
-        if(user.getCharacters().size() == 0) { // TODO at least one traveler, cannot mix boys and girls
+        if(user.getCharacters().size() == 0) {
             throw new UserConfigException("User has to have at least one character");
         }
-        for(Map.Entry<String, CharacterConf> e : user.getCharacters().entrySet()) {
-            sanitiseCharacter(e.getKey(), e.getValue(), user);
+        List<CharacterConfSanitiser> charSanitisers = user.getCharacters().keySet().stream()
+                .map(char_id -> new CharacterConfSanitiser(gservice, char_id, user))
+                .collect(Collectors.toList());
+        // If this passes, then all the IDs are correct
+        // We then need to check that there is at least one traveler
+        List<String> traveler_ids = user.getCharacters().keySet().stream()
+                .filter(char_id -> char_id.startsWith("traveler"))
+                .collect(Collectors.toList());
+        if(traveler_ids.isEmpty()) {
+            throw new UserConfigException("User has to have at least one traveler");
         }
+        // We also need to check that there is no girl/boy mix
+        final long nb_boys = traveler_ids.stream().filter(user_id -> user_id.startsWith("traveler_boy_")).count();
+        if(nb_boys != 0) {
+            final long nb_girls = traveler_ids.stream().filter(user_id -> user_id.startsWith("traveler_girl_")).count();
+            if(nb_girls != 0) {
+                throw new UserConfigException("User cannot have both boy travelers and girl travelers");
+            }
+        }
+        charSanitisers.forEach(CharacterConfSanitiser::sanitise);
     }
-
-    protected void sanitiseCharacter(final String char_id, final CharacterConf character, final UserConf user) {
-        // TODO check that character exists in the gservice
-        if(character == null) {
-            throw new UserConfigException("Configuration for character " + char_id + " cannot be null");
-        }
-        sanitiseCharacterAscension(char_id, character.getAscension(), user.getAdventureRank());
-        sanitiseCharacterLevel(char_id, character.getLevel(), character.getAscension());
-        sanitiseCharacterConstellations(char_id, character.getConstellations());
-        sanitiseCharacterTalent(char_id, character.getNormalAttack(), "normal attack", character.getConstellations());
-        sanitiseCharacterTalent(char_id, character.getElementalSkill(), "elemental skill", character.getConstellations());
-        sanitiseCharacterTalent(char_id, character.getElementalBurst(), "elemental burst", character.getConstellations());
-        // TODO weapon
-        // TODO artifacts
-        // TODO glider
-        // TODO skin
-        // TODO limit
-    }
-
-    public void sanitiseCharacterAscension(final String char_id, final int ascension, final int ar) {
-        if(ascension < gservice.getMinAscension()) {
-            throw new UserConfigException("Invalid character ascension " + ascension
-                    + " for character " + char_id
-            );
-        }
-        if(ascension > gservice.getMaxAscension(ar)) {
-            throw new UserConfigException("Invalid character ascension " + ascension
-                    + " at adventure rank " + ar
-                    + " for character " + char_id
-            );
-        }
-    }
-
-    public void sanitiseCharacterLevel(final String char_id, final int level, final int ascension) {
-        if(level < gservice.getMinLevel(ascension) || level > gservice.getMaxLevel(ascension)) {
-            throw new UserConfigException("Invalid character level " + level
-                    + " at ascension " + ascension
-                    + " for character " + char_id
-            );
-        }
-    }
-
-    public void sanitiseCharacterConstellations(final String char_id, final int constellations) {
-        if(constellations < gservice.getMaxConstellations() || constellations > gservice.getMaxConstellations()) {
-            throw new UserConfigException("Invalid number of constellations for character " + char_id);
-        }
-    }
-
-    public void sanitiseCharacterTalent(final String char_id, final int talentLevel, final String talentType,
-                                        final int ascension) {
-        if(talentLevel < gservice.getMinTalent()) {
-            throw new UserConfigException("Invalid " + talentType + " level " + talentLevel
-                    + " for character " + char_id
-            );
-        }
-        if(talentLevel > gservice.getMaxTalent(ascension)) {
-            throw new UserConfigException("Invalid " + talentType + " level " + talentLevel
-                    + " at ascension " + ascension
-                    + " for character " + char_id
-            );
-        }
-    }
-
 
 }

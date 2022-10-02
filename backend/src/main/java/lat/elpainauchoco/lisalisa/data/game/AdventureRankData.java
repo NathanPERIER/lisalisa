@@ -1,4 +1,4 @@
-package lat.elpainauchoco.lisalisa.gamedata;
+package lat.elpainauchoco.lisalisa.data.game;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;

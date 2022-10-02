@@ -1,4 +1,4 @@
-package lat.elpainauchoco.lisalisa.gamedata;
+package lat.elpainauchoco.lisalisa.data.game;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -19,9 +19,12 @@ public class GameDataService {
 
     private static final Logger logger = LogManager.getLogger(GameDataService.class);
 
+    public static final String DEFAULT_CHARACTER_SKIN = "default";
+
     private final AscensionLevelData[] ascensions;
     private final int[][] world_levels;
     private final List<AdventureRankData> adventure_ranks;
+    private final Map<String, CharacterData> characters;
 
     @Getter
     private final int minWL;
@@ -38,10 +41,18 @@ public class GameDataService {
     @Getter
     private final int minRefinement;
     @Getter
-    private final int maxRefinement; // TODO move to `WeaponData`
+    private final int minPity;
+    @Getter
+    private final int maxPity;
+    @Getter
+    private final int minArtLevel;
+    @Getter
+    private final int artifactBasis;
 
 
     public GameDataService() {
+        // associative array of all the possible characters
+        characters = readFromJar("/genshin/characters.json", new TypeReference<>() { });
         // array where the index is the ascension (character or weapon)
         ascensions = readFromJar("/genshin/ascension.json", new TypeReference<>() { });
         // array where the index is the world level, and the values are arrays of two integers (min and max ascension for this wl)
@@ -56,17 +67,27 @@ public class GameDataService {
         minConstellations = constants.get("constellations.num.min");
         maxConstellations = constants.get("constellations.num.max");
         minRefinement = constants.get("refinement.level.min");
-        maxRefinement = constants.get("refinement.level.max");
+        minPity = constants.get("banner.pity.min");
+        maxPity = constants.get("banner.pity.max");
+        minArtLevel = constants.get("artifact.level.min");
+        artifactBasis = constants.get("artifact.upgrade.basis");
     }
 
     public int getMinAR(int world_level) {
         return world_levels[world_level][0];
     }
 
+    /** Retrieves the maximum adventure rank at a certain world level */
     public int getMaxAR(int world_level) {
         return world_levels[world_level][1];
     }
 
+    /** Retrieves the maximum adventure rank achievable */
+    public int getMaxAR() {
+        return getMaxAR(getMaxWL());
+    }
+
+    /** Retrieves the maximum ascension level at a certain adventure rank */
     public int getMaxAscension(int adventure_rank) {
         for(AdventureRankData ard : adventure_ranks) {
             if(ard.inRange(adventure_rank)) {
@@ -74,6 +95,11 @@ public class GameDataService {
             }
         }
         throw new UserConfigException("Bad adventure rank : " + adventure_rank);
+    }
+
+    /** Retrieves the maximum ascension level achievable */
+    public int getMaxAscension() {
+        return getMaxAscension(getMaxAR());
     }
 
     public int getMinLevel(int ascension) {
@@ -88,9 +114,14 @@ public class GameDataService {
         return ascensions[ascension].getMaxTalent();
     }
 
-    // public CharacterData getCharacter(String id) { // TODO
-    //
-    //}
+
+    public boolean hasCharacter(String id) {
+        return characters.containsKey(id);
+    }
+
+    public CharacterData getCharacter(String id) {
+        return characters.get(id);
+    }
 
 
 

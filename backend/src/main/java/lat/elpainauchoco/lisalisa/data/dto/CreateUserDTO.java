@@ -1,7 +1,7 @@
-package lat.elpainauchoco.lisalisa.dto;
+package lat.elpainauchoco.lisalisa.data.dto;
 
-import lat.elpainauchoco.lisalisa.gamedata.GameDataService;
-import lat.elpainauchoco.lisalisa.userdata.UserConf;
+import lat.elpainauchoco.lisalisa.data.game.GameDataService;
+import lat.elpainauchoco.lisalisa.data.user.UserConf;
 import lombok.Setter;
 
 @Setter
