@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+import sys
+import config
+
+config.processArgs(sys.argv)
+
 from utils import saveJson
 from constants import DEST_DIR
 from characters import readCharacters, getCharacterCurves
@@ -19,9 +24,6 @@ from common.images import getImageStore
 from common.text import getAutoColours
 
 import os
-import logging
-
-logging.basicConfig(level=logging.INFO, format="(%(name)s) [%(levelname)s] %(message)s", datefmt='%d/%m/%Y %H:%M:%S')
 
 
 def main() :
