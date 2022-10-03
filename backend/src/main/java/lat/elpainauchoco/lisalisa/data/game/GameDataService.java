@@ -26,6 +26,7 @@ public class GameDataService {
     private final List<AdventureRankData> adventure_ranks;
     private final Map<String, CharacterData> characters;
     private final Map<String, WeaponData> weapons;
+    private final Map<String, ArtifactSetData> artifactSets;
     private final List<ArtifactRarityData> artifactRarity;
     private final Map<String,List<String>> artifactMainStats;
 
@@ -46,8 +47,6 @@ public class GameDataService {
     @Getter
     private final int minRarity;
     @Getter
-    private final int maxRarity;
-    @Getter
     private final int minPity;
     @Getter
     private final int maxPity;
@@ -64,6 +63,8 @@ public class GameDataService {
         characters = readFromJar("/genshin/characters.json", new TypeReference<>() { });
         // associative array of all the possible weapons
         weapons = readFromJar("/genshin/weapons.json", new TypeReference<>() { });
+        // associative array of all the artifact sets
+        artifactSets = readFromJar("/genshin/artifacts.json", new TypeReference<>() { });
         // array where the index is the ascension (character or weapon)
         ascensions = readFromJar("/genshin/ascension.json", new TypeReference<>() { });
         // array where the index is the world level, and the values are arrays of two integers (min and max ascension for this wl)
@@ -86,7 +87,6 @@ public class GameDataService {
         maxConstellations = constants.get("constellations.num.max");
         minRefinement = constants.get("refinement.level.min");
         minRarity = constants.get("item.rarity.min");
-        maxRarity = constants.get("item.rarity.max");
         minPity = constants.get("banner.pity.min");
         maxPity = constants.get("banner.pity.max");
         minArtLevel = constants.get("artifact.level.min");
@@ -161,6 +161,13 @@ public class GameDataService {
         return artifactMainStats.get(piece);
     }
 
+    public boolean hasArtifactSet(final String setId) {
+        return artifactSets.containsKey(setId);
+    }
+
+    public ArtifactSetData getArtifactSet(final String setId) {
+        return artifactSets.get(setId);
+    }
 
 
     public static <T> T readFromJar(final String path, final TypeReference<T> type) {

@@ -5,7 +5,6 @@
 	"constellations.num.min": 0,
 	"constellations.num.max": 6,
 	"item.rarity.min": 1,
-	"item.rarity.max": 5,
 	"refinement.level.min": 1,
 	"artifact.level.min": 0,
 	"artifact.upgrade.basis": 4,
