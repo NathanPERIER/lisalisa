@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-abstract class AscensionLimits {
+public abstract class AscensionLimits {
 
     protected int level;     // 1-90
     protected int ascension; // 0-6
