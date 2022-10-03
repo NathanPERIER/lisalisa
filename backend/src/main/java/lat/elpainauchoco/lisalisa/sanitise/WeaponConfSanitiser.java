@@ -6,29 +6,38 @@ import lat.elpainauchoco.lisalisa.data.user.UserConf;
 import lat.elpainauchoco.lisalisa.data.user.WeaponAscensionLimit;
 import lat.elpainauchoco.lisalisa.data.user.WeaponConf;
 import lat.elpainauchoco.lisalisa.exceptions.UserConfigException;
-import lombok.Getter;
 
 public class WeaponConfSanitiser extends AscendableSanitiser {
 
-    private final String weapon_id;
-    private final WeaponConf weapon;
-    @Getter
     private final WeaponData data;
+    private final WeaponConf weapon;
+    private final String weaponType;
 
-    public WeaponConfSanitiser(final GameDataService gservice, final WeaponConf weapon, final UserConf user) {
-        super(gservice, user, "weapon", weapon.getId());
+    public WeaponConfSanitiser(final GameDataService gservice, final WeaponConf weapon, final String uid, final UserConf user, final String weaponType) {
+        super(gservice, user, "weapon", uid);
         this.weapon = weapon;
-        this.weapon_id = weapon.getId();
-        if(!gservice.hasWeapon(weapon_id)) {
-            throw new UserConfigException("Weapon " + weapon_id + " does not exist");
+        final String weaponId = weapon.getId();
+        if(!gservice.hasWeapon(weaponId)) {
+            throw new UserConfigException("Weapon " + weaponId + " does not exist");
         }
-        this.data = gservice.getWeapon(weapon_id);
+        this.data = gservice.getWeapon(weaponId);
+        this.weaponType = weaponType;
     }
 
     public void sanitise() {
+        sanitiseType(data.getType());
         sanitiseAscendable(weapon);
         sanitiseWeaponRefinement(weapon.getRefinement());
         sanitiseWeaponLimits(weapon.getLimit());
+    }
+
+    protected void sanitiseType(String type) {
+        if(weaponType != null && !weaponType.equals(type)) {
+            throw new UserConfigException("Invalid weapon type " + type
+                    + " for weapon " + ascUID
+                    + "(expected " + weaponType + ")"
+            );
+        }
     }
 
     @Override
@@ -36,22 +45,22 @@ public class WeaponConfSanitiser extends AscendableSanitiser {
         super.sanitiseAscension(ascension, ar);
         if(ascension > data.getMaxAscension()) {
             throw new UserConfigException("Invalid weapon ascension " + ascension
-                    + " for weapon " + weapon_id
+                    + " for weapon " + ascUID
             );
         }
     }
 
-    public void sanitiseWeaponRefinement(final int refinement) {
+    protected void sanitiseWeaponRefinement(final int refinement) {
         if(refinement < gservice.getMinRefinement() || refinement > data.getMaxRefinement()) {
-            throw new UserConfigException("Invalid refinement value for weapon " + weapon_id);
+            throw new UserConfigException("Invalid refinement value for weapon " + ascUID);
         }
     }
 
-    public void sanitiseWeaponLimits(final WeaponAscensionLimit limits) {
+    protected void sanitiseWeaponLimits(final WeaponAscensionLimit limits) {
         sanitiseLimits(limits);
         if(limits.getAscension() > data.getMaxAscension()) {
             throw new UserConfigException("Invalid ascension level " + limits.getAscension()
-                    + " in the limits of weapon " + weapon_id
+                    + " in the limits of weapon " + ascUID
             );
         }
     }

@@ -10,14 +10,14 @@ public class AscendableSanitiser {
 
     protected final GameDataService gservice;
     protected final UserConf user;
+    protected final String ascUID;
     private final String asc_type;
-    private final String asc_id;
 
-    public AscendableSanitiser(final GameDataService gservice, final UserConf user, final String asc_type, final String asc_id) {
+    public AscendableSanitiser(final GameDataService gservice, final UserConf user, final String asc_type, final String uid) {
         this.gservice = gservice;
         this.asc_type = asc_type;
-        this.asc_id   = asc_id;
-        this.user     = user;
+        this.ascUID = uid;
+        this.user = user;
     }
 
 
@@ -29,13 +29,13 @@ public class AscendableSanitiser {
     protected void sanitiseAscension(final int ascension, final int ar) {
         if(ascension < gservice.getMinAscension()) {
             throw new UserConfigException("Invalid ascension " + ascension
-                    + " for " + asc_type + " " + asc_id
+                    + " for " + asc_type + " " + ascUID
             );
         }
         if(ascension > gservice.getMaxAscension(ar)) {
             throw new UserConfigException("Invalid ascension " + ascension
                     + " at adventure rank " + ar
-                    + " for " + asc_type + " " + asc_id
+                    + " for " + asc_type + " " + ascUID
             );
         }
     }
@@ -44,7 +44,7 @@ public class AscendableSanitiser {
         if(level < gservice.getMinLevel(ascension) || level > gservice.getMaxLevel(ascension)) {
             throw new UserConfigException("Invalid weapon level " + level
                     + " at ascension " + ascension
-                    + " for " + asc_type + " " + asc_id
+                    + " for " + asc_type + " " + ascUID
             );
         }
     }
@@ -57,14 +57,14 @@ public class AscendableSanitiser {
         int ascension = limits.getAscension();
         if(ascension < gservice.getMinAscension() || ascension > gservice.getMaxAscension()) {
             throw new UserConfigException("Invalid ascension level " + ascension
-                    + " in the limits of " + asc_type + " " + asc_id
+                    + " in the limits of " + asc_type + " " + ascUID
             );
         }
         int level = limits.getLevel();
         if(level < gservice.getMinLevel(ascension) || level > gservice.getMaxLevel(ascension)) {
             throw new UserConfigException("Invalid character level " + level
                     + " with ascension " + ascension
-                    + " in the limits of " + asc_type + " " + asc_id
+                    + " in the limits of " + asc_type + " " + ascUID
             );
         }
     }

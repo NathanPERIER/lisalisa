@@ -1,12 +1,11 @@
 package lat.elpainauchoco.lisalisa.sanitise;
 
-import lat.elpainauchoco.lisalisa.data.user.WeaponConf;
+import lat.elpainauchoco.lisalisa.data.user.*;
 import lat.elpainauchoco.lisalisa.exceptions.UserConfigException;
 import lat.elpainauchoco.lisalisa.data.game.CharacterData;
 import lat.elpainauchoco.lisalisa.data.game.GameDataService;
-import lat.elpainauchoco.lisalisa.data.user.CharacterAscensionLimit;
-import lat.elpainauchoco.lisalisa.data.user.CharacterConf;
-import lat.elpainauchoco.lisalisa.data.user.UserConf;
+
+import java.util.Map;
 
 public class CharacterConfSanitiser extends AscendableSanitiser {
 
@@ -34,10 +33,10 @@ public class CharacterConfSanitiser extends AscendableSanitiser {
         sanitiseCharacterTalent(character.getElementalSkill(), "elemental skill", character.getAscension());
         sanitiseCharacterTalent(character.getElementalBurst(), "elemental burst", character.getAscension());
         sanitiseCharacterLimits(character.getLimit());
-        sanitiseCharacterWeapon(character.getWeapon());
-        // TODO artifacts
-        sanitiseGlider(character.getGlider());
+        sanitiseCharacterWeapon(character.getWeapon(), data.getWeapon());
+        sanitiseCharacterArtifacts(character.getArtifacts());
         sanitiseCharacterSkin(character.getSkin());
+        sanitiseGlider(character.getGlider());
     }
 
     public void sanitiseCharacterConstellations(final int constellations) {
@@ -76,15 +75,27 @@ public class CharacterConfSanitiser extends AscendableSanitiser {
         }
     }
 
-    protected void sanitiseCharacterWeapon(final WeaponConf weapon) {
+    protected void sanitiseCharacterWeapon(final WeaponConf weapon, final String weaponType) {
         if(weapon == null) {
             throw new UserConfigException("Configuration for weapon of character " + char_id + " cannot be null");
         }
-        WeaponConfSanitiser sanitiser = new WeaponConfSanitiser(gservice, weapon, user);
+        final String weaponUid = char_id + "#" + weapon.getId();
+        WeaponConfSanitiser sanitiser = new WeaponConfSanitiser(gservice, weapon, weaponUid, user, weaponType);
         sanitiser.sanitise();
-        // TODO type
     }
 
+    protected void sanitiseCharacterArtifacts(final ArtifactsConf artifacts) {
+        if(artifacts == null) {
+            throw new UserConfigException("Configuration for artifacts of character " + char_id + " cannot be null");
+        }
+        for(Map.Entry<String, ArtifactsConf.ArtifactPieceConf> e : artifacts.toMapping().entrySet()) {
+            if(e.getValue() != null) {
+                String pieceId = char_id + "#" + e.getKey();
+                ArtifactConfSanitiser sanitiser = new ArtifactConfSanitiser(gservice, e.getValue(), e.getKey(), pieceId);
+                sanitiser.sanitise();
+            }
+        }
+    }
 
     protected void sanitiseGlider(final String glider) {
         if(!gservice.getGliders().contains(glider)) {
