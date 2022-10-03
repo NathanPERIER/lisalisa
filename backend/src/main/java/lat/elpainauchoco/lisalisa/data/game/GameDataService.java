@@ -26,6 +26,8 @@ public class GameDataService {
     private final List<AdventureRankData> adventure_ranks;
     private final Map<String, CharacterData> characters;
     private final Map<String, WeaponData> weapons;
+    private final List<ArtifactRarityData> artifactRarity;
+    private final Map<String,List<String>> artifactMainStats;
 
     @Getter
     private final int minWL;
@@ -41,6 +43,10 @@ public class GameDataService {
     private final int maxConstellations; // TODO move to `CharacterData`
     @Getter
     private final int minRefinement;
+    @Getter
+    private final int minRarity;
+    @Getter
+    private final int maxRarity;
     @Getter
     private final int minPity;
     @Getter
@@ -64,6 +70,10 @@ public class GameDataService {
         world_levels = readFromJar("/genshin/world_level.json", new TypeReference<>() { });
         // array of objects that associate a range of ar with a maximum ascension
         adventure_ranks = readFromJar("/genshin/adventure_rank.json", new TypeReference<>() { });
+        // possible stats for each rarity value of artifacts
+        artifactRarity = readFromJar("/genshin/artifact_rarities.json", new TypeReference<>() { });
+        // associative array of possible main stats for each artifact piece
+        artifactMainStats = readFromJar("/genshin/artifact_main_stats.json", new TypeReference<>() { });
         // list of all the existing gliders
         gliders = readFromJar("/genshin/gliders.json", new TypeReference<>() { });
         // constant numeric values
@@ -75,6 +85,8 @@ public class GameDataService {
         minConstellations = constants.get("constellations.num.min");
         maxConstellations = constants.get("constellations.num.max");
         minRefinement = constants.get("refinement.level.min");
+        minRarity = constants.get("item.rarity.min");
+        maxRarity = constants.get("item.rarity.max");
         minPity = constants.get("banner.pity.min");
         maxPity = constants.get("banner.pity.max");
         minArtLevel = constants.get("artifact.level.min");
@@ -138,6 +150,15 @@ public class GameDataService {
 
     public WeaponData getWeapon(final String id) {
         return weapons.get(id);
+    }
+
+
+    public ArtifactRarityData getArtifactRarity(final int rarity) {
+        return artifactRarity.get(rarity - minRarity);
+    }
+
+    public List<String> getArtifactMainStats(final String piece) {
+        return artifactMainStats.get(piece);
     }
 
 
