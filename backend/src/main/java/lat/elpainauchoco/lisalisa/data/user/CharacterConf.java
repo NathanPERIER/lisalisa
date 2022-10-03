@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class CharacterConf {
+public class CharacterConf implements Ascendable {
 
     private int level;          // 1-90
     private int ascension;      // 0-6

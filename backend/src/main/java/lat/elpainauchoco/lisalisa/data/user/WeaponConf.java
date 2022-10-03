@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class WeaponConf {
+public class WeaponConf implements Ascendable {
 
     private String id;      // In the list of valid weapons
     private int level;      // 1-90 if rarity >= 3, else 1-70

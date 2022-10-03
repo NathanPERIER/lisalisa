@@ -7,10 +7,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class CharacterAscensionLimit {
+public class CharacterAscensionLimit extends AscensionLimits {
 
-    private int level;          // 1-90
-    private int ascension;      // 0-6
     @JsonProperty("normal_attack")
     private int normalAttack;   // 1-10
     @JsonProperty("elemental_skill")
@@ -20,12 +18,9 @@ public class CharacterAscensionLimit {
 
     public CharacterAscensionLimit() { }
 
-    public CharacterAscensionLimit(final GameDataService gdata) {
-        int wl = gdata.getMaxWL();
-        int ar = gdata.getMaxAR(wl);
-        ascension = gdata.getMaxAscension(ar);
-        level = gdata.getMaxLevel(ascension);
-        normalAttack = gdata.getMaxTalent(ascension);
+    public CharacterAscensionLimit(final GameDataService gservice) {
+        super(gservice);
+        normalAttack = gservice.getMaxTalent(ascension);
         elementalSkill = normalAttack;
         elementalBurst = normalAttack;
     }
