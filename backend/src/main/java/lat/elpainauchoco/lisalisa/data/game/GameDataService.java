@@ -25,6 +25,7 @@ public class GameDataService {
     private final int[][] world_levels;
     private final List<AdventureRankData> adventure_ranks;
     private final Map<String, CharacterData> characters;
+    private final Map<String, WeaponData> weapons;
 
     @Getter
     private final int minWL;
@@ -55,6 +56,8 @@ public class GameDataService {
     public GameDataService() {
         // associative array of all the possible characters
         characters = readFromJar("/genshin/characters.json", new TypeReference<>() { });
+        // associative array of all the possible weapons
+        weapons = readFromJar("/genshin/weapons.json", new TypeReference<>() { });
         // array where the index is the ascension (character or weapon)
         ascensions = readFromJar("/genshin/ascension.json", new TypeReference<>() { });
         // array where the index is the world level, and the values are arrays of two integers (min and max ascension for this wl)
@@ -120,12 +123,21 @@ public class GameDataService {
     }
 
 
-    public boolean hasCharacter(String id) {
+    public boolean hasCharacter(final String id) {
         return characters.containsKey(id);
     }
 
-    public CharacterData getCharacter(String id) {
+    public CharacterData getCharacter(final String id) {
         return characters.get(id);
+    }
+
+
+    public boolean hasWeapon(final String id) {
+        return weapons.containsKey(id);
+    }
+
+    public WeaponData getWeapon(final String id) {
+        return weapons.get(id);
     }
 
 
