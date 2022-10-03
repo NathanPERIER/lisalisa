@@ -28,3 +28,6 @@ CHARACTERS_IGNORED = ['traveler_boy_common', 'traveler_girl_common']
 
 # Weapon-related
 WEAPONS_FOLDER = 'weapons'
+
+# Artifact-related
+ARTIFACT_FILE = 'artifacts.json'
