@@ -37,6 +37,7 @@ backend/src/main/resources/genshin
 /frontend/tmp
 /frontend/out-tsc
 /frontend/node_modules
+/frontend/src/assets/data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
