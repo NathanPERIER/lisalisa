@@ -17,6 +17,7 @@ public class ArtifactRarityData {
     @Setter
     @JsonProperty("ascension")
     private int maxSubstats;
+    @Setter
     private Map<String, Float[]> props;
 
     public Set<String> getSubstats() {
