@@ -48,6 +48,8 @@ public class GameDataService {
     private final int minArtLevel;
     @Getter
     private final int artifactBasis;
+    @Getter
+    private final List<String> gliders;
 
 
     public GameDataService() {
@@ -59,6 +61,9 @@ public class GameDataService {
         world_levels = readFromJar("/genshin/world_level.json", new TypeReference<>() { });
         // array of objects that associate a range of ar with a maximum ascension
         adventure_ranks = readFromJar("/genshin/adventure_rank.json", new TypeReference<>() { });
+        // list of all the existing gliders
+        gliders = readFromJar("/genshin/gliders.json", new TypeReference<>() { });
+        // constant numeric values
         Map<String, Integer> constants = readFromJar("/genshin/numeric_constants.json", new TypeReference<>() { });
         minWL = constants.get("world.level.min");
         maxWL = minWL + world_levels.length - 1;

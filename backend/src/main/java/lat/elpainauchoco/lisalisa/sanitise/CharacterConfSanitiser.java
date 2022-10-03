@@ -39,7 +39,7 @@ public class CharacterConfSanitiser {
         sanitiseCharacterLimits(character.getLimit());
         // TODO weapon
         // TODO artifacts
-        // TODO glider
+        sanitiseGlider(character.getGlider());
         sanitiseCharacterSkin(character.getSkin());
     }
 
@@ -116,6 +116,11 @@ public class CharacterConfSanitiser {
     }
 
 
+    protected void sanitiseGlider(final String glider) {
+        if(!gservice.getGliders().contains(glider)) {
+            throw new UserConfigException("Glider " + glider + " equipped by character " + char_id + " does not exist");
+        }
+    }
 
     protected void sanitiseCharacterSkin(final String skin) {
         if("default".equals(skin)) {
